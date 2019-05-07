@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspconduct/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspconduct/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Activate and Configure Column Variants</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/activate_configure_column_variants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/activate_configure_column_variants/</guid>
+      <description>Activate and Configure Column Variants For a scenario &amp;gt; role &amp;gt; task combination, a Designer can define variations in the Control Status and Required settings for a column when a column value in a record meets a certain condition.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp. Refer to dspConduct™ Design Process Overview for more information.
+In SAP, for each material type on the Material table, only a subset of the fields are enabled, disabled, hidden, and required or not required.</description>
+    </item>
+    
+    <item>
+      <title>Active Request for Category</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/active_request_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/active_request_category/</guid>
+      <description>Active Request for Category This chart displays number of requests by status in a category.
+Click a section to open Active Request for Category Details for a request in the Vertical View.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Dashboards in the Navigation pane.
+ Click Request by Category.
+ Click a section in the Request Count By Category chart.</description>
+    </item>
+    
+    <item>
+      <title>Active Requests for Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/active_requests_for_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/active_requests_for_business_process/</guid>
+      <description>Active Requests for Business Process This chart displays the number of active requests for a business process by status. Active requests have a status of Posted, Posted with Errors, Posting Started or Request in Process.
+Click a section to drill down to the Request page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Active Requests for Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/active_requests_for_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/active_requests_for_role/</guid>
+      <description>Active Requests for Role This chart displays the number of active requests for a role by status. Active requests have a status of Posted, Posted with Errors, Posting Started or Request in Process.
+Click a section to drill down to the Active Request for Role Details page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Active Requests for Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/active_requests_for_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/active_requests_for_scenario/</guid>
+      <description>Active Requests for Scenario This chart displays the number of active requests for a scenario by status. Active requests have a status of Posted, Posted with Errors, Posting Started or Request in Process.
+Click a section to drill down to the Request page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Add Custom Business Rules</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_custom_business_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_custom_business_rules/</guid>
+      <description>Add Custom Business Rules A Designer can add a custom business rule at the scenario role level. The custom business rules are run on the Request Role page.
+Adding custom business rules allows stored procedures written on-site to be executed from dspConduct™ Request Role page or dspConduct™ Request Role Task page. These pages cannot be modified, so this is the means of running stored procedures for certain events on these pages.</description>
+    </item>
+    
+    <item>
+      <title>Add Data-Driven Dependency Conditions</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_data_driven_dependency_conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_data_driven_dependency_conditions/</guid>
+      <description>Add Data-Driven Dependency Conditions A data-driven dependency condition identifies a condition within a field when processing a scenario that determines whether a subsequent dependent scenario or role is processed or if a workflow notification is sent. Refer to Add a Dependent Scenario for more information.
+Before performing this task, Design a Governance Hierarchy.
+Once conditions are added to the category, the Designer assigns conditions to a scenario dependency relationship.</description>
+    </item>
+    
+    <item>
+      <title>Add Org Units from a Group to Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_org_units_from_a_group_to_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_org_units_from_a_group_to_roles/</guid>
+      <description>Add Org Units from a Group to Roles A Security Administrator can apply the same org unit values to roles in multiple positions using org unit groups.
+Before performing this task add org unit groups and configure org unit values for org unit groups. Refer to Add and Configure Org Unit Groups, Types and Values for more information.
+One org unit group can be added to a position at a time.</description>
+    </item>
+    
+    <item>
+      <title>Add Process Rules at the Scenario Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_process_rules_at_the_scenario_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_process_rules_at_the_scenario_level/</guid>
+      <description>Add Process Rules at the Scenario Level A Designer can register a rule, in the form of a SQL stored procedure, to a scenario process. These rules are any stored procedures that need to execute before the process is used for posting. These rules must include preparation procedures that move data from the request tables to the integrate staging tables needed for integrate to post successfully. Any rule registered to the process and marked as Active is executed right before the process is posted via a Group post or single posting events.</description>
+    </item>
+    
+    <item>
+      <title>Add a Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_business_process/</guid>
+      <description>Add a Business Process The Business Process page allows a Designer to create business processes. A business process is added to a category. Refer to Create a Category for information about adding a category.
+To add a business process in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigationpane.
+ Click the Business Processes icon for the category on the Category page.
+ Click Add.
+NOTE: The Category ID displayed next to the page name is the business process’s parent category.</description>
+    </item>
+    
+    <item>
+      <title>Add a Category Object</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_category_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_category_object/</guid>
+      <description>Add a Category Object A category object defines the kind of master data a WebApp is expected to process (i.e., the object(s) the category supports, such as Material, Customer or Vendor). For example, a category object called “Material” processes tasks based on adding or maintaining Material data. A category can support one category object.
+A category object can be used by multiple categories.
+Category objects must be registered (no standard values are delivered).</description>
+    </item>
+    
+    <item>
+      <title>Add a Conflict to a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_conflict_to_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_conflict_to_a_role/</guid>
+      <description>Add a Conflict to a Role When a Designer assigns role conflicts, the system does not allow a single user to execute those same roles within the same request, even if that user has security to both roles.
+Role conflicts help users maintain Sarbanes-Oxley compliance by warning the security administrator if conflicts of interest exist between a user and the assigned role(s).
+Before this task can be performed, multiple roles must exist within the category.</description>
+    </item>
+    
+    <item>
+      <title>Add a Custom Request Status</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_custom_request_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_custom_request_status/</guid>
+      <description>Add a Custom Request Status A Designer has the option to add custom request statuses.
+NOTE: The Content WebApp must provide all code to process and assign these statuses.
+Refer to Manage Request Statuses Overview for more information.
+To add a custom request status in dspConduct™:
+ Select dspConduct &amp;gt; Configuration &amp;gt; Setup &amp;gt; Request Status in the Navigation pane.
+ Click Add.
+View the field descriptions for the Request Status page.</description>
+    </item>
+    
+    <item>
+      <title>Add a Dependent Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_dependent_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_dependent_scenario/</guid>
+      <description>Add a Dependent Scenario The Scenario (Dependencies) page allows a Designer to set up dependencies between scenarios. Refer to Add a Scenario for information on adding scenarios. Dependent scenarios affect all business processes to which they are assigned.
+A Designer can configure a scenario to allow it to have a dependency relationship with scenarios in other categories. Refer to Allow a Scenario to be used in other Categories for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add a Position</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_position/</guid>
+      <description>Add a Position A Security Administrator can add a position to configure the business processes, roles, and org units that a user assigned to that position can access.
+NOTE: A user must belong to the Users Manager WebApp Group in dspConduct™ to configure security for dspConduct™ users.
+Position security is used to establish security for users in the Content WebApp.
+NOTE: When positions are changed in dspConduct™, the changes automatically result in changes to what business processes, roles, and data the users can access in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Add a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_role/</guid>
+      <description>Add a Role Before performing these steps, Create a Category.
+This task is performed by a Designer.
+Refer to Manage Roles for general information about roles.
+To add a role in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.
+ Click the Roles icon for a category.
+ Click Add.
+View the field descriptions for the Role page.
+ Enter a unique name for the role in the NAME field.</description>
+    </item>
+    
+    <item>
+      <title>Add a Role to a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_role_to_a_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_role_to_a_scenario/</guid>
+      <description>Add a Role to a Scenario The Scenario (Roles) page allows a Designer to assign one or more roles to a scenario. A role can be added to multiple scenarios.
+Before performing this task, Create a Category and Add a Scenario.
+To add a role to a scenario in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.
+ Click the Scenarios icon for a category on the Category page.</description>
+    </item>
+    
+    <item>
+      <title>Add a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_scenario/</guid>
+      <description>Add a Scenario The Scenario page allows a Designer to add to a scenario to a category. Refer to Create a Category for information about adding a category.
+Once added, a scenario can be added to a business process from a different category than the business process’s parent category. Refer to Allow a Scenario to be used in other Categories for more information.
+To add a scenario to a category in dspConduct™:</description>
+    </item>
+    
+    <item>
+      <title>Add a Scenario Level Default Value Rule to a Category</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_scenario_level_default_value_rule_to_a_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_scenario_level_default_value_rule_to_a_category/</guid>
+      <description>Add a Scenario Level Default Value Rule to a Category A Designer can add a default value rule that indicates a default value for a column and whether the value in the column is mandatory. Before performing this task, a category and scenario must be added. Refer to dspConduct™ Design Process Overview for more information on creating elements in dspConduct™.
+After a scenario level default value rule has been added to a category, it can be assigned to a scenario in that category.</description>
+    </item>
+    
+    <item>
+      <title>Add a Scenario to a Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_scenario_to_a_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_scenario_to_a_business_process/</guid>
+      <description>Add a Scenario to a Business Process The Business Process (Scenarios) page allows a Designer to assign scenarios to a business process.
+Scenarios and business processes are added to a category, and then scenarios are added to business processes. Scenarios are added to business processes to group related scenarios used to create, change or extend an object. A scenario must be added to a category before it can be added to a business process.</description>
+    </item>
+    
+    <item>
+      <title>Add a Task</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_task/</guid>
+      <description>Add a Task On the Task page, a Designer can register a web page created in the Content WebApp or a page in the platform as a task.
+NOTE: Pages in the platform are limited to pages in the default WebApp. The default WebApp is set at the Category level. Refer to Create a Category for more information.
+One or more tasks that have been added to the category can be added to a role.</description>
+    </item>
+    
+    <item>
+      <title>Add a Task to a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_task_to_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_task_to_a_role/</guid>
+      <description>Add a Task to a Role The Role (Task) page allows a Designer to add existing tasks to a role.
+Each task is performed on a web page designed to collect and validate information required to support the scenarios and business processes to which that role is assigned. The web page is developed at a client’s site and is stored in the Content WebApp.
+The pages available for a task are those pages in the Content WebApp set at the Category level in the Default Web App ID field on the Category page.</description>
+    </item>
+    
+    <item>
+      <title>Add a Variant to a Task</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_a_variant_to_a_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_a_variant_to_a_task/</guid>
+      <description>Add a Variant to a Task A Designer can add a variant at the category level. If the task variant condition is met in the Content WebApp, the column definitions defined for the variant on the Scenario Role Task Column page are used when processing a request.
+A Designer can also import a variant view for a category. Refer to Import a Variant View for a Category for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add an Integrate Process to a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_an_integrate_process_to_a_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_an_integrate_process_to_a_scenario/</guid>
+      <description>Add an Integrate Process to a Scenario Integrate processes are the methods in which data from dspConduct™ is posted into a target system. Integrate processes are registered by a Designer to scenarios on dspConduct™ Scenario Process page. The process must be active in Integrate to be available to add to a scenario. Refer to Create a Process in Integrate for more information about processes. This task must be completed in order for requests created from the scenario to be posted to the target system.</description>
+    </item>
+    
+    <item>
+      <title>Add the Request Details Data Visualization Page to the Content WebApp</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/add_the_request_details_data_visualization_page_to_the_content_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/add_the_request_details_data_visualization_page_to_the_content_webapp/</guid>
+      <description>Add the Request Details Data Visualization Page to the Content WebApp The Request Details Data Visualization Page provides a visual representation of an active request’s process through the workflow, including which roles have been completed for the request. A Designer can add this page in the Content WebApp for users to access.
+The diagram displays the:
+ Request status for the request selected on the Request page Scenario to which the request belongs Roles in the scenario Status of each role (i.</description>
+    </item>
+    
+    <item>
+      <title>Allow a Scenario to be Used in Other Categories</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/allow_a_scenario_to_be_used_in_other_categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/allow_a_scenario_to_be_used_in_other_categories/</guid>
+      <description>Allow a Scenario to be Used in Other Categories Scenarios and business processes are added to a category, and then scenarios are added to business processes. Refer to Add a Scenario and Add a Business Process for more information.
+A Designer can allow a scenario to be added to a business process from a different category than the business process’s parent category as long as it is not assigned the lowest priority in the business process.</description>
+    </item>
+    
+    <item>
+      <title>Approve a Request</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/approve_a_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/approve_a_request/</guid>
+      <description>Approve a Request A Role Processor can approve a request for a Review role.
+Before performing this task, a request must have been submitted via the Content WebApp. The request passes to the Review role after all dependencies are complete for the Application role and the final Application role (the role with the highest priority) is finished.
+Refer to Review a Request Overview for general information about the review process.</description>
+    </item>
+    
+    <item>
+      <title>Archive a Request in the Content WebApp</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/archive_a_request_in_the_content_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/archive_a_request_in_the_content_webapp/</guid>
+      <description>Archive a Request in the Content WebApp To archive request data, the Designer creates a process in the Content WebApp that must execute the dspConduct™ stored procedure apiArchiveRequest to archive the corresponding dspConduct™ Request-related table data into dspConduct™ archive tables.
+Register this stored procedure within the archiving process of the Content WebApp. The dspConduct™ stored procedure apiArchiveRequest expects parameters RequestID and WebAppID. This stored procedure must only be executed for specific RequestIDs whose request status marks them as eligible to be archived.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Condition to a Scenario Dependency Relationship</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/assign_a_condition_to_a_scenario_dependency_relationship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/assign_a_condition_to_a_scenario_dependency_relationship/</guid>
+      <description>Assign a Condition to a Scenario Dependency Relationship A data-driven dependency condition identifies a condition within a field when processing a scenario that determines whether a subsequent dependent scenario or role is processed. A Designer completes this task.
+Conditions must be added before they are assigned to a scenario dependency relationship. Refer to Add Data-Driven Dependency Conditions to a Category for more information.
+NOTE: A new condition can be added on the Scenario Dependency Condition Assignment page.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Default Value Rule to a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/assign_a_default_value_rule_to_a_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/assign_a_default_value_rule_to_a_scenario/</guid>
+      <description>Assign a Default Value Rule to a Scenario A Designer can assign a default value rule at the scenario level that indicates a default value to a column, and whether the column is mandatory.
+Before performing this task, a category and scenario must be added. Refer to dspConduct™ Design Process Overview for more information on creating elements in dspConduct™.
+A Designer must have already added a default value rule to the scenario’s category.</description>
+    </item>
+    
+    <item>
+      <title>Auto Finish a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/auto_finish_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/auto_finish_a_role/</guid>
+      <description>Auto Finish a Role A Designer can configure the Auto Finish Role setting on the Scenario (Roles) page’s Vertical View, which allows the role to automatically finish if the role passes all validations. Auto Finishing a role is useful when a request must pass through a role with no action required from a user assigned to the role. For example, if a request to update all fields with the same value in a table does not need to be reviewed, the scenario role with the Review role type can be configured to Auto Finish.</description>
+    </item>
+    
+    <item>
+      <title>Auto-generate Request-related Objects</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/auto_generate_request_related_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/auto_generate_request_related_objects/</guid>
+      <description>Auto-generate Request-related Objects A Designer can auto-generate a Request page and request-related objects (tables, views and stored procedures) in a Content WebApp and database if the objects don’t already exist. Once these objects have been built, users can create and submit a request to dspConduct™ and the Content WebApp can send data to dspConduct™.
+The Request page can be customized to meet a client’s business needs, though the default table and page column definitions meet most requirements.</description>
+    </item>
+    
+    <item>
+      <title>Business Process Execution During Final Finish</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/business_process_execution_during_final_finish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/business_process_execution_during_final_finish/</guid>
+      <description>Business Process Execution During Final Finish If the scenarios in a business process do not have scenario dependencies, the priority order of the scenarios determine the order that data is posted to a target system for the request.
+If scenario dependencies exist, the child scenario is processed when its dependent scenario is complete. Refer to Business Process Execution with Scenario Dependencies During Final Finish for more information.
+NOTE: For new requests that are automatically created as part of a multi-scenario business process, the Content Request page OnValidate event is automatically executed.</description>
+    </item>
+    
+    <item>
+      <title>Business Process Execution with Scenario Dependencies During Final Finish</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/business_process_execution_with_scenario_dependencies_during_final_finish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/business_process_execution_with_scenario_dependencies_during_final_finish/</guid>
+      <description>Business Process Execution with Scenario Dependencies During Final Finish When a request is finished, if the business process has scenario dependencies, those dependencies determine the order that data is posted to a target system for the request.
+If a scenario dependency exists, the child scenario is processed when its dependent scenario is complete.
+If no scenario dependencies are present, requests are created and posted based on scenario priority. Refer to Business Process Execution During Final Finish for more information.</description>
+    </item>
+    
+    <item>
+      <title>CTS Notes Specific to dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/cts_notes_specific_to_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/cts_notes_specific_to_dspconduct/</guid>
+      <description>CTS Notes Specific to dspConduct™ When creating CTS archives to support dspConduct™ objects, if any objects included in any Packing List reside in a data source/database that does not exist on the target system, manually create that database in the target system before the archive can be successfully imported into the target. The WebApp for the objects should also already exist on the target system.
+This use case includes the following topics:</description>
+    </item>
+    
+    <item>
+      <title>Configure Business Processes in a Position</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_business_processes_in_a_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_business_processes_in_a_position/</guid>
+      <description>Configure Business Processes in a Position A Security Administrator can add business processes to a position to configure which business processes the position can access.
+Business processes can be included in a position from multiple categories. This allows the Security Administrator to include roles and org units from multiple categories in a position.
+Before performing this task, design the governance elements in dspConduct™ &amp;gt; Design and add a position. Refer to dspConduct™ Design Process Overview and Add a Position for more information.</description>
+    </item>
+    
+    <item>
+      <title>Configure Business Value Parameters</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_business_value_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_business_value_parameters/</guid>
+      <description>Configure Business Value Parameters A Designer can set the values that are used to calculate the information displayed on the business value dashboard charts. Refer to View Business Value Dashboard for more information about the dashboard.
+Before performing this task, the Designer must set the currency symbol that represents the currency being used by the organization if the currency symbol is other than the default. The designer must also select the calendar to be used for the working hours calculations if the calendar is other than the default dspConduct calendar.</description>
+    </item>
+    
+    <item>
+      <title>Configure Child Scenario Criteria</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_child_scenario_criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_child_scenario_criteria/</guid>
+      <description>Configure Child Scenario Criteria A Designer can select the org unit to be used to create child requests for the scenario.
+For example, a user creates a request, Create and Extend Finished Good. The request has been added to a category that has an org unit 1 of Plants.
+The request is based on a multi-scenario business process where the first scenario creates the material and the child scenario extends it to Plant.</description>
+    </item>
+    
+    <item>
+      <title>Configure Column Status for a Scenario Role Task</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_column_status_for_a_scenario_role_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_column_status_for_a_scenario_role_task/</guid>
+      <description>Configure Column Status for a Scenario Role Task For a scenario &amp;gt; role &amp;gt; task combination a Designer can specify columns to disable, enable, or hide on a particular task page to manage exceptions for a scenario &amp;gt; role &amp;gt; task combination that might otherwise require adding a new role.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Configure Data Download During the Final Finish Process to use a CranPort Package</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_data_download_during_the_final_finish_process_to_use_a_cranport_package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_data_download_during_the_final_finish_process_to_use_a_cranport_package/</guid>
+      <description>Configure Data Download During the Final Finish Process to use a CranPort Package If the Finish Type is CranPort, then a corresponding Table definition must exist in Collect. Refer to Tables in Collect for more information.
+NOTE: dspConduct™ does not confirm that the table exists when registering a table on the Task Final Finish Tables page. An error displays during the Final Finish if the table does not exist.</description>
+    </item>
+    
+    <item>
+      <title>Configure Data Download During the Final Finish Process to use a DBMoto Package</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_finalfinish_dbmoto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_finalfinish_dbmoto/</guid>
+      <description>Configure Data Download During the Final Finish Process to use a DBMoto Package A process Designer can use DBMoto® for change data capture to replace final finish package logic. Change data capture is the preferred method of keeping dspConduct™ in sync with target system(s).
+If the Finish Type is DBMoto, then a corresponding Table definition must exist in Collect. Refer to Tables in Collect for more information.
+This configuration is for documentation purposes only.</description>
+    </item>
+    
+    <item>
+      <title>Configure Data Download During the Final Finish Process to use a Data Services Job</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_data_download_during_the_final_finish_process_to_use_a_data_services_job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_data_download_during_the_final_finish_process_to_use_a_data_services_job/</guid>
+      <description>Configure Data Download During the Final Finish Process to use a Data Services Job If the Finish Type is DataServices, the Data Services Job must exist in the repository and the repository must exist as a data source registered in the platform. Refer to Register a Data Source in Common for more information.
+NOTE: Refer to Final Finish Process for a Request Overview for general information.
+NOTE: dspConduct™ does not confirm that the job exists when registering a job or table on the Task Final Finish Tables page.</description>
+    </item>
+    
+    <item>
+      <title>Configure Roles in a Position</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_roles_in_a_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_roles_in_a_position/</guid>
+      <description>Configure Roles in a Position A Security Administrator can include or remove roles to a position. Before performing this task, design the governance elements in dspConduct™ &amp;gt; Design and add a position. Refer to dspConduct™ Design Process Overview and Add a Position for more information.
+Roles can have conflicts where the same user is not allowed to finish both roles within a conflicting role pair. A user cannot be included in position(s) with roles that are designed to conflict on the Role (Conflicts) page in dspConduct™ &amp;gt; Design.</description>
+    </item>
+    
+    <item>
+      <title>Configure Scenario Types</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_scenario_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_scenario_types/</guid>
+      <description>Configure Scenario Types dspConduct™ is delivered with these default scenario types:
+ Create - Creates new business objects, such as materials, customers, vendors, profit centers, GL accounts, etc. Change - Updates the data in a logical way for an existing business object, such as by material up (Basic Data) for an existing material, pricing procedure (Sales Data) for an existing customer or incoterms (Purchasing Data) for an existing vendor. BusinessExtend - Makes a new business object that is associated with an existing business object, such as a new BOM (Bill of Material) for an existing material, a new ship-to for an existing customer or a new order from address for an existing vendor.</description>
+    </item>
+    
+    <item>
+      <title>Configure Users in a Position</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_users_in_a_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_users_in_a_position/</guid>
+      <description>Configure Users in a Position A Security Administrator can add users to a position. Before performing this task a user account must be created and configured in Common. Refer to Create User Accounts in Common for more information. An Administrator can also create user accounts.
+Common’s User Management page, where user accounts are created and configured, can be accessed in dspConduct™ by selecting dspConduct &amp;gt; Security &amp;gt; Common: User Management in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure dspConduct Positions for a User</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_dspconduct_positions_for_a_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_dspconduct_positions_for_a_user/</guid>
+      <description>Configure dspConduct Positions for a User A Security Administrator can view and configure dspConduct positions to which a user has access.
+NOTE: A user must belong to the Users Manager WebApp Group in dspConduct to configure security for dspConduct users.
+NOTE: All users in a position must be assigned to the same calendar in Common. Refer to Use a Calendar for more information.
+When including users in a position, role conflicts are applied based on the roles that have been added to the position, and the role conflicts established on the Role (Conflicts) page.</description>
+    </item>
+    
+    <item>
+      <title>Configure the Post Later Feature at the Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_the_post_later_feature_at_the_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_the_post_later_feature_at_the_role_level/</guid>
+      <description>Configure the Post Later Feature at the Role Level A Designer can configure a feature that allows a Role Processor with the Post role type to schedule a post to process at a specified date and time.
+Refer to Schedule a Post for a Specified Date and Time for more information.
+Before performing this task, Design a Governance Hierarchy and add a role with the Post role type.
+When the Designer updates the Schedule Post Allowed setting on the Role page’s Vertical View, a confirmation message displays that determines how the update affects:</description>
+    </item>
+    
+    <item>
+      <title>Configure the Post Later Feature at the Scenario - Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_the_post_later_feature_at_the_scenario_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_the_post_later_feature_at_the_scenario_role_level/</guid>
+      <description>Configure the Post Later Feature at the Scenario - Role Level A Designer can configure a feature that allows a Role Processor with the Post role type to schedule a post to process at a specified date and time. The setting can be configured for a specific scenario &amp;gt; role combination. It is at this level that access to the Post Later feature is controlled.
+Refer to Schedule a Post for a Specified Date and Time for more information.</description>
+    </item>
+    
+    <item>
+      <title>Configure the Required Setting for a Scenario Role Task Column</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/configure_required_setting_scenario_role_task_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/configure_required_setting_scenario_role_task_column/</guid>
+      <description>Configure the Required Setting for a Scenario Role Task Column For a scenario &amp;gt; role &amp;gt; task combination, a Designer can indicate whether a column is required on a particular task page to manage exceptions for a scenario &amp;gt; role &amp;gt; task combination that might otherwise require adding a new role.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Content WebApp Examples</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/content_webapp_examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/content_webapp_examples/</guid>
+      <description>Content WebApp Examples The following examples can be used as reference when creating the Content WebApp.
+ Examples for dspConduct™ to Call boa (Add/Edit/Delete) Functions Security Views for Binding Security by OrgUnits and Security that is not Bounded Role Status BY User Views  Examples for dspConduct™ to Call boa (Add/Edit/Delete) Functions The bit flag “Exists” must always have a 0 or 1 value and depicts if the data already exists in the system(s) of record.</description>
+    </item>
+    
+    <item>
+      <title>Copy Settings to Other Variants</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/copy_settings_to_other_variants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/copy_settings_to_other_variants/</guid>
+      <description>Copy Settings to Other Variants If the default setting for Control Status or Required changes for a column in the Content WebApp, a Designer uses this feature to update the column setting for one variant, and then copy the columns setting to all of the other variants on the Scenario Role Task Column page.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/copy_a_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/copy_a_business_process/</guid>
+      <description>Copy a Business Process A Designer has the ability to copy a business process for the purpose of modifying the newly created business process for use with content data.
+When a business process is copied, all data elements as well as relationships (scenarios within the business process and scenario role SLA’s) existing at the business process level are copied.
+A business process can be copied whether it is active or not.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Position</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/copy_a_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/copy_a_position/</guid>
+      <description>Copy a Position A Security Administrator can create a position based on the setup for an existing position with the Copy Position option.
+To copy a position:
+ Select dspConduct &amp;gt; Security in the Navigation pane.
+ Select a position.
+ Click the Copy Position icon.
+ Click Edit.
+View the field descriptions for the Copy Position page.
+ Enter a name in the New Position Name field.
+NOTE: Select from the following options as needed.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/copy_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/copy_a_role/</guid>
+      <description>Copy a Role A Designer has the ability to copy a role for the purpose of creating and editing a new role.
+When a role is copied, the currently assigned tasks, dependencies and role conflicts are assigned to the new role.
+A role can be copied whether it is active or not.
+Once the new role is created, it can be modified.
+To copy a role:
+ SelectdspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/copy_a_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/copy_a_scenario/</guid>
+      <description>Copy a Scenario A Designer who has access to dspConduct™ has the ability to copy a scenario for the purpose of creating and editing a new scenario.
+When a scenario is copied, the following assigned data elements are copied:
+ Roles and their Tasks and their child assignments Dependencies Processes and their child assignments Default Rules  A scenario can be copied whether it is active or not.
+Once the new scenario is created, it can be modified.</description>
+    </item>
+    
+    <item>
+      <title>Create Tables and Views for Content WebApp Pages Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/create_tables_and_views_for_content_webapp_pages_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/create_tables_and_views_for_content_webapp_pages_overview/</guid>
+      <description>Create Tables and Views for Content WebApp Pages Overview A Designer can create control tables and views, including Page Control Views (PCV), Data Control Views (DCV) and validation views, for a scenario &amp;gt; role &amp;gt; task combination. These objects are created and stored in the Content WebApp’s database.
+Tables and control views are based on the Content WebApp page’s column settings for control status (Hide, Enable, Disable) set in dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Create Validation Views for Content WebApp Task Pages</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/create_valid_views_task_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/create_valid_views_task_pages/</guid>
+      <description>Create Validation Views for Content WebApp Task Pages A Designer can create a validation view for task pages with an active variant that checks to confirm that required columns for a scenario &amp;gt; role &amp;gt; task combination contain data. The validation checks every column with the Required check box enabled on the Scenario Role Task Column page for all pages in a task.
+Refer to Configure the Required Setting for a Scenario Role Task Column for more information.</description>
+    </item>
+    
+    <item>
+      <title>Create Validation Views for a Content WebApp Task Page</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/create_validationviews_content_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/create_validationviews_content_page/</guid>
+      <description>Create Validation Views for a Content WebApp Task Page A Designer can create a validation view for a page in a task with an active variant that checks to confirm that required columns for a scenario &amp;gt; role &amp;gt; task combination contain data. The validation checks every column with the Required check box enabled on the Scenario Role Task Column page for the page selected.
+Refer to Configure the Required Setting for a Scenario Role Task Column for more information.</description>
+    </item>
+    
+    <item>
+      <title>Create a Category</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/create_a_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/create_a_category/</guid>
+      <description>Create a Category A process Designer performs this task.
+A category is a collection of governance elements and is created to organize business processes and related elements by the category (e.g., Line of Business, Business Unit or Division, Data Domain). Duplicate categories are not permitted.
+NOTE: A user can auto-generate request-related objects for a category. However, if a category already has its Content WebApp and database built, there is no reason for the Designer to use the auto-generate request-related objects feature.</description>
+    </item>
+    
+    <item>
+      <title>Create a Final Finish Where Clause for a CranPort Package</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/create_a_final_finish_where_clause_for_a_cranport_package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/create_a_final_finish_where_clause_for_a_cranport_package/</guid>
+      <description>Create a Final Finish Where Clause for a CranPort Package NOTE: A table or a view that resides in a specified data source is used to provide data values for the Where clause.
+NOTE: If the table has multiple keys, build a Where clause for each key. When the Where clause is built, the key values are concatenated.
+Refer to Configure Data Download During the Final Finish Process to use a CranPort Package for general information.</description>
+    </item>
+    
+    <item>
+      <title>Create a Request</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/create_a_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/create_a_request/</guid>
+      <description>Create a Request Requests are created in dspConduct™ when a new request is added and saved on a task page in the Content WebApp. For requests to be created, a user must configure the Content WebApp page to communicate with dspConduct™ to pass request data from the Content WebApp to dspConduct™. Configuration is also needed when certain request statuses are updated in the Content WebApp. Refer to Manage Request Statuses for more information about statuses in dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Deactivate a Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/deactivate_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/deactivate_business_process/</guid>
+      <description>Deactivate a Business Process A business process can be deactivated by a Designer regardless of the status. A business process is deactivated when it is no longer needed.
+NOTE: When a business process is deactivated, it is no longer available on the Content WebApp Request Page.
+To deactivate a business process in dspConduct™:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Business Processes icon for the category. Click the Active check box to deselect it.</description>
+    </item>
+    
+    <item>
+      <title>Deactivate a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/deactivate_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/deactivate_scenario/</guid>
+      <description>Deactivate a Scenario The scenario can be deactivated by a Designer regardless of the status. However, a scenario assigned to an active business process cannot be deactivated. A scenario is deactivated when it is no longer needed.
+To deactivate a scenario in dspConduct™:
+ Select dspConduct &amp;gt; Design.
+ Click the Scenarios icon for the category on the Category page.
+ Click Edit.
+ Click the ACTIVE check box to deselect it.</description>
+    </item>
+    
+    <item>
+      <title>Deactivate a Task for a Scenario Role Combination</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/deactivate_a_task_for_a_scenario_role_combo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/deactivate_a_task_for_a_scenario_role_combo/</guid>
+      <description>Deactivate a Task for a Scenario Role Combination Certain tasks, while used in the role in other scenarios, might not be required in certain scenario &amp;gt; role combinations. A Designer can deactivate a task that is not used in a scenario &amp;gt; role combination. The task is active in the scenario &amp;gt; role combination by default.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Download Documentation at the Business Process Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_business_process_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_business_process_level/</guid>
+      <description>Download Documentation at the Business Process Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Business Process Upload Documentation at the Business Process Level  To download documentation at the business process level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Business Process icon for the category NAME; the Business Process page displays in the parent pane.</description>
+    </item>
+    
+    <item>
+      <title>Download Documentation at the Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_role_level/</guid>
+      <description>Download Documentation at the Role Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Role Upload a document at the Role level  To download documentation at the role level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Roles icon for a category name; the Roles page displays.</description>
+    </item>
+    
+    <item>
+      <title>Download Documentation at the Scenario Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_scenario_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_scenario_role_level/</guid>
+      <description>Download Documentation at the Scenario Role Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Scenario Add a Role to a Scenario Upload Documentation at the Scenario Role Task Level  To download documentation at the scenario and role level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Scenarios icon for the category NAME; the Scenario page displays in the parent pane.</description>
+    </item>
+    
+    <item>
+      <title>Download Documentation at the Scenario Role Task Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_scenario_role_task_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_scenario_role_task_level/</guid>
+      <description>Download Documentation at the Scenario Role Task Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Scenario Add a Role to a Scenario Upload Documentation at the Scenario Role Task Level  To download documentation at the scenario role task level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Scenarios icon for the category NAME; the Scenario page displays in the parent pane.</description>
+    </item>
+    
+    <item>
+      <title>Download Documentation at the Task Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_task_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/download_documentation_at_the_task_level/</guid>
+      <description>Download Documentation at the Task Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Task Upload a document at the Task level  To download documentation at the task level in dspConduct™:
+ SelectdspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Tasks icon for a category name; the Tasks page displays. Click Vertical View for a task.</description>
+    </item>
+    
+    <item>
+      <title>Enable or Disable Messages for a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/enable_or_disable_messages_for_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/enable_or_disable_messages_for_a_role/</guid>
+      <description>Enable or Disable Messages for a Role If a user assigned to a role constantly works in a Content WebApp, the application generates many messages in the form of emails that may not be useful. The Designer can disable messages so that the user assigned to the role doesn’t receive messages via email.
+Before performing this task, Create a Category and Add a Role.
+Refer to Manage Roles for more information about roles.</description>
+    </item>
+    
+    <item>
+      <title>Final Finish Process for a Request Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/final_finish_process_for_a_request_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/final_finish_process_for_a_request_overview/</guid>
+      <description>Final Finish Process for a Request Overview As part of the Final Finish process, dspConduct™ downloads the data posted by a request to tables in a target database (usually dgSAP.) The data downloads using a CranPort package or a Data Services job.
+The Final Finish process begins when a Role Processor clicks Finish for the Post role on the Request Role page. Refer to Finish a Role for the Post Role Type for more information.</description>
+    </item>
+    
+    <item>
+      <title>Final Finish Setup Example</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/final_finish_setup_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/final_finish_setup_example/</guid>
+      <description>Final Finish Setup Example A Designer sets up the final finish for the single table KNA1 registered to Task Request (Address – General), with a source of RD2 and a target of dgSAP. 
+
+In database DGE_Data, table ttKNA1_ADRC KUNNR value for a specific RequestID will provide the data for KUNNR value that will be used to form the SELECT statement.
+
+After posting, the KUNNR value in table ttKNA1_ADRC is 0000001718.</description>
+    </item>
+    
+    <item>
+      <title>Finish Download Messages</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/finish_download_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/finish_download_messages/</guid>
+      <description>Finish Download Messages Use this page to [View Final Finish Download Messages](View_Final_Finish_Download_Messages.htm).  To access the page:
+ Click dspConduct &amp;gt; Requests in the Navigation pane. Click the Finish Download Messages icon for a request.    Field
+ Description
+  FINISH OBJECT
+ Displays the source table and target table used in the posting If using a Finish Type of CranPort. Displays the Data Service job name if using a Finish Type of Data Services.</description>
+    </item>
+    
+    <item>
+      <title>Finish a Role with the Application Role Type</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/finish_a_role_with_the_application_role_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/finish_a_role_with_the_application_role_type/</guid>
+      <description>Finish a Role with the Application Role Type A Role Processor uses the Request Role page to finish roles, indicating that the work assigned to that role is complete for the request.
+Before performing this task, a request must have been created. Refer to Create a Request for more information.
+Roles with the Application role type gather, enter, or make changes to data using pages in the Content WebApp for preparation to send to the system(s) of record.</description>
+    </item>
+    
+    <item>
+      <title>Finish a Role with the Post Role Type</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/finish_a_role_with_the_post_role_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/finish_a_role_with_the_post_role_type/</guid>
+      <description>Finish a Role with the Post Role Type Roles with the Post role type send the collected and validated data to the system(s) of record after all dependent Application and Review roles are completed.
+A Role Processor uses the Request Role page to finish roles, indicating that the work assigned to that role is complete for the request. Once the user clicks the Finish button, the Final Finish process runs.</description>
+    </item>
+    
+    <item>
+      <title>Generate Control Views for Content WebApp Pages</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/generate_control_views_for_content_webapp_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/generate_control_views_for_content_webapp_pages/</guid>
+      <description>Generate Control Views for Content WebApp Pages A Designer can create views, including Page Control Views (PCV) and Data Control Views (DCV), for a scenario &amp;gt; role &amp;gt; task combination. These objects are created and stored in the Content WebApp’s database.
+Before performing this task, Generate a Control Table for Content WebApp Pages.
+Views are based on a control table that has been generated when a user clicked the Create Control Table icon on the Scenario Role Task Pagepage.</description>
+    </item>
+    
+    <item>
+      <title>Generate Element Documents</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/generate_element_documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/generate_element_documents/</guid>
+      <description>Generate Element Documents A Designer can generate a document that contains all the information associated with these elements:
+ Generate a Business Process Document Generate a Scenario Document Generate a Role Document  Generate a Business Process Document A Designer can generate a document that contains all the information associated with the business process. The information includes but is not limited to:
+ All custom attributes with their configured values All delivered attributes with their configured values The details of the execution order of the process (i.</description>
+    </item>
+    
+    <item>
+      <title>Generate a Control Table for Content WebApp Pages</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/generate_a_control_table_for_content_webapp_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/generate_a_control_table_for_content_webapp_pages/</guid>
+      <description>Generate a Control Table for Content WebApp Pages A control table is used to store data to be used as the basis when dspConduct™ builds a Data Control View (DCV) or a Page Control View (PCV).
+A Designer can create a control table for a scenario &amp;gt; role &amp;gt; task combination. The table is created and stored in the Content WebApp’s database. If the control table already exists, clicking the Create Control Table icon in the steps below drops the existing table.</description>
+    </item>
+    
+    <item>
+      <title>Import IGC™ Governance Elements into dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/import_igc_governance_elements_into_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/import_igc_governance_elements_into_dspconduct/</guid>
+      <description>Import IGC™ Governance Elements into dspConduct™ Business processes built and published in the Information Governance Cloud™ (IGC™) can be imported into dspConduct™ to create an on premises instance of these elements. On import, the category, business process, scenario, role, and task records are registered in dspConduct™.
+NOTE: Data entered in IGC™ and imported into dspConduct™ cannot be updated in dspConduct™. Records cannot be deleted, and elements cannot be activated or deactivated.</description>
+    </item>
+    
+    <item>
+      <title>Import Views</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/import_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/import_views/</guid>
+      <description>Import Views This section contains the following topics:
+ Import a Task View for a Category Import a Variant View for a Category  Import a Task View for a Category A Designer uses the Category Import View Configuration page to import a task view for a category.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp. Refer to dspConduct™ Design Process Overview for more information.</description>
+    </item>
+    
+    <item>
+      <title>Manage Business Processes</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_business_process/</guid>
+      <description> Manage Business Processes A business process is a collection of related scenarios used to create, change or extend an object. The execution of a business process is determined by the dependencies between scenarios. A business process must contain at least one scenario but can also contain many.
+To work with business processes:
+ Add a Business Process Configure Business Value Parameters Add a Scenario to a Business Process View Business Process Visualization Copy a Business Process Deactivate a Business Process  </description>
+    </item>
+    
+    <item>
+      <title>Manage Categories</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_categories/</guid>
+      <description> Manage Categories A category is a collection of governance elements and is created to organize business processes and related elements by the category (e.g., Line of Business, Business Unit or Division, Data Domain).
+To work with categories:
+ Create a Category Set Allowed Processes at the Category Level Set Rules for a Category Process Add Data-Driven Dependency Conditions to a Category Set Posting Options at the Category Level Add a Scenario Level Default Value Rule to a Category Add a Category Object Import a Task View for a Category Import a Variant View for a Category  </description>
+    </item>
+    
+    <item>
+      <title>Manage Element Documentation</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_element_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_element_documentation/</guid>
+      <description>Manage Element Documentation The Element Documentation page supports the uploading and downloading of documents for elements. Each element page has a link to the Element Documentation page. Elements that allow adding documents are:
+ Business Process Scenario Role Task Scenario Role Scenario Role Task  Only one document can be uploaded at a time. The upload process stores the document in a unique area and provides file properties to the new file.</description>
+    </item>
+    
+    <item>
+      <title>Manage Org Units</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_org_units/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_org_units/</guid>
+      <description>Manage Org Units Org Units are defined at the object level and then added to a category. Org units are used to create requests for posting to one or many target systems and define security access to data for users.
+Org Units are optional and used to set request data security by restricting data a user can access based on, for example, an organization’s structure. A Designer could create an org unit called Plant that contains the org unit values for plants in different states.</description>
+    </item>
+    
+    <item>
+      <title>Manage Positions</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_positions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_positions/</guid>
+      <description>Manage Positions A position is a security template defined by a Security Administrator to which multiple users can be assigned. With positions, a Security Administrator can create a template for security once and assign multiple users to the template as needed.
+Position security is used to establish security for users in the Content WebApp.
+When a user is assigned to a position, the position establishes the business processes, roles, and for each role through org units, the subset of data users can access in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Manage Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_roles/</guid>
+      <description>Manage Roles A role is a collection of tasks. Each task is performed on a web page designed to collect and validate information required to support the scenarios and business processes to which that role is assigned. The web page is developed at a client’s site and is stored in the Content WebApp.
+Begin designing a business process by adding a role at the category level, then defining a scenario, a set of roles that can be reused by business processes.</description>
+    </item>
+    
+    <item>
+      <title>Manage Scenarios</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_scenarios/</guid>
+      <description> Manage Scenarios A scenario is a workflow-enabled configurable process for collecting data. Each scenario is a logical unit of work based on a block of information without an If statement. Scenarios are assigned to business processes.
+To work with Scenarios:
+ Add a Scenario Deactivate a Scenario Allow a Scenario to be used in other Categories Add a Dependent Scenario to a Scenario Assign a Default Value Rule to a Scenario Assign a Condition to a Scenario Dependency Relationship View and Configure External Target Systems for a Scenario Add a Role to a Scenario Configure Child Scenario Criteria Deactivate a Task for a Scenario Role Combination Configure Column Status for a Task for a Scenario Role Combination Configure the Required Setting for a Scenario Role Task Column Activate and Configure Column Variants Update a Scenario Role Task Column List Copy Settings to Other Variants View the Roles and Tasks Assigned to a Scenario Add a Process to a Scenario Configure Scenario Types Add Process Rules at the Scenario Level Configure the Post Later Feature at the Scenario - Role Level Update Posting Options at the Scenario Level Copy a Scenario  </description>
+    </item>
+    
+    <item>
+      <title>Manage Tasks</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/manage_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/manage_tasks/</guid>
+      <description>Manage Tasks A task defines a unit of work and is associated with the web page where the work is performed. The web page is designed to collect and validate information required to support the scenarios and business processes to which that role is assigned. The web page is developed at a client’s site and is stored in the Content WebApp.
+Tasks are added to roles. Refer to Add a Task to a Role and Manage Roles for more information.</description>
+    </item>
+    
+    <item>
+      <title>Map a dspConduct™ Task to a Task Imported from IGC™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/map_a_dspconduct_task_to_a_task_imported_from_igc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/map_a_dspconduct_task_to_a_task_imported_from_igc/</guid>
+      <description>Map a dspConduct™ Task to a Task Imported from IGC™ After a task has been created and published in IGC™ and imported into dspConduct™, a Process Designer must map at least one dspConduct™ task to it.
+An IGC™ task can have multiple dspConduct™ tasks assigned.
+An IGC™ task can be mapped to:
+ An existing task in dspConduct™, including the delivered tasks Request Post and Request Post Workflow Notification A new task based on a page that already exists in the Content WebApp A new task based on a new page created in the Content WebApp  NOTE: To create a new dspConduct™ task based on a new page in the Content WebApp, a user must be assigned to the Power Designer and Designer roles in System Administration and the Administrator role in the Content WebApp assigned to that category.</description>
+    </item>
+    
+    <item>
+      <title>Post a Request</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/post_a_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/post_a_request/</guid>
+      <description>Post a Request A Role Processor with the Post role type posts a request to a target system after the Review role is finished.
+When a Role Processor posts a request for the Post role, the request can be posted by:
+ The Integrate process assigned to the scenario (used when posting to SAP). Refer to Add a Process to a Scenario for more information. Manual post. Refer to Use Manual Post for more information.</description>
+    </item>
+    
+    <item>
+      <title>Process Requests Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/process_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/process_requests/</guid>
+      <description>Process Requests Overview Requests are created in dspConduct™ when a new request is added and saved on a task page in the Content WebApp. A Role Processor uses the Request Role page to finish roles, indicating that the work assigned to that role is complete for the request. Roles are based on role types. Application roles enter and validate data for the request. Once that Application role is finished, the Review role reviews the changes and approves or rejects them.</description>
+    </item>
+    
+    <item>
+      <title>Reject a Request</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/reject_a_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/reject_a_request/</guid>
+      <description>Reject a Request A Role Processor can reject a request (a role &amp;gt; task combination) for a Review role.
+Before performing this task, a request must have been submitted via the Content WebApp. The request must have passed to the Review role after all dependencies are complete for the Application role and the final Application role (the role with the highest priority) is finished.
+Refer to Review a Request Overview for general information about the review process.</description>
+    </item>
+    
+    <item>
+      <title>Replace Documentation</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/replace_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/replace_documentation/</guid>
+      <description>Replace Documentation Use this page to [Replace an Element Document](Replace_an_Element_Document.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the Roles, Tasks, Scenarios or Business Processes icon for the category NAME. Click Vertical View for a record. Click the Documentation icon Click the Replace File icon.  Field
+Description
+Existing File
+Current File Download
+Click to download the current file.
+Current File Name</description>
+    </item>
+    
+    <item>
+      <title>Replace an Element Document</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/replace_an_element_document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/replace_an_element_document/</guid>
+      <description>Replace an Element Document A Designer has the ability to replace the current file with an updated version of the file or a completely different file.
+Before performing this task:
+ Create a category  Add one of the following elements depending on which one the user is working with at the moment:
+ Add a role Add a scenario Add a business process Upload an Element Document  To replace an element document:</description>
+    </item>
+    
+    <item>
+      <title>Reset a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/reset_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/reset_a_role/</guid>
+      <description>Reset a Role A Request Processer resets a role if a mistake is made or if information is incomplete after a role with the type of Application or Review has been finished.
+This section contains the following topics:
+ Reset a Role with the Review Role Type Reset a Role with an Application Role Type  Reset a Role with the Review Role Type A Review role is reset when a Role Processor rejects a role &amp;gt; task combination during the review process.</description>
+    </item>
+    
+    <item>
+      <title>Review Request Changes</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/review_request_changes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/review_request_changes/</guid>
+      <description>Review Request Changes To assist in the review process, a Designer can configure a list of Content WebApp tables and columns that can be audited. The changes tracked in these audits display for a request for the Review role. The Review role can then view all the changes that have occurred within the Application role(s) that the Review role is dependent on.
+Before a Role Processor with the Review role can view all changes for a request, an Administrator must configure settings in System Administration and a Designer must configure settings in dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Review a Request Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/review_a_request_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/review_a_request_overview/</guid>
+      <description>Review a Request Overview A Role Processor can review changes made to a task by dependent Application roles. These changes are entered on a page in the Content WebApp, The Role Processor uses the Review role (any role with the role type of Review) to approve or reject the request.
+A Review role can be assigned the following task types.
+All Application tasks assigned to Application and Display roles that the Review role must review across all scenarios the Review role is assigned to.</description>
+    </item>
+    
+    <item>
+      <title>Role Dependencies</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/role_dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/role_dependencies/</guid>
+      <description>Role Dependencies Role dependencies are designed in dspConduct™ to manage the logical progression of tasks that must be finished to complete a request. For example, dependencies establish that when processing a request to start a Post role type, the Application and Review role types must BOTH first be completed. The buttons on the Request Role Task page for the Post role is disabled until all Application roles and the Review role that the Post role depends on are completed.</description>
+    </item>
+    
+    <item>
+      <title>Role Types and Task Types</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/role_types_and_task_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/role_types_and_task_types/</guid>
+      <description>Role Types and Task Types Each role is assigned a role type to define how role data within a request can be manipulated. Role types are:
+ Application – Gathers, enters or makes changes to data using pages in the Content WebApp for preparation to send to the system(s) of record. Display – Views data but is unable to make changes. Users assigned to a role with a Display role type are not active participants in the process.</description>
+    </item>
+    
+    <item>
+      <title>Search for Scenario Role Task Column Assignments while Reviewing a Request</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/search_for_scenario_role_task_column_assignments_while_reviewing_a_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/search_for_scenario_role_task_column_assignments_while_reviewing_a_request/</guid>
+      <description>Search for Scenario Role Task Column Assignments while Reviewing a Request A Role Processor can view which columns are enabled for a request and which roles have update access to a column. This information can assist the reviewer when researching which role &amp;gt; task combination to reject.
+For example, if only one role has access to a column and that column contains an incorrect value, only that role &amp;gt; task combination must be rejected.</description>
+    </item>
+    
+    <item>
+      <title>Set Allowed Processes at the Category Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/set_allowed_processes_at_the_category_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/set_allowed_processes_at_the_category_level/</guid>
+      <description>Set Allowed Processes at the Category Level Integrate processes are the methods in which data from dspConduct™ is posted into a target system.
+A Designer can limit the allowed processes for scenarios at the category level. Only these allowed processes display in the INTEGRATE PROCESS ID list box on the Scenario Process page.
+NOTE: This task must be completed so that requests created from the scenario are posted to the target system.</description>
+    </item>
+    
+    <item>
+      <title>Set Posting Options at the Category Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/set_posting_options_at_the_category_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/set_posting_options_at_the_category_level/</guid>
+      <description>Set Posting Options at the Category Level By default, an Integrate process that posts dspConduct™ requests uses the posting method Standard SAP Posting.
+A user can update the posting method and set posting options for the Integrate process used to post requests at the Category level. These options are then used by default for all scenarios in the category added after the posting options are updated.
+These options can be overridden at the scenario level and viewed, but not updated, at the request level.</description>
+    </item>
+    
+    <item>
+      <title>Set Rules for a Category Process</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/set_rules_for_a_category_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/set_rules_for_a_category_process/</guid>
+      <description>Set Rules for a Category Process A Designer can register a rule, in the form of a SQL stored procedure, to a category process. The rule is executed right before the process is posted via a Group post or single posting event. These rules are preparation procedures that move data from the request tables to the integrate staging tables needed for integrate to post successfully.
+This task is optional. Not every process requires a rule.</description>
+    </item>
+    
+    <item>
+      <title>Set Up a Category from IGC™ in dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/set_up_a_category_from_igc_in_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/set_up_a_category_from_igc_in_dspconduct/</guid>
+      <description>Set Up a Category from IGC™ in dspConduct™ When a category is created in IGC™ and imported, a Process Designer must assign a WebApp to the category and set the category’s owner.
+NOTE: Each WebApp has one category, so a WebApp must be designed for each new category created in IGC™.
+NOTE: When importing a category from IGC™, if there is a category in dspConduct™ that has the same name, the IGC™ category is automatically mapped to the dspConduct™ category.</description>
+    </item>
+    
+    <item>
+      <title>Set a Role&#39;s Org Unit Value Assignments</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/set_a_roles_org_unit_value_assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/set_a_roles_org_unit_value_assignments/</guid>
+      <description>Set a Role&amp;rsquo;s Org Unit Value Assignments A Security Administrator can include or remove multiple org unit values at one time for all of the roles in a position . With this option it is not necessary to configure the org unit values for each individual role in a position.
+Roles are added to categories in dspConduct™ &amp;gt; Design. Org unit values differ by category and therefore must be configured separately for each category included in a position and are applied only to the roles in the category.</description>
+    </item>
+    
+    <item>
+      <title>Set the Control Table Prefix</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/set_the_control_table_prefix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/set_the_control_table_prefix/</guid>
+      <description>Set the Control Table Prefix When a table is generated for control views, the control table prefix is added to the table name. The prefix can be set at the category and page level.
+NOTE: dspConduct™ is delivered with a default control table prefix. Updating the prefix is optional.
+The control table prefix set at the category level on the Category page’s Vertical View is the prefix to the table name when a table is generated for a scenario &amp;gt; role &amp;gt; task combination for the category.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/setup_and_configuration_for_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/setup_and_configuration_for_dspconduct/</guid>
+      <description>Setup and Configuration for dspConduct™ Before using dspConduct™, ensure the following tasks are completed, if applicable.
+ Set Up Security for dspConduct™ Assign a Backup User Set User Workflow Receipt Preferences Configure Workflow Messages Overview Set up SLA Notifications in dspConduct™ Configure SLA settings at the Business Process Scenario Role Level Set Up Service Pages for Service Level Agreements (SLA) in System Administration Set Preceding Weeks Count for Dashboards Set Currency Display Label Set Calendar Used For Business Value Calculations Manage Request Statuses  NOTE: A new data source named DGE_ElementDocument_FilePath whose data source type is “Local File” is shipped with dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Update Control Table Data</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/update_control_table_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/update_control_table_data/</guid>
+      <description>Update Control Table Data A control table is used to store data to be used as the basis when dspConduct™ builds a Data Control View (DCV) or a Page Control View (PCV).
+Once a Designer has created the control table for a particular scenario &amp;gt; role &amp;gt; task combination that table is used for all roles and scenarios that have the same task. That table is created and stored in the Content WebApp’s database.</description>
+    </item>
+    
+    <item>
+      <title>Update Custom Attributes for Governance Elements</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/update_custom_attributes_for_governance_elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/update_custom_attributes_for_governance_elements/</guid>
+      <description>Update Custom Attributes for Governance Elements Data entered in IGC™ and imported into dspConduct™ cannot be updated in dspConduct™. Records cannot be deleted, and elements cannot be activated or deactivated.
+Additionally, a governance hierarchy imported from the IGC™ cannot have elements added or deleted (e.g., a Designer cannot add a scenario in dspConduct™ to a business process that was added in IGC™).
+Some settings that are not set in IGC™ can be updated for IGC™ elements in dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Update Posting Options at the Scenario Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/update_posting_options_at_the_scenario_-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/update_posting_options_at_the_scenario_-level/</guid>
+      <description>Update Posting Options at the Scenario Level A user can set posting options for the Integrate process used to post requests at the Category level that are then used by default for all scenarios in the category.
+Refer to Set Posting Options at the Category Level and BDC Post Methods and Settings on the Advanced tab for more information.
+These options can be overridden at the scenario level, and viewed but not updated at the request level.</description>
+    </item>
+    
+    <item>
+      <title>Update a Scenario Role Task Column List</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/update_a_scenario_role_task_column_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/update_a_scenario_role_task_column_list/</guid>
+      <description>Update a Scenario Role Task Column List If columns are added or removed in the Content WebApp, a Designer uses this feature to update the column list on the Scenario Role Task Column page. This option only adds and removes columns; it does not change existing settings.
+Before performing this task, the design process must be complete and a task must be defined in the Content WebApp. Refer to dspConduct™ Design Process Overview for more information.</description>
+    </item>
+    
+    <item>
+      <title>Update the List of Pages Assigned to a Task</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/update_the_list_of_pages_assigned_to_a_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/update_the_list_of_pages_assigned_to_a_task/</guid>
+      <description>Update the List of Pages Assigned to a Task A task defines a unit of work and is associated with the web page or group of web pages where the work is performed. A Designer can view all of a task’s associated pages and additional details on the Task Page page.
+These pages are then added to a scenario &amp;gt; role &amp;gt; task combination, and can be viewed on the Scenario Role Task Page page.</description>
+    </item>
+    
+    <item>
+      <title>Upload Documentation at the Business Process Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_business_process_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_business_process_level/</guid>
+      <description>Upload Documentation at the Business Process Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Business Process  To upload at the business process level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Business Process icon for the category NAME; the Business Process page displays in the parent pane.</description>
+    </item>
+    
+    <item>
+      <title>Upload Documentation at the Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_role_level/</guid>
+      <description>Upload Documentation at the Role Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Role  To upload documentation at the role level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Roles icon for the category NAME; the Role page displays. Click Vertical View for a role. Refer to Upload Element Documentation for the steps to complete this task.</description>
+    </item>
+    
+    <item>
+      <title>Upload Documentation at the Scenario Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_scenario_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_scenario_role_level/</guid>
+      <description>Upload Documentation at the Scenario Role Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Scenario Add a Role to a Scenario  To upload documentation at the scenario role level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Scenarios icon for the category NAME; the Scenario page displays in the parent pane.</description>
+    </item>
+    
+    <item>
+      <title>Upload Documentation at the Scenario Role Task Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_scenario_role_task_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_scenario_role_task_level/</guid>
+      <description>Upload Documentation at the Scenario Role Task Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Scenario Add a Role Add a Task Add a Role to a Scenario  To upload at the scenario role task level in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Scenarios icon for the category NAME; the Scenario page displays in the parent pane.</description>
+    </item>
+    
+    <item>
+      <title>Upload Documentation at the Task Level</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_task_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/upload_documentation_at_the_task_level/</guid>
+      <description>Upload Documentation at the Task Level A Designer performs this task.
+Before this task can be completed, perform the following tasks:
+ Create a Category Add a Task  To upload documentation at the task level in dspConduct™:
+ SelectdspConduct &amp;gt; Design in the Navigation pane; the Category page displays. Click the Tasks icon for a category name; the Tasks page displays. Click Vertical View for a task. Refer to Upload Element Documentation for the steps to complete this task.</description>
+    </item>
+    
+    <item>
+      <title>Upload and Download Element Documentation</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/upload_and_download_element_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/upload_and_download_element_documentation/</guid>
+      <description>Upload and Download Element Documentation The uploaded document provides instructions and supporting documentation to users to assist them in completing tasks related to a particular element. Documentation can be uploaded and downloaded at the following levels:
+Role
+ Upload Documentation at the Role Level Download Documentation at the Role Level  Task
+ Upload Documentation at the Task Level Download Documentation at the Task Level  Scenario Role
+ Upload Documentation at the Scenario Role Level Download Documentation at the Scenario Role Level  Scenario Role Task</description>
+    </item>
+    
+    <item>
+      <title>Validate a Role</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/validate_a_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/validate_a_role/</guid>
+      <description>Validate a Role A Role Processor can run a validation process for a Request Role prior to finishing the role to validate the tasks for a role using the validations rules registered to a pages associated to the tasks. For each of the pages (including child pages) corresponding to the tasks, the process executes the validation views that have been registered to the pages. Any errors, warnings, or messages that result are displayed in a pop-up on the page.</description>
+    </item>
+    
+    <item>
+      <title>View Archived Requests</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_archived_requests_dge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_archived_requests_dge/</guid>
+      <description>View Archived Requests A user who belongs to dspConduct™ WebApp group ArchiveUser or PowerUser can view archived request data, including roles, tasks, post processes and finish download messages.
+An Administrator adds users to WebApp groups. Archived request data does not display for a user unless that user is assigned to one of these WebApp groups.
+Requests are archived when:
+A request remains in a request status longer than the number of days set on the Category Request Status page</description>
+    </item>
+    
+    <item>
+      <title>View Business Process Visualization</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_business-_process_visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_business-_process_visualization/</guid>
+      <description>View Business Process Visualization A Designer can view a diagram of the current configuration of a business process including roles and tasks for the associated scenarios, and any scenario and role dependencies.
+Click the Expand All icon to expand all the nodes in the diagram. Click the Collapse All icon to collapse the diagram to the business process node.
+Hover over a node for a design element to view the following information:</description>
+    </item>
+    
+    <item>
+      <title>View Business Value Dashboard</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_business_value_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_business_value_dashboard/</guid>
+      <description>View Business Value Dashboard The business value dashboard provides charts for analysis of the money and time (hours) saved by automating business processes in dspConduct™. The charts use the users’ own baseline estimates of the time and money costs to complete a business process prior to implementing automation with dspConduct™ to calculate the savings, or business value, of automation.
+Only business processes for which baseline hours and average cost per hour values that have completed requests are displayed in the charts and included in the calculations.</description>
+    </item>
+    
+    <item>
+      <title>View Charts in dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_charts/</guid>
+      <description>View Charts in dspConduct™ The dashboards included with dspConduct™ provide analytics, metrics, and reporting for:
+ Average time taken to complete active requests by governance elements Predictive analytics based on active requests indicating the amount of time it may take to complete a Business Process, Scenario or Role that are in process. All requests, including archived requests, created vs completed, so that analysis of the request backlog can occur. SLA performance analytics to see how separate categories and organizations are performing.</description>
+    </item>
+    
+    <item>
+      <title>View Final Finish Download Messages</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_final_finish_download_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_final_finish_download_messages/</guid>
+      <description>View Final Finish Download Messages After the Final Finish process is complete, a Role Processor can view the messages returned on theFinish Download Messages page. If using a Finish Type of DBMoto, messages are not returned.
+Refer to Final Finish Process for a Request Overview for general information.
+To view the messages, either:
+ Click dspConduct &amp;gt; Requests in the Navigation pane. Click theFinish Download Messages icon for a request.</description>
+    </item>
+    
+    <item>
+      <title>View Reports in dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_reports_in_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_reports_in_dspconduct/</guid>
+      <description>View Reports in dspConduct™ dspConduct™ is installed with reports to help users view the roles, business processes, and org units users have access to. Users can also view roles, business processes and org units with no users assigned to them.
+To access reports, click dspConduct &amp;gt; Reports in the Navigation pane.
+ Role Average Completion Time: Lists roles by category and the average time taken to complete the role. This report takes into account Request Roles that have been archived.</description>
+    </item>
+    
+    <item>
+      <title>View Tasks Imported from IGC™ in dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_tasks_imported_from_igc_in_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_tasks_imported_from_igc_in_dspconduct/</guid>
+      <description>View Tasks Imported from IGC™ in dspConduct™ After tasks are published in IGC™, they are imported into dspConduct™ via a service page that runs every 30 minutes. A user with security can access the Services Pages page in System Administration (Admin &amp;gt; Resources &amp;gt; Service Pages) to change the service page schedule as needed or manually run the service page to import tasks immediately. Refer to Start and Stop Service Pages in System Administration for more information.</description>
+    </item>
+    
+    <item>
+      <title>View a Request’s Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_a_requests_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_a_requests_roles/</guid>
+      <description>View a Request’s Roles On the Request Role page, a Role Processor can review the roles assigned to requests to which the user has access. Only requests with roles that are assigned to the current user display.
+Before performing this task, add a role, add a task to the role, and create a request.
+NOTE: The logged in user must have been assigned to the role.
+NOTE: If a role has the Auto Extend Display option set, this role displays as read only for all users assigned to roles in the Category.</description>
+    </item>
+    
+    <item>
+      <title>View a Role&#39;s Scenarios and Tasks</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_a_roles_scenarios_and_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_a_roles_scenarios_and_tasks/</guid>
+      <description>View a Role&amp;rsquo;s Scenarios and Tasks A Designer can view the tasks that are assigned to a role and the scenarios to which the role is assigned to evaluate overall business process design and how updates to a role may affect other elements that are assigned to that scenario.
+To view a diagram illustrating the relationships between the selected role, the scenarios to which it is assigned, and all tasks assigned to the role:</description>
+    </item>
+    
+    <item>
+      <title>View a Role&#39;s dspConduct™ Pages</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_a_roles_dspconduct_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_a_roles_dspconduct_pages/</guid>
+      <description>View a Role&amp;rsquo;s dspConduct™ Pages A Designer can view request-related pages (on the dspConduct Tasks page) that are available in dspConduct™ and can be assigned to roles based on role type. For example, the Request Post Process page can be assigned to any roles with the role type of Post.
+A Designer uses this information while configuring role and task combinations.
+Tasks cannot be edited on the dspConduct™ Tasks page.</description>
+    </item>
+    
+    <item>
+      <title>View a Task&#39;s Scenarios and Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_a_tasks_scenarios_and_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_a_tasks_scenarios_and_roles/</guid>
+      <description>View a Task&amp;rsquo;s Scenarios and Roles A Designer can view the scenarios and roles to which a task is assigned to evaluate overall business process design and how updates to a task may affect other elements that are assigned to that scenario.
+To view a diagram illustrating the relationships between the selected task, and all roles and scenario to which that task is assigned:
+ Click dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View all Pages for a Task</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_all_pages_for_a_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_all_pages_for_a_task/</guid>
+      <description>View all Pages for a Task A task defines a unit of work and is associated with the web page or group of web pages where the work is performed. A Designer can view all of a task’s associated pages and how these pages are accessed on the Task Page page.
+Information including page name, page type and parent task is available for each page.
+The page type is created when the page is initially defined, and sets how the page is laid out or how the page is used.</description>
+    </item>
+    
+    <item>
+      <title>View and Configure External Target Systems for a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_and_configure_external_target_systems_scnrio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_and_configure_external_target_systems_scnrio/</guid>
+      <description>View and Configure External Target Systems for a Scenario The Scenario Process Target Connection page displays all templates that are registered to a process in Integrate. A Designer can change the connection value to allow a scenario to post to a different target system than the one specified at the Integrate template level. The process must be active in Integrate to be available in a scenario.
+Before completing this task, Add a Scenario and Add a Process to a Scenario.</description>
+    </item>
+    
+    <item>
+      <title>View the Request Details Diagram</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_the_request_details_diagram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_the_request_details_diagram/</guid>
+      <description>View the Request Details Diagram A Role Processor can view a visual representation of an active request’s process through the workflow, including which roles have been completed for the request.
+The diagram displays:
+ The Request ID The request status for the request selected on the Request page The scenario to which the request belongs Related requests in the scenario and their status The roles in the scenario The status of each role The tasks assigned to each role Whether a role is finished and whether dependencies are complete  Hover a cursor over a node to view details.</description>
+    </item>
+    
+    <item>
+      <title>View the Request Objects Creation Log</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_the_request_objects_creation_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_the_request_objects_creation_log/</guid>
+      <description>View the Request Objects Creation Log This log displays all the log records that are written when the stored procedures registered to Build Objects execute as the Request-related objects are created.
+There are two ways to access the log.
+To access the log at any time:
+ Click Design in the Navigation pane. Click Vertical View for a category. Click the Rules and Actions tab. Click the Request Table and Views Creation Log icon.</description>
+    </item>
+    
+    <item>
+      <title>View the Roles and Tasks Assigned to a Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/view_the_roles_and_tasks_assigned_to_a_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/view_the_roles_and_tasks_assigned_to_a_scenario/</guid>
+      <description>View the Roles and Tasks Assigned to a Scenario A Designer can view the roles and tasks that use a scenario to evaluate overall business process design and how updates to a scenario may affect other elements that are assigned to that scenario.
+To view a diagram illustrating the relationships between the selected scenario and all roles and tasks assigned:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click the Scenarios icon for a category.</description>
+    </item>
+    
+    <item>
+      <title>dspConduct™ Design Process Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/use_cases/dspconduct_design_process_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/use_cases/dspconduct_design_process_overview/</guid>
+      <description>dspConduct™ Design Process Overview A governance hierarchy consists of the following elements:
+ A category - collection of the tasks, roles, scenarios and business process created to organize the elements by, for example, line of business, business unit or division, or data domain. Business processes – A collection of scenarios to allow a series of linked scenarios to be created. Scenarios - A collection of roles that outlines a single process, such as creating a new FinishedGood.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/collect/config/</link>
+    <description>Recent content in Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/collect/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build Process</title>
+      <link>https://heathercloward.github.io/collect/config/build_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/build_process/</guid>
+      <description>Build Process The following is a high-level overview of how Collect builds packages and pulls data from the Source system.
+ Create Source and Target connections in System Administration (performed by an Administrator) Register Targets in Collect Register Sources in Collect Fetch tables, which will build a System Type Group with the name of the Source in Common. Activate the Tables in the System Type Group in Common. Import the System Type Group tables in Collect.</description>
+    </item>
+    
+    <item>
+      <title>Configure Parameters in Common</title>
+      <link>https://heathercloward.github.io/collect/config/configure_parameters_in_common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/configure_parameters_in_common/</guid>
+      <description>Configure Parameters in Common Collect parameters are high-level fields used throughout the component that must be configured per installation. These parameters are configured within Common. Refer to Common documentation for detailed information.</description>
+    </item>
+    
+    <item>
+      <title>Create DBMoto® Source Connections</title>
+      <link>https://heathercloward.github.io/collect/config/create_dbmoto_source_connections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/create_dbmoto_source_connections/</guid>
+      <description>Create DBMoto® Source Connections If using DBMoto® and downloading (replicating) data from a database other than Oracle, Microsoft SQL Server or IMB DB2 LUW (where connections are created automatically), create a DBMoto® source connection.
+To create a DBMoto® source connection:
+ Check that the database is supported by contacting the DBMoto® support team at http://support.boaweb.com. Launch DBMoto®. In the Metadata Explorer, expand the DBMoto_Client.metadata. Right-click Sources and select Add New Connection.</description>
+    </item>
+    
+    <item>
+      <title>Encrypt CranSoft® Data Source Password</title>
+      <link>https://heathercloward.github.io/collect/config/encrypt_cransoft_datasource_password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/encrypt_cransoft_datasource_password/</guid>
+      <description>Encrypt CranSoft® Data Source Password To enable encryption for Collect, an Administrator must encrypt the CranSoft® Data Source password in System Administration.</description>
+    </item>
+    
+    <item>
+      <title>Register Target and Source Data Sources</title>
+      <link>https://heathercloward.github.io/collect/config/register_target_and_source_data_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/register_target_and_source_data_sources/</guid>
+      <description>Register Target and Source Data Sources Target and Source data sources must be registered using the preferred method in Common. Refer to Register a Data Source in Common for more information.
+A data source can also be registered in System Administration, but this method is not recommended.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Schedule Groups</title>
+      <link>https://heathercloward.github.io/collect/config/set_up_schedule_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/set_up_schedule_groups/</guid>
+      <description>Set Up Schedule Groups Tables that do not have a Schedule Group set up run multi-thread limited to the number of jobs set in the general queue. The general queue is used for non-DSP event processing.
+Schedule Groups are used for scheduling a subset of tables and/or to download tables in a single thread. Consider downloading using a single thread when downloading very large tables. While downloading many small tables all together using multi-thread may run efficiently, downloading several large tables together can result in database contention on the data file.</description>
+    </item>
+    
+    <item>
+      <title>Set up Connection Types</title>
+      <link>https://heathercloward.github.io/collect/config/set_up_connection_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/set_up_connection_types/</guid>
+      <description>Set up Connection Types Connection Types require SQL Server to download the data dictionary from the source database, a substring sample command and the windows driver to embed in the package. Columns included in the download must be named the same as the example in the database. The connection string in this table must be fully populated or consequently, the database user ID and password are ignored when using a user-defined ODBC connection.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for Collect</title>
+      <link>https://heathercloward.github.io/collect/config/setup_and_configuration_for_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/config/setup_and_configuration_for_collect/</guid>
+      <description> Setup and Configuration for Collect Before getting started with Collect, verify the following has been completed:
+ Set up Security (performed by an Administrator) Register Target and Source Data Sources Create DBMoto® Source Connections Encrypt Data Source Password (performed by an Administrator) Configure Parameters in Common Set up Connection Types Set up Schedule Groups  </description>
+    </item>
+    
+  </channel>
+</rss>

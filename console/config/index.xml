@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/console/config/</link>
+    <description>Recent content in Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/console/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access Console</title>
+      <link>https://heathercloward.github.io/console/config/access_console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/config/access_console/</guid>
+      <description> Access Console When working in components of dspMigrate™ Advanced Data Migration (ADM), Console is accessible by clicking Console in the Context bar.
+Refer to Context, the Context Bar, and Navigation for more information.
+To access Console from outside of dspMigrate™:
+ Select dspMigrate from the Navigation pane. Click the down pointing arrow next to the context name to select a different context, if necessary.  </description>
+    </item>
+    
+    <item>
+      <title>Configure Data Services Functionality</title>
+      <link>https://heathercloward.github.io/console/config/configure_data_services_functionality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/config/configure_data_services_functionality/</guid>
+      <description>Configure Data Services Functionality To use Data Services AutoGen, a user accesses Data Services pages using the Data Services icons (Data Services Rules, Data Services Reports, and Data Services Remediation) on the Targets page in Transform. These icons do not display by default. A Data Services repository must be assigned to the object containing the target in Console. The Data Services repository must be registered as a data source in the platform.</description>
+    </item>
+    
+    <item>
+      <title>Set Parameters for Other Components</title>
+      <link>https://heathercloward.github.io/console/config/set_parameters_for_other_components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/config/set_parameters_for_other_components/</guid>
+      <description>Set Parameters for Other Components Use Console to set parameters for Map, Transform and Construct. Parameters are component-specific settings that must be configured per installation. Parameters are delivered with recommended values. Review these values and make any changes as necessary.
+To set parameters for Map, Transform and Construct:
+ Select Advanced Configuration &amp;gt; Parameters from the Navigation pane.
+ Click the appropriate tab to set parameters for Map, Transform or Construct.</description>
+    </item>
+    
+    <item>
+      <title>Set up and Register the Object Database (dsw\*)</title>
+      <link>https://heathercloward.github.io/console/config/set_up_and_register_the_object_database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/config/set_up_and_register_the_object_database/</guid>
+      <description>Set up and Register the Object Database (dsw*) NOTE: Databases should not be added before consulting the on-site DBA or technical lead on the project. Database and server settings and parameters play into the creation of every database and if not set up correctly can lead to severe performance issues.
+To create and register the object database:
+ Launch and log in to Microsoft SQL Server Management Studio.
+ Click the + icon on the root SQL Server Group.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for Console</title>
+      <link>https://heathercloward.github.io/console/config/setup_and_configuration_for_console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/config/setup_and_configuration_for_console/</guid>
+      <description>Setup and Configuration for Console Before beginning work on a migration project, the hierarchical migration structure must be set up in Console so it can be passed in to each component. Waves, Process Areas and Objects must be added in Console, which will pass them to the other dspMigrate™Advanced Data Migration (ADM) components. For example, a Wave is registered once in Console, and then passed to Map and Transform. Elements should also be deleted in Console, but cannot be deleted if they are used in a migration project in Map or Transform.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspconduct/page_desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspconduct/page_desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active Request for Category Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/active_request_for_category_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/active_request_for_category_details/</guid>
+      <description>Active Request for Category Details Use this page to view details for the [Active Request for Category](../Use_Cases/Active_Request_Category.htm) chart sections.  To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; &amp;gt; Dashboards in the Navigation pane. Click a section in the Request Count By Category chart. Click a section in the Active Request for Category chart.           Field Description   REQUEST ID Displays the ID of the request.</description>
+    </item>
+    
+    <item>
+      <title>Active Request for Role Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/active_request_for_role_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/active_request_for_role_details/</guid>
+      <description>Active Request for Role Details Use this page to view details for the [Active Requests for Role](../Use_Cases/Active_Requests_for_Role.htm) chart.  To access this page in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Roles for a category. Click Vertical View for a role. Click the Metrics icon. Click a section in the Active Requests for Role chart.           Field Description   REQUESTS Displays the request ID.</description>
+    </item>
+    
+    <item>
+      <title>Add Org Units To Position From Org Unit Group</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/add_org_units_to_position_from_org_unit_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/add_org_units_to_position_from_org_unit_group/</guid>
+      <description>Add Org Units To Position From Org Unit Group Use this page to [add org units from a group to all roles in a position](../Use_Cases/Add_Org_Units_from_a_Group_to_Roles.htm).  To access this page:
+ Select dspConduct &amp;gt; Security in the Navigation pane Select a position. Click the Add Org Units from Group icon.      Field
+ Description
+  Org Unit Group to Add
+ Displays the org unit group to add to the roles in the position.</description>
+    </item>
+    
+    <item>
+      <title>Add Org Units To Position Role From Org Unit Group</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/add_org_units_to_position_role_from_org_unit_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/add_org_units_to_position_role_from_org_unit_group/</guid>
+      <description>Add Org Units To Position Role From Org Unit Group Use this page to [add org units from a group to a position role](../Use_Cases/Add_Org_Units_from_a_Group_to_Roles.htm#Add_Org_Units_from_a_Group_to_a_Position_Role).  To access this page:
+ Select dspConduct &amp;gt; Security in the Navigation pane Click the Roles icon for a position. Click the Add Org Units from Group icon.      Field
+ Description
+  Org Unit Group to Add
+ Displays the org unit group to add to the role.</description>
+    </item>
+    
+    <item>
+      <title>All Requests for Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_business_process/</guid>
+      <description>All Requests for Business Process This chart displays all requests for a business process by status.
+Click a section to drill down to the Requests page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Business Processes for a category. Click Vertical View for a business process. Click the Metrics icon.</description>
+    </item>
+    
+    <item>
+      <title>All Requests for Role</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_role/</guid>
+      <description>All Requests for Role This chart displays all requests for a role by status.
+Click a section to drill down to the All Requests for Role Details page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Roles for a category. Click Vertical View for a role. Click the Metrics icon.</description>
+    </item>
+    
+    <item>
+      <title>All Requests for Role Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_role_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_role_details/</guid>
+      <description>All Requests for Role Details Use this page to view details for the All Requests for Role chart.
+To access this page in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Roles for a category. Click Vertical View for a role. Click the Metrics icon. Click a section in the All Requests for Role chart.           Field Description   REQUESTS Displays the request ID.</description>
+    </item>
+    
+    <item>
+      <title>All Requests for Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_scenario/</guid>
+      <description>All Requests for Scenario This chart displays all requests for a scenario by status.
+Click a section to drill down to the All Requests for Scenario Details page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Scenarios for a category. Click Vertical View for a scenario. Click the Metrics icon.</description>
+    </item>
+    
+    <item>
+      <title>All Requests for Scenario Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_scenario_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/all_requests_for_scenario_details/</guid>
+      <description>All Requests for Scenario Details Use this page to view details for the All Requests for Scenario chart.
+To access this page in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Scenarios for a category. Click Vertical View for a scenario. Click the Metrics icon. Click a section in the All Requests for Scenario chart.           Field Description   REQUEST ID Displays the request ID.</description>
+    </item>
+    
+    <item>
+      <title>Archived Finish Download Messages</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_finish_download_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_finish_download_messages/</guid>
+      <description>Archived Finish Download Messages Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page:
+ Click dspConduct &amp;gt; Archives in the Navigation pane. Click the Finish Download Messages icon for a request.           Field Description   FINISH OBJECT Displays the source table and target table used in the posting If using a Finish Type of CranPort. Displays the Data Service job name if using a Finish Type of Data Services.</description>
+    </item>
+    
+    <item>
+      <title>Archived Request Post Message</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_request_post_message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_request_post_message/</guid>
+      <description>Archived Request Post Message Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  
+To access this page:
+ Click dspConduct &amp;gt; Archives in the Navigation pane. Click the Post Processes icon for a request. Click the Post Messages icon for a process.    Field
+ Description
+  MESSAGE ID
+ Displays a unique ID for the message.
+  INTEGRATE PROCESS ID
+ Displays the name of the Integrate process used for the posting.</description>
+    </item>
+    
+    <item>
+      <title>Archived Request Post Process</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_request_post_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_request_post_process/</guid>
+      <description>Archived Request Post Process Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page:
+ Click dspConduct &amp;gt; Archives in the Navigation pane. Click the Post Processes icon for a request.    Field
+ Description
+  PRIORITY
+ Displays the priority of the process used by the request.
+This value determines the order in which the processes were executed if the request had multiple processes and was posted.</description>
+    </item>
+    
+    <item>
+      <title>Archived Request Role Log</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_request_role_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_request_role_log/</guid>
+      <description>Archived Request Role Log Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page:
+ Click dspConduct &amp;gt; Archives in the Navigation pane. Click the Roles icon for a request. Click the Role Log icon for a role.    Field
+ Description
+  LOG ID
+ Displays a unique ID of the log record.
+  ADDED ON
+ Displays the date that the log record was first written.</description>
+    </item>
+    
+    <item>
+      <title>Archived Request Role SLA</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_request_role_sla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_request_role_sla/</guid>
+      <description>Archived Request Role SLA Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page:
+ Click dspConduct™&amp;gt; Archives in the Navigation pane. Click the Roles icon for an archived request. Click the Role SLA icon for a request role.    Field
+ Description
+  ROLE
+ Displays the role for the selected archived request.
+  CALENDAR
+ Displays dspConduct™, the name of the calendar in Common that dspConduct™ uses for SLA calculations.</description>
+    </item>
+    
+    <item>
+      <title>Archived Request Role Task</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_request_role_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_request_role_task/</guid>
+      <description>Archived Request Role Task Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page:
+ Click dspConduct &amp;gt; Archives in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for a role.           Field Description   TASK ID Displays the name of the task associated with the role selected on the Archived Request Roles page for the archived request.</description>
+    </item>
+    
+    <item>
+      <title>Archived Request Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_request_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_request_roles/</guid>
+      <description>Archived Request Roles Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page:
+ Click dspConduct &amp;gt; Archives in the Navigation pane. Click the Roles icon for a request.    Field
+ Description
+  ROLE ID
+ Displays the name of the role assigned to the selected archived request.
+  DEPENDENCY COMPLETE
+ If enabled, all dependent roles for the selected role were finished when the request was archived.</description>
+    </item>
+    
+    <item>
+      <title>Archived Requests</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/archived_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/archived_requests/</guid>
+      <description>Archived Requests Use this page to [View Archived Requests](../Use_Cases/View_Archived_Requests_DGE.htm).  To access this page, click dspConduct &amp;gt; Archives in the Navigation pane.
+  Field
+ Description
+  REQUEST ID
+ Displays the unique ID created for the request.
+  PARENT ID
+ Displays the unique ID created for the parent request of this request. If the request is not a child of another request, the Parent ID and the Request ID are the same.</description>
+    </item>
+    
+    <item>
+      <title>Assign IGC Task to Existing Page</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/assign_igc_task_to_existing_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/assign_igc_task_to_existing_page/</guid>
+      <description>Assign IGC Task to Existing Page Use this page to: - [Map an IGC™ Task to a New Task Based on an Existing Page in the Content WebApp](../Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC.htm#Map_an_IGC_Task_to_a_New_Task_Based_on_an_Existing_Page_in_the_Content_WebApp) - [Map an IGC™ Task to a New Task Based on a New Page in the Content WebApp](../Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC.htm#Map_an_IGC_Task_to_a_New_Task_Based_on_a_New_Page_in_the_Content_WebApp)  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the IGC Tasks icon. Click the Create New Task icon.</description>
+    </item>
+    
+    <item>
+      <title>Audit Table Column Registration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/audit_table_column_registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/audit_table_column_registration/</guid>
+      <description>Audit Table Column Registration Use this page to [Register Tables and Columns to be Audited](../Use_Cases/Review_Request_Changes.htm#Register_Tables_and_Columns_to_be_Audited).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Rules and Actions tab. Click the Table Registration icon. Click the Columns icon for a table.    Field
+ Description
+  COLUMN NAME
+ Displays the technical field name of the column to be audited.</description>
+    </item>
+    
+    <item>
+      <title>Audit Table Registration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/audit_table_registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/audit_table_registration/</guid>
+      <description>Audit Table Registration Use this page to [Register Tables and Columns to be Audited](../Use_Cases/Review_Request_Changes.htm#Register_Tables_and_Columns_to_be_Audited).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Rules and Actions tab. Click the Table Registration icon.      Field
+ Description
+  Load Audit Data
+ Click to copy new audit data associated with the current category to the dspConduct™ Review Role staging tables immediately.</description>
+    </item>
+    
+    <item>
+      <title>Business Process (Scenario Roles)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/business_process_scenario_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/business_process_scenario_roles/</guid>
+      <description>Business Process (Scenario Roles) Use this page to [configure SLA settings at the business process scenario role level](../Config/Configure_SLA_Settings_at_the_BPSR_Level.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane Click the Business Processes icon. Click the Scenarios icon. Click Roles SLA.      Field
+ Description
+  SCENARIO ID
+ Displays the scenario in the business process to which this SLA applies.</description>
+    </item>
+    
+    <item>
+      <title>Business Process (Scenarios)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/business_process_scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/business_process_scenarios/</guid>
+      <description>Business Process (Scenarios) Use this page to [Add a Scenario to a Business Process](../Use_Cases/Add_a_Scenario_to_a_Business_Process.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the Business Processes icon for a category. Click the Scenarios icon.  NOTE: If a scenario was assigned to a business process and imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that business process scenario.</description>
+    </item>
+    
+    <item>
+      <title>Business Process H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/business_process_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/business_process_h/</guid>
+      <description>Business Process H Business Process V
+Use this page to: - [Add a Business Process](../Use_Cases/Add_Business_Process.htm) - [Deactivate a Business Process](../Use_Cases/Deactivate_Business_Process.htm) - [Add a Scenario to a Business Process](../Use_Cases/Add_a_Scenario_to_a_Business_Process.htm) - [View Business Process Visualization](../Use_Cases/View_Business%20_Process_Visualization.htm)  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Business Processes icon for the category.  NOTE: If a business process was created and imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that business process.</description>
+    </item>
+    
+    <item>
+      <title>Business Process Predictive</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/business_process_predict/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/business_process_predict/</guid>
+      <description>Business Process Predictive This chart displays overall business process comparison of completion dates for active requests from the average running business process. This dashboard shows based on predictions which processes will be the best and worst performing.
+Click a bar to drill down to the Request page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Business Process Request Duration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/busniess_process_request_duration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/busniess_process_request_duration/</guid>
+      <description>Business Process Request Duration This chart displays the average duration in days of active requests for all business processes in a category. When accessed from the *Business Process* page’s Vertical View the chart displays the average duration of active requests for the selected business process.
+Click a bar to drill down to the Scenario Business Process Request Duration chart.
+Refer to View Charts in dspConduct™ for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Business Process, Scenario SLA Percent On Time</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/business_process_scenario_sla_percent_ontime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/business_process_scenario_sla_percent_ontime/</guid>
+      <description>Business Process, Scenario SLA Percent On Time When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete.  When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>Category H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_h/</guid>
+      <description>Category H Category V
+Use this page to: - [Create a Category](../Use_Cases/Create_a_Category.htm) - [Set Up a Category from IGC™ in dspConduct™](../Use_Cases/Set_Up_a_Category_from_IGC_in_dspConduct.htm)  To access this page, select dspConduct &amp;gt;Design in the Navigation pane.
+NOTE: If a category was imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that category.</description>
+    </item>
+    
+    <item>
+      <title>Category Import View Configuration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_import_view_configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_import_view_configuration/</guid>
+      <description>Category Import View Configuration Use this page to: - [Import a Task View for a Category](../Use_Cases/Import_Views.htm#Import_a_Task_View_for_a_Category) - [Import a Variant View for a Category](../Use_Cases/Import_Views.htm#Import_a_Variant_View_for_a_Category)  To access this page, select dspConduct &amp;gt; Configuration &amp;gt; Configuration Importin the Navigation pane.
+    Field
+ Description
+  Task Import Required Columns
+ Click to view the required columns for a task view.
+  Variant Import Required Columns</description>
+    </item>
+    
+    <item>
+      <title>Category Objects</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_objects/</guid>
+      <description>Category Objects Use this page to: [Add a Category Object](../Use_Cases/Add_a_Category_Object.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Org Unit Types icon. Click Add. Click Click to add a new item in the OBJECT NAME list box.    Field
+ Description
+  OBJECT NAME
+ Displays the category object name.
+  MULTIPLE OBJECT SUPPORT</description>
+    </item>
+    
+    <item>
+      <title>Category Org Unit Type</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_org_unit_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_org_unit_type/</guid>
+      <description>Category Org Unit Type Use this page to [Add an Org Unit to a Category Object](../Use_Cases/Manage_Org_Units.htm#Add_an_Org_Unit_Type_to_a_Category_Object).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Org Unit Types icon.    Field
+ Description
+  OBJECT NAME
+ Displays the object name that will be processed by the selected category.
+If no records exist, the OBJECT NAME defaults to the category name.</description>
+    </item>
+    
+    <item>
+      <title>Category Org Units for Position</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_org_units_for_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_org_units_for_position/</guid>
+      <description>Category Org Units for Position Use this page to [configure category org unit value assignments for roles at the position level](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Click the Category Org Units icon.      Field
+ Description
+  Refresh Values
+ Click to refresh the org unit values for the selected Category ID.
+  Include All Org Units</description>
+    </item>
+    
+    <item>
+      <title>Category Process</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_process/</guid>
+      <description>Category Process Category Process V
+Use this page to [Set Allowed Processes at the Category Level](../Use_Cases/Set_Allowed_Processes_at_the_Category_Level.htm).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Posting Processes icon.    Field
+ Description
+  INTEGRATE PROCESS ID
+ Displays the name of the Integrate process. Click the name link and the Process page in Integrate displays with details about the process.</description>
+    </item>
+    
+    <item>
+      <title>Category Process Rule</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_process_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_process_rule/</guid>
+      <description>Category Process Rule Use this page to [Set Rules for a Category Process](../Use_Cases/Set_Rules_for_a_Category_Process.htm).  To access this page:
+ Click dspConduct &amp;gt;Design in the Navigation pane. Click Vertical View for a category. Click the Posting Processes icon. Click the Rules icon.    Field
+ Description
+  PRIORITY
+ Displays the order the rule runs if multiple rules are assigned to a category process.
+  DATA SOURCE ID</description>
+    </item>
+    
+    <item>
+      <title>Category Request Duration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_request_duration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_request_duration/</guid>
+      <description> Category Request Duration This chart displays the average duration in days of active requests for all categories.
+Click a bar to drill down to the Business Process Request Duration chart.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access the chart:
+ Select dspConduct &amp;gt; Dashboards in the Navigation pane. Click Duration Metrics.  </description>
+    </item>
+    
+    <item>
+      <title>Category Request Status</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_request_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_request_status/</guid>
+      <description>Category Request Status Use this page to [Set the Days Active for a Request Status](../Config/Set_the_Days_Active_for_a_Request_Status.htm).  To access this page:
+ Select dspConduct  Design in the Navigation pane. Click Vertical View for a category. Click the Request Status Params icon.           Field Description   REQUEST STATUS ID Displays the ID of the REQUEST STATUS. This field is auto-populated. This value will be stored in Request tables.</description>
+    </item>
+    
+    <item>
+      <title>Category SLA Percent On Time</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_sla_percent_on_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_sla_percent_on_time/</guid>
+      <description>Category SLA Percent On Time When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete.  When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>Category Workflow Language Message H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_workflow_language_message_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_workflow_language_message_h/</guid>
+      <description>Category Workflow Language Message H Category Workflow Language Message V
+Use this page to [Edit Category Language-specific Messages](../Config/Edit_Category_Language_specific_Messages.htm).  To access this page:
+ Select dspConduct &amp;gt; Designin the Navigation pane. Click Vertical View for a category. Click the Workflow Messages icon. Click the Messages icon for a language.    Field
+ Description
+  Enable
+ Click to enable the selected message(s) in the category.
+  Disable</description>
+    </item>
+    
+    <item>
+      <title>Category Workflow Message</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_workflow_message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_workflow_message/</guid>
+      <description>Category Workflow Message Use this page to [Edit Category Language-specific Messages](../Config/Edit_Category_Language_specific_Messages.htm)  To access this page:
+ Select dspConduct &amp;gt; Designin the Navigation pane. Click Vertical View for a category. Click the Workflow Messages icon.      Field
+ Description
+  LANGUAGE ID
+ Displays language used for the workflow message. Language-specific messages are added on the Category Workflow Language Message page.
+NOTE: Workflow messages can be configured for the languages that display in the LANGUAGE ID column.</description>
+    </item>
+    
+    <item>
+      <title>Category, Business Process SLA Percent On Time</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/category_business_process_sla_percent_ontime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/category_business_process_sla_percent_ontime/</guid>
+      <description>Category, Business Process SLA Percent On Time When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete. When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>Conditions</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/conditions/</guid>
+      <description>Conditions Use this page to [Add Data-Driven Dependency Conditions to a Category](../Use_Cases/Add_Data_Driven_Dependency_Conditions.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click Vertical View for the category. Click the Conditions icon.           Field Description   TABLE NAME Displays the table name that contains the data upon which the condition is based.   COLUMN Displays the column that contains the data upon which the condition is based.</description>
+    </item>
+    
+    <item>
+      <title>Conduct Task Assignement to IGC Task</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/conduct_task_assignement_to_igc_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/conduct_task_assignement_to_igc_task/</guid>
+      <description>Conduct Task Assignement to IGC Task Use this page to [Map an IGC™ Task to An Existing dspConduct™ Task](../Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC.htm#Map_an_IGC_Task_to_An_Existing_dspConduct_Task) .  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the IGC Tasks icon. Click the Use Existing Tasks icon.      Field
+ Description
+  TASK ID
+ Displays the dspConduct™ task assigned to the IGC™ task selected on the IGC Task page.</description>
+    </item>
+    
+    <item>
+      <title>Copy Position</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/copy_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/copy_position/</guid>
+      <description>Copy Position Use this page to [copy a position](../Use_Cases/Copy_a_Position.htm).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Select a position. Click the Copy Position icon.      Field
+ Description
+  Create Position
+ Click to create a position based on a copy of the selected position.
+  New Position Name
+ Displays the name of the new position created as a result of copying the setup of an existing position.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Global Variables Setup</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/data_services_global_variables_setup_in_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/data_services_global_variables_setup_in_dspconduct/</guid>
+      <description>Data Services Global Variables Setup Use this page to [Configure Data Download During the Final Finish Process to use a Data Services Job](../Use_Cases/Configure_Data_Download_During_the_Final_Finish_Process_to_use_a_Data_Services_Job.htm).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click the Tasks icon for a category. Click the Final Finish Tables icon for a main parent task. Click Vertical View for a record with the Finish Type of DataServices. Click the Global Variables icon.</description>
+    </item>
+    
+    <item>
+      <title>Default Value Rules</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/default_value_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/default_value_rules/</guid>
+      <description>Default Value Rules Use this page to [Add a Scenario Level Default to a Category](../Use_Cases/Add_a_Scenario_Level_Default_Value_Rule_to_a_Category.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click Vertical View for the category. Click the Rules and Actions tab. Click the Default Value Rules icon.      Field
+ Description
+  NAME
+ Displays the name of the rule.
+  TABLE NAME
+ Displays the table to which the rule is applied.</description>
+    </item>
+    
+    <item>
+      <title>Default WebApp Request Table</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/default-webapp-request-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/default-webapp-request-table/</guid>
+      <description>Default WebApp Request Table Use this page to [Auto-generate Request-related Objects](../Use_Cases/Auto_Generate_Request_related_Objects.htm).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Create Default Web App Request Table and Views icon.  NOTE: This page allows the user to create the request-related objects in the WebApp and the database, and this icon is active if those objects have not been built.</description>
+    </item>
+    
+    <item>
+      <title>Default WebApp Request Table Columns H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/default_webapp_request_table_columns_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/default_webapp_request_table_columns_h/</guid>
+      <description>Default WebApp Request Table Columns H Default WebApp Request Table Columns V
+Use this page to [Auto-generate Request-related Objects](../Use_Cases/Auto_Generate_Request_related_Objects.htm).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane.
+ Click Vertical View for a category.
+ Click the Create Default Web App Request Table and Views icon.
+NOTE: This page allows the user to create the request-related objects in the WebApp and the database, and this icon is active if those objects have not been built.</description>
+    </item>
+    
+    <item>
+      <title>Element Documentation</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/element_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/element_documentation/</guid>
+      <description>Element Documentation Use this page to: - [Upload Documentation at the Role Level](../Use_Cases/Upload_Documentation_at_the_Role_Level.htm) - [Download Documentation at the Role Level](../Use_Cases/Download_Documentation_at_the_Role_Level.htm) - [Upload Documentation at the Task Level](../Use_Cases/Upload_Documentation_at_the_Task_Level.htm) - [Download Documentation at the Task Level](../Use_Cases/Download_Documentation_at_the_Task_Level.htm) - [Upload Documentation at the Scenario Role Level](../Use_Cases/Upload_Documentation_at_the_Scenario_Role_Level.htm) - [Download Documentation at the Scenario Role Level](../Use_Cases/Download_Documentation_at_the_Scenario_Role_Level.htm) - [Upload Documentation at the Scenario Role Task Level](../Use_Cases/Upload_Documentation_at_the_Scenario_Role_Task_Level.htm) - [Download Documentation at the Scenario Role Task Level](../Use_Cases/Download_Documentation_at_the_Scenario_Role_Task_Level.htm) - [Replace an Element Document](.</description>
+    </item>
+    
+    <item>
+      <title>Enabled Columns by Application Role</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/enabled_columns_by_application_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/enabled_columns_by_application_role/</guid>
+      <description>Enabled Columns by Application Role Use this page to [Search for Scenario Role Task Column Assignments while Reviewing a Request](../Use_Cases/Search_for_Scenario_Role_Task_Column_Assignments_while_Reviewing_a_Request.htm) .  To access this page:
+ Select dspConduct &amp;gt; Requests in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for a Review role. Click the Reviewer Workbench icon on the Page toolbar. Click the Column Search icon for a task.    Field</description>
+    </item>
+    
+    <item>
+      <title>IGC Keys</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/igc_keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/igc_keys/</guid>
+      <description>IGC Keys Use this page to Configure IGC™ connection settings in Common. This task is performed when the IGC™ is initially installed. Refer to the *BackOffice Associates® Installation and Upgrade Manual* for more information.  To access this page:
+ Select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters – IGC in the Navigation pane. Click the Keys icon.      Field
+ Description
+  INSTANCE NAME</description>
+    </item>
+    
+    <item>
+      <title>IGC Task H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/igc_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/igc_task/</guid>
+      <description>IGC Task H IGC Task V
+Use this page to: - [Map a dspConduct™ Task to a Task Imported from IGC™](../Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC.htm). - [View Tasks Imported from IGC™ in dspConduct™](../Use_Cases/View_Tasks_Imported_from_IGC_in_dspConduct.htm)  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the IGC Tasks icon.      Field
+ Description
+  NAME
+ Displays the name of the task as imported from IGC™.</description>
+    </item>
+    
+    <item>
+      <title>IGC Task Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/igc_task_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/igc_task_roles/</guid>
+      <description>IGC Task Roles Use this page to view the roles to which the IGC™ task selected on the *[IGC Task](IGC_Task.htm)* page is assigned.  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the IGC Tasks icon. Click the Roles icon.      Field
+ Description
+  ROLE
+ Displays the name of the role to which the IGC™ task selected on the IGC Task page is assigned.</description>
+    </item>
+    
+    <item>
+      <title>My Positions</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/my_positions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/my_positions/</guid>
+      <description>My Positions Use this page to [view your dspConduct™ positions.](../Use_Cases/Manage_Positions.htm)  To access this page:
+ Select dspConduct &amp;gt; Configuration &amp;gt; My Settings in the Navigation pane. Click the Positions icon.      Field
+ Description
+  POSITION ID
+ Displays the position ID.
+  CALENDAR ID
+ Displays the calendar to which the user is assigned.
+NOTE: All users in the position must have the calendar specified at the Position level.</description>
+    </item>
+    
+    <item>
+      <title>My Settings H&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/my_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/my_settings/</guid>
+      <description>My Settings H My Settings V
+Use this page to [set your User Workflow Receipt Preferences](../Config/Set_User_Workflow_Receipt_Preferences.htm).  To access this page, select dspConduct &amp;gt; Security &amp;gt; My Settings in the Navigation pane.
+    Field
+ Description
+  No Workflow
+ Click to receive no notifications when requests to which you have access move through workflow.   Messages Only
+ Click to receive notifications via a message in the DSP®.</description>
+    </item>
+    
+    <item>
+      <title>New Conduct Tasks</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/new_conduct_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/new_conduct_tasks/</guid>
+      <description>New Conduct Tasks Use this page to: - [Map an IGC™ Task to a New Task Based on an Existing Page in the Content WebApp](../Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC.htm#Map_an_IGC_Task_to_a_New_Task_Based_on_an_Existing_Page_in_the_Content_WebApp) - [Map an IGC™ Task to a New Task Based on a New Page in the Content WebApp](../Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC.htm#Map_an_IGC_Task_to_a_New_Task_Based_on_a_New_Page_in_the_Content_WebApp)  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the IGC Tasks icon. Click the Create New Task icon.      Field</description>
+    </item>
+    
+    <item>
+      <title>Org Unit Group Type Values</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/org_unit_group_type_values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/org_unit_group_type_values/</guid>
+      <description>Org Unit Group Type Values Use this page to [add and configure org unit groups, types and values](../Use_Cases/Manage_Org_Units.htm#Add_and_Configure_Org_Unit_Groups,_Types,_and_Values).  To access this page:
+ Select dspConduct &amp;gt; Configuration &amp;gt; Org Units Groups in the Navigation pane Click the Org Units icon for an org unit group. Click the Org Units icon for an org unit ID.      Field
+ Description
+  Include
+ Click to include the org unit value in the org unit group for the org unit type.</description>
+    </item>
+    
+    <item>
+      <title>Org Unit Group Types</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/org_unit_group_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/org_unit_group_types/</guid>
+      <description>Org Unit Group Types Use this page to [add and configure org unit groups, types, and values](../Use_Cases/Manage_Org_Units.htm#Add_and_Configure_Org_Unit_Groups,_Types,_and_Values).  To access this page:
+ Select dspConduct &amp;gt; Configuration &amp;gt; Org Units Groups in the Navigation pane Click the Org Units Icon for an Org Unit Group.           Field Description   ORG UNIT ID Displays the org unit ID.   Org Units Click to open the Org Unit Group Type Values page to configure org unit values to be included for the org unit type.</description>
+    </item>
+    
+    <item>
+      <title>Org Unit Groups</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/org_unit_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/org_unit_groups/</guid>
+      <description> Org Unit Groups Use this page to [add and configure org unit groups, types, and values.](../Use_Cases/Manage_Org_Units.htm#Add_and_Configure_Org_Unit_Groups,_Types,_and_Values)  To access this page, select dspConduct &amp;gt; Configuration &amp;gt; Org Units Groups in the Navigation pane.
+         Field Description   NAME Displays the org unit group name.   Org Units Click to open the Org Unit Group Types page.    </description>
+    </item>
+    
+    <item>
+      <title>Org Units</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/org_units/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/org_units/</guid>
+      <description>Org Units Use this page to [Add Org Units](../Use_Cases/Manage_Org_Units.htm#Add_Org_Units).  To access this page, select dspConduct &amp;gt; Configuration &amp;gt; Org Units in the Navigation pane.
+         Field Description   ORG UNIT Displays name of high-level Org Unit, e.g., Plant or Region or Company.   LIST DATA SOURCE ID Displays the data source that contains the view or table that will be used to provide Org Unit values.</description>
+    </item>
+    
+    <item>
+      <title>Parameters - IGC</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/parameters_igc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/parameters_igc/</guid>
+      <description>Parameters - IGC Use this page to Configure IGC™ Parameters in Common. This task is performed when the IGC is initially installed. Refer to the *BackOffice Associates® Installation and Upgrade Manual* for more information.  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters – IGC in the Navigation pane.
+    Field
+ Description
+  Test Connection
+ Click to test the connection to the web service.</description>
+    </item>
+    
+    <item>
+      <title>Parameters dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/parameters_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/parameters_dspconduct/</guid>
+      <description>Parameters dspConduct™ Use this page to: - [Set Preceding Weeks Count for Dashboards](../Config/Set_Preceding_Weeks_Count_for_Dashboards.htm) - [Set Currency Display Label](../Config/Set_Currency_Display_Label.htm) - [Set Calendar Used For Business Value Calculations](../Config/Set_Calendar_Used_For_Business_Value_Calculations.htm)  To access this page, select Configuration &amp;gt; Setup&amp;gt; Parameters in the Navigation pane.
+Field
+Description
+General
+Application Name
+Displays the name of the component, dspConduct™.
+Version
+Displays current version of dspConduct™.
+Dashboard
+Preceding Weeks Count
+Displays the number of prior weeks to display on the count metrics charts.</description>
+    </item>
+    
+    <item>
+      <title>Position</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position/</guid>
+      <description>Position Use this page to [add a position](../Use_Cases/Add_Position.htm).  To access this page, select dspConduct &amp;gt; Security &amp;gt; Positions in the Navigation pane.
+    Field
+ Description
+  Copy Position
+ Click to open the Copy Position page to copy settings from the selected position to a new position.
+Refer to Copy a Position for more information.
+  Add Org Units From Group
+ Click to open the Add Org Units To Position From Org Unit Group page to add org unit groups to a position.</description>
+    </item>
+    
+    <item>
+      <title>Position Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_business_process/</guid>
+      <description>Position Business Process Use this page to [configure business processes in a position](../Use_Cases/Configure_Business_Processes_in_a_Position.htm).  To access this page:
+ Select dspConduct &amp;gt; Security &amp;gt; Positions in the Navigation pane. Click the Business Processes icon for a position.      Field
+ Description
+  Include
+ Click to include one or more business processes selected on the page in the position.
+  Remove
+ Click to remove one or more business processes selected on the page from the position.</description>
+    </item>
+    
+    <item>
+      <title>Position Category Org Unit1</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_category_org_unit1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_category_org_unit1/</guid>
+      <description>Position Category Org Unit1 Use this page to [configure org unit value assignments at the position level](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_Org_Unit_Value_Assignments_at_the_Position_Level).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane; the Position page displays. Click the Category Org Units icon. Click the Org Unit1 icon for a CATEGORY ID.    Field
+ Description
+  Include
+ Click to include the org unit value for all roles within a category that are included in the position.</description>
+    </item>
+    
+    <item>
+      <title>Position Category OrgUnit2</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_category_org_unit2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_category_org_unit2/</guid>
+      <description>Position Category OrgUnit2 Use this page to [configure org unit value assignments at the position level](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane; the Position page displays. Click the Category Org Units icon. Click the Org Unit2 icon for a CATEGORY ID.      Field
+ Description
+  Include
+ Click to include the org unit value for all roles within a category that are included in the position.</description>
+    </item>
+    
+    <item>
+      <title>Position Category OrgUnit3</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_category_org_unit3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_category_org_unit3/</guid>
+      <description>Position Category OrgUnit3 Use this page to [configure org unit value assignments at the position level](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane; the Position page displays. Click the Category Org Units icon. Click the Org Unit3 icon for a CATEGORY ID.      Field
+ Description
+  Include
+ Click to include the org unit value for all roles within a category that are included in the position.</description>
+    </item>
+    
+    <item>
+      <title>Position Role</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_role/</guid>
+      <description>Position Role Use this page to [configure roles in a position](../Use_Cases/Configure_Roles_in_a_Position.htm).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Click the Roles icon for a position.      Field
+ Description
+  Include
+ Click to include one or more roles selected on the page in the position.
+  Remove
+ Click to remove one or more roles selected on the page from the position.</description>
+    </item>
+    
+    <item>
+      <title>Position Role Org Unit 1</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_role_org_unit_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_role_org_unit_1/</guid>
+      <description>Position Role Org Unit 1 Use this page to: - [Configure org unit value assignments for roles at the role level.](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_Org_Unit_Value_Assignments__at_the_Role_Level) - [Configure the read-only/editable setting for org unit value assignments for roles](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_the_Read_Only_Editable_setting_for_Org_Unit_Value_Assignments_for_Roles).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Click the Roles icon for a position. Click the Org Unit1 icon.      Field
+ Description
+  Set As Read Only</description>
+    </item>
+    
+    <item>
+      <title>Position Role Org Unit 2</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_role_org_unit_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_role_org_unit_2/</guid>
+      <description>Position Role Org Unit 2 Use this page to: - [Configure org unit value assignments for roles at the role level.](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_Org_Unit_Value_Assignments__at_the_Role_Level) - [Configure the read-only/editable setting for org unit value assignments for roles](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_the_Read_Only_Editable_setting_for_Org_Unit_Value_Assignments_for_Roles).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Click the Roles icon for a position. Click the Org Unit 2 icon.      Field
+ Description
+  Set As Read Only</description>
+    </item>
+    
+    <item>
+      <title>Position Role Org Unit 3</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_role_org_unit_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_role_org_unit_3/</guid>
+      <description>Position Role Org Unit 3 Use this page to: - [Configure org unit value assignments for roles at the role level.](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_Org_Unit_Value_Assignments__at_the_Role_Level) - [Configure the read-only/editable setting for org unit value assignments for roles](../Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments.htm#Configure_the_Read_Only_Editable_setting_for_Org_Unit_Value_Assignments_for_Roles).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Click the Roles icon for a position. Click the Org Unit 3 icon.      Field
+ Description
+  Set As Read Only</description>
+    </item>
+    
+    <item>
+      <title>Position User</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/position_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/position_user/</guid>
+      <description>Position User Use this page to [configure users in a position](../Use_Cases/Configure_Users_in_a_Position.htm).  To access this page:
+ Select dspConduct &amp;gt;Security in the Navigation pane. Click the Users icon for a position.      Field
+ Description
+  Include
+ Click to include one or more users selected on the page in the position.
+  Remove
+ Click to remove one or more users selected on the page from the position.</description>
+    </item>
+    
+    <item>
+      <title>Post Workflow Notification</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/post_workflow_notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/post_workflow_notification/</guid>
+      <description>Post Workflow Notification Use this page to [Configure Users who Receive Workflow Notifications for Successful or Failed Postings at the Scenario Role Level.](../Config/Send_Workflow_Notifications_when_a_Post_Fails_or_Succeeds.htm#Configure_Users_who_Receive_Workflow_Notifications_at_the_Scenario_Role_Level)  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click the Scenarios icon for a category. Click the Roles icon for a scenario. Click Vertical View for the Post role. Click the Post Workflow Notification icon.    Field
+ Description</description>
+    </item>
+    
+    <item>
+      <title>Process Templates: After Post Rules H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/process_templates_after_post_rules_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/process_templates_after_post_rules_h/</guid>
+      <description>Process Templates: After Post Rules H Process Templates: After Post Rules V
+Use this page to [Register After Post Rules to a Process Template](../../../Platform/Integrate/Use_Cases/Register_After_Post_Rules_to_a_Process_Template_Overview.htm).  To access this page:
+ Select Integrate &amp;gt; Categories from Navigation pane. Click the Processes icon for a category. Click the Templates icon for a process.    Field
+ Description
+  PRIORITY
+ Displays the order the After Post Rule runs for this process template if multiple rules are assigned.</description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/reports/</guid>
+      <description> Reports Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page, click dspConduct &amp;gt; Reports in the Navigation pane.
+         Field Description   PRIORITY Displays the order the report displays on this page.   REPORT Displays the report name.    </description>
+    </item>
+    
+    <item>
+      <title>Request</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request/</guid>
+      <description>Request This page is used throughout the Posting process. Refer to [Process Requests](../Use_Cases/Process_Requests.htm) for more information.  To access this page click dspConduct &amp;gt;Requests in the Navigation pane.
+         Field Description   REQUEST ID Displays the unique ID generated for the request when it was created in the Content WebApp.   PARENT ID Displays the unique ID generated for the request created in the Content WebApp The request has a parent dependency relationship with the selected request.</description>
+    </item>
+    
+    <item>
+      <title>Request Count By Category</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_count_by_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_count_by_category/</guid>
+      <description> Request Count By Category This chart displays total number of all requests, including archived requests, by category.
+Click a section to drill down to the Active Request for Category.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Dashboards in the Navigation pane. Click Request by Category.  </description>
+    </item>
+    
+    <item>
+      <title>Request Create-Completed Metrics</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_create_completed_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_create_completed_metrics/</guid>
+      <description>Request Create-Completed Metrics This chart displays the number of records on all requests, active and archived, that were created, completed, and removed per week by category so that an organization can analyze the backlog of requests. The metrics can assist with decisions about resource allocation and analysis of potential business process issues.
+Click a chart bar to drill down to the Request Created-Completed Scenario Type Metrics chart.
+Refer to View Charts in dspConduct™ for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Request Created-Completed Scenario Type Metrics</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_created_completed_scenario_type_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_created_completed_scenario_type_metrics/</guid>
+      <description>Request Created-Completed Scenario Type Metrics This chart displays the number of all records on all requests, active and archived, that were created, completed, and removed per week, broken out by the Scenario Types (Create, Change, Org Extend, and Business Extend).
+Click a chart bar to drill down to the *Request* page in the Content WebApp to view active request details.
+Refer to View Charts in dspConduct™ for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Request Group Post</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_group_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_group_post/</guid>
+      <description>Request Group Post Use this page to: - [Post a Request](../Use_Cases/Post_a_Request.htm#Post_a_Request) - [Schedule a Post for a Specified Date and Time](../Use_Cases/Post_a_Request.htm#Schedule_a_Post_for_a_Specified_Date_and_Time)  To access this page:
+ Click dspConduct &amp;gt;Requests in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for the post role. Click the name of the task used to post requests.  Field
+Description
+Request ID
+Displays the unique ID generated for the request when it was created in the Content WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Request Objects Creation Log</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_objects_creation_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_objects_creation_log/</guid>
+      <description>Request Objects Creation Log Use this page to [view a log of objects](../Use_Cases/Auto_Generate_Request_related_Objects.htm#View_the_Request_Objects_Creation_Log) created when the request-related objects are auto-generated.  There are two methods to access the page.
+To access the log at any time:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click the Rules and Actions tab. Click the Request Table and Views Creation Log icon.  The log can also be accessed on the Default WebApp Request Table page by clicking Creation Log in the Page toolbar.</description>
+    </item>
+    
+    <item>
+      <title>Request Post Message</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_post_message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_post_message/</guid>
+      <description>Request Post Message Use this page while [posting a request](../Use_Cases/Post_a_Request.htm#Post_a_Request).  To access this page:
+ Click dspConduct &amp;gt; Request in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for the Post role. Click the TASK ID. Click the Messages icon on the Request Post Process page.    Field
+ Description
+  MESSAGE ID
+ Displays a unique ID for the message.</description>
+    </item>
+    
+    <item>
+      <title>Request Post Process</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_post_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_post_process/</guid>
+      <description>Request Post Process Use this page to [Post a Request](../Use_Cases/Post_a_Request.htm).  To access this page:
+ Click dspConduct &amp;gt; Requests in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for the post role. Click the name of the task used to post requests.    Field
+ Description
+  PRIORITY
+ Displays the order the process runs when posting if the request has multiple processes.</description>
+    </item>
+    
+    <item>
+      <title>Request Post Workflow Notification</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_post_workflow_notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_post_workflow_notification/</guid>
+      <description>Request Post Workflow Notification Use this page to Configure Users who Receive Workflow Notifications for Successful or Failed Postings at the Request Role Level.  To access this page:
+ Click dspConduct &amp;gt; Requests in the Navigation pane. Click the Roles icon for a request. Click Vertical View for the Post role. Click the Request Post Workflow Notification button.    Field
+ Description
+  USER ID</description>
+    </item>
+    
+    <item>
+      <title>Request Predictive</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_predictive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_predictive/</guid>
+      <description> Request Predictive This chart displays an estimate of when a request will be completed based on prior average request processing. Only active requests are used in the calculation.
+Click a bar to drill down to the Request page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Dashboards in the Navigation pane. Click Request Predictive.  </description>
+    </item>
+    
+    <item>
+      <title>Request Review Task</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_review_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_review_task/</guid>
+      <description>Request Review Task Use this page while [reviewing](../Use_Cases/Review_a_Request_Overview.htm), [approving](../Use_Cases/Approve_a_Request.htm) and [rejecting](../Use_Cases/Reject_a_Request.htm) a request.  To access this page:
+ Select dspConduct&amp;gt; Requests in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for a Review role. Click the Reviewer Workbench icon on the Page toolbar.    Field
+ Descriptoin
+  Reject
+ Click to reject the role after entering the rejection reason on the Request Review Task Roles page.</description>
+    </item>
+    
+    <item>
+      <title>Request Review Task Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_review_task_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_review_task_roles/</guid>
+      <description>Request Review Task Roles Use this page while [rejecting a request.](../Use_Cases/Reject_a_Request.htm)  To access this page:
+ Select dspConduct &amp;gt;Requests in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for a Review role. Click the Reviewer Workbench icon on the Page toolbar. Click the Roles icon for the task.           Field Description   ROLE ID Displays the role associated with the task selected on the Request Role Task page.</description>
+    </item>
+    
+    <item>
+      <title>Request Role H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_role_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_role_h/</guid>
+      <description>Request Role H Request Role V
+Use this page to: - [View a Request’s Roles](../Use_Cases/View_a_Requests_Roles.htm) - [Validate a Role](../Use_Cases/Validate_a_Role.htm)  To access this page:
+ Click dspConduct &amp;gt;Requests in the Navigation pane. Click the Roles icon for a request.    Field
+ Description
+  Validate
+ Click to validate the selected role.
+For each of the pages (including child pages) corresponding to the tasks for the request role, the process executes the validation views that have been registered to the pages.</description>
+    </item>
+    
+    <item>
+      <title>Request Role Task</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_role_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_role_task/</guid>
+      <description>Request Role Task Use this page while [rejecting a request.](../Use_Cases/Reject_a_Request.htm)  To access this page:
+ Select dspConduct &amp;gt;Requests in the Navigation pane. Click the Roles icon for a request. Click the Tasks icon for a Review role.    Field
+ Description
+  Reviewer Workbench
+ Click to open the Request Review Task page to review, approve, or reject a task &amp;gt; role combination.
+NOTE: This icon only displays when the Review role is selected on the Request Role page.</description>
+    </item>
+    
+    <item>
+      <title>Request Status</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/request_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/request_status/</guid>
+      <description>Request Status Use this page to [Add a Custom Request Status](../Use_Cases/Add_a_Custom_Request_Status.htm).  To access this page, select dspConduct &amp;gt; Configuration &amp;gt; Setup &amp;gt; Request Status in the Navigation pane.
+    Field
+ Description
+  REQUEST STATUS ID
+ Displays the ID of the request status generated by the system.
+  REQUEST STATUS
+ Displays the name of the request status.
+  IMAGE
+ Displays the image name assigned to the request status.</description>
+    </item>
+    
+    <item>
+      <title>Review Role Audit Details H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/review_role_audit_details_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/review_role_audit_details_h/</guid>
+      <description>Review Role Audit Details H Review Role Audit Details V
+Use this page to [View Request Changes as the Review Role](../Use_Cases/Review_Request_Changes.htm#View_Request_Changes_as_the_Review_Role).  To access this page:
+ Click dspConduct &amp;gt; Requests in the Navigation pane. Click Roles for a request. Click the Tasks icon for the Review role. Click the Review Changes icon for a task.    Field
+ Description
+  REQUEST ID
+ Displays the unique ID generated by the system for the request.</description>
+    </item>
+    
+    <item>
+      <title>Role (Conflicts) H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_conflicts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_conflicts/</guid>
+      <description>Role (Conflicts) H Role (Conflicts) V
+Use this page to [Add a Conflict to a Role](../Use_Cases/Add_a_Conflict_to_a_Role.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the Roles icon for a category. Click the Conflicts icon for a role.           Field Description   CONFLICT ROLE ID Displays the role that is in conflict with the role selected on the Role page.</description>
+    </item>
+    
+    <item>
+      <title>Role (Tasks)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_task/</guid>
+      <description>Role (Tasks) Use this page to [Add a Task to a Role](../Use_Cases/Add_a_Task_to_a_Role.htm).  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click the Roles icon for a category. Click the Tasks icon for a role.  NOTE: If a task was assigned to a role and imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that role task.</description>
+    </item>
+    
+    <item>
+      <title>Role Average Completion Time</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_average_completion_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_average_completion_time/</guid>
+      <description>Role Average Completion Time Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click Role Average Completion Time.           Field Description   CATEGORY ID Display the category that contains the role.   ROLE ID Displays the role ID.   DURATION Display the average time taken to complete the role.</description>
+    </item>
+    
+    <item>
+      <title>Role Dependencies</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_dependencies/</guid>
+      <description>Role Dependencies Use this page to [Add Dependencies to Roles](../Use_Cases/Role_Dependencies.htm#Add_Dependencies_to_Roles).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Roles icon for a category. Click the Dependencies icon for a role.  NOTE: If a role dependency was imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that role dependency.</description>
+    </item>
+    
+    <item>
+      <title>Role Dependency Condition</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_dependency_condition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_dependency_condition/</guid>
+      <description>Role Dependency Condition Use this page to [View the Dependency Relationships for a Data-Driven Dependency Condition](../Use_Cases/Add_Data_Driven_Dependency_Conditions.htm#View_the_Dependency_Relationships_for_a_Data_Driven_Dependency_Condition).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click Vertical View for the category. Click the Conditions icon. Click the ROLE DEPENDENCIES icon.           Field Description   ROLE ID Displays the role ID to which the dependency condition is applied.</description>
+    </item>
+    
+    <item>
+      <title>Role Dependency Condition Assignment</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_depend_cond_assin_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_depend_cond_assin_page/</guid>
+      <description>Role Dependency Condition Assignment Use this page to [Assign a Condition to a Role Dependency Relationship](../Use_Cases/Role_Dependencies.htm#Assign_a_Condition_to_a_Role_Dependency_Relationship).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Roles icon for a category. Click the Dependencies icon for a scenario. Click the Conditions icon for a scenario dependency.           Field Description   Assign Click to assign one or more selected conditions to the role.</description>
+    </item>
+    
+    <item>
+      <title>Role H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_h_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_h_dspconduct/</guid>
+      <description>Role H Role V
+Use this page to [Add a Role](../Use_Cases/Add_a_Role.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Roles icon for a category.  NOTE: If a role was imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that role. Refer to Update Custom Attributes for Governance Elements for more information.</description>
+    </item>
+    
+    <item>
+      <title>Role Predictive</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_predictive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_predictive/</guid>
+      <description>Role Predictive This chart displays overall role comparison of completion dates for active requests from the average running role. This dashboard shows based on predictions which role will be the best and worst performing.
+Click a bar to drill down to the Request page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Role Request Duration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_request_duration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_request_duration/</guid>
+      <description>Role Request Duration When accessed from the Category page’s Vertical View, this chart displays the average duration in days of active requests for all roles in the category. When accessed from the Role page’s Vertical View, this chart displays the average duration of active requests for the selected role.
+Click a bar to drill down to the Role page.
+Refer to View Charts in dspConduct™ for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Role Scenario Request Duration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/role_scenario_request_duration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/role_scenario_request_duration/</guid>
+      <description>Role Scenario Request Duration This chart displays the average duration in days of active requests of all roles in a selected scenario.
+Click a bar to drill down to the Role page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart:
+ Select dspConduct &amp;gt; Dashboards in the Navigation pane. Click Duration Metrics. Click a bar on the Category Request Duration chart. Click a bar on the Business Process Request Duration chart.</description>
+    </item>
+    
+    <item>
+      <title>SLA Percent On Time by Business Process</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_ontime_by_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_ontime_by_business_process/</guid>
+      <description>SLA Percent On Time by Business Process When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete. When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>SLA Percent On Time by Business Process Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_business_process_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_business_process_details/</guid>
+      <description>SLA Percent On Time by Business Process Details Use this page to view details for the SLA Percent On Time by Business Process chart based on active requests.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click Metrics tab. Click SLA Business Process; the details page displays in the child pane.           Field Description   CATEGORY Displays the category on which the chart is based.</description>
+    </item>
+    
+    <item>
+      <title>SLA Percent On Time by Role</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_role/</guid>
+      <description>SLA Percent On Time by Role When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete. When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>SLA Percent On Time by Role Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_role_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_role_details/</guid>
+      <description>SLA Percent On Time by Role Details Use this page to view details for the SLA Percent On Time by Role chart.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click Metrics tab. Click SLA Role; the details page displays in the child pane.           Field Description   CATEGORY Displays the category on which the chart is based.</description>
+    </item>
+    
+    <item>
+      <title>SLA Percent On Time by Scenario</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_scenario/</guid>
+      <description>SLA Percent On Time by Scenario When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete. When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>SLA Percent On Time by Scenario Details</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_scenario_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/sla_percent_on_time_by_scenario_details/</guid>
+      <description>SLA Percent On Time by Scenario Details Use this page to view details for the SLA Percent On Time by Scenario chart, based on active requests.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click Vertical View for a category. Click Metrics tab. Click SLA Scenario; the details page displays in the child pane.           Field Description   CATEGORY Displays the category on which the chart is based.</description>
+    </item>
+    
+    <item>
+      <title>Scenario (Default Rules)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_default_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_default_rules/</guid>
+      <description>Scenario (Default Rules) Use this page to [Assign a Default Value Rule to a Scenario.](../Use_Cases/Assign_a_Default_Value_Rule_to_a_Scenario.htm)  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon for a category. Click the DefaultRules icon.      Field
+ Description
+  DEFAULT RULE ID
+ Displays the rule ID of the rule applied to the scenario.
+The options available in this list box were added on the Default Value Rules page.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Business Process Request Duration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_bp_request_duration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_bp_request_duration/</guid>
+      <description>Scenario Business Process Request Duration This chart displays the average duration in days of active requests for all scenarios in a selected business process.
+Click a bar to drill down to the Role Scenario Request Duration chart.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access the chart:
+ Select dspConduct &amp;gt; Dashboards in the Navigation pane. Click Duration Metrics. Click a bar on the Category Request Duration chart.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Dependency Condition</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_dependency_condition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_dependency_condition/</guid>
+      <description>Scenario Dependency Condition Use this page to [View the Dependency Relationships for a Data-Driven Dependency Condition](../Use_Cases/Add_Data_Driven_Dependency_Conditions.htm#View_the_Dependency_Relationships_for_a_Data_Driven_Dependency_Condition).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click Vertical View for the category. Click the Conditions icon. Click the SCENARIO DEPENDENCIES icon.           Field Description   SCENARIO ID Displays the scenario ID to which the dependency condition is applied.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Dependency Condition Assignment</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_dependency_condition_assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_dependency_condition_assignment/</guid>
+      <description>Scenario Dependency Condition Assignment Use this page to [Assign a Condition to a Scenario Dependency Relationship](../Use_Cases/Assign_a_Condition_to_a_Scenario_Dependency_Relationship.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the Scenario icon for a category. Click the Dependencies icon for a scenario. Click the Conditions icon for a scenario dependency.           Field Description   Assign Click to assign one or more selected conditions to the scenario.</description>
+    </item>
+    
+    <item>
+      <title>Scenario H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_h/</guid>
+      <description>Scenario H Scenario V
+Use this page to: - [Add a Scenario](../Use_Cases/Add_Scenario.htm) - [Deactivate a Scenario](../Use_Cases/Deactivate_Scenario.htm) - [Add a Role to a Scenario](../Use_Cases/Add_a_Role_to_a_Scenario.htm) - [Add a Dependent Scenario to a Scenario](../Use_Cases/Add_a_Dependent_Scenario.htm) - [Add a Process to a Scenario](../Use_Cases/Add_an_Integrate_Process_to_a_Scenario.htm)  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane; the Category page displays. Click the Scenario icon for the category.  NOTE: If a scenario was created and imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that scenario.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Predictive</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_predictive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_predictive/</guid>
+      <description>Scenario Predictive This chart displays overall scenario comparison of completion dates for active requests from the average running scenario. This dashboard shows based on predictions which scenario will be the best and worst performing.
+Click a bar to drill down to the Request page.
+Refer to View Charts in dspConduct™ for general information about chart features.
+To access this chart in dspConduct™:
+ Select dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Process H  </title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_process/</guid>
+      <description>Scenario Process H Scenario Process V
+Use this page to [Add a Process to a Scenario](../Use_Cases/Add_an_Integrate_Process_to_a_Scenario.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon for a category. Click the Processes icon for a scenario.    Field
+ Description
+  INTEGRATE PROCESS ID
+ Displays the Integrate process ID associated with this scenario.
+NOTE: The processes that display in this list box are ones that have been set as allowable at the category level.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Process Rule</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_process_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_process_rule/</guid>
+      <description>Scenario Process Rule Use this page to [Add Process Rules at the Scenario Level](../Use_Cases/Add_Process_Rules_at_the_Scenario_Level.htm).  To access this page:
+ Click dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon for a category. Click the Processes icon for a scenario. Click the Rules icon.    Field
+ Description
+  PRIORITY
+ Displays the order the rule runs if multiple rules are assigned to a scenario process.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Process Target Connection</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_process_target_connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_process_target_connection/</guid>
+      <description>Scenario Process Target Connection Use this page to [View and Configure External Target Systems for a Scenario](../Use_Cases/View_and_Configure_External_Target_Systems_Scnrio.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon for a category on the Category page. Click the Processes icon. Click the Target Connection icon.      Field
+ Description
+  SCENARIO
+ Displays the scenario ID. Refer to Manage dspConduct™ Scenarios for more information.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Request Duration</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_request_duration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_request_duration/</guid>
+      <description>Scenario Request Duration When accessed from the Category page’s Vertical View, this chart displays the average duration in days of active requests for all scenarios in the category. When accessed from the Scenario page’s Vertical View, this chart displays the average duration of active requests for the selected scenario.
+Click a bar to drill down to the Role Scenario Request Duration chart.
+Refer to View Charts in dspConduct™ for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Role Event</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_event/</guid>
+      <description>Scenario Role Event Use this page to [add a custom business rule](../Use_Cases/Add_Custom_Business_Rules.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon. Click the Roles icon for a scenario. Click the Events icon for a role.      Field
+ Description
+  EVENT ID
+ Displays the name of the event to which custom business rules are registered. Values are:</description>
+    </item>
+    
+    <item>
+      <title>Scenario Role Event Rule</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_event_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_event_rule/</guid>
+      <description>Scenario Role Event Rule Use this page to [add a custom business rule](../Use_Cases/Add_Custom_Business_Rules.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigation pane. Click the Scenarios icon for a category on the Category page. Click the Roles icon for a scenario. Click the Events icon for a role. Click the Rules icon for an event.      Field
+ Description
+  PRIORITY</description>
+    </item>
+    
+    <item>
+      <title>Scenario Role Task Column H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_column_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_column_h/</guid>
+      <description>Scenario Role Task Column H Scenario Role Task Column V
+Use this page to: - [Activate and Configure Column Variants](../Use_Cases/Activate_Configure_Column_Variants.htm) - [Update a Scenario Role Task Column List](../Use_Cases/Update_a_Scenario_Role_Task_Column_List.htm) - [Copy Settings to Other Variants](../Use_Cases/Copy_Settings_to_Other_Variants.htm) - [Configure Column Status for a Task for a Scenario Role Combination](../Use_Cases/Configure_Column_Status_for_a_Scenario_Role_Task.htm) - [Configure the Required Setting for a Scenario Role Task Column](../Use_Cases/Configure_Required_Setting_Scenario_Role_Task_Column.htm) - [Create Validation Views for a Content WebApp Task Page](../Use_Cases/Create_ValidationViews_Content_Page.htm)  To access this page:</description>
+    </item>
+    
+    <item>
+      <title>Scenario Role Task H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_h/</guid>
+      <description>Scenario Role Task H Scenario Role Task V
+Use this page to [Deactivate a Task for a Scenario and Role](../Use_Cases/Deactivate_a_Task_for_a_Scenario_Role_Combo.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon. Click the Roles icon. Click the Tasks icon.      Field
+ Description
+  SCENARIO ID
+ Displays the name of the scenario.
+Refer to Manage dspConduct™ Scenarios for more information.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Role Task Page</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_page/</guid>
+      <description>Scenario Role Task Page Use this page to: - [Generate a Control Table for Content WebApp Pages](../Use_Cases/Generate_a_Control_Table_for_Content_WebApp_Pages.htm) - [Update Control Table Data](../Use_Cases/Update_Control_Table_Data.htm) - [Generate Control Views for Content WebApp Pages](../Use_Cases/Generate_Control_Views_for_Content_WebApp_Pages.htm) - [Create Validation Views for a Content WebApp Task Page](../Use_Cases/Create_ValidationViews_Content_Page.htm)  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click the Scenarios icon for a category. Click the Roles icon for a scenario. Click the Tasks icon for a role.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Role Task Variant</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_variant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_task_variant/</guid>
+      <description>Scenario Role Task Variant Use this page to [Activate and Configure Column Variants](../Use_Cases/Activate_Configure_Column_Variants.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenarios icon for a category on the Category page. Click the Roles icon. Click the Tasks icon on the Scenario (Roles) page. Click the Variants icon;      Field
+ Description
+  Activate
+ Click to activate the column variant.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Type</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_type/</guid>
+      <description>Scenario Type Use this page to [Configure Scenario Types](../Use_Cases/Configure_Scenario_Types.htm).  To access this page, click dspConduct &amp;gt; Configuration &amp;gt; Setup &amp;gt; Scenario Type in the Navigation pane.
+    Field
+ Description
+  SCENARIO TYPE
+ Displays the name of the delivered scenario type or a custom scenario type if one was added.
+dspConduct™ is delivered with these scenario types:
+ Create - Creates new business objects, such as materials, customers, vendors, profit centers, GL accounts, etc.</description>
+    </item>
+    
+    <item>
+      <title>Scenario Use In Other Category</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_use_in_other_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_use_in_other_category/</guid>
+      <description>Scenario Use In Other Category Use this page to [Allow a Scenario to be used in other Categories](../Use_Cases/Allow_a_Scenario_to_be_used_in_Other_Categories.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation pane. Click the Scenario icon for the category. Click Vertical View for a scenario. Click the Use In Other Category icon.           Field Description   NAME Displays the scenario name.</description>
+    </item>
+    
+    <item>
+      <title>Scenario, Role SLA Percent On Time</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_sla_percent_ontime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenario_role_sla_percent_ontime/</guid>
+      <description>Scenario, Role SLA Percent On Time When a request is submitted, a due date for each of the request’s roles is calculated based on the Work Days, Hours and Minutes SLA settings for the role. As request roles are finished, new due dates are calculated for subsequent roles whose dependencies are complete.  When charts are produced, these due dates are used to determine the percent on time values for the specific design element (i.</description>
+    </item>
+    
+    <item>
+      <title>Scenarios (Dependencies)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenarios_dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenarios_dependencies/</guid>
+      <description>Scenarios (Dependencies) Use this page to [Add a Dependent Scenario to a Scenario](../Use_Cases/Add_a_Dependent_Scenario.htm).  To access this page:
+ Select dspConduct &amp;gt; Design in the Navigationpane. Click the Scenarios icon for a category.. Click the Dependencies icon.      Field
+ Description
+  DEPENDENT SCENARIO ID
+ Displays the dependent scenario ID. Click to open the Scenario page. Refer to Manage dspConduct™ Scenarios for more information.</description>
+    </item>
+    
+    <item>
+      <title>Scenarios (Roles) H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/scenarios_roles_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/scenarios_roles_h/</guid>
+      <description>Scenarios (Roles) H Scenarios (Roles) V
+Use this page to [Add a Role to a Scenario](../Use_Cases/Add_a_Role_to_a_Scenario.htm).  To access this page:
+ Select dspConduct &amp;gt;Designin the Navigationpane. Click the Scenarios icon. Click the Roles icon.  NOTE: If a role was assigned to a scenario and imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that scenario role.</description>
+    </item>
+    
+    <item>
+      <title>Task Final Finish Tables H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_final_finish_tables_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_final_finish_tables_h/</guid>
+      <description>Task Final Finish Tables H Task Final Finish Tables V
+Use this page to: - [Configure Data Download During the Final Finish Process to use a Data Services Job](../Use_Cases/Configure_Data_Download_During_the_Final_Finish_Process_to_use_a_Data_Services_Job.htm) - [Configure Data Download During the Final Finish Process to use a CranPort Package](../Use_Cases/Configure_Data_Download_During_the_Final_Finish_Process_to_use_a_CranPort_Package.htm) - [Configure Data Download During the Final Finish Process to use a DBMoto Package](../Use_Cases/Configure_FinalFinish_DBMoto.htm)  To access this page:
+ Click dspConduct &amp;gt; Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Task Final Finish Where Clause</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_final_finish_where_clause/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_final_finish_where_clause/</guid>
+      <description>Task Final Finish Where Clause Use this page to Create a Final Finish Where Clause for a CranPort Package.
+To access this page: 1. Click dspConduct \ Design in the *Navigation* pane. 2. Click the **Tasks** icon for a category. 3. Click the **Final Finish Tables** icon for a main parent task. 4. Click **Vertical View** for a table. 5. Click the **Where Clause Builder** icon.      Field</description>
+    </item>
+    
+    <item>
+      <title>Task H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_h/</guid>
+      <description>Task H Task V
+Use this page to [Add a Task](../Use_Cases/Add_a_Task.htm).  To access this page:
+ Click dspConduct &amp;gt;Design in the Navigation pane. Click the Tasks icon for a category.  NOTE: If a task was imported from IGC™, data that was entered in IGC™ cannot be updated from within dspConduct™, and many of the fields and icons associated with the record are not active for that task. Refer to Update Custom Attributes for Governance Elements for more information.</description>
+    </item>
+    
+    <item>
+      <title>Task Import Required Columns</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_import_required_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_import_required_columns/</guid>
+      <description>Task Import Required Columns Use this page to [Import a Task View for a Category.](../Use_Cases/Import_Views.htm#Import_a_Task_View_for_a_Category)  To access this page:
+ Select dspConduct &amp;gt;Configuration &amp;gt; Category Import View Configuration in the Navigation pane. Click the Task Import Required Columns icon in the Page toolbar.           Field Description   STAGING COLUMN Displays the required column that must be in the task view when importing the view into a category.</description>
+    </item>
+    
+    <item>
+      <title>Task Import Staging</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_import_staging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_import_staging/</guid>
+      <description>Task Import Staging Use this page to [Import a Task View for a Category](../Use_Cases/Import_Views.htm#Import_a_Task_View_for_a_Category).  To access this page:
+ Select dspConduct &amp;gt; Configuration &amp;gt; Category Import View Configuration in the Navigation pane. Select a category. Click the Import Tasks icon.      Field
+ Description
+  Import
+ Click to import the task view.
+NOTE: Optional fields for task import are comments and instructions. If included in the view they are imported.</description>
+    </item>
+    
+    <item>
+      <title>Task Page H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_page_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_page_h/</guid>
+      <description>Task Page H Task Page V
+Use this page to [View all Pages for a Task](../Use_Cases/View_all_Pages_for_a_Task.htm).  To access this page
+ Click dspConduct &amp;gt; Design in the Navigation pane. Click the Tasks icon for a category. Click the Pages icon for a task.    Field
+ Description
+  Update Page List
+ Click to update the list of child pages assigned to the selected page and to update all the scenario role tasks to which that task is assigned.</description>
+    </item>
+    
+    <item>
+      <title>Task Variant</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/task_variant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/task_variant/</guid>
+      <description>Task Variant Use this page to [Add a Variant to a Task](../Use_Cases/Add_a_Variant_to_a_Task.htm).  To access this page:
+ Select dspConduct &amp;gt;Design in the Navigation panes. Click the Tasks icon for a category. Click the Variants icon for a task.      Field
+ Description
+  NAME
+ Displays the variant name.
+NOTE: To assist with consistent naming of variants across tasks, when entering a variant name, similarly named variants entered previously are displayed for selection.</description>
+    </item>
+    
+    <item>
+      <title>Total Hours Saved (by Business Process)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/total_hours_saved_by_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/total_hours_saved_by_business_process/</guid>
+      <description>Total Hours Saved (by Business Process) This chart displays the hours saved for the of business processes in a category. When accessed from the Business Process page’s Vertical View the chart displays the hours saved of the selected business process.
+The hours saved calculations are based on the user-entered baseline value for number of working hours that it took to complete a business process manually before the process was automated using dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Total Hours Saved (by Category)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/total_hours_saved_by_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/total_hours_saved_by_category/</guid>
+      <description>Total Hours Saved (by Category) This chart displays the total hours saved for all business processes in a category based on the user-entered baseline value for number of working hours that it took to complete a business process manually before the process was automated using dspConduct™. Refer to Configure Business Value Parameters for information about setting the baseline hours value.
+Click a bar to drill down to the Total Hours Saved (by Business Process) chart.</description>
+    </item>
+    
+    <item>
+      <title>Total Money Saved (by Business Process)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/total_money_saved_by_business_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/total_money_saved_by_business_process/</guid>
+      <description>Total Money Saved (by Business Process) This chart displays the money saved for the business processes in a category. When accessed from theBusiness Process page’s Vertical View the chart displays the money saved for the selected business process.
+The money saved calculations are based on the user-entered baseline value for average per hour of all costs, including fixed costs, associated with completing a business process manually before the process was automated using dspConduct™.</description>
+    </item>
+    
+    <item>
+      <title>Total Money Saved (by Category)</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/total-money-saved-by-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/total-money-saved-by-category/</guid>
+      <description>Total Money Saved (by Category) This chart displays the total money saved for all business processes in a category based on the user-entered baseline value for average per hour of all costs, including fixed costs, associated with completing a business process manually before the process was automated using dspConduct™. Refer to Configure Business Value Parameters for information about setting the average cost per hour value.
+Click a bar to drill down to the Total Money Saved (by Business Process) chart.</description>
+    </item>
+    
+    <item>
+      <title>Unassigned Business Processes</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/unassigned_business_processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/unassigned_business_processes/</guid>
+      <description>Unassigned Business Processes Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click Unassigned Business Processes.           Field Description   CATEGORY ID Displays the category that contains the business process.   BUSINESS PROCESS ID Displays the business process id to which no security access is assigned.</description>
+    </item>
+    
+    <item>
+      <title>Unassigned Org Unit 1</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/unassigned_org_unit_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/unassigned_org_unit_1/</guid>
+      <description>Unassigned Org Unit 1 Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click Unassigned Org Unit 1.           Field Description   CATEGORY ID Displays the category that contains the org unit.   ORG UNIT1TYPE Displays the org unit type.   ORG UNIT VALUE Displays the org unit value to which no security access has been assigned.</description>
+    </item>
+    
+    <item>
+      <title>Unassigned Org Unit 2</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/unassigned_org_unit_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/unassigned_org_unit_2/</guid>
+      <description>Unassigned Org Unit 2 Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click Unassigned Org Unit 2.           Field Description   CATEGORY ID Displays the category that contains the org unit.   ORG UNIT2TYPE Displays the org unit type.   ORG UNIT VALUE Displays the org unit value to which no security access has been assigned.</description>
+    </item>
+    
+    <item>
+      <title>Unassigned Org Unit 3</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/unassigned_org_unit_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/unassigned_org_unit_3/</guid>
+      <description>Unassigned Org Unit 3 Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click Unassigned Org Unit 3.           Field Description   CATEGORY ID Displays the category that contains the org unit.   ORG UNIT3TYPE Displays the org unit type.   ORG UNIT VALUE Displays the org unit value to which no security access has been assigned.</description>
+    </item>
+    
+    <item>
+      <title>Unassigned Roles</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/unassigned_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/unassigned_roles/</guid>
+      <description>Unassigned Roles Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click Unassigned Roles.           Field Description   CATEGORY ID Displays the category that contains the role.   ROLE ID Displays the role with no security assignment.   ACTIVE IN SCENARIO If enabled, the role is active in a scenario.</description>
+    </item>
+    
+    <item>
+      <title>User Business Processes</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_business_processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_business_processes/</guid>
+      <description>User Business Processes Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click User Business Processes.           Field Description   USER ID Displays the user assigned to the business process.   CATEGORY ID Displays the category that contains the business process.   BUSINESS PROCESS ID Displays the business process assigned to the user.</description>
+    </item>
+    
+    <item>
+      <title>User Framework Role</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_framework_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_framework_role/</guid>
+      <description> User Framework Role Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click User Framework Role.           Field Description   USER ID Displays the framework users ID.   ROLE ID Displays the framework role to with the user is assigned.    </description>
+    </item>
+    
+    <item>
+      <title>User Position</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_position/</guid>
+      <description>User Position Use this page to [configure dspConduct™ positions for a user.](../Use_Cases/Configure_dspConduct_Positions_for_a_User.htm)  To access this page:
+ Select dspConduct &amp;gt; Configuration &amp;gt; User Settings in the Navigation pane. Click the Positions icon.    Field
+ Description
+  Include
+ Click to include one or more positions selected on the page for the user.
+  Remove
+ Click to remove one or more positions selected on the page from the user.</description>
+    </item>
+    
+    <item>
+      <title>User Role Org Unit 1</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_role_org_unit_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_role_org_unit_1/</guid>
+      <description>User Role Org Unit 1 Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click User Role Org Unit 1.           Field Description   USER ID Displays the name of the user that has security access to the org unit value.   CATEGORY ID Displays the category that contains the org unit.</description>
+    </item>
+    
+    <item>
+      <title>User Role Org Unit 2</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_role_org_unit_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_role_org_unit_2/</guid>
+      <description>User Role Org Unit 2 Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click User Role Org Unit 2.           Field Description   USER ID Displays the name of the user that has security access to the org unit value.   CATEGORY ID Displays the category that contains the org unit.</description>
+    </item>
+    
+    <item>
+      <title>User Role Org Unit 3</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_role_org_unit_3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_role_org_unit_3/</guid>
+      <description>User Role Org Unit 3 Use this page to [view reports in dspConduct™](../Use_Cases/View_Reports_in_dspConduct.htm).  To access this page:
+ Click dspConduct &amp;gt; Reports in the Navigation pane. Click User Role Org Unit 3.           Field Description   USER ID Displays the name of the user that has security access to the org unit value.   CATEGORY ID Displays the category that contains the org unit.</description>
+    </item>
+    
+    <item>
+      <title>User Settings H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/user_settings_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/user_settings_h/</guid>
+      <description>User Settings H User Settings V
+Use this page to [set User Workflow Receipt Preferences.](../Config/Set_User_Workflow_Receipt_Preferences.htm)  To access this page, in the Navigation pane, select dspConduct &amp;gt; Security or, if the Security menu is expanded, click User Settings.
+NOTE: The name this page displays is based on the current user&amp;rsquo;s security settings. If the user is an Administrator, the page is called User Settings. When a non-Administrator access the page, it is called My User Settings.</description>
+    </item>
+    
+    <item>
+      <title>Variant Column Import Staging</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/variant_column_import_staging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/variant_column_import_staging/</guid>
+      <description>Variant Column Import Staging Use this page to [Import a Variant View for a Category](../Use_Cases/Import_Views.htm#Import_a_Variant_View_for_a_Category).  To access this page:
+ Select dspConduct &amp;gt;Configuration &amp;gt; Category Import View Configuration in the Navigation pane. Select a category. Click the Import Variants icon. Click the Columns icon.      Field
+ Description
+  Activate
+ Click to enable the ACTIVE check box for selected variants.
+  Deactivate</description>
+    </item>
+    
+    <item>
+      <title>Variant Import Required Columns</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/variant_import_required_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/variant_import_required_columns/</guid>
+      <description>Variant Import Required Columns Use this page to [Import a Variant View for a Category.](../Use_Cases/Import_Views.htm#Import_a_Variant_View_for_a_Category)  To access this page:
+ Select dspConduct &amp;gt;Configuration &amp;gt; Category Import View Configuration in the Navigation pane. Click the Variant Import Required Columns icon.           Field Description   STAGING COLUMN Displays the required column that must be in the variant view when importing the view into a category.</description>
+    </item>
+    
+    <item>
+      <title>Variant Import Staging</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/variant_import_staging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/variant_import_staging/</guid>
+      <description>Variant Import Staging Use this page to [Import a Variant View for a Category](../Use_Cases/Import_Views.htm#Import_a_Variant_View_for_a_Category).  To access this page:
+ Select dspConduct &amp;gt;Configuration &amp;gt; Category Import View Configuration in the Navigation pane. Click the Variant Import Required Columns icon.      Field
+ Description
+  Import
+ Click to import the variant view.
+NOTE: Import only adds or removes variants. Existing variants in the WebApp are not deleted.</description>
+    </item>
+    
+    <item>
+      <title>Workflow Message Defaults</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/workflow_message_defaults/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/workflow_message_defaults/</guid>
+      <description>Workflow Message Defaults Use this page to[View Default Workflow Messages](../Config/View_Default_Workflow_Messages.htm).  To access this page, select dspConduct &amp;gt; Configuration &amp;gt; Messaging in the Navigation pane.   Field
+ Description
+  EVENT
+ Displays the event that triggers the workflow email to be sent.
+NOTE: The name must be unique to the category. The Event name cannot be updated for default events.
+  SUBJECT
+ Displays the subject line of the workflow email.</description>
+    </item>
+    
+    <item>
+      <title>dspConduct Task H</title>
+      <link>https://heathercloward.github.io/dspconduct/page_desc/dspconduct_task_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/page_desc/dspconduct_task_h/</guid>
+      <description>dspConduct Task H dspConduct Task V
+Use this page to [View dspConduct Pages that are Assigned to Roles](../Use_Cases/View_a_Roles_dspConduct_Pages.htm).  To access this page select dspConduct &amp;gt; Configuration &amp;gt; Setup &amp;gt; dspConduct Task in the Navigation pane.
+  Field
+ Description
+  TASK ID
+ Displays the name of the task. Refer to Add a Task in dspConduct™ for more information.
+  TYPE
+ Displays the task type.</description>
+    </item>
+    
+  </channel>
+</rss>

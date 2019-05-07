@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Configure the Migration Dashboard :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/agent/" class="active">Agent Interface Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/agent/config/" class="">Agent Int Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/agent/config/add_a_backoffice_igc_connector_agent_url_in_dsp/" class="">Add a BackOffice IGC Connector Agent URL in DSP</a></li>
+        
+            <li >
+                <a href="/agent/config/install_the_backoffice_igc_connector_agent_service/" class="">Install the BackOffice IGC Connector Agent Service</a></li>
+        
+            <li >
+                <a href="/agent/config/set_up_and_configuration_for_a_backoffice_igc_connector_agent-interface/" class="">Set up and Configuration for a BackOffice IGC Connector Agent</a></li>
+        
+            <li >
+                <a href="/agent/config/test_a_backoffice_igc_agent_connection_in_dsp/" class="">Test a BackOffice IGC Agent Connection in DSP</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/agent/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/agent/page_desc/api_ping_agent/" class="">API Ping Agent</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/api_status_log/" class="">API Status Log</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/data_quality_report_assignment/" class="">Data Quality Report Assignment</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/parameters/" class="">Parameters</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/wave_identification_h/" class="">Wave Identification H</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/wave_milestones_h/" class="">Wave Milestones H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/agent/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/agent/use_cases/configure_the_migration_dashboard/" class="uk-active">Configure the Migration Dashboard</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Agent</a></li>
+        <li><span>Configure the Migration Dashboard</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="configure-the-migration-dashboard">Configure the Migration Dashboard</h1>
+
+<p>After the Agent Interface has been <a href="../Config/Set_up_and_Configuration_for_a_BackOffice_IGC_Connector_Agent%20Interface.htm">installed and
+configured</a>,
+configure the Migration dashboard in the DSP®.</p>
+
+<p>Configure a wave within the DSP to send data to the Dashboard after the
+initial structure of the Wave (Wave, Process Areas and Objects) has been
+defined and the first steps of Target Design have begun. The first
+metrics displayed on the Dashboard are that of Design Complete, thus
+there is no requirement to configure the Wave to send metrics data to
+the Dashboard until after Target Design has started.</p>
+
+<p>To configure the Migration dashboard:</p>
+
+<ol>
+<li><p>Enter the <strong>Start Date</strong> and <strong>End Date</strong> for the active wave on the
+<em>Vertical</em> View of the
+<em><a href="../../../Migration/Console/Page_Desc/Waves_H.htm">Waves</a></em> page in
+Console.</p>
+
+<p><strong>NOTE:</strong> To view Quality metrics, the wave must have opportunity
+and error reports created and registered against one or more of the
+targets assigned to the objects in the wave.</p></li>
+
+<li><p>Select <strong>Agent Interface &gt; Dashboards &gt; Migration Dashboard</strong> in
+the <em>Navigation</em> pane.</p>
+
+<p><strong>NOTE:</strong> All active waves across all contexts display on the <em><a href="../Page_Desc/Wave_Identification_H.htm">Wave
+Identification</a></em> page.</p></li>
+
+<li><p>Click the <strong>SEND WAVE AND MILESTONE METRICS</strong> check box to include
+the wave in the Migration dashboard.</p>
+
+<p><strong>NOTE:</strong> Two milestones are added by default for the start date and
+end date when this check box is checked. The thresholds for the
+start date are set to 0% for all values. The thresholds for the end
+date are set at 100% for all values, except the data quality
+thresholds, which are set to 6 and 7 sigma thresholds.</p></li>
+
+<li><p>Click the <strong>Milestones</strong> icon for the wave.</p></li>
+
+<li><p>Either:</p>
+
+<ul>
+<li><p>Click <strong>Add</strong> to add a milestone or</p></li>
+
+<li><p>Select the <strong>START</strong> or <strong>END</strong> milestone and click <strong>Edit</strong>.</p>
+
+<p><a href="../Page_Desc/Wave_Milestones_H.htm">View the field descriptions for the Wave Milestones
+page</a></p></li>
+</ul></li>
+
+<li><p>Enter a name for the milestone in the <strong>NAME</strong> field.</p>
+
+<p><strong>NOTE:</strong> This name cannot be the same name as another milestone in
+the wave.</p></li>
+
+<li><p>Enter a four-character version of the name in the <strong>ABBREVIATION</strong>
+field.</p>
+
+<p><strong>NOTE:</strong> This abbreviation displays on the Migration dashboard, and
+cannot be the same abbreviation as an abbreviation for another
+milestone in the wave.</p></li>
+
+<li><p>Click the <strong>MILESTONE DATE</strong> date picker and select a date by which
+the milestone must be completed.</p>
+
+<p><strong>NOTE:</strong> If the user adds a milestone, the date must be after the
+wave’s start date and before the wave’s end date.</p>
+
+<p><strong>NOTE:</strong> The date cannot be the same date as another milestone date
+in the wave.</p>
+
+<p><strong>NOTE</strong>: A milestone added for the current date does not display on
+the Migration dashboard.</p>
+
+<p><strong>NOTE:</strong> The REQUIRED check box is selected by default for the
+Start Date and End Date milestones. These milestones cannot be
+deleted. The REQUIRED check box cannot be checked for any other
+milestones.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>DESIGN
+COMPLETE UPPER THRESHOLD</strong> field.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>DESIGN
+COMPLETE LOWER THRESHOLD</strong> field.</p>
+
+<p><strong>NOTE:</strong> Design Complete indicates how much of the design work has
+been completed. This percentage is calculated as the total number of
+active fields within active targets where design is complete (the
+design status is Design Complete or Finished) divided by the total
+number of active fields within active targets, regardless of design
+status. This percentage calculation is compared to the threshold in
+relation to the milestone date. If the percentage calculation is
+equal to or greater than the upper threshold percentage, this
+milestone is complete and the detail row for the Design Complete
+metric displays green on the dashboard. If the percentage
+calculation is between the upper and lower thresholds, the detail
+row for the metric displays light blue. If the percentage
+calculation is less than or equal to the lower threshold, the detail
+row for the metric displays red.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>MAPPING
+COMPLETE UPPER THRESHOLD</strong> field.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>MAPPING
+COMPLETE LOWER THRESHOLD</strong> field.</p>
+
+<p><strong>NOTE:</strong> Mapping Complete indicates how much of the field mapping
+and value mapping work has been completed. This percentage is
+calculated as the total number of total mappings opportunities for
+both value and field mapping divided by the total number of mappings
+in Complete status. This percentage calculation is compared to the
+threshold in relation to the milestone date. If the percentage
+calculation is equal to or greater than the upper threshold
+percentage, this milestone is complete and the detail row for the
+Mapping Complete metric displays green on the dashboard. If the
+percentage calculation is between the upper and lower thresholds,
+the detail row for the metric displays light blue. If the percentage
+calculation is less than or equal to the lower threshold, the detail
+row for the metric displays red.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>RULES
+COMPLETE UPPER THRESHOLD</strong> field.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>RULES
+COMPLETE LOWER THRESHOLD</strong> field.</p>
+
+<p><strong>NOTE:</strong> Rules Complete indicates how many of the rules have been
+completed. This percentage is calculated by the total number of
+source and target rules for the active fields with a rule status of
+Complete divided by the total number of source and target rules
+(also called rule opportunities). This percentage calculation is
+compared to the threshold in relation to the milestone date. If the
+percentage calculation is equal to or greater than the upper
+threshold percentage, this milestone is complete and the detail row
+for the Rules Complete metric displays green on the dashboard. If
+the percentage calculation is between the upper and lower
+thresholds, the detail row for the metric displays light blue. If
+the percentage calculation is less than or equal to the lower
+threshold, the detail row for the metric displays red.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>QUALITY
+UPPER THRESHOLD</strong> field.</p></li>
+
+<li><p>Enter the percentage complete for the milestone in the <strong>QUALITY
+LOWER THRESHOLD</strong> field.</p>
+
+<p><strong>NOTE:</strong> Quality indicates the data quality of the wave. This
+percentage is calculated using the totals on the error reports
+registered to the wave and targets (post load reports) divided by
+the total number of records on the opportunity reports registered to
+the waves and targets (preload reports). Reports are registered on
+the <a href="../Page_Desc/Data_Quality_Report_Assignment.htm">Data Quality Report
+Assignment</a> page.
+This percentage calculation is compared to the threshold in relation
+to the milestone date. If the percentage calculation is equal to or
+greater than the upper threshold percentage, this milestone is
+complete and the detail row for the Quality metric displays green on
+the dashboard. If the percentage calculation is between the upper
+and lower thresholds, the detail row for the metric displays light
+blue. If the percentage calculation is less than or equal to the
+lower threshold, the detail row for the metric displays red.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>On the <em><a href="../Page_Desc/Wave_Identification_H.htm">Wave
+Identification</a></em> page, click
+<strong>the Data Quality Report Assignment</strong> icon for the wave to select
+the error and opportunity reports to use in the Quality metrics
+calculation.</p></li>
+
+<li><p>Select the wave-process area-object-target and click the <strong>Edit</strong>
+icon for the row.</p>
+
+<p><a href="../Page_Desc/Data_Quality_Report_Assignment.htm">View the field descriptions for the Data Quality Report Assignment
+page</a></p></li>
+
+<li><p>Select the report from the <strong>DATA QUALITY OPPORTUNITY REPORT</strong> list
+box.</p>
+
+<p><strong>NOTE:</strong> This preload report lists the number of records for the
+combination to be used in the Quality metrics calculation.</p>
+
+<p><strong>NOTE:</strong> All active and inactive reports, whether they are assigned
+to the target or not, display in this list.</p>
+
+<p><strong>NOTE:</strong> For reports to display in this list box, they must follow
+the proper naming conventions:</p>
+
+<ul>
+<li>tv[InformalTableName]_[FieldName]_[Description]Sel or</li>
+<li>tv[InformalTableName]_[FieldName]Sel or</li>
+<li>tv[InformalTableName]_[Description]Sel
+<br /></li>
+</ul>
+
+<p>Refer to <a href="../../../Migration/Transform/Use_Cases/Naming_Conventions.htm">Naming
+Conventions</a>
+and <a href="../../WebApp_Dev/Naming_Conventions_and_the_Enforce_Strict_Naming_Feature.htm">Naming Conventions and the Enforce Strict Naming
+Feature</a>
+for more information.</p></li>
+
+<li><p>Select the report from the <strong>DATA QUALITY ERROR REPORT</strong> list box.</p>
+
+<p><strong>NOTE:</strong> This postload report lists the number of error records for
+the combination to be used in the Quality metrics calculation.</p>
+
+<p><strong>NOTE:</strong> All active and inactive reports, whether they are assigned
+to the target or not, display in this list.</p>
+
+<p><strong>NOTE:</strong> For reports to display in this list box, they must follow
+the proper naming conventions:</p>
+
+<ul>
+<li>tv[InformalTableName]_[FieldName]_[Description]Sel or</li>
+<li>tv[InformalTableName]_[FieldName]Sel or</li>
+<li>tv[InformalTableName]_[Description]Sel
+<br /></li>
+</ul>
+
+<p>Refer to <a href="../../../Migration/Transform/Use_Cases/Naming_Conventions.htm">Naming
+Conventions</a>
+and <a href="../../WebApp_Dev/Naming_Conventions_and_the_Enforce_Strict_Naming_Feature.htm">Naming Conventions and the Enforce Strict Naming
+Feature</a>
+for more information.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+
+<p>When configuration is complete, the wave, milestone and threshold data
+is sent to the IGC Migration dashboard via a series of Service pages. By
+default, the pages that send data related to adding and updating a wave
+and adding and updating metrics send the data hourly. Service pages
+relating to purging logs and metrics data runs once a day. The dashboard
+metrics are updated hourly.</p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#configure-the-migration-dashboard">Configure the Migration Dashboard</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

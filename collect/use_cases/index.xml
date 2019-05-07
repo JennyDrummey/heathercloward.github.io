@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/collect/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/collect/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Rules and Indices to Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/add_rules_and_indices_to_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/add_rules_and_indices_to_tables/</guid>
+      <description>Add Rules and Indices to Tables Rules and indices are added to tables to clean data (rules) and improve performance (indices) in the target system.
+The rule and index administration includes the following topics:
+ Register Rules to Tables
+ Create Indices for Tables
+ Drop and Recreate an Index
+  Register Rules to Tables Rules are registered to a Target Source to change or customize the Target Source tables.</description>
+    </item>
+    
+    <item>
+      <title>Avoid Timeouts When Building a DBMoto® Target Connection</title>
+      <link>https://heathercloward.github.io/collect/use_cases/avoid_timeouts_when_building_a_dbmoto_target_connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/avoid_timeouts_when_building_a_dbmoto_target_connection/</guid>
+      <description>Avoid Timeouts When Building a DBMoto® Target Connection When building a target connection to DBMoto, each package built will stop and start the Data Replicator Service in DBMoto automatically (depending on a parameter setting in Common).
+At a high level, to avoid the timeout and processing issues inherent with multiple stops and starts:
+ Disable the Start Replicator parameter setting in Common. Stop the DBMoto Data Replicator service manually. Build target connections in Collect.</description>
+    </item>
+    
+    <item>
+      <title>Build Advanced Views</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_advanced_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_advanced_views/</guid>
+      <description>Build Advanced Views Advance build is used to store View Builds and to join in Transform Param settings for runtime settings instead of using a hard-coded value in a Where Clause. The Advance Build feature is primarily used for Data Migration Teams that require a parameter table built into the process and to retain views built.
+To use the advance build feature:
+ Select Tools &amp;gt; Advanced View Builder in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Build Package</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_package1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_package1/</guid>
+      <description>Build Package Before performing this task:
+ Register Tables to Source Encrypt Columns Configure RFC Options Register Table Rules Create Table Indices  Refer to Build Package for Table for detailed information about this step.
+Continue with Refresh Tables.</description>
+    </item>
+    
+    <item>
+      <title>Build Package</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_package_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_package_overview/</guid>
+      <description> Build Package Packages, which download the data from the source database, can be built for a single table or for all tables in a source database.
+When a package is created, the following SQL commands are built:
+ Create Table SQL commands Select command for the package to execute Primary key (if the source system is a SAP database)  This section contains the following topics:
+ Build Package for Source Build Package for Table Build Package for Schedule Group  </description>
+    </item>
+    
+    <item>
+      <title>Build Package for Schedule Group</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_package_for_schedule_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_package_for_schedule_group/</guid>
+      <description>Build Package for Schedule Group To build a package for a schedule group:
+ Click Targets in Navigation pane.
+ Click Sources for Target.
+ Click Schedule Groups for Source.  Select the Schedule Group.
+NOTE: If building a group with a DBMoto® package the following applies: if Schedule Group is set to NO GROUP, both Download and Mirror package will be built as an individual replication in DBMoto®. If Schedule Group is set to AUTO and if it is a Download package, the replication will be part of a group named &amp;lt;GroupPrefix&amp;gt;_Downloads.</description>
+    </item>
+    
+    <item>
+      <title>Build Package for Table</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_package_for_table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_package_for_table/</guid>
+      <description>Build Package for Table To build a package for a table:
+ Click Tables in the Navigation pane. Verify the table is active. Verify a package name is listed for the table. Click Targets in the Navigation pane. Click Sources for Target. Click Tables for Source. Select the Table. Click Build And Refresh on Page toolbar to build the package and download table from source; a confirmation message displays. Click Ok.</description>
+    </item>
+    
+    <item>
+      <title>Build Summary Workflow</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_summary_workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_summary_workflow/</guid>
+      <description>Build Summary Workflow Use this page to [Send Workflow Summary On Demand](Send_Workflow_Summary_On_Demand.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Build Summary Workflow in Navigation pane.
+         Field Description   Workflow Summary Time Displays date when summary workflow email was last built.   Build Summary Workflow Click to send a summary workflow email to all users whose profiles are configured to accept summary workflow emails.</description>
+    </item>
+    
+    <item>
+      <title>Build and Refresh Tables for a Schedule Group</title>
+      <link>https://heathercloward.github.io/collect/use_cases/build_and_refresh_tables_for_a_schedule_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/build_and_refresh_tables_for_a_schedule_group/</guid>
+      <description>Build and Refresh Tables for a Schedule Group Create a schedule group for a group of Target Source tables to build and/or refresh an isolated group of tables. A schedule group could be a group of tables for a specific business unit, or for a list of material, customer or configuration tables.
+To create a schedule group for a Target Source, refer to Set up Schedule Groups. When a schedule group is assigned to a table, this table displays on the Target Source Tables page.</description>
+    </item>
+    
+    <item>
+      <title>Configure RFC Options</title>
+      <link>https://heathercloward.github.io/collect/use_cases/configure_rfc_options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/configure_rfc_options/</guid>
+      <description>Configure RFC Options Before performing this task:
+ Register Tables to Source Encrypt Columns  RFC options enable the configuration of a table using an RFC and are available by field name for conditional data downloads. This feature serves as a Where Clause to limit data read from the tables. In order to configure the RFC options, the Package Type for the table must be set to BOA RFC using Options and the BackOffice transports must be installed.</description>
+    </item>
+    
+    <item>
+      <title>Configure Workflow Summary User Settings</title>
+      <link>https://heathercloward.github.io/collect/use_cases/configure_workflow_summary_user_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/configure_workflow_summary_user_settings/</guid>
+      <description>Configure Workflow Summary User Settings Users receive workflow emails as notifications for various processes, such as when a table fails to download or when a table completes a download. The summary email is sent once daily at a user selected time, but can be sent on demand. Refer to Send Workflow Summary On Demand for detailed information.
+To configure workflow summary settings for a user:
+ Select Administrative &amp;gt; Workflow Summary User Settings in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Connection Types</title>
+      <link>https://heathercloward.github.io/collect/use_cases/connection_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/connection_types/</guid>
+      <description>Connection Types The methods for extraction considered in this section rely upon two connection types:
+ Open Database Protocol (ODBC) – The most common and universally used connection type and an industry standard. ODBC can connect to any database management system for which an ODBC driver is installed or available. Remote Function Call (RFC) – The protocol used to call functions within SAP and the standard interface for communication between SAP Systems.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Target</title>
+      <link>https://heathercloward.github.io/collect/use_cases/copy_a_target_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/copy_a_target_collect/</guid>
+      <description>Copy a Target The Copy Target functionality copies all sources, tables, rules and indices from the source to the destination target and is primarily used for server migration. Before a target can be copied, the connection to the new target databases must first be established in the connection table and in the data source.
+To copy a target:
+ Establish a connection to the new target database in the connection table and in Common.</description>
+    </item>
+    
+    <item>
+      <title>Create System Type Groups from the Fetch Process</title>
+      <link>https://heathercloward.github.io/collect/use_cases/create_groups_from_the_fetch_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/create_groups_from_the_fetch_process/</guid>
+      <description>Create System Type Groups from the Fetch Process System Type groups are logical groupings of tables, such as Customer or Vendor. Use System Type groups for source database systems where a large number of tables must be created and downloaded.
+Create these groups using one of these methods:
+ Create System Type groups from the Fetch process. Create System Type groups from source tables. Create System Type groups manually in Common.</description>
+    </item>
+    
+    <item>
+      <title>Create Table Indices</title>
+      <link>https://heathercloward.github.io/collect/use_cases/create_table_indices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/create_table_indices/</guid>
+      <description>Create Table Indices Before performing this task:
+ Register Tables to Source Encrypt Columns Configure RFC Options Register Table Rules  Refer to Add Rule and Indices to Tables for details on this step.
+Continue with Build Package.</description>
+    </item>
+    
+    <item>
+      <title>Create a System Type Group from Source Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/create_a_system_type_group_from_source_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/create_a_system_type_group_from_source_tables/</guid>
+      <description>Create a System Type Group from Source Tables System Type groups are logical groupings of tables, such as Customer or Vendor. Use System Type groups for source database systems where a large number of tables must be created and downloaded.
+Create these groups using one of these methods:
+ Create System Type groups from the Fetch process. Create System Type groups from existing source tables. Create System Type groups manually in Common.</description>
+    </item>
+    
+    <item>
+      <title>Data Considerations</title>
+      <link>https://heathercloward.github.io/collect/use_cases/data_considerations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/data_considerations/</guid>
+      <description>Data Considerations With a system in place, there are additional scope and data-related variables to consider:
+ The type and quantity of data – Are there clustered or pooled tables in scope for extraction? If so, the options available for extraction are limited. Consider the number of records and the width of tables. For example, with S/4 HANA, SAP has been able to remove several tables. However, in some cases, existing tables have become wider (300+ columns).</description>
+    </item>
+    
+    <item>
+      <title>Data Services Profiling Results Setup</title>
+      <link>https://heathercloward.github.io/collect/use_cases/data_services_profiling_results_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/data_services_profiling_results_setup/</guid>
+      <description>Data Services Profiling Results Setup This section contains the following topics:
+ Register the Target and Target Source Add Tables to the Target and Target Source Schedule the Target to Download  Register the Target and Target Source To register the target and Target Source:
+ Register the Target (Refer to Register Targets in Collect for detailed information). Register the Target Source to the Target. (Refer to Register Sources to Target in Collect for detailed information).</description>
+    </item>
+    
+    <item>
+      <title>Decision Tree</title>
+      <link>https://heathercloward.github.io/collect/use_cases/decision_tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/decision_tree/</guid>
+      <description>Decision Tree Click the following decision tree thumbnail to determine which extraction method is best to use based on the type of data being extracted:</description>
+    </item>
+    
+    <item>
+      <title>Download Metrics</title>
+      <link>https://heathercloward.github.io/collect/use_cases/download_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/download_metrics/</guid>
+      <description>Download Metrics View this page to [View Source Table Metrics](Register_and_Use_Sources.htm#View_Source_Table_Metrics).  To access this page:
+ Click Collect &amp;gt; Targets in Navigation pane. Click Sources for Target. Click theTables iconfor Source. Click Vertical View for a table Click General Information tab. ClickView Metrics.           Field Description   TARGET Displays the database where tables are refreshed with source data.   SOURCE Displays the database where data is refreshed from and stored in the target.</description>
+    </item>
+    
+    <item>
+      <title>Encrypt Columns</title>
+      <link>https://heathercloward.github.io/collect/use_cases/encrypt_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/encrypt_columns/</guid>
+      <description>Encrypt Columns Before performing this task, Register Tables to Source.
+Encrypt source table columns to mask values when the table is downloaded.
+To encrypt columns in a source table:
+ Create encryption key in Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Keys. Refer to Add Keys for detailed information.
+ Return to Collect.
+ Click Tables in Navigation pane.
+ Click Vertical View for a table.
+ Click Advanced Settings tab.</description>
+    </item>
+    
+    <item>
+      <title>Extraction Methods Overview</title>
+      <link>https://heathercloward.github.io/collect/use_cases/extraction_methods_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/extraction_methods_overview/</guid>
+      <description>Extraction Methods Overview This documentation describes data extraction methods used in the end-to-end integration solution. There is appreciable effort required in configuring, testing and tuning data extraction methods to achieve optimal performance. Therefore, there are few hard-and-fast rules as to when a particular method should be used. The selection of a method is often determined on a table-by-table basis and may change over time. This section identifies some of the variables to be considered for improving the overall performance of data extraction and replication, the pros and cons of each extraction method and examples of their usage.</description>
+    </item>
+    
+    <item>
+      <title>Extraction Methods and Tools</title>
+      <link>https://heathercloward.github.io/collect/use_cases/extraction_methods_and_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/extraction_methods_and_tools/</guid>
+      <description>Extraction Methods and Tools The following diagram illustrates how the various extraction/replication methods might fall and interact within a DSP solution:
+SAP RFC &amp;amp; BOA RFC RFC allows for the extraction of SAP pooled and clustered tables. The RFC extraction method calls an RFC on the SAP application server to run a SQL command. Data is returned in a Binary Large Object (BLOB) in blocks (e.g., 10,000 records) that are then parsed by using SAP RFC, BOA RFC or BODS RFC.</description>
+    </item>
+    
+    <item>
+      <title>Import System Types Groups Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/import_group_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/import_group_tables/</guid>
+      <description>Import System Types Groups Tables The import group table(s) process imports System Type group tables from Common into Collect to facilitate the process of adding sources. This process also imports the table’s indices and rules. The Fetch process builds this list or a user can download it from the dspCloud™.
+To import group tables:
+ Click Collect &amp;gt; Targets on Navigation pane.
+ Click Sources icon for a target.</description>
+    </item>
+    
+    <item>
+      <title>Improve Data Extraction Efficiency</title>
+      <link>https://heathercloward.github.io/collect/use_cases/improve_data_extraction_efficiency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/improve_data_extraction_efficiency/</guid>
+      <description>Improve Data Extraction Efficiency Use the following tips to improve efficiency when using one of the outlined extraction methods:
+ Dedicated hardware – The fewer applications and users sharing the same hardware, the better and more consistent the performance. High speed connectivity – Bandwidth is often a bottleneck. Extract only relevant tables – Clearly define the tables that are in scope for extraction. Extract only relevant records/and or columns from tables – Excluding fields that are not being used effectively makes a narrower table.</description>
+    </item>
+    
+    <item>
+      <title>Manage DBMoto® Table Rules</title>
+      <link>https://heathercloward.github.io/collect/use_cases/manage_dbmoto_table_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/manage_dbmoto_table_rules/</guid>
+      <description>Manage DBMoto® Table Rules DBMoto® rules remove the leading zeros using a script built into Collect package build process. These entries can be made active or inactive. Entries can be added for custom SAP tables or tables not in the DSP® supplied list (Administrative &amp;gt; DBMoto Table Rules where DSP Supplied is enabled).
+To run DBMoto® Table Rules:
+ Select Administrative &amp;gt; DBMoto Table Rules in Navigation pane.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Manage SAP Text List</title>
+      <link>https://heathercloward.github.io/collect/use_cases/manage_sap_text_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/manage_sap_text_list/</guid>
+      <description>Manage SAP Text List SAP Text tables must be registered in Collect in order for text tables to function properly with the DSP®. SAP Text extracts are used to download text lines, for example, for material and sales orders. Registering SAP Text tables allows users to create custom downloads of this table type.
+To create custom downloads:
+ Select Administrative &amp;gt; SAP Text Lists in the Navigation pane.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Manually Register Tables to Source</title>
+      <link>https://heathercloward.github.io/collect/use_cases/manually_register_tables_to_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/manually_register_tables_to_source/</guid>
+      <description>Manually Register Tables to Source To manually register a table to a source:
+ Click Targets in the Navigation pane.
+ Click Sources for Target.
+ Click Tables for Source.
+ Click Add.
+View the field descriptions for the Tables page
+ Enter a name in TABLE field.
+ Update PACKAGE TYPE list box if the default value is not applicable.
+NOTE: The PACKAGE TYPE controls the method in which target tables are refreshed with source data.</description>
+    </item>
+    
+    <item>
+      <title>Modify Configuration of Data Source Table Columns</title>
+      <link>https://heathercloward.github.io/collect/use_cases/modify_configuration_of_data_source_table_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/modify_configuration_of_data_source_table_columns/</guid>
+      <description>Modify Configuration of Data Source Table Columns Data Source tables can either be modified or directly added or deleted from Collect.
+To modify the configuration of data source table columns:
+ Click Targets in the Navigation pane.
+ Click Sources for a target.
+ Click Schedule Groups for a source.
+ Click Tables for a schedule group.
+ Click Vertical View for a table.
+ Click General Information tab.</description>
+    </item>
+    
+    <item>
+      <title>Modify Configuration of Data Source Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/modify_configuration_of_data_source_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/modify_configuration_of_data_source_tables/</guid>
+      <description>Modify Configuration of Data Source Tables Collect stores internal configuration data from the source. This information can be modified to reduce visible columns or to see how the source was downloaded.
+To modify the configuration of source tables:
+ Click Targets in the Navigation pane.
+ Click Sources for a target.
+ Click Schedule Groups for a source.
+ Click Tables for a schedule group.
+ Click Vertical View for a table.</description>
+    </item>
+    
+    <item>
+      <title>Monitor Table Download Process</title>
+      <link>https://heathercloward.github.io/collect/use_cases/monitor_table_download_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/monitor_table_download_process/</guid>
+      <description>Monitor Table Download Process The table download process can be monitored to see which individual tasks have completed for the download.
+NOTE: To receive a workflow email that a table download has failed in Collect, a user must be assigned to a security role that has the Collect WebApp group WorkFlowFailureAll or WorkFlowFaiureByTargetAccess assigned. Refer to Set Security in System Administration for more information.
+To monitor the table download process:</description>
+    </item>
+    
+    <item>
+      <title>Package Types</title>
+      <link>https://heathercloward.github.io/collect/use_cases/package_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/package_types/</guid>
+      <description>Package Types Package Types are ways in which data is downloaded from the source. The following table outlines the various package types supported in Collect:
+    Package Type
+ Description
+  BOA RFC
+ Uses Remote Function Calls from SAP to download data. This is a modified form of SAPRFC, and BackOffice recommends BOARFC over SAPRFC
+  BOA RFC using Options
+ Uses Remote Function Calls from SAP with the added ability to include extra filters.</description>
+    </item>
+    
+    <item>
+      <title>Refresh</title>
+      <link>https://heathercloward.github.io/collect/use_cases/refresh_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/refresh_overview/</guid>
+      <description>Refresh Refresh processes can run on a schedule or can be manually initiated (targets can only be manually refreshed). Only active sources and tables are downloaded.
+Sources are the original databases that the table data is read from. They can be manually refreshed or set to refresh on a schedule. 
+This section contains the following topics:
+ Refresh Targets Manually Refresh Sources Schedule Source Refresh Refresh Tables Manually Refresh Tables Schedule Table Refresh  The Refresh icon is disabled for DBMoto® package types because the refresh process is run by DBMoto® instead of Collect.</description>
+    </item>
+    
+    <item>
+      <title>Refresh Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/refresh_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/refresh_tables/</guid>
+      <description>Refresh Tables Before performing this task:
+ Register Tables to Source Encrypt Columns Configure RFC Options Register Table Rules Create Table Indices Build Package  Refer to Refresh Tables for detailed on this step.
+Continue with View Table Metrics.</description>
+    </item>
+    
+    <item>
+      <title>Register Table Rules</title>
+      <link>https://heathercloward.github.io/collect/use_cases/register_table_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/register_table_rules/</guid>
+      <description>Register Table Rules Before performing this task:
+ Register Tables to Source Encrypt Columns Configure RFC Options  Refer to Add Rules and Indices to Tables for details on this step.
+Continue with Create Table Indices.</description>
+    </item>
+    
+    <item>
+      <title>Register Tables to Source</title>
+      <link>https://heathercloward.github.io/collect/use_cases/register_tables_to_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/register_tables_to_source/</guid>
+      <description>Register Tables to Source Tables are registered to sources so that when a target refresh is conducted, all active tables are pulled from the source and published to the target. Tables can be individually added or added as a group through the publish group feature.
+Table names are the same for both source and target systems unless a table rename option is enabled. Transparent tables use an ODBC connection to download data.</description>
+    </item>
+    
+    <item>
+      <title>Register and Use Sources</title>
+      <link>https://heathercloward.github.io/collect/use_cases/register_and_use_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/register_and_use_sources/</guid>
+      <description>Register and Use Sources A Source is a legacy system from where a copy of data is downloaded and stored in Collect.
+Registering and using Sources includes the following actions:
+ Register Sources to Target Configure Source for SAP Data Services Test Source Connection Register Tables Build Package for Source View Source Table Metrics View Summary of Source Metrics  Register Sources to Target Data can be pulled from multiple sources to a single target; therefore, multiple sources can be registered to a Target.</description>
+    </item>
+    
+    <item>
+      <title>Register and Use Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/register_and_use_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/register_and_use_tables/</guid>
+      <description> Register and Use Tables NOTE: To receive a workflow email that a table download has failed in Collect, a user must be assigned to a security role that has the Collect WebApp group WorkFlowFailureAll or WorkFlowFaiureByTargetAccess assigned. Refer to Set Security in System Administration for more information.
+Registering and using tables includes the following actions:
+ Register Tables to Source Encrypt Columns Configure RFC Options Register Table Rules Create Table Indices Build Packages Refresh Tables Modify Configuration of Data Source Tables Modify Configuration of Data Source Table Columns View Configuration of Data Source Table SQL Commands Build and Refresh Tables for a Schedule Group Monitor Table Download Process View Table Metrics  </description>
+    </item>
+    
+    <item>
+      <title>Register and Use Targets</title>
+      <link>https://heathercloward.github.io/collect/use_cases/register_and_use_targets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/register_and_use_targets/</guid>
+      <description>Register and Use Targets Targets are destination databases where tables are refreshed with source data.
+Registering and using targets includes the following actions:
+ Register Targets Test Target Connection Assign Target Security Register Sources Refresh Target View Target Table Metrics  NOTE: A user can also Copy a Target.
+NOTE: If using DBMoto, Avoid Timeouts When Building a DBMoto® Target Connection.
+Register Targets Target connections must be SQL Server and located on the same server as the DSP.</description>
+    </item>
+    
+    <item>
+      <title>Schedule Updates to Tables</title>
+      <link>https://heathercloward.github.io/collect/use_cases/schedule_updates_to_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/schedule_updates_to_tables/</guid>
+      <description>Schedule Updates to Tables The Schedule Updates functionality clears or updates all manually set source and table schedules to provide mass updates to schedules for targets and sources.
+NOTE: Collect schedule table updates can be done quickly for all tables in a Source. Use this method rather than directly updating the schedules via the Target Source Tables page so the new Next Schedule Run Times are calculated correctly.
+This feature covers the following topics:</description>
+    </item>
+    
+    <item>
+      <title>Send Workflow Summary On Demand</title>
+      <link>https://heathercloward.github.io/collect/use_cases/send_workflow_summary_on_demand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/send_workflow_summary_on_demand/</guid>
+      <description>Send Workflow Summary On Demand The workflow summary email is sent to users with WORK FLOW SUMMARY enabled on the Workflow Summary User Settings page once daily. However, this summary email can also be sent on demand.
+To send the workflow summary email on demand:
+ Select Administrative &amp;gt; Build Summary Workflow in Navigation pane.
+ Click Build Summary Workflow.
+  The Workflow Summary Time displays the next date and time when the summary email is scheduled to send.</description>
+    </item>
+    
+    <item>
+      <title>Set up Table Download with a CranPort Package</title>
+      <link>https://heathercloward.github.io/collect/use_cases/set_up_table_download_with_a_cranport_package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/set_up_table_download_with_a_cranport_package/</guid>
+      <description>Set up Table Download with a CranPort Package A CranPort package is the method to import data from and to export data to SQL Server, Oracle, ODBC/OleDB databases, fixed width and delimited text files, and Excel spreadsheets.
+CranPort is the recommended package type to refresh targets tables with source data because it is SQL Server version independent. Additionally, SSIS and DBMoto® package types require additional components to be installed in order to function correctly.</description>
+    </item>
+    
+    <item>
+      <title>Support Regulatory Compliance</title>
+      <link>https://heathercloward.github.io/collect/use_cases/support_regulatory_compliance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/support_regulatory_compliance/</guid>
+      <description>Support Regulatory Compliance The DSP assists clients with regulatory and corporate compliance by:
+ Restricting access to personal data (any data that can be used to identify a person), handled through DSP security and through purging data after a retention date has passed. Purging data is configured in Common and Collect. Tracking and logging user access to this data throughout the product, which is configured in System Administration.  Settings must be configured before compliance can begin.</description>
+    </item>
+    
+    <item>
+      <title>System Considerations</title>
+      <link>https://heathercloward.github.io/collect/use_cases/system_considerations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/system_considerations/</guid>
+      <description> System Considerations Before data is extracted, there are hardware and software considerations that impact its efficiency. Many of these are described in the BackOffice Associates® Solutions Software Requirements and Hardware Sizing Guide. However, it is important to remember these requirements can vary significantly based on the type and scope of a project. Considerations include:
+ Network hardware and bandwidth (LAN and WAN) Proximity to the data center Number of clients and usage patterns System configuration Database design  </description>
+    </item>
+    
+    <item>
+      <title>Use Advanced Options</title>
+      <link>https://heathercloward.github.io/collect/use_cases/use_advanced_options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/use_advanced_options/</guid>
+      <description> Use Advanced Options Advanced Options in Collect are features that can be useful in a data migration, depending on the scope and nature of the project.
+Advanced Options include:
+ Manage SAP Text Lists Manage DBMoto Table Rules View Build Skip SPRAS Table List View Workflow Download Failures Configure Workflow Summary User Settings Send Workflow Summary On Demand View Workflow Summary History  </description>
+    </item>
+    
+    <item>
+      <title>Use the Manual Data Services Package Type</title>
+      <link>https://heathercloward.github.io/collect/use_cases/use_the_manual_data_services_package_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/use_the_manual_data_services_package_type/</guid>
+      <description>Use the Manual Data Services Package Type Use this package type to use advanced features within Data Services Jobs, for example change data capture.
+Prior to adding this package type configure the connection information used by SAP Data Services at the Target Source level. Refer to Configure Source for SAP Data Services for more information.
+To use the package type:
+ Create the job, dataflow, source, transformation and target in SAP Data Services.</description>
+    </item>
+    
+    <item>
+      <title>View Build Skip SPRAS Table List</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_build_skip_spras_table_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_build_skip_spras_table_list/</guid>
+      <description>View Build Skip SPRAS Table List Language tables and international clients do not want SPRAS filters put on view for tables. This page provides a user with a configurable entry point to control which views will not contain a language filter.
+To skip filters:
+ Select Administrative &amp;gt; View Build Skip SPRAS Table List in Navigation pane.
+ Click Add.
+View the field descriptions for the View Build Skip SPRAS Table List page</description>
+    </item>
+    
+    <item>
+      <title>View Collect Reports</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_collect_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_collect_reports/</guid>
+      <description> View Collect Reports To access Collect reports, select Collect &amp;gt; Reports in the Navigation pane.
+Collect includes the following Reports:
+ Duration Warning List Target Source Table Errors Target Source Table Download Target Source Table Counts Next Schedule Run Times Target Source Table Job Group Target User Access Schedules in Sources and Tables Scheduled Used Summary Table List in Source and Target Table Rule List in Source and Target Table Index List in Source and Target Table Index Column List in Source and Target Source Connection Status Target Record Counts Target Connection Status Target Source Record Counts Column Table List in Source Target Daily Summary Metrics Error List in Metrics Detail List of Metrics  </description>
+    </item>
+    
+    <item>
+      <title>View Configuration of Data Source Table SQL Commands</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_configuration_of_data_source_table_sql_commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_configuration_of_data_source_table_sql_commands/</guid>
+      <description>View Configuration of Data Source Table SQL Commands Data Source tables SQL commands can be viewed from Collect. The SQL commands run when the table is created on a build or a download process. If there are issues creating a table during the build or download process, the SQL code from the Data Source Table Create Download SQL can be copied and run on the target database or source database to create the table.</description>
+    </item>
+    
+    <item>
+      <title>View Dashboard in Collect</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_dashboard_in_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_dashboard_in_collect/</guid>
+      <description>View Dashboard in Collect Data displays on the dashboard depending on the number of days set in the Job Metrics Retention field in Collect parameters (Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters – Collect &amp;gt; General Settings tab).
+Weekly metrics cover a calendar week (Sunday to Saturday) and monthly metrics cover a calendar month.
+NOTE: Click a label in a chart’s legend to hide or show that label’s section in the chart.</description>
+    </item>
+    
+    <item>
+      <title>View Summary</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_summary/</guid>
+      <description>View Summary The refresh process can be monitored to view which tables have been successfully downloaded, when the download process completed, or when an error occurred.
+To monitor download activity, click Summary in the Navigation pane. Use these pages to monitor activity:
+Job Summary –View activity organized by download status, either Completed or Error.
+Job Detail – View all activity for all download statuses.
+Target Summary – View activity for an entire target.</description>
+    </item>
+    
+    <item>
+      <title>View Table Metrics</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_table_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_table_metrics/</guid>
+      <description>View Table Metrics Before performing this task:
+ Register Tables to Source Encrypt Columns Configure RFC Options Register Table Rules Create Table Indices Build Package Refresh Tables  View monthly, weekly and daily metrics for the number of tables downloaded for a table.
+To view table metrics:
+ Click Tables in Navigation pane to view a list of all tables for all sources. Click Vertical View for a table. Click General Information tab.</description>
+    </item>
+    
+    <item>
+      <title>View Workflow Download Failures</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_workflow_download_failures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_workflow_download_failures/</guid>
+      <description>View Workflow Download Failures Collect can send workflow emails to notify users when a table download fails. To configure users to receive this email, an Administrator must add users to a security role in System Administration. This security role must have access to the WebApp group WorkFlowFailureAll or WorkFlowFaiureByTargetAccess. Refer to the Set Security section of System Administration for more information.
+To view workflow emails for table download failures, select Administrative &amp;gt; Workflow Download Failures in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Workflow Summary History</title>
+      <link>https://heathercloward.github.io/collect/use_cases/view_workflow_summary_history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/collect/use_cases/view_workflow_summary_history/</guid>
+      <description>View Workflow Summary History If users opt to not receive the workflow summary emails, the emails can be viewed from within Collect.
+To view summary workflow emails, select Administrative &amp;gt; Workflow Summary History in the Navigation pane.</description>
+    </item>
+    
+  </channel>
+</rss>

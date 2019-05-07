@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Q-T on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/</link>
+    <description>Recent content in Q-T on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspcompose/page_desc/q-t/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reject</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/reject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/reject/</guid>
+      <description>Reject Use this page to [Reject a Role](../Use_Cases/Review_Request_Data.htm#Reject_a_Role).  To access this page:
+ Click the Workflow link in the email to be directed to the request.
+OR
+ SelectdspCompose &amp;gt; Requests in the Navigation pane.
+ Click Roles for a request.
+ Click Reject for the Review role; the *Reject* page displays.
+           Field Description   REJECTION REASON Displays justification for the role being rejected.</description>
+    </item>
+    
+    <item>
+      <title>Request (External Role Contacts)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_external_role_contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_external_role_contacts/</guid>
+      <description>Request (External Role Contacts) Use this page to [Update External Role Contacts](../Use_Cases/Update_External_Role_Contacts.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Locate a request that is based on a template with an External Data role type. ClickVertical View. Click the General tab. Click External Role Contacts.           Field Description   ROLE ID Displays name of the role.</description>
+    </item>
+    
+    <item>
+      <title>Request (Org Unit Assignments)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_org_unit_assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_org_unit_assignments/</guid>
+      <description>Request (Org Unit Assignments) Use this page to [Configure and Confirm Request Org Unit Assignments.](../Use_Cases/Request_Org_Unit_Assignments.htm)  To access this page:
+ Click dspCompose &amp;gt; Requests on Navigation pane. Click Org Units for a request.           Field Description   Select All Click to include all the Org Unit assignments in the request. This icon displays only if the Org Unit Security Level (set on theTemplates page&amp;rsquo;s Vertical View on the Advanced tab) for the template is set to either OrgUnit Values Available for Assignment or User Assignments Defaulted, Change Allowed.</description>
+    </item>
+    
+    <item>
+      <title>Request (Org Units Assigned)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_org_units_assigned/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_org_units_assigned/</guid>
+      <description>Request (Org Units Assigned) Use this page to [Configure and Confirm Request Org Unit Assignments](../Use_Cases/Request_Org_Unit_Assignments.htm).  To access this page:
+ Click dspCompose &amp;gt; Requests on *Navigation *pane. Click Org Units for a request.           Field Description   ORG UNIT Displays name of Org Unit configured for the template and assigned to the request.   ORG UNIT VALUE Displays value of the Org Unit configured for the template and assigned to the request.</description>
+    </item>
+    
+    <item>
+      <title>Request (Partial Approve)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_partial_approve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_partial_approve/</guid>
+      <description>Request (Partial Approve) Use this page to [Perform a Partial Approval](../Use_Cases/Review_Request_Data.htm#Perform_a_Partial_Approval).  To access this page:
+ SelectdspCompose &amp;gt; Requests on the Navigation pane for a request based on a template that allows partial approval. Click Roles for a request. ClickDATA ENTRY for the Review role. Click the REJECT check box for each row of data to reject. Click Edit. Enter a justification for the role rejection in REJECTION REASON field.</description>
+    </item>
+    
+    <item>
+      <title>Request (Post)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_post/</guid>
+      <description>Request (Post) Use this page to [Post Request Data to a Target ERP System](../Use_Cases/Post_Request_Data_to_a_Target_ERP_System.htm) and [Set the Post Start Time.](../Use_Cases/Setting_the_Post_Start_Time.htm)  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click Roles for a request. LocatePost Role ID. Click Request (Post) for the Post ROLE ID.  Field
+Description
+Connections
+Click to open the Request Post Connections page to view the connection to the target system for each Integrate template associated with the request.</description>
+    </item>
+    
+    <item>
+      <title>Request (Role View Filter)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_role_view_filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_role_view_filter/</guid>
+      <description>Request (Role View Filter) Use this page to [Build a Mass Change Where Clause](../Use_Cases/Enter_Data_for_a_Request.htm#Build_Mass_Change_Where_Clause) or while [importing a view at the Request-Role level](../Use_Cases/Import_a_View_at_the_Request%20Role_Level.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click Roles for the request. Click Vertical View for the role that allows data entry. Click View Where Clause Builder.           Field Description   COLUMN NAME Displays column name used in the comparison operation to limit data within the view being changed by the Mass Change process, or displays the column used to form the where clause when importing a view at the request role level.</description>
+    </item>
+    
+    <item>
+      <title>Request (Roles) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_roles_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_roles_h/</guid>
+      <description>Request (Roles) H Request (Roles) V
+Use this page to [Process Requests](../Use_Cases/Process_Requests.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click Roles for the request.    Field
+ Description
+  DC
+ If enabled, all dependent roles for the current roles are finished. “DC” stands for “dependencies complete.”
+  ROLE ID
+ Displays name of the role.
+  DATA ENTRY</description>
+    </item>
+    
+    <item>
+      <title>Request (Roles-Validations)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_roles_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_roles_validations/</guid>
+      <description>Request (Roles-Validations) Use this page when correcting validation failures as part of [Validating a Role](../Use_Cases/Validate_a_Role.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the *Navigation *pane. Click Roles for a request. Click Validate for a role.           Field Description   Run Validations Click to run all failed validations for the request. Use this feature after data has been corrected to re-run validations to verify they no longer fail.</description>
+    </item>
+    
+    <item>
+      <title>Request Connections</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_connections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_connections/</guid>
+      <description>Request Connections Use this page to set the connection for the Integrate process template when [creating a request](../Use_Cases/Create_Requests.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click the Vertical View icon. Click the Connections icon.    Field
+ Description
+  PRIORITY
+ Displays the order the templates run.
+  TEMPLATE NAME
+ Displays the name of the Integrate process template used to post request data to the target system.</description>
+    </item>
+    
+    <item>
+      <title>Request Details Monitor</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_details_monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_details_monitor/</guid>
+      <description>Request Details Monitor Use this page to view additional details when [Monitoring Requests](../Use_Cases/Monitor_Requests.htm).  To access this page, select dspCompose &amp;gt; Reports &amp;gt; All Requests in the *Navigation *pane.
+         Field Description   ROLE ID Displays name of role assigned to the request.   FINISHED ON Displays date and time when role was finished.   FINISHED BY Displays User ID of individual who finished the role.</description>
+    </item>
+    
+    <item>
+      <title>Request H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_h/</guid>
+      <description>Request H Requests V
+NOTE: This page also displays when the user clicks Rejection Archive on the Request page&amp;rsquo;s Vertical View. View the field descriptions for the page when it is accessed in this manner.
+Use this page to: - [Create Requests](../Use_Cases/Create_Requests.htm) - [Validate a Role](../Use_Cases/Validate_a_Role.htm) - [Reset a Role](../Use_Cases/Reset_a_Role.htm) - [Reject a Role](../Use_Cases/Review_Request_Data.htm#Reject_a_Role) - [Post Request Data to a Target ERP System](../Use_Cases/Post_Request_Data_to_a_Target_ERP_System.htm)  To access this page, select dspCompose &amp;gt; Requests in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Request Mass Change (Where Clause)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_mass_change_where_clause/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_mass_change_where_clause/</guid>
+      <description>Request Mass Change (Where Clause) Use this page to [Build a Mass Change Where Clause.](../Use_Cases/Enter_Data_for_a_Request.htm#Build_Mass_Change_Where_Clause)  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click Roles for a request. Click DATA ENTRY for the role that allows data entry. Click Mass Change. Click Build Where Clause for a Mass Change record.           Field Description   COLUMN NAME Displays column name used in the comparison operation to limit data within the view being changed.</description>
+    </item>
+    
+    <item>
+      <title>Request Mass Change H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_mass_change_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_mass_change_h/</guid>
+      <description>Request Mass Change H Request Mass Change V
+Use this page to [Mass Change Data](../Use_Cases/Enter_Data_for_a_Request.htm#Mass_Change_Data).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane.
+ Click Roles for a request.
+OR
+   Click the link in the workflow email generated by dspCompose™. Click DATA ENTRY for the role that allows data entry. Click Mass Change on the Page toolbar.           Field Description   COLUMN NAME Displays column name being updated in the target ERP system.</description>
+    </item>
+    
+    <item>
+      <title>Request Post Connections</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_post_connections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_post_connections/</guid>
+      <description>Request Post Connections Use this page to view the target system connections for each Integrate process template associated with the request while [posting request data to a target system](../Use_Cases/Post_Request_Data_to_a_Target_ERP_System.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click Roles for a request. Locate Post Role ID. Click Request (Post) for the Post ROLE ID. Click the Connections icon.      Field</description>
+    </item>
+    
+    <item>
+      <title>Request Role (Finish Download)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_role_finish_download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_role_finish_download/</guid>
+      <description>Request Role (Finish Download) Use this page while troubleshooting [Download Data as a Finish Process](../Use_Cases/Download_Data_as_a_Finish_Process.htm).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Request Role (Finish Download) in the Navigation pane.
+         Field Description   REQUEST ID Displays the ID of the request that should be finished so that data is downloaded from the target ERP source system after posting.</description>
+    </item>
+    
+    <item>
+      <title>Request Role Finish Monitor</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_role_finish_monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_role_finish_monitor/</guid>
+      <description>Request Role Finish Monitor Use this page to[View Data from the Finish Download Process](../Use_Cases/View_Data_from_the_Finish_Download_Process.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the Navigation pane. Click Vertical View for a request. Click the Finish Download Status icon is available on the General tab once the Finish button for the Post role has been clicked.           Field Description   ROLE ID Displays the Role ID Post, since this page reports every action that occurs during the Post role’s Finish download from the target ERP system.</description>
+    </item>
+    
+    <item>
+      <title>Request Status</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/request_status/</guid>
+      <description>Request Status Use this page to [Configure Request Statuses.](../Config/Configure_Request_Statuses.htm)  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Request Status in the Navigation pane.
+  Field
+ Description
+  REQUEST STATUS
+ Displays unique identifier for the request status.
+Request statuses delivered with with dspCompose™ cannot be changed.
+  DESCRIPTION
+ Displays brief description of the request status.
+  DEFAULT RETENTION INTERVAL
+ Displays number of days requests of the specified request status remain active before archived.</description>
+    </item>
+    
+    <item>
+      <title>Roles (Execute)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/roles_execute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/roles_execute/</guid>
+      <description>Roles (Execute) Use this page when troubleshooting [external roles](../Use_Cases/Troubleshoot_Issues_With_External_Roles.htm).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Roles (Execute) in the Navigation pane.
+    Field
+ Description
+  REQUEST ID
+ Displays the unique identifier of the request.
+  ROLE ID
+ Displays the role for the request.
+  STATUS
+ Displays current status for the request-role. Values are:
+ Queued - The inbound file has been receive but has not yet been processed.</description>
+    </item>
+    
+    <item>
+      <title>Roles H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/roles_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/roles_h/</guid>
+      <description>Roles H Roles V
+Use this page to: - [Add a Global Role](../Config/Add_a_Global_Role.htm) - [Configure Global Roles](../Config/Configure_Global_Roles.htm) - [Add External Data Role to Global Roles](../Use_Cases/Add_External_Data_Role_to_Global_Roles.htm)  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Roles in the Navigation pane.
+  Field
+ Description
+  PRIORITY
+ Displays the order in which the role is processed. This value sets the sort order for the role on the Roles page.</description>
+    </item>
+    
+    <item>
+      <title>Team</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/team/</guid>
+      <description>Team Use this page to [Create Teams](../Use_Cases/Create_Teams.htm).  To access this page, select dspCompose &amp;gt; Team in the Navigation pane.
+         Field Description   TEAM NAME Displays name of the team, which is a way to organize templates.   Templates Click to open the Templates page to add, edit and delete templates for the team. The count on the icon displays the number of templates the user can access, not the total number of templates that have been created for the team.</description>
+    </item>
+    
+    <item>
+      <title>Template (Archive Settings)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_archive_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_archive_settings/</guid>
+      <description>Template (Archive Settings) Use this page - while [Creating a Custom Template](../Use_Cases/Create_a_Custom_Template_dspCompose.htm) - to [Create a Template that Uses the Custom Pages in dspCompose™](../Use_Cases/Create_a_Template_that_uses_the_Custom_Pages.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Vertical View for a template. Click Configuration tab. Click the Custom Archive Tables icon. Click Rules for an Event.           Field Description   ACTIVE TABLE DATA SOURCE ID Displays name of the data source where the active table in the ACTIVE TABLE NAMEresides.</description>
+    </item>
+    
+    <item>
+      <title>Template (Columns)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_columns/</guid>
+      <description>Template (Columns) Use this page when [Adding Org Units to a Template](../Use_Cases/Set_up_Org_Units.htm#Add_Org_Units_to_a_Template).  To access this page:
+ Click dspCompose &amp;gt; Team on Navigation pane. Click Templates for a team. Click Org Units for a template. Click the Template Column Display icon.           Field Description   FIELD NAME Displays the name of the field in the Integrate recording associated with the template, which is added as a column in the system-generated Org Unit table.</description>
+    </item>
+    
+    <item>
+      <title>Template (Event Rule)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_event_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_event_rule/</guid>
+      <description>Template (Event Rule) Use this page to [Register Rules to Template-level Events](../Use_Cases/Register_Rules_to_Template%20level_Events.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Vertical View for a template. ClickConfiguration tab. Click Events. Click Rules for an Event.           Field Description   PRIORITY Displays priority in which the rule is run when the event occurs, if there is more than one rule registered for the template-level event.</description>
+    </item>
+    
+    <item>
+      <title>Template (Events)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_events/</guid>
+      <description>Template (Events) Use this page to [Register Rules to Template-level Events](../Use_Cases/Register_Rules_to_Template%20level_Events.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Vertical View for a template. Click Configuration tab. Click Events.    Field
+ Description
+  TEMPLATE LEVEL EVENT ID
+ Displays the name of the event run at the Template level. Values are:
+ Request Cancel – Registered rules are executed when the template’s request’s status is “Cancelled.</description>
+    </item>
+    
+    <item>
+      <title>Template (External Request Scenario Column)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenario_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenario_column/</guid>
+      <description>Template (External Request Scenario Column) Use this page to [Map Columns from the Template to Columns from the Excel File](../../../Migration/Map/Use_Cases/Map_Columns_Template_to_Sprdsht.htm) [Map Columns from the Template to Columns from the ISA Report](../../ISA/Use_Cases/Map_Columns_from_the_Template_to_Columns_from_the_ISA_Report.htm).  To access this page:
+ Select dspCompose &amp;gt; Team in the *Navigation* pane. Click Templates for a team. Click Vertical View for a template that uses an external request scenario to produce Excel-initiated requests. Click Configuration tab. Click External Request Scenarios.</description>
+    </item>
+    
+    <item>
+      <title>Template (External Request Scenario Email Address)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenario_email_address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenario_email_address/</guid>
+      <description>Template (External Request Scenario Email Address) Use this page to [Add Email Addresses for a Scenario](../Use_Cases/Add_Email_Addresses_for_a_Scenario.htm).  To access this page:
+ Select dspCompose &amp;gt; Team from *Navigation *pane. Click Templates for a team. Click Vertical View for a template. Click Configuration tab. Click External Request Scenarios. Click Email Addresses for the scenario.           Field Description   EMAIL ADDRESS Displays email address that can send an email that will create a request in dspCompose™ for the scenarios ent from dspCompose™.</description>
+    </item>
+    
+    <item>
+      <title>Template (External Request Scenario External Role)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_sceanario_external_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_sceanario_external_role/</guid>
+      <description>Template (External Request Scenario External Role) Use this page to [Set External Role Contacts for an External Request Scenario](../Use_Cases/Set_External_Role_Contacts.htm).  To access this page:
+Select dspCompose &amp;gt; Team from *Navigation *pane.
+ Click Templates for a team. Click Vertical View for a template. Click Configuration tab. Click External Request Scenarios. Click External Roles for a scenario.    Field
+ Description
+  EXTERNAL ROLE ID
+ Displays role assigned to the external contact.</description>
+    </item>
+    
+    <item>
+      <title>Template (External Request Scenario) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenario/</guid>
+      <description>Template (External Request Scenario) H Template (External Request Scenario) V
+Use this page to: - [Create an External Request Scenario](../Use_Cases/Create_an_External_Request_Scenario.htm) - [Create an External Request Scenario for an Excel-initiated Request](../Use_Cases/Create_an_External_Request_Scenario_for_an_Excel_Initiated_Requestel.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on the *Navigation *pane. Click Templates for a team. Click the Vertical View icon for a template. Click theConfiguration tab. Click the External Request Scenarios icon.    Field</description>
+    </item>
+    
+    <item>
+      <title>Template (External Request Scenarios Connections)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenarios_connections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_external_request_scenarios_connections/</guid>
+      <description>Template (External Request Scenarios Connections) Use this page while [creating an External Request Scenario](../Use_Cases/Create_an_External_Request_Scenario.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on Navigation pane. Click the Templates icon for a team. Click Vertical View for a template. Click the Configuration tab. Click the External Request Scenarios icon. Click the Connections icon.    Field
+ Description
+  PRIORITY
+ Displays the order the templates run.</description>
+    </item>
+    
+    <item>
+      <title>Template (Objects)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_objects/</guid>
+      <description>Template (Objects) Use this page to [View Data Objects](../Use_Cases/Data_Objects.htm).  To access this page:
+Select dspCompose &amp;gt; Team in the Navigation pane.
+ Click Templates for a team. Click Vertical View for a template. Click the Configuration tab. Click Objects.           Field Description   Refresh System Generated Objects Click to refresh the list of objects generated by dspCompose™ when the Generate button is clicked for the template.</description>
+    </item>
+    
+    <item>
+      <title>Template (Org Units) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_org_units_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_org_units_h/</guid>
+      <description>Template (Org Units) H Template (Org Units) V
+Use this page to [Add Org Units to a Template](../Use_Cases/Set_up_Org_Units.htm#Add_Org_Units_to_a_Template).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Org Units for a template.    Field
+ Description
+  Template Column Display
+ Click to open the Template (Columns) page to view a list of columns from the template recording (BDC Script, GUI Script, or Integrate template).</description>
+    </item>
+    
+    <item>
+      <title>Template (Post Message Tables)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_post_message_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_post_message_tables/</guid>
+      <description>Template (Post Message Tables) Use this page: - To [Set Tables to Store Posting Feedback](../Use_Cases/Set_Tables_to_Store_Posting_Feedback.htm) - While [creating a Custom Template](../Use_Cases/Create_a_Custom_Template_dspCompose.htm) - To [Create a Template that Users the Custom Pages in dspCompose™](../Use_Cases/Create_a_Template_that_uses_the_Custom_Pages.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Vertical View for a template. ClickConfiguration tab. Click Post Message Tables.    Field
+ Description</description>
+    </item>
+    
+    <item>
+      <title>Template (Request Retention)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_request_retention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_request_retention/</guid>
+      <description>Template (Request Retention) Use this page to [Configure Retention Parameters](../Use_Cases/Configure_Retention_Parameters.htm).  To access this page:
+ Click dspCompose &amp;gt; Team in the *Navigation *pane. Click Templates for a team. Click Vertical View for a template. Click Configuration tab. Click Retention Params.           Field Description   REQUEST STATUS Displays request status for requests that use this template.   RETENTION INTERVAL Displays number of days a request with the status is retained before it is archived.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Column)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_column/</guid>
+      <description>Template (Role Column) Use this page to [Set a Column’s Control Status](../Use_Cases/Set_a_Columns_Control_Status.htm).  To access this page:
+ Click dspCompose &amp;gt; Team in the *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Columns for the Review role.    Field
+ Description
+  Enabled
+ Click to enable the selected column(s) on the role for data input. The column(s) display on the generated Excel file and can be viewed and edited.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Dependency Select)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_dependency_select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_dependency_select/</guid>
+      <description>Template (Role Dependency Select) Use this page to: - [Add Role Dependencies](../Use_Cases/Add_Role_Dependencies.htm) - [Add an External Data Role Type to a Template](../Use_Cases/Add_an_External_Data_Role_to_Template.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on Navigation pane. Click Templates for a team. Click Roles for a template. Click Dependencies for a role.           Field Description   PRIORITY Displays order in which roles are finished.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Event Rule)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_event_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_event_rule/</guid>
+      <description>Template (Role Event Rule) Use this page to - [Add a Rule to a Template Role Event](../Use_Cases/Add_a_Rule_to_a_Template_Role_Event.htm) - [Register the CompareIns Stored Procedure](../Use_Cases/Register_the_CompareIns_Stored_Procedure.htm)  To access this page:
+ ClickdspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Events for the role. Click Rules for the event.           Field Description   PRIORITY Displays priority in which the rule is run when the event occurs, if there is more than one rule registered for the event.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Event)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_event/</guid>
+      <description>Template (Role Event) Use this page to [Add a Rule to a Template Role Event](../Use_Cases/Add_a_Rule_to_a_Template_Role_Event.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Events for the role.    Field
+ Description
+  EVENT
+ Displays name of event run at the template-role level. Values are:
+ Reject – Event runs when the Review role for a request using the selected template is rejected, i.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Excel Column Control) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_excel_column_control_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_excel_column_control_h/</guid>
+      <description>Template (Role Excel Column Control) H Template (Role Excel Column Control) V
+Use this page to: - [Configure Columns for File Generation and Data Entry](../Use_Cases/Configure_Columns_for_File_Generation.htm) - [Configure Column Display](../Use_Cases/Configure_Column_Display.htm) - [Import a Column Added to the Role’s Assigned Page](../Use_Cases/Import_a_Column_Added_to_the_Roles_Assigned_Page.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Excel Column Control for a role.      Field</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Validation Threshold Contact)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_validation_threshold_contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_validation_threshold_contact/</guid>
+      <description>Template (Role Validation Threshold Contact) Use this page when [Setting a Validation Threshold.](../Use_Cases/Set_Validation_Threshold.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. ClickRoles for a template. Click Vertical View for a role. Click the Approve and Finish Settings tab. Click Contacts.           Field Description   USER ID Displays User ID of individual who is contacted if the validation threshold for the role is met.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role Validations) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_validations_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_validations_h/</guid>
+      <description>Template (Role Validations) H Template (Role Validations) V
+Use this page to [Add Validations to Roles](../Use_Cases/Add_Validations_to_Roles.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Validations for a role.           Field Description   Refresh All Validations Click to refresh all validation registrations from the PageID (and all child pages) registered to the Template-Role, and mark them as system-generated.</description>
+    </item>
+    
+    <item>
+      <title>Template (Role) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_h/</guid>
+      <description>Template (Role) H Template (Role) V
+Use this page to - [Create Template Roles](../Use_Cases/Create_Template_Roles.htm) - [Assign Default Data Source and Views](../Use_Cases/Assign_Default_Data_Source_and_Views.htm) - [Add an External Data Role Type to a Template](../Use_Cases/Add_an_External_Data_Role_to_Template.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template.    Field
+ Description
+  PRIORITY
+ Displays order in which the role is processed in a request that uses the template.</description>
+    </item>
+    
+    <item>
+      <title>Template (Users) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_users_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_users_h/</guid>
+      <description>Template (Users) H Template (Users) V
+
+Use this page to [Add Users to Templates](../Use_Cases/Add_Users_to_Templates.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Users for a template.      Field
+ Description
+  USER ID
+ Displays User ID of individual who has access to the selected template.
+When a user is added to a template, the user can process request data using the template.</description>
+    </item>
+    
+    <item>
+      <title>Template Role (Finish Columns) H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_finish_columns_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_finish_columns_h/</guid>
+      <description>Template Role (Finish Columns) H Template Role (Finish-Columns) V
+Use this page to [Register Tables for Download as a Finish Process](../Use_Cases/Register_Tables_to_Download_as_a_Finish_Process_Using_Collect.htm).  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Vertical View for the Post role. Click the Approve and Finish Settings tab. Click Finish Tables. Click the Source Filter Columns or the Target Filter Columns icon.</description>
+    </item>
+    
+    <item>
+      <title>Template Role (Finish)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_finish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_finish/</guid>
+      <description>Template Role (Finish) Use this page to: - [Register Tables for Download as a Finish Process using Collect](../Use_Cases/Register_Tables_to_Download_as_a_Finish_Process_Using_Collect.htm) - [Register Tables for Download through Data Services](../Use_Cases/Register_Tables_for_Download_through_Data_Services.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Vertical View for the Post role. Click the Approve and Finish Settings tab. Click Finish Tables.    Field</description>
+    </item>
+    
+    <item>
+      <title>Template Role Excel (Required Columns)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_excel_required_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_excel_required_columns/</guid>
+      <description>Template Role Excel (Required Columns) Use this page to [Format Required Fields in an Excel File.](../Use_Cases/Format_Required_Fields_in_an_Excel_File.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on *Navigation *pane. Click Templates for a team. Click Roles for a template. Click Excel Column Control for a role. Click Required Columns Format on the Page toolbar.  Field
+Description
+Required Column Settings
+Background Color
+Displays background color of required fields in the Excel file generated by dspCompose™ linked to a template-role.</description>
+    </item>
+    
+    <item>
+      <title>Template Role Users Monitor</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_users_monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_role_users_monitor/</guid>
+      <description> Template Role Users Monitor Use this page to [Monitor Requests](../Use_Cases/Monitor_Requests.htm).  To access this page:
+ Select a report from dspCompose &amp;gt; Configuration&amp;gt; Reports in the Navigation pane. Select Active Requestsor All Requests. Click the Users icon.           Field Description   USER ID Displays User ID of individual who is assigned to the template used by the request.    </description>
+    </item>
+    
+    <item>
+      <title>Template User (Org Units Assigned)</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_user_org_units_assigned/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/template_user_org_units_assigned/</guid>
+      <description>Template User (Org Units Assigned) Use this page to - [Assign Users to Org Units](../Use_Cases/Set_up_Org_Units.htm#Assign_Users_to_Org_Units) - [Add Org Units to a Template](../Use_Cases/Set_up_Org_Units.htm#Add_Org_Units_to_a_Template)  To access this page:
+ ClickdspCompose &amp;gt; Team on Navigation pane. Click Templates for a team. Click Org Units for a template. Click the Org Unit Display icon.           Field Description   NAME Displays name of user who has access to the Org Unit value.</description>
+    </item>
+    
+    <item>
+      <title>Templates H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/q-t/templates_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/q-t/templates_h/</guid>
+      <description>Templates H Templates V
+Use this page to - [Create a Template from the Templates Page](../Use_Cases/Create_a_Template_from_the_Templates_Page.htm) - [Create a Template that Uses the Custom Pages in dspCompose™](../Use_Cases/Create_a_Template_that_uses_the_Custom_Pages.htm)  To access this page:
+ Click dspCompose &amp;gt; Team on the *Navigation *pane. Click the Templates icon for a team.    Field
+ Description
+  TEMPLATE NAME
+ Displays the template name. A template is a way to manage data in the form of a particular process, for example, to create a new BOM or to change a material.</description>
+    </item>
+    
+  </channel>
+</rss>

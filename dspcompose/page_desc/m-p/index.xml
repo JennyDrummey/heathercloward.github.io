@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M-P on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspcompose/page_desc/m-p/</link>
+    <description>Recent content in M-P on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspcompose/page_desc/m-p/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mass Change Exclude Columns</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/m-p/mass_change_exclude_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/m-p/mass_change_exclude_columns/</guid>
+      <description>Mass Change Exclude Columns Use this page to [Configure Columns to Exclude from Mass Change](../Config/Configure_Columns_to_Exclude_from_Mass_Change.htm).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Mass Change Exclude Columns on the *Navigation *pane.
+         Field Description   COLUMN NAME Displays name of column that is not available for mass change. The columns delivered with dspCompose™ that are included on this page cannot be edited, but can be deleted.</description>
+    </item>
+    
+    <item>
+      <title>Org Units</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/m-p/org_units/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/m-p/org_units/</guid>
+      <description>Org Units Use this page to [Create Org Units](../Use_Cases/Set_up_Org_Units.htm#Create_Org_Units).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Org Units from *Navigation *pane.
+         Field Description   ORG UNIT Displays name of high-level Org Unit, e.g., plant or region. Org unit is available for all templates.   COMMENT Displays a brief comment or description about the Org Unit.   LIST DATA SOURCE ID Displays the data source that contains the view or table that will be used to provide Org Unit values.</description>
+    </item>
+    
+    <item>
+      <title>Parameters</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/m-p/parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/m-p/parameters/</guid>
+      <description>Parameters Use this page to [Configure dspCompose™ parameters](../Config/Configure_dspCompose_Parameters.htm).  This page has the following tabs:
+ General tab Template tab Posting And File tab Naming Conventions tab  General tab Use this tab to Set up Workflow Messages
+To access this page, select dspCompose &amp;gt;Configuration &amp;gt; Parameters in the Navigation pane.
+Field
+Description
+Application Information
+Version
+Displays current version of dspCompose™.
+Date
+Displays date when this version of dspCompose™ was released.</description>
+    </item>
+    
+  </channel>
+</rss>

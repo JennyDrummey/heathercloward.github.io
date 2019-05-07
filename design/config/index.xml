@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/design/config/</link>
+    <description>Recent content in Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/design/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access Target Design</title>
+      <link>https://heathercloward.github.io/design/config/access_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/config/access_design/</guid>
+      <description>Access Target Design Before using Target Design, a Wave, a Process Area (the combination of which is called a context), and an Object used in the data migration project must have been created in Console.
+Refer to Create the Contexts for Migration Projects for more information.
+Target Design is accessible through dspMigrate™ by clicking the Context bar. It is not accessible through the Navigation pane.
+Refer to Context, the Context Bar, and Navigation for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add Custom Criticality Levels</title>
+      <link>https://heathercloward.github.io/design/config/add_custom_criticality_levels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/config/add_custom_criticality_levels/</guid>
+      <description>Add Custom Criticality Levels Criticality can be set for a Target field and is used for reporting purposes.
+Three criticality levels are installed by default: High, Medium and Low. These DSP-supplied values cannot be edited or deleted.
+New levels can be added. Once saved, these levels are available for selection in the CRITICALITY list box on the Target Fields page.
+To add a criticality level in Target Design:
+ Select Configuration &amp;gt; Criticality in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Add Custom Requirement Settings</title>
+      <link>https://heathercloward.github.io/design/config/add_custom_requirement_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/config/add_custom_requirement_settings/</guid>
+      <description>Add Custom Requirement Settings Requirement settings can be set for a Target field and are used for reporting purposes.
+Four requirement levels are installed by default. These DSP-supplied values cannot be edited or deleted.
+The values are:
+ Business Required – Required to meet a business rule or otherwise meet a business need Technical Required – Required by the system Conditional – Required depending on certain conditions Optional – Not required  New Requirement settings can be added.</description>
+    </item>
+    
+  </channel>
+</rss>

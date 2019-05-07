@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Parameters :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/console/" class="active">Console Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/console/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/config/access_console/" class="">Access Console</a></li>
+        
+            <li >
+                <a href="/console/config/configure_data_services_functionality/" class="">Configure Data Services Functionality</a></li>
+        
+            <li >
+                <a href="/console/config/set_parameters_for_other_components/" class="">Set Parameters for Other Components</a></li>
+        
+            <li >
+                <a href="/console/config/set_up_and_register_the_object_database/" class="">Set up and Register the Object Database (dsw\*)</a></li>
+        
+            <li >
+                <a href="/console/config/setup_and_configuration_for_console/" class="">Setup and Configuration for Console</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/console/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/page_desc/all_objects/" class="">All Objects</a></li>
+        
+            <li >
+                <a href="/console/page_desc/build_wave_comparison/" class="">Build Wave Comparison</a></li>
+        
+            <li >
+                <a href="/console/page_desc/bulk_contact_staging_area/" class="">Bulk Contact Staging Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/context_select/" class="">Context Select</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_object/" class="">Copy Object</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_object_to_process_area/" class="">Copy Object to Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_process_area/" class="">Copy Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_wave/" class="">Copy Wave</a></li>
+        
+            <li >
+                <a href="/console/page_desc/list_value_configuration/" class="">List Value Configuration</a></li>
+        
+            <li >
+                <a href="/console/page_desc/milestone/" class="">Milestone</a></li>
+        
+            <li >
+                <a href="/console/page_desc/move_object_to_process_area/" class="">Move Object to Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_contacts/" class="">Object Contacts</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_decision_comments/" class="">Object Decision Comments</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_decisions_h/" class="">Object Decisions H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_history_h/" class="">Object History H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/objects_h/" class="">Objects H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/parameters/" class="uk-active">Parameters</a></li>
+        
+            <li >
+                <a href="/console/page_desc/process_area/" class="">Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/process_area_objecth/" class="">Process Area: Object H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/report_headers_footers_setup/" class="">Report Headers / Footers (Setup)</a></li>
+        
+            <li >
+                <a href="/console/page_desc/staged_contacts/" class="">Staged Contacts</a></li>
+        
+            <li >
+                <a href="/console/page_desc/user_context_setting/" class="">User Context Setting</a></li>
+        
+            <li >
+                <a href="/console/page_desc/user_message_type/" class="">User Message Type</a></li>
+        
+            <li >
+                <a href="/console/page_desc/users_console/" class="">Users</a></li>
+        
+            <li >
+                <a href="/console/page_desc/values/" class="">Values</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_object_results_h/" class="">Wave Compare for Object Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_process_area_results_h/" class="">Wave Compare for Process Area Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_target_field_results/" class="">Wave Compare for Target Field Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_target_results/" class="">Wave Compare for Target Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_gate_metrics_value_mapping_h/" class="">Wave Gate Metrics (Value Mapping) H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_process_area_gate_metrics_field_mapping_h/" class="">Wave Process Area Gate Metrics (Field Mapping) H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_process_areas/" class="">Wave: Process Areas H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/waves_h/" class="">Waves H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_message_summary_h/" class="">Workflow Message Summary H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_message_summary_user/" class="">Workflow Message Summary User</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_summary_views_h/" class="">Workflow Summary Views H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/console/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/use_cases/add_elements_separately/" class="">Add Elements Separately</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_multiple_target_systems/" class="">Add Multiple Target Systems</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_target_contacts_to_objects/" class="">Add Target Contacts to Objects</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_a_wave_and_create_elements/" class="">Add a Wave and Create Elements</a></li>
+        
+            <li >
+                <a href="/console/use_cases/configure_list_box_values/" class="">Configure List Box Values</a></li>
+        
+            <li >
+                <a href="/console/use_cases/configure_object/" class="">Configure an Object</a></li>
+        
+            <li >
+                <a href="/console/use_cases/copy_elements/" class="">Copy Elements</a></li>
+        
+            <li >
+                <a href="/console/use_cases/create_custom_workflow_messages/" class="">Create Custom Workflow Messages</a></li>
+        
+            <li >
+                <a href="/console/use_cases/create_contexts_for_migration_projects/" class="">Create the Contexts for Migration Projects</a></li>
+        
+            <li >
+                <a href="/console/use_cases/evaluate_mapping_with_wave_gate_metrics/" class="">Evaluate Mapping with Wave Gate Metrics</a></li>
+        
+            <li >
+                <a href="/console/use_cases/set_message_types_for_mapping_review/" class="">Set Message Types for Mapping Review</a></li>
+        
+            <li >
+                <a href="/console/use_cases/set_the_data_source/" class="">Set the Data Source</a></li>
+        
+            <li >
+                <a href="/console/use_cases/synchronize_target_designs_across_waves/" class="">Synchronize Target Designs Across Waves</a></li>
+        
+            <li >
+                <a href="/console/use_cases/update_construct_webapp_and_data_source/" class="">Update Construct WebApp and Data Source</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Console</a></li>
+        <li><span>Parameters</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="parameters">Parameters</h1>
+
+<div class="use">
+
+Use this page to [Set Parameters for Other
+Components](../Config/Set_Parameters_for_Other_Components.htm)
+
+</div>
+
+<p>This page has the following tabs:</p>
+
+<ul>
+<li><a href="#General_Tab1">General tab</a></li>
+<li><a href="#Map_Tab">Map tab</a></li>
+<li><a href="#Transform_Tab">Transform tab</a></li>
+<li><a href="#Construct_Tab">Construct tab</a></li>
+<li><a href="#Compare_Settings_Tab">Compare Settings tab</a></li>
+</ul>
+
+<p>To access this page:</p>
+
+<ol>
+<li>Select <span style="font-weight: bold;">dspMigrate</span> in the
+<span style="font-style: italic;">Navigation</span> pane, or select
+<span style="font-weight: bold;">Console</span> in the Context bar.</li>
+<li>Select <span style="font-weight: bold;">Advanced Configuration &gt;
+Parameters</span> in the
+<span style="font-style: italic;">Navigation</span> pane.</li>
+</ol>
+
+<h2 id="span-id-general-tab1-span-general-tab"><span id="General_Tab1"></span>General tab</h2>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Application Information</p>
+
+<p>Application Name</p>
+
+<p>Displays the name of the component, Console.</p>
+
+<p>Version</p>
+
+<p><em>Displays current version of Console.</em></p>
+
+<p>Date</p>
+
+<p>Displays date when this version of Console Was released.</p>
+
+<p>Common Options</p>
+
+<p>Migration Source Database Filter</p>
+
+<p>Displays the filter Console uses when displaying options in the <strong>SOURCE
+ID</strong> list box on the
+<em><a href="../../../Platform/Collect/Use_Cases/Register_and_Use_Sources.htm">Source</a></em>
+page’s <em>Horizontal</em> View and <em>Vertical</em> Views. This filter selects the
+Source data source as a database that begins with <strong>sdb</strong>.</p>
+
+<p>Migration Object Database Filter</p>
+
+<p>Displays the filter Console uses when displaying options in the
+<strong>DATASOURCE ID</strong> list box on the <em>Process Area: Object</em> page’s
+<em>Horizontal</em> View. The default value is dsw% used by Transform
+databases.</p>
+
+<p>Email From</p>
+
+<p>Displays the email address from which dspMigrate™ Advanced Data
+Migration (ADM) will send workflow emails.</p>
+
+<h2 id="span-id-map-tab-span-map-tab"> <span id="Map_Tab"></span>Map tab</h2>
+
+<p><span style="font-weight: bold;">NOTE</span>: Fields on this page that
+are not described in the table below are not used in the product.</p>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Field Options</p>
+
+<p>Key Prefix</p>
+
+<p>Displays the prefix added to a Source key field during the Transform
+automation process. These key fields are used to track legacy Source
+keys during the migration process to the new key value (often generated
+by the new ERP system). The default is zLegacy.</p>
+
+<p>Xref Prefix</p>
+
+<p>Displays the prefix added to a cross reference field during the
+Transform automation process. When using a cross reference rule (on the
+<em><a href="../../Map/Page_Desc/Field_Mappings_H.htm">Field Mappings</a></em> page in Map
+by selecting Xref or RuleXref in the <strong>ACTION</strong> list box) that requires
+additional or multiple rules to determine a value, Map creates a
+<strong>zField</strong> and a <strong>zLegacy</strong> field on the source table used in
+Transform. The <strong>zLegacy</strong> is used to complete client data conversions
+and the <strong>zField</strong> is used to complete the value mapping Source to
+Target check table values. The default is zLegacy.</p>
+
+<p>Xref Source Field Default Status</p>
+
+<p>Displays the default value mapping status for a cross reference Source
+field for
+<span style="font-family: &#39;Arial CE&#39;, sans-serif;">value
+mapping. When the a field mapping’s Action is set to Xref , the Source
+field on the <em>Value Mapping</em> page will default to this selection</span></p>
+
+<p>Auto Set Not Used For Multiple Sources</p>
+
+<p>Displays the option that controls how Map updates the ACTION column for
+Add Row and Update Row source mappings when the action has not been set
+(i.e., the ACTION column is blank). The ACTION column displays on the
+<em>Field Mappings</em> page in Map.</p>
+
+<p>Options include:</p>
+
+<ul>
+<li><span style="font-weight: bold;">None -</span> The values in the
+ACTION column for the Add Row and Update Row Sources are not changed
+in other Sources.</li>
+<li><span style="font-weight: bold;">Primary and Secondary Source
+-</span> When a mapping is saved in a Add Row and Update Row Source,
+Map updates the ACTION column for actions that are not set with
+NotUsed.</li>
+<li><span style="font-family: Arial, sans-serif;color: #333333;font-weight: bold;">Secondary
+Source only -</span> When a mapping is saved for an Update Row, the
+ACTION column for all other Update Row source mappings is set to
+NotUsed. In this case, if the Add Row source does not have an ACTION
+set, Map does not update that mapping. The Add Row source’s action
+remains unchanged.</li>
+</ul>
+
+<p>Auto Load Mapping History</p>
+
+<p>If checked, when mapping is deleted and added back the mapping is
+automatically restored to the latest mapping from history.</p>
+
+<p><strong>NOTE:</strong> Enabling this option can affect performance and add overhead
+to the sync process.</p>
+
+<p>If unchecked, when mapping is deleted and added back, the user must use
+the Restore option on the <span style="font-style: italic;"><a href="../../Map/Page_Desc/Field_Mapping_History.htm">Field
+Mapping History</a></span>
+page to restore the mapping. Refer to <a href="../../Map/Use_Cases/Restore_Current_Field_Mapping_From_History.htm">Restore Current Field Mapping
+From
+History</a>
+for more information.</p>
+
+<p>Build Xref Target Rules</p>
+
+<p>If unchecked, Map builds cross reference rules at the source level for
+those field mappings with an action of Xref or RuleXref.</p>
+
+<p>If checked, Map builds cross reference rules at the target level for
+those field mappings with an action of Xref or RuleXref.  By default,
+the check box is unchecked.</p>
+
+<p>Build Remediation Rule Reports</p>
+
+<p>If checked, Map builds Transform Remediation Rule reports to display
+data audit updates during the Transform Automation process.</p>
+
+<p><strong>NOTE:</strong> Enabling this feature may affect performance.</p>
+
+<p>If unchecked, Map generates the remediation rule value to process, but
+does not build the new view to generate the remediation report.</p>
+
+<p>Reset Field Mapping</p>
+
+<p>Displays the action taken when a user clicks the Reset icon for a field
+mapping on the <em><a href="../../Map/Page_Desc/Field_Mappings_H.htm">Field
+Mappings</a></em> page n Map or the
+<em><a href="../../SQL_AutoGen/Page_Desc/Automation_SQL_Field_Mappings_H.htm">Automation SQL Field
+Mappings</a></em>
+page in SQL AutoGen.</p>
+
+<p>Options are:</p>
+
+<ul>
+<li><strong>Reset all Field Mapping Fields</strong> – All fields are cleared of
+values</li>
+</ul>
+
+<p><strong>NOTE</strong>: If the mapping is associated with a field group other than the
+default field group (* or “All”), the Target Relationship ID field is
+not updated on a reset.</p>
+
+<ul>
+<li><strong>Reset Status Fields only</strong> – All fields retain values except for
+the Mapping Status and Rule Status, which are set to Pending Review.</li>
+</ul>
+
+<p>Reset Value Mapping</p>
+
+<p>Displays the action to take on value mappings for field mappings using
+the Xref or RuleXref action when the field mappings are reset.</p>
+
+<p>Reset Transform Rule</p>
+
+<p>Displays the action to take on Transform rules for field mappings using
+Copy, Default, Rule, Xref or RuleXref action when the field mappings are
+reset.</p>
+
+<p>Metric Options</p>
+
+<p>Metric Daily Retention</p>
+
+<p>Displays the number of days metrics are saved. The default value is 35.</p>
+
+<p>This daily summary is used to build the Snap Shot metrics.</p>
+
+<p>Metric Summary Retention</p>
+
+<p>Displays the number of days metric summary data is saved. The default
+value is 180.</p>
+
+<p>Rule Options</p>
+
+<p>Source Delete Rule Priority</p>
+
+<p>Displays the priority Map assigns to a Source delete rule when the rule
+is created. The default value is 19999.</p>
+
+<p>Source Insert Rule Priority</p>
+
+<p>Displays the priority Map assigns to a Source insert rule when the rule
+is created. The default Value is 20000.</p>
+
+<p>Source Priority Multiplier</p>
+
+<p>Displays the number used to multiply against the field’s priority on the
+<em><a href="../../Design/Page_Desc/Target_Fields_H_Target_Design.htm">Target
+Fields</a></em> page
+in Map and the result is the Priority for the Rule in Transform. Source
+rules will be registered in Transform using this priority, leaving gaps
+in the priority numbers to be used for manual rules. For example, if the
+field MEINS is priority 20, and the Source Priority Multiplier is set to
+10, then Map would set the Source rule priority to 200 in Transform. The
+default value is 10.</p>
+
+<p><strong>NOTE:</strong> Once a Source rule for a field is registered in Transform, Map
+will not adjust the priority.</p>
+
+<p>Target Priority Multiplier</p>
+
+<p>Displays the number used to multiply against the field’s priority on the
+<em>Target Fields</em> page in Map and the result is the Priority for the Rule
+in Transform. Target rules will be registered in Transform using this
+priority, leaving gaps in the priority numbers to be used for manual
+rules. For example, if the field MEINS is priority 20, and the Source
+Priority Multiplier is set to 10, then Map would set the Target rule
+priority to 200 in Transform, The default value is 10.</p>
+
+<p><strong>NOTE:</strong> Once a Target rule for a field is registered in Transform, Map
+will not adjust the priority.</p>
+
+<p>Target Report Priority Multiplier</p>
+
+<p>Displays the number used to multiply against the field’s priority on the
+<em>Target Fields</em> page in Map and the result is the Priority for the Rule
+in Transform. Target reports will be built and registered in Transform
+using this priority, leaving gaps in the priority numbers to be used for
+target reports created manually. For example, if a report is priority 20
+and the Target Report Priority Multiplier is set to 10, then Map would
+set the target priority to 200 in Transform. The default value is 10.</p>
+
+<p><strong>NOTE:</strong> Once a Target report is registered in Transform, Map will not
+adjust the priority.</p>
+
+<p>Target Report Remediation Priority Multiplier</p>
+
+<p>Displays the number used to multiply against the field’s priority on the
+<em>Target Fields</em> page in Map and the result is the Priority for the Rule
+in Transform. Target reports with remediation will be built and
+registered in Transform using this priority, leaving gaps in the
+priority numbers to be used for Target reports with remediation created
+manually. For example, if a report is priority 20, and the Target Report
+Remediation Priority Multiplier is set to 10, then Map would set the
+Target report with remediation priority to 200 in Transform. The default
+value is 10.</p>
+
+<p><strong>NOTE:</strong> Once a Target report with remediation is registered in
+Transform, Map will not adjust the priority.</p>
+
+<h2 id="span-id-transform-tab-span-transform-tab"><span id="Transform_Tab"></span>Transform tab</h2>
+
+<p> </p>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Directory Paths</p>
+
+<p>Source Path</p>
+
+<p>Displays the path for the Source directory where Source files (generally
+package files) that can be imported into Transform are stored.</p>
+
+<p>Report Path</p>
+
+<p>Displays the path where Transform will create report files. All files
+are generated to the path:</p>
+
+<p>C:\DSW\Report\&lt;Wave Name&gt;-&lt;Process Area&gt;\&lt;Target Name&gt;</p>
+
+<p>For example, if Transform were generating reports for the target ttMARA
+in the SouthAmerica Wave, MM Process Area, the reports would be written
+to:</p>
+
+<p>C:\DSW\Report\SouthAmerica-MM\ttMARA</p>
+
+<p>Export Path</p>
+
+<p>Displays the path where Transform will create export files. All files
+are generated to the path:</p>
+
+<p>C:\DSW\Export\&lt;Wave Name&gt;-&lt;Process Area&gt;\&lt;Target Name&gt;</p>
+
+<p>For example, if Transform were generating an export file for the target
+ttMARA in the SouthAmerica Wave, MM Process Area, the file  would be
+written to:</p>
+
+<p>C:\DSW\Export\SouthAmerica-MM\ttMARA</p>
+
+<p>Package Path</p>
+
+<p>Displays the path Transform will look in for package files.</p>
+
+<p>Documentation Path</p>
+
+<p>Displays the path where Transform will create documentation files.</p>
+
+<p>Other</p>
+
+<p>Temp Database Name</p>
+
+<p>Displays the name of the temporary database used by Transform.</p>
+
+<p>Audit Reports</p>
+
+<p>If checked, Transform generates audit statistics during processing.</p>
+
+<p>Run Remediation Rules</p>
+
+<p>If checked, Transform runs remediation rules. This field should not be
+checked for production loads.</p>
+
+<p>Report File Generation Mode ID</p>
+
+<p>Displays the mode for file system generation.</p>
+
+<p>Values are:</p>
+
+<ul>
+<li><strong>Automatic</strong> – Both file system files and Report Cache are created.</li>
+<li><strong>Custom</strong> – Only file systems file are created</li>
+<li><strong>On Demand</strong> – Neither file system files nor Report Cache created.</li>
+</ul>
+
+<p>The counts (i.e., the number of rows returned) on
+Target/Source/Remediation/Audit Report pages are updated.</p>
+
+<p>If the Report File Generation Mode ID is none, the Report Generation
+Mode ID is Custom.</p>
+
+<p><strong>NOTE:</strong> Report Cache are only created if Publish is enabled.</p>
+
+<p>File system files, sample and segment reports are created in a path on
+the application server using folder names based on the Object, Target,
+and Source names used in the report. The path displays in the Report
+Path field.</p>
+
+<p>The Report Cache is created in the Report Cache Data Source ID for My
+Reports</p>
+
+<p>When a user clicks the Access Report icon on the My Reports pages a file
+is written to the file system (note that same location as the file
+system file above).</p>
+
+<p>Source Active On Build</p>
+
+<p>If checked, Target Sources are auto-generated with a default status of
+active in Transform. If unchecked, target sources are auto-generated
+with a default status of inactive in Transform.</p>
+
+<p>Filters</p>
+
+<p>Prefix Delimiter</p>
+
+<p>Displays the delimiter used to separate filter prefixes when more than
+one filter is defined.</p>
+
+<p>Procedure Filter</p>
+
+<p>Displays the prefix used to filter Transform procedures.</p>
+
+<p>Target Table Filter</p>
+
+<p>Displays the prefix used to filter Target tables.</p>
+
+<p>Target Rule Filter</p>
+
+<p>Displays the prefix used to filter Target rules.</p>
+
+<p>Target Report Filter</p>
+
+<p>Displays the prefix used to filter Target reports.</p>
+
+<p>Target Export Filter</p>
+
+<p>Displays the prefix used to filter Target exports.</p>
+
+<p>Source Table Filter</p>
+
+<p>Displays the prefix used to filter Source tables.</p>
+
+<p>Source Rule Filter</p>
+
+<p>Displays the prefix used to filter Source rules.</p>
+
+<p>Source Report Filter</p>
+
+<p>Displays the prefix used to filter Source reports.</p>
+
+<p>Import Table Filter</p>
+
+<p>Displays the prefix used to filter import tables.</p>
+
+<p>Report Settings</p>
+
+<p>Default Report Format</p>
+
+<p>Displays whether column headings in reports will include field names, a
+translation of the field names, or both. Field names in a Target system
+are often abbreviated or, in the case of SAP, are abbreviated in German.</p>
+
+<p>Replacement Char</p>
+
+<p>Displays a character to replace the following invalid characters: ? | :
+* ? “ &lt; &gt; in reports. The default value is ^.</p>
+
+<p>Report Cache Data Source ID</p>
+
+<p>Displays the name of the database that contains the tables storing the
+results of report views.</p>
+
+<p><strong>NOTE:</strong> REPORT CACHE DATA SOURCE ID is required for the execution of
+the Business Data Transformation and Report Delivery via Transform.</p>
+
+<p>Report Header</p>
+
+<p>Displays the header that will appear on all reports as defined on the
+<em><a href="Report_Headers_Footers_Setup.htm">Report Headers/Footers (Setup)</a></em>
+page, accessible from <em>Navigation</em> pane in Transform by selecting
+<strong>Configuration &gt; Setup</strong>.</p>
+
+<p>Report Footer</p>
+
+<p>Displays the footer that will appear on all reports as defined on the
+<em>Report Headers/Footers (Setup)</em> page, accessible from <em>Navigation</em> pane
+in Transform by selecting <strong>Configuration &gt; Setup</strong>.</p>
+
+<p>Report Landscape</p>
+
+<p>If checked, the report is printed in landscape format. If unchecked, the
+report is printed in portrait format.</p>
+
+<p>Report Generate Empty</p>
+
+<p>If enabled, Transform will generate reports in the <strong>Report Path</strong> (set
+in the <strong>Report Path</strong> field on this page) even when there are no
+records on the report. If disabled, Transform will only generate a
+report if the report contains data.</p>
+
+<p>Report No Rec Count</p>
+
+<p>If checked, reports will not contain a record count. If unchecked, the
+record count is included on all reports.</p>
+
+<p>Segment Signal Dir</p>
+
+<p>If checked, Transform outputs Segment By reports to a single directory
+with the SegmentBy value appended to the report file name. If unchecked,
+Transform creates one directory per SegmentBy value.</p>
+
+<p>Text Format Value</p>
+
+<p>Displays the format for text in reports, either text format or x125.</p>
+
+<p>Add IMEX</p>
+
+<p>If checked, IMEX=1 is automatically added to Excel file connections,
+which instructs CranPort or SSIS packages to read intermixed columns
+(columns containing a mix of text and numbers) as text columns.</p>
+
+<p>Generate Documentation</p>
+
+<p>If checked, Transform creates technical documentation files.</p>
+
+<p>Transform generates and saves versions of the Technical, Audit and Recon
+documents as HTML files every time an object, target or Target Source is
+processed.</p>
+
+<p>Refer to <a href="../../Transform/Use_Cases/Generate_Documentation.htm">Generate Documentation for Objects, Targets, and Target
+Sources</a> for more
+information.</p>
+
+<p>Report Max Rows</p>
+
+<p>Displays the maximum number of rows to be generated into an Excel file.
+If the data contains more than the number of rows indicated by this
+field, a delimited file is generated instead.</p>
+
+<p>Report Max Support Rows</p>
+
+<p>Displays the maximum number of records that can be generated into a file
+(Excel or delimited).</p>
+
+<p><span style="font-family: Arial, sans-serif;">Report Column
+Delimiter</span></p>
+
+<p>Displays the delimiter used to separate the report data into columns in
+the report when the file is generated.</p>
+
+<p>Report Column Qualifier</p>
+
+<p>Displays the qualifier used to delineate column data containing spaces
+or special characters.</p>
+
+<p>Package Properties</p>
+
+<p>Import Suffix</p>
+
+<p>Displays the import suffix for CranPort or SSIS packages.</p>
+
+<p>Export Suffix</p>
+
+<p>Displays the export suffix for CranPort or SSIS packages.</p>
+
+<p>Source Connection</p>
+
+<p>Displays Connection 1 for import CranPort or SSIS packages and
+Connection 2 for export CranPort or SSIS packages.</p>
+
+<p>Destination Connection</p>
+
+<p>Displays Connection 1 for export CranPort or SSIS packages and
+Connection 2 for import CranPort or SSIS packages.</p>
+
+<p>Temporary Prefix</p>
+
+<p>Displays the prefix used for temporary CranPort or SSIS packages.</p>
+
+<p>Destroy Temp Package</p>
+
+<p>If checked, Transform destroys any temporary CranPort or SSIS packages
+generated during report file creation. If disabled, the temporary
+packages are saved on the web server for review.</p>
+
+<p> </p>
+
+<h2 id="span-id-construct-tab-span-construct-tab"><span id="Construct_Tab"></span>Construct tab</h2>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Field</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>Client</td>
+<td>Client value used in views for filtering.</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+
+<p><span id="Compare_Settings_Tab"></span></p>
+
+<h2 id="span-id-compare-span-compare-settings-tab"><span id="Compare"></span>Compare Settings tab</h2>
+
+<p><strong>NOTE</strong>: This tab is only accessible if the current user is a member of
+the WebApp group Wavesynchronizer in Console or is assigned to a
+security role with access to the page. Refer to <a href="../../../Platform/Sys_Admin/Use_Cases/Setting_security.htm">Set
+Security</a> in
+System Administration for more information.</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Equal Color</p></td>
+<td><p>Displays the text color used in the Field Comparison table when values are equal between the baseline Wave and the child Wave.</p>
+<p>The table displays on the <em>Vertical</em> View of the results page for each element (Process Area, object, target and field).</p></td>
+</tr>
+<tr class="odd">
+<td><p>Not Equal Color</p></td>
+<td><p>Displays the text color used in the Field Comparison table when values are not equal between the baseline Wave and the child Wave.</p>
+<p>The table displays on the Vertical View of the results page for each element (Process Area, Object, Target and field).</p></td>
+</tr>
+<tr class="even">
+<td><p>Not IN Baseline Color</p></td>
+<td><p>Displays the text color used in the Field Comparison table when a value exists in the child Wave, but not in the baseline Wave. The table displays on the Vertical View of the results page for each element (Process Area, Object, Target and field).</p></td>
+</tr>
+<tr class="odd">
+<td><p>Not IN Child Color</p></td>
+<td><p>Displays the text color used in the Field Comparison table when a value exists in the baseline Wave, but not in the child Wave. The table displays on the Vertical View of the results page for each element (Process Area, Object, Target and field).</p></td>
+</tr>
+<tr class="even">
+<td><p>Strike Through Missing</p></td>
+<td><p>If checked, if a value exists in one Wave and not the other, the text is formatted as a strikethrough.</p></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#parameters">Parameters</a>
+<ul>
+<li><a href="#span-id-general-tab1-span-general-tab"><span id="General_Tab1"></span>General tab</a></li>
+<li><a href="#span-id-map-tab-span-map-tab"> <span id="Map_Tab"></span>Map tab</a></li>
+<li><a href="#span-id-transform-tab-span-transform-tab"><span id="Transform_Tab"></span>Transform tab</a></li>
+<li><a href="#span-id-construct-tab-span-construct-tab"><span id="Construct_Tab"></span>Construct tab</a></li>
+<li><a href="#span-id-compare-span-compare-settings-tab"><span id="Compare"></span>Compare Settings tab</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

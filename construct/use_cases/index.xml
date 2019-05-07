@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/construct/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/construct/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enrichment Construction</title>
+      <link>https://heathercloward.github.io/construct/use_cases/enrichment_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/enrichment_construction/</guid>
+      <description>Enrichment Construction Use Enrichment Construction when a field or a few fields should be constructed.
+Enrichment Construction begins in Map, when a user maps a Target Source field using a Construction action. When submitted, the following Objects are created:
+ The Construct page with the Key fields, along with the field(s) mapped with an Action of Construct in Map.
+NOTE: Key fields are set as hard required on the Construct page and required fields are set to soft required.</description>
+    </item>
+    
+    <item>
+      <title>Enter Data into Construction Pages</title>
+      <link>https://heathercloward.github.io/construct/use_cases/enter_data_into_construction_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/enter_data_into_construction_pages/</guid>
+      <description>Enter Data into Construction Pages The Construct page is used to enter or modify data required for the Target ERP system that doesn’t currently exist in the Source system.
+Construct eliminates the inconsistency of maintaining multiple spreadsheets and gives a single location where users can update or directly enter data. To enter data into the construction pages:
+ Select dspMigrate in the Navigation pane.
+ Select Construct in the Context bar.</description>
+    </item>
+    
+    <item>
+      <title>Field Construction by Object</title>
+      <link>https://heathercloward.github.io/construct/use_cases/field_construction_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/field_construction_by_object/</guid>
+      <description>Field Construction by Object This chart displays the summary status of the number of fields in the Source table, the estimated number of fields that require construction (i.e., active fields for the Target) and the number of fields where construction is complete.
+When the chart is accessed from the Objects page in Target Design, counts display for the selected Object only.
+When the chart is accessed from the Field Construction by Wave &amp;amp; Process Area chart, counts display for all Objects in the Wave and Process Area.</description>
+    </item>
+    
+    <item>
+      <title>Field Construction by Target</title>
+      <link>https://heathercloward.github.io/construct/use_cases/field_construction_by_target_construct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/field_construction_by_target_construct/</guid>
+      <description>Field Construction by Target This chart displays the summary status of the number of fields in the Source table, the estimated number of fields that require construction (i.e., active fields for the Target) and the number of fields where construction is complete.
+When the chart is accessed from the Field Construction by Object chart, these counts are for all Targets in the Object.
+When the chart is accessed from the Targets page in Target Design, counts display for the selected Target only.</description>
+    </item>
+    
+    <item>
+      <title>Field Construction by Wave</title>
+      <link>https://heathercloward.github.io/construct/use_cases/field_construction_by_wave/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/field_construction_by_wave/</guid>
+      <description>Field Construction by Wave This chart displays the summary construction status of the number of fields in the Source table, the estimated number of fields that require construction (i.e., active fields for the Target) and the number of fields where construction is complete for the Wave selected on the Waves page.
+Click the bar to drill down to the Field Construction by Wave &amp;amp; Process Area chart.
+NOTE: For general information about the data that displays on Construction charts, refer to View the Dashboard in Construct.</description>
+    </item>
+    
+    <item>
+      <title>Field Construction by Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/construct/use_cases/field_construction_by_wave_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/field_construction_by_wave_process_area/</guid>
+      <description>Field Construction by Wave &amp;amp; Process Area This chart displays the summary construction status of the number of fields in the Source table, the estimated number of fields that require construction (i.e., active fields for the Target) and the number of fields where construction is complete.
+When the chart is accessed from the Field Construction by Wave chart, counts display for all Waves and Process Areas.
+When the chart is accessed from the Wave : Process Areas page, counts display for the selected Wave and Process Area only.</description>
+    </item>
+    
+    <item>
+      <title>Full Construction</title>
+      <link>https://heathercloward.github.io/construct/use_cases/full_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/full_construction/</guid>
+      <description>Full Construction A {Full Construction} Source is added in Target Design.
+In cases where no legacy data is available, a user can assign a Source of Full Construction, which can be used as a single Source or as one of multiple Sources for a Target.
+For example, a Full Construction page could be created to build a certain material type, such as a service material for the MARA Target.</description>
+    </item>
+    
+    <item>
+      <title>Full Construction and Enrichment Construction</title>
+      <link>https://heathercloward.github.io/construct/use_cases/full_construction_and_enhanced_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/full_construction_and_enhanced_construction/</guid>
+      <description>Full Construction and Enrichment Construction Construct allows users to efficiently construct missing data and provides a location to rapidly develop web pages for gathering information.
+Users enter data in construct pages that is not available in source (legacy) systems. Such missing values could be:
+ A field or two from a particular Object, such as Material UOM or Vendors Fax Number, that are required by the Target system, but do not exist in the legacy system (and the values in these fields cannot be inferred).</description>
+    </item>
+    
+    <item>
+      <title>Update Completed Status of Records</title>
+      <link>https://heathercloward.github.io/construct/use_cases/update_completed_status_of_records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/update_completed_status_of_records/</guid>
+      <description>Update Completed Status of Records A service page runs once an hour to update the status of completed records for each Construct page.
+A user can also manually update the stats to view the current status.
+This task is performed in Target Design for a Target Source with a Source data source of {Full Construction}.
+NOTE: Completed records are those that were completed according to validations added for the Construct page at the client’s site.</description>
+    </item>
+    
+    <item>
+      <title>Use Collect with Full Construction</title>
+      <link>https://heathercloward.github.io/construct/use_cases/use_collect_with_full_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/use_collect_with_full_construction/</guid>
+      <description>Use Collect with Full Construction Collect registrations are added to take the snap shot of the Target Source added in Target Design automatically if the default WebApp (Construct) and the default data source (sdbDSPConstruct) are used.
+Tables created when a Full Construction Source is synced to Map can be viewed in Collect on the Tables page after the tables have been downloaded. Refer to Tables Overview for more information about downloading tables.</description>
+    </item>
+    
+    <item>
+      <title>Use Map with Full Construction</title>
+      <link>https://heathercloward.github.io/construct/use_cases/use_map_with_full_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/use_map_with_full_construction/</guid>
+      <description>Use Map with Full Construction Once a user saves the {Full Construction} Target Source and clicks the Sync to Map icon, the Source is pushed to Map as an Add Row Source.
+All active fields for the Target are automatically set to the Copy action on the Field Mappings page. Refer to Copy for more information about this action.
+This Target Source is treated like any other Add Row Source in Map.</description>
+    </item>
+    
+    <item>
+      <title>Use Target Design with Full Construction</title>
+      <link>https://heathercloward.github.io/construct/use_cases/use_target_design_with_full_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/use_target_design_with_full_construction/</guid>
+      <description>Use Target Design with Full Construction To begin a Full Construction in Target Design, add a Target Source as {Full Construction}.
+NOTE: If the default WebApp (Construct) and the default data source (sdbDSPConstruct) is not used, the AutoGen process outlined in this section is not performed. Refer to Update the WebApp and Source Data Source for Construct for more information.
+NOTE After a {Full Construction} Target Source has been saved and the Target has been synced to Map, a user can update the Length field to a larger number and this update is applied to the Construct table when the Target is next synced.</description>
+    </item>
+    
+    <item>
+      <title>Use a Custom WebApp with Construct</title>
+      <link>https://heathercloward.github.io/construct/use_cases/use_a_custom_webapp_with_construct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/use_a_custom_webapp_with_construct/</guid>
+      <description>Use a Custom WebApp with Construct A custom WebApp and its data source can be used with Construct. For example, a client may require that data-sensitive content be added to a custom WebApp called ConstructHR.
+To use a custom WebApp with Construct, an Administrator must:
+ Add the custom WebApp to the platform in System Administration.
+ Assign users to the WebApp group for the custom WebApp to grant users access to the pages in the WebApp in System Administration.</description>
+    </item>
+    
+    <item>
+      <title>View Object Charts</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_object_charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_object_charts/</guid>
+      <description> View Object Charts A chart is available to view a graphical representation of the tracked Data Source objects, organized by week and type.
+To view a Data Source chart for all objects:
+ Click Analyze in Navigation pane. Click Trace for Data Source ID. Click Chart to view a graph representation of the objects changed by week.  </description>
+    </item>
+    
+    <item>
+      <title>View Object History</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_object_history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_object_history/</guid>
+      <description>View Object History If the database is refreshed and a change has been made to an object, the audit trail of SQL code is stored.
+To view the object history:
+ Click Analyze in Navigation pane.
+ Click Trace for Data Source ID.
+ Click an applicable icon to view historical objects.
+ Click History for Object Name.
+View the field descriptions for the History of Changes page
+  NOTE: All archived objects are listed.</description>
+    </item>
+    
+    <item>
+      <title>View Objects</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_objects/</guid>
+      <description>View Objects The SQL code for the following object types is tracked for any given data sources:
+ Tables Procedures Views Functions Other – additional SQL objects, such as synonyms, triggers and table functions  To view objects:
+ Click Analyze in Navigation pane.
+NOTE: The Analyze page displays data source registered in System Administration. Data sources are analyzed for database object changes, table statistics and duplicate records.
+ Click Trace for Data Source ID.</description>
+    </item>
+    
+    <item>
+      <title>View Results</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_results/</guid>
+      <description>View Results After duplicates have been identified and resolved, review results to verify the duplicate resolution is accurate.
+To view results:
+ Click Analyze in the Navigation pane.
+ Click Duplicates for Data Source ID.
+ Select an object.
+ Click Results on Page toolbar.
+View the field descriptions for the Results page
+ Review the RESULT STATUS to determine if there are unresolved candidates that must be reviewed. Options are:</description>
+    </item>
+    
+    <item>
+      <title>View Table Field Results</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_table_field_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_table_field_results/</guid>
+      <description> View Table Field Results Results for profiled data sources can be viewed for individual fields within a table.
+To view fields:
+ Click Analyze in the Navigation pane. Click Profile for Data Source ID. Click Tables. Click Fields for Table.  </description>
+    </item>
+    
+    <item>
+      <title>View Table Results</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_table_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_table_results/</guid>
+      <description> View Table Results Results for profiled data sources can be viewed for individual tables.
+ Click Analyze in the Navigation pane.
+ Click Profile for Data Source ID.
+ Click Tables.
+View the field descriptions for the Table (Results) page
+ Click Vertical View to view profile and processing information for the table.
+  </description>
+    </item>
+    
+    <item>
+      <title>View the Construction Page in Construct</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_the_construction_page_in_construct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_the_construction_page_in_construct/</guid>
+      <description>View the Construction Page in Construct In Construct, view the page created when a {Full Construction} Target Source is saved in Target Design.
+To view the page in Construct:
+ Click Objects on the Construct Launch page.
+ Click the Targets icon for an Object.
+ Click the Construct Pages icon for the Target.
+NOTE: The page that opens displays information about all of the construct pages that have been created for the Target.</description>
+    </item>
+    
+    <item>
+      <title>View the Dashboard in Construct</title>
+      <link>https://heathercloward.github.io/construct/use_cases/view_dashboard_in_construct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/construct/use_cases/view_dashboard_in_construct/</guid>
+      <description>View the Dashboard in Construct These charts display the summary status of the number of fields in the Source table, the estimated number of fields that require construction (as in, active fields for the Target) and the number of fields where construction is complete.
+A user can drill down from the Wave level through the Wave and Process Area, Object, and Target level to view a summary construction status at increasingly granular levels.</description>
+    </item>
+    
+  </channel>
+</rss>

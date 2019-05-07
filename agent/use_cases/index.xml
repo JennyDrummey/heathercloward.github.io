@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/agent/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/agent/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configure the Migration Dashboard</title>
+      <link>https://heathercloward.github.io/agent/use_cases/configure_the_migration_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/agent/use_cases/configure_the_migration_dashboard/</guid>
+      <description>Configure the Migration Dashboard After the Agent Interface has been installed and configured, configure the Migration dashboard in the DSP®.
+Configure a wave within the DSP to send data to the Dashboard after the initial structure of the Wave (Wave, Process Areas and Objects) has been defined and the first steps of Target Design have begun. The first metrics displayed on the Dashboard are that of Design Complete, thus there is no requirement to configure the Wave to send metrics data to the Dashboard until after Target Design has started.</description>
+    </item>
+    
+  </channel>
+</rss>

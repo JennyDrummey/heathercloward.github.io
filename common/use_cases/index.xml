@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/common/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/common/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Activate and Deactivate Data Sources</title>
+      <link>https://heathercloward.github.io/common/use_cases/activate_and_deactivate_data_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/activate_and_deactivate_data_source/</guid>
+      <description>Activate and Deactivate Data Sources When a data source is registered in System Administration, it is automatically registered in Common to be traced.
+A Data Source can be deactivated, which is helpful to reduce resource (memory, disk space, processing, etc.) consumption.
+To deactivate a data source from being traced:
+ Click Analyze in Navigation pane.
+ Click Trace for Data Source ID.
+ Click Deactivate on Page toolbar; the data source is no longer traced.</description>
+    </item>
+    
+    <item>
+      <title>Activate and Deactivate Tables</title>
+      <link>https://heathercloward.github.io/common/use_cases/activate_and_deactivate_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/activate_and_deactivate_tables/</guid>
+      <description>Activate and Deactivate Tables When an Administrator registers a data source in System Administration, it is automatically registered in Common to be profiled. At this point, a snapshot of the database is taken and profiling begins.
+Tables that are to be excluded from the profile process must be manually deactivated.
+To deactivate/activate tables for profiling:
+ Click Common &amp;gt; Analyze in the Navigation pane.
+NOTE: The Analyze page displays Data Sources registered in System Administration that are not added to the Ignore Data Sources page and to which the logged in user has security to view.</description>
+    </item>
+    
+    <item>
+      <title>Activate or Deactivate Tables in a System Type Group</title>
+      <link>https://heathercloward.github.io/common/use_cases/activate_deactivate_tbls_system_type_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/activate_deactivate_tbls_system_type_group/</guid>
+      <description>Activate or Deactivate Tables in a System Type Group All the tables in a System Type Group can be activated or deactivated in a mass update to facilitate the table activation or deactivation process.
+Only active system tables are downloaded from the source.
+To activate or deactivate all tables in a System Type Group:
+ Click System Types in Navigation pane.
+ Click Groups for a System Type.
+ Click Tables for a Group.</description>
+    </item>
+    
+    <item>
+      <title>Activate or Deactivate Tables in a System Type Model Group</title>
+      <link>https://heathercloward.github.io/common/use_cases/activedeactivetblssystmtypemodelgrp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/activedeactivetblssystmtypemodelgrp/</guid>
+      <description>Activate or Deactivate Tables in a System Type Model Group Before performing this task, add a System Type model group.
+All the tables in a System Type Model Group can be activated or deactivated in a mass update to facilitate the table activation or deactivation process.
+To activate or deactivate all tables in a System Type Model Group in Common:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Add Custom Data Classifications and Information Types</title>
+      <link>https://heathercloward.github.io/common/use_cases/add-custom-data-classifications-and-information-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add-custom-data-classifications-and-information-types/</guid>
+      <description>Add Custom Data Classifications and Information Types A Common Administrator can configure custom data classifications and information types used for data protection. The DSP includes information types and data classifications by default that cannot be edited or deleted.
+A data classification allows a client to classify the data in an object, such as Human Resources, Sales, Customer or Personal.
+An information type, assigned to a data classification, dictates whether a retention period is required for an object that is assigned this data classification.</description>
+    </item>
+    
+    <item>
+      <title>Add DBMoto Functions</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_dbmoto_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_dbmoto_functions/</guid>
+      <description>Add DBMoto Functions Use the DBMoto Function Setup page to add a DBMoto global script function. Users can also write their own function in the replication script that the global script can call in. DBMoto supports Visual Basic and C#.
+The following is an example of a global script function:
+using System;
+using System.Data;
+using DBMotoPublic;
+using DBMotoScript;
+namespace DBRS
+{
+public class ReplicationScript : IReplicationScript
+{
+public override void Record_onAfterMapping(DBMotoPublic.</description>
+    </item>
+    
+    <item>
+      <title>Add Default User Credentials to a Connection</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_default_user_credentials_to_a_connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_default_user_credentials_to_a_connection/</guid>
+      <description>Add Default User Credentials to a Connection This task is performed by an Administrator.
+Before performing this task:
+ Gather information about the instance, such as the application server name, system number and log in credentials. Add an SAP connection. Refer to Establish a Connection via a Direct Connection to the Application Server and Establish a Connection via a Message Server for more information.   Integrate and dspCompose™ templates use connections to a data source to download data from a target system.</description>
+    </item>
+    
+    <item>
+      <title>Add Fields to Tables</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_fields_to_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_fields_to_tables/</guid>
+      <description>Add Fields to Tables Once system tables are added, configure fields for the table.
+A user can set a static value for the field as well. Refer to Set Values for System Types Table Fields for more information.
+To add fields to tables:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click Tables icon for System Type.
+ Click Fields icon for Table Name.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Add Indices</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_indices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_indices/</guid>
+      <description>Add Indices Indices are a way for the database system to find records efficiently. Indices must be manually added to System Types.
+To add indices:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click Tables icon for a System Type.
+ Click Indices icon for a table.
+ Click Add.
+View the field descriptions for the System Types Table Indices page
+ Enter a name in INDEX NAME field.</description>
+    </item>
+    
+    <item>
+      <title>Add Keys</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_keys/</guid>
+      <description>Add Keys A secure key defines the encryption algorithm and password used to encrypt and decrypt legacy data. As many keys can be defined and reused as necessary for the needs of the project. For example, a single key can be shared by a Migration Team to encrypt all the data for an object or a single key can be defined and used on only one column by one team member.</description>
+    </item>
+    
+    <item>
+      <title>Add Mappings</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_mappings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_mappings/</guid>
+      <description>Add Mappings Mappings are generic mappings between a source and a target system. Mapping fields drive the import process in Map. Mapping fields must be manually added to System Types.
+To add mappings:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click TargetMappings icon for System Type.
+ Click Add.
+View the field descriptions for the System Types Mappings page
+ Select a table-field combination within the source system being mapped from SOURCE SYSTEM TYPE TABLE ID combo box.</description>
+    </item>
+    
+    <item>
+      <title>Add Post Action Table Rules</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_post_action_table_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_post_action_table_rules/</guid>
+      <description>Add Post Action Table Rules Post action rules are applied to tables after they are downloaded from the source system. They must be manually added to System Types. For example, post action table rules can be used to drop all leading 0s for all fields in a table or to clear the dates in all date fields.
+To add post action table rules:
+ Click Common &amp;gt; System Types in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Add System Tables and Fields</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_system_tables_and_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_system_tables_and_fields/</guid>
+      <description> Add System Tables and Fields Tables and metadata can either be imported from a data source or manually added.
+NOTE: The data source must be registered in Common. Refer to Register a Data Source in Common for more information.
+To manually add system tables and fields:
+ Import a Data Source Import a Model Copy a System Type Table Add Fields to Tables Add a Lookup Table Manually Add Indices Add Table Join Relationships Add System Types Groups Activate or Deactivate Tables in a System Type Group Add Post Action Table Rules Add Mappings  </description>
+    </item>
+    
+    <item>
+      <title>Add System Types</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_system_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_system_types/</guid>
+      <description>Add System Types System types can be added depending on the needs of the project. Common is delivered with an SAP and JDE model that can be used to import those System Types. Refer to Import a Model for more information.
+To add System Types:
+ Click System Types in Navigation pane.
+ Click Add.
+View the field descriptions for the System Types page
+ Enter the name of the external system in SYSTEM TYPE field.</description>
+    </item>
+    
+    <item>
+      <title>Add Table Join Relationships</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_table_join_relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_table_join_relationships/</guid>
+      <description>Add Table Join Relationships Table join relationships indicate how table fields are connected. Table join relationships must be manually added to System Types.
+To add table join relationships:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click Tables icon for a System Type.
+ Click Joins icon for System Type table.
+ Click Add.
+View the field descriptions for the System Types Joins page
+ Select the table on left side of join from LEFT SYSTEM TYPE TABLE ID combo box.</description>
+    </item>
+    
+    <item>
+      <title>Add User Credentials to an SAP Connection for a Specific User</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_user_credentials_to_an_sap_connection_for_a_specific_use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_user_credentials_to_an_sap_connection_for_a_specific_use/</guid>
+      <description>Add User Credentials to an SAP Connection for a Specific User An Administrator can add SAP Login credentials for specific users to track that user’s updates posted to SAP.
+If no user credentials have been added for the current user, the platform uses the default credentials entered on the Vertical View of the Data Source Registry page for an SAP Application Server connection type.
+Before performing this task, gather information about the SAP instance, such as the SAP application server name, system number and log in credentials.</description>
+    </item>
+    
+    <item>
+      <title>Add a Calendar</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_a_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_a_calendar/</guid>
+      <description>Add a Calendar In dspTrack™, calendars are used to schedule status calculations. Refer to Set Parameters for Schedule Status Calculations for more information. A calendar named Default is included when dspTrack™ is installed. Additional calendars can be added for dspTrack™.
+NOTE: When an MS Project file is imported into dspTrack™, a calendar is added with the Project name at the start of the calendar name.
+dspConduct™ uses the dspConduct™ default calendar to perform SLA calculations.</description>
+    </item>
+    
+    <item>
+      <title>Add a Debug Log to a Custom WebApp</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_a_debug_log_to_a_custom_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_a_debug_log_to_a_custom_webapp/</guid>
+      <description>Add a Debug Log to a Custom WebApp Debug logs display information, such as error messages and the date and time errors occurred to assist in troubleshooting issues with a component. The DSP® is installed with debug logs for delivered applications.
+After a custom WebApp has been added to the platform, a user can add a debug log to it.
+After the log has been added, the platform creates:</description>
+    </item>
+    
+    <item>
+      <title>Add a Lookup Table Manually</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_a-lookup-table-manually./</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_a-lookup-table-manually./</guid>
+      <description>Add a Lookup Table Manually Lookup tables are a type of table that contains lookup values for another table. They must be manually added to System Types for systems where there is not a complete model set up or where the System Types are manually built.
+To add lookup tables:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click Tables icon for System Type.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Add a System Type Group</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_system_types_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_system_types_groups/</guid>
+      <description>Add a System Type Group System Type groups are logical groupings of tables, such as Customer or Vendor. Use system Type groups for source database systems where a large number of tables must be created and downloaded.
+Create these groups using one of these methods:  Create System Type groups from the Fetch process. Create System Type groups from source tables. Create system Type groups manually in Common.  To manually add System Type groups:</description>
+    </item>
+    
+    <item>
+      <title>Add a System Type Model</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_a_new_system_type_model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_a_new_system_type_model/</guid>
+      <description>Add a System Type Model A System Type Model contains the definition of a system, including the system’s tables, fields, properties, descriptions and relationships. The System Type Model can be used to build a complete System Type.
+Refer to System Types for more information.
+A System Type Model is built by creating views that match the required formats as defined in the system’s data dictionary. Specifically, Model Views are simple SQL Views that can be written against any system’s data dictionary to provide all metadata required to build an accurate System Type.</description>
+    </item>
+    
+    <item>
+      <title>Add a System Type Model Group</title>
+      <link>https://heathercloward.github.io/common/use_cases/add-a-system-type-model-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add-a-system-type-model-group/</guid>
+      <description>Add a System Type Model Group Groups are logical groupings of tables, such as Customer or Vendor.
+To add a System Type Model Group:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane.
+ Select the SYSTEM TYPE MODEL on the System Type Models page.
+ Click the Model Groups icon.
+NOTE: If records already exist, the page displays in Add mode. Otherwise, click Add.
+View the field descriptions for the System Types Model Groups page.</description>
+    </item>
+    
+    <item>
+      <title>Add a System Type Model Table</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_a_new_system_type_model_table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_a_new_system_type_model_table/</guid>
+      <description>Add a System Type Model Table An Administrator performs this task to document which tables are required to be populated when building the System Type.
+The System Type model must be added before this task can be performed.
+For the System Type import to work, all tables on the System Types Model Tables page must exist and contain data.
+The following System Type models and associated tables are delivered with the product:</description>
+    </item>
+    
+    <item>
+      <title>Add an Exception to the Calendar</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_an_exception_to_the_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_an_exception_to_the_calendar/</guid>
+      <description>Add an Exception to the Calendar Calendars are used in dspTrack™ and dspConcut™ components. Refer to Use a Calendar for more information.
+When the users assigned to a calendar should work different hours than on a regularly scheduled work day, add a calendar exception. For example, if regular work hours are 9:00 AM to 5:00 PM for all of the work days on a calendar, but work hours are 9:00 AM to 12:00 PM on December 24, add an exception to the calendar for this date.</description>
+    </item>
+    
+    <item>
+      <title>Add and Remove a Calendar’s Users</title>
+      <link>https://heathercloward.github.io/common/use_cases/add_and_remove_a_calendars_users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/add_and_remove_a_calendars_users/</guid>
+      <description>Add and Remove a Calendar’s Users If a user is assigned to a calendar, a check mark displays in the IS MEMBER column for that USER ID on the Calendar User page.
+Calendars are used in the dspTrack™ and dspConduct™ components. Refer to Use a Calendar for more information.
+A user can only be assigned to one calendar at a time.
+If a user is assigned to a calendar, and an attempt is made to add that user to another calendar, a warning message displays.</description>
+    </item>
+    
+    <item>
+      <title>Assign a User to a Security Role in Common</title>
+      <link>https://heathercloward.github.io/common/use_cases/assign_a_user_to_a_security_role_in_common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/assign_a_user_to_a_security_role_in_common/</guid>
+      <description>Assign a User to a Security Role in Common Before completing this task, an Administrator:
+ Creates a User Account in Common Send a Temporary Password for a New User  An Administrator then assigns a user to a security role. A role is a single unit used to authorize specified security (such as access to components, pages, and features) to the assigned user.
+To assign a user to a security role:</description>
+    </item>
+    
+    <item>
+      <title>Assign an Expiration Date to a User</title>
+      <link>https://heathercloward.github.io/common/use_cases/assign_an_expiration_date_to_a_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/assign_an_expiration_date_to_a_user/</guid>
+      <description>Assign an Expiration Date to a User A Security Administrator performs this task.
+The purpose of this task is to assign an expiration date to a user so that the user’s security access is set to expire on a future date.
+NOTE: If no expiration is provided, then the user’s access will not expire.
+Before this task is performed, the  a user must be created.
+To assign an expiration date to a user:</description>
+    </item>
+    
+    <item>
+      <title>Automation Engine</title>
+      <link>https://heathercloward.github.io/common/use_cases/automation_engine_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/automation_engine_overview/</guid>
+      <description>Automation Engine The Automation Engine allows for the programmatic creating and processing of instructions, for example, creating rules in Collect. Instructions can only be automated from within a single data source.
+The Automation Engine hierarchy is as follows:
+ Instruction – an individual instruction to execute
+ Task – a collection of instructions
+ Task Group – a collection of tasks that are executed in a specific order
+  This use case includes the following topics:</description>
+    </item>
+    
+    <item>
+      <title>Build Views</title>
+      <link>https://heathercloward.github.io/common/use_cases/build_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/build_views/</guid>
+      <description>Build Views The Build View process allows users to create views in one database that reference every table in another database.
+To build a view:
+ Select Tools &amp;gt; Build View in Navigation pane.
+ Click Add.
+View the field descriptions for the Build View page
+ Select database from SOURCE DATABASE list box to control the database where tables are referenced.
+ Select database from TARGET DATABASE list box to control the database where views are created.</description>
+    </item>
+    
+    <item>
+      <title>Build Views based on a System Type Model</title>
+      <link>https://heathercloward.github.io/common/use_cases/build-views-based-on-a-st-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/build-views-based-on-a-st-model/</guid>
+      <description>Build Views based on a System Type Model Before importing a System Type from a System Type Model, the required model views must exist in the target System Type’s database.
+To automatically build the model views in a System Type’s database:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane.
+ Select the SYSTEM TYPE MODEL.
+ Click Vertical View.
+ Click the Build Views icon on the Page toolbar.</description>
+    </item>
+    
+    <item>
+      <title>Build a Construction Page Manually</title>
+      <link>https://heathercloward.github.io/common/use_cases/build_a_construction_page_manually/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/build_a_construction_page_manually/</guid>
+      <description>Build a Construction Page Manually When the construction page should not be generated automatically, build the page manually.
+To build the page in Target Design:
+ Select Design in the Context bar.
+ Click the Targetsicon on the Design page.
+ Select the Sources icon for a Target.
+ Click Add.
+View the field descriptions for the Target Sources page
+NOTE: The Add button is only available if the selected Target has a Design Status of In Design.</description>
+    </item>
+    
+    <item>
+      <title>Configure Collect</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_collect_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_collect_overview/</guid>
+      <description> Configure Collect Before using Collect, configure the settings that are specific to this component of the DSP®.
+NOTE: Refer to Setup and Configuration for Collect for additional steps performed in Collect.
+This use case consists of the following topics:
+ Set up Post Action Rule Tables  Set up Database Functions Configure Collect Parameters  </description>
+    </item>
+    
+    <item>
+      <title>Configure Collect Parameters</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_collect_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_collect_parameters/</guid>
+      <description>Configure Collect Parameters Parameters are Collect-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+To configure Collect parameters:
+ Select Configuration &amp;gt; Modules &amp;gt; Parameters-Collect in Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters-Collect page
+ Update all fields if default values are not applicable.
+NOTE: If updating the SAP Data Services Settings, only the following placeholders are permitted in name formats:</description>
+    </item>
+    
+    <item>
+      <title>Configure Columns</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_columns/</guid>
+      <description>Configure Columns Once the object is registered in Common, the way in which columns display on the Results page can be configured, such as bolding a field name or adding a page break.
+To configure view columns:
+ Click Analyze in the Navigation pane.
+ Click Duplicates for Data Source ID.
+ Select an object.
+ Click Columns on Page toolbar.
+NOTE: All columns are pulled in by the duplicates view.</description>
+    </item>
+    
+    <item>
+      <title>Configure Data Sources to be Ignored</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_data_sources_to_be_ignored/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_data_sources_to_be_ignored/</guid>
+      <description>Configure Data Sources to be Ignored By default, all data sources registered to the site in System Administration are available on the Analyze page. If a registered data source should not be analyzed within Common, for example, if it is a custom application or a target database, add it to the Ignore Data Sources list.
+To configure data sources to be ignored:
+ Select Configuration &amp;gt; Ignore Data Sources in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure Debug Logs Settings</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_debug_logs_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_debug_logs_settings/</guid>
+      <description>Configure Debug Logs Settings The Debug Logs page allows users to configure debug logs at the application level.
+To configure debug log settings:
+ Select Job Monitor &amp;gt; Debug Logs in Navigation pane.
+ Click Edit for the component.
+View the field descriptions for the Debug Logs page
+ Select a debugging level from TRACE LEVEL list box, which corresponds to the severity of the message logged. Values are:</description>
+    </item>
+    
+    <item>
+      <title>Configure Duplicates Parameters</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_duplicates_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_duplicates_parameters/</guid>
+      <description>Configure Duplicates Parameters Parameters are Duplicate-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+NOTE: Additional settings for Duplicate Detection are configured in System Administration. Refer to Manage Duplicate Detection in System Administration for more information.
+To configure duplicate parameters:
+ Select Common &amp;gt;Configuration &amp;gt; Modules &amp;gt; Parameters-Duplicates in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure Integrate Parameters</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_integrate_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_integrate_parameters/</guid>
+      <description>Configure Integrate Parameters Parameters are Integrate-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes neIntegratecessary for the installation.
+NOTE: Refer to Setup and Configuration for Integrate for additional configuration settings.
+To configure Integrate parameters:
+ Select Configuration &amp;gt; Modules &amp;gt; Parameters-Integrate in Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters-Integrate page
+ Update all fields if default values are not applicable.</description>
+    </item>
+    
+    <item>
+      <title>Configure Profile Parameters</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_profile_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_profile_parameters/</guid>
+      <description>Configure Profile Parameters Parameters are Profile-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+To configure profile parameters:
+ Select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters-Profile in the Navigation pane.
+ Click Edit on Page toolbar.
+View the field descriptions for the Parameters-Profile page
+ Update all fields if default values are not applicable.</description>
+    </item>
+    
+    <item>
+      <title>Configure Regulatory Compliance Settings</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure-regulatory-compliance-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure-regulatory-compliance-settings/</guid>
+      <description>Configure Regulatory Compliance Settings The DSP assists clients with regulatory and corporate compliance by:
+ Restricting access to personal data (any data that can be used to identify a person), handled through DSP security and through purging data after a retention date has passed. Purging data is configured in Common and Collect. Tracking and logging user access to this data throughout the product, which is configured in System Administration.  Additionally a Common Administrator can:</description>
+    </item>
+    
+    <item>
+      <title>Configure Secure</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_secure_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_secure_overview/</guid>
+      <description>Configure Secure The Secure feature enables specific legacy data fields to be encrypted. The columns to be encrypted can be masked so that a portion of the original data can still be used during the migration project.
+Once the migration process is complete, the data is then decrypted and sent to the target ERP system via RFC (SAP only) or File format.
+The Secure configuration includes the following steps:</description>
+    </item>
+    
+    <item>
+      <title>Configure Secure Parameters</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_secure_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_secure_parameters/</guid>
+      <description>Configure Secure Parameters Parameters are Secure-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+To configure secure parameters:
+ Select Configuration &amp;gt; Modules &amp;gt; Parameters-Secure in Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters-Secure page
+ Update all fields if default values are not applicable.
+ Click Save.</description>
+    </item>
+    
+    <item>
+      <title>Configure Trace Parameters</title>
+      <link>https://heathercloward.github.io/common/use_cases/configure_trace_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/configure_trace_parameters/</guid>
+      <description>Configure Trace Parameters Parameters are Trace-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+To configure trace parameters:
+ Select Configuration &amp;gt; Modules &amp;gt; Parameters-Trace in Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters-Trace page
+ Update all fields if default values are not applicable.
+ Click Save.</description>
+    </item>
+    
+    <item>
+      <title>Copy Files</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_files/</guid>
+      <description>Copy Files Files can be copied from one directory into another directory.
+To copy files:
+ Select Toolkit &amp;gt; File/Folder in Navigation pane.
+NOTE: If no records exist, the page displays in add mode. Otherwise, click Add.
+View the field descriptions for the Toolkit: File/Folder Operations page
+ Enter a source directory where the file currently exists in IO COPY SOURCE field.
+ Enter a target directory where a copy of the file will be placed in IO COPY TARGET field.</description>
+    </item>
+    
+    <item>
+      <title>Copy Folders</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_folders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_folders/</guid>
+      <description>Copy Folders A folder and all its subfolders can be copied from one directory to another.
+To copy a folder:
+ Select Toolkit &amp;gt; File/Folder in Navigation pane.
+NOTE: If no records exist, the page displays in add mode. Otherwise, click Add.
+View the field descriptions for the Toolkit: File/Folder Operations page
+ Enter a source directory where folder currently exists in IO COPY SOURCE field.
+ Enter a target directory where a copy of the folder will be placed in IO COPY TARGET field.</description>
+    </item>
+    
+    <item>
+      <title>Copy Instructions</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_instructions/</guid>
+      <description>Copy Instructions An existing instruction can be copied and modified to facilitate adding instructions.
+To copy an instruction:
+ Select Automation Engine &amp;gt; Automation Instructions in Navigation pane.
+ Click Copy for an instruction.
+ Click Edit .
+View the field descriptions for the Copy: Automation Instructions page
+ Enter the name of the new instruction in New Instruction Name field.
+ Click Save.
+ Click Copy; a confirmation message displays.</description>
+    </item>
+    
+    <item>
+      <title>Copy Task Groups</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_task_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_task_groups/</guid>
+      <description>Copy Task Groups An existing task group with the registered tasks and instructions can be copied and modified to facilitate adding task groups.
+To copy a task:
+ Select Automation Engine &amp;gt; Automation Instruction Task Groups in Navigation pane.
+ Click Copy for the task group.
+ Click Edit.
+View the field descriptions for the Copy: Automation Instruction Task Group page
+ Enter a name of new task in New Task Group Name field.</description>
+    </item>
+    
+    <item>
+      <title>Copy Tasks</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_tasks/</guid>
+      <description>Copy Tasks An existing task with the registered instructions can be copied and modified to facilitate adding tasks.
+To copy a task:
+1. Select Automation Engine &amp;gt; Automation Instruction Tasks in Navigation pane.
+2. Click Copy for task.
+3. Click Edit.
+View the field descriptions for the Copy: Automation Instruction Task page
+4. Enter name of new task in New Task Name field.
+5. Click Save.
+6. Click Copy; a confirmation message displays.</description>
+    </item>
+    
+    <item>
+      <title>Copy Work Hours Across Work Days</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_work_hours_across_work_days/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_work_hours_across_work_days/</guid>
+      <description>Copy Work Hours Across Work Days Calendars are used in dspTrack™ and dspConcut™ components. Refer to Use a Calendar for more information.
+A user can copy work hours from one work day across all the work days for a calendar instead of entering work hours for each work day in a week.
+For example, the work hours for a Monday are 9:00 AM to 5:00 PM. These work hours can be copied across the remaining work days in the week, so that all work days in the calendar also have work hours from 9:00 AM to 5:00 PM.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Calendar</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_a_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_a_calendar/</guid>
+      <description>Copy a Calendar An existing calendar can be used as the basis for a new calendar.
+A copied calendar copies the work days, work hours, and exceptions.
+Calendars are used in the dspTrack™ and dspConduct™ components. Refer to Use a Calendar for more information.
+NOTE: A calendar’s users are not copied.
+To copy a calendar:
+ Select Common &amp;gt; Tools &amp;gt; Calendar in the Navigation pane.
+ Select the calendar to be copied.</description>
+    </item>
+    
+    <item>
+      <title>Copy a System Type Table</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_a_system_type_table1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_a_system_type_table1/</guid>
+      <description>Copy a System Type Table Once a table is added to a System Type, it can be copied to make another table. Any fields and lookup table fields are also copied to the new table.
+Fields and lookup table fields can also be copied to an existing table. If the table name already exists, any fields or lookup table fields that do not exist for the table are added. No tables are updated or deleted.</description>
+    </item>
+    
+    <item>
+      <title>Copy: Automation Instruction Task</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_automation_instruction_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_automation_instruction_task/</guid>
+      <description>Copy: Automation Instruction Task Use this page to [Copy Tasks](Copy_Tasks.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Instruction Tasks in Navigation pane. Click Copy for task.  Field
+Description
+Source
+Name
+Displays name of task being copied.
+Copy To
+New Task Name
+Displays name of new task being created.
+Copy
+Click to copy current task.</description>
+    </item>
+    
+    <item>
+      <title>Copy: Automation Instruction Task Group</title>
+      <link>https://heathercloward.github.io/common/use_cases/copy_automation_instruction_task_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/copy_automation_instruction_task_group/</guid>
+      <description>Copy: Automation Instruction Task Group Use this page to [Copy Task Groups](Copy_Task_Groups.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Instruction Task Groups in Navigation pane. Click Copy for the task group.  Field
+Description
+Source
+Name
+Displays name of task group being copied.
+Copy To
+New Task Group Name
+Displays name of new task group being created.
+Copy
+Click to copy current task group.</description>
+    </item>
+    
+    <item>
+      <title>Create Dashboards</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_dashboards/</guid>
+      <description>Create Dashboards The Dashboard feature allows users to create custom dashboards that report data in a graph format. Multiple graphs capturing different types of data in various graph types can display on a single dashboard. For example, a dashboard can be configured to display the downloading of tables as a bar graph and the package types used for downloads as a pie chart.
+NOTE: This is a developer’s feature and is not intended for use by end users.</description>
+    </item>
+    
+    <item>
+      <title>Create Instructions</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_instructions/</guid>
+      <description>Create Instructions An instruction is a single unit of work to be performed by the engine. Some examples of instructions are: create a table, add a column to a table, update data and create a view. Common is delivered with a set of instructions that may be used; additional instructions can be created to fit the customer’s needs.
+To create an instruction:
+ Select Automation Engine &amp;gt; Automation Instructions in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Create Object Views</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_object_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_object_views/</guid>
+      <description>Create Object Views The first step in setting up duplicate detection is to create a view that checks the object for duplicate records.
+Create a view in the Common database that references an object (vendor, customer, material, etc.), a key and all relevant columns for Duplicate Detection. The view must include a single key field (use concatenation if more than one field to create the key exists in the table).</description>
+    </item>
+    
+    <item>
+      <title>Create Schedules</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_schedules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_schedules/</guid>
+      <description>Create Schedules Schedules added in Common can be used across all dspMigrate™ components that have schedules, such as refreshing a source in Collect. Schedules can recur on several intervals, including every few minutes, every Tuesday and Thursday, or every October 19th.
+NOTE: If using a schedule to send workflow notifications from ISA, update the ISA parameter Days to Retain Files (ISA Parameters page Basic Settings tab) so that it is at least equal to the number of days in the longest schedule registered to a Project Distribution.</description>
+    </item>
+    
+    <item>
+      <title>Create Task Groups</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_task_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_task_groups/</guid>
+      <description>Create Task Groups A task group is a collection of tasks that are run in a specified order. When the Automation Engine is run, it is run for a Task Group. Common is delivered with a set of task groups that may be used; additional task groups can be created to fit the customer’s needs.
+To create a task group:
+ Select Automation Engine &amp;gt; Automation Instruction Task Groups in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Create Tasks</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_tasks/</guid>
+      <description>Create Tasks A task is a collection of instructions. Common is delivered with a set of tasks that may be used; additional tasks can be created to fit the customer’s needs.
+To create a task:
+ Select Automation Engine &amp;gt; Automation Instruction Tasks in Navigation pane.
+ Click Add.
+View the field descriptions for the Automation Instruction Tasks page
+ Enter the name of task in Name field.
+ Enter a brief description of task in Description field.</description>
+    </item>
+    
+    <item>
+      <title>Create a Secure Key</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_a_secure_key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_a_secure_key/</guid>
+      <description>Create a Secure Key To create a secure key:
+ Select Configuration &amp;gt; Modules &amp;gt; Keys in Navigation pane.
+ Click Add.
+View the field descriptions for the Keys page
+ Enter a value in KEYIDENTIFIER field.
+NOTE: The KEY IDENTIFIER is the name used to identify the key during the encryption and decryption processes. It should be recognizable by the Data Migration teams.
+ Enter a value in KEYPASSWORD field.</description>
+    </item>
+    
+    <item>
+      <title>Create a User Account in Common</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_a_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_a_user/</guid>
+      <description>Create a User Account in Common New users often need to be added to the system. An Administrator creates user accounts as the first step in the security setup process. Using Excel Integration on the User Management page, an Administrator can add and update user account data for multiple accounts at one time. If using Excel Integration, the steps in this topic do not apply. However, the Administrator will still need to send the new users a temporary password once the spreadsheet has been imported.</description>
+    </item>
+    
+    <item>
+      <title>Create and Manage User Accounts in Common</title>
+      <link>https://heathercloward.github.io/common/use_cases/create_user_accounts_in_common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/create_user_accounts_in_common/</guid>
+      <description>Create and Manage User Accounts in Common An Administrator user can add user accounts, send temporary passwords to newly added users, and reset passwords in Common. Using Excel Integration on the User Management page, an Administrator can also add and update user account data for multiple accounts at one time. Refer to Use Excel Integration for more information.
+Users can also be added in System Administration, but Common is the recommended method for Help Desks and Call Centers.</description>
+    </item>
+    
+    <item>
+      <title>Data Sources in Common</title>
+      <link>https://heathercloward.github.io/common/use_cases/data_sources_in_common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/data_sources_in_common/</guid>
+      <description>Data Sources in Common While data sources can be registered in System Administration by an Administrator, registering a data source in Common is the preferred method. Refer to How the DSP Uses Data Source Types in System Administration for more information on Data Sources.
+NOTE: Data Services data sources must be registered in Common.
+When a data source is created in System Administration, it is available in Common on the Data Source Registry page.</description>
+    </item>
+    
+    <item>
+      <title>Define Instructions for Tasks</title>
+      <link>https://heathercloward.github.io/common/use_cases/define_instructions_for_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/define_instructions_for_tasks/</guid>
+      <description>Define Instructions for Tasks Once the task is created, add instructions to the task.
+To define instructions for a task:
+1. Select Automation Engine &amp;gt; Automation Instruction Tasks in Navigation pane.
+2. Click Instructions for task.
+3. Click Add.
+View the field descriptions for the Automation Instruction Task Definition page
+4. Enter an execution order of instruction in PRIORITY field.
+5. Select a name of instruction from INSTRUCTION ID list box.</description>
+    </item>
+    
+    <item>
+      <title>Define Tasks for Task Group</title>
+      <link>https://heathercloward.github.io/common/use_cases/define_tasks_for_task_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/define_tasks_for_task_group/</guid>
+      <description>Define Tasks for Task Group Once the task group is created, add tasks to the task group.
+To define tasks for a task group:
+ Select Automation Engine &amp;gt; Automation Instruction Groups in Navigation pane.
+ Click Tasks for task group.
+ Click Add.
+View the field descriptions for the Automation Instruction Task Definition page
+ Enter an execution order of tasks in PRIORITY field.
+ Select a name of task from TASK ID list box.</description>
+    </item>
+    
+    <item>
+      <title>Delete Files</title>
+      <link>https://heathercloward.github.io/common/use_cases/delete_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/delete_files/</guid>
+      <description>Delete Files All files in a directory according to a specific mask can be deleted.
+WARNING: This action cannot be undone.
+NOTE: The root of a drive (i.e., C:\) cannot be specified for the Delete Files plugin.
+To delete files:
+ Select Toolkit &amp;gt; File/Folder in Navigation pane.
+NOTE: If no records exist, the page displays in add mode. Otherwise, click Add.
+View the field descriptions for the Toolkit: File/Folder Operations page</description>
+    </item>
+    
+    <item>
+      <title>Delete Folders</title>
+      <link>https://heathercloward.github.io/common/use_cases/delete_folders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/delete_folders/</guid>
+      <description>Delete Folders A folder and all its content can be deleted. WARNING: This action cannot be undone. Be careful when using this feature.
+NOTE: The root of a drive (i.e., C:\) cannot be specified for the Delete Folder plugin.
+To delete a folder:
+ Select Toolkit &amp;gt; File/Folder in Navigation pane.
+NOTE: If no records exist, the page displays in add mode. Otherwise, click Add.
+View the field descriptions for the Toolkit: File/Folder Operations page</description>
+    </item>
+    
+    <item>
+      <title>Delete Monitored Records</title>
+      <link>https://heathercloward.github.io/common/use_cases/delete_monitor_records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/delete_monitor_records/</guid>
+      <description>Delete Monitored Records Users have the ability to delete records from the Monitor page, which helps de-clutter the page when following a single process.. By deleting individual records, users can focus on the desired process(es). Clearing the entire monitor log allows users to follow particular processes as they enter the monitor log.
+To clear all monitored job records for a component:
+ Click Job Monitor in Navigation pane. Select an application record.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Calendar</title>
+      <link>https://heathercloward.github.io/common/use_cases/delete_a_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/delete_a_calendar/</guid>
+      <description>Delete a Calendar To delete a calendar:
+ Select Common &amp;gt; Tools &amp;gt; Calendar in the Navigation pane. Click Delete for a calendar.  The Default and dspConduct default calendars cannot be deleted.
+If a calendar is being used for a plan in dspTrack™, the calendar cannot be deleted.</description>
+    </item>
+    
+    <item>
+      <title>Display Data Services Profiling Results</title>
+      <link>https://heathercloward.github.io/common/use_cases/display_data_services_profiling_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/display_data_services_profiling_results/</guid>
+      <description>Display Data Services Profiling Results SAP Data Services has the capability to Profile data in Source or Target data sources, including databases, application and files. The profiling results are stored in a Profiler repository and can be shared among the Data Services developers via the Data Services Designer application. To expose these results to the wider data migration and governance audience, BackOffice Associates® has included the ability to view the results from any Data Services column profiling process within the DSP®.</description>
+    </item>
+    
+    <item>
+      <title>Download Rate of Change Spreadsheet</title>
+      <link>https://heathercloward.github.io/common/use_cases/download_rate_of_change_spreadsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/download_rate_of_change_spreadsheet/</guid>
+      <description>Download Rate of Change Spreadsheet The Rate of Change Excel spreadsheet tracks the rate of change, new objects and changed objects on a weekly basis; all data being traced can be downloaded into this single spreadsheet.
+To download the Rate of Change spreadsheet:
+ Select Configuration &amp;gt; Modules &amp;gt; Parameters-Trace in Navigation pane. Click Refresh to pull the most recent data for all data sources. Click Download to download the Rate of Change spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>Encrypt CranSoft Data Source Password</title>
+      <link>https://heathercloward.github.io/common/use_cases/encrypt_cransoft_data_source_password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/encrypt_cransoft_data_source_password/</guid>
+      <description>Encrypt CranSoft Data Source Password An Administrator must encrypt the password in System Administration.</description>
+    </item>
+    
+    <item>
+      <title>Establish a Connection in a Target System Overview</title>
+      <link>https://heathercloward.github.io/common/use_cases/establish_a_connection_to_a_target_system_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/establish_a_connection_to_a_target_system_overview/</guid>
+      <description>Establish a Connection in a Target System Overview Used in Integrate and dspCompose™, a template defines how data is posted into an ERP system. Templates are not tied to data, but rather act as an independent guide for posting that can be assigned to many processes.
+Integrate and dspCompose™ templates use connections to a data source to download data from a target system. A process template posts data to the target system instance.</description>
+    </item>
+    
+    <item>
+      <title>Establish a Connection via a Direct Connection to the Application Server</title>
+      <link>https://heathercloward.github.io/common/use_cases/establish_a_connection_direct_connection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/establish_a_connection_direct_connection/</guid>
+      <description>Establish a Connection via a Direct Connection to the Application Server This task is performed by an Administrator.
+Before performing this task, gather information about the target system instance, such as the application server name, system number and log in credentials.
+The connection allows for the set up and configuration of the target system instances for Integrate and dspCompose™.
+A connection can also be established through a Message Server. Refer to Establish a Connection via a Message Server or more information.</description>
+    </item>
+    
+    <item>
+      <title>Establish a Connection via a Message Server</title>
+      <link>https://heathercloward.github.io/common/use_cases/establish_a_connection_via_a_message_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/establish_a_connection_via_a_message_server/</guid>
+      <description>Establish a Connection via a Message Server Connecting to a target system via a Message Server uses load balancing to manage server resources. Load Balancing dynamically distributes the SAP users to application server instances when connecting to the Application Server. Load Balancing is used to download tables from the source.
+A connection can also be established directly with the Application Server. Refer to Establish a Connection via a Direct Connection to the Application Server for more information.</description>
+    </item>
+    
+    <item>
+      <title>Export Excel Files</title>
+      <link>https://heathercloward.github.io/common/use_cases/export_excel_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/export_excel_files/</guid>
+      <description>Export Excel Files Export files generated by the Excel Export Adaptor have the following format:
+ Row 1 – Technical column name
+ Row 2 – Friendly column name put through DSP® translation
+ Row 3 – n: Data
+  To use the Excel Import Adapter to export an Excel file:
+ Select Toolkit &amp;gt; Excel in Navigation pane.
+NOTE: If no records exist, the page displays in add mode.</description>
+    </item>
+    
+    <item>
+      <title>Export Translations to a Catalog</title>
+      <link>https://heathercloward.github.io/common/use_cases/export_translations_to_a_catalog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/export_translations_to_a_catalog/</guid>
+      <description>Export Translations to a Catalog An Administrator performs this task so that translations of fields using the Language ID selected appear throughout any application that uses the catalog.
+To export translations to a catalog:
+ Select System Types in the Navigation pane.
+ Click Vertical View for System Type.
+ Click Import From Data Sourc or Modele on the Page toolbar.
+ Click Edit.
+View the field descriptions for the System Type Import page</description>
+    </item>
+    
+    <item>
+      <title>Find Duplicates</title>
+      <link>https://heathercloward.github.io/common/use_cases/find_duplicates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/find_duplicates/</guid>
+      <description>Find Duplicates Once the duplicates view has been registered and the columns for the Results page are configured, duplicates can be found.
+To find duplicates:
+ Click Analyze in the Navigation pane.
+ Click Duplicates for Data Source ID.
+ Click Build for Object; a confirmation message displays.
+ Click Ok.
+NOTE: The build process searches the Data Source for potential duplicates. Only one object can be built at a time.</description>
+    </item>
+    
+    <item>
+      <title>Find Duplicates Overview</title>
+      <link>https://heathercloward.github.io/common/use_cases/find_duplicates_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/find_duplicates_overview/</guid>
+      <description>Find Duplicates Overview Common provides a quick and easy method to identify and resolve duplicate data.
+NOTE: There is a distinction between Duplicate Detection, configured in System Administration, and Bulk Duplicate Detection performed in Common. Bulk Duplicate Detection is an extension of the Duplicate Detection capability. The Duplicate Detection validation rule runs as a foreground event, triggered when:
+ A record is created or modified on a page where Duplicate Detection is enabled for a column(s) A user manually triggers an event that contains the validation rule  Bulk Duplicate Detection is a background event that detects duplicates for each record in a table.</description>
+    </item>
+    
+    <item>
+      <title>Forgotten/Incorrect Encryption Password</title>
+      <link>https://heathercloward.github.io/common/use_cases/forgotten_incorrect_encryption-passwords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/forgotten_incorrect_encryption-passwords/</guid>
+      <description>Forgotten/Incorrect Encryption Password If the encryption password is forgotten or is incorrect, it cannot be modified. Conduct the following steps if the password is forgotten:
+ Create a new secure key. Re-apply the key to the source data. Refresh the source data in Common to encrypt the legacy data with the new secure key. Delete the existing key.  The new key does not take effect until the source data download process is run.</description>
+    </item>
+    
+    <item>
+      <title>Generate Records in the AE History Table</title>
+      <link>https://heathercloward.github.io/common/use_cases/generate_records_in_the_ae_history_table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/generate_records_in_the_ae_history_table/</guid>
+      <description>Generate Records in the AE History Table The AE Insert History check box is a troubleshooting tool for any user that encounters issues with AE processing. Users will be able to review the AE history processing with the flag turned on. A pre-requisite to inserting into the History table is ensuring that there are Targets in Target Design. Refer to Add a Target for more information.
+Refer to Add Fields to Tables to add fields to the System Type table.</description>
+    </item>
+    
+    <item>
+      <title>Ignore Data Sources</title>
+      <link>https://heathercloward.github.io/common/use_cases/ignore_data_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/ignore_data_sources/</guid>
+      <description> Ignore Data Sources Use this page to [Configure Data Sources to be Ignored](Configure_Data_Sources_to_be_Ignored.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Ignore Data Sources in Navigation pane.
+         Field Description   DATA SOURCE ID Displays name of the data source.   COMMENT Displays justification for the data source being ignored.    </description>
+    </item>
+    
+    <item>
+      <title>Import Excel Files</title>
+      <link>https://heathercloward.github.io/common/use_cases/import_excel_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/import_excel_files/</guid>
+      <description>Import Excel Files When the Excel Import Adapter is used to import Excel files, the following format must be used:
+ Row 1 – Technical column name
+ Row 2 – Friendly column name put through DSP® translation
+ Row 3 – n: Data
+  When the import runs, the adapter matches the technical column names from the worksheet (row 1) with the column names in the Excel Import Table Name field and only imports data for columns where the column names match.</description>
+    </item>
+    
+    <item>
+      <title>Import System Types Using Collect</title>
+      <link>https://heathercloward.github.io/common/use_cases/import_system_types_using_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/import_system_types_using_collect/</guid>
+      <description>Import System Types Using Collect If you do not have access to a System Type model or a data dictionary for a system, you can use the Fetch and Build and Refresh options in Collect to import all tables available in a Collect target source into a System Type.
+To import a System Type using Collect:
+ Register a Data Source in System Administration.
+ Register the source to a Target in Collect.</description>
+    </item>
+    
+    <item>
+      <title>Import a Data Source</title>
+      <link>https://heathercloward.github.io/common/use_cases/import_a_data_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/import_a_data_source/</guid>
+      <description>Import a Data Source An Administrator performs this task to add data source metadata for System Types. This process updates existing fields, adds new tables and fields to the System Type, and loads the table and field data from the tables into the selected data source so that they appear in Target Design. By adding only the new data, customizations to the System Type are not lost.
+Before this task can be performed, the data source should be populated in the SQL databases with all the required tables.</description>
+    </item>
+    
+    <item>
+      <title>Import a Model</title>
+      <link>https://heathercloward.github.io/common/use_cases/import-a-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/import-a-model/</guid>
+      <description>Import a Model The DSP® is delivered with an SAP and JDE model that can be used to import those System Types.
+Before performing this task, if needed, click the Models icon to view the System Types Model configuration (tables, required fields, etc.). All System Type Model Tables and Model Views must exist in the target System Type database. The model tables can be extracted from the target system using Collect.</description>
+    </item>
+    
+    <item>
+      <title>Manage System Types with System Type Models</title>
+      <link>https://heathercloward.github.io/common/use_cases/manage_system_types_with_system_type_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/manage_system_types_with_system_type_models/</guid>
+      <description> Manage System Types with System Type Models System Types Models document which tables are required to be populated when building the System Type.
+To Manage System Types via Configuration:
+ Add a System Type Model Add a System Type Model Table View Fields Required for System Type Tables Add a System Type Model Group Activate or Deactivate Tables in a System Type Model Group Build Views based on a System Type Model  </description>
+    </item>
+    
+    <item>
+      <title>Manually Add System Type Tables</title>
+      <link>https://heathercloward.github.io/common/use_cases/manually_add_system_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/manually_add_system_tables/</guid>
+      <description>Manually Add System Type Tables Manually add system tables for a System Type that cannot be imported.
+To manually add System Type tables:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click Tables icon for the System Type.
+ Click Add.
+View the field descriptions for the System Types Tables page
+ Enter name of system table in TABLE NAME field.
+NOTE: The validation fails if the table name is not unique.</description>
+    </item>
+    
+    <item>
+      <title>Modify Actions</title>
+      <link>https://heathercloward.github.io/common/use_cases/modify_actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/modify_actions/</guid>
+      <description>Modify Actions When using the Automation Engine, a task, task group or action ID can be used to create the automation instructions. If using an action ID in the automation process, the task or group and the settings of the action execution can be modified on the Automation Engine Action page.
+To customize actions:
+ Select Automation Engine &amp;gt; Automation Engine Action in the Navigation pane.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Modify Text for Password Email Notifications</title>
+      <link>https://heathercloward.github.io/common/use_cases/modify_text_for_password_email_notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/modify_text_for_password_email_notifications/</guid>
+      <description>Modify Text for Password Email Notifications The text for email notifications for password creation and reset can be modified by an Administrator user.
+To modify text for password email notifications:
+ Select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters - User Mgmt in the Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters - User Management page
+ Modify the fields as needed.
+NOTE: To display variable values in the email, enclose the variable name with the # sign.</description>
+    </item>
+    
+    <item>
+      <title>Monitor Application Activity</title>
+      <link>https://heathercloward.github.io/common/use_cases/monitor_application_activity_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/monitor_application_activity_overview/</guid>
+      <description> Monitor Application Activity All application activity is monitored and can be viewed through the console on the Monitor Overview page.
+NOTE: DSP® components are monitored, with the exception of the CranSoft and System Administration WebApps.
+This use case includes the following topics:
+ View Activity Delete Monitored Records Configure Debug Logs Settings View Debug Logs Add a Debug Log to a Custom WebApp  </description>
+    </item>
+    
+    <item>
+      <title>Monitor Overview</title>
+      <link>https://heathercloward.github.io/common/use_cases/monitor_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/monitor_overview/</guid>
+      <description>Monitor Overview Use this page to [View Activity](View_Activity.htm).  To access this page, click Common &amp;gt; Job Monitor in Navigation pane.
+         Field Description   Clear Monitor Click to clear the monitoring jobs (i.e., remove records from the Monitor page) for the component. This process does not affect the execution of the processes that are being monitored. If users are following particular processes that are about to be monitored, this action allows users to easily follow those processes without the clutter of other processes.</description>
+    </item>
+    
+    <item>
+      <title>Move Files</title>
+      <link>https://heathercloward.github.io/common/use_cases/move_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/move_files/</guid>
+      <description>Move Files A file can be moved from one directory to another. This process renames a file.
+To move a file:
+ Select Toolkit &amp;gt; File/Folder in Navigation pane.
+NOTE: If no records exist, the page displays in add mode. Otherwise, click Add.
+View the field descriptions for the Toolkit: File/Folder Operations page
+ Enter a source directory and file (e.g., C:\ExampleFolder\ExampleFile.txt) where file currently exists in IO COPY SOURCE field.</description>
+    </item>
+    
+    <item>
+      <title>Process Adapters</title>
+      <link>https://heathercloward.github.io/common/use_cases/process_adapters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/process_adapters/</guid>
+      <description>Process Adapters The Process Adapters and Process Adapter Properties pages are used for
+ AutoGen by users with Administrator access and Transform to run the Data Services Jobs as generated by AutoGen.  The entries on these pages are only created programmatically when setting up a Data Services entry in the Data Source Registry page.
+A process adapter cannot be deleted but the properties can be edited.
+The process adapter entries are editable and the underlying table should never be manually edited or it can break the functionality of the DSP® to make Data Services calls.</description>
+    </item>
+    
+    <item>
+      <title>Profile Data Source</title>
+      <link>https://heathercloward.github.io/common/use_cases/profile_data_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/profile_data_source/</guid>
+      <description>Profile Data Source Common provides a quick and easy method to perform an assessment of data contained within a database. The following elements are available for all profiled databases:
+ A list of all tables in the database A list of all columns within each table with defined Data Type, Length and Table Order A frequency distribution of values for each column A minimum and maximum value for each column A number of blank, null or empty values for each column Indication of unused tables and fields  The goal of data profiling is to save hours of research effort by listing all database information in one location.</description>
+    </item>
+    
+    <item>
+      <title>Profile Data Sources</title>
+      <link>https://heathercloward.github.io/common/use_cases/profile_data_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/profile_data_sources/</guid>
+      <description>Profile Data Sources Data can be profiled for an entire Data Source or for a single table within the Data Source.
+There are many types of data that is collected when a Data Source is profiled:
+ Record counts for each table Unique values for each field Unique value count for each field Blanks for each field Fields used and not used Minimum/maximum values for each field Maximum field length Field datatype Field data type length  Profile Entire Data Source To profile a Data Source:</description>
+    </item>
+    
+    <item>
+      <title>Register Objects</title>
+      <link>https://heathercloward.github.io/common/use_cases/register_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/register_objects/</guid>
+      <description>Register Objects Objects are views or tables that contain data analyzed for duplication.
+To register an object:
+ Select Common &amp;gt; Analyze in the Navigation pane.
+NOTE: The Analyze page displays data sources registered in System Administration that are not added to the Ignore Data Sources page and to which the logged in user has security to view. Data sources are analyzed for database object changes, table statistics and duplicate records.</description>
+    </item>
+    
+    <item>
+      <title>Register Plugins to Import and Export Files</title>
+      <link>https://heathercloward.github.io/common/use_cases/registerpluginsimportexportfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/registerpluginsimportexportfiles/</guid>
+      <description>Register Plugins to Import and Export Files In order to use the Excel import/export adaptors, the following plugins must be registered as business or validation rules on the page using the Excel adaptor:
+ Import: RAD.Excel: ExcelImportAdapter
+ Export: RAD.Excel: ExcelExportAdapter
+  These shared plugins are registered to the Common WebApp and can be used across other WebApps.</description>
+    </item>
+    
+    <item>
+      <title>Register Public Plugins</title>
+      <link>https://heathercloward.github.io/common/use_cases/register_public_plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/register_public_plugins/</guid>
+      <description>Register Public Plugins Before the Automation Engine can be utilized, the DSP: Automation Engine Execution Adapter public plugins must be registered to a DSP® page and input columns must be added to the page. Refer to the Automation Engine Developer Guide for detailed information.</description>
+    </item>
+    
+    <item>
+      <title>Register a Data Source in Common</title>
+      <link>https://heathercloward.github.io/common/use_cases/register_a_data_source_in_common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/register_a_data_source_in_common/</guid>
+      <description>Register a Data Source in Common While data sources can be registered by an Administrator in System Administration, registering a data source in Common is the preferred method.
+When a data source is registered in System Administration, it is available in Common on the Data Source Registry page. However, after the initial record is added to Common, changes made to data sources in System Administration are not applied to data sources in Common.</description>
+    </item>
+    
+    <item>
+      <title>Reset Profiling</title>
+      <link>https://heathercloward.github.io/common/use_cases/reset_profiling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/reset_profiling/</guid>
+      <description>Reset Profiling If an error occurs during a profiling process, reset the process for the Data source at the Data source or table level.
+Reset for a Data Source To reset for a Data Source:
+ Click Analyze in the Navigation pane. Click Profile for Data Source ID. Click Reset for the Data Source; a confirmation message displays. Click Ok.  Reset for a Table To reset for a table:</description>
+    </item>
+    
+    <item>
+      <title>Reset a User&#39;s Password</title>
+      <link>https://heathercloward.github.io/common/use_cases/reset-a-users-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/reset-a-users-password/</guid>
+      <description>Reset a User&amp;rsquo;s Password A user may occasionally need a password to be reset. An Administrator sends an email to the user containing a temporary password.
+In Common, password maintenance is the user’s responsibility. An Administrator user sends an email to the user associated with an account to set or to reset that user’s password. This method is recommended for use by a Help Desk or Call Center, but can be used by any Administrator for a more streamlined process.</description>
+    </item>
+    
+    <item>
+      <title>Resolve Duplicate Candidates</title>
+      <link>https://heathercloward.github.io/common/use_cases/resolve_duplicate_candidates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/resolve_duplicate_candidates/</guid>
+      <description>Resolve Duplicate Candidates Once duplicate records are identified, which are referred to as unresolved candidates at this point, they must be manually reviewed to determine what is an actual duplicate record and what is a unique record.
+To resolve duplicate candidates:
+ Click Analyze in the Navigation pane.
+ Click Duplicates for Data Source ID.
+ Click Unresolved Candidates for Object.
+View the field descriptions for the Candidates page</description>
+    </item>
+    
+    <item>
+      <title>Review Duplicate Records</title>
+      <link>https://heathercloward.github.io/common/use_cases/review_duplicate_records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/review_duplicate_records/</guid>
+      <description>Review Duplicate Records Review duplicate records to decide if the record is a true duplicate, if the record must be reset or if the record is not a duplicate.
+To review duplicate records:
+ From the Results page, click Duplicates.
+View the field descriptions for the Duplicates page
+ Review the duplicate record pairs. Options are:
+ Leave the record pair as is if the Obsolete Object and Actual Object are duplicates.</description>
+    </item>
+    
+    <item>
+      <title>Review Non Duplicate Records</title>
+      <link>https://heathercloward.github.io/common/use_cases/review_non_duplicate_records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/review_non_duplicate_records/</guid>
+      <description>Review Non Duplicate Records Review duplicate records to decide if the record is a true non duplicate or if the record must be reset.
+To review non duplicate records:
+ From the Results page, click Non Duplicates icon.
+View the field descriptions for the NonDuplicates page
+ Review the duplicate record pairs. There are two options:
+Leave the record pair as is if the Obsolete Object and Actual Object are duplicates.</description>
+    </item>
+    
+    <item>
+      <title>Run Post Duplicate Detection Process</title>
+      <link>https://heathercloward.github.io/common/use_cases/run_post_duplicate_detection_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/run_post_duplicate_detection_process/</guid>
+      <description> Run Post Duplicate Detection Process In the event the Duplicate Detection process does not finished due to a time out, run the Post Duplicate Detection process to present duplicate candidates.
+To run the post duplicates detection process:
+ Click Analyze in the Navigation pane. Click Duplicates for Data Source ID. Click Vertical View for Object. Click Actions tab. Click Post Process; a confirmation message displays. Click Ok.  </description>
+    </item>
+    
+    <item>
+      <title>Send a Temporary Password to a New User</title>
+      <link>https://heathercloward.github.io/common/use_cases/send_a_temporary_password_to_a_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/send_a_temporary_password_to_a_user/</guid>
+      <description>Send a Temporary Password to a New User A new user needs a password in order to log in. An Administrator sends an email to the user containing a temporary password.
+The user creation email sent to the user states that their DSP® account password has been created with a temporary password. The email contains a link for the user to set their new password.
+Before this task is performed, the user must be created.</description>
+    </item>
+    
+    <item>
+      <title>Set Values for System Types Table Fields</title>
+      <link>https://heathercloward.github.io/common/use_cases/set-values-for-system-types-table-fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/set-values-for-system-types-table-fields/</guid>
+      <description>Set Values for System Types Table Fields A user can set values for a field if a field must always display a predefined, static value for the System Type.
+To set the value:
+ Click the Tables icon for System Type.
+ Click the Fields icon for Table Name.
+ Click the Static Value List icon for the field.
+ If no records have been added, the page displays in add mode.</description>
+    </item>
+    
+    <item>
+      <title>Set Work Days and Work Hours for a Calendar</title>
+      <link>https://heathercloward.github.io/common/use_cases/setworkdyshrscalendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/setworkdyshrscalendar/</guid>
+      <description>Set Work Days and Work Hours for a Calendar Calendars are used in dspTrack™ and dspConcut™ components. Refer to Use a Calendar for more information.
+To set work days and times for a dspTrack™ or the dspConduct™ calendar:
+Select Common &amp;gt; Tools &amp;gt; Calendar from the Navigation pane.
+ Click Work Days for a calendar.
+ Click the WORK DAY check box to enable it to indicate that the day is a workday on the selected calendar.</description>
+    </item>
+    
+    <item>
+      <title>Set up Database Functions</title>
+      <link>https://heathercloward.github.io/common/use_cases/set_up_database_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/set_up_database_functions/</guid>
+      <description>Set up Database Functions Generic database functions can be used by the Post Action Rule Table feature, i.e., run after a table is downloaded. Common is delivered with a set of database functions; additional functions can be added if needed.
+To register database functions:
+ Select Configuration &amp;gt; Modules &amp;gt; Database Function Setup in Navigation pane.
+ Click Add.
+View the field descriptions for the Database Function Setup page.</description>
+    </item>
+    
+    <item>
+      <title>Set up Post Action Rule Tables</title>
+      <link>https://heathercloward.github.io/common/use_cases/set_up_post_action_rule_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/set_up_post_action_rule_tables/</guid>
+      <description>Set up Post Action Rule Tables Use this generic method to register rules that are used by Collect after a table download. The benefit of this feature is that the stored procedure is already written. It only needs to be configured using this page.
+To set up post action rule tables:
+ Register Procedure as a Rule Add Post Action Rules Table Configure Rule Columns  Register Procedure as a Rule Before the Post Action Rule Table can be used, the dspCommon.</description>
+    </item>
+    
+    <item>
+      <title>Sync Data Sources in Common and System Administration</title>
+      <link>https://heathercloward.github.io/common/use_cases/sync_data_sources_in_common_and_system_administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/sync_data_sources_in_common_and_system_administration/</guid>
+      <description>Sync Data Sources in Common and System Administration When an Administrator registers a data source in System Administration, it is available in Common on the Data Source Registry page. However, after the initial record is added to Common, changes made to data sources in System Administration are not applied to data sources in Common. Changes made to data sources in Common are reflected in data sources in System Administration when the data source record is saved or validated in Common.</description>
+    </item>
+    
+    <item>
+      <title>System Types</title>
+      <link>https://heathercloward.github.io/common/use_cases/system_types_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/system_types_overview/</guid>
+      <description>System Types Data dictionary, schema and relationship information about external systems used by DSP® are maintained under System Types. Information captured for System Types includes table and field descriptions, field properties, primary keys, lookup tables, and join relationships.
+Use System Types to:
+ Add System Types Add System Tables and Fields Export Translations to a Catalog  NOTE: A basic understanding of databases and SQL Server is required when setting up System Types.</description>
+    </item>
+    
+    <item>
+      <title>Trace Data Sources</title>
+      <link>https://heathercloward.github.io/common/use_cases/trace_data_sources_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/trace_data_sources_overview/</guid>
+      <description> Trace Data Sources Tracing a data source allows for changes to be captured. This process is helpful so that the rate of change of a project and of a data source can be tracked. It also provides a detailed history of all actions taken on the design of objects in a database.
+This use case covers the following topics:
+ Configure Trace Parameters Activate and Deactivate Data Source View Objects View Object Charts View Object History Download Rate of Change Spreadsheet  </description>
+    </item>
+    
+    <item>
+      <title>Trace Object Changes Daily</title>
+      <link>https://heathercloward.github.io/common/use_cases/trace_object_changes_daily/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/trace_object_changes_daily/</guid>
+      <description>Trace Object Changes Daily This chart displays a count of all daily changes for all object types in the data source selected on the Analyze page.
+NOTE: The daily chart shows 10 days’ worth of summary data. Once this period has passed, the summary data is not retained.
+Click a data point on the chart to drill down to the SQL Objects with History page to view an audit trail of changes to all objects for the object type.</description>
+    </item>
+    
+    <item>
+      <title>Trace Object Changes Monthly</title>
+      <link>https://heathercloward.github.io/common/use_cases/trace_object_changes_monthly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/trace_object_changes_monthly/</guid>
+      <description>Trace Object Changes Monthly This chart displays a monthly count of all changes for all object types in the data source selected on the Analyze page.
+The number in the x-axis is the number of the month in the year. For example, 201401 is January.
+Each object type is represented by a line on the chart.
+NOTE The monthly chart does not include summary counts for a month until the month has ended.</description>
+    </item>
+    
+    <item>
+      <title>Trace Object Changes Weekly</title>
+      <link>https://heathercloward.github.io/common/use_cases/trace_object_changes_weekly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/trace_object_changes_weekly/</guid>
+      <description>Trace Object Changes Weekly This chart displays a count of all weekly changes for all object types in the data source selected on the Analyze page.
+The number in the x-axis is the number of the week in the year. For example, 201401 is the first week of the year.
+NOTE The weekly charts do not include summary counts for a week until the week has ended.
+NOTE: The weekly chart shows 35 days’ worth of summary data.</description>
+    </item>
+    
+    <item>
+      <title>Trace Object Summary</title>
+      <link>https://heathercloward.github.io/common/use_cases/trace_object_summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/trace_object_summary/</guid>
+      <description>Trace Object Summary This chart displays the count for object types contained in the data source selected on the Analyze page.
+NOTE: This chart only displays data for object types that exist in the data source. If, for example, the data source does not have stored procedures that object type does not display on the chart.
+Click the bar for an object type to open the SQL Objects page that displays a list of all objects of the selected object type in the data source.</description>
+    </item>
+    
+    <item>
+      <title>Track Construction Status</title>
+      <link>https://heathercloward.github.io/common/use_cases/track_construction_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/track_construction_status/</guid>
+      <description>Track Construction Status To track status, certain conditions must be met:
+ The page must have been autogenerated when the {Full Construction} Target Source was added in Target Design. If a user updates the page ID on the Vertical View of the Target Source page in the Construction Page ID field indicating a custom page is to be used for the Construct page, no metrics will be tracked for the construction status on the custom page.</description>
+    </item>
+    
+    <item>
+      <title>Update Retention Expiration Warning Period</title>
+      <link>https://heathercloward.github.io/common/use_cases/update-retention-expiration-warning-period/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/update-retention-expiration-warning-period/</guid>
+      <description>Update Retention Expiration Warning Period If an object is assigned a data classification that requires a retention period warning, the DSP sends a workflow email warning the Data Controller assigned to that object that data is to be purged from a target, target source, or table.
+The email lists all objects to be purged, and contains a link to the object in the Collect. By default, the email is sent daily for the 7 days prior to the retention expiration date.</description>
+    </item>
+    
+    <item>
+      <title>Update the Retention Expiration Email</title>
+      <link>https://heathercloward.github.io/common/use_cases/update-the-retention-expiration-email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/update-the-retention-expiration-email/</guid>
+      <description>Update the Retention Expiration Email A Common Administrator can update the text that appears in the subject line and body of the workflow email sent to Data Controllers when an object’s retention date is within the number of days set in the Retention Expiration Date Notification field on the Parameters - Collect page&amp;rsquo;s Workflow Settings tab.
+To update the workflow email in Common:
+ Select Configuration &amp;gt; Modules &amp;gt; Parameters – Collect in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Use a Calendar</title>
+      <link>https://heathercloward.github.io/common/use_cases/use_a_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/use_a_calendar/</guid>
+      <description>Use a Calendar In Common, users can add calendars for use in dspTrack™ and for establishing SLAs in dspConduct™. Users can assign users and configure work days, work hours, and calendar exception dates to calendars.
+Calendars in dspTrack™ Calendars are used in dspTrack™ for schedule status calculations. Each plan can have a default calendar assigned so that non-working days and holidays can be included in schedule status calculations. Refer to Set Parameters for Schedule Status Calculations for more information.</description>
+    </item>
+    
+    <item>
+      <title>Use the Toolkit for Custom Development</title>
+      <link>https://heathercloward.github.io/common/use_cases/toolkit_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/toolkit_overview/</guid>
+      <description>Use the Toolkit for Custom Development The Tooklit is a set of tools that developers can use onsite to add functionality to their developed pages and WebApps.
+The Toolkit functionality allows for custom development to:
+ Import and Export Excel Files Manipulate Files and Folders  Custom development of these features is permitted; however, it is not supported. For detailed information on implementing a Toolkit feature into a custom application, refer to the Toolkit Developer’s Manual.</description>
+    </item>
+    
+    <item>
+      <title>View Activity</title>
+      <link>https://heathercloward.github.io/common/use_cases/view_activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/view_activity/</guid>
+      <description>View Activity Activity for each component is grouped by monitor status.
+To view component activity:
+ Click Job Monitor in Navigation pane. Click an icon to view all jobs with the selected monitor status for the application. The Monitor Overview page is sorted with the most recent job first.  Options:
+ All – Displays count for number of monitored jobs in the component. Click to view all jobs monitored for the application.</description>
+    </item>
+    
+    <item>
+      <title>View Debug Logs</title>
+      <link>https://heathercloward.github.io/common/use_cases/view_debug_logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/view_debug_logs/</guid>
+      <description>View Debug Logs A debug log is available for each component of the DSP®. These logs are used when debugging processes and when working with BackOffice Support.
+To view the debug log for a component of the DSP®:
+ Select Job Monitor &amp;gt; Debug Logs in Navigation pane. Click View Debug Log for the DSP® component.  View the field descriptions for the Debug Log page</description>
+    </item>
+    
+    <item>
+      <title>View Fields Required for System Type Tables</title>
+      <link>https://heathercloward.github.io/common/use_cases/view-fields-required-for-system-type-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/view-fields-required-for-system-type-tables/</guid>
+      <description>View Fields Required for System Type Tables An Administrator can view fields required for System Type tables.
+To view fields required for System Type tables:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane.
+ Click the Model Required For (Tables, Tables Fields, Table Lookup Fields, Table Fields Domains) icon respectively to view the requirements.
+View the field descriptions for the System Types Model Required Fields page</description>
+    </item>
+    
+    <item>
+      <title>View Trace Dashboard: Object Summary</title>
+      <link>https://heathercloward.github.io/common/use_cases/view_trace_dashboard_object_summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/view_trace_dashboard_object_summary/</guid>
+      <description>View Trace Dashboard: Object Summary The summary chart displays the count of all object types in the data source. Other charts on the dashboard track changes by day, week, and month to SQL code for each object type for a given data source.
+Object types include:
+ Tables Procedures Views Functions Other – additional SQL objects, such as synonyms, triggers and table functions  NOTE: When multiple charts display on a dashboard, charts can be resized to view a layout more clearly.</description>
+    </item>
+    
+    <item>
+      <title>View the Profiling Results</title>
+      <link>https://heathercloward.github.io/common/use_cases/view_the_profiling_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/use_cases/view_the_profiling_results/</guid>
+      <description>View the Profiling Results To view the profiling results:
+ Select Common &amp;gt; Analyze &amp;gt; Data Services Profiling Results in the Navigation pane. Select the DATASTORE_ID to view the results in the Data Services Profile Results Table Columns page.  To see the list of distinct values and distinct patterns click the DISTINCT_COUNT or PATTERN_COUNT respectively.</description>
+    </item>
+    
+  </channel>
+</rss>

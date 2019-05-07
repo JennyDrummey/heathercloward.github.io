@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/transform/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/transform/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access Chart (By Report By User)</title>
+      <link>https://heathercloward.github.io/transform/use_cases/access_chart_by_report_by_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/access_chart_by_report_by_user/</guid>
+      <description>Access Chart (By Report By User) To access this page in Transform, select Tracking &amp;gt; Report User Access Dashboard in the *Navigation* pane.
+The data in this chart is never deleted; there is currently no established retention date. There is a data point that represents each day the reports were accessed by all users.
+Use this page to View the Report User Access Dashboard.
+This chart displays the number of views of a report by a user by day.</description>
+    </item>
+    
+    <item>
+      <title>Add Source Audit Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_source_audit_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_source_audit_rules/</guid>
+      <description>Add Source Audit Rules If auditing is enabled, Transform creates an Excel file to record what data was manipulated by the Target Source rule, how long it took to run, who ran it and other details.
+To enable auditing in Transform, access Console:
+ Select Advanced Configuration &amp;gt; Parameters in the Navigation pane.
+ Click the Transform tab.
+View the field descriptions for the Transform tab on the Parameters page in Console</description>
+    </item>
+    
+    <item>
+      <title>Add Target Audit Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_audit_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_audit_rules/</guid>
+      <description>Add Target Audit Rules If auditing is enabled, Transform creates an Excel file to record what data was manipulated by the Target Rule, how long it took to run, who ran it and other details.
+To enable auditing in Transform, access Console:
+ Select Advanced Configuration &amp;gt; Parameters in the Navigation pane. Click the Transform tab. Click the Audit Reports check box to check it. Click Save.  To register an audit rule to a Target in Transform:</description>
+    </item>
+    
+    <item>
+      <title>Add Target Data Services Reports</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_ds_rpts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_ds_rpts/</guid>
+      <description>Add Target Data Services Reports NOTE: Transform writes report files to the path defined in the Report Path field on the Transform tab of the Vertical View of the Parameters page in Console. All files are generated to the path: C:\DSW\Report\&amp;lt;Wave Name&amp;gt;-&amp;lt;Process Area&amp;gt; - &amp;lt;Object&amp;gt;\&amp;lt;Target Name&amp;gt;.
+To add a Target Data Services report in Transform:
+ Click the Targets icon on the Process Area Launch.
+ Click the Data Services Reports icon for a Target.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Data Services Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_ds_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_ds_rules/</guid>
+      <description>Add Target Data Services Rules A Target Data Services rule cleans and manipulates data before it is loaded into the Target.
+NOTE: Target Data Services rules are created using Data Services AutoGen. Refer to Build and Refresh Data Services Jobs for more information.
+NOTE: For the Data Services options and pages to be available, the Data Service Repository must be registered in Common. The Data Services check box must be enabled in Console for the Process Area: Object.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Exports</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_exports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_exports/</guid>
+      <description>Add Target Exports Transform does not load data into an ERP system; it stages data for export. Target exports are the last sets of rules to move the Target data to a location so that it can be staged for export to an ERP system using a loading tool, such as a direct load program or CTS.
+This load program is set on the Target Exports page’s Horizontal View in the Load Type field.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Reports</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_reports/</guid>
+      <description>Add Target Reports A Target report is a view built in SQL and stored in the Target table.
+NOTE: For each Target used in Map, Map can generate a Rulebook report, which contains all the mappings created for the Target. The Rulebook report can be accessed in Map by selecting ProcessArea &amp;gt; Metrics &amp;gt; Rule Book.
+NOTE: BackOffice follows a strict naming convention for creating names that each member of the object can understand.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_rules/</guid>
+      <description>Add Target Rules A Target rule cleans and manipulates data before it is loaded into the Target.
+Each rule consists of a view and a stored procedure that must be created and stored in the Target table.
+NOTE: BackOffice follows a strict naming convention for creating names that each member of the object can understand. Any manually created objects must also follow these conventions. Refer to Naming Conventions for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Source Reports</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_source_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_source_reports/</guid>
+      <description>Add Target Source Reports A Target Source Report is a report run against the Source table. These reports are typically used to display data relevant to processing the rules.
+NOTE: BackOffice follows a strict naming convention for creating names that each member of the object can understand. Any manually created objects must also follow these conventions. Refer to Naming Conventions for more information.
+NOTE: Target Source reports must be manually created as a view in SQL.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Source Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_target_source_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_target_source_rules/</guid>
+      <description>Add Target Source Rules A Target Source Rule (also referred to as a Source Rule) cleans and massages the data before it is loaded in the Target table. The final Target Source rule pushes the data into the Target table from the source.
+Each Target Source rule consists of a view and a stored procedure that is created and stored in the source table.
+NOTE: BackOffice follows a strict naming convention for creating names that each member of the object can understand.</description>
+    </item>
+    
+    <item>
+      <title>Add a Report to the Report Quick List</title>
+      <link>https://heathercloward.github.io/transform/use_cases/add_a_report_to_the_report_quick_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/add_a_report_to_the_report_quick_list/</guid>
+      <description>Add a Report to the Report Quick List Users can add and remove reports on their own customized Report Quick List following one of the methods in this topic.
+To add a report to the Report Quick List via the All Business Reports page in Transform:
+ Select My Reports &amp;gt; All Reports in the Navigation pane.
+ Click the All Reports icon or the Actionable Reports icon for the object.</description>
+    </item>
+    
+    <item>
+      <title>Assign Additional Target Sources</title>
+      <link>https://heathercloward.github.io/transform/use_cases/assign_additional_target_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/assign_additional_target_sources/</guid>
+      <description>Assign Additional Target Sources A Target Source is a record of the relationship between a Source table and a Target table. Build rules against a Target Source to process specific Source tables for specific Target tables. This allows multiple Sources to be registered to a single Target and processed individually.
+Transform contains the Target Sources created in Target Design. A Target Source is a database containing the Source data. Its name begins with sdb.</description>
+    </item>
+    
+    <item>
+      <title>Change Summary Dashboard</title>
+      <link>https://heathercloward.github.io/transform/use_cases/change_summary_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/change_summary_dashboard/</guid>
+      <description>Change Summary Dashboard NOTE: Before data displays on the Trend Summary reports (Tracking &amp;gt; Summary) and the Summary Type charts (Process Area Launch &amp;gt; Change Summary):
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace must be activated for the databases beginning with “dsw.&amp;rdquo; A milestone must be captured. Refer to Create Milestones for more information.</description>
+    </item>
+    
+    <item>
+      <title>Changes Daily By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/changes_daily_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/changes_daily_by_object/</guid>
+      <description>Changes Daily By Object This chart displays a count of all daily changes for all Object types in all Targets in the Object selected on the Changes Daily By Wave &amp;amp; Process Area chart.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.</description>
+    </item>
+    
+    <item>
+      <title>Changes Daily By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/changes_daily_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/changes_daily_by_wave_and_process_area/</guid>
+      <description>Changes Daily By Wave &amp;amp; Process Area This chart displays a count of all changes for all Object types in all Targets in the Wave and Process Area selected in the Context bar by day.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”.</description>
+    </item>
+    
+    <item>
+      <title>Changes Monthly By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/changes_monthly_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/changes_monthly_by_object/</guid>
+      <description>Changes Monthly By Object This chart displays a count of all monthly changes for all Object types in all Targets in the Object selected on the Changes Monthly By Wave &amp;amp; Process Area chart.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.</description>
+    </item>
+    
+    <item>
+      <title>Changes Monthly By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/changes_monthly_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/changes_monthly_by_wave_and_process_area/</guid>
+      <description>Changes Monthly By Wave &amp;amp; Process Area This chart displays a count of all changes for all Object types in all Targets in the Wave and Process Area selected in the Context bar by month.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.</description>
+    </item>
+    
+    <item>
+      <title>Changes Weekly By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/changes_weekly_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/changes_weekly_by_object/</guid>
+      <description>Changes Weekly By Object This chart displays a count of all weekly changes for all Object types in all Targets in the Object selected on the Changes Weekly By Wave &amp;amp; Process Area chart.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.</description>
+    </item>
+    
+    <item>
+      <title>Changes Weekly By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/changes_weekly_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/changes_weekly_by_wave_and_process_area/</guid>
+      <description>Changes Weekly By Wave &amp;amp; Process Area This chart displays a count of all changes for all Object types in all Targets in the Wave and Process Area selected in the Context bar by week.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.</description>
+    </item>
+    
+    <item>
+      <title>Configure Notifications for Report Readiness</title>
+      <link>https://heathercloward.github.io/transform/use_cases/configure_notifications_for_report_readiness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/configure_notifications_for_report_readiness/</guid>
+      <description>Configure Notifications for Report Readiness A user can receive a workflow notification when a report is ready for review. The DSP® sends a report readiness notification to the Business users assigned to the report automatically when an error report contains records.
+The notification can also be sent manually.
+To configure notifications, at a high level:
+ Configure Subject and Body of the Notification Assign a User as a Notification Recipient Send Workflow Notification for Report Readiness Manually  Configure Subject and Body of the Notification The standard workflow template can be updated to change the workflow notification email’s subject or body text.</description>
+    </item>
+    
+    <item>
+      <title>Configure Report Delivery</title>
+      <link>https://heathercloward.github.io/transform/use_cases/configure_report_delivery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/configure_report_delivery/</guid>
+      <description> Configure Report Delivery An Administrator configures Report Delivery so that Business Users can access the migration reports and data that are relevant to them.
+An Administrator can:
+ Configure Report Delivery Settings Grant Users Access to Reports and Sensitive Data Configure Workflow Notifications for Report Readiness Create Target Report Segments Create Report Filters for Report Delivery Publish Reports to Report Delivery Pages Set a Priority Level for Reports Remove a Report from Report Delivery Pages  </description>
+    </item>
+    
+    <item>
+      <title>Configure Report Delivery Settings</title>
+      <link>https://heathercloward.github.io/transform/use_cases/configure_report_delivery_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/configure_report_delivery_settings/</guid>
+      <description>Configure Report Delivery Settings In Console on the Parameters page, review the Report File Generation Mode IDfield on the Transform tab and set it as needed for Report Delivery.
+Options are:
+ Automatic — No reports are delivered through the Report Delivery pages. Custom — At the Object or Target level, if the report is published, Transform uses the report-level Publish setting to determine whether or not to deliver a report through the Report Delivery pages.</description>
+    </item>
+    
+    <item>
+      <title>Configure Target Data Services Rule Global Variables</title>
+      <link>https://heathercloward.github.io/transform/use_cases/configure_target_ds_rule_global_var/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/configure_target_ds_rule_global_var/</guid>
+      <description>Configure Target Data Services Rule Global Variables For each of the Data Services Jobs, the global variables needed to pass parameters into Data Services are automatically populated. The global variables are passed to the Data Services Job at runtime and the Job is executed based on parameters specified in the global variables.
+The global variables (date formats, time formats, etc.) are populated from the object level Target where they were specified.</description>
+    </item>
+    
+    <item>
+      <title>Correct Errors in Target Data Services Data with Fixed Remediation Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/correct_errors_in_target_ds_data_with_fixed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/correct_errors_in_target_ds_data_with_fixed/</guid>
+      <description>Correct Errors in Target Data Services Data with Fixed Remediation Rules Transform offers a quick and simple way to correct the data in one field for multiple records using a fixed remediation rule.
+A fixed remediation rule can be used in situations where only one field in the Target data requires remediation to quickly correct the data in that one field for all the records. Fixed remediation rules can correct instances where a required field in the Target system has been left blank in the source data, or has been formatted incorrectly to be loaded into the Target system.</description>
+    </item>
+    
+    <item>
+      <title>Correct Errors in Target Data with Fixed Remediation Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/correct_errors_in_target_data_with_fixed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/correct_errors_in_target_data_with_fixed/</guid>
+      <description>Correct Errors in Target Data with Fixed Remediation Rules Transform offers a quick and simple way to correct the data in one field for multiple records using a fixed remediation rule.
+A fixed remediation rule can be used in situations where only one field in the Target data requires remediation to quickly correct the data in that one field for all the records. Fixed remediation rules can correct instances where a required field in the Target system has been left blank in the source data, or has been formatted incorrectly to be loaded into the Target system.</description>
+    </item>
+    
+    <item>
+      <title>Create Milestones</title>
+      <link>https://heathercloward.github.io/transform/use_cases/create_milestones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/create_milestones/</guid>
+      <description>Create Milestones Use Milestones to capture metrics at a fixed point in time. Snapshots of record counts for Targets, Sources, rules and reports are recorded. This information can be used to chart progress and stored for documentation purposes.
+To create a milestone in Transform:
+ Access Transform.
+ Click Tracking on the Navigation pane.
+ Click Add.
+View the field descriptions for the Milestones page.
+ Enter a milestone name in the DESCRIPTION field.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Connection Types</title>
+      <link>https://heathercloward.github.io/transform/use_cases/data_source_connection_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/data_source_connection_types/</guid>
+      <description>Data Source Connection Types In Transform, Sources and exports are associated with a CranPort or SSIS package to either import or export data. These imports/exports can be from comma-separated text files, Excel files, Access databases, SQL Server databases or ODBC databases, such as DB2 and Oracle.
+The CranPort or SSIS package contains two connections: Connection 1 and Connection 2. For imports, Connection 1 is the data source database or file and Connection 2 is the Transform object’s working SQL Server database.</description>
+    </item>
+    
+    <item>
+      <title>Debug Rules and Reports using Breakpoints</title>
+      <link>https://heathercloward.github.io/transform/use_cases/debug_rules_and_reports_using_brkpnts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/debug_rules_and_reports_using_brkpnts/</guid>
+      <description>Debug Rules and Reports using Breakpoints A breakpoint stops rule or report processing at a specified place to assist when troubleshooting an issue. Set breakpoints on the Debug – Breakpoints page, which displays all the steps that can be processed for the selected Target or Target Source.
+Make changes to the rule or report, then add a breakpoint to stop the job prior to the rule or report is run to see if the fix was successful.</description>
+    </item>
+    
+    <item>
+      <title>Download a Report</title>
+      <link>https://heathercloward.github.io/transform/use_cases/download_a_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/download_a_report/</guid>
+      <description>Download a Report Files with more than 50K records are downloaded as .txt files.
+Files with less than 50K records are downloaded as .xlsx files.
+To download a report on the Report Delivery page in Transform:
+ Select My Reports &amp;gt; All Reports in the Navigation pane.
+ Click the All Reports icon.
+ Click the Download a file icon for the desired report.
+NOTE: The Wave, Process Area and object are added to the folder path of the Report Delivery reports to prevent two working Waves from overlaying the same file.</description>
+    </item>
+    
+    <item>
+      <title>Edit the Priority and Publish Setting</title>
+      <link>https://heathercloward.github.io/transform/use_cases/edit_the_priority_and_publish_setting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/edit_the_priority_and_publish_setting/</guid>
+      <description>Edit the Priority and Publish Setting A Target is added and configured in Target Design, but a Target&amp;rsquo;s priority can be edited in Transform. The priority is the order the Target is processed. A user can also select the PUBLISH check box to allow all Target and Source reports in the Target to display for Business Users assigned to the reports.
+To edit these settings in Transform:
+ Click the Targets icon on the Process Area Launch page.</description>
+    </item>
+    
+    <item>
+      <title>Generate Documentation</title>
+      <link>https://heathercloward.github.io/transform/use_cases/generate_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/generate_documentation/</guid>
+      <description>Generate Documentation Transform allows users to generate and download audit reports for Targets, Target Sources, and objects. In addition, technical specifications and reconciliation reports can also be created and downloaded for Targets.
+NOTE: The Generate Documentation check box must be checked on the Transform tab of Console&amp;rsquo;s Parameters page to use this feature.
+The Audit report lists information about the object, Target, or Target Source, including the Source import and Source rules, Target rules, Target reports, and Target exports.</description>
+    </item>
+    
+    <item>
+      <title>Grant Users Access to Reports and Sensitive Data</title>
+      <link>https://heathercloward.github.io/transform/use_cases/grant_users_access_to_reports_and_sensitive_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/grant_users_access_to_reports_and_sensitive_data/</guid>
+      <description>Grant Users Access to Reports and Sensitive Data An Administrator must grant a user access to the Report Delivery pages.
+Additionally, some reports may contain sensitive data. Access to view the data in a sensitive report must be granted by an Administrator.
+If the user does not have access to the sensitive data, the record counts for the report still display.
+Report Delivery pages are secured via report business user assignment at the report levels (Target, Target Data Services, and Source) in Transform.</description>
+    </item>
+    
+    <item>
+      <title>Import Sources</title>
+      <link>https://heathercloward.github.io/transform/use_cases/import_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/import_sources/</guid>
+      <description>Import Sources A Source is a copy of the original data (system, flat file, database, etc.) from the legacy system that is being moved into Transform. Sources are imported into the Transform processing database, which brings data into a Transform object and saves time and resources from manually setting up Sources. The Sources that display in Transform depend on the context selected in the Context bar and the Target selected on the Targets page.</description>
+    </item>
+    
+    <item>
+      <title>Manage Target Sources</title>
+      <link>https://heathercloward.github.io/transform/use_cases/manage_target_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/manage_target_sources/</guid>
+      <description>Manage Target Sources A Target Source is a record of the relationship between a source table and a Target table. Rules and reports can be built against a Target Source to process specific source tables for specific Target tables. Multiple Sources can be registered to a single Target and processed individually.
+Transform contains the Target Sources assigned to Targets in Target Design along with the source tables corresponding to these Target Sources.</description>
+    </item>
+    
+    <item>
+      <title>Manage Targets</title>
+      <link>https://heathercloward.github.io/transform/use_cases/manage_targets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/manage_targets/</guid>
+      <description>Manage Targets A Target is a copy of the ERP table definitions and contains the destination tables for the Source data.
+Use Target Design to add a Target to an object in a context (a Wave and Process Area) and to assign a Source (or multiple Sources) to the Target. Refer to Create the Contexts for Migration Projects and Add a Target for more information.
+Use Transform to register Target Sources, Target rules, Target remediation rules, and Target reports.</description>
+    </item>
+    
+    <item>
+      <title>Monitor Jobs</title>
+      <link>https://heathercloward.github.io/transform/use_cases/monitor_jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/monitor_jobs/</guid>
+      <description>Monitor Jobs Any jobs that processed or are processing in the background display on the Monitor page. Users can view tasks assigned to the job and, in the event of a job failure, perform a job restart or continue the failed job.
+To monitor jobs, select Monitor in the Navigation pane.
+The following features are available when monitoring jobs:
+ Tasks – Navigates to the Tasks page where tasks associated with the job display.</description>
+    </item>
+    
+    <item>
+      <title>Naming Conventions</title>
+      <link>https://heathercloward.github.io/transform/use_cases/naming_conventions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/naming_conventions/</guid>
+      <description>Naming Conventions BackOffice follows a very strict naming convention that provides a methodology for creating names that each member of the team can understand.
+Every table has two names: informal and formal. Use the informal table name, such as MARC or MARA when naming objects. Use the formal table name, such as ttMARC or ttMARA, when naming a Target rule.
+Use the naming convention:
+tr[InformalTableName]_[FieldName]_Sel, displayed as: trMARA_MAKTXUpdSel.
+The formal table name for this table is ttMAKT.</description>
+    </item>
+    
+    <item>
+      <title>Publish Reports to Report Delivery Pages</title>
+      <link>https://heathercloward.github.io/transform/use_cases/publish_reports_to_report_delivery_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/publish_reports_to_report_delivery_pages/</guid>
+      <description>Publish Reports to Report Delivery Pages When a report is published it is visible on the Business user’s Report Delivery pages (accessed from My Reports in the Navigation pane).
+Actionable reports are error reports with a non-zero record count. Report types for error reports are Error, Target Readiness and Business Readiness.
+By default, reports are not published.
+A user can publish all reports in an object, target, or target source, by checking the PUBLISH check box on the Objects, Targets, *Target Sources* pages.</description>
+    </item>
+    
+    <item>
+      <title>Register Target Data Services Remediation Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/register_target_ds_remediation_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/register_target_ds_remediation_rules/</guid>
+      <description>Register Target Data Services Remediation Rules Data Services Target Remediation allows a remediation rule to be registered to an error report. Remediation rules are used only when there is a need to temporarily fix a data issue so the affected records can be loaded into a test environment.
+Once Transform has processed Target data, it generates error reports. Based on these reports, a user may create remediation rules to correct erroneous values so that the data can be loaded successfully into the Target system using a load tool.</description>
+    </item>
+    
+    <item>
+      <title>Register Target Remediation Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/register_target_remediation_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/register_target_remediation_rules/</guid>
+      <description>Register Target Remediation Rules Target Remediation allows a remediation rule to be registered to an error report. Remediation rules are used only when there is a need to temporarily fix a data issue so the affected records can be loaded into a test environment.
+Once Transform has processed Target data, it generates error reports. Based on these reports, a user may create remediation rules to correct erroneous values so that the data can be loaded successfully into the Target system using a load tool.</description>
+    </item>
+    
+    <item>
+      <title>Remove a Report from Report Delivery Pages</title>
+      <link>https://heathercloward.github.io/transform/use_cases/remove_a_report_from_report_delivery_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/remove_a_report_from_report_delivery_pages/</guid>
+      <description>Remove a Report from Report Delivery Pages Removing a report from a report delivery page removes it from all report delivery pages and resets the run history metrics and the statistics for user access for the report.
+To remove a target report from Report Delivery pages in Transform:
+ Click the Targets icon on the Process Area Launch page. Click the Reports icon for a target. Select the report to be removed.</description>
+    </item>
+    
+    <item>
+      <title>Report Delivery Filters</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_delivery_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_delivery_filters/</guid>
+      <description>Report Delivery Filters Filters are used to restrict the data on a report so that only relevant information displays to the user. Multiple columns can be used to broaden the filter criteria.
+The filter applies when the report is viewed in the DSP and does not apply when it is downloaded.
+NOTE: Since columns not applicable to a given report are ignored, one filter can be configured to apply to many different reports.</description>
+    </item>
+    
+    <item>
+      <title>Report Delivery Overview</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_delivery_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_delivery_overview/</guid>
+      <description>Report Delivery Overview Report Delivery allows Business users who do not typically log in to the DSP® to log in, view and download the migration reports that are of interest to them.
+Report data access can be restricted for sensitive information or can be limited by report filters or target report segments.
+This section provides information for two types of users. An Administrator configures Report Delivery. Business Users view the reports.</description>
+    </item>
+    
+    <item>
+      <title>Report Process Count By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_process_count_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_process_count_by_object/</guid>
+      <description>Report Process Count By Object This chart displays the number of processes running for all target and source reports broken out by report type for all reports in the object selected on the Report Process Count By Wave &amp;amp; Process Area chart.
+Click a bar to drill down to the Report Process Count By Source Report and the Report Process Count By Target Report charts.
+Refer to View Dashboards in Transform for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Report Process Count By Source Report</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_process_count_by_source_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_process_count_by_source_report/</guid>
+      <description>Report Process Count By Source Report This chart displays the number of processes running for all source reports broken out by report type.
+Click the bar to drill down to the Target Source Reports page to view details about each report.
+Refer to View Dashboards in Transform for general information about chart features.
+To access the chart in Transform:
+ Click Transform in the Navigation pane or click Transform in the Context bar.</description>
+    </item>
+    
+    <item>
+      <title>Report Process Count By Target Report</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_process_count_by_target_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_process_count_by_target_report/</guid>
+      <description>Report Process Count By Target Report This chart displays the number of processes running for all target reports broken out by report type.
+Click the bar to drill down to the Target Reports page to view details about each report.
+Refer to View Dashboards in Transform for general information about chart features.
+To access the chart in Transform:
+ Click Transform in the Navigation pane or click Transform in the Context bar.</description>
+    </item>
+    
+    <item>
+      <title>Report Process Count By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_process_count_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_process_count_by_wave_and_process_area/</guid>
+      <description>Report Process Count By Wave &amp;amp; Process Area This chart displays the number of processes running for reports broken out by report type. for all reports in the Wave and Process Area selected in the Context bar.
+Click a bar to drill down to the Report Process Count By Object chart.
+Refer to View Dashboards in Transform for general information about chart features.
+To access the chart in Transform:</description>
+    </item>
+    
+    <item>
+      <title>Report Process Count Dashboard</title>
+      <link>https://heathercloward.github.io/transform/use_cases/report_process_count_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/report_process_count_dashboard/</guid>
+      <description> Report Process Count Dashboard The Report Process Count dashboard displays the number of processes running for reports broken out by report type. Drill down through objects to view counts by object, source report and target report.
+This dashboard contains the following charts:
+ Report Process Count By Wave &amp;amp; Process Area Report Process Count By Object Report Process Count by Source Report Report Process Count By Target Report  </description>
+    </item>
+    
+    <item>
+      <title>Rule Report Summary Dashboard</title>
+      <link>https://heathercloward.github.io/transform/use_cases/rule_report_summary_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/rule_report_summary_dashboard/</guid>
+      <description> Rule Report Summary Dashboard The Rule Report Summary dashboard displays a count of active Source rules, Source reports, Target rules and Target reports by Wave and Process Area selected in the Context bar.
+The dashboard contains the following charts:
+ Source Rules (Active) By Wave and Process Area Source Reports (Active) By Wave and Process Area Target Rules (Active) By Wave and Process Area Target Reports (Active) By Wave and Process Area Source Rules (Active) By Object Source Reports (Active) By Object Target Rules (Active) By Object Target Reports (Active) By Object Source Rules (Active) By Target Source Reports (Active) By Target Target Rules (Active) By Target Target Reports (Active) By Target  </description>
+    </item>
+    
+    <item>
+      <title>Run Target Data Services Rules</title>
+      <link>https://heathercloward.github.io/transform/use_cases/run_target_data_services_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/run_target_data_services_rules/</guid>
+      <description>Run Target Data Services Rules DSP® registers the Data Services jobs against the Target in Transform as Data Services rules. When a Data Services Repository is registered with an object, the Data Services Rules and Data Services Reports icons become active on the Targets page in Transform.
+Jobs are registered automatically unless they are running against a utility Target, which is a Target that does not exist in the Target system used to register rules and reports in Transform.</description>
+    </item>
+    
+    <item>
+      <title>SSIS Packages</title>
+      <link>https://heathercloward.github.io/transform/use_cases/ssis_packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/ssis_packages/</guid>
+      <description>SSIS Packages SSIS is the ETL (extraction, transformation and load) method for SQL 2012 and 2014. SSIS packages are created in Management Studio using a SQL Server Import and Export Wizard and requires licensing on both web and database servers. They can also be created in Visual Studio 2012 or 2014 Development Studio using Integration Services Project.
+One of the functions of Management Studio is to handle the storage of import packages although it is not intended to be the design environment for SSIS.</description>
+    </item>
+    
+    <item>
+      <title>Set a Priority Level for Reports on Report Delivery Pages</title>
+      <link>https://heathercloward.github.io/transform/use_cases/set_a_priority_level_for_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/set_a_priority_level_for_reports/</guid>
+      <description>Set a Priority Level for Reports on Report Delivery Pages The priority level sets the order that reports display on Report Delivery pages.
+The priority levels include: Critical, High, Medium (the default), and Low.
+To set or change a priority level in Transform:
+ Click the Targets icon on the Process Area Launch page. Click the Reports icon for a target. Click Vertical View for a target report where publish is checked on the Target Reports, Target Source Reports orTarget Data Services Reports pages.</description>
+    </item>
+    
+    <item>
+      <title>Source Reports (Active) By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/source_reports_active_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/source_reports_active_by_object/</guid>
+      <description>Source Reports (Active) By Object This chart displays a count by each report type for all Source reports with a status of Active in objects in the Wave and Process Area selected in the Context bar.
+A Source report is a report run against the Source table. These reports are typically used to display data relevant to processing the rules.
+Click the bar to drill down to the Source Reports (Active) By Targetchart.</description>
+    </item>
+    
+    <item>
+      <title>Source Reports (Active) By Target</title>
+      <link>https://heathercloward.github.io/transform/use_cases/source_reports_active_by_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/source_reports_active_by_target/</guid>
+      <description>Source Reports (Active) By Target This chart displays a count by each report type for all Source reports with a status of Active in the object selected on the Source Reports (Active) By Object chart.
+A source report is a report run against the Source table. These reports are typically used to display data relevant to processing the rules.
+Click a bar for a Target table to open the Target Source Reports page to view the Source reports.</description>
+    </item>
+    
+    <item>
+      <title>Source Reports (Active) By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/source_reports_active_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/source_reports_active_by_wave_and_process_area/</guid>
+      <description>Source Reports (Active) By Wave &amp;amp; Process Area This chart displays a count by each report type for all Source reports with a status of Active in the Wave and Process Area selected in the Context bar.
+A Source report is a report run against the Source table. These reports are typically used to display data relevant to processing the rules.
+Click the bar to drill down to the Source Reports (Active) By Object chart.</description>
+    </item>
+    
+    <item>
+      <title>Source Rules (Active) By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/source_rules_active_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/source_rules_active_by_object/</guid>
+      <description>Source Rules (Active) By Object This chart displays all Source rules with a status of Active for all Objects in the Wave and Process Area selected in the Context bar.
+Source rules clean and massage Source data before it is loaded in the Target table. The final Source rule (the rule with the highest priority) pushes the data into the Target table from the Source.
+Hover a cursor over the bar to view the total count of active Source rules.</description>
+    </item>
+    
+    <item>
+      <title>Source Rules (Active) By Target</title>
+      <link>https://heathercloward.github.io/transform/use_cases/source_rules_active_by_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/source_rules_active_by_target/</guid>
+      <description>Source Rules (Active) By Target This chart displays all Source rules with a status of Active for the Object selected on the Source Rules (Active) By Object chart.
+Source rules clean and massage Source data before it is loaded in the Target table. The final Source rule (the rule with the highest priority) pushes the data into the Target table from the Source.
+Hover a cursor over the bar to view the total count of active Source rules.</description>
+    </item>
+    
+    <item>
+      <title>Source Rules (Active) By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/source_rules_active_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/source_rules_active_by_wave_and_process_area/</guid>
+      <description>Source Rules (Active) By Wave &amp;amp; Process Area This chart displays all Source rules with a status of Active for the Wave and Process Area selected in the Context bar. Hover a cursor over the bar to view the total count of active Source rules.
+Source rules clean and massage Source data before it is loaded in the Target table. The final Source rule (the rule with the highest priority) pushes the data into the Target table from the Source.</description>
+    </item>
+    
+    <item>
+      <title>Summary Type By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/summary_type_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/summary_type_by_object/</guid>
+      <description>Summary Type By Object This chart displays the count for Object types contained in all Targets in the Object selected on the Summary Type By Wave &amp;amp; Process Area chart.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”.</description>
+    </item>
+    
+    <item>
+      <title>Summary Type By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/summary_type_by_wave_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/summary_type_by_wave_process_area/</guid>
+      <description>Summary Type By Wave &amp;amp; Process Area This chart displays the count for Object types contained in all Targets in the Wave and Process Area selected in the Context bar.
+NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.</description>
+    </item>
+    
+    <item>
+      <title>Target Metrics Content</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_metrics_content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_metrics_content/</guid>
+      <description>Target Metrics Content This report lists, by object, Target reports and the number of records returned. Also known as the RuleBook, this report lists all mappings created in Map for the selected Target.
+To access this page:
+ Access Transform. Click Reports in the Navigation pane. Click the Target Metrics Content link.           Field Description   OBJECT ID Displays the name of the object whose metrics are being tracked.</description>
+    </item>
+    
+    <item>
+      <title>Target Metrics Object Development</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_metrics_object_development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_metrics_object_development/</guid>
+      <description>Target Metrics Object Development This report lists all objects in the migration project for the selected context, their project completion rate and their actual completion rate. Used to track object development completion through the course of the project.
+To access this page:
+ Access Transform. Click Reports in the Navigation pane. Click the Target Metrics Object Development link.           Field Description   OBJECT ID Displays the name of the object whose development is being tracked.</description>
+    </item>
+    
+    <item>
+      <title>Target Metrics Report</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_metrics_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_metrics_report/</guid>
+      <description>Target Metrics Report This report lists Targets, along with status, complexity and Target type.
+To access this page:
+ Access Transform. Click Reports in the Navigation pane. Click the Target Metrics Report link.           Field Description   Wave Process Area Displays the Wave-Process Area combination associated with the target whose metrics are being tracked.   Wave PROCESSAREA OBJECT Displays the object associated with the target whose metrics are being tracked.</description>
+    </item>
+    
+    <item>
+      <title>Target Report Segments</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_report_segments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_report_segments/</guid>
+      <description>Target Report Segments An Administrator can identify a field on the report to use for creating report segments. For each unique value in that field, Transform creates a subdirectory and a report in the File Location indicated on the Vertical View of the Target Reports, Target Source Reports and Target Data Services Reports pages.
+Business users must be assigned to a segment to view the segment reports.
+This topic contains the following sections:</description>
+    </item>
+    
+    <item>
+      <title>Target Reports (Active) By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_reports_active_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_reports_active_by_object/</guid>
+      <description>Target Reports (Active) By Object This chart displays a count by each report type for all Target reports with a status of Active in all objects in the Wave and Process Area selected in the Context bar.
+A Target report is a view built in SQL and stored in the Target table.
+Click the bar to drill down to the Target Reports (Active) By Target chart to view the number of Target reports by report type per Targets in the selected object.</description>
+    </item>
+    
+    <item>
+      <title>Target Reports (Active) By Target</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_reports_active_by_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_reports_active_by_target/</guid>
+      <description>Target Reports (Active) By Target This chart displays a count by each report type for all Target reports with a status of Active in the object selected on the Source Rules (Active) By Object chart.
+A Target report is a view built in SQL and stored in the Target table.
+Click a bar for a Target table to open the Target Reports page to view the Target reports.
+Refer to View Dashboards in Transform for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Target Reports (Active) By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_reports_active_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_reports_active_by_wave_and_process_area/</guid>
+      <description>Target Reports (Active) By Wave &amp;amp; Process Area This chart displays a count by each report type for all Target reports with a status of Active in the Wave and Process Area selected in the Context bar.
+A Target report is a view built in SQL and stored in the Target table.
+Click the bar to drill down to the Target Reports (Active) By Object chart.
+Refer to View Dashboards in Transform for general information about chart features.</description>
+    </item>
+    
+    <item>
+      <title>Target Rules (Active) By Object</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_rules_active_by_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_rules_active_by_object/</guid>
+      <description>Target Rules (Active) By Object This chart displays all Target rules with a status of Active for each object in the Wave and Process Area selected in the Context bar. Hover a cursor over the bar to view the total count of active Target rules.
+Target rules run against data in a Target table to clean and massage data after it has been loaded into the Target table.
+Click the bar to drill down to the Target Rules (Active) By Target chart.</description>
+    </item>
+    
+    <item>
+      <title>Target Rules (Active) By Target</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_rules_active_by_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_rules_active_by_target/</guid>
+      <description>Target Rules (Active) By Target This chart displays all target rules with a status of Active for the object selected on the Source Rules (Active) By Object chart.
+Hover a cursor over the bar to view the total count of active Targetrules.
+Targetrules run against data in a Target table to clean and massage data after it has been loaded into the Targettable.
+Click a bar for a Target table to open the Target Rules page to view the specific rules.</description>
+    </item>
+    
+    <item>
+      <title>Target Rules (Active) By Wave &amp; Process Area</title>
+      <link>https://heathercloward.github.io/transform/use_cases/target_rules_active_by_wave_and_process_area/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/target_rules_active_by_wave_and_process_area/</guid>
+      <description>Target Rules (Active) By Wave &amp;amp; Process Area This chart displays all Target rules with a status of Active for the Wave and Process Area selected in the Context bar. Hover a cursor over the bar to view the total count of active Target rules.
+Target rules run against data in a Target table to clean and massage data after it has been loaded into the Target table.
+Click the bar to drill down to the Target Rules (Active) By Object chart.</description>
+    </item>
+    
+    <item>
+      <title>Trend Summary (Chart)</title>
+      <link>https://heathercloward.github.io/transform/use_cases/trend_summary_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/trend_summary_chart/</guid>
+      <description>Trend Summary (Chart) NOTE: Before data displays on this chart:
+ Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw.&amp;rdquo; A milestone must be captured. Refer to Create Milestones for more information.  This chart displays the count for all Objects regardless of Wave and Process Area.</description>
+    </item>
+    
+    <item>
+      <title>Use an Integrate Process as an Export Type</title>
+      <link>https://heathercloward.github.io/transform/use_cases/use_an_integrate_process_as_an_export_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/use_an_integrate_process_as_an_export_type/</guid>
+      <description>Use an Integrate Process as an Export Type This task is performed by a Migration Developer, or any user who has access to the Wave and Process Area.
+Before registering a Target export with an Export Type of Integrate, the Target export view must be manually created in SQL server along with the Target export tables. The view must be named using the naming convention set in Common on the Parameters – Integrate page.</description>
+    </item>
+    
+    <item>
+      <title>View Dashboards in Transform</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_dashboards_in_transform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_dashboards_in_transform/</guid>
+      <description>View Dashboards in Transform The Rule Report Summary dashboard displays a count of active Source rules, Source reports, Target rules and Target reports by Wave and Process Area.
+The Report Process Count dashboard displays the number of processes running for reports broken out by report type.
+The Change Summary dashboard displays the count of changes to all Object types in the Wave and Process Area.
+Object types include:
+ Tables Procedures Views Functions Other – additional SQL objects, such as synonyms, triggers and table functions  Other charts on the dashboard track changes by day, week, and month.</description>
+    </item>
+    
+    <item>
+      <title>View Data Services Remediation Rule Information</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_ds_remediation_rule_information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_ds_remediation_rule_information/</guid>
+      <description>View Data Services Remediation Rule Information The Target Data Services Remediation Overview pages are centralized reporting locations for Remediation-based operations. Depending on how the user accesses the pages, Transform displays rule information for a selected Target report or for all reports for a Target with either an active fixed Data Services remediation rule or at least one active Data Services remediation rule.
+NOTE: For the Data Services options and pages to be available, the Data Services repository must be defined on the AutoGen &amp;gt; Configuration &amp;gt; Data Services Repositories page.</description>
+    </item>
+    
+    <item>
+      <title>View Remediation Rule Information</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_remediation_rule_information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_remediation_rule_information/</guid>
+      <description>View Remediation Rule Information The Target Remediation Overview page is a centralized reporting location for Remediation-based operations. Depending on how the user accesses the page, Transform displays rule information for a selected Target report or for all reports for a Target which have either an active fixed remediation rule or at least one active remediation rule.
+To access the Target Remediation Overviewpage, click the TR icon for the selected Target on the Targets page&amp;rsquo;s Horizontal View.</description>
+    </item>
+    
+    <item>
+      <title>View Reports</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_reports/</guid>
+      <description>View Reports Business users view their migration reports on the Report Delivery pages.
+An Administrator must grant a user access to the Report Delivery pages. The following reports are available on the Report Delivery pages:
+ All Reports Target All Errors Report All Business Reports - All Waves/Process Areas All Actionable Reports  This section contains the following topics.
+ View All Reports View all Reports for an Object, Target or Source View the Target All Errors Report View All Reports Across Waves and Process Areas View Actionable Reports and Historical Record Count  View All Reports A user can view all reports to which they have access on the All Reports page.</description>
+    </item>
+    
+    <item>
+      <title>View Transform Reports</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_transform_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_transform_reports/</guid>
+      <description>View Transform Reports Transform offers a variety of reports, described in the following table.
+Report
+Description
+Target, Target Source, and Target Data Services Reports
+These migration reports are created by SQL AutoGen, or are created manually as needed based on mappings, target design and other features.
+Report Delivery pages
+Business uses who do not normally access the DSP but who need access to their migration reports can view them on the Report Delivery pages.</description>
+    </item>
+    
+    <item>
+      <title>View Your Report Access Level</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_your_report_access_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_your_report_access_level/</guid>
+      <description>View Your Report Access Level A Business user can view whether a report has sensitive data and whether that user has access to it on the Vertical View of reports.
+To view the report access level for the current user via the Report Quick List page in Transform:
+ Select My Report &amp;gt; Report Quick List in the Navigation pane. Click Vertical View for a report.  To view the report access level for the current user via the All Reports (By Object) page in Transform:</description>
+    </item>
+    
+    <item>
+      <title>View the Report User Access Dashboard</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_the_report_user_access_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_the_report_user_access_dashboard/</guid>
+      <description>View the Report User Access Dashboard This dashboard displays the reports accessed by all users. There is no retention date established.
+To access the Report User Access Dashboard in Transform, select Tracking &amp;gt; Report User Access Dashboard in the Navigation pane. The Report Access (By Report, By User) page and Access Chart (By Report By User) display.
+Selecting a report on the Report Access (By Report, By User) page displays the chart in the child pane - Access Chart (By Report By User) which displays the number of views of a report by a user by day (the date(s) and time(s) the selected report was accessed).</description>
+    </item>
+    
+    <item>
+      <title>View the Report User Access Log</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_the_report_user_access_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_the_report_user_access_log/</guid>
+      <description>View the Report User Access Log This page displays all users accessing any reports to which they are assigned. There are no filters set (date, time, etc.). The data is never deleted; there is no established retention date.
+To access the Report User Access Dashboard in Transform, select Tracking &amp;gt; Report User Access Log in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View the Reports - Never Viewed</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_the_reports_never_viewed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_the_reports_never_viewed/</guid>
+      <description>View the Reports - Never Viewed This page displays the reports that have never been viewed by anyone. A report remains on the list until it is viewed.
+To access the Report User Access Dashboard in Transform, select Tracking &amp;gt; Reports – Never Viewed in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View the Reports - Updated Not Viewed (By User)</title>
+      <link>https://heathercloward.github.io/transform/use_cases/view_the_reports_updated_not_viewed_by_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/view_the_reports_updated_not_viewed_by_user/</guid>
+      <description>View the Reports - Updated Not Viewed (By User) This page displays the reports that have been previously updated and published by the current user but have not been accessed/viewed since the most recent publishing.
+To access the Report User Access Dashboard in Transform, select Tracking &amp;gt; Reports – Updated Not Viewed (By User)in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Work with Objects</title>
+      <link>https://heathercloward.github.io/transform/use_cases/work_with_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/transform/use_cases/work_with_objects/</guid>
+      <description>Work with Objects An Object is a grouping of Targets and is used to organize business objects within the data conversion project.
+Using Console, an object (or multiple objects) is assigned to a context (a combination of a Wave and Process Area). A Target and Source (or multiple Targets and Sources) are then defined for an object in Target Design. Refer to Create the Contexts for Migration Projects for more information.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/excel-integration/" class="active">Excel Integration Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/excel-integration/download_an_excel_spreadsheet/" class=""></a></li>
+        
+            <li >
+                <a href="/excel-integration/import_data/" class="uk-active"></a></li>
+        
+            <li >
+                <a href="/excel-integration/lock_records/" class=""></a></li>
+        
+            <li >
+                <a href="/excel-integration/unlock_records/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#"></a></li>
+        <li><a>Excel-Integration</a></li>
+        <li><span></span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="import-data">Import Data</h1>
+
+<p>Users have the ability to import data into the DSP® from an Excel
+spreadsheet created by the user (based on the current DSP® page) or from
+a spreadsheet previously downloaded from the DSP®. If the imported
+spreadsheet has multiple worksheets, the user will be able to choose
+which worksheet data to import. If multiple worksheets are to be
+imported, a separate import process must be performed for each
+worksheet.</p>
+
+<p><strong>NOTE:</strong> When importing data via Excel, records that are locked by
+another user are listed as failed on the Import Results tab. The user
+has the ability to download the failed record(s) and upload the data
+later when the record has been unlocked.</p>
+
+<p><strong>NOTE:</strong> DSP® will calculate functions in an Excel spreadsheet before
+importing the results.  It is the result of the calculations that will
+be imported.</p>
+
+<p><strong>NOTE:</strong> If a column is a check box, and the user enters “Y”, “True”,
+&ldquo;true&rdquo;, or “1” in the column in the template, the check box is checked
+during the import process. If the user enters “N”, “False”, &ldquo;false&rdquo;, or
+“0”, the check box is unchecked during the import process.</p>
+
+<p><strong>NOTE:</strong> When importing records via Excel Integration, if a cell in the
+Excel file is left blank, the default values from the page are applied.
+Default values can be defined either on the page column property, the
+page’s defaults view or a database default. To insert a null value in a
+column that has a default, the special keyword, {NULL}, can be placed in
+the cell in the Excel file.</p>
+
+<p><strong>NOTE:</strong> When importing records using Excel Integration, the
+PreValidation tab on the Excel Integration panel displays a message
+indicating which columns contain default values. </p>
+
+<p>To import data: </p>
+
+<ol>
+<li><p>Navigate to the page where the data is to be imported in the DSP®.</p></li>
+
+<li><p>Select <strong>Excel Integration</strong> from the page gear menu; the <em>Excel
+Integration</em> panel displays.</p></li>
+
+<li><p>Click the <strong>Import Data</strong> tab.</p></li>
+
+<li><p>Click the <strong>Click here to browse for your Excel file</strong> button.</p></li>
+
+<li><p>In the <strong>Choose File to Upload</strong> window, navigate to the desired
+file.</p></li>
+
+<li><p>Select the file.</p></li>
+
+<li><p>Click <strong>Open</strong>; the <em>Import Option</em> tab displays along with a
+confirmation message informing the user the file chosen is valid</p>
+
+<p><strong>NOTE:</strong> If the file is invalid, an error message displays
+indicating the file is invalid.</p>
+
+<p><strong>NOTE:</strong> The worksheet name appears in the <strong>Choose Worksheet</strong>
+list box. If there is more than one worksheet in the template, click
+the down arrow to select the worksheet to import.</p></li>
+
+<li><p>Modify the value in the <strong>Data Starts on Row</strong> field if necessary.</p>
+
+<p><strong>NOTE:</strong> The default value for the Data Starts on Row field is the
+first row containing the data to be imported after the column
+heading rows in the Excel template.</p></li>
+
+<li><p>Modify the value in the <strong>Column Names on Row</strong> field if necessary.</p>
+
+<p><strong>NOTE:</strong> The value entered in the <strong>Column Names on Row</strong> field is
+the starting row of the column names in the Excel template. The
+default value for the <strong>Column Names on Row</strong> field is 1.</p></li>
+
+<li><p>Click the <strong>Import Records</strong> button.</p>
+
+<p><strong>NOTE:</strong> The import process performs pre-check validations. Results
+are either of type Info, Warning or Error and then separated into
+categories. Hover a cursor over each category to view explanations
+and remediation information of the various pre-validation messages.
+For errors, the reason the user cannot continue is also specified.
+The following pre-check validations are
+performed:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Validation</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>Missing Optional Columns (Information)</td>
+<td>Columns configured for Excel import are missing from the template. These columns are not required. The spreadsheet will be imported.</td>
+</tr>
+
+<tr>
+<td>Extra Columns (information)</td>
+<td>Columns exist in the spreadsheet, but are not configured for import on the DSP page. The spreadsheet will not import data from the columns listed.</td>
+</tr>
+
+<tr>
+<td>Drill Criteria (Warning)</td>
+<td>The template contains drill criteria for the current page. These values will override any found in the template. The spreadsheet will be imported but drill criteria on the page will override any values in the template.</td>
+</tr>
+
+<tr>
+<td>Identity Field (Warning)</td>
+<td>A column included in the template is an identity field for the underlying table. Values in this column in the spreadsheet will be overridden by auto-incrementing identity value on import. The spreadsheet will be imported.</td>
+</tr>
+
+<tr>
+<td>Shared Criteria (Warning)</td>
+<td>The template contains shared fields on the current page that belong to the primary key. These values will be auto-inserted on import and will override any values found in the template.</td>
+</tr>
+
+<tr>
+<td>Missing Required Columns (Error)</td>
+<td>These are required columns that are missing from the template. The import stops. These columns and values must be added to the template to continue.</td>
+</tr>
+
+<tr>
+<td>Duplicate Columns (Error)</td>
+<td>Columns appear more than once in the template. The import stops. The user must edit the template and remove the duplicate column (s) before continuing.</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>NOTE:</strong> While the Excel import is processing, a process bar and a
+Stop Import button appears. Click the <strong>Stop Import</strong> button to
+cancel the process.</p></li>
+</ol>
+
+<p>Once the process is complete, the Import Results tab displays. After
+data has been imported, a list of inserted, updated, failed and skipped
+records displays and is grouped with error summaries based on reasons
+for failure:</p>
+
+<ul>
+<li><strong>Inserted</strong> — These records were successfully imported into DSP®.</li>
+<li><strong>Updated</strong> — These records were successfully updated in the DSP.</li>
+<li><strong>Skipped</strong> — These records were skipped. Blank rows in the
+spreadsheet are skipped. Click the row listed to view the reason it
+was not inserted.</li>
+
+<li><p><strong>Failed</strong> — These records were not imported. Expand the list to
+display the reason(s) and row number of the failed record. Click the
+failed row to display the details of the failure. Reasons for
+failure include but are not limited to:</p>
+
+<ul>
+<li><p><strong>Locked records</strong> — An attempt was made to import a record that
+is locked. Refer to <a href="Lock_Records.htm">Lock Records</a> for more
+information.</p></li>
+
+<li><p><strong>Incorrect data type</strong> — The data type of the imported data
+does not match the data type of the corresponding data in the
+DSP.</p></li>
+
+<li><p><strong>Data length exceeded</strong> — The length of the data for the
+imported value was exceeded.</p></li>
+
+<li><p><strong>Foreign key constraint violation</strong> — An attempt was made to
+insert a record with a value whose column references a foreign
+key constraint. The value was not found in the foreign key
+table.</p></li>
+
+<li><p><strong>Duplicate primary key</strong> — An attempt was made to insert a
+record whose primary key already exists in the table.</p>
+
+<p><strong>NOTE:</strong> A record can fail for a duplicate primary key when the
+record is initially imported, if there are no records on the
+page and if the import file contains duplicate records. If the
+record already exists on a page, it is updated on import, and
+does not fail for duplicate primary keys.</p></li>
+
+<li><p><strong>Data Volume Limitations</strong> — The data volume limitation on
+imported spreadsheets cannot exceed the <strong>Excel Import Record
+Limit</strong>. The default for this parameter is 100k rows. Refer to
+the
+ <a href="../Sys_Admin/Page_Desc/Parameters_All_TabsSysAdmin.htm">Parameters</a>
+page for more information.</p></li>
+</ul></li>
+</ul>
+
+<p>If records fail to import, a button appears in the upper right corner of
+the Import Results window.</p>
+
+<p>To download an Excel spreadsheet of records that fail to insert:</p>
+
+<ol>
+<li>Click the <strong>Download Excel Sheet of Records that Fail to Insert</strong>
+button.</li>
+<li>Follow the browser specific instructions that are presented to open
+or save the file.</li>
+</ol>
+
+<p><strong>NOTE:</strong> If errors occur, modify the worksheet accordingly and perform
+the import again.</p>
+
+<p><strong>NOTE:</strong> If the data is encrypted in the DSP®, then the data is
+encrypted on import.</p>
+
+<p><strong>NOTE:</strong> After performing an Excel Import, a Bulk Execution icon
+displays in the top right area of the Results tab. When this icon is
+clicked, the Bulk Execution panel opens and is filtered on the records
+which were successfully inserted. The user can then proceed to perform
+the Bulk Execution process, which allows the user to validate the
+records that were inserted or updated. Refer to the <a href="../Sys_Admin/Use_Cases/Configure_Bulk_Execution_Overview.htm">Bulk
+Execution</a>
+topic for more information.</p>
+
+<p><strong>NOTE:</strong> If Audit is turned on for the table when the Excel import is
+performed, an audit is conducted to show which fields have changed. To
+view the results of the audit, select <strong>Admin &gt; Data Sources &gt; Audit
+Report</strong> in the <em>Navigation</em> pane. The Data Source Audit Report
+displays. In the table, the field names are listed along with the data
+type and data length in the source table and audit table. If the Audit
+Table column is populated, that means the corresponding field was
+changed.</p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#import-data">Import Data</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

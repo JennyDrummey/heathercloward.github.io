@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A-D on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/</link>
+    <description>Recent content in A-D on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspcompose/page_desc/a-d/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active Requests</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/active_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/active_requests/</guid>
+      <description>Active Requests Use this page to [Monitor Requests](../Use_Cases/Monitor_Requests.htm).  To access this page, select dspCompose &amp;gt; Reports &amp;gt; Active Requests in Navigation pane.
+         Field Description   TEMPLATE Displays name of template assigned to the request.   REQUEST ID Displays the ID of the request.   DESCRIPTION Displays a brief description of the request.   CREATED ON Displays date and time when request was created.</description>
+    </item>
+    
+    <item>
+      <title>All Requests</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/all_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/all_requests/</guid>
+      <description>All Requests Use this page to [Monitor Requests](../Use_Cases/Monitor_Requests.htm).  To access this page, select dspCompose &amp;gt; Reports &amp;gt; All Requests in *Navigation* pane.
+         Field Description   TEMPLATE Displays name of template assigned to the request.   REQUEST ID Displays the ID of the request.   DESCRIPTION Displays a brief description of the request.   CREATED ON Displays date and time when request was created.</description>
+    </item>
+    
+    <item>
+      <title>Archive Delete</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/archive_delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/archive_delete/</guid>
+      <description>Archive Delete Use this page to [Delete Archived Requests](../Use_Cases/Archive_Requests.htm#Delete_Archived_Requests).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Archives &amp;gt; Archive Delete in the Navigation pane.
+         Field Description   DELETE ARCHIVES BEFORE Displays date for which all requests added on or before the date are deleted from archives.   Delete Archives Click to permanently remove all archived requests created on or before the Delete Archives Before date from the system.</description>
+    </item>
+    
+    <item>
+      <title>Archive Requests</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/archive_requests_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/archive_requests_page/</guid>
+      <description>Archive Requests Use this page to [Archive Requests](../Use_Cases/Archive_Requests.htm).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Archives &amp;gt; Archive Requests in the Navigation pane.
+  Field
+ Description
+  Archive Requests
+ Click to archive all requests that are eligible to be archived. The Request Status Interval is used to determine eligibility.
+Requests are archived according to retention intervals based on request status. If a user clicks Archive Requests and the retention interval has not passed for the request’s status the request will not be archived.</description>
+    </item>
+    
+    <item>
+      <title>Archived Requests</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/archived_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/archived_requests/</guid>
+      <description>Archived Requests Use this page to [View Archived Requests](../Use_Cases/Archive_Requests.htm).  To access this page, select dspCompose &amp;gt; Reports &amp;gt; Archived Requests in the Navigation pane.
+         Field Description   REQUEST ID Displays the ID of the request.   DESCRIPTION Displays a brief description of the request.   TEMPLATE Displays name of template assigned to the request.   POSTED If enabled, the request has been posted.</description>
+    </item>
+    
+    <item>
+      <title>Change Request Status</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/change_request_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/change_request_status/</guid>
+      <description>Change Request Status Use this page to [Change Request Status](../Use_Cases/Change_Request_Status.htm).  To access this page:
+ Select dspCompose &amp;gt; Requests in the *Navigation *pane. Click Vertical View for a request. Click Change Status tab.           Field Description   REQUEST ID Displays a unique number that identifies the request.   DESCRIPTION Displays a brief description of the request.   REQUEST STATUS Displays the request status.</description>
+    </item>
+    
+    <item>
+      <title>Create Template</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/create_template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/create_template/</guid>
+      <description>Create Template Use this page to [Create Templates](../Use_Cases/Create_Templates.htm).  To access this page:
+ Select dspCompose &amp;gt;Team in the Navigation pane. Click Create Template for the team.           Field Description   Create From BDC Recording Click to create a template from a new BDC recording.   Create From GUI Recording Click to create a template from a new GUI recording.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard Parameters</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/dashboard_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/dashboard_parameters/</guid>
+      <description>Dashboard Parameters Use this page to view parameters for [Viewing Dashboards in dspCompose™](../Use_Cases/View_Dashboards_in_dspCompose.htm)  To access this page:
+Select dspCompose &amp;gt; Dashboards &amp;gt; Dashboard Parameters in the Navigation pane.
+         Field Descriptions   Chart Weeks Displays the number of weeks’ worth of data used on charts. Users can limit that amount of data that displays on charts to make charts easier to view.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Execution Logs</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_execution_logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_execution_logs/</guid>
+      <description>Data Services Execution Logs Use this page to [Troubleshoot Data Download Using a Data Services Job](../Use_Cases/Troubleshoot_Data_Download_Using_a_Data_Services_Job.htm).  To access this page:
+ Select dspCompose &amp;gt; Configuration &amp;gt; Data Services Job Executor in the Navigation pane. Click the Execution Logs icon for a Data Services job.           Field Description   EXECUTION DATE Displays the date and time the job finished running.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Global Variables</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_global_variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_global_variables/</guid>
+      <description>Data Services Global Variables Use this page to [Troubleshoot Data Download Using a Data Services Job](../Use_Cases/Troubleshoot_Data_Download_Using_a_Data_Services_Job.htm).  To access this page:
+ Select dspCompose &amp;gt; Configuration &amp;gt; Data Services Job Executor in the Navigation pane. Click the Global Variables icon for a Data Services job.    Field
+ Description
+  NAME
+ Displays the variable name.
+NOTE: The RequestID global variable does not need to be registered.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Global Variables Setup</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_global_variables_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_global_variables_setup/</guid>
+      <description>Data Services Global Variables Setup Use this page when [Registering Tables for Download through Data Services](../Use_Cases/Register_Tables_for_Download_through_Data_Services.htm), if needed.  To access this page:
+ Select dspCompose &amp;gt; Team in the Navigation pane. Click the Templates icon for a team. Click the Roles icon for a template. Click the Finish Tables icon for the Post role. Click the Global Variables Setup icon.      Field
+ Description</description>
+    </item>
+    
+    <item>
+      <title>Data Services Job Executor</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_job_executor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/data_services_job_executor/</guid>
+      <description>Data Services Job Executor Use this page to [Troubleshoot Data Download Using a Data Services Job](../Use_Cases/Troubleshoot_Data_Download_Using_a_Data_Services_Job.htm).  To access this page,select dspCompose &amp;gt; Configuration &amp;gt; Data Services Job Executor in the Navigation pane.
+         Field Description   JOB NAME Displays the name of the job written in Data Services that is used to pull data from the source environment and add it to the target environment.</description>
+    </item>
+    
+    <item>
+      <title>dspCompose Requests H</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/a-d/dspcompose_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/a-d/dspcompose_requests/</guid>
+      <description>dspCompose Requests H dspCompose Requests V
+[View Your Active Requests Details.](../Use_Cases/View_Your_Active_Requests_Details.htm)  To access this page, click the black dspCompose Requests tab in the Quick Panel.
+         Field Description   Requests Click to open the Request page to view additional request details and access functionality related to org units and external role contacts for all requests.    REQUEST ID Displays unique number that identifies the request.</description>
+    </item>
+    
+  </channel>
+</rss>

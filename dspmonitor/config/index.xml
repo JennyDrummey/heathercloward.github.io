@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspmonitor/config/</link>
+    <description>Recent content in Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspmonitor/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configure Path of DataDialysis_Report_FilePath Data Source</title>
+      <link>https://heathercloward.github.io/dspmonitor/config/configure_the_path_of_the_datadialysis_report_filepath_data_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/config/configure_the_path_of_the_datadialysis_report_filepath_data_source/</guid>
+      <description>Configure Path of DataDialysis_Report_FilePath Data Source An Administrator must configure the Path field for the DataDialysis_Report_FilePath data source to control where the directory reports are to be written.
+To configure the path:
+ SelectAdmin &amp;gt;Data Sources in Navigation pane.
+ Click Vertical View for the DataDialysis_Report_FilePath data source.
+ Click Edit.
+View the field descriptions for the Data Sources page&amp;rsquo;s Vertical View
+ Configure the path in the Path field.</description>
+    </item>
+    
+    <item>
+      <title>Configure SAP Client Name for dspMonitor™ Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/config/configure_sap_client_name_for_dspmonitor_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/config/configure_sap_client_name_for_dspmonitor_reports/</guid>
+      <description>Configure SAP Client Name for dspMonitor™ Reports For reports to process, the SAP Client name must be set. The default setting is 0, and must be configured for each installation.
+To configure the SAP Client Name:
+ Select Configuration &amp;gt; Parameters in Navigation pane.
+ Click the Misc Parameters tab.
+ Click Edit.
+View the field descriptions for the Parameters page
+ Enter the name in the SAP Client field.</description>
+    </item>
+    
+    <item>
+      <title>Configure Schedules on Service Pages</title>
+      <link>https://heathercloward.github.io/dspmonitor/config/configure_schedules_on_services_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/config/configure_schedules_on_services_pages/</guid>
+      <description>Configure Schedules on Service Pages The Service pages within dspMonitor™ automatically run various processes. The Service pages are delivered with default schedules that can be modified to make the Service page run more or less frequently, or on a different schedule.
+ Select Configuration &amp;gt; Schedule Service Page in Navigation pane.
+ Click Edit for Service page.
+View the field descriptions for the Schedule Service Page page
+ Select an option in the Schedule ID list box to have the service page run on a different schedule.</description>
+    </item>
+    
+    <item>
+      <title>Configure dspMonitor™ Parameters</title>
+      <link>https://heathercloward.github.io/dspmonitor/config/configure_dspmonitor_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/config/configure_dspmonitor_parameters/</guid>
+      <description>Configure dspMonitor™ Parameters Parameters are settings specific to dspMonitor™ that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+To configure dspMonitor™ parameters:
+ Select Configuration &amp;gt; Parameters in Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters page
+ Update all fields if default values are not applicable.
+ Click Save.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Security for dspMonitor™</title>
+      <link>https://heathercloward.github.io/dspmonitor/config/set_up_security_for_dspmonitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/config/set_up_security_for_dspmonitor/</guid>
+      <description>Set Up Security for dspMonitor™ Refer to System Administration for more information regarding these steps.
+To set up security for dspMonitor™ an Administrator:
+ Creates User Accounts
+ Creates Security Roles
+ Assigns Users to Security Role
+ [](../../../Platform/Sys_Admin/Use_Cases/Assign_WebApp_Groups_to_Security_Role.htm)
+Assigns WebApp Groups to Security Role
+A user can then:
+ Register Users to Groups in dspMonitor™.
+NOTE: If the user is to manage reports registered to the group and defines the report-level parameters, set up the user as the Group Owner in dspMonitor™.</description>
+    </item>
+    
+  </channel>
+</rss>

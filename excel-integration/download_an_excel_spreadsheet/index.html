@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/excel-integration/" class="active">Excel Integration Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/excel-integration/download_an_excel_spreadsheet/" class="uk-active"></a></li>
+        
+            <li >
+                <a href="/excel-integration/import_data/" class=""></a></li>
+        
+            <li >
+                <a href="/excel-integration/lock_records/" class=""></a></li>
+        
+            <li >
+                <a href="/excel-integration/unlock_records/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#"></a></li>
+        <li><a>Excel-Integration</a></li>
+        <li><span></span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="download-an-excel-spreadsheet">Download an Excel Spreadsheet</h1>
+
+<p>The downloaded Excel spreadsheet contains those columns in the
+<em>Horizontal</em> View that are not hidden or disabled via the “Excel” or
+“All Views” View Types. Refer to <a href="../Sys_Admin/Use_Cases/Exclude%20Columns%20Excel%20Integration.htm">Exclude Columns from Excel
+Integration</a>
+for more information.</p>
+
+<p>In the Excel template, the cell’s comment as well as column highlighting
+indicate if the column is required. Users can also include the Data Type
+in the header.</p>
+
+<ul>
+<li>varchar, nvarchar, char, nchar will show the data type and length,
+for example nvarchar (50), when the field has maximum length it will
+show (-1) as the length, for example nvarchar (-1), ntext will show
+always (-1)</li>
+<li>decimal, numeric, money and smallmoney will show the data type and
+the number of whole digits and decimals, for example decimal (10,4)</li>
+<li>bit, int, smallint, bigint, double, float, real, datetime,
+datetime2, time and uniqueidentifier will show only the data type</li>
+</ul>
+
+<p>Users can add new records or can update existing records using the
+template. If users are updating records, those records are locked until
+the template is uploaded. Refer to <a href="Lock_Records.htm">Lock Records</a> and
+<a href="Unlock_Records.htm">Unlock Records</a> for more information.</p>
+
+<p><strong>NOTE:</strong> Columns with the following defined column properties do not
+apply to Excel and are not downloaded via Excel Integration:</p>
+
+<ul>
+<li>Button</li>
+<li>File</li>
+<li>HTML Area</li>
+<li>Image</li>
+<li>Label</li>
+<li>Tab</li>
+<li>Toolbar</li>
+</ul>
+
+<p><strong>NOTE:</strong> When a column has data disabled via a Data Control View (DCV)
+and a spreadsheet is downloaded using that existing data, the data is
+disabled in the spreadsheet as well. When a column has data hidden via a
+DCV, the data is hidden in the spreadsheet as well. Columns controlled
+via a DCV should be unaffected during Excel insert.</p>
+
+<p><strong>NOTE:</strong> Columns disabled or hidden by a Page Control View (PCV) or
+User Control View (UCV) are not included in a downloaded spreadsheet.</p>
+
+<p>To download an Excel spreadsheet:</p>
+
+<ol>
+<li><p>Navigate to the page where the Excel spreadsheet is to be
+downloaded.</p></li>
+
+<li><p>Select <strong>Excel Integration</strong> from the page gear menu; the <em>Excel
+Integration</em> panel displays.</p></li>
+
+<li><p>Update the <strong>Workbook Filename</strong> field if desired.</p>
+
+<p><strong>NOTE:</strong> The filename format is limited to the standards of the
+user’s operating system. Unallowed characters are converted to
+underscores.</p>
+
+<p><strong>NOTE:</strong> If no filename is entered, the page name is used as the
+default.</p></li>
+
+<li><p>Update the <strong>Worksheet Name</strong> field if desired.</p>
+
+<p><strong>NOTE:</strong> The worksheet name format is limited to 31 characters and
+is filtered for characters not allowed in an Excel worksheet name.
+Unallowed characters are converted to underscores. If the name
+entered is longer than 31 characters, it is truncated to 31
+characters. If no worksheet name is entered, the page name is used
+as the default.</p></li>
+
+<li><p>Check the <strong>Include Existing Data</strong> check box if records on the page
+must be edited in the spreadsheet.</p>
+
+<p><strong>NOTE:</strong> If this check box is checked, the records on the page are
+locked until the spreadsheet is uploaded if the reserved columns
+LockedOn, LockedBy, and boaLockType have been added to the
+underlying table(s) for the page. Refer to <a href="Lock_Records.htm">Lock
+Records</a> for more information.</p>
+
+<p><strong>NOTE:</strong> If records on the page are already locked, they are not
+downloaded. To unlock records, refer to <a href="Unlock_Records.htm">Unlock
+Records</a> for more information.</p></li>
+
+<li><p>On the <strong>Download Template</strong> tab, click the <strong>Download</strong> button.</p></li>
+
+<li><p>Follow the browser specific instructions that are presented to open
+the file.</p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#download-an-excel-spreadsheet">Download an Excel Spreadsheet</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

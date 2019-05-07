@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Post Data for a Process Based on an RFC :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/integrate/" class="active">Integrate Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/integrate/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/integrate/config/configure_parametersintegrate/" class="">Configure Parameters</a></li>
+        
+            <li >
+                <a href="/integrate/config/create_categories/" class="">Create Categories</a></li>
+        
+            <li >
+                <a href="/integrate/config/establish_a_target_system_connection_integrate/" class="">Establish a Target System Connection</a></li>
+        
+            <li >
+                <a href="/integrate/config/extract_rfc_functions/" class="">Extract RFC Functions</a></li>
+        
+            <li >
+                <a href="/integrate/config/set_up_security_for_integrate/" class="">Set up Security for Integrate</a></li>
+        
+            <li >
+                <a href="/integrate/config/user_credentials_in_integrate/" class="">User Credentials in Integrate</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/integrate/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/integrate/page_desc/bapi-rfc-definition/" class="">BAPI\\RFC Definition</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bapi-rfc-definition-field/" class="">BAPI\\RFC Definition: Field</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bdcpostmethodssettingsadvtab/" class="">BDC Post Methods and Settings on the Advanced tab</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bdc_screen_conditionals/" class="">BDC Screen Conditionals</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bdc_screen_fields_h/" class="">BDC Screen Fields H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bdc_screen_h/" class="">BDC Screen H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bdcplus_templates/" class="">BDCPlus: Templates</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/bdcdirect_script/" class="">BDCdirect: Script</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/category/" class="">Categories</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/copy/" class="">Copy</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/custom_fields/" class="">Custom Fields</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/filestructfldelemattxml/" class="">File Structure Field Element - Attributes</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/gui_script_actions/" class="">GUI Script Actions</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/gui_script_commands/" class="">GUI Script Commands</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/gui_script_conditionals/" class="">GUI Script Conditionals</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/gui_script_data_h/" class="">GUI Script Data H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/message_file/" class="">Message File</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/messages_h/" class="">Messages H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/post_adapter/" class="">Post Adapter</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/post_engine_h/" class="">Post Engine H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/post_file_logs/" class="">Post File Logs</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/post_files/" class="">Post Files</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/post_monitor_h/" class="">Post Monitor H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/post_monitor_template/" class="">Post Monitor Template</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_h/" class="">Process H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_post_connections/" class="">Process Post Connections</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_post_h/" class="">Process Post H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_template_after_post_rule_collect_where/" class="">Process Template After Post Rule Collect Where</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_template_connections/" class="">Process Template Connections</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_template_loop/" class="">Process Template Loop</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_template_loop_field_mappings_h/" class="">Process Template Loop Field Mappings H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/process_templates_h/" class="">Process Templates H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/relationship_mapping/" class="">Relationship Mapping</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/relationshipmappingbdcguibapirfc/" class="">Relationship Mapping BDC Script, GUI Script or BAPI/RFC Template Types</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/structure-h/" class="">Structure</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/struture-field/" class="">Structure Field</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/template_h/" class="">Template H</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/template_processes/" class="">Template Processes</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/template-rfc-documentation/" class="">Template RFC Documentation</a></li>
+        
+            <li >
+                <a href="/integrate/page_desc/template-report-integrate/" class="">Template Report</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/integrate/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/integrate/use_cases/activatedeactivatemultproc/" class="">Activate or Deactivate Multiple Processes for a Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_bapi_template/" class="">Activate the BAPI Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_bdc_script_template/" class="">Activate the BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_custom_template/" class="">Activate the Custom Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_gui_script_template/" class="">Activate the GUI Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process1/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process2/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process3/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process7/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process8/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process_custom_template/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_process_ds_job/" class="">Activate the Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_rfc_template/" class="">Activate the RFC Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_template_ds_job/" class="">Activate the Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_user_defined_template/" class="">Activate the User Defined Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/activate_the_xml_template/" class="">Activate the XML Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/addchildstrxml/" class="">Add Child Structure</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_custom_fields_to_a_bdc_script_template/" class="">Add Custom Fields to a BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/adddataincludedflat_filesql/" class="">Add Data in SQL to be Included in the Flat File</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/adddataincludedxmlsql/" class="">Add Data to be Included in the XML file in SQL</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_templates_to_a_process/" class="">Add Templates to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process1/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process2/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process3/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process7/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process8/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_template_to_a_process_dsjob/" class="">Add the Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_custom_template_to_a_process/" class="">Assign the Custom Template to a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/bdc_posting/" class="">BDC Posting</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/bdcscriptguiscriptrectips/" class="">BDC Script and GUI Script Recording Tips</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureconditionalguiscriptdatarec/" class="">Configure Conditional GUI Script Data Records</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configurefieldmappingsbdc_script_template/" class="">Configure Field Mappings for a Process Based on a BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configurefieldmappingsgui_script_template/" class="">Configure Field Mappings for a Process based on a GUI Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_field_mappings_for_an_sap_data_services_job_process_template/" class="">Configure Field Mappings for an SAP Data Services Job Process Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureprocesstemplateloopsbapi/" class="">Configure Process Template Loops for a BAPI Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureproctemploopsbdcloopen/" class="">Configure Process Template Loops for a BDC Script Template with Looping Enabled</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureprocesstemplateloopsdelimited/" class="">Configure Process Template Loops for a Delimited or Fixed Width Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureproctemplloopsguiloopgen/" class="">Configure Process Template Loops for a GUI Script Template with Looping Enabled</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureprocess_emplate_loopsrfc/" class="">Configure Process Template Loops for an RFC Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureprocesstemplateloopsxml/" class="">Configure Process Template Loops for an XML Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configurerelamanuallyxml/" class="">Configure Relationships Manually for a Process based on an XML Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_template_loopsbdc/" class="">Configure Template Loops for a BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_template_loopsgui/" class="">Configure Template Loops for a GUI Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_a_bapi_template/" class="">Configure a BAPI Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureconditionalbdcscrn/" class="">Configure a Conditional for a BDC Screen</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configureproctemplpbdcsinglp/" class="">Configure a Process Template Loop for a BDC Script Template with a Single Loop</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configproctmplpguisinglp/" class="">Configure a Process Template Loop for a GUI Script Template with a Single Loop</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_a_process_template_loop_for_a_sap_data_services_job_process_template_automatically/" class="">Configure a Process Template Loop for a SAP Data Services Job Process Template Automatically</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_a_process_template_loop_for_a_sap_data_services_job_process_template_manually/" class="">Configure a Process Template Loop for a SAP Data Services Job Process Template Manually</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configure_a_rfc_template/" class="">Configure an RFC Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/configurexmtemplatestrctreleatt/" class="">Configure an XML Template with Structures, Elements and Attributes</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/control_data_is_obsolete/" class="">Control data is obsolete, rerecord (VERBS-NAME: CreateObject CATT: \&lt;none; \&gt; Callno: 000001)</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/copy_a_gui_script_data_record/" class="">Copy a GUI Script Data Record</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/copy_a_process/" class="">Copy a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/copy_a_process_template/" class="">Copy a Process Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/copy_a_template/" class="">Copy a Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/add_the_assembly_file_to_the_integrate_process_folder/" class="">Copy the Assembly File to the Integrate Process Folder</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_a_custom_template_integrate/" class="">Create A Custom Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_a_basic_template/" class="">Create a Basic Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_a_custom_assembly/" class="">Create a Custom Assembly</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_a_custom_posting/" class="">Create a Custom Posting</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/createdelimfwud/" class="">Create a Delimited or Fixed Width User Defined Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_a_process/" class="">Create a Process</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_a_view_in_sql_server/" class="">Create a View in SQL Server</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_an_sap_data_services_job_template/" class="">Create an SAP Data Services Job Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/createtransferdelimfwidthfiles/" class="">Create and Transfer Delimited or Fixed Width Files</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/creattransferfilesurdtemplates/" class="">Create and Transfer Files for User Defined Fixed Width or Delimited Templates</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/createtransferxmloverview/" class="">Create and Transfer XML Files</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/create_and_transfer_xml_files/" class="">Create and Transfer XML Files</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/debug_a_gui_script_posting/" class="">Debug a GUI Script Posting</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/definestrctfldsdelimitedfixedwidth/" class="">Define Structures and Fields for Delimited or Fixed Width Templates</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/delete_gui_script_fields/" class="">Delete GUI Script Fields</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/edit_connections_to_target_systems_at_the_process_post_level/" class="">Edit Connections to Target Systems at the Process Post Level</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/elements_and_attributes/" class="">Elements and Attributes</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/field_x_is_not_an_input_field/" class="">Field X is not an input field.</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/generate_database_objects_automatically/" class="">Generate Database Objects Automatically</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/importlegacybdcplustemps/" class="">Import Legacy BDCPlus Templates into Integrate</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/importlegacybdcdirectscripts/" class="">Import Legacy BDCdirect&lt;span&gt;®&lt;/span&gt; Scripts into Integrate</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/import_legacy_scripts_into_integrate/" class="">Import Legacy Scripts into Integrate</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/import_a_bdc_script_from_a_file/" class="">Import a BDC Script From a File</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/tips_and_troubleshooting_integrate/" class="">Integrate Tips and Troubleshooting</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/manage_bdc_screens_and_fields/" class="">Manage BDC Screens and Fields</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/manage_processes/" class="">Manage Processes</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/manage_templates/" class="">Manage Templates</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/mergecopybdcscrnsanotherbdcscript/" class="">Merge or Copy BDC Screens to Another BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/modifyguiscriptcustcommand/" class="">Modify a GUI Script with a Custom Command</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/monitor_posts/" class="">Monitor Posts</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/no_batch_input_data_for_screen/" class="">No batch input data for screen</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_using_transaction_stringing/" class="">Post Data Using Transaction Stringing</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_using_a_bapi/" class="">Post Data Using a BAPI</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_using_a_custom_template/" class="">Post Data Using a Custom Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_using_a_gui_script/" class="">Post Data Using a GUI Script</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_using_an_sap_data_services_job/" class="">Post Data Using an SAP Data Services Job</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_using_an_sap_data_services_job_overview/" class="">Post Data Using an SAP Data Services Job Overview</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_for_a_process_based_on_a_bapi/" class="">Post Data for a Process Based on a BAPI</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_for_a_process_based_on_a_bdc_script_template/" class="">Post Data for a Process Based on a BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_for_a_process_based_on_a_gui_script_template/" class="">Post Data for a Process Based on a GUI Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_for_a_process_based_on_an_rfc/" class="uk-active">Post Data for a Process Based on an RFC</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_to_multiple_target_systems_with_one_process_template/" class="">Post Data to Multiple Target Systems with One Process Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_with_a_bdc_script/" class="">Post Data with a BDC Script</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_data_custom_template/" class="">Post Data with a Custom Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_using_rfc_execution/" class="">Post Using RFC Execution</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/post_a_process_with_multiple_templates/" class="">Post a Process with Multiple Templates</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/posting_defaults/" class="">Posting Defaults</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/posting_methods/" class="">Posting Methods</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/posting_troubleshooting/" class="">Posting Troubleshooting</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/proctemploopvwrlipsbdcguibapirfc/" class="">Process Template Loop View Relationships</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/record_a_bdc_script/" class="">Record a BDC Script</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/record_a_gui_script/" class="">Record a GUI Script</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/register_after_post_rules_to_a_process_template_overview/" class="">Register After Post Rules to a Process Template Overview</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/register_a_collect_download_after_post_rule_manually/" class="">Register a Collect Download After Post Rule Manually</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/register_a_collect_download_after_post_rule_that_is_built_automatically/" class="">Register a Collect Download After Post Rule that is Built Automatically</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/register_a_collect_download_as_an_after_post_rule/" class="">Register a Collect Download as an After Post Rule</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/register_a_status_view_as_an_after_post_rule/" class="">Register a Status View as an After Post Rule</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/register_a_stored_procedure_as_an_after_post_rule/" class="">Register a Stored Procedure as an After Post Rule</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/reset_and_resubmit_a_failed_post/" class="">Reset and Resubmit a Failed Post</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/resolve_problem_connecting_to_the_sap_gui_during_template_recording/" class="">Resolve Problem Connecting to the SAP GUI During Template Recording</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/set_connections_at_the_process_template_level/" class="">Set Available Connections at the Process Template Level</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/set_up_after_post_rules_to_check_for_failed_posts_for_bapi_or_rfc_processes/" class="">Set up After Post Rules to Check for Failed Posts for BAPI or RFC Processes</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/setup_and_configuration_for_integrate/" class="">Setup and Configuration for Integrate</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/synchasynchpostexecmthds/" class="">Synchronous and Asynchronous Post Execution Methods</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/verifydatapostedsapbapi/" class="">Verify the Data was Posted in SAP for the BAPI</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/verifyrfcretdatasapupddwnldtblssql/" class="">Verify the RFC Retrieved Data from SAP and Updated the Download Tables in SQL</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/verifytablesvscreatedinsqlautogenbap/" class="">Verify the Tables and Views were Created in SQL by the Auto Generate Process for a BAPI</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/verifytblesvwscreatedsqlautogenrfc/" class="">Verify the Tables and Views were Created in SQL by the Auto Generate Process for an RFC</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/view_template_report/" class="">View Template Report</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/vwconfigurefldmappingsprocrfc/" class="">View and Configure Field Mappings for a Process Based on an RFC</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/viewandconfigurefieldmappingsbapi/" class="">View and Configure Field Mappings for a Process based on a BAPI</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/vwconfigurerlshipsprocbapi/" class="">View and Configure Relationships for a Process Based on a BAPI</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/viewandconfigurerelationshipsbdc/" class="">View and Configure Relationships for a Process Based on a BDC Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/vwconfigurerelshpsguie/" class="">View and Configure Relationships for a Process Based on a GUI Script Template</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/vwconfigurershpsprocrfc/" class="">View and Configure Relationships for a Process Based on an RFC</a></li>
+        
+            <li >
+                <a href="/integrate/use_cases/view_the_debug_log/" class="">View the Debug Log</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Integrate</a></li>
+        <li><span>Post Data for a Process Based on an RFC</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="post-data-for-a-process-based-on-an-rfc">Post Data for a Process Based on an RFC</h1>
+
+<p><span id="Post Data using an RFC Steps" class="popUpLink">&gt;Review the
+steps in the process. </span></p>
+
+<p>A process post allows the posting of a process through Integrate.
+Integrate automatically creates a process post for a process template
+with the name <strong>Auto Generated Post For [Process Name].</strong> A user can
+also configure multiple process posts for a single process with each
+process post record having different post settings.</p>
+
+<p>To post data, edit the process post Integrate generated (or add a
+process post), post the data, and review the messages regarding posting
+status.</p>
+
+<p><strong>NOTE</strong>: A process must be active to add or edit a process post.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: Data can be posted using a
+multiple template process. Refer to <a href="Post_a_Process_with_Multiple_Templates.htm">Post a Process with Multiple
+Templates</a> for more
+information.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: When posting data to a
+target system, a Template Administrator can register an After Post Rule
+to a process template. The rule runs after the process template executes
+successfully and before the next process template begins processing (if
+posting with a multi-template process). When a process template that has
+an After Post Rule registered posts successfully, the data is passed to
+the next dependent process template as an input parameter. Refer to
+<a href="Register_After_Post_Rules_to_a_Process_Template_Overview.htm">Register After Post Rules to a Process
+Template</a>
+for more information.</p>
+
+<p>To edit a process post and post data for a process:  </p>
+
+<ol>
+<li><p>Click the <strong>Postings</strong> icon on the <em>Process</em> page.</p></li>
+
+<li><p>Click <strong>Edit</strong> for a process post; the <em>Vertical</em> View displays. </p>
+
+<p><em><a href="../Page_Desc/Process_Post_H.htm#Process_Post_V_All_Tabs">View the field descriptions for the Process Post page’s Vertical
+View.</a></em></p></li>
+
+<li><p>Enter a where clause to restrict the data set in <strong>Where Clause</strong>.</p>
+
+<p><strong>NOTE:</strong>When posting a BDC, GUI, or BAPI/RFC template with more
+than one loop, the WHERE CLAUSE must apply to ALL views mapped to
+the loops.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click <strong>View Primary Loop Data</strong> to verify the data for the first
+loop.</p>
+
+<p><strong>NOTE</strong>: If a where clause was not entered, all records for the
+primary loop display.</p></li>
+
+<li><p>Navigate back to the <em>Vertical</em> View.</p></li>
+
+<li><p>Click <strong>Advanced</strong> tab.</p></li>
+
+<li><p>Select <strong>StandardSAPPosting</strong> from the <strong>BDC Post Method</strong> list box.</p>
+
+<p><strong>NOTE</strong>: Process posts based on RFC templates use the
+<strong>StandardSAPPosting</strong> post method only.</p></li>
+
+<li><p>Enter a user name and password for SAP if needed.</p>
+
+<p><strong>NOTE</strong>: Refer to <a href="../../Common/Use_Cases/Establish_a_Connection_to_a_target_system_Overview.htm">Establish a Connection to a Target
+System</a>
+for more information.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click <strong>Post</strong> on the Page toolbar; a confirmation message displays.</p></li>
+
+<li><p>Click <strong>Ok</strong>.</p>
+
+<p><strong>NOTE</strong>: Integrate displays a message listing the number of
+successful records and failed records for the post.</p></li>
+
+<li><p>Click <strong>View Messages</strong> on the Page toolbar when the post is
+complete.</p>
+
+<p><strong>NOTE</strong>: Click <strong>Delete Messages</strong> button to remove all messages
+for the post record, if applicable. The Message table is not
+automatically cleared; it must be manually cleaned out.</p>
+
+<p><strong>NOTE</strong>: If the posting is successful, each record displays with a
+message “The function call completed successfully’ returned from SAP
+in the <strong>MESSAGE</strong> column.</p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#post-data-for-a-process-based-on-an-rfc">Post Data for a Process Based on an RFC</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

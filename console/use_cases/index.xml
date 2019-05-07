@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/console/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/console/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Elements Separately</title>
+      <link>https://heathercloward.github.io/console/use_cases/add_elements_separately/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/add_elements_separately/</guid>
+      <description>Add Elements Separately One method for creating a context is to add a Process Area and Object separately, then assign them to a Wave.
+ Add a Wave
+ Add a Process Area
+ Add an Object
+ Add Elements to a Wave
+  Add a Wave Add a Wave on the Waves page, the first page that opens when Console opens (also accessible by clicking Waves on the Navigation pane).</description>
+    </item>
+    
+    <item>
+      <title>Add Multiple Target Systems</title>
+      <link>https://heathercloward.github.io/console/use_cases/add_multiple_target_systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/add_multiple_target_systems/</guid>
+      <description>Add Multiple Target Systems A Migration Developer can add multiple target systems for a Wave by defining each system at the Wave-Process Area level. The target system cascades through all objects in the Wave-Process Area.
+To add multiple target systems at the Wave-Process Area level in Console:
+ Click Waves in the Navigation pane.
+ Click the Process Areas icon for a Wave.
+ Click Vertical View for a Process Area.</description>
+    </item>
+    
+    <item>
+      <title>Add Target Contacts to Objects</title>
+      <link>https://heathercloward.github.io/console/use_cases/add_target_contacts_to_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/add_target_contacts_to_objects/</guid>
+      <description>Add Target Contacts to Objects A user can quickly assign Developers or Business Users contacts to many or all Objects at one time.
+When assigned at the Object level, the contact is added to every Target and Source that belongs to the Object, and can be viewed and edited in Target Design.
+NOTE: Individual users can also be assigned to an Object as Developers or Business Users in Console and Target Design.</description>
+    </item>
+    
+    <item>
+      <title>Add a Wave and Create Elements</title>
+      <link>https://heathercloward.github.io/console/use_cases/add_a_wave_and_create_elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/add_a_wave_and_create_elements/</guid>
+      <description>Add a Wave and Create Elements Another method for creating the context is to add the elements while creating the structure.
+To add elements during the structure creation process:
+ Click Waves on the Navigation pane.
+ Add a Wave as described in Add a Wave.
+ Click the Process Areas icon for a Wave.
+ Click Add on the Page toolbar.
+View the field descriptions for the Wave : Process Areas page.</description>
+    </item>
+    
+    <item>
+      <title>Configure List Box Values</title>
+      <link>https://heathercloward.github.io/console/use_cases/configure_list_box_values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/configure_list_box_values/</guid>
+      <description>Configure List Box Values List Box Values are lookup values that drive the list box options for many pages in dspMigrate™. Console is delivered with a list of Platform-supplied lists and values.
+A user can also create custom lists and values that can be used in Construct and in custom components.
+NOTE: Lists that are supplied by the platform cannot be deleted, and the list name (displayed in LIST on the List Value Configuration page) cannot be edited.</description>
+    </item>
+    
+    <item>
+      <title>Configure an Object</title>
+      <link>https://heathercloward.github.io/console/use_cases/configure_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/configure_object/</guid>
+      <description>Configure an Object A migration object is assigned to a Wave-Process Area combination. Examples of objects include customers, basic materials, price lists or sales orders.
+To configure an object:
+ Add Contacts for an Object Add Decisions for an Object Copy or Move an Object Track Object History  Add Contacts for an Object Contact information can be associated with an Object to send workflow emails to contacts during object creation and when working with decisions.</description>
+    </item>
+    
+    <item>
+      <title>Copy Elements</title>
+      <link>https://heathercloward.github.io/console/use_cases/copy_elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/copy_elements/</guid>
+      <description>Copy Elements A Wave, Process Area or Object can be created based on a copy of an existing element.
+This functionality can be accessed on the Waves page, and by navigating to Elements &amp;gt; [Element Name]. The Copy functionality is not available when working in a specific hierarchy, such as when working on the Wave: Process Areas page.
+This use case includes the following topics:
+ Copy a Wave</description>
+    </item>
+    
+    <item>
+      <title>Create Custom Workflow Messages</title>
+      <link>https://heathercloward.github.io/console/use_cases/create_custom_workflow_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/create_custom_workflow_messages/</guid>
+      <description>Create Custom Workflow Messages Console allows users to set up custom workflow messages to notify users with a report summary. Console is delivered with a weekly Map status; however, additional workflow messages can be added.
+Before adding the workflow message, create the workflow views and register them in System Administration.
+To create the message:
+ Create the Message
+ Add Users to the Workflow Message
+ Register Workflow Views</description>
+    </item>
+    
+    <item>
+      <title>Create the Contexts for Migration Projects</title>
+      <link>https://heathercloward.github.io/console/use_cases/create_contexts_for_migration_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/create_contexts_for_migration_projects/</guid>
+      <description> Create the Contexts for Migration Projects A wave and process are combination are called a Context.
+There are two methods for creating this hierarchical structure:
+ Add Elements Separately
+ Add a Wave and Create Elements
+  </description>
+    </item>
+    
+    <item>
+      <title>Evaluate Mapping with Wave Gate Metrics</title>
+      <link>https://heathercloward.github.io/console/use_cases/evaluate_mapping_with_wave_gate_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/evaluate_mapping_with_wave_gate_metrics/</guid>
+      <description>Evaluate Mapping with Wave Gate Metrics There are two types of gate metrics for Map:
+ Value mapping, which is set up at the Wave level in Console
+ Field mapping which is set up at the Wave-process level in Console
+  A gate, with a gate date and a percentage complete, which allows a user to evaluate current mapping status against a customizable goal. Use the Snap Shot process in Map to get current mapping statistics to measure against the Gate Wave metrics.</description>
+    </item>
+    
+    <item>
+      <title>Set Message Types for Mapping Review</title>
+      <link>https://heathercloward.github.io/console/use_cases/set_message_types_for_mapping_review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/set_message_types_for_mapping_review/</guid>
+      <description>Set Message Types for Mapping Review When a mapping is submitted or reset on the Field Mappings page, the Developer assigned to the mapping’s target and source can be notified that a mapping must be reviewed.
+Refer to Add Developers and Business Contacts to a Target or Source for more information.
+Depending on a setting on the User Message Type page in Console, the workflow notification can be sent via email or displayed as a notification from within the product.</description>
+    </item>
+    
+    <item>
+      <title>Set the Data Source</title>
+      <link>https://heathercloward.github.io/console/use_cases/set_the_data_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/set_the_data_source/</guid>
+      <description>Set the Data Source A Migration Developer can set the data source at the Wave-Process Area level, which cascades through all objects in the Wave-Process Area. The data source can be overridden at the object level (on the Vertical View of the Process Area: Object page).
+To set the data source at the Wave-Process Area level:
+ Click Waves in the Navigation pane.
+ Click the Process Areas icon for a Wave.</description>
+    </item>
+    
+    <item>
+      <title>Synchronize Target Designs Across Waves</title>
+      <link>https://heathercloward.github.io/console/use_cases/synchronize_target_designs_across_waves/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/synchronize_target_designs_across_waves/</guid>
+      <description>Synchronize Target Designs Across Waves A Migration Developer can compare the target design across Waves, identifying differences between Waves and synchronizing a baseline Wave with one or more child Waves. They can also sync target designs at the Process Area, object, target or field level across Waves, making target design a global, efficient and streamlined process. Once the comparison is processed, the differences between elements in the compared Waves display on the Vertical View of the results page at each element level.</description>
+    </item>
+    
+    <item>
+      <title>Update Construct WebApp and Data Source</title>
+      <link>https://heathercloward.github.io/console/use_cases/update_construct_webapp_and_data_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/console/use_cases/update_construct_webapp_and_data_source/</guid>
+      <description>Update Construct WebApp and Data Source By default, the WebApp that displays the Construction pages is Construct and the Source data source used for construction pages is sdbDSPConstruct. Using these default values, a construct page, the underlying table, menu registrations and the schema of the construction table are automatically generated. Refer to Use a Custom WebApp with Construct for more information.
+The Construct WebApp and source data source can be changed in Console for custom WebApps.</description>
+    </item>
+    
+  </channel>
+</rss>

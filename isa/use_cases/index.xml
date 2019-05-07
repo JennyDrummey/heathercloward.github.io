@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/isa/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/isa/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/access_scorecards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/access_scorecards/</guid>
+      <description>Access Scorecards A user can access scorecards in IS for a project or for a project distribution. Other scorecards in IS can be linked to project distributions, though setting scorecards at the project distribution level is optional.
+At the project level, when a user clicks the scorecard link in a workflow email or on the Project Summary page’s Vertical View, a general scorecard displays.
+At the project distribution level, when a user clicks the scorecard link in a workflow email or on the Project Distributions page’s Vertical View, a scorecard for that project distribution displays.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/activate_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/activate_columns/</guid>
+      <description>Activate Columns Use this page to [Deactivate Columns for Project Distribution Rule Bindings](Deactivate_Columns_for_Project_Distribution_Rule_Bindings.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project. Click Rules for a distribution. Click Bindings for a rule. Click Field Activation.      Field
+ Description
+  Activate Columns
+ Click to activate the selected column(s) so that values in the column display for the rule binding.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/add_distributions_to_a_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/add_distributions_to_a_project/</guid>
+      <description>Add Distributions to a Project Each project in ISA must have at least one Distribution. The Distribution Owner is the primary contact of information for the data quality rules configured in the Distribution.
+When the Distribution is created, the Distribution Owner is automatically registered as a user for the Distribution.
+NOTE: A project can have multiple Distributions.
+To add a Distribution:
+ Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Project Summary in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/add_rules_using_quality_dimensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/add_rules_using_quality_dimensions/</guid>
+      <description>Add Rules Using Quality Dimensions When a user creates a rule in IS, it is assigned a Quality Dimension.
+Quality Dimension, such as Conformity and Consistency, organize rules and provide a score that contributes to the scorecard value, which is used to track progress towards a designated goal.
+The ISA displays a project’s quality dimension and a rule can be added or removed from projects based on the rule’s Quality Dimensions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/add_rules_to_a_project_distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/add_rules_to_a_project_distribution/</guid>
+      <description>Add Rules to a Project Distribution Add rules to a Project Distribution to send failed records from the rule to users who belong to the Project Distribution.
+NOTE: If a rule has a rule status of Approved in IS, it is available to be added to all projects. If the rule has any other status, it is only available to be added to the project in which the rule was built.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/add_users_to_a_project_distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/add_users_to_a_project_distribution/</guid>
+      <description>Add Users to a Project Distribution Any user registered in ISA can be added to a Distribution. Users who belong to a Distribution can receive workflow emails about the rules associated with the selected project Distribution.
+To add a user:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane.
+ Click Distributions for a project.
+ Click Users for a Distribution.
+View the field descriptions for the Project Distribution Users page.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/assign_prjt_distrib_rules_custom_attribs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/assign_prjt_distrib_rules_custom_attribs/</guid>
+      <description>Assign Project Distribution Rules using Custom Attributes Custom attributes, such as Priority or Business Owner, are user-defined descriptions that can be applied to rules. These attributes are added in Information Steward and assigned to a rule that is registered in the ISA. Attributes are used to organize and assign rules to project distribution and display in workflow templates.
+Once tables are refreshed in Collect, the custom attributes will display in the ISA.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_isa/</guid>
+      <description> Configure ISA To configure ISA:
+ Configure Workflow Options Configure Workflow Templates Create Language-specific Workflow Email Templates Schedule Workflow Notifications View and Edit All Workflow Templates From One Page Configure User Filters Configure Project Distribution Filters Set Parameters  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_isa_security_if_the_dgrepository_is_does_not_display_as_a_target_in_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_isa_security_if_the_dgrepository_is_does_not_display_as_a_target_in_collect/</guid>
+      <description>Configure ISA Security if the dgRepository_IS does not display as a Target in Collect If security is not configured properly, the dgRepository_IS will not display on the Targets page in Collect. The Targets page is used to refresh the tables in the database, and this task can’t be performed if the dgRepository_IS database is not available.
+The dgRepository_IS database in installed with the product but may not visible to the user because of the user’s security settings.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_project_distribution_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_project_distribution_filters/</guid>
+      <description>Configure Project Distribution Filters Filters are customized at the project distribution level to limit data contained in rules. Project Distribution filters apply to all rules that include the specified field(s).
+For example, a distribution level filter could be configured to send a sales report to all plants at a summary level, while another filter could be configured to send a report with data for a specific plant.
+User filters are AND combined with project distribution filters.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_user_filters_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_user_filters_isa/</guid>
+      <description>Configure User Filters Filters are customized at the user level to limit data contained in rules for all project distributions to which the user is assigned. User filters apply to all rules that include the specified field(s).
+User filters can also be set on the Project Distribution Users page for a specific project distribution.
+User filters are AND combined with project distribution filters. When multiple user and project distribution filters are applied across different columns, these filters are AND combined.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_workflow_optionsisa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_workflow_optionsisa/</guid>
+      <description>Configure Workflow Options Workflow options set how and whether or not users receive information about data that failed IS rules. A user may receive an email with an attachment in the form of an Excel file, a summary in the body of the email with the count of failed records and a link to the ISA to view additional details, or may not receive notification.
+Refer to Summaries and Attachments and Review the Excel File for more information.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates/</guid>
+      <description>Configure Workflow Templates Workflow emails are sent to users that contain information about data that failed IS rules. The information can be accessed through:
+An attachment to the email in the form of an Excel file
+A summary email with a table listing the rules and number of failed records for each rule for a project distribution
+An email with a link to the information in the ISA and a link to the scorecard in IS to view the progress of error resolution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates_at_the_parameter_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates_at_the_parameter_level/</guid>
+      <description>Configure Workflow Templates at the Parameter Level Workflow emails are sent to users that contain reports about data that failed IS rules. When the ISA applies templates, a user’s project distribution-level template is applied by default. If no project distribution-level template exists, the project template is applied. If no project-level template exists, the parameter-level template is applied to the user’s workflow template.
+The types of templates for workflows that can be configured at the parameter level are:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates_at_the_project_distribution_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates_at_the_project_distribution_level/</guid>
+      <description>Configure Workflow Templates at the Project Distribution Level Workflow emails are sent to users that contain reports about data that failed IS rules. All attachment emails will be sent at the project distribution level (i.e., all users in the project distribution will receive attachment emails).
+Multiple workflow templates for attachment emails can be configured at the project distribution level. Templates for summary emails can be configured at the parameter level only.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates_at_the_project__level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/configure_workflow_templates_at_the_project__level/</guid>
+      <description>Configure Workflow Templates at the Project Level Workflow emails are sent to users that contain reports about data that failed IS rules. Workflow templates for attachment emails can be configured at the project level. Templates for summary emails can be configured at the parameter level only.
+NOTE: For all template levels (parameter, project and project distribution), do not configure multiple attachment templates in the same language for the same project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/create_custom_rules_for_information_steward-initiated_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/create_custom_rules_for_information_steward-initiated_requests/</guid>
+      <description>Create Custom Rules for Information Steward-initiated Requests Rules are stored procedures that have been written and saved in a data source that is registered in the DSP®. A rule runs during a process to manipulate data, perform an extra step in the process, or finish a task the process starts. For example, a rule could dictate that once table A has been populated with 1000 rows of data, that data is archived in table B and removed from table A.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/create_language-specific_workflow_email_templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/create_language-specific_workflow_email_templates/</guid>
+      <description>Create Language-specific Workflow Email Templates Workflow templates can be created that take a user’s language setting into account. The language for a user is set by an Administrator when creating user accounts.
+If no language is set for a template, the default language is used.
+If a user does not have a language specified, the default site language is used.
+A user can add multiple versions of templates at the parameter, project and project distribution levels, one for each language.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/create_a_request_in_dspcompose_from_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/create_a_request_in_dspcompose_from_isa/</guid>
+      <description>Create a Request in dspCompose™ From ISA Report data generated after a rule runs in Information Steward can be used as the basis for a request in dspCompose™.
+NOTE: To use this feature dspCompose™ must be installed and licensed and an external request scenario must exist in dspCompose™. Refer to Create an External Request Scenario for an Information Steward-initiated Request for more information.
+NOTE: The template must be active in dspCompose™ for the request to be created.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/create_an_external_request_scenario_for_an_information_steward-initiated_request/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/create_an_external_request_scenario_for_an_information_steward-initiated_request/</guid>
+      <description>Create an External Request Scenario for an Information Steward-initiated Request NOTE: Information Steward (IS) is SAP’s software for data profiling and metadata management. The Information Steward Accelerator by Back Office Associates® (ISA) extracts data that failed IS rules, then distributes the data to groups of users via reports.
+An external request scenario can be configured to remediate failed data on ISA reports using dspCompose™. Refer to Create a Request in dspCompose™ From the ISA Report Data Viewer Page for more information.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/create_an_isa_security_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/create_an_isa_security_role/</guid>
+      <description>Create an ISA Security Role A role is a single unit used to authorize specified security to the assigned user.
+The ISA Security Role must be created on site and must have the Collect Target dgRepository_IS assigned to the role as a key.
+To create the ISA security role in System Administration:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Roles in Navigation pane.
+ Click Add.
+View the field descriptions for the Security Roles page</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/deactivate_columns_for_project_distribution_rule_bindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/deactivate_columns_for_project_distribution_rule_bindings/</guid>
+      <description>Deactivate Columns for Project Distribution Rule Bindings The Project Distribution Rule Bindings page lists the table to which the rules selected on the Project Distribution Rules page are bound. Users deactivate the columns on these tables to filter data that displays on reports for the project distribution.
+All columns are active by default.
+NOTE: At least one column must be active or a report will not be generated.
+To activate columns:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/dimension_summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/dimension_summary/</guid>
+      <description>Dimension Summary This chart displays the total records assigned to the Quality Dimension broken out by project and distribution.
+Hover the cursor over the bar to see the total record count.
+Click a bar to drill down to the Selected Dimension by Project chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/download_isa_metrics_summary_information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/download_isa_metrics_summary_information/</guid>
+      <description>Download ISA Metrics Summary Information To facilitate reporting of ISA Metrics Summary data, a Developer can download the data to a Word file, an Excel file or other formats. Metrics summary data can be downloaded for a rule or for rules across multiple projects.
+Metrics summary data can also be accessed on the Report Data Viewer for a rule and rule binding. Click the Metrics icon for a report to view and download data for that rule and rule binding only.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/edit_rule_bindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/edit_rule_bindings/</guid>
+      <description>Edit Rule Bindings Rule Binding descriptions display in workflow emails, on the report accessed through the Report Data Viewer, and in the Excel file sent as an attachment to a workflow email. A description provides supplemental information about the rule so that users who view reports based on data that failed the rule can better understand what the failed data shows.
+The Recommendation field stores information about how to resolve records that fail for this rule and rule binding.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/export_is_project_content_in_is/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/export_is_project_content_in_is/</guid>
+      <description>Export IS Project Content in IS The first step to CTS ISA objects is to export the project in Information Steward.
+Refer to CTS for ISA Overview for general information.
+To export the project:
+ Open the Information Steward Project to be promoted.
+ Click the Export project and associated objects drop-down menu and select Project from the top right of the Workspace Home page.
+ Export the Project contents and save to a zip file.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/external_request_scenarios_that_create_information_steward-initiated_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/external_request_scenarios_that_create_information_steward-initiated_requests/</guid>
+      <description>External Request Scenarios that Create Information Steward-initiated Requests NOTE: Information Steward (IS) is SAP’s software for data profiling and metadata management. The Information Steward Accelerator by Back Office Associates® (ISA) extracts data that failed IS rules, then distributes the data to groups of users via reports.
+An external request scenario can be configured to remediate failed data from IS reports using dspCompose™. Refer to Create a Request in dspCompose™ From the ISA Report Data Viewer Page for more information.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/failure_percentage_summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/failure_percentage_summary/</guid>
+      <description>Failure Percentage Summary This chart displays the percentage of total records that failed a rules and the percentage of total records that passed all rules.
+Hover the cursor over the bar to see the total record count.
+Click a bar to drill down to the Failure Percentage by Project chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/failure_percentage_by_distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/failure_percentage_by_distribution/</guid>
+      <description>Failure Percentage by Distribution This chart displays the percentage of total records that failed a rules and the percentage of total records that passed all rules broken out by project distribution.
+Click a bar to drill down to the Failure Percentage by Rule chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/failure_percentage_by_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/failure_percentage_by_project/</guid>
+      <description>Failure Percentage by Project This chart displays the percentage of total records that failed a rule and the percentage of total records that passed all rules broken out by project.
+Click a bar to drill down to the Failure Percentage by Distribution chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/failure_percentage_by_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/failure_percentage_by_rule/</guid>
+      <description>Failure Percentage by Rule This chart displays the percentage of total records that failed a rules and the percentage of total records that passed all rules broken out by rule and rule binding.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/isa-troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/isa-troubleshooting/</guid>
+      <description>ISA Troubleshooting This section contains the following topics:
+ Confirm the Data Services Connection URL if the Test Connection Fails Troubleshoot Project not displaying on the Project Summary page.  Confirm the Data Services Connection URL if the Test Connection Fails The URL for the Data Services server must be set correctly in Common or the connection will fail.
+To confirm the URL in Common:
+ Click Common &amp;gt;Configuration &amp;gt; Data Source Registry in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/isa_cts_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/isa_cts_overview/</guid>
+      <description>ISA CTS Overview To move SAP Information Steward (IS) and SAP Information Steward Accelerator (ISA) content between development tiers (environments), a set of steps must be followed in the order specified due to the interrelationships that exist between the data elements in the two applications (Projects, Rules, Rule Bindings and other elements). 
+The process is performed in:
+ SAP IS by a technical IS user SAP ISA by a user familiar with ISA SAP Central Management Console (CMC) by the Administrator of the CMC environment Data Stewardship Platform (DSP)® by an Administrator or technical lead  Refer to the CTS section in System Administration for general information about CTS.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/is_data_construct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/is_data_construct/</guid>
+      <description>Using IS Data Construct ISA Construction provides the ability to rapidly create and maintain a web-based user interface to manage cross reference table(s), and to control parameters dynamically within the application rather than hard code those values within the code of the SAP Information Steward Rule or View. The IS Rule is built once. If the IS Rule requires updates (for example, if parameters change or values need to be added) a business user does not need a developer to change the underlying code of the IS Rule.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/map_columns_from_the_template_to_columns_from_the_isa_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/map_columns_from_the_template_to_columns_from_the_isa_report/</guid>
+      <description>Map Columns from the Template to Columns from the ISA Report NOTE: Information Steward (IS) is SAP’s software for data profiling and metadata management. The Information Steward Accelerator by Back Office Associates® (ISA) extracts data that failed IS rules, then distributes the data to groups of users via reports.
+NOTE: During the request creation process, columns from the ISA report are mapped to columns in the staging table. The template must have already been recorded and generated to map columns.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/record_trend_prjt_distrib_rule_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/record_trend_prjt_distrib_rule_chart/</guid>
+      <description>Record Trend by Project Distribution Rule Chart This chart corresponds to the Records by Rule chart. Hover a data point in the Record Trend by Project Distribution Rule chart to display the total number of failed records per day per Project Distribution rule and rule binding. Each Project Distribution rule has a separate line on the chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/record_trend_prjt_distrib_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/record_trend_prjt_distrib_user/</guid>
+      <description>Record Trend by Project Distribution User chart This chart corresponds to the Records by Distribution User chart. Hover over a data point in the chart to display the total number of failed records per day per a user’s project distribution. Each distribution has a separate line on the chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/record_trend_prjt_distrib_user_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/record_trend_prjt_distrib_user_rule/</guid>
+      <description>Record Trend by Project Distribution User Rule Chart This chart corresponds to the Records by Distribution User Rule chart. Hover over a data point to display the total number of failed records per day. Each rule and rule binding has a separate line on the chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/record_trend_by_project_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/record_trend_by_project_chart/</guid>
+      <description>Record Trend by Project Chart This chart corresponds to the Records by Project chart. Hover over a data point in the Record Trend by Project chart to display the total number of failed records per day. Each project has a separate line on the chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/record_trend_by_project_distribution_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/record_trend_by_project_distribution_chart/</guid>
+      <description>Record Trend by Project Distribution Chart This chart corresponds to the Records by Distribution chart. Hover over a data point in the Record Trend by Project Distribution chart to display the total number of failed records per day. Each Project Distribution has a separate line on the chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/records_distribution_user_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/records_distribution_user_rules/</guid>
+      <description>Records by Distribution User Rules Chart This chart displays the number of records that failed IS rules assigned to users in the project distribution selected on the Records by Distribution User chart by rule and rule binding.
+Hover a cursor over a data point in the corresponding Record Trend by Project Distribution User Rule chart to view the total number of failed records per day. Each rule has a separate line on the chart.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/records_by_distribution_user_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/records_by_distribution_user_chart/</guid>
+      <description>Records by Distribution User Chart This chart displays the number of records that failed IS rules assigned to users per Project Distribution. Hover a cursor over a data point in the corresponding Record Trend by Project Distribution User chart to view the total number of failed records per day per a user’s project distribution. Each distribution has a separate line on the chart.
+Click a bar in the chart to display the Records by Distribution User Rules chart.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/records_by_distribution_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/records_by_distribution_chart/</guid>
+      <description>Records by Distribution Chart This chart displays the number of records that failed IS rules assigned to Project Distributions for the project selected on the Records by Project chart. 
+Hover a cursor over a data point in the corresponding Record Trend by Project Distribution chart to view the total number of failed records per day. Each Project Distribution has a separate line on the chart.
+Click a bar in the chart to display the Records by Rule chart.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/records_by_project_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/records_by_project_chart/</guid>
+      <description>Records by Project Chart This chart displays the number of records that failed IS rules assigned to Project Distributions by project. Hover a cursor over a data point in the corresponding Record Trend by Project chart to view the total number of failed records per day. Each project has a separate line on the chart.
+Click a bar in the chart to display the Records by Distribution chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/records_by_rule_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/records_by_rule_chart/</guid>
+      <description>Records by Rule Chart This chart displays the number of records that failed IS rules by the Project Distribution rule and rule binding for the Project Distribution selected on the Records by Project Distribution chart. Click a bar for a rule to drill down to the Report Data Viewer page to view information about the selected rule.
+Hover a cursor over a data point in the corresponding Record Trend by Project Distribution Rule chart to view the total number of failed records per day per Project Distribution rule.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/records_by_user_charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/records_by_user_charts/</guid>
+      <description>Records by User Charts This chart displays the total number of records that failed IS rules assigned to users for the current date.
+Hover a cursor over the bar to see the total failed record count for that user.
+Hover a cursor over a data point in the corresponding chart, Record Trend by User, to view the number of failed records per day for the period. Each user is represented by a separate line on the chart.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/review_the_workflow_email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/review_the_workflow_email/</guid>
+      <description>Review the Workflow Email Depending on a user’s workflow options settings,a workflow email can contain a summary oran attachment.
+Refer to Attachments and Summaries for more information.
+Workflow emails for summaries and attachment have a link to the IS scorecard for the project.
+If a user has the Workflow option set to receive attachments, the ISA attaches an Excel file to the email that contains information about data that failed IS rules for a given Project Distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/run_rulesrun_workflows_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/run_rulesrun_workflows_/</guid>
+      <description>Run Rules and Send Workflows On Demand A user can run rules and send workflows for all Project Distributions in a project by clicking the Process Project Rules icon on the Project Summary page. When the user clicks this icon:
+ All rules and rule bindings with unprocessed run IDs are run for all project distributions in the selected project Workflows are sent to all users in the project according to user settings on the Parameters page  To process all rules for project distributions in a project:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/run_tracking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/run_tracking/</guid>
+      <description>Run Tracking Access the Run Tracking page to view when a run was processed and to remove individual runs or all runs from the page. Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Run Tracking from the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/run_tracking_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/run_tracking_page/</guid>
+      <description>Run Tracking Use this page for [Run Tracking.](Run_Tracking.htm)  To access this page, select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Run Tracking from the Navigation pane.
+    Field
+ Description
+  Clear All
+ Click to remove all the runs from the page.
+To remove a selected run, click Delete.
+  RUN ID
+ Displays a unique ID for each rule processing execution.
+  PROCESSED ON</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/schedule_workflow_notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/schedule_workflow_notifications/</guid>
+      <description>Schedule Workflow Notifications ISA runs a service page every hour to check if IS has processed rules. ISA also runs a service page every 10 minutes to send workflows if IS has processed rules.
+If IS runs rules frequently (e.g., multiple times per day), the ISA sends notifications to users (depending on how that user’s workflow options are configured) each time the rule runs, resulting in numerous emails.
+A user may receive an email with an attachment in the form of an Excel file, a summary in the body of the email with the count of failed records and a link to the ISA to view additional details, or may not receive a notification.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/selected_dimension_by_distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/selected_dimension_by_distribution/</guid>
+      <description>Selected Dimension by Distribution This chart displays the total records assigned to the Quality Dimension broken out by project distribution.
+Hover a cursor over the bar to see the total record count.
+Click a bar to drill down to the Selected Dimension by Rule chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/selected_dimension_by_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/selected_dimension_by_project/</guid>
+      <description>Selected Dimension by Project This chart displays the total records assigned to the Quality Dimension broken out by project.
+Hover a cursor over the bar to see the total record count.
+Click a bar to drill down to the Selected Dimension by Distribution chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/selected_dimension_by_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/selected_dimension_by_rule/</guid>
+      <description>Selected Dimension by Rule This chart displays the total records assigned to the Quality Dimension broken out by rule and rule binding.
+Hover a cursor over the bar to see the total record count.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/set_parameters_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/set_parameters_isa/</guid>
+      <description>Set Parameters Parameters are ISA-specific settings that must be configured per installation. Parameters are delivered with recommended default values. Review these values and make any changes necessary for the installation.
+To configure ISA parameters:
+ Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.
+ Click Edit.
+View the field descriptions for the Parameters page for a description of all parameters.
+ Update all fields if default values are not applicable.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/setconnectionisrepositorysysadmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/setconnectionisrepositorysysadmin/</guid>
+      <description>Set the Connection to Information Steward Repository in System Administration NOTE: The values to enter while following these instructions depend where the Information Steward repository is stored. Consult the person who installed or configured IS for this information.
+To access most of this information:
+ Log in to the CMC. Select Applications. Double-click Information Steward. Select Configure Repository. The database details for the IS repository display.  To set up the data source and connection information in the DSP®:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/setup_and_configuration_for_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/setup_and_configuration_for_isa/</guid>
+      <description>Setup and Configuration for ISA Before working with ISA, configure settings and create objects in IS and Central Management Console (CMC).
+NOTE: All of these steps must be performed for the ISA to work.
+Refer to CMC documentation for information about working in the Central Management Console.
+Use CMC to:
+ Create projects Create a Database Connection to Store IS Failed Data  Use Information Steward to:
+ Create tables for connections Import tables Create views Create rules Bind the rules to tables or views Run the rules  Use the System Administration component of the Data Stewardship Platform (DSP)® to:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/summaries_and_attachments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/summaries_and_attachments/</guid>
+      <description>Attachments and Summaries A workflow email can contain an attachment in Excel 2007 or later (.xlsx) format that lists all the failed data records for each rule. Each worksheet displays data for one run, one rule and one table. Workflow emails with attachments are sent at the project distribution level. No emails are sent with attachments for all failed rules in a project.
+A workflow email can also contain only a summary table listing the rules and number of failed records for each rule for a project distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs._failures_summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs._failures_summary/</guid>
+      <description>Total Opportunities vs. Failures Summary This chart displays the number of records assessed by an IS rule vs. the total number of records that failed the rule. Through rule binding,a rule might be applied to multiple fields. For example, a ‘business required field’ rule might be bound to two different fields in a table, name1 and name2. If the table of data has 1000 records and name1 is empty for 100 records and name2 is empty for 100 records the error count is 200 and the chart indicates that 200 records failed out of a possible 2000 assessed records giving a 10 % failure rate.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs._failures_by_distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs._failures_by_distribution/</guid>
+      <description>Total Opportunities vs. Failures by Distribution This chart displays the number of records assessed by IS rules vs. the total number of records that failed a rule broken out by project distribution.
+Click a bar to drill down to the Total Opportunities vs. Failures by Rule chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs._failures_by_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs._failures_by_rule/</guid>
+      <description>Total Opportunities vs. Failures by Rule This chart displays the number of records assessed by IS rules vs. the total number of records that failed a rule broken out by rule for a project and distribution.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs_failures_by_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/total_opportunities_vs_failures_by_project/</guid>
+      <description>Total Opportunities vs Failures By Project This chart displays the number of records assessed by IS rules vs. the total number of records that failed a rule broken out by project.
+Click a bar to drill down to the Total Opportunities vs. Failures by Distribution chart.
+NOTE: Refer to View ISA Dashboards for general information about charts, including the type of data charts display, configuration of retention parameters for metrics and historical data, and how record counts differ on charts and reports.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/total_records_charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/total_records_charts/</guid>
+      <description>Total Records Charts This chart displays the total number of records that failed IS rules assigned to Project Distributions in all projects for the current date.
+Hover a cursor over the bar to see the total record count.
+Hover a cursor over a data point in the corresponding chart, Record Trend, to view the number of failed records per day for the period.
+Click a bar to drill down to the Records by Project Chart.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/update_the_scorecard_link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/update_the_scorecard_link/</guid>
+      <description>Update the Scorecard Link The project scorecard link is included in workflow emails and must be updated if the server or port for the link changes.
+To update the link:
+Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.
+Click the Information Steward Settings tab.
+Click Edit.
+View the field descriptions for the Parameters page’s Basic Settings tab.
+Update the Server or Port number as needed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/use-the-isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/use-the-isa/</guid>
+      <description> Use the ISA This section contains the following topics:  Work with Projects Run Tracking View a User’s Workflows Run Rules and Send Workflows On Demand Review the Workflow Email Access Scorecards Update the Scorecard Link View ISA Log  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/user_filters_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/user_filters_isa/</guid>
+      <description>User Filters Use this page to [Configure User Filters](Configure_User_Filters_ISA.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Configuration from Navigation pane. Click Filters for a User ID.           Field Description   FIELD Displays the name of the field that will be filtered. User filters apply to all rules that include the specified field(s).   OPERATOR Displays the operator used along with the constant to filter data in the field.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_isa_dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_isa_dashboards/</guid>
+      <description>View ISA Dashboards The charts on the ISA dashboard provide summary data about the number of records that fail IS rules. These rules are assigned to Project Distributions, which are groups of users. The charts display data by project distributions or by users.
+The Total Records Chart drills down through failed record counts for rules per Project Distributions.
+The Records by User Chart drills down through failed record counts for rules per users.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_isa_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_isa_log/</guid>
+      <description>View ISA Log The Log displays information to trace that status of jobs as they capture failed data, apply user filters to data, and generate reports to use while debugging.
+NOTE:  For the ISA Log to display information the Trace level must be set in Information Steward Accelerator &amp;gt;Configuration &amp;gt; Parameters &amp;gt; Basic Settings &amp;gt; Trace Level. The default Trace level is set to Disabled, so no records are written to the Log until the Trace level is set.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_quality_dimensions_by_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_quality_dimensions_by_project/</guid>
+      <description> View Quality Dimensions by Project Quality Dimension, such as Conformity and Consistency. organize rules and provide a score that contributes to the scorecard value.
+When a user creates a rule in IS, it is assigned a Quality Dimension.
+To view Quality Dimensions associated with a project:
+ Click Information Steward Accelerator &amp;gt; Project Summary in Navigation pane. Click Distributions for a project. Click Quality Dimensions for a Distribution.  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_reports_for_project_distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_reports_for_project_distributions/</guid>
+      <description>View Reports for Project Distributions View the most recent version of reports for all projects by project distribution. NOTE: The ISA only stores the most recent version of a report. A report is retained based on the value entered in the Days to Retain History field on the Parameters page. After the retention interval is passed, the report is deleted.
+To view reports:
+ Click Information Steward Accelerator &amp;gt;Report Data Viewer in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_rule_bindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_rule_bindings/</guid>
+      <description>View Rule Bindings The Project Distribution Rule Bindings page displays a comma-delimited list of the table and columns to which the rules selected on the Project Distribution Rules page is bound. To view the binding for a rule, select the rule on the Project Distribution Rules page and click Bindings.
+The Rule Binding List page displays all rule bindings for a project selected on the Project Summary page. To view the bindings associated with a project, select a project on the Project Summary page and click All Rule Bindings.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_a_users_workflows_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_a_users_workflows_isa/</guid>
+      <description>View a User’s Workflows ISA retains a history of workflows sent to users for 7 days, based on the default setting in the Days to Retain History field on the Parameters page’s Basic Settings tab.
+To view the workflows sent to a user:
+ Select Configuration &amp;gt; Users in the Navigation pane. Click Workflows fora user. Click Vertical View for a workflow to see the email sent to the user.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/view_and_edit_all_workflow_templates_from_one_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/view_and_edit_all_workflow_templates_from_one_page/</guid>
+      <description>View and Edit All Workflow Templates From One Page View all workflow templates created at the parameter, project and project distribution level by selecting Information Steward Accelerator &amp;gt;Configuration &amp;gt; Edit Workflow Templates.
+To edit a template:
+ Click the Template icon for a template.
+ Click Edit.
+View the field descriptions for the Workflow Template Detail page.
+ Update the text that will appear in the subject of the email as needed in the SUBJECT field.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/use_cases/work_with_projects_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/use_cases/work_with_projects_isa/</guid>
+      <description>Work with Projects Projects are created in IS and brought into ISA via a DSP® component called Collect. Refer to Getting Started with the ISA for information about bringing projects into ISA upon initial install and when new projects are created in IS.
+A project must have at least one Distribution, but can have multiple Distributions. Each Distribution has a Distribution Owner, who is the primary contact of information for the data quality rules configured in the Distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

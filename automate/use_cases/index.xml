@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/automate/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/automate/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Automate Events</title>
+      <link>https://heathercloward.github.io/automate/use_cases/about_automate_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/about_automate_events/</guid>
+      <description>About Automate Events Automate is delivered with several events, which are actions that contain validation rules and/or business rules. They are associated with an event type when registered to an interface. Use the following table as a reference when registering events in Automate:
+Page
+Event
+Description
+Interface Server: Parameters
+CommandExec
+Runs a Windows Batch job.
+Wait
+Pauses the run of the Interface Job.
+Interface Server: File Operations
+Execute
+Copies the files from the source folder to the target folder, but does not create a separate Job in the Job Queue to run.</description>
+    </item>
+    
+    <item>
+      <title>Activate Interfaces, Events and Validations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/activate_interfaces_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/activate_interfaces_events/</guid>
+      <description>Activate Interfaces, Events and Validations If the interface, event or validations were disabled for debugging, activate them before testing.
+When the interface is ready to be tested, activate it.
+Activate an Interface To activate an interface in Automate:
+ Select Interfaces in the Navigation pane. Verify ACTIVE check box is enabled.  Activate an Event To activate an event in Automate:
+ Select Interfaces in the Navigation pane. Click the Events icon for the desired interface.</description>
+    </item>
+    
+    <item>
+      <title>Add File Operations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/add_file_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/add_file_operations/</guid>
+      <description>Add File Operations File Operations are the selection of the source and target paths, which are created on the Logical Paths page. This topic is also used for the configuration of other settings required for the FileIterator event, which copies files from a source folder to a target folder, then deletes the files from the source folder. Refer to About Automate Events for more information.
+To add file operations in Automate:</description>
+    </item>
+    
+    <item>
+      <title>Add Logging Modules</title>
+      <link>https://heathercloward.github.io/automate/use_cases/add_logging_modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/add_logging_modules/</guid>
+      <description>Add Logging Modules Logging modules are used to display lower severity log records on the Log page than what is dictated by the Storage Level on the Parameters page.
+An Administrator can create a module (or category) of logs that displays information based on what types of errors are logged. The hierarchy is based on the severity level. For example, if the ABC module logs errors with the severity 20-Trace, it also logs everything with a priority above 20.</description>
+    </item>
+    
+    <item>
+      <title>Add Logical Paths</title>
+      <link>https://heathercloward.github.io/automate/use_cases/add_logical_paths/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/add_logical_paths/</guid>
+      <description>Add Logical Paths Logical Paths is a configuration setting required for the FileIterator event, which copies files from a source folder to a target folder, then deletes the files from the source folder. Refer to About Automate Events for more information.
+A logical path points to a folder (a local or networked file system mapped with a drive letter) or an FTP site where files are either created or to where files are copied.</description>
+    </item>
+    
+    <item>
+      <title>Add Roles</title>
+      <link>https://heathercloward.github.io/automate/use_cases/add_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/add_roles/</guid>
+      <description>Add Roles Roles are used for notification purposes, such as emailing information pertinent to the completion of an interface. Roles allow multiple users to receive notifications for the different interfaces running.
+A Business role and a Development role can be assigned to each interface. These roles can receive notification emails depending on notification options. Refer to Set Up Notifications for an Interface for more information.
+After a role has been added, users and their associated instances are assigned to the role.</description>
+    </item>
+    
+    <item>
+      <title>Assign Users to Roles</title>
+      <link>https://heathercloward.github.io/automate/use_cases/assign_users_to_roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/assign_users_to_roles/</guid>
+      <description>Assign Users to Roles Assign users to roles so that specific users can receive the appropriate notifications. The “Best Practice” is to add the From Email to the Admin group and make two or more groups of users assigned to the Development and Business roles.
+NOTE: Users are added in System Administration. Refer to Getting Started with DSP Security for Delivered Components for more information.
+To assign users to a role in Automate:</description>
+    </item>
+    
+    <item>
+      <title>Browse FTP Site or Path</title>
+      <link>https://heathercloward.github.io/automate/use_cases/browse_ftp_site_or_path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/browse_ftp_site_or_path/</guid>
+      <description>Browse FTP Site or Path The Browse icon connects to the Logical Path Instance, and allows the user to browse folder structure and change the FTP site or path. This feature is useful when configuring and testing interfaces.
+To browse/change the FTP site or path in Automate:
+1. Select IO Config &amp;gt; Logical Paths in the Navigation pane.
+2. Click the Instances icon for the desired LOGICAL PATH.
+3. Click the Browse icon for the desired INSTANCE; the folder contents for the FTP site/path display.</description>
+    </item>
+    
+    <item>
+      <title>Configure Automate Parameters</title>
+      <link>https://heathercloward.github.io/automate/use_cases/configure_automate_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/configure_automate_parameters/</guid>
+      <description>Configure Automate Parameters The Parameters page controls configuration settings unique per installation. These parameters affect all interfaces on the site and should only be modified by a developer or a system administrator.
+To configure parameters in Automate:
+ Select Configuration &amp;gt; Parameters in the Navigation pane.
+ Click Edit.
+View the field description for the Parameters page
+ Select an administrative role from the Admin Role list box.
+NOTE:  The email addressed configured to the user assigned to the Admin Role is used as the From address for the interface notification emails.</description>
+    </item>
+    
+    <item>
+      <title>Configure Automate Service Pages</title>
+      <link>https://heathercloward.github.io/automate/use_cases/configure_automate_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/configure_automate_service/</guid>
+      <description>Configure Automate Service Pages Automate uses Service pages for background processing. It is recommended to adjust the schedule of these Service pages for smoother and more efficient interface processing.
+Users must have access to System Administration in order to configure Automate Service pages.
+Service pages include:
+ Instance Trim Interface (Handle Service Drops) Site Maintenance Interface (Initiator) Interface (Retry)  To configure a service page’s schedule:
+ Select Admin &amp;gt; WebApps in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure Interface</title>
+      <link>https://heathercloward.github.io/automate/use_cases/configure_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/configure_interface/</guid>
+      <description> Configure Interface There are several elements of an interface that can be configured:
+ Set Up Notifications for an Interface   Register Interface Events   Register Interface Validations  </description>
+    </item>
+    
+    <item>
+      <title>Configure Logging Severities</title>
+      <link>https://heathercloward.github.io/automate/use_cases/configure_logging_severities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/configure_logging_severities/</guid>
+      <description>Configure Logging Severities Logging allows users to examine how an interface was executed and why it behaved as it did. Log entries are grouped in Tasks to provide a summary of the steps involved in executing an interface.
+Log severities assign a severity level to each task, such as debug, notice, and error. An image is associated with each severity level, which displays on the log. Refer to View Logs for an Interface for more information on accessing an interface’s log.</description>
+    </item>
+    
+    <item>
+      <title>Copy Files from One Folder to Another</title>
+      <link>https://heathercloward.github.io/automate/use_cases/copy_files_from_one_folder_to_another/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/copy_files_from_one_folder_to_another/</guid>
+      <description>Copy Files from One Folder to Another Before performing this task:
+ Add Logical Paths Add File Operations  To copy files from one folder to another in Automate:
+ Select Interfaces in the Navigation pane.
+ Click the Events icon for the desired interface.
+ Click Add.
+View the field description for the Interface Events page
+ Enter a value in the PRIORITY field.
+NOTE: The PRIORITY field indicates the order in which the interface event runs.</description>
+    </item>
+    
+    <item>
+      <title>Create an Interface</title>
+      <link>https://heathercloward.github.io/automate/use_cases/create_an_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/create_an_interface/</guid>
+      <description>Create an Interface An interface can be created using events, stored procedures, workflows, etc. to manage a complete business process. The interface can then be scheduled to run automatically during off hours. For example, Automate can connect various corporate systems with SAP and allow data to flow smoothly between them based on exact specifications. An Interface Designer can rapidly deploy new interfaces or can modify existing interfaces without weeks of design and programming.</description>
+    </item>
+    
+    <item>
+      <title>Help with Command Timeouts</title>
+      <link>https://heathercloward.github.io/automate/use_cases/help_with_command_timeouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/help_with_command_timeouts/</guid>
+      <description>Help with Command Timeouts Command timeouts are possible in all areas of the DSP. If interfaces, events or validations are timing out, try these two solutions:
+ Increase the Connection Timeout for the InterfaceServer Data Source. Do not increase beyond 3500 seconds. Check the timeout settings for the Data Sources used in the events. Do not increase beyond 3500 seconds.  Timeout settings are set on the Data Sources page on the Advanced Properties tab in System Administration.</description>
+    </item>
+    
+    <item>
+      <title>Monitor File Operations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/monito_file_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/monito_file_operations/</guid>
+      <description>Monitor File Operations File Operations are a configuration setting required for the FileIterator event, which copies files from a source folder to a target folder, then deletes the files from the source folder. Once the FIleIterator event has been submitted, monitor the event via the Monitor I/O Operations page to see the results that have either failed or are processing.
+To monitor file operations:
+ Select IO Config &amp;gt; File Operations in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Monitor I/O Operations H</title>
+      <link>https://heathercloward.github.io/automate/use_cases/monitor_i_o_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/monitor_i_o_operations/</guid>
+      <description>Monitor I/O Operations H Monitor I/O Operations V
+To access this page:
+ Select IO Config &amp;gt; File Operations in the Navigation pane. Click Vertical View for the desired file operation. Click the Monitor button.    Field
+ Description
+  OPERATION
+ Displays the operation that ran for the I/O operation.
+  INSTANCE ID
+ Displays the ID of the instance that the I/O operation ran against.</description>
+    </item>
+    
+    <item>
+      <title>Monitor Interfaces &amp; Events</title>
+      <link>https://heathercloward.github.io/automate/use_cases/monitor_interfaces_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/monitor_interfaces_events/</guid>
+      <description>Monitor Interfaces &amp;amp; Events The Monitor page displays and permits interaction with the interface events that are currently running or that have failed.
+To monitor all interfaces, select Monitor in the Navigation pane.
+To monitor a specific interface in Automate:
+ Select Interfaces in the Navigation pane. Click Vertical View for the desired interface. Click the Monitor icon.  To monitor events for a specific interface in Automate:
+ Click Monitor in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Notification Options</title>
+      <link>https://heathercloward.github.io/automate/use_cases/notification_options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/notification_options/</guid>
+      <description>Notification Options Use this page to [Set Up Notifications for an Interface](Set_Up_Notifications_for_an_Interface.htm).  To access this page, select Configuration &amp;gt; Notification Options from the Navigation pane.
+NOTE: It is not recommended to add new notification options or to edit the delivered notification options; the Automate code would need to be updated for the notification option to properly work.
+  Field
+ Description
+  NOTIFICATION OPTION
+ Displays the option when notifications are sent.</description>
+    </item>
+    
+    <item>
+      <title>Re-start a Running Interface</title>
+      <link>https://heathercloward.github.io/automate/use_cases/re_start_a_running_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/re_start_a_running_interface/</guid>
+      <description>Re-start a Running Interface With interfaces that have several events, it is common for the events to take several hours to run. It is possible for an event somewhere in the process to fail, requiring the interface to be restarted. Advanced users (who thoroughly understand the interface and its events) can re-start the interface from the failed event instead of re-starting the interface from the first event.
+NOTE: The following process only works if there are no parameters being passed to the event that failed or any of the subsequent events.</description>
+    </item>
+    
+    <item>
+      <title>Register External Process Validations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_external_process_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_external_process_validations/</guid>
+      <description>Register External Process Validations An external process is a plugin. The DSP utilizes plugins to provide capabilities that may be difficult or impossible to express using a stored procedure, for example, to send a file over FTP or to read encrypted column data. Before registering an external process validation, create the plugin. Refer to Plugins Overview in System Administration help for more information.
+To register external process validations in Automate:</description>
+    </item>
+    
+    <item>
+      <title>Register Interface Events</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_interface_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_interface_events/</guid>
+      <description>Register Interface Events Once the basic interface has been established, an Interface Designer can add interface events to interfaces using the Interface Events page.
+Supported event types are:
+ Stored Procedure WebApp Workflow  Events run sequentially based on their priority; those with the lowest priority run first. There are 2 cases where events run simultaneously:
+ If an event submits a job to the job queue (i.e., runs in the background), the next event immediately starts running as soon as the job from the previous event has been added to the job queue.</description>
+    </item>
+    
+    <item>
+      <title>Register Interface Validations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_interface_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_interface_validations/</guid>
+      <description> Register Interface Validations Validations can be registered at the interface level and at the event level.
+An interface validation (on the**Interface Validations page) runs to validate that the interface completed processing successfully.
+An interface event validation (on the Interface Events (Validations) page) runs on an individual event registered to an interface.
+There are three types of interface validations available at both levels:
+ ExternalProcess (a plugin) StoredProcedure View  </description>
+    </item>
+    
+    <item>
+      <title>Register Stored Procedure Events</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_stored_procedure_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_stored_procedure_events/</guid>
+      <description>Register Stored Procedure Events Stored procedure events execute a specified stored procedure. The stored procedure parameters define the name/value pair for each parameter passed to the stored procedure. Some stored procedures return output parameters, which are entered with a leading @ character. For example, the stored procedure GetRecordCount has 2 parameters: PackageName and RecordCount. The stored procedure passes the parameter ‘PackageName=MARA’ and returns a RecordCount using a create statement like this:</description>
+    </item>
+    
+    <item>
+      <title>Register Stored Procedure Validations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_stored_procedure_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_stored_procedure_validations/</guid>
+      <description>Register Stored Procedure Validations To register stored procedure interface validations in Automate:
+ Select Interfaces in the Navigation pane.
+ Click the Interfaces icon for the desired interface to add a stored procedure validation at the interface level.
+OR
+Click the Events icon for the desired interface.
+ Click the Validations icon for the desired event to add a stored procedure validation at the event level.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Register View Validations</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_view_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_view_validations/</guid>
+      <description>Register View Validations To register view interface validations in Automate:
+ Select Interfaces in the Navigation pane.
+ Click the Interfaces icon for the desired interface to add a view validation at the interface level.
+OR
+Click the Events icon for the desired interface.
+ Click the Validations icon for the desired event to add a view validation at the event level.
+ Click Add.
+View the field description for the Interface Validations page</description>
+    </item>
+    
+    <item>
+      <title>Register WebApp Events</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_webapp_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_webapp_events/</guid>
+      <description>Register WebApp Events WebApp events are DSP® events designed and declared as Public, which allows such events to be called from Automate. These events perform a specific action on a record. For example, Refreshing could be a WebApp event for a Collect table.
+To register a WebApp event in Automate:
+ Select Interfaces in the Navigation pane.
+ Click the Events icon for the desired interface.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Register Workflow Events</title>
+      <link>https://heathercloward.github.io/automate/use_cases/register_workflow_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/register_workflow_events/</guid>
+      <description>Register Workflow Events Workflow events execute a pre-defined workflow view. The workflow view is selected from a list that contains all views found in the Automate Data Source selected when adding an interface on the Interfaces page. Since simple workflow events are expected to execute quickly, the Retry Parameters are not necessary; WebApp events only try to execute once.
+When creating the workflow view in the Data Source:
+ Name the view using the following convention: webXXXflow.</description>
+    </item>
+    
+    <item>
+      <title>Run Interface Events Sequentially</title>
+      <link>https://heathercloward.github.io/automate/use_cases/run_interface_events_sequentially/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/run_interface_events_sequentially/</guid>
+      <description>Run Interface Events Sequentially In most cases, events run sequentially according to the event’s priority, with the lowest priority executing first. However, a user may need to force sequential events if the preceding event submitted a background job, as performed in Collect. The validation would have to determine if the background job had finished before the next event would start.
+To run Interface events sequentially in Automate:
+ Create a validation view in the Data Source ID used for the interface.</description>
+    </item>
+    
+    <item>
+      <title>Schedule Interfaces</title>
+      <link>https://heathercloward.github.io/automate/use_cases/schedule_interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/schedule_interfaces/</guid>
+      <description>Schedule Interfaces By default, an interface runs on a schedule with a run time of 12:00 A.M. daily, but it can be altered to run at any time of day, down to the second.
+If an interface does not have a schedule (as in., the Schedule Info fields are not populated on the Vertical View of the Interfaces page), the interface must be run manually until a schedule is added.</description>
+    </item>
+    
+    <item>
+      <title>Set Retry Parameters</title>
+      <link>https://heathercloward.github.io/automate/use_cases/set_retry_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/set_retry_parameters/</guid>
+      <description>Set Retry Parameters The Retry Parameters, in conjunction with Event Validations, allow the Interface Developer to communicate with Automate that an earlier event may still be running and that this interface event should wait, allowing the other event to complete. Retry Parameters should be set close to the usual time it takes an event to complete. A running interface will fail when the maximum Retry Interval has been reached. This mechanism prevents an interface from running indefinitely.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Automate Security</title>
+      <link>https://heathercloward.github.io/automate/use_cases/set_up_automate_security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/set_up_automate_security/</guid>
+      <description>Set Up Automate Security Setting up security in Automate is a multi-step process. Users are granted access to specific pages and tasks based on the WebApp group.
+NOTE: Automate is formerly known as “InterfaceServer” and some references to this old name are in System Administration.
+ Assign the user to the InterfaceServer WebApp. Refer to Assign Users to WebApp Groups for more information. Assign the user to a WebApp group for InterfaceServer.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Notifications for an Interface</title>
+      <link>https://heathercloward.github.io/automate/use_cases/set_up_notifications_for_an_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/set_up_notifications_for_an_interface/</guid>
+      <description>Set Up Notifications for an Interface Roles are used for notification purposes, such as emailing information pertinent to the completion of an interface. Users can be assigned to multiple roles.
+A Business role and a Development role can be assigned to each interface. These roles can receive notification emails depending on notification options.
+To set up notifications for an interface in Automate:
+ Set up Users and Roles, which drive email notifications.</description>
+    </item>
+    
+    <item>
+      <title>Set up a Looping Process</title>
+      <link>https://heathercloward.github.io/automate/use_cases/set_up_a_looping_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/set_up_a_looping_process/</guid>
+      <description>Set up a Looping Process Looping is a powerful function that can be used with the FileIterator event to:
+ Copy files from a source folder to a target folder Run a batch job against those same files individually Run a stored procedure against the same files  A few notes about looping:
+ Before setting up looping events, add Logical Paths and File Operations. Refer to Add Logical Paths and Add File Operations for more information.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for Automate</title>
+      <link>https://heathercloward.github.io/automate/use_cases/setup_and_configuration_for_automate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/setup_and_configuration_for_automate/</guid>
+      <description> Setup and Configuration for Automate Before getting started with Common, verify the following steps have been completed:
+ Set Up Automate Security Configure Logging Severities Add Logging Modules Add Roles Assign Users to Roles Configure Automate Parameters Add Logical Paths Browse FTP Site or Path Add File Operations Configure Automate Service Pages  </description>
+    </item>
+    
+    <item>
+      <title>Test Interfaces</title>
+      <link>https://heathercloward.github.io/automate/use_cases/test_interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/test_interfaces/</guid>
+      <description>Test Interfaces Once an interface has been created and configured, test it to make sure the validations, events and notifications run smoothly.
+To test an interface in Automate:
+ Select Interfaces in the Navigation pane. Click Vertical View for the interface. There are two options for testing an interface:  Debug– Tests the interface in debug mode with full logging information. The interface immediately runs in the foreground. Debug Mode must be enabled on the Vertical View of the Interfaces page.</description>
+    </item>
+    
+    <item>
+      <title>View History of an Interface</title>
+      <link>https://heathercloward.github.io/automate/use_cases/view_history_of_an_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/view_history_of_an_interface/</guid>
+      <description>View History of an Interface Automate is delivered with various pages and charts that show the history of an interface. These pages display when the interface ran and if it had any errors. Open the History (Detail) page for more detailed logging information.
+The data is saved based on the History Retention Days setting on the Parameters page.
+To view the history of an interface in Automate:
+ Select Interfaces in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Logs for an Interface</title>
+      <link>https://heathercloward.github.io/automate/use_cases/view_logs_for_an_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/automate/use_cases/view_logs_for_an_interface/</guid>
+      <description>View Logs for an Interface Logging allows users to examine how an interface was executed and why it behaved as it did. Log entries are grouped in tasks in order to provide a summary of the steps involved in executing an interface.
+To view an interface’s log in Automate:
+ Select Interfaces in the Navigation pane.
+ Click the History icon for the desired interface.
+ Click the Important icon to view log filtered by tasks with a level set at Reporting by Importance Level or above.</description>
+    </item>
+    
+  </channel>
+</rss>

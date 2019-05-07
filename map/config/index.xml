@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/map/config/</link>
+    <description>Recent content in Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/map/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access Map</title>
+      <link>https://heathercloward.github.io/map/config/access_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/map/config/access_map/</guid>
+      <description>Access Map Before using Map, a Wave, Process Area (the combination of which is called a context) and Object, must be created in Console, and a Target and Source used in the data migration project must have been created in Target Design.
+Refer to Create the Contexts for Migration Projects for more information.
+Map is accessible through dspMigrate™ by clicking the Context Bar. It is not accessible through the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Set Up User Notifications</title>
+      <link>https://heathercloward.github.io/map/config/setup_user_notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/map/config/setup_user_notifications/</guid>
+      <description>Set Up User Notifications Users can be configured to receive a weekly summary email of changes in Map and notifications about changes to field mappings, value mappings and Target and rule creation. Users will only receive notifications about changes to Targets and Sources to which they have access.
+ Set up Workflow Message Summary Users Set up Notifications for Map Updates  Set up Workflow Message Summary Users Users can receive emails detailing a weekly summary of mapping status.</description>
+    </item>
+    
+  </channel>
+</rss>

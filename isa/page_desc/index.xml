@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/isa/page_desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/isa/page_desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/distribution_workflow_attachment_option/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/distribution_workflow_attachment_option/</guid>
+      <description>Distribution Workflow Attachment Option Use this page to [Configure Workflow Options](../Use_Cases/Configure_Workflow_OptionsISA.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Configuration from Navigation pane. Click the Distribution Workflow Options icon.           Field Description   PROJECT ID Displays the name of the project added in Information Steward and loaded into ISA.   PROJECT DISTRIBUTION ID Displays the name of the Project Distribution to which the selected user is assigned.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/edit_workflow_templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/edit_workflow_templates/</guid>
+      <description>Edit Workflow Templates Use this page to [View and Edit All Workflow Templates From One Page](../Use_Cases/View_and_Edit_All_Workflow_Templates_From_One_Page.htm).  To access this page, select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Edit Workflow Templates in the Navigation pane.
+  Field
+ Description
+  TEMPLATE LEVEL
+ Displays the level that the workflow template was added. Workflows can be added at the Parameter, Project, and Project Distribution levels.
+Refer to Configure Workflow Templates for more information.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/isa_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/isa_parameters/</guid>
+      <description>Parameters Use this page to: - [Configure Workflow Templates at the Parameter Level](../Use_Cases/Configure_Workflow_Templates_at_the_Parameter_Level.htm) - [Set Parameters](../Use_Cases/Set_Parameters_ISA.htm)  To access this page, select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Parameters in Navigation pane.
+This page has the following tabs:
+ General Basic Settings Information Steward Settings Attachment Settings Summary Settings  General     Field
+ Description
+  Process Rules
+ Click to process all rules immediately.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/log_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/log_isa/</guid>
+      <description>Log Use this page to [View ISA Log](../Use_Cases/View_ISA_Log.htm).  To access this page:
+Select Information Steward Accelerator &amp;gt; Advanced &amp;gt; Log from the Navigation pane.
+OR
+Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Parameters &amp;gt; Basic Settings &amp;gt; Log from the Navigation pane.
+         Field Description   Clear Log Click to clear the log.   ID Displays the ID of the log message.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/metric_summary_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/metric_summary_h/</guid>
+      <description>Metric Summary H Metric Summary V
+Use this page to [Download ISA Metrics Summary Information](../Use_Cases/Download_ISA_Metrics_Summary_Information.htm).  To access this page, select Information Steward Accelerator &amp;gt;Advanced &amp;gt; Metric Summary in the Navigation pane.
+NOTE: The rules that display on this page depend on how the page is accessed.
+ If this page is accessed when a user drills down through the Total Opportunities vs Failures Summary dashboard or the Failure Percentage Summary dashboard, the rules and all rule bindings for the selected rule display.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_attribute_value/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_attribute_value/</guid>
+      <description>Project Distribution Attribute Values Use this page to [Assign Project Distribution Rules using Custom Attributes](../Use_Cases/Assign_Prjt_Distrib_Rules_Custom_Attribs.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project. Click Custom Attributes for a distribution. Click Values for a rule.           Field Descriptions   PROJECT Display the project name that contains the selected project distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_attribute_value_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_attribute_value_rules/</guid>
+      <description>Project Distribution Attribute Value Rules Use this page to [Assign Project Distribution Rules using Custom Attributes](../Use_Cases/Assign_Prjt_Distrib_Rules_Custom_Attribs.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project. Click Custom Attributes for a distribution. Click Values for a rule. Click Rule Count.           Field Descriptions   Add Click to add the selected rule to the project distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_attributes/</guid>
+      <description>Project Distribution Attributes Use this page to [Assign Project Distribution Rules using Custom Attributes](../Use_Cases/Assign_Prjt_Distrib_Rules_Custom_Attribs.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project. Click Custom Attributes for a distribution.           Field Descriptions   PROJECT Display the project name that contains the selected project distribution.   ATTRIBUTE Displays the name of the attribute as added in IS.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_filters/</guid>
+      <description>Project Distribution Filters Use this page to [Configure Project Distribution Filters](../Use_Cases/Configure_Project_Distribution_Filters.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Project Summary from Navigation pane. Click Distributions for a project. Click Filters for a distribution.           Field Description   PROJECT DISTRIBUTION ID Displays the distribution name that contains the filter.   FIELD Displays the name of the field that will be filtered.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_reports/</guid>
+      <description>Project Distribution Reports Use this page to [View Reports for Project Distributions](../Use_Cases/View_Reports_for_Project_Distributions.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Report Data Viewer in Navigation pane. Click Reports for a project distribution.    Field
+ Description
+  PROJECT DISTRIBUTION ID
+ Displays the distribution name that contains the report.
+  Reports
+ Click to open the Report Data Viewer page.
+  Actionable Reports</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_rule_bindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_rule_bindings/</guid>
+      <description>Project Distribution Rule Bindings Use this page to: - [View Rule Bindings](../Use_Cases/View_Rule_Bindings.htm) - [Deactivate Columns for Project Distribution Rule Bindings](../Use_Cases/Deactivate_Columns_for_Project_Distribution_Rule_Bindings.htm) - [Edit Rule Binding Descriptions, Implication and Recommendation](../Use_Cases/Edit_Rule_Bindings.htm)  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project. Click Rules for a distribution. Click Bindings for a rule.      Field
+ Description
+  RULE BINDING ID</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_rules/</guid>
+      <description>Project Distribution Rules Use this page to [Add Rules to a Project Distribution](../Use_Cases/Add_Rules_to_a_Project_Distribution.htm)  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project. Click Rules for a distribution.           Field Description   RULE ID Displays the name of the rule created in IS that will be run for the project Distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_user_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_user_filters/</guid>
+      <description>Project Distribution User Filters Use this page to [set user filters at the project distribution level.](../Use_Cases/Configure_User_Filters_ISA.htm)  To access this page:
+ Select Project Summary in the Navigation pane. Click the Distributions icon for a project. Click the User icon for a project distribution. Click the Filters icon for a user.           Field Description   FIELD Displays the name of the field that will be filtered for the project distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distribution_users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distribution_users/</guid>
+      <description>Project Distribution Users Use this page to [Add Users to a Project Distribution](../Use_Cases/Add_Users_to_a_Project_Distribution.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click the Users icon.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+  Field
+ Description
+  Activate
+ Click to activate one or more users on the page.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_distributions_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_distributions_h/</guid>
+      <description>Project Distributions H Project Distributions V
+Use this page to [Add Distributions to a Project](../Use_Cases/Add_Distributions_to_a_Project.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click Distributions for a project.           Field Description   DISTRIBUTION Displays the unique name of the Distribution, used to group users and Quality Dimensions in a project. If no Distributions exist for the project they must be added before any other work can occur in ISA.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_quality_dimension_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_quality_dimension_rules/</guid>
+      <description>Project Quality Dimension Rules Use this page to [Add Rules Using Quality Dimensions](../Use_Cases/Add_Rules_Using_Quality_Dimensions.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in Navigation pane. Click Distributions for a project. Click Quality Dimensions for a Distribution. Click Rule Count for a Quality Dimension to see all the rules currently assigned to the project-Quality Dimension combination.           Field Description   Add Click to add the rule to the Project Distribution.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_quality_dimensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_quality_dimensions/</guid>
+      <description>Project Quality Dimensions Use this page to [View Quality Dimensions by Project](../Use_Cases/View_Quality_Dimensions_by_Project.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in Navigation pane. Click Distributions for a project. Click Quality Dimensions for a Distribution.           Field Description   PROJECT Displays the name of the project added in Information Steward and loaded into ISA.   QUALITY DIMENSION Displays the Quality Dimension assigned to the rules in the project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/project_summary_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/project_summary_h/</guid>
+      <description>Project Summary H Project Summary V
+Use this page to: - [Update the Scorecard Link](../Use_Cases/Update_the_Scorecard_Link.htm) - [Run Rules and Send Workflows On Demand](../Use_Cases/Run_RulesRun_Workflows_.htm)  To access this page, select Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane.
+  Field
+ Description
+  Process Project Rules
+ Click to:
+ Run all rules and rule bindings with unprocessed run IDs for all project distributions in the selected project Send workflows to all users in the project according to user settings on the Parameters page   PROJECT</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/report_data_viewer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/report_data_viewer/</guid>
+      <description>Report Data Viewer H Report Data Viewer V
+Use this page to [Create a Request in dspCompose™ From the ISA Report Data Viewer Page](../Use_Cases/Create_a_Request_in_dspCompose_From_ISA.htm).  To access this page, select Information Steward Accelerator &amp;gt; Report Data Viewer in the Navigation pane.
+  Field
+ Description
+  DATE
+ Displays the date and time the rule was processed.
+  RULE ID
+ Displays a name of the rule.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/rule_binding_detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/rule_binding_detail/</guid>
+      <description>Rule Binding Detail Use this page to [Edit Rule Binding Descriptions, Implication and Recommendation](../Use_Cases/Edit_Rule_Bindings.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane.
+ Click the Distributions icon for a project.
+ Click the Rules icon for a distribution.
+ Click the Bindings icon.
+ Click the Rule Binding ID link.
+           Field Description   Project ID Displays the project that contains the rule and rule binding.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/rule_binding_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/rule_binding_list/</guid>
+      <description>Rule Binding List Use this page to [view a list of rule bindings associated with a project](../Use_Cases/View_Rule_Bindings.htm).  To access this page:
+ Click Information Steward Accelerator &amp;gt; Project Summary in the Navigation pane. Click All Rule Bindings for a project.    Field
+ Description
+  RULE ID
+ Displays the name of the rule as added in IS.
+  RULE BINDING ID
+ Displays a comma-delimited list of the table and columns to which the rule is bound.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/template_isa_external_request_scenario_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/template_isa_external_request_scenario_h/</guid>
+      <description>Template (ISA External Request Scenario) H Template (ISA External Request Scenario) V
+Use this page to [Create an External Request Scenario for an Information Steward-initiated Request](../Use_Cases/Create_an_External_Request_Scenario_for_an_Information_Steward%20initiated_Request.htm).  To access this page:
+ Select dspCompose &amp;gt; Team on the Navigation pane. Click Templates for a team. Click the ISA External Request Scenarios icon.    Field
+ Description
+  RULE ID
+ Displays the rule name (e.g., NoRegion).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/users_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/users_isa/</guid>
+      <description>Users Use this page to [Configure Workflow Options](../Use_Cases/Configure_Workflow_OptionsISA.htm).  To access this page, select Information Steward Accelerator &amp;gt; Configuration from Navigation pane.
+    Field
+ Description
+  USER ID
+ Displays the names of all users registered to ISA.
+  WORKFLOW OPTION
+ Displays the option available for sending workflows to the selected user: Configure at Distribution Level, Do Not Send Workflows or Send Summaries Only.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/workflow_h_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/workflow_h_isa/</guid>
+      <description>Workflow H Workflow V
+Use this page to [View a User’s Workflows](../Use_Cases/View_a_Users_Workflows_ISA.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Users in the Navigation pane. Click Workflows for a user.           Field Description   CREATED DATE Displays the date and time the workflow was sent to the user selected on the Users page. Workflows are retained for the number of days set in the Days To Retain History field on the Basic Settings tab on the Parameters page.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/workflow_template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/workflow_template/</guid>
+      <description>Workflow Template Use this page to [Create Language-specific Workflow Email Templates](../Use_Cases/Create_Language%20specific_Workflow_Email_Templates.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane. Click the Attachment Settings tab or Summary Settings tab. Click Attachment Workflow Translation or Summary Workflow Translation.           Field Description   LANGUAGE ID Displays the language used in the workflow email.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/page_desc/workflow_template_detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/page_desc/workflow_template_detail/</guid>
+      <description>Workflow Template Detail Use this page to [View and Edit All Workflow Templates From One Page](../Use_Cases/View_and_Edit_All_Workflow_Templates_From_One_Page.htm).  To access this page:
+ Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Edit Workflow Parameters in the Navigation pane. Click the Template icon for a template.           Field Description   SUBJECT Displays the subject line of the workflow email.   BODY Displays the body of the workflow email.</description>
+    </item>
+    
+  </channel>
+</rss>

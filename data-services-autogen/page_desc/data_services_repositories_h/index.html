@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data Services Repositories H :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/data-services-autogen/" class="active">Data Services AutoGen Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/data-services-autogen/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/data-services-autogen/page_desc/autogen_bods_requests_h/" class="">AutoGen BODS Requests H</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/page_desc/autogen_data_services/" class="">AutoGen Data Services</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/page_desc/data_services_datastores_mappings_h/" class="">Data Services Datastores Mappings H</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/page_desc/data_services_repositories_h/" class="uk-active">Data Services Repositories H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/data-services-autogen/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/data-services-autogen/use_cases/build_and_refresh_ds_jobs/" class="">Build and Refresh Data Services Jobs</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/use_cases/configure_proxy_server_settings/" class="">Configure Proxy Sever Settings</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/use_cases/configure_a_ds_datastore/" class="">Configure a Data Services Datastore</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/use_cases/configure_a_ds_repository/" class="">Configure a Data Services Repository</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/use_cases/import_ds_objects/" class="">Import Data Services Objects</a></li>
+        
+            <li >
+                <a href="/data-services-autogen/use_cases/setup_and_configuration_for_data_services_autogen/" class="">Setup and Configuration for Data Services AutoGen</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Data-Services-AutoGen</a></li>
+        <li><span>Data Services Repositories H</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="data-services-repositories-h">Data Services Repositories H</h1>
+
+<p><a href="#Data_Services_Repositories_V">Data Services Repositories V</a></p>
+
+<div class="use">
+
+Use this page to [Configure a Data Services
+Repository.](../Use_Cases/Configure_a_DS_Repository.htm)
+
+</div>
+
+<p>To access this page:</p>
+
+<ol>
+<li>Click the <strong>Automation</strong> tab in the Quick Panel.</li>
+<li>Select the Object for which the Data Services Repository is being
+set up.</li>
+<li>Click the <strong>Build and Refresh Data Services</strong> icon in the Page
+toolbar; the *<a href="AutoGen_Data_Services.htm">AutoGen Data
+Services</a>* page&rsquo;s *Vertical* View
+displays.</li>
+<li>Select <strong>Configuration &gt; Data Services Repositories</strong> in the
+AutoGen *Navigation* pane.</li>
+</ol>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Field</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>CMS SYSTEM</td>
+<td>Displays the IP address for the CMS system.</td>
+</tr>
+
+<tr>
+<td>NAME</td>
+<td>Displays the name of the Data Services Repository registered in Common (Common &gt; Configuration &gt; Data Source Registry). Refer to <a href="../../../Platform/Common/Use_Cases/Register_a_Data_Source_in_Common.htm">Register a Data Source in Common</a> for more information.</td>
+</tr>
+
+<tr>
+<td>WEB SERVICE URL</td>
+<td>Displays the URL for the Data Services Web Services.</td>
+</tr>
+
+<tr>
+<td>LAST SYNC DATE</td>
+<td>Displays the date on which the registered Data Services Repository was last synced.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-data-services-repositories-v-span-data-services-repositories-v"><span id="Data_Services_Repositories_V"></span>Data Services Repositories V</h2>
+
+<p><a href="#">Data Services Repositories H</a></p>
+
+<div class="use">
+
+Use this page to [Configure a Data Services
+Repository.](../Use_Cases/Configure_a_DS_Repository.htm)
+
+</div>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Web Service Config</p>
+
+<p>Name</p>
+
+<p>Displays the name of the Data Services Repository.</p>
+
+<p>Web Service Url</p>
+
+<p>Displays the URL for the Data Services Web Services.</p>
+
+<p>CMS System</p>
+
+<p>Displays the IP address for the CMS system.</p>
+
+<p>Login</p>
+
+<p>Displays the login ID.</p>
+
+<p>Password</p>
+
+<p>Displays asterisks representing the password for the CMS system.</p>
+
+<p>Authentication Method</p>
+
+<p>Displays the Authentication method used to log in to the CMS.</p>
+
+<p>Package Passphrase</p>
+
+<p>This value is not used currently.</p>
+
+<p>Operation Timeout Seconds</p>
+
+<p>Displays the value that defines how long the Web Service connection will
+stay open.</p>
+
+<p><strong>NOTE:</strong> The recommended setting for the Operation Timeout Seconds
+field is 600.</p>
+
+<p>Test Web Service Connection</p>
+
+<p>Click to test the web service connection.</p>
+
+<p>Repository Database Config</p>
+
+<p>Repo Sql Server Name</p>
+
+<p>Displays the repository SQL Server Name.</p>
+
+<p>Repo Sql DB Name</p>
+
+<p>Displays the repository SQL database name.</p>
+
+<p>Repo Sql Login</p>
+
+<p>Displays the repository SQL login.</p>
+
+<p>Repo Sql Password</p>
+
+<p>Displays asterisks representing the SQL password.</p>
+
+<p>Test Repo Database Connection</p>
+
+<p>Click to test the repository database connection.</p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#data-services-repositories-h">Data Services Repositories H</a>
+<ul>
+<li><a href="#span-id-data-services-repositories-v-span-data-services-repositories-v"><span id="Data_Services_Repositories_V"></span>Data Services Repositories V</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

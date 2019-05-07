@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Packages H :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/assemble/" class="active">Assemble Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/assemble/create_packages/" class="">Create Packages</a></li>
+        
+            <li >
+                <a href="/assemble/delete_packages/" class="">Delete Packages</a></li>
+        
+            <li >
+                <a href="/assemble/monitor_h_assemble/" class="">Monitor</a></li>
+        
+            <li >
+                <a href="/assemble/monitor_packages/" class="">Monitor Packages</a></li>
+        
+            <li >
+                <a href="/assemble/packages_h/" class="uk-active">Packages H</a></li>
+        
+            <li >
+                <a href="/assemble/run_packages/" class="">Run Packages</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Assemble</a></li>
+        <li><span>Packages H</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="packages-h">Packages H</h1>
+
+<p><a href="#Packages_V">Packages V</a></p>
+
+<div class="use">
+
+Use this page to [Create Packages](Create_Packages.htm).
+
+</div>
+
+<p>To access this page, click <span style="font-weight: bold;">Assemble &gt;
+Packages</span> in the
+<span style="font-style: italic;">Navigation</span> pane.</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>PACKAGE NAME</p></td>
+<td><p>Displays the package name.</p>
+<p>The naming convention for packages is #Database#%#Source#%, for example dswBRAZIL.stKNA1_QALegacyData_Customer.imp for an import or dswBRAZIL.stKNA1_QALegacyData_Customer.exp for an export.</p></td>
+</tr>
+<tr class="odd">
+<td><p>SOURCE DATA SOURCE ID</p></td>
+<td><p>Displays the Assemble data source to be used for source data.</p></td>
+</tr>
+<tr class="even">
+<td><p>SOURCE TYPE</p></td>
+<td><p>Displays the source type. Options include:</p>
+<ul>
+<li>SQL Server</li>
+<li>Table</li>
+<li>ODBC</li>
+<li>Fixed File</li>
+<li>Delimited File</li>
+<li>Excel File</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>TARGET DATA SOURCE ID</p></td>
+<td><p>Displays the Assemble data source to be used for target data.</p></td>
+</tr>
+<tr class="even">
+<td><p>TARGET TYPE</p></td>
+<td><p>Displays the Target Type. Options include:</p>
+<ul>
+<li>SQL Server</li>
+<li>Table</li>
+<li>ODBC</li>
+<li>Fixed File</li>
+<li>Delimited File</li>
+<li>Excel File</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>SC</p></td>
+<td><p>Click to open the <span style="font-weight: bold;">Source Columns</span> page of the selected package.</p></td>
+</tr>
+<tr class="even">
+<td><p>TC</p></td>
+<td><p>Click to open the <span style="font-weight: bold;">Target Columns</span> page of the selected package.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Map</p></td>
+<td><p>Click to open the <span style="font-weight: bold;">Package (Mapping)</span> page which displays the selected package's column mapping.</p></td>
+</tr>
+<tr class="even">
+<td><p>SUM</p></td>
+<td><p>Click to open the package summary page of the selected package.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Run</p></td>
+<td><p>Click to open the <span style="font-weight: bold;">Packages (Run)</span> page, from which the selected package can be executed.</p></td>
+</tr>
+<tr class="even">
+<td><p>Log</p></td>
+<td><p>Click to open the <span style="font-weight: bold;">Log</span> page, where the selected package's execution history, number of records, Time duration, etc. can be seen.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-packages-v-span-packages-v"><span id="Packages_V"></span>Packages V</h2>
+
+<p><a href="#Packages_H">Packages H</a></p>
+
+<div class="use">
+
+Use this page to [Create Packages](Create_Packages.htm).
+
+</div>
+
+<h3 id="span-id-source-types-span-source-types"><span id="Source_Types:"></span>Source Types:</h3>
+
+<ul>
+<li><a href="#Table_-_General_Tab">Table (General tab)</a></li>
+<li><a href="#Table_-_Advanced_Properties_Tab">Table (Advanced Properties tab)</a></li>
+<li><a href="#SQL_-_General_Tab">SQL (General tab)</a></li>
+<li><a href="#SQL_-_Advanced_Properties_Tab">SQL (Advanced Properties tab)</a></li>
+<li><a href="#File_Delimited_-_General_Tab">File Delimited (General tab)</a></li>
+<li><a href="#File_Delimited_-_Advanced_Properties_Tab">File Delimited( Advanced Properties
+tab)</a></li>
+<li><a href="#Excel_-_General_Tab">Excel (General tab)</a></li>
+<li><a href="#Excel_-_Advanced_Properties_Tab">Excel (Advanced Properties tab)</a></li>
+<li><a href="#File_Start-End_-_General_Tab">File Start-End (General tab)</a></li>
+<li><a href="#File_Start-End_-_Advanced_Properties_Tab">File Start-End (Advanced Properties
+tab)</a></li>
+<li><a href="#File_Width_-_General_Tab">File Width (General tab)</a></li>
+<li><a href="#File_Width_-_Advanced_Properties_Tab">File Width (Advanced Properties
+tab)</a></li>
+</ul>
+
+<h3 id="span-id-table-general-tab-span-table-general-tab"><span id="Table_-_General_Tab"></span>Table - General tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Source Information</p>
+
+<p>Source Table Name</p>
+
+<p>Displays the name of the table to extract data from. This name must be
+unique.</p>
+
+<p>Target Information</p>
+
+<p>Target Table Name</p>
+
+<p>Displays the name of the database table used as the target for this
+package. This name must be unique.</p>
+
+<p><strong>NOTE:</strong> If spaces or special characters are required in the table
+name, the name must be enclosed in square brackets ([ and ]).</p>
+
+<p>Target Table Exists</p>
+
+<p>If enabled, the Target Table already exists in the database.</p>
+
+<p>Create Target Table</p>
+
+<p>Click to create the table in the target database in accordance with the
+target column specifications, and the column
+map.</p>
+
+<h3 id="span-id-table-advanced-properties-tab-span-table-advanced-properties-tab"><span id="Table_-_Advanced_Properties_Tab"></span>Table - Advanced Properties tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Time Out</p>
+
+<p>Displays the SQL command timeout used for database commands. This
+applies only to Assemble execution. It controls the time out for a
+database command when a CranPort package runs. Database commands include
+creating a table, truncating an existing table, selecting data and
+writing data. If the Time Out is not specified for a package, the
+Parameter Time Out value automatically defaults.</p>
+
+<p>Batch Size</p>
+
+<p>Displays the number of records moved to the target database in each
+transaction. The default batch size is 10,000.</p>
+
+<p>This option is useful for dense datasets which can lead to performance
+degradation on the system running the package.</p>
+
+<p>Execution Option</p>
+
+<p>Displays the option for executing the package. The values are:</p>
+
+<ul>
+<li>Stop on Error – Execution will cease execution if an error is
+encountered.</li>
+<li>Continue On Error - Assemble will log the error, and then try to
+continue transferring data.</li>
+</ul>
+
+<p>Queue ID</p>
+
+<p>Displays which service queue will be used to process this package.</p>
+
+<p>Source Options</p>
+
+<p>Source Segment Field</p>
+
+<p>Displays the field used to divide the package up into smaller execution
+segments or blank if no field is to be used. For example, if Source
+Segment Field is &ldquo;Country&rdquo;, a package will be run for each country in
+the source query. In this way, the package can be multi-threaded to
+increase performance.</p>
+
+<p><strong>NOTE</strong>: For tables, it will break up the execution of the CranPort
+package based on whichever field in the table the user chooses.  This is
+an execution optimization option.</p>
+
+<p>Segment Threshold</p>
+
+<p>Displays the minimum percentage of the total records a segment must have
+to be run in its own thread. Segments that are below the threshold are
+run together.</p>
+
+<p><strong>NOTE</strong>: This field is used in conjunction with Source Segment Field
+and indicates the percentage of which a source segment can be its own
+partition. The default value is 5. If any of the source segment field
+values breakup is less than 5 percent of the total record set it will be
+included in a single segment reserved for other partitions that do not
+exceed this threshold.</p>
+
+<p>Segment Preview</p>
+
+<p>When clicked, it opens a page with the first 15 records from the source.</p>
+
+<p>Target Options</p>
+
+<p>Target Delete Records</p>
+
+<p>If enabled, records will be deleted from the target table before package
+execution. This may be used in conjunction with Target Delete Where
+Clause.</p>
+
+<p>Target Delete Where Clause</p>
+
+<p>If Target Delete Where Clause is not blank and Target Delete Records is
+checked, the where clause will be used when deleting records from the
+target table. &ldquo;WHERE&rdquo; should not be entered.</p>
+
+<h3 id="span-id-sql-general-tab-span-sql-general-tab"><span id="SQL_-_General_Tab"></span>SQL - General tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Source Information</p>
+
+<p>Source SQL</p>
+
+<p>Displays the SQL statement used to query the Source database.</p>
+
+<p>Target Information</p>
+
+<p>Target Table Name</p>
+
+<p>Displays the name of the database table used as the target for this
+package. This name must be unique.</p>
+
+<p><strong>NOTE:</strong> If spaces or special characters are required in the table
+name, the name must be enclosed in square brackets ([ and ]).</p>
+
+<p>Target Table Exists</p>
+
+<p>If enabled, the Target Table already exists in the database.</p>
+
+<p>Create Target Table</p>
+
+<p>Click to create the table in the target database in accordance with the
+target column specifications, and the column
+map.</p>
+
+<h3 id="span-id-sql-advanced-properties-tab-span-sql-advanced-properties-tab"><span id="SQL_-_Advanced_Properties_Tab"></span>SQL - Advanced Properties tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Time Out</p>
+
+<p>Displays the SQL command timeout used for database commands. This
+applies only to Assemble execution. It controls the time out for a
+database command when a CranPort package runs. Database commands include
+creating a table, truncating an existing table, selecting data and
+writing data. If the Time Out is not specified for a package, the
+Parameter Time Out value automatically defaults.</p>
+
+<p>Batch Size</p>
+
+<p>Displays the number of records moved to the target database in each
+transaction. The default batch size is 10,000. This option is useful for
+dense datasets which can lead to performance degradation on the system
+running the package.</p>
+
+<p>Execution Option</p>
+
+<p>Displays the option for executing the package. The values are:</p>
+
+<ul>
+<li>Stop on Error – Execution will cease execution if an error is
+encountered.</li>
+<li>Continue On Error – Assemble will log the error, and then try to
+continue transferring data.</li>
+</ul>
+
+<p>Queue ID</p>
+
+<p>Displays which service queue will be used to process this package.</p>
+
+<p>Source Options</p>
+
+<p>Source Order By</p>
+
+<p>When using SQL typed source, it will order the result set by this value.
+Order by should not be explicitly defined within the SQL itself. ORDER
+BY should also not be used in the value provided.</p>
+
+<p>Source Segment Field</p>
+
+<p>If Source Segment Field is not blank, it will be used to divide the
+package up into smaller execution segments. For example, if Source
+Segment Field is &ldquo;Country&rdquo;, a package will be run for each country in
+the source query. In this way, the package can be multi-threaded to
+increase performance.</p>
+
+<p>Segment Threshold</p>
+
+<p>If Source Segment Field is used, the Segment Threshold specifies the
+minimum percentage of the total records a segment must have to be run in
+its own thread. Segments that are below the threshold are run together.</p>
+
+<p>Segment Preview</p>
+
+<p>Displays a dataset of each segment value along with the record count.
+This is based on the Source Segment Field chosen for this package.</p>
+
+<p>Target Options</p>
+
+<p>Target Delete Records</p>
+
+<p>If enabled, records will be deleted from the target table before package
+execution. This may be used in conjunction with Target Delete Where
+Clause.</p>
+
+<p>Target Delete Where Clause</p>
+
+<p>If Target Delete Where Clause is not blank and Target Delete Records is
+checked, the where clause will be used when deleting records from the
+target table. &ldquo;WHERE&rdquo; should not be
+entered.</p>
+
+<h3 id="span-id-file-delimited-general-tab-span-file-delimited-general-tab"><span id="File_Delimited_-_General_Tab"></span>File Delimited - General tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Source Information</p>
+
+<p>Source Path</p>
+
+<p>Displays thefile path specified by the Source Data Source.</p>
+
+<p>Source Subdirectory</p>
+
+<p>Displays the subdirectory within the data source where the source file
+is located.</p>
+
+<p>Source File Name</p>
+
+<p>Displays the name of the file to be used for source data. This name will
+be appended to the data source file path and the Source Subdirectory if
+it exists, so it should not include drive specifications (i.e. c:\).</p>
+
+<p>Source File Upload</p>
+
+<p>Click to upload a package source file to the web server form their local
+machine.</p>
+
+<p>Source Contains Header</p>
+
+<p>If enabled, the first row in the source file will be interpreted as a
+column header and not imported as data.</p>
+
+<p>Source Start Row</p>
+
+<p>If populated, allows for skipping unnecessary data at the beginning of
+the Source file. The default is 1.</p>
+
+<p>Source Delimiter</p>
+
+<p>Displays the delimiter used to parse the Source file.</p>
+
+<p>Target Information</p>
+
+<p>Target Table Name</p>
+
+<p>Displays the name of the database table used as the target for this
+package. This name must be unique.</p>
+
+<p><strong>NOTE:</strong> If spaces or special characters are required in the table
+name, the name must be enclosed in square brackets ([ and ]).</p>
+
+<p>Target Table Exists</p>
+
+<p>If enabled, the Target Table already exists in the database.</p>
+
+<p>Create Target Table</p>
+
+<p>Click to create the table in the target database in accordance with the
+target column specifications, and the column
+map.</p>
+
+<h3 id="span-id-file-delimited-advanced-properties-tab-span-file-delimited-advanced-properties-tab"><span id="File_Delimited_-_Advanced_Properties_Tab"></span>File Delimited - Advanced Properties tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Time Out</p>
+
+<p>Displays the SQL command timeout used for database commands. This
+applies only to Assemble execution. It controls the time out for a
+database command when a CranPort package runs. Database commands include
+creating a table, truncating an existing table, selecting data and
+writing data. If the Time Out is not specified for a package, the
+Parameter Time Out value automatically defaults.</p>
+
+<p>Batch Size</p>
+
+<p>Displays the number of records moved to the target database in each
+transaction. The default batch size is 10,000.</p>
+
+<p>This option is useful for dense datasets which can lead to performance
+degradation on the system running the package.</p>
+
+<p>Execution Option</p>
+
+<p>Displays the option for executing the package. The values are:</p>
+
+<ul>
+<li>Stop on Error – Execution will cease execution if an error is
+encountered.</li>
+<li>Continue On Error - Assemble will log the error, and then try to
+continue transferring data.</li>
+</ul>
+
+<p>Queue ID</p>
+
+<p>Displays which service queue will be used to process this package.</p>
+
+<p>Source Options</p>
+
+<p>Source Code Page</p>
+
+<p>Displays the encoding of the source file. Allows text files with
+different character sets to be imported.</p>
+
+<p>Segment Treat Consecutive Delimiters As One</p>
+
+<p>Determines the way consecutive delimiters are handled. For instance, if
+this value is checked, a line reading &ldquo;A,,B&rdquo; will be split into 2
+columns. . If unchecked (default behavior) the line will be split into
+3.</p>
+
+<p>Source Text Qualifier</p>
+
+<p>If specified, it is stripped from the Source data file. For example <em>A
+&ldquo;B&rdquo; C</em> will be exported as <em>A B C</em>, if &ldquo; is specified as the Source Text
+Qualifier.</p>
+
+<p>Source File Delete</p>
+
+<p>If checked, the source file will be deleted after the package completes
+a successful execution. If the package errors they will see it as failed
+in the log for that package. Their Service light will also turn Yellow
+(If it’s not already) to indicate there was a failed job.</p>
+
+<p>Target Options</p>
+
+<p>Target Delete Records</p>
+
+<p>If enabled, records will be deleted from the target table before package
+execution. This may be used in conjunction with Target Delete Where
+Clause.</p>
+
+<p>Target Delete Where Clause</p>
+
+<p>If Target Delete Where Clause is not blank and Target Delete Records is
+checked, the where clause will be used when deleting records from the
+target table. &ldquo;WHERE&rdquo; should not be entered.</p>
+
+<h3 id="span-id-excel-general-tab-span-excel-general-tab"><span id="Excel_-_General_Tab"></span>Excel - General tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Source Information</p>
+
+<p>Source Path</p>
+
+<p>Displays thefile path specified by the Source Data Source.</p>
+
+<p>Source Subdirectory</p>
+
+<p>Displays the subdirectory of the data source where the source file is
+located.</p>
+
+<p>Source File Name</p>
+
+<p>Displays the name of the file to be used for source data. This name will
+be appended to the data source file path, so it should not include drive
+specifications (i.e. c:\).</p>
+
+<p>Source File Upload</p>
+
+<p>Click to upload a package source file to the web server form their local
+machine.</p>
+
+<p>Source Contains Header</p>
+
+<p>If checked, the first row in the source file will be interpreted as a
+column header and not imported as data.</p>
+
+<p>Source Start Row</p>
+
+<p>If populated, allows for skipping unnecessary data at the beginning of
+the Source file. The default is 1.</p>
+
+<p>Source Delimiter</p>
+
+<p>Displays the delimiter used to parse the Source file.</p>
+
+<p>Target Information</p>
+
+<p>Target Table Name</p>
+
+<p>Displays the name of the database table used as the target for this
+package. This name must be unique.</p>
+
+<p><strong>NOTE:</strong> If spaces or special characters are required in the table
+name, the name must be enclosed in square brackets ([ and ]).</p>
+
+<p>Target Table Exists</p>
+
+<p>If enabled, the Target Table already exists in the database.</p>
+
+<p>Create Target Table</p>
+
+<p>Click to create the table in the target database in accordance with the
+target column specifications, and the column
+map.</p>
+
+<h3 id="span-id-excel-advanced-properties-tab-span-excel-advanced-properties-tab"><span id="Excel_-_Advanced_Properties_Tab"></span>Excel - Advanced Properties tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Time Out</p>
+
+<p>Displays the SQL command timeout used for database commands. This
+applies only to Assemble execution. It controls the time out for a
+database command when a CranPort package runs. Database commands include
+creating a table, truncating an existing table, selecting data and
+writing data. If the Time Out is not specified for a package, the
+Parameter Time Out value automatically defaults.</p>
+
+<p>Batch Size</p>
+
+<p>Displays the number of records moved to the target database in each
+transaction. The default batch size is 10,000. This option is useful for
+dense datasets which can lead to performance degradation on the system
+running the package.</p>
+
+<p>Execution Option</p>
+
+<p>Displays options for executing package?</p>
+
+<p>Values are:</p>
+
+<ul>
+<li>Stop on Error - Assemble will cease execution if an error is
+encountered.</li>
+<li>Continue On Error - Assemble will log the error, and then try to
+continue transferring data.</li>
+</ul>
+
+<p>Queue ID</p>
+
+<p>Displays which service queue will be used to process this package.</p>
+
+<p>Source Options</p>
+
+<p>Source Excel Worksheet</p>
+
+<p>Displays the name of the Excel worksheet containing the data to be
+imported.</p>
+
+<p>Source Excel Skip Empty Rows</p>
+
+<p>If enabled, empty rows will be skipped, meaning empty records will not
+be written to the target.</p>
+
+<p>Source File Delete</p>
+
+<p>If enabled, the source file will be deleted after the package completes
+a successful execution.</p>
+
+<p>Target Options</p>
+
+<p>Target Delete Records</p>
+
+<p>If enabled, records will be deleted from the target table before package
+execution. This may be used in conjunction with Target Delete Where
+Clause.</p>
+
+<p>Target Delete Where Clause</p>
+
+<p>If Target Delete Where Clause is not blank and Target Delete Records is
+checked, the where clause will be used when deleting records from the
+target table. &ldquo;WHERE&rdquo; should not be
+entered.</p>
+
+<h3 id="span-id-file-start-end-general-tab-span-file-start-end-general-tab"><span id="File_Start-End_-_General_Tab"></span>File Start-End - General tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Source Information</p>
+
+<p>Source Path</p>
+
+<p>Displays the file path specified by the Source Data Source.</p>
+
+<p>Source Subdirectory</p>
+
+<p>Displays the subdirectory of the data source where the source file is
+located.</p>
+
+<p>Source File Name</p>
+
+<p>Displays the name of the file to be used for source data. This name will
+be appended to the data source file path, so it should not include drive
+specifications (i.e. c:\).</p>
+
+<p>Source File Upload</p>
+
+<p>Click to upload a package source file to the web server form their local
+machine.</p>
+
+<p>Source Contains Header</p>
+
+<p>If enabled, the first row in the source file will be interpreted as a
+column header and not imported as data.</p>
+
+<p>Source Start Row</p>
+
+<p>If populated, allows for skipping unnecessary data at the beginning of
+the Source file. The default is 1.</p>
+
+<p>Source Delimiter</p>
+
+<p>Displays the delimiter used to parse the Source file.</p>
+
+<p>Target Information</p>
+
+<p>Target Table Name</p>
+
+<p>Displays the name of the database table used as the target for this
+package. This name must be unique.</p>
+
+<p><strong>NOTE:</strong> If spaces or special characters are required in the table
+name, the name must be enclosed in square brackets ([ and ]).</p>
+
+<p>Target Table Exists</p>
+
+<p>If enabled, the Target Table already exists in the database.</p>
+
+<p>Create Target Table</p>
+
+<p>Click to create the table in the target database in accordance with the
+target column specifications, and the column
+map.</p>
+
+<h3 id="span-id-file-start-end-advanced-properties-tab-span-file-start-end-advanced-properties-tab"><span id="File_Start-End_-_Advanced_Properties_Tab"></span>File Start-End - Advanced Properties tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Time Out</p>
+
+<p>Displays the SQL command timeout used for database commands. This
+applies only to Assemble execution. It controls the time out for a
+database command when a CranPort package runs. Database commands include
+creating a table, truncating an existing table, selecting data and
+writing data. If the Time Out is not specified for a package, the
+Parameter Time Out value automatically defaults.</p>
+
+<p>Batch Size</p>
+
+<p>Displays the number of records moved to the target database in each
+transaction. The default batch size is 10,000.</p>
+
+<p>This option is useful for dense datasets which can lead to performance
+degradation on the system running the package.</p>
+
+<p>Execution Option</p>
+
+<p>Displays the option for executing the package. The values are:</p>
+
+<ul>
+<li>Stop on Error – Execution will cease execution if an error is
+encountered.</li>
+<li>Continue On Error - Assemble will log the error, and then try to
+continue transferring data.</li>
+</ul>
+
+<p>Queue ID</p>
+
+<p>Displays which service queue will be used to process this package.</p>
+
+<p>Source Options</p>
+
+<p>Source Code Page</p>
+
+<p>Displays the encoding of the source file. Allows text files with
+different character sets to be imported.</p>
+
+<p>Source File Delete</p>
+
+<p>If enabled, the source file will be deleted after the package completes
+a successful execution.</p>
+
+<p>Target Options</p>
+
+<p>Target Delete Records</p>
+
+<p>If enabled, records will be deleted from the target table before package
+execution. This may be used in conjunction with Target Delete Where
+Clause.</p>
+
+<p>Target Delete Where Clause</p>
+
+<p>If Target Delete Where Clause is not blank and Target Delete Records is
+checked, the where clause will be used when deleting records from the
+target table. &ldquo;WHERE&rdquo; should not be entered.</p>
+
+<h3 id="span-id-file-width-general-tab-span-file-width-general-tab"><span id="File_Width_-_General_Tab"></span>File Width - General tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Source Information</p>
+
+<p>Source Path</p>
+
+<p>Displays the file path specified by the Source Data Source.</p>
+
+<p>Source Subdirectory</p>
+
+<p>Displays the subdirectory of the data source where the source file is
+located.</p>
+
+<p>Source File Name</p>
+
+<p>Displays the name of the file to be used for source data. This name will
+be appended to the data source file path, so it should not include drive
+specifications (i.e. c:\).</p>
+
+<p>Source File Upload</p>
+
+<p>Click to upload a package source file to the web server form their local
+machine.</p>
+
+<p>Source Contains Header</p>
+
+<p>If enabled, the first row in the source file will be interpreted as a
+column header and not imported as data.</p>
+
+<p>Source Start Row</p>
+
+<p>If populated, allows for skipping unnecessary data at the beginning of
+the Source file. The default is 1.</p>
+
+<p>Source Delimiter</p>
+
+<p>Displays the delimiter used to parse the Source file.</p>
+
+<p>Target Information</p>
+
+<p>Target Table Name</p>
+
+<p>Displays the name of the database table used as the target for this
+package. This name must be unique.</p>
+
+<p><strong>NOTE:</strong> If spaces or special characters are required in the table
+name, the name must be enclosed in square brackets ([ and ]).</p>
+
+<p>Target Table Exists</p>
+
+<p>If enabled, the Target Table already exists in the database.</p>
+
+<p>Create Target Table</p>
+
+<p>Click to create the table in the target database in accordance with the
+target column specifications, and the column
+map.</p>
+
+<h3 id="span-id-file-width-advanced-properties-tab-span-file-width-advanced-properties-tab"><span id="File_Width_-_Advanced_Properties_Tab"></span>File Width - Advanced Properties tab</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Time Out</p>
+
+<p>Displays the SQL command timeout used for database commands. This
+applies only to Assemble execution. It controls the time out for a
+database command when a CranPort package runs. Database commands include
+creating a table, truncating an existing table, selecting data and
+writing data. If the Time Out is not specified for a package, the
+Parameter Time Out value automatically defaults.</p>
+
+<p>Batch Size</p>
+
+<p>Displays the number of records moved to the target database in each
+transaction. The default batch size is 10,000. This option is useful for
+dense datasets which can lead to performance degradation on the system
+running the package.</p>
+
+<p>Execution Option</p>
+
+<p>Displays the option for executing the package. The values are:</p>
+
+<ul>
+<li>Stop on Error – Execution will cease execution if an error is
+encountered.</li>
+<li>Continue On Error - Assemble will log the error, and then try to
+continue transferring data.</li>
+</ul>
+
+<p>Queue ID</p>
+
+<p>Displays which service queue will be used to process this package.</p>
+
+<p>Source Options</p>
+
+<p>Source Code Page</p>
+
+<p>Displays the encoding of the source file. Allows text files with
+different character sets to be imported.</p>
+
+<p>Source File Delete</p>
+
+<p>If enabled, the source file will be deleted after the package completes
+a successful execution.</p>
+
+<p>Target Options</p>
+
+<p>Target Delete Records</p>
+
+<p>If enabled, records will be deleted from the target table before package
+execution. This may be used in conjunction with Target Delete Where
+Clause.</p>
+
+<p>Target Delete Where Clause</p>
+
+<p>If Target Delete Where Clause is not blank and Target Delete Records is
+checked, the where clause will be used when deleting records from the
+target table. &ldquo;WHERE&rdquo; should not be entered.</p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#packages-h">Packages H</a>
+<ul>
+<li><a href="#span-id-packages-v-span-packages-v"><span id="Packages_V"></span>Packages V</a>
+<ul>
+<li><a href="#span-id-source-types-span-source-types"><span id="Source_Types:"></span>Source Types:</a></li>
+<li><a href="#span-id-table-general-tab-span-table-general-tab"><span id="Table_-_General_Tab"></span>Table - General tab</a></li>
+<li><a href="#span-id-table-advanced-properties-tab-span-table-advanced-properties-tab"><span id="Table_-_Advanced_Properties_Tab"></span>Table - Advanced Properties tab</a></li>
+<li><a href="#span-id-sql-general-tab-span-sql-general-tab"><span id="SQL_-_General_Tab"></span>SQL - General tab</a></li>
+<li><a href="#span-id-sql-advanced-properties-tab-span-sql-advanced-properties-tab"><span id="SQL_-_Advanced_Properties_Tab"></span>SQL - Advanced Properties tab</a></li>
+<li><a href="#span-id-file-delimited-general-tab-span-file-delimited-general-tab"><span id="File_Delimited_-_General_Tab"></span>File Delimited - General tab</a></li>
+<li><a href="#span-id-file-delimited-advanced-properties-tab-span-file-delimited-advanced-properties-tab"><span id="File_Delimited_-_Advanced_Properties_Tab"></span>File Delimited - Advanced Properties tab</a></li>
+<li><a href="#span-id-excel-general-tab-span-excel-general-tab"><span id="Excel_-_General_Tab"></span>Excel - General tab</a></li>
+<li><a href="#span-id-excel-advanced-properties-tab-span-excel-advanced-properties-tab"><span id="Excel_-_Advanced_Properties_Tab"></span>Excel - Advanced Properties tab</a></li>
+<li><a href="#span-id-file-start-end-general-tab-span-file-start-end-general-tab"><span id="File_Start-End_-_General_Tab"></span>File Start-End - General tab</a></li>
+<li><a href="#span-id-file-start-end-advanced-properties-tab-span-file-start-end-advanced-properties-tab"><span id="File_Start-End_-_Advanced_Properties_Tab"></span>File Start-End - Advanced Properties tab</a></li>
+<li><a href="#span-id-file-width-general-tab-span-file-width-general-tab"><span id="File_Width_-_General_Tab"></span>File Width - General tab</a></li>
+<li><a href="#span-id-file-width-advanced-properties-tab-span-file-width-advanced-properties-tab"><span id="File_Width_-_Advanced_Properties_Tab"></span>File Width - Advanced Properties tab</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

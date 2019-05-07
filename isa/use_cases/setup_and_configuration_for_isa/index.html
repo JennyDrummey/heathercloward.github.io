@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/isa/" class="active">Information Steward Accelerator (ISA) Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/isa/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/isa/page_desc/distribution_workflow_attachment_option/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/edit_workflow_templates/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/isa_parameters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/log_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/metric_summary_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_attribute_value/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_attribute_value_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_attributes/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_filters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_reports/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_user_filters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_users/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distributions_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_quality_dimension_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_quality_dimensions/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_summary_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/report_data_viewer/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/rule_binding_detail/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/rule_binding_list/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/template_isa_external_request_scenario_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/users_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/workflow_h_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/workflow_template/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/workflow_template_detail/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/isa/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/isa/use_cases/access_scorecards/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/activate_columns/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_distributions_to_a_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_rules_using_quality_dimensions/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_rules_to_a_project_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_users_to_a_project_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/assign_prjt_distrib_rules_custom_attribs/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_isa_security_if_the_dgrepository_is_does_not_display_as_a_target_in_collect/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_project_distribution_filters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_user_filters_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_optionsisa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates_at_the_parameter_level/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates_at_the_project_distribution_level/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates_at_the_project__level/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_custom_rules_for_information_steward-initiated_requests/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_language-specific_workflow_email_templates/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_a_request_in_dspcompose_from_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_an_external_request_scenario_for_an_information_steward-initiated_request/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_an_isa_security_role/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/deactivate_columns_for_project_distribution_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/dimension_summary/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/download_isa_metrics_summary_information/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/edit_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/export_is_project_content_in_is/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/external_request_scenarios_that_create_information_steward-initiated_requests/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_summary/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_by_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_by_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/isa-troubleshooting/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/isa_cts_overview/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/is_data_construct/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/map_columns_from_the_template_to_columns_from_the_isa_report/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_prjt_distrib_rule_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_prjt_distrib_user/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_prjt_distrib_user_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_by_project_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_by_project_distribution_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_distribution_user_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_distribution_user_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_distribution_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_project_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_rule_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_user_charts/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/review_the_workflow_email/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/run_rulesrun_workflows_/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/run_tracking/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/run_tracking_page/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/schedule_workflow_notifications/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/selected_dimension_by_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/selected_dimension_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/selected_dimension_by_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/set_parameters_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/setconnectionisrepositorysysadmin/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/setup_and_configuration_for_isa/" class="uk-active"></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/summaries_and_attachments/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs._failures_summary/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs._failures_by_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs._failures_by_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs_failures_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_records_charts/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/update_the_scorecard_link/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/use-the-isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/user_filters_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_isa_dashboards/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_isa_log/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_quality_dimensions_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_reports_for_project_distributions/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_a_users_workflows_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_and_edit_all_workflow_templates_from_one_page/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/work_with_projects_isa/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/isa/config/" class="">Configs</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/isa/config/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/isa/config/config/configure_sap_client_name_for_dspmonitor_reports/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/configure_schedules_on_services_pages/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/configure_dspmonitor_parameters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/configure_the_path_of_the_datadialysis_report_filepath_data_source/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/set_up_security_for_dspmonitor/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#"></a></li>
+        <li><a>ISA</a></li>
+        <li><span></span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="setup-and-configuration-for-isa">Setup and Configuration for ISA</h1>
+
+<p>Before working with ISA, configure settings and create objects in IS and
+Central Management Console (CMC).</p>
+
+<p><span style="font-weight: bold;">NOTE:</span> All of these steps must be
+performed for the ISA to work.</p>
+
+<p>Refer to CMC documentation for information about working in the Central
+Management Console.</p>
+
+<p>Use CMC to:</p>
+
+<ul>
+<li>Create projects</li>
+<li><a href="../Config/Create_a_Database_Connection_to_Store_IS_Failed_Data.htm">Create a Database Connection to Store IS Failed
+Data</a></li>
+</ul>
+
+<p>Use Information Steward to:</p>
+
+<ul>
+<li>Create tables for connections</li>
+<li>Import tables</li>
+<li>Create views</li>
+<li>Create rules</li>
+<li>Bind the rules to tables or views</li>
+<li><a href="../Config/Run_Rules_in_IS.htm">Run the rules</a></li>
+</ul>
+
+<p>Use the System Administration component of the Data Stewardship Platform
+(DSP)® to:</p>
+
+<ol>
+<li>Add Users</li>
+<li>Create an ISA Security Role</li>
+<li>Assign a Key Value of Target -dgRepository_IS to the Security Role</li>
+<li>Add WebApp groups to the security role</li>
+<li>Add Users to the Security Role</li>
+<li>Set the Connection information for the ISSAP data source</li>
+</ol>
+
+<p>Use the Common component of the Data Stewardship Platform (DSP)® to:</p>
+
+<ol>
+<li><a href="../../../Platform/Common/Use_Cases/Register_a_Data_Source_in_Common.htm">Add an SAP Data Services
+Definition</a></li>
+</ol>
+
+<p>Use the Collect component of the Data Stewardship Platform (DSP)® to:</p>
+
+<ol>
+<li><p>Set Data Services ID for the dgRepository_IS target.</p>
+
+<p>In Collect, select Targets &gt; Vertical view for dgRepository_IS &gt;
+Edit &gt; select an option in the Data Services ID list box.</p></li>
+
+<li><p><a href="../Config/Set_Data_Services_Connections.htm">Set Data Services
+Connection</a></p></li>
+
+<li><p><a href="../../../Platform/Collect/Use_Cases/Build_Package_for_Table.htm">Build and Refresh
+tables</a></p></li>
+
+<li><p><a href="../Config/Refresh_Tables_if_Projects_Rules_or_Rule_Bindings_are_Updated.htm">Refresh Tables if Projects, Rules, or Rule Bindings are
+Updated</a></p></li>
+</ol>
+
+<p>Use the ISA to:</p>
+
+<ol>
+<li><a href="Add_Users_to_a_Project_Distribution.htm">Activate Users in a Project
+Distribution</a></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#setup-and-configuration-for-isa">Setup and Configuration for ISA</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

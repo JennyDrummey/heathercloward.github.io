@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Set up and Configuration for a BackOffice IGC Connector Agent :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/agent/" class="active">Agent Interface Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/agent/config/" class="active">Agent Int Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/agent/config/add_a_backoffice_igc_connector_agent_url_in_dsp/" class="">Add a BackOffice IGC Connector Agent URL in DSP</a></li>
+        
+            <li >
+                <a href="/agent/config/install_the_backoffice_igc_connector_agent_service/" class="">Install the BackOffice IGC Connector Agent Service</a></li>
+        
+            <li >
+                <a href="/agent/config/set_up_and_configuration_for_a_backoffice_igc_connector_agent-interface/" class="uk-active">Set up and Configuration for a BackOffice IGC Connector Agent</a></li>
+        
+            <li >
+                <a href="/agent/config/test_a_backoffice_igc_agent_connection_in_dsp/" class="">Test a BackOffice IGC Agent Connection in DSP</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/agent/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/agent/page_desc/api_ping_agent/" class="">API Ping Agent</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/api_status_log/" class="">API Status Log</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/data_quality_report_assignment/" class="">Data Quality Report Assignment</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/parameters/" class="">Parameters</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/wave_identification_h/" class="">Wave Identification H</a></li>
+        
+            <li >
+                <a href="/agent/page_desc/wave_milestones_h/" class="">Wave Milestones H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/agent/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/agent/use_cases/configure_the_migration_dashboard/" class="">Configure the Migration Dashboard</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Agent</a></li>
+        <li><span>Set up and Configuration for a BackOffice IGC Connector Agent</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="set-up-and-configuration-for-a-backoffice-igc-connector-agent">Set up and Configuration for a BackOffice IGC Connector Agent</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p><img src="../../../Resources/Images/AgentDiagram.png" alt="" /></p>
+
+<p>The BackOffice IGC™ Connector Agent is a Windows service that presents
+an HTTP interface to the DSP® on port 8000, and securely communicates
+with the cloud at <a href="https://connect.boaweb.com">https://connect.boaweb.com</a> over an encrypted channel
+using TLS 1.2 or higher. The DSP transmits dspMigrate™ Wave metrics to
+the cloud via the service. To view the Migration dashboard, navigate to
+your instance of IGC (<a href="https://igc.boaweb.com">https://igc.boaweb.com</a>) in a supported web
+browser. If you need help to access your cloud instance, contact your
+Customer Success team at <a href="mailto:CustomerSuccess@boaweb.com">CustomerSuccess@boaweb.com</a>.</p>
+
+<p><strong>NOTE:</strong> Outgoing firewall policies must allow the service to initiate
+a connection to connect.boaweb.com:443.</p>
+
+<p><strong>NOTE:</strong> To install and configure the Connector Agent, you must have
+administration rights on the server where the Connector Agent will be
+installed.</p>
+
+<p><strong>NOTE:</strong> An additional component will need to be added to your DSP
+license to permit access to the Agent Interface WebApp and the Migration
+dashboard. Contact your BOA Account Manager for more information. If you
+do not have contact information then open a support ticket at
+<a href="https://support.boaweb.com/">https://support.boaweb.com</a>.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>DSP 7.0.1 or later must be installed.</p>
+
+<p>Outbound traffic to port 443 and the following domain must be permitted
+so that the Connector Agent can communicate with the IGC:</p>
+
+<ul>
+<li>wss://connect.boaweb.com/ws</li>
+<li><a href="https://connect.boaweb.com/auth">https://connect.boaweb.com/auth</a></li>
+</ul>
+
+<p><strong>NOTE:</strong> The standard deployment configuration requires the Connector
+Agent to be installed on the same server as DSP. For alternative
+configurations please contact support at
+<a href="https://support.boaweb.com/">https://support.boaweb.com</a> for
+assistance.</p>
+
+<h2 id="system-requirements-for-the-backoffice-igc-connector-agent">System Requirements for the BackOffice IGC Connector Agent</h2>
+
+<ul>
+<li>Windows Server 2016</li>
+<li>Windows Server 2012 R2 64-bit</li>
+</ul>
+
+<p><strong>NOTE:</strong> The Migration dashboard can be used in Chrome, Internet
+Explorer 11 and Safari. It is viewable on desktop, iOS 11 or later and
+Android Oreo.</p>
+
+<h2 id="connector-agent-installation">Connector Agent Installation</h2>
+
+<p>The most common deployment scenario for the Connector Agent is
+installation of the Windows Service on the DSP Application Server. An
+overview of the process is below:</p>
+
+<ol>
+<li><p>Contact the IGC Provisioning team at <a href="mailto:licenserequests@boaweb.com">licenserequests@boaweb.com</a> at
+least <strong>3 business days prior</strong> to the day you are ready to install
+the Connector Agent to request:</p>
+
+<ul>
+<li>The Connector Agent installer</li>
+<li>The IGC token you will need to complete the Connector Agent
+install</li>
+<li>A replacement DSP license to enable the Connector Agent
+<br /></li>
+</ul>
+
+<p><strong>NOTE:</strong> During installation of the Connector Agent Windows Service
+you will enter the token provided to you. This token permits secure
+authentication of on-premise components to the IGC tenant containing
+the Migration dashboard where metrics are displayed.</p></li>
+
+<li><p><a href="Install_the_BackOffice_IGC_Connector_Agent_Service.htm">Install the Connector Agent on the DSP application
+server.</a></p></li>
+
+<li><p><a href="Add_a_BackOffice_IGC_Connector_Agent_URL_in_DSP.htm">Add the Agent URL to the <em><a href="../../../Master_Data_Mgmt/dspConduct/Page_Desc/Parameters_IGC.htm">Parameters -
+IGC</a></em>
+page in DSP.</a></p></li>
+
+<li><p><a href="Test_a_BackOffice_IGC_Agent_Connection_in_DSP.htm">Test the connection to the Connector Agent in
+DSP.</a></p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#set-up-and-configuration-for-a-backoffice-igc-connector-agent">Set up and Configuration for a BackOffice IGC Connector Agent</a>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#system-requirements-for-the-backoffice-igc-connector-agent">System Requirements for the BackOffice IGC Connector Agent</a></li>
+<li><a href="#connector-agent-installation">Connector Agent Installation</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

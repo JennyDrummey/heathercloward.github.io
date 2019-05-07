@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dspMigrate Overview on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspmigrate/</link>
+    <description>Recent content in dspMigrate Overview on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspmigrate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Context, the Context Bar, and Navigation in dspMigrate™ Advanced Data Migration (ADM)</title>
+      <link>https://heathercloward.github.io/dspmigrate/context_navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmigrate/context_navigation/</guid>
+      <description>Context, the Context Bar, and Navigation in dspMigrate™ Advanced Data Migration (ADM) Use Console to create a context, which is the combination of a Wave and Process Area, then assign an object, target and source (or multiple objects, targets and sources) to a context. A context creates a consolidated structure across dspMigrate™, which is accessible while working in any dspMigrate™ Advanced Data Migration (ADM) component.
+Generally, a migration project uses the components of dspMigrate™Advanced Data Migration (ADM) in this order:</description>
+    </item>
+    
+    <item>
+      <title>Set Up Security for dspMigrate™ Advanced Data Migration (ADM)</title>
+      <link>https://heathercloward.github.io/dspmigrate/set_up_security_for_dspmigrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmigrate/set_up_security_for_dspmigrate/</guid>
+      <description>Set Up Security for dspMigrate™ Advanced Data Migration (ADM) To set up security for dspMigrate™ Advanced Data Migration (ADM)an Administrator:
+ Creates User Accounts Creates Security Roles Assigns Users to Security Roles Assigns WebApp Groups to Security Roles  NOTE: The security roles needed for a migration project are subject to project team organization, structure and assign the work. For example, if a new role called FieldMapper is created for Map, the assigned security roles WebApp ID/Group ID may look like the following: CranSoft/User, CranPort/User, Console/User and Map/Field Mapper.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for dspMigrate™ Advanced Data Migration (ADM)</title>
+      <link>https://heathercloward.github.io/dspmigrate/setup_and_configuration_for_dspmigrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmigrate/setup_and_configuration_for_dspmigrate/</guid>
+      <description>Setup and Configuration for dspMigrate™ Advanced Data Migration (ADM) Before getting started with dspMigrate™ Advanced Data Migration (ADM), verify the following steps have been completed:
+ Set up System Types and download content. Refer to System Types Overview for detailed information. Create databases used for migration using the naming convention defined in Console. Refer to Set Parameters for Map and Transform for detailed information. Register databases in the Platform. Register elements in Console (Waves, Process Areas, Objects) and Target Design (targets and sources).</description>
+    </item>
+    
+    <item>
+      <title>dspMigrate™ Advanced Data Migration (ADM) Overview</title>
+      <link>https://heathercloward.github.io/dspmigrate/dspmigrate_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmigrate/dspmigrate_overview/</guid>
+      <description>dspMigrate™ Advanced Data Migration (ADM) Overview The Data Stewardship Platform® (DSP)® delivers the core data quality, data migration and information governance functionality. An application suite of the DSP is dspMigrate™Advanced Data Migration (ADM).
+Console Console is the single point for the management and administration for dspMigrate™ Advanced Data Migration (ADM).
+Target Design Design is a component of dspMigrate™ Advanced Data Migration (ADM) used to document tables, fields and sources used in migration projects.</description>
+    </item>
+    
+  </channel>
+</rss>

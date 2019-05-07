@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DSP App Dev Overview on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/webapp-dev/</link>
+    <description>Recent content in DSP App Dev Overview on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/webapp-dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Binding Criteria when Linking to a Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-binding-criteria-when-linking-to-a-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-binding-criteria-when-linking-to-a-page/</guid>
+      <description>Add Binding Criteria when Linking to a Page The Link to Page ID column property allows the page Designer to set the page that opens when a user clicks a control, such as a button.
+By default, when linking from one page to another, the DSP® links the pages using the key field(s).
+However, if the key field(s) are different between linked pages, identity the key field(s) using Binding Field names.</description>
+    </item>
+    
+    <item>
+      <title>Add Column Help Text</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_column_help_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_column_help_text/</guid>
+      <description>Add Column Help Text A page designer can assign help text to a specific column on a page in a custom WebApp. This type of help, called Dynamic Help or Page Column Help, can be added at the WebApp level or the Page level using catalogs. To view column help, hover over the column heading. The help displays below the Navigation pane in the Information pane. By default the column name and field name display if column help has not been added.</description>
+    </item>
+    
+    <item>
+      <title>Add Columns to a Report for a Report Group</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-columns-to-a-report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-columns-to-a-report/</guid>
+      <description>Add Columns to a Report for a Report Group Each report group must have one or more columns. The columns indicate where a group starts.
+Report groups subdivide the columns within a view. It is therefore important that columns appear in the correct order within the view. All columns within a group must be placed to the right of the first report group column. All columns belonging to the Customer group must be placed to the right of CustomerID, but to the left of OrderID.</description>
+    </item>
+    
+    <item>
+      <title>Add Dynamic Help to a Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/adddynamichelptoapage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/adddynamichelptoapage/</guid>
+      <description>Add Dynamic Help to a Page Page help text can be added to any page in a custom WebApp. To view page help, open the page. The help displays below the Navigation pane in the Information pane.
+NOTE: Dynamic help can also be added for columns. Hover a cursor over a column heading that has dynamic help defined, and page-level help is hidden until the user closes the dynamic help for the column.</description>
+    </item>
+    
+    <item>
+      <title>Add Layouts</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-layouts/</guid>
+      <description>Add Layouts A system administrator can add layouts. A layout controls how charts display on a dashboard page. Several layouts are delivered; however, they cannot be modified.
+The Layouts page can be accessed through the Navigation pane, but it is more often accessed as part of creating a dashboard. The user clicks the + icon in the Layout ID field on the Vertical View of the Pages page to access the Layouts page to add the layout as part of dashboard creation.</description>
+    </item>
+    
+    <item>
+      <title>Add List Boxes and Combo Boxes</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_list_boxes_and_combo_boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_list_boxes_and_combo_boxes/</guid>
+      <description>Add List Boxes and Combo Boxes List box and combo box are Control Types that display a field as a list box or text box with options from a selected table or view.
+When creating list views:
+ Use the naming convention webXXXList where XXX describes what is being listed, for example, webProductList. Include only the columns that apply to the List Value, List Display, List Select or List WHERE clause registrations.</description>
+    </item>
+    
+    <item>
+      <title>Add Pages to the *Navigation* Pane</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_pages_to_the_navigation_pane/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_pages_to_the_navigation_pane/</guid>
+      <description>Add Pages to the Navigation Pane Provide access to WebApp pages via the Navigation pane by linking to them.
+NOTE: Pages can also be registered to the Configuration submenu, added as layout pages, or accessed by clicking images or buttons. Refer to Configure the Navigation Pane, Submenus and Links to Pages and Link to a Page Using Buttons and Images for more information.
+To add menu links to the Navigation pane:</description>
+    </item>
+    
+    <item>
+      <title>Add Reserved Columns to Tables</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-reserved-columns-to-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-reserved-columns-to-tables/</guid>
+      <description>Add Reserved Columns to Tables Reserved columns have assigned behaviors and can be added to any table.
+The Data Type indicated must be used for the assigned behavior to work as expected.
+This table lists the most commonly used Reserved columns.
+  Column
+ Data Type
+ Notes
+  boaStatus
+ int
+  As a best practice, should be added to all page tables to record the event status of a record  NOTE: This column is required if there is an OnValidate event on the page where the DSP® needs to set the status of the field.</description>
+    </item>
+    
+    <item>
+      <title>Add a Check Box</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-a-check-box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-a-check-box/</guid>
+      <description>Add a Check Box A check box allows a user to enable or disable a setting. Refer to Add a Control Type to a Column for general information about adding a check box.
+By default, a check box data type is bit in the underlying table using 1 for enabled and 0 for disabled. Additionally, if the data type of the table column in SQL is set to bit, the DSP® assumes the field is a check box and appropriately populate the data with a 1 or 0.</description>
+    </item>
+    
+    <item>
+      <title>Add a Control Type to a Column</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-a-control-type-to-a-column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-a-control-type-to-a-column/</guid>
+      <description>Add a Control Type to a Column Column properties are specified to control the behavior of the Control Types, what is displayed: and how values are stored in a table. Before adding column properties, the control type for the column must be set.
+Controls are:
+  Control
+ Description
+  Button
+ Displays a button that can be clicked to perform an action or navigate to another page.</description>
+    </item>
+    
+    <item>
+      <title>Add a Filtered Combo Box</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_filtered_combo_box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_filtered_combo_box/</guid>
+      <description>Add a Filtered Combo Box Filters are designed to reduce the number of items displayed in the value field or the descriptive field.
+When a filter is applied to a combo box, the Filter icon displays next to the combo box, indicating a filter is enabled.
+Refer to Add List Boxes and Combo Boxes for general information.
+To add a filter to a combo box:
+ Access the Page Columns page&amp;rsquo;s Vertical View for a list box or combo box.</description>
+    </item>
+    
+    <item>
+      <title>Add a Label</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_label/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_label/</guid>
+      <description>Add a Label Label is a Control Type that displays a label to distinguish between Vertical View sections.
+NOTE: The label must be added to the SQL View with NULL in the Column column and the label title in the Alias Column before the label can be created.
+NOTE: DSP® adds spaces to words based on the placement of capital letters in field names. Therefore, all multiple-word field names should be concatenated with capital letters that serve as the demarcation point between the words.</description>
+    </item>
+    
+    <item>
+      <title>Add a Link to the Site Menu</title>
+      <link>https://heathercloward.github.io/webapp-dev/add-a-link-to-the-site-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add-a-link-to-the-site-menu/</guid>
+      <description>Add a Link to the Site Menu A system administrator can add an option site menu that appears when a user clicks the down-down arrow on next to the logo in the DSP.
+To add a link to the site menu:
+ Select Admin &amp;gt; Configuration &amp;gt; Site Menu in the Navigation pane.
+View the field descriptions for the Site Menu page
+ Click Add.
+ Enter a priority in the PRIORITY field.</description>
+    </item>
+    
+    <item>
+      <title>Add a List Selection Field</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_list_selection_field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_list_selection_field/</guid>
+      <description>Add a List Selection Field The List Selection Field is a feature that displays more descriptive text in a list box or a combo box when in add or edit mode. To use this feature, modify the view in SQL and update the List Selection Field in DSP®.
+For example, two fields, ProductID and Description must display in the ProductID list box when in add or edit mode on the Order Details page.</description>
+    </item>
+    
+    <item>
+      <title>Add a Menu to the Navigation Pane</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_menu_to_the_navigation_pane/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_menu_to_the_navigation_pane/</guid>
+      <description>Add a Menu to the Navigation Pane By default, a new WebApp has one menu created called Switchboard. Menus can be registered within menus to allow sub menus to drill through to other options inside the Navigation pane.
+To create a menu:
+ Click Admin &amp;gt; WebApps on the Navigation pane.
+ Click Menus for a WebApp.
+View the field descriptions for the Menus page
+ Click Add.
+ Enter a name in MENU NAME field.</description>
+    </item>
+    
+    <item>
+      <title>Add a Tab</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_tab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_tab/</guid>
+      <description>Add a Tab Tab is a Control Type that displays data on different tabs accessible at the top of a Vertical View. Labels can display on Tabs to further organize the data. Tabs are created like labels by entering NULL in the column in SQL and alias as the Tab name. The view must be updated before the tab can be added in the DSP®.
+To create a tab:</description>
+    </item>
+    
+    <item>
+      <title>Add a Tooltip</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_tooltip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_tooltip/</guid>
+      <description>Add a Tooltip Some columns may benefit from a tooltip, such as images that represent a status. The status name or description could display when a user hovers the cursor over the status icon. For instance, a red light in a column called “Status” could have the tooltip: “X templates failed to process”. A tooltip can also be useful when a field is disabled due to lack of prerequisites. If a “Submit” button is disabled because the record is “Inactive”, then the tooltip can state “Disabled due to being inactive”.</description>
+    </item>
+    
+    <item>
+      <title>Add a Watermark</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_a_watermark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_a_watermark/</guid>
+      <description>Add a Watermark Some columns benefit from a watermark, which displays as grey text in the field.
+A watermark can be added in two ways: A static text watermark can be added to a column, or a view can be registered that displays the watermark depending on certain conditions.
+For example, for list boxes that search for particularly named values/objects a watermark can display the expected formats to ensure that the user understands what’s expected.</description>
+    </item>
+    
+    <item>
+      <title>Add an HTML Area to a Column</title>
+      <link>https://heathercloward.github.io/webapp-dev/add_an_html_area_to_a_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/add_an_html_area_to_a_column/</guid>
+      <description>Add an HTML Area to a Column HTML Area is a Control Type that provides a tool to format text within the field using bold, italics, bulleted and numbered lists and other options. An HTML Area also allows the user to add a link.
+Add an HTML Area control to a column on the Page Columns page&amp;rsquo;s Horizontal View. Refer to Add a Control Type to a Column for more information.</description>
+    </item>
+    
+    <item>
+      <title>Append BOA Reserved Columns to Tables</title>
+      <link>https://heathercloward.github.io/webapp-dev/append_boa_reserved_columns_to_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/append_boa_reserved_columns_to_tables/</guid>
+      <description>Append BOA Reserved Columns to Tables BOA reserved columns are (required fields are indicated by an *):
+ boaStatus* AddedOn* AddedBy* AddedVia* ChangedBy* ChangedOn* ChangedVia* LockedOn LockedBy boaLockType  The required columns above must be added to every table.
+When the user clicks the Append Columns icon on the Page toolbar of the Data Sources page’s Vertical View, most of these reserved columns are appended to all of the tables that do not already have them in the database.</description>
+    </item>
+    
+    <item>
+      <title>Assign Column Properties</title>
+      <link>https://heathercloward.github.io/webapp-dev/assign_column_properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/assign_column_properties/</guid>
+      <description>Assign Column Properties Column Properties are used to control the behavior of fields on a page. Control items, such as List Boxes, Buttons, Labels, and Images, define how columns work with selected properties.
+Refer to Design Pages for general information.
+A user must be assigned to the Power User WebApp group for the WebApp to work with column properties for pages in that WebApp.
+Column properties are applied to view types, which determine the context in which the control appears as configured.</description>
+    </item>
+    
+    <item>
+      <title>Assign Page Properties to a Dynamic Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/assign_page_properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/assign_page_properties/</guid>
+      <description>Assign Page Properties to a Dynamic Page Page Properties are used to control how the page displays and to define actions that can be performed on the page, including functions on the Page toolbar.
+Refer to Page Design Guidelines for general information.
+These page properties can be set for Dynamic pages on the Pages page Vertical View on the General tab or the Advanced Properties tab.
+    Property</description>
+    </item>
+    
+    <item>
+      <title>Business Rule Guidelines</title>
+      <link>https://heathercloward.github.io/webapp-dev/business_rule_guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/business_rule_guidelines/</guid>
+      <description>Business Rule Guidelines  Business Rules are stored procedures which are generally created from a select view. Common naming for stored procedures is webTable_Event_Description#Action where:  Table – Table registered to the page that calls the business rule Event – Event that calls the business rule Description - Procedure description or field being modified # – An optional number to prevent duplication Action – Action performed by stored procedure: &amp;lsquo;Upd&amp;rsquo; if update; &amp;lsquo;Ins&amp;rsquo; if insert; &amp;lsquo;Del&amp;rsquo; if delete  Name stored procedures that include a select query view the same as the select view, without the &amp;lsquo;Sel&amp;rsquo; suffix.</description>
+    </item>
+    
+    <item>
+      <title>Business Rules</title>
+      <link>https://heathercloward.github.io/webapp-dev/business_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/business_rules/</guid>
+      <description>Business Rules During the design of a WebApp, business rules can be incorporated into each page or for a specific field triggering an action or event. For example, business rules can be created on the Customers page to force a customer’s name to display in all upper case letters, or to default Date Shipped to be the same as Order Date. A page Designer can add a button with a business rule that, when clicked, runs the rule that adds one day to the Date Shipped date.</description>
+    </item>
+    
+    <item>
+      <title>Column Encryption</title>
+      <link>https://heathercloward.github.io/webapp-dev/column_encryption/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/column_encryption/</guid>
+      <description>Column Encryption Column-level encryption is used to deny unauthorized users and users with access to the underlying database visibility to information of a sensitive nature.
+Terminology  FIPS 197 Compliance – Federal Information Processing Standard 197 is a US Government standard that provides best practices for implementing crypto algorithms, handling key material and data buffers, and working with the operating system. Decrypt/Pass – When reading data from an encrypted column, the decrypt mechanism is designed to look at the data, find the magic marker and attempt to decrypt the data.</description>
+    </item>
+    
+    <item>
+      <title>Configure Report Generation for Linked Pages</title>
+      <link>https://heathercloward.github.io/webapp-dev/configure-report-generation-for-linked-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/configure-report-generation-for-linked-pages/</guid>
+      <description>Configure Report Generation for Linked Pages A report can contain data from multiple pages. When a report is generated, the generator starts by collecting data from the current page and pulls data from any linked pages.
+By default, the Report Follows Link column property is disabled for all page links.
+To instruct the report generator to follow a link:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Pages icon for a WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Configure boaReport Reserved Column</title>
+      <link>https://heathercloward.github.io/webapp-dev/configure-boareport-reserved-column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/configure-boareport-reserved-column/</guid>
+      <description>Configure boaReport Reserved Column When the boaReport reserved column is included in a Horizontal or Vertical View, a Report icon displays. If the value of boaReport is 1, the icon is enabled; if 0, the icon is disabled.
+When generating a report on a page, the report is filtered down to a single record. If the record links to any other pages and the Report Follows Link column property is enabled, the report generator follows the link and includes the downstream pages in the report.</description>
+    </item>
+    
+    <item>
+      <title>Configure the Navigation Pane, Submenus and Links to Pages</title>
+      <link>https://heathercloward.github.io/webapp-dev/configure_the_navigation_pane_submenus_and_links_to_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/configure_the_navigation_pane_submenus_and_links_to_pages/</guid>
+      <description>Configure the Navigation Pane, Submenus and Links to Pages SQL table data is presented through standard views when registered in the DSP® server throughout the web interface. Create pages and additional menus by registering tables and views from the underlying database to link them together.
+Once built, the WebApp layout contains menus that link to pages. Some menus are automatically created and added to the Navigation pane when the WebApp is built.</description>
+    </item>
+    
+    <item>
+      <title>Consolidation</title>
+      <link>https://heathercloward.github.io/webapp-dev/consolidation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/consolidation/</guid>
+      <description>Consolidation Another problem is making sure you choose the most appropriate control mechanism to achieve the end goal. Most individual mechanisms can implement the same behavior in one way or the other. However, some may require much less computational logic.
+An example of this is that a DCV can contain a boaUserID, which can allow for a cell to be controlled exclusively off of the boaUserID. For instance:
+SELECT boaUserSel.</description>
+    </item>
+    
+    <item>
+      <title>Control Status Fields</title>
+      <link>https://heathercloward.github.io/webapp-dev/control_status_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/control_status_fields/</guid>
+      <description>Control Status Fields This feature has been deprecated due to the complexity it can add to views which are laden in control status fields, but in very simple cases, it can be utilized without bloating the data views. Control Status field is a field within the pages view (Horizontal, Vertical, Toolbar, etc.) which acts the same way as a Data Control View.
+When used sparingly, it can result in pages that perform well and are still easy to understand.</description>
+    </item>
+    
+    <item>
+      <title>Control Status Manipulation Overhead Minimization</title>
+      <link>https://heathercloward.github.io/webapp-dev/control_status_manipulation_overhead_minimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/control_status_manipulation_overhead_minimization/</guid>
+      <description> Control Status Manipulation Overhead Minimization Complex logic to determine whether to enable, disable, or hide page elements can often have the biggest negative impact on page performance. Since there are several different sets of control status manipulators, it can be difficult to pick the right one based on the context of the page.
+Refer to Control Views for more information.
+This section contains these topics:
+ Control Status Fields Precedence Consolidation Simplification  </description>
+    </item>
+    
+    <item>
+      <title>Control Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/control_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/control_views/</guid>
+      <description>Control Views Run Time Control Views (RTCV) provide a way to define column control at run time based on the data. This view type defines standard DSP® control statuses for columns on a page. These columns are based on data rather than a column property.
+Control statuses are:
+ 0 – Disabled 1 – Enabled 2 – Hidden  In addition, select BOA™ Reserved Columns can be defined in a RTCV, for example, boaAdd, boaEdit and boaDelete.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Layout</title>
+      <link>https://heathercloward.github.io/webapp-dev/copy-a-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/copy-a-layout/</guid>
+      <description>Copy a Layout Several layouts are delivered; however, they cannot be modified as they are assigned to pages in the DSP®. Users may copy delivered layouts and modify as needed.
+NOTE: If a custom layout needs to be modified, it must be unassigned from the page.
+Refer to Add Layouts and Create a Dashboard for more information.
+To copy a layout:
+ Select Admin &amp;gt; Configuration &amp;gt; Layouts in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Page in a WebApp</title>
+      <link>https://heathercloward.github.io/webapp-dev/copy_a_page_in_a_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/copy_a_page_in_a_webapp/</guid>
+      <description>Copy a Page in a WebApp Instead of designing a page, a user can create a page based on a copy of an existing page in a WebApp. It can have a different name and can be placed in the same WebApp or another WebApp. The entire page and all dependents, such as Column Properties, Events, Validations, Business Rules and/or WebApp Security Groups can be copied.
+Refer to Page Design Overview for general information.</description>
+    </item>
+    
+    <item>
+      <title>Create Chart Drill Down</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_chart_drill_down/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_chart_drill_down/</guid>
+      <description>Create Chart Drill Down Charts can be linked together or linked to any page type (chart, dynamic, static, dashboard, header detail, etc.). If a chart is linked to another page, when a user clicks a chart section (a pie slice in a pie chart, a bar in a bar chart, etc.), a data page or another chart displays to show additional details.
+To create a drill down to link a chart to any page type:</description>
+    </item>
+    
+    <item>
+      <title>Create Dashboards and Charts</title>
+      <link>https://heathercloward.github.io/webapp-dev/dashboards_and_charts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/dashboards_and_charts/</guid>
+      <description>Create Dashboards and Charts BackOffice Associates® Solutions supports the ability to create charts and dashboards to display data. Individual charts of data are created by using the Chart page type. Dashboards are created using the Dashboard page type to create a collection of charts. For example, a dashboard can be configured to display tables as a bar chart and the package types used for downloads as a pie chart. A Combination Chart can be created to combine multiple chart types (pie, column, line, and dotted line) on a single chart page.</description>
+    </item>
+    
+    <item>
+      <title>Create Events</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_events/</guid>
+      <description>Create Events Events are actions that contain validation rules and/or business rules. Validation rules run first and validate data before executing any rules. Business rules run after validation rules complete and perform an action. They can be incorporated into each page or for a specific field triggering an action or event. Validation rules always run in the foreground; however, business rules can be specified to run in the foreground or in the background, depending on the complexity.</description>
+    </item>
+    
+    <item>
+      <title>Create Report Groups</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-report-groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-report-groups/</guid>
+      <description>Create Report Groups The view used to render a report can contain denormalized data. Such data can be organized into a hierarchically structured report using Report groups. Report groups can be defined at the page level for Dynamic and Report page types.
+To demonstrate, a view that joins the Customers, Order and Order Details tables produces a denormalized data set. This data set contains redundant information as shown in the following table:</description>
+    </item>
+    
+    <item>
+      <title>Create Report Pages</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-report-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-report-pages/</guid>
+      <description>Create Report Pages A Report page has a subset of the features available on a Dynamic page. Report pages are not editable. They do not have a Horizontal or Vertical View, only a report view. Like a Dynamic page, a Report page supports report groups for organizing a denormalized data set. Refer to Create Report Groups for more information.
+In addition, by default a Report page can be rendered as a report when the user clicks the Report option from the Page Options (small gear) drop-down.</description>
+    </item>
+    
+    <item>
+      <title>Create Report Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-report-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-report-views/</guid>
+      <description>Create Report Views The first step in creating a report is to create a report view in SQL Server. If a page has a report view, the report view is registered to the page instead of the Horizontal or Vertical View. Therefore, reports generated from Dynamic pages can display data for both the Horizontal and Vertical View.
+NOTE: Report views are optional on Dynamic page reports. Refer to Enable Dynamic Page Reporting for more information.</description>
+    </item>
+    
+    <item>
+      <title>Create Reports</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-reports/</guid>
+      <description>Create Reports The DSP® supports rendering a page or collection of pages as a report. A report is a read-only representation of the data. Any Dynamic DSP® page can be rendered as a report. A single report can contain data from one or more DSP® pages. Data from a single page can be organized using report groups.
+There are two types of reporting:
+ Dynamic Page Reports – A report invoked on any Dynamic page for which the Support Report option has been enabled.</description>
+    </item>
+    
+    <item>
+      <title>Create Tables in SQL</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_tables_in_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_tables_in_sql/</guid>
+      <description>Create Tables in SQL The majority of the pages in a WebApp are Dynamic page types and require an underlying table and a view.
+Refer to Create Views in SQL for more information.
+Well-designed tables allow for an efficient and easy to develop WebApp. Both naming conventions and standard SQL design practices can contribute to the longevity and extensibility of an application.
+Refer to Table Naming Conventions for more information.</description>
+    </item>
+    
+    <item>
+      <title>Create Views in SQL</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_views_in_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_views_in_sql/</guid>
+      <description>Create Views in SQL All Dynamic pages in DSP® are based on a view.
+When creating page views:
+ Do not include Order By statements. The Order By page property in DSP® must be used. Refer to Order By for more information. Name the column names in the table so that the contents of the column are self-explanatory. Do not alias column names in views solely for display purposes unless it is necessary to avoid duplicate column names in a view or to avoid adding labels and tabs.</description>
+    </item>
+    
+    <item>
+      <title>Create a Chart Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_a_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_a_chart/</guid>
+      <description>Create a Chart Page NOTE: When making a chart page, DSP® assumes the very first column in the view is the category and the second column in the view is the value and automatically defines the column properties. It is best practice to have the first column be the category and the second column be the value. Any other columns for binding or description, display or ordering can then be added.</description>
+    </item>
+    
+    <item>
+      <title>Create a Combination Chart</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-a-combination-chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-a-combination-chart/</guid>
+      <description>Create a Combination Chart A combination chart gives a page Designer the ability to combine multiple chart types (pie, column, line, dotted line) on a single chart page.
+To add a combination chart page:
+ Click the Change Settings icon on the Site toolbar while on any page.
+ Select Add Page, the Pages page displays in a new window.
+ Enter a description of the chart in the DESCRIPTION field.</description>
+    </item>
+    
+    <item>
+      <title>Create a Dashboard Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_a_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_a_dashboard/</guid>
+      <description>Create a Dashboard Page A Dashboard page can be created to display one or more charts. Dashboards are associated with a layout to determine how the charts display. A layout controls how and which charts display. DSP® comes delivered with Layout Templates that can be copied but not modified. Custom layouts can be created.
+Layouts can also be added to the Layouts page. Refer to Add Layouts for more information.</description>
+    </item>
+    
+    <item>
+      <title>Create a Dynamic Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/register_a_dynamic_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/register_a_dynamic_page/</guid>
+      <description>Create a Dynamic Page The most commonly used page type, a Dynamic page requires a view and an underlying table. It renders on the fly using the configured settings in the administrative interface.
+A Dynamic page:
+ Displays appropriate data using the Horizontal and Vertical Views in the database. Enables proper controls for adding, editing, and deleting records. Sorts the page data as configured. Determines ability to add, edit, delete or sort records on a page.</description>
+    </item>
+    
+    <item>
+      <title>Create a Header Detail Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_header_detail_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_header_detail_pages/</guid>
+      <description>Create a Header Detail Page Header Detail pages, also called Layout pages, are a Page Type that displays two linked pages in parent and dependent panes.
+When creating a Header Detail page:
+ A table is not required. The two pages with views and tables (as in, the parent and child page) must be registered to the WebApp but not registered to the Navigation pane. The two pages must be linked with the Link to Page ID column property.</description>
+    </item>
+    
+    <item>
+      <title>Create a Service Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-a-service-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-a-service-page/</guid>
+      <description>Create a Service Page A Service page is a non-interactive page configuration that allows events to be configured and executed on a time-based Unit of Measure (UOM). Service pages are commonly used for automating a process to execute business logic against a specific record set. This could range from executing public WebApp events (for instance, running CranPort packages) to trimming log tables in a custom application.
+Since these pages are non-interactive, the user configured as the “Service” user (Configuration &amp;gt; Parameters &amp;gt; Service Options &amp;gt; Service User ID) must have permissions to this page.</description>
+    </item>
+    
+    <item>
+      <title>Create a Static Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/create-a-static-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create-a-static-page/</guid>
+      <description>Create a Static Page A static page can display text only or can link to traditionally created web pages stored and registered on the DSP® server.
+Static pages can be used to display information that does not frequently change, such as help text or directions on how to use a WebApp. A static page is often the first page that displays when a user clicks the WebApp name in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Create a Stored Procedure Business Rule</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_a_business_rule_for_a_field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_a_business_rule_for_a_field/</guid>
+      <description>Create a Stored Procedure Business Rule Refer to Business Rule Guidelines for general information.
+To create a business rule for a field in DSP Application Development:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Pages icon for the WebApp. Click the Events icon for the page.  OR
+ Access the WebApp page.
+ Click the Change Settings icon on the Site toolbar.
+ Click Design.</description>
+    </item>
+    
+    <item>
+      <title>Create a WebApp</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_a_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_a_webapp/</guid>
+      <description>Create a WebApp Create a WebApp and associate it with a registered data source.
+To create a WebApp:
+ Click Admin &amp;gt;WebApps in the Navigation pane.
+ Click Add.
+  Enter a name in the WEB APPNAME field.
+NOTE:  Make sure it is typed correctly; changing the WebApp name later is not recommended.
+ Select the data source from DATASOURCEID list box.
+NOTE:  The Data Source ID is the logical name of the SQL Server Database.</description>
+    </item>
+    
+    <item>
+      <title>Create a WebApp Event (Private) Business Rule</title>
+      <link>https://heathercloward.github.io/webapp-dev/createwebappeventprivatebusinessrule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/createwebappeventprivatebusinessrule/</guid>
+      <description>Create a WebApp Event (Private) Business Rule A WebApp Event (Private) allows you to execute an event that already exists on the page.
+Private events are like public events, but only events on the same page can call that event. The use of private events helps reduce code duplication.
+For example, a large event must run on a page after a few steps run. Add a button that when clicked, runs these steps before calling that large event.</description>
+    </item>
+    
+    <item>
+      <title>Create a WebApp Event Business Rule</title>
+      <link>https://heathercloward.github.io/webapp-dev/createwebappeventbusinessrule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/createwebappeventbusinessrule/</guid>
+      <description>Create a WebApp Event Business Rule A WebApp Event allows you to execute an event that already exists on a different page. For instance, you can create a button in a custom app that runs the same event as the Refresh Table button in Collect. Since the functionality for refreshing a table already exists in Collect, this allows you to call it from anywhere without duplicating the code.
+Refer to Business Rule Guidelines for general information.</description>
+    </item>
+    
+    <item>
+      <title>Create a WebApp in DSP®</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_a_webapp_in_dsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_a_webapp_in_dsp/</guid>
+      <description>Create a WebApp in DSP® Once the database is created, the WebApp can be created in the DSP®. The database must be registered and the WebApp created and added to the Navigation pane.
+NOTE: By default, the BackOffice Associates® Solutions license allows for the development of five custom WebApps.</description>
+    </item>
+    
+    <item>
+      <title>Create a Workflow</title>
+      <link>https://heathercloward.github.io/webapp-dev/create_a_workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/create_a_workflow/</guid>
+      <description>Create a Workflow Workflow is an email notification method called from within a WebApp where an email or multiple emails are sent to one or more recipients upon the execution of an event.
+If a workflow requires a user to log in to DSP® to perform a function, a link can be included in an email to navigate directly to the relevant page in the WebApp. The recipient of the workflow email must have DSP® security to the page in the WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Create an External Page Business Rule</title>
+      <link>https://heathercloward.github.io/webapp-dev/createexternalpagebusinessrule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/createexternalpagebusinessrule/</guid>
+      <description>Create an External Page Business Rule An External Page rule allows you to execute a plugin as the event action to determine whether the associated record is valid. The validation fails if a non-zero result is returned.
+Refer to Business Rule Guidelines for general information.
+To create an External Page Business Rule for a field in DSP Application Development:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Pages icon for the WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Security View Guidelines</title>
+      <link>https://heathercloward.github.io/webapp-dev/creating_a_security_view_guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/creating_a_security_view_guidelines/</guid>
+      <description>Creating a Security View Guidelines In most cases, Security Definition views should be created using the original source of the data that the view will be securing against. This way, when new records are added, the security view will implicitly contain those records.
+It’s also a good idea to apply the security definition to the page(s) that maintain the source of the data. This way, the “Update User Definition on Save” option can be enabled on those pages, ensuring that the user who creates the data will always have implicit access.</description>
+    </item>
+    
+    <item>
+      <title>Customize Dashboard Pages</title>
+      <link>https://heathercloward.github.io/webapp-dev/customize_dashboard_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/customize_dashboard_pages/</guid>
+      <description>Customize Dashboard Pages Dashboard customization allows users to swap out charts and tabular data within shipped dashboards with any chart or tabular data from any other application. This functionality is extended to allow for a multi-tiered setup, which supports site level, role level, and individual user level configurations to be made by customization administrators.
+NOTE: The ** Page Customization page displays only those pages in the in the WebApp that allow customization.</description>
+    </item>
+    
+    <item>
+      <title>Data Control Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/data_control_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/data_control_views/</guid>
+      <description>Data Control Views Data Control Views are created in SQL and define control based on what is known about the data on the page. For example, a DCV could be used to determine if a record can be edited or deleted or if buttons are disabled based on the state of the record.
+Once created in SQL, the view must be registered to the page in DSP® (Admin &amp;gt; WebApps &amp;gt; Pages &amp;gt; Vertical View &amp;gt; Control Views tab).</description>
+    </item>
+    
+    <item>
+      <title>Database Design</title>
+      <link>https://heathercloward.github.io/webapp-dev/database_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/database_design/</guid>
+      <description> Database Design All WebApps are based on a database which is registered as a data source in DSP®. Each page in the WebApp is based on a table and view in the database. Additional tables and views can be created and registered as list boxes, combo boxes, business rules, validation rules, workflows, control views and more.
+This section contains these topics:
+ Create Tables in SQL Create Views in SQL  </description>
+    </item>
+    
+    <item>
+      <title>Decrypt Data</title>
+      <link>https://heathercloward.github.io/webapp-dev/decrypt-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/decrypt-data/</guid>
+      <description>Decrypt Data On the Decrypt page, users can perform an ad hoc decryption of encrypted data. For instance, when reviewing data in SQL, a user may need to know the value of one of the encrypted columns. The user could paste the encrypted value into this page to view the decrypted value.
+The Decrypt page can also be used to test the decryption process to ensure it is working and set up correctly.</description>
+    </item>
+    
+    <item>
+      <title>Drop Audit Tables</title>
+      <link>https://heathercloward.github.io/webapp-dev/drop_audit_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/drop_audit_tables/</guid>
+      <description>Drop Audit Tables Two users are required to drop audit tables.The first user requests the drop and within 24 hours, the second user drops the audit tables.
+Refer to Enable Audit Trail &amp;amp; Electronic Signature for general information.
+To drop the Audit Trail:
+ Click Admin &amp;gt; Data Sources on the Navigation pane.
+ Click Audit for the WebApp’s data source.
+ Click Tables  Click Vertical View.
+  The first user clicks the Request Drop button.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Views for Multiple Control Fields</title>
+      <link>https://heathercloward.github.io/webapp-dev/dynamic_views_for_multiple_control_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/dynamic_views_for_multiple_control_fields/</guid>
+      <description>Dynamic Views for Multiple Control Fields This section contains an example of an alternative option to using a Data Control View to manage the way the fields display on a Vertical View. This method is to only be used when there are many control field options.
+The steps below provide an example of creating Dynamic Views on a page where a selection in a list box entered on the Horizontal view controls the fields displayed on the Vertical View.</description>
+    </item>
+    
+    <item>
+      <title>Effectively Implementing Security Definitions (Role Security)</title>
+      <link>https://heathercloward.github.io/webapp-dev/effectively_implementing_security_definitions_role_security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/effectively_implementing_security_definitions_role_security/</guid>
+      <description>Effectively Implementing Security Definitions (Role Security) Security Definitions (commonly referred to as Role Security Configuration) is a feature that enables application developers to:
+ Internally restrict data access to particular users (or roles) and Provide an external API to other applications to secure their data on the source of the data itself. This allows inter-dependent applications to share a single security model across the platform.  Refer to Set Security for a Custom WebApp for general information.</description>
+    </item>
+    
+    <item>
+      <title>Enable Audit Trail and Electronic Signature</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_audit_trail_electronic_signature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_audit_trail_electronic_signature/</guid>
+      <description>Enable Audit Trail and Electronic Signature Any edits to a record can be tracked through an Audit Trail. When the Audit Trail is enabled on a table, an Audit icon displays next to each record. Clicking the icon opens a window that displays the date and time of the change, who changed the record, and the values before and after the change.
+When Audit Trail is enabled, three tables are automatically created in the database: XXXXAudit, XXXXAuditColumn and XXXXAuditProcedure, where XXXX is the name of the table being audited.</description>
+    </item>
+    
+    <item>
+      <title>Enable Audit Trail on a Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_audit_trail_on_a_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_audit_trail_on_a_page/</guid>
+      <description>Enable Audit Trail on a Page There are two options to select when adding a new table:
+ Enable Auditing – If checked, any additions or changes made to data in the table are maintained in the audit tables. Audit Procedures – If checked, a record of every stored procedure that runs against a record as part of a DSP Page Event is maintained in the audit tables.  Refer to Enable Audit Trail &amp;amp; Electronic Signature for general information.</description>
+    </item>
+    
+    <item>
+      <title>Enable Dynamic Image</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_dynamic_image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_dynamic_image/</guid>
+      <description>Enable Dynamic Image Dynamic Image is a Column Property that displays an image uploaded to a record instead of file path. The value returned by the view in this column can be:
+ A file path to an image on the web server A GUID value representing the ImageID in System Administration &amp;gt; Images A unique image name, referenced from the Image Name in System Administration &amp;gt; Images  Dynamic Image can be enabled for these controls:</description>
+    </item>
+    
+    <item>
+      <title>Enable Dynamic Page Reporting</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable-dynamic-page-reporting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable-dynamic-page-reporting/</guid>
+      <description>Enable Dynamic Page Reporting Reporting can be enabled for any Dynamic page. Dynamic page reporting is controlled by the Support Report option. When this option is selected, the Report option is available from the Page Options drop-down (small gear) on the Dynamic page.
+NOTE: Report pages support reports by default, setting this option is only required for Dynamic pages.
+To enable reporting for a Dynamic page:
+ Select Admin &amp;gt; WebApps in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Enable Electronic Signature</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_electronic_signature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_electronic_signature/</guid>
+      <description>Enable Electronic Signature When users save changes to an existing record, they may be prompted to sign the changes. This authorization occurs only if the users have changed a value in a column for which electronic signature is enabled.
+Refer to Enable Audit Trail &amp;amp; Electronic Signature for general information.
+To enable Electronic Signature:
+ Access the WebApp page. Right-click the column heading requiring the electronic signature. Select Edit (Control Name).</description>
+    </item>
+    
+    <item>
+      <title>Enable File Upload and Download</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_file_upload_download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_file_upload_download/</guid>
+      <description>Enable File Upload and Download The Files Column Property is used to stage any type of file including graphics, text, Word or Excel files. Files are stored in a specific location on the web server and are enabled for download.
+This feature is available for the File control only.
+To enable file upload and download:
+ Access the Page Columns page for a column with a File control.
+ Click Edit.</description>
+    </item>
+    
+    <item>
+      <title>Enable List Allow Insert</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_list_allow_insert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_list_allow_insert/</guid>
+      <description>Enable List Allow Insert List Allow Insert is a list box and combo box search mechanism if the value stored in the field is known or additional values not available in the list need to be added. If this property is enabled, the value entered displays under the search box for the list box or combo box. Click the value entered to use that value.
+Options for List Allow Insert are:</description>
+    </item>
+    
+    <item>
+      <title>Enable List Unique</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_list_unique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_list_unique/</guid>
+      <description>Enable List Unique List Unique is a Column Property that displays list box or combo box values not previously selected in another record on the page. If the record has already been added, the List Unique property removes it from the list box or combo box, leaving only the records that have not been selected.
+Refer to Add List Boxes and Combo Boxes for general information.
+To enable List Unique:</description>
+    </item>
+    
+    <item>
+      <title>Enable List Where Clause</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_list_where_clause/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_list_where_clause/</guid>
+      <description>Enable List Where Clause Add a list Where Clause to restrict the values that display in a list box or combo box.
+Refer to Add List Boxes and Combo Boxes for general information.
+To create a List Where Clause:
+ Access the Page Columns page Vertical View for a list box or combo box.
+ Click Edit.
+View the field descriptions for the Page Columns page
+ Click the Advanced Properties tab.</description>
+    </item>
+    
+    <item>
+      <title>Enable Show in Navigation</title>
+      <link>https://heathercloward.github.io/webapp-dev/enable_show_in_navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/enable_show_in_navigation/</guid>
+      <description>Enable Show in Navigation Show in Navigation sets the values that display when a page title is expanded in the Navigation pane. By default it displays the Primary Key from the underlying table.
+View an example of this in the DSP® by clicking Admin &amp;gt; Security &amp;gt; WebApp Security. The list of WebApps displays below WebApp Security in the Navigation pane.
+Show in Navigation is available for the Text Box and List Box controls.</description>
+    </item>
+    
+    <item>
+      <title>Encrypt a Column</title>
+      <link>https://heathercloward.github.io/webapp-dev/encrypt_a_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/encrypt_a_column/</guid>
+      <description>Encrypt a Column Refer to Column Encryption for general information.
+To encrypt a column:
+ Click Admin&amp;gt; Data Sources on the Navigation pane. Click Encryption for the WebApp. Select the name of the table that contains the column from TableName list box. Select the column name to encrypt from Column Name list box. Select System Administration Passwords from Key ID list box. Click Save. Click Enable button under the Encryption column to encrypt the values.</description>
+    </item>
+    
+    <item>
+      <title>Event Design Process</title>
+      <link>https://heathercloward.github.io/webapp-dev/event_design_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/event_design_process/</guid>
+      <description>Event Design Process Below is a list of questions to ask to ensure an event is fully implemented with all available and relevant features.
+Refer to Create Events for general information.
+NOTE: When creating an event, a key column property must be set if the page is based on a view or if the page doesn’t have a primary key. For example, a user creates a background event that runs on a Vertical View, but the parameter, the primary key, only displays on the Horizontal View.</description>
+    </item>
+    
+    <item>
+      <title>Execute a Boomi Process From a Custom Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/execute-a-boomi-process-from-a-custom-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/execute-a-boomi-process-from-a-custom-page/</guid>
+      <description>Execute a Boomi Process From a Custom Page Using a public plugin, a WebApp Developer can execute Processes created in Boomi. This allows integration with a wide variety of external systems, as defined by Connectors.
+Boomi Processes can be used, for example, to validate, import, and export data or to execute automation tasks, but are not limited to these actions.
+Before performing these steps:
+ The Boomi Process can exist in Boomi.</description>
+    </item>
+    
+    <item>
+      <title>Guidelines for Horizontal Page Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/guidelines_for_horizontal_page_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/guidelines_for_horizontal_page_views/</guid>
+      <description>Guidelines for Horizontal Page Views When creating a Horizontal Page View:
+ Make the first column(s) in the views the keys from the table that will be registered to the page to which the Horizontal View is assigned. Limit the number of fields on the view to avoid horizontal scrolling in DSP®  Add columns in an order so that the flow of the page processes from left to right.</description>
+    </item>
+    
+    <item>
+      <title>Guidelines for Vertical Page Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/guidelines_for_vertical_page_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/guidelines_for_vertical_page_views/</guid>
+      <description>Guidelines for Vertical Page Views The Vertical View should contain the columns on the Horizontal View and all additional columns. Additional properties can be applied to organize the Vertical View to eliminate vertical scrolling.
+When creating a Vertical Page View:
+ Make the first column(s) in the view the keys from the table that will be registered to the page to which the Vertical View is assigned. Add columns in an order so that the workflow of the page processes from top to bottom.</description>
+    </item>
+    
+    <item>
+      <title>Guidelines for the Navigation Pane</title>
+      <link>https://heathercloward.github.io/webapp-dev/guidelines_for_the_navigation_pane/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/guidelines_for_the_navigation_pane/</guid>
+      <description>Guidelines for the Navigation Pane The Navigation pane on the left displays page links to the WebApp.
+The following are the suggested menu links on the Navigation pane for each WebApp (in this order, from top to bottom):
+ WebApp Name – Displays the name of the current WebApp with the proper trademark. This menu item links to the WebApp home page or message board. Configuration – A submenu often created to link to the multiple pages available under Configuration.</description>
+    </item>
+    
+    <item>
+      <title>Hide a Column from Download</title>
+      <link>https://heathercloward.github.io/webapp-dev/hide-a-column-from-download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/hide-a-column-from-download/</guid>
+      <description>Hide a Column from Download A Page Designer can set the columns available for download for a page in a custom WebApp. This setting is useful, for example, if columns contain sensitive data that must not be distributed, or if data is duplicated across columns.
+After the user selects the Download option on the Page Settings menu, the fields available for download display on the Fields tab. By default, all columns on a page can be downloaded.</description>
+    </item>
+    
+    <item>
+      <title>Hide a Page Column on a Report</title>
+      <link>https://heathercloward.github.io/webapp-dev/hide-a-page-column-on-a-report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/hide-a-page-column-on-a-report/</guid>
+      <description>Hide a Page Column on a Report Column properties control what data (i.e., what columns/fields) are visible on the report. A column property with a Report View Type only applies when the page is rendered as a report. Standard column property inheritance rules apply. For example, a Report View Type in column property inherits from the wildcard column property.
+Column properties can be used on both Dynamic page reports and Report pages.</description>
+    </item>
+    
+    <item>
+      <title>Horizontal vs. Vertical Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/horizontal_vs_vertical_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/horizontal_vs_vertical_views/</guid>
+      <description>Horizontal vs. Vertical Views Every dynamic page in DSP® must have either a Horizontal and/or a Vertical View.
+The basic principle of page design is to keep the Horizontal View simple, and have more lengthy elaborate data on the Vertical View. Multi-row rendering of the data is responsive and less overwhelming to the user, while the slower computation / dense data displays on the Vertical View, which is loaded on demand.</description>
+    </item>
+    
+    <item>
+      <title>Improve Page Load Performance Related to List Boxes</title>
+      <link>https://heathercloward.github.io/webapp-dev/improve_page_load_performance_related_to_list_boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/improve_page_load_performance_related_to_list_boxes/</guid>
+      <description>Improve Page Load Performance Related to List Boxes List boxes can often be a source of performance degradation due to their elaborate configurations and lengthy lookup times that may have to occur at a cell level. Even if disabled, on the loading of the page, the cell value must be looked up to display to the user. If several list boxes are located on the Horizontal View, page load time can be severely inflated.</description>
+    </item>
+    
+    <item>
+      <title>Include all Page Details in Reports</title>
+      <link>https://heathercloward.github.io/webapp-dev/include_all_page_details_in_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/include_all_page_details_in_reports/</guid>
+      <description>Include all Page Details in Reports Report Follows Link is enabled by default and generates a report for the current Dynamic page for the Horizontal or Vertical Views.
+This option is available for the Image control type only.
+A report containing data from multiple pages may need to be generated. By clicking the Page settings gear and selecting Report, the report follows any and all page links associated with the primary page.</description>
+    </item>
+    
+    <item>
+      <title>Link to Report Pages</title>
+      <link>https://heathercloward.github.io/webapp-dev/link-to-report-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/link-to-report-pages/</guid>
+      <description>Link to Report Pages Dynamic and Report pages are typically rendered in a horizontal or vertical mode when the page first displays. This allows a user to sort or filter the page before clicking the Report option from the Page Options drop-down.
+A Page Designer can use the Link to Report option to link directly to the report version of a page to bypass the Horizontal or Vertical View. Once this option is enabled, when a user clicks the link in the column, the Report page displays.</description>
+    </item>
+    
+    <item>
+      <title>Link to a Page Using Buttons and Images</title>
+      <link>https://heathercloward.github.io/webapp-dev/link_to_a_page_using_buttons_and_images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/link_to_a_page_using_buttons_and_images/</guid>
+      <description>Link to a Page Using Buttons and Images The Link to Page ID column property allows the user to set the page that opens when an end user clicks a control.
+NOTE: The Link to Page setting is available with other control types, such as text box and Date Time. When using the Link to Page setting with control types other than image, button and toolbar, the text in the field displays with an underline.</description>
+    </item>
+    
+    <item>
+      <title>Link to a Report from a Page</title>
+      <link>https://heathercloward.github.io/webapp-dev/link_to_a_report_from_a_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/link_to_a_report_from_a_page/</guid>
+      <description>Link to a Report from a Page Images and buttons can be added to columns to be used as links to reports. By default, page links render data using the normal Horizontal or Vertical View with add/edit/delete capability. Link to Report provides a mechanism to access a page as read only, even if that page allows add, edit or delete capabilities. The user does not have to modify the defaulted page properties.</description>
+    </item>
+    
+    <item>
+      <title>Modify Chart Properties</title>
+      <link>https://heathercloward.github.io/webapp-dev/modify_chart_properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/modify_chart_properties/</guid>
+      <description>Modify Chart Properties Chart properties can be modified to display the page in different ways.
+Category and Value column properties are required for the chart to render. By default, two columns from the web*Chart view are selected as a Category and a Value column; review these column properties for accuracy.
+NOTE: The settings on the 3D Chart Properties tab on the Chart Properties Page are used to render a chart in 3D.</description>
+    </item>
+    
+    <item>
+      <title>Modify a Chart</title>
+      <link>https://heathercloward.github.io/webapp-dev/modify_a_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/modify_a_chart/</guid>
+      <description>Modify a Chart Chart properties can be modified to display the page in different ways, similar to other page types.
+To modify the chart specific options:
+ Click the Change Settings icon on the Site toolbar on the WebApp page that displays the chart.
+ Select Design.
+ Click Vertical View for the Chart page.
+ Click the Chart Properties button.
+ Click Edit.
+ Select an option in the Zoom Type list box.</description>
+    </item>
+    
+    <item>
+      <title>Naming Conventions and the Enforce Strict Naming Feature</title>
+      <link>https://heathercloward.github.io/webapp-dev/naming_conventions_and_the_enforce_strict_naming_feature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/naming_conventions_and_the_enforce_strict_naming_feature/</guid>
+      <description>Naming Conventions and the Enforce Strict Naming Feature The DSP® is delivered with a BOA pre-defined naming convention for Stored Procedures and Horizontal, Vertical, Validation and Control Views, to name a few. The defined naming conventions can be set at the platform level on the Vertical View of the Parameters page on the Naming Conventions tab. These values are the default values for WebApps, but can be updated at the WebApp level on the Vertical View of the WebApps page.</description>
+    </item>
+    
+    <item>
+      <title>OnLoad Events</title>
+      <link>https://heathercloward.github.io/webapp-dev/onload_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/onload_events/</guid>
+      <description>OnLoad Events OnLoad Events execute prior to the page displaying, allowing lazy data population. Use OnLoad Events only when necessary because executing a SQL Stored Procedure automatically increases page load time by at least 100 milliseconds, and page load time should never exceed a full second for a good user experience.
+Refer to Create Events and Event Design Process for general information.
+Event Complexity
+An event that runs every single page load should perform very little work.</description>
+    </item>
+    
+    <item>
+      <title>OnValidate Events</title>
+      <link>https://heathercloward.github.io/webapp-dev/onvalidate_events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/onvalidate_events/</guid>
+      <description>OnValidate Events OnValidate events run:
+ after an insert after an edit when boaStatus changes  Determine which of these are actually relevant to the business logic and what can be done to ensure complex logic only runs when necessary.
+Refer to Create Events for general information.
+Compromising Between Implicit Behavior and Excess Overhead
+It is easy to overload computation and configuration logic onto an OnValidate event, because it requires the least amount of effort to ensure the logic runs as often as it needs to.</description>
+    </item>
+    
+    <item>
+      <title>Page Control View</title>
+      <link>https://heathercloward.github.io/webapp-dev/page_control_view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/page_control_view/</guid>
+      <description>Page Control View Business requirements may require edit and delete capabilities to be disabled, depending on the state of the page as a whole. Page Control Views (PCV) are created in SQL to determine if records can be added, edited and deleted based on the state of the page.
+Once created in SQL, the view needs to be registered to the page in DSP® (Admin &amp;gt; WebApps &amp;gt; Pages &amp;gt; Vertical View &amp;gt; Control Views tab).</description>
+    </item>
+    
+    <item>
+      <title>Page Design Guidelines</title>
+      <link>https://heathercloward.github.io/webapp-dev/page-design-guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/page-design-guidelines/</guid>
+      <description>Page Design Guidelines Follow these steps to design a fully implemented page with all available and relevant features to ensure a high-quality user experience for both business users and site administrators.
+ When naming pages:  Use parentheses rather than hyphens to delineate the description of the page, e.g., Request (Role) rather than Request – Role. Pluralizing page names is acceptable.  If applicable, determine an Update and Insert method relevant to the page’s underlying data set.</description>
+    </item>
+    
+    <item>
+      <title>Page Design Overview</title>
+      <link>https://heathercloward.github.io/webapp-dev/page-design-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/page-design-overview/</guid>
+      <description>Page Design Overview After designing the database and creating the WebApp, register all pages and assign properties for the WebApp. Once the pages are registered, they are then linked to the Navigation pane, Configuration Menus, or accessed via another WebApp page.
+Refer to Page Design Guidelines for general information.
+To create pages for a WebApp:
+ Register the page. Each page type requires a different process.
+ Assign page properties, if creating a Dynamic page.</description>
+    </item>
+    
+    <item>
+      <title>Partition Logic Semantically</title>
+      <link>https://heathercloward.github.io/webapp-dev/partition_logic_semantically/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/partition_logic_semantically/</guid>
+      <description>Partition Logic Semantically An application’s value is not measured in SQL object count. Centralizing logic can help consolidate an application into smaller, more manageable chunks.
+For example, several “Customer” based pages select records from the Customer table. The table has an “Active” bit, and can be modified so that only “Active” customers show up on these pages. Many of these existing “webCustomer*Hor” views may already have complex WHERE clauses. Appending “[Active] = 1” to every WHERE clause adds complexity to the WHERE clause, and makes it less readable and cumbersome to maintain.</description>
+    </item>
+    
+    <item>
+      <title>Precedence</title>
+      <link>https://heathercloward.github.io/webapp-dev/precedence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/precedence/</guid>
+      <description>Precedence The simplest optimization that can be made to most pages is control view record reduction. UCVs and DCVs are usually the biggest offenders of unnecessarily large record sets.
+The majority of the time a DCV is created, it selects the entire record set and does something like:
+SELECT CASE WHEN [Field] = 1
+THEN 0 &amp;ndash;Disabled
+ELSE 1 &amp;ndash; Enabled
+END as [Enabled]
+FROM [Table] WHERE [Field]
+However, DCV’s do not require every record to be present.</description>
+    </item>
+    
+    <item>
+      <title>Register the Database for a Custom WebApp</title>
+      <link>https://heathercloward.github.io/webapp-dev/register_the_database_for_a_custom_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/register_the_database_for_a_custom_webapp/</guid>
+      <description>Register the Database for a Custom WebApp The database must be registered as a data source in DSP® to create a WebApp. In most cases, the System Administrator registers the database.
+The database contains the tables and views needed to design the WebApp. Additional views are automatically added from the DSP® after the data source is added and the WebApp is created and validated. These views pull in BOA views from the platform database.</description>
+    </item>
+    
+    <item>
+      <title>Review Dashboard Customization Settings For a User</title>
+      <link>https://heathercloward.github.io/webapp-dev/review-dashboard-customization-settings-for-a-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/review-dashboard-customization-settings-for-a-user/</guid>
+      <description>Review Dashboard Customization Settings For a User A system administrator can review customization settings for a user for dashboards.
+The Customization Review page shows each user that has access to the page and whether they are inheriting the customization applied to the page via the default shipped values, with an extension or via the role they are assigned to or via a specific user extension. The page could have multiple customizations applied and the User takes precedence over the Role, and the Role take precedence over the Default.</description>
+    </item>
+    
+    <item>
+      <title>SQL View/Function/Procedure Design</title>
+      <link>https://heathercloward.github.io/webapp-dev/sql_view_function_procedure_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/sql_view_function_procedure_design/</guid>
+      <description>SQL View/Function/Procedure Design Non-schema object design is the next most important thing above table design when creating a WebApp. When lightweight and efficient, even complex functions, views, and procedures can be implemented with little overhead.
+NOTE: Avoid Global Operators. Any SQL procedures or functions that have to enumerate or parse full sets of table data are dangerous due to their inability to scale efficiently.
+This section contains these topics:</description>
+    </item>
+    
+    <item>
+      <title>Set Column Control Status</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_column_control_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_column_control_status/</guid>
+      <description>Set Column Control Status Control Status is a Column Property option that determines the visibility of a column on a page. Options are:
+ Enabled – Displays the column on the page. This is the default value. Hide – Hides the column on the page. Disabled – Protects the column. Displays as read-only columns when in edit mode.  NOTE: Control status cannot be set for columns using tab or label controls.</description>
+    </item>
+    
+    <item>
+      <title>Set Default Field Value for a Column</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_default_field_value_for_a_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_default_field_value_for_a_column/</guid>
+      <description>Set Default Field Value for a Column A Column Property can populate a field with a pre-determined value.
+A default value can be set for these controls:
+ Check Box
+NOTE:The default value entered for a check box is dependent on the check box&amp;rsquo;s field format. If the field format is ‘Y’ or ‘N,’ select one of these for the default value. If the check box does not have a format, the column in SQL must be of type ‘bit’ and a 1 or 0 must be entered as the default value.</description>
+    </item>
+    
+    <item>
+      <title>Set Parameters for a Public WebApp Event</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_param_public/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_param_public/</guid>
+      <description>Set Parameters for a Public WebApp Event Enabling an event to be public allows other events from any WebApp to call this event. When executed, the event will take in the parameters configured in these steps, find the associated record from this page, and fire the event.
+At the Business Rule level, a user can set the value to pass to the parameter on the Page Event Rule Parameters page.</description>
+    </item>
+    
+    <item>
+      <title>Set Required Fields</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_required_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_required_fields/</guid>
+      <description>Set Required Fields A column property can set whether a field is required.
+Records containing fields that are Hard Required cannot be saved until the field is populated. Records with Soft Required fields can be saved but are not considered valid until the designated field is populated.
+Applying the Soft Required column property automatically creates a view in SQL. DSP® then registers the view as a Validation Rule to the page and creates a default message that displays to the end user.</description>
+    </item>
+    
+    <item>
+      <title>Set Security for a Custom WebApp</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_security_for_a_webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_security_for_a_webapp/</guid>
+      <description>Set Security for a Custom WebApp When a new WebApp is created, the User and PowerUser WebApp groups are automatically generated with default assignments. The user that created the WebApp is added to the PowerUser WebApp group. New pages added to the WebApp are also assigned to the PowerUser group.
+Business processes often require new WebApp groups to be registered with more stringent security to the visibility and the control (add, edit, delete) of sensitive data.</description>
+    </item>
+    
+    <item>
+      <title>Set Spanning Properties</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_spanning_properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_spanning_properties/</guid>
+      <description>Set Spanning Properties Spanning Properties is a method to reduce horizontal scrolling and present data efficiently. In some cases there may not be enough fields or differences to warrant creating a Vertical View. Use Spanning Properties to create a line break on the column headings to shift some fields down making the record two lines. For example, if the record has 10 columns, the Spanning Properties Line Break can be set on the 6th column.</description>
+    </item>
+    
+    <item>
+      <title>Set a Column&#39;s Format</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_a_columns-format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_a_columns-format/</guid>
+      <description>Set a Column&amp;rsquo;s Format Some control types allow a user to set the column’s format.
+  Control
+ Formats
+  Text Box
+  Email Password Text   Text Area
+ SQL
+  Numeric
+  Currency Numeric Numeric Positive Percent Zero Padded Integer   DateTime
+  Date Date and Time Formatted Date Formatted Time Time Time (24 hour)   Check Box</description>
+    </item>
+    
+    <item>
+      <title>Set a Dynamic List Box</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_a_dynamic_list_box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_a_dynamic_list_box/</guid>
+      <description>Set a Dynamic List Box Dynamic List Box is a feature that uses a Where Clause to control the values displayed in one list box based on the value selected from another list box. Dynamic List Boxes can be used for list boxes on the same page view.
+For example, a user could add a list box and create a Where Clause on the State field on the Customers page so the country selected determines the values displayed in the States/Regions list box.</description>
+    </item>
+    
+    <item>
+      <title>Set a Parameter Value for Business Rule Parameters for a Public WebApp Event</title>
+      <link>https://heathercloward.github.io/webapp-dev/setparametervaluebusinessrules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/setparametervaluebusinessrules/</guid>
+      <description>Set a Parameter Value for Business Rule Parameters for a Public WebApp Event A public WebApp event can be accessed from any WebApp.
+A public WebApp event can have parameters set that must be passed when calling that event from another event. These parameters are either:
+ Configured on the Page Event Parameters page. Refer to Set Parameters for a Public WebApp Event for more information. Set in the Parameter view when creating the Business rule,  The Business rule that calls the public WebApp event must pass values with a parameter type of Key or Required.</description>
+    </item>
+    
+    <item>
+      <title>Set the List Order By</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_the_list_order_by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_the_list_order_by/</guid>
+      <description>Set the List Order By By default, like pages, list boxes are sorted based on the primary key. Use List Order By to sort select options in a list box based on another field.
+NOTE: DSP® and SQL Server no longer support the sort in a view in SQL.
+Refer to Add List Boxes and Combo Boxes for general information.
+To order the list box options:
+ Access the Page Columns page Vertical View for a list box or combo box.</description>
+    </item>
+    
+    <item>
+      <title>Set the X-axis of a Chart with the Category Column Property</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_the_x-axis_of_a_chart_with_the_category_column_property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_the_x-axis_of_a_chart_with_the_category_column_property/</guid>
+      <description>Set the X-axis of a Chart with the Category Column Property The Category column property allows the user to define which column in the web*Chart view corresponds to the X-axis. This column property can be used for most data types; the exception is binary data types. As with list boxes, a non-string key column can be used as the underlying value and a display value can replace what is shown.</description>
+    </item>
+    
+    <item>
+      <title>Set the Y-axis of a Chart with the Value Column Property</title>
+      <link>https://heathercloward.github.io/webapp-dev/set_the_y-axis_of_a_chart_with_the_value_column_property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/set_the_y-axis_of_a_chart_with_the_value_column_property/</guid>
+      <description>Set the Y-axis of a Chart with the Value Column Property Value column properties are used to specify which field within the web*Chart view corresponds to a Y-axis value. This column is expected to be a numeric type because charts can only display numeric ranges. Multiple Value columns are supported when there is only one Category column defined. When the graph renders, there will be n number of series. For example, if a web*Chart view renders [“1/1/1990”, 1, 2, 3], the first column would be defined as the Category column and the last three columns would be defined as Value columns.</description>
+    </item>
+    
+    <item>
+      <title>Simplification</title>
+      <link>https://heathercloward.github.io/webapp-dev/simplification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/simplification/</guid>
+      <description>Simplification The biggest performance gains most often come from SQL simplifications. Becoming a SQL expert will be the best way to ensure complex pages will perform at their best.
+For example, the following view:
+SELECT boaUserSel.[UserID] as boaUserID, ‘ControlledField’ as boaColumn, CASE WHEN boaUserSel.[UserID] like ‘a%’ THEN 1 ELSE 0 END as [boaControlStatus] FROM boaUserSel
+Could be:
+ SELECT boaUserSel.[UserID] as boaUserID, ‘ControlledField’ as boaColumn, 1 as [boaControlStatus] FROM boaUserSel where boaUserSel.</description>
+    </item>
+    
+    <item>
+      <title>Table Naming Conventions</title>
+      <link>https://heathercloward.github.io/webapp-dev/table_naming_conventions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/table_naming_conventions/</guid>
+      <description>Table Naming Conventions Across the applications, a common naming convention is to name a table with the singular form of the underlying data. For instance, if the table is meant to store a data set representing customers, name the table “Customer.” Additionally, prefixes are commonly attached to the table name. “zt” represents application configuration data, whereas “tt” represents expected user data. Configuration data may include user data, but it’s still utilized by the application as configuration.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshoot Report Issues</title>
+      <link>https://heathercloward.github.io/webapp-dev/troubleshoot-report-issues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/troubleshoot-report-issues/</guid>
+      <description>Troubleshoot Report Issues Error Messages If an error occurs, begin troubleshooting by determining which pages are involved. For example, if the Customers page links to the Orders page, and the Orders page links to the Order Details page, then the error may have occurred on any of these pages. Dynamic views can change which links appear on a given page.
+Once the pages have been identified, determine which views are being used to build the report.</description>
+    </item>
+    
+    <item>
+      <title>Use View Types with Column Properties</title>
+      <link>https://heathercloward.github.io/webapp-dev/use-view-types-with-column-properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/use-view-types-with-column-properties/</guid>
+      <description>Use View Types with Column Properties The View Type sets the context in which the control is configured for a column. Multiple records for a column can be added on the Page Columns page, each having a different view type.
+When adding a column, the View Type of All Views can be used in most cases. However, column properties can be applied to other views as needed. For example, a field can be a Combo Box on the Horizontal View, but can be a display-only field on the Vertical View.</description>
+    </item>
+    
+    <item>
+      <title>Use boaStatus to Set a Toolbar Button&#39;s Control Status</title>
+      <link>https://heathercloward.github.io/webapp-dev/use-boastatus-to-set-a-toolbar-buttons-control-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/use-boastatus-to-set-a-toolbar-buttons-control-status/</guid>
+      <description>Use boaStatus to Set a Toolbar Button&amp;rsquo;s Control Status Refer to Add a Toolbar Button for general information.
+A toolbar button can be made active or dimmed depending on a selected record’s boaStatus value.
+When the Consider Valid check box is checked for the toolbar button on the Page Columns page’s Vertical View, the DSP® uses a record’s boaStatus value to set the button to active. By default, if a record‘s boaStatus is Validation Passed or Procedure Complete, the toolbar button is active.</description>
+    </item>
+    
+    <item>
+      <title>User Control Views</title>
+      <link>https://heathercloward.github.io/webapp-dev/user_control_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/user_control_views/</guid>
+      <description>User Control Views Business rules may require specific functions to be disabled based on the logged in user. A User Control page can be created to manage the criteria for a User Control View. UserControl Views (UCV) are created in SQL and determine if records can be added, edited, deleted or even viewed by a specified user. Once the views are created in SQL, they need to be registered to the page in DSP® and the control criteria must be defined.</description>
+    </item>
+    
+    <item>
+      <title>Validation Rules</title>
+      <link>https://heathercloward.github.io/webapp-dev/validationrules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/validationrules/</guid>
+      <description>Validation Rules Validation rules manage correct data entry. If the validation occurs upon save and fails, a message is displayed. Validation rules are based on views in SQL that are registered to the page in DSP.
+During the design or modification of a WebApp, validations can be incorporated into a page or can be added to a field based on an event.
+This section contains the following topics:
+ Validation Rule Guidelines Register a Validation Rule to a Page Enable Inherit Validations  Validation Rule Guidelines  Use the naming convention webXXX_YYYYVal where XXX is the primary table or page and YYYY describes what the validation rule is validating, for example, webOrderDetail_QtyGreaterThanOnHandVal.</description>
+    </item>
+    
+    <item>
+      <title>View Controls and Control Formats</title>
+      <link>https://heathercloward.github.io/webapp-dev/view_controls_and_control_formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/view_controls_and_control_formats/</guid>
+      <description>View Controls and Control Formats A system administrator can view the controls and the associated formats. The controls and formats are shipped with the platform. Controls are selected from the Page Columns page as part of page configuration. Refer to Add a Control Type to a Column for more information.
+To view controls:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Controls in the Navigation pane.
+View the field descriptions for the Controls page</description>
+    </item>
+    
+    <item>
+      <title>View Dynamic Page Reports</title>
+      <link>https://heathercloward.github.io/webapp-dev/view-dynamic-page-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/view-dynamic-page-reports/</guid>
+      <description>View Dynamic Page Reports When the user clicks Report on the Page Options (small gear) drop-down, a report for the current page is generated.
+NOTE: Support Report must be enabled for a page. Refer to the Enable Dynamic Page Reporting for more information.
+If the page is in the horizontal state when the option is selected, the report uses the Horizontal View and fields available on the Horizontal View display on the report.</description>
+    </item>
+    
+    <item>
+      <title>View Report Pages</title>
+      <link>https://heathercloward.github.io/webapp-dev/view-report-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/view-report-pages/</guid>
+      <description>View Report Pages WebApps can have a Reports option in the Navigation pane that displays all Report pages registered to the WebApp. In addition, a Dynamic page can link to a Report page. For example, the Customers page contains a link to the Order History Report page. In this example, the Order History Report link is a Dynamic-to-Report page link.
+To view reports registered to a WebApp:
+1. Select Report in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View and Stored Procedure Naming Conventions</title>
+      <link>https://heathercloward.github.io/webapp-dev/view_and_stored_procedure_naming_conventions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/view_and_stored_procedure_naming_conventions/</guid>
+      <description>View and Stored Procedure Naming Conventions Naming conventions are essential as they make development easier, and a standardized set of naming conventions allows other application developers to understand behaviors and configuration.
+Views have different sets of naming conventions. The default naming conventions display on the WebApps page’s Vertical View on the Naming Conventions tab. When naming views, follow these conventions.
+By default, view names start with web* which allows a developer reviewing/debugging SQL to differentiate between table/view queries.</description>
+    </item>
+    
+    <item>
+      <title>View the Controls Available For A Page Type</title>
+      <link>https://heathercloward.github.io/webapp-dev/view-the-controls-available-for-a-page-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/view-the-controls-available-for-a-page-type/</guid>
+      <description>View the Controls Available For A Page Type The controls that can be defined in column properties or a page are dependent on the page’s page type.
+For example, a tab control is allowed on Dynamic pages, but not on a Chart page.
+When a user designs a page with a page type of Chart, the *Page Column’*s page’s Vertical View displays only those fields relevant to the chart page’s allowable control types.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Group Design</title>
+      <link>https://heathercloward.github.io/webapp-dev/webapp_security_group_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/webapp_security_group_design/</guid>
+      <description>WebApp Group Design When designing an application, the Designer should know the different types of users who will access the application. Some applications are only meant to have a single user who has full access to the features, pages, and functionality that will be put into the application. However, more elaborate and partitioned applications may expect different types of users to have access to certain pages.
+Refer to Set Security for a Custom WebApp for general information.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Layout</title>
+      <link>https://heathercloward.github.io/webapp-dev/webapp_layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/webapp_layout/</guid>
+      <description>WebApp Layout Every WebApp contains pages and every page requires a page definition that represents the core function of the DSP® operation. Pages are based on views in a database. Each page can contain column properties, events and control views as well as additional features depending on the page type.</description>
+    </item>
+    
+    <item>
+      <title>When to use Value Columns Instead of a Secondary Column</title>
+      <link>https://heathercloward.github.io/webapp-dev/when_to_use_value_columns_instead_of_a_secondary_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/webapp-dev/when_to_use_value_columns_instead_of_a_secondary_column/</guid>
+      <description>When to use Value Columns Instead of a Secondary Column It may seem intuitive to always use a Secondary category when each record represents a separate value because Secondary categories give the best angle to manipulate data. However, Secondary categories do not allow for column properties that the Value columns support, such as coloring individual lines or bars.
+An example of when to use multiple Value columns instead of a Secondary column would be for data within a finite number of possible states.</description>
+    </item>
+    
+  </channel>
+</rss>

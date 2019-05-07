@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bulk Execution Overview on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/bulk-execution/</link>
+    <description>Recent content in Bulk Execution Overview on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/bulk-execution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/bulk-execution/filter_the_record_set/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/bulk-execution/filter_the_record_set/</guid>
+      <description>Filter the Record Set NOTE: Bulk Execution must be enabled for a Page by a Page Designer. Refer to Enable Bulk Execution for a Page for more information.
+Filtering the record set before performing Bulk Execution allows the user to validate a subset of records versus all records, directing the user to the records requiring correction.
+By default, the number of records that can have Bulk Execution performed at one time is 100K.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/bulk-execution/perform_bulk_execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/bulk-execution/perform_bulk_execution/</guid>
+      <description>Perform Bulk Execution For general information about Bulk Execution, refer to Use Bulk Execution.
+Bulk Execution runs against the context of the page at the time the panel was opened. If the user filters the records after the panel is opened, it will still run on the original data set.
+By default, the number of records that can have Bulk Execution performed at one time is 100K. Refer to Set Bulk Execution Parameters for more information.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/bulk-execution/perform_bulk_execution_via_a_public_webapp_event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/bulk-execution/perform_bulk_execution_via_a_public_webapp_event/</guid>
+      <description>Perform Bulk Execution via a Public WebApp Event Bulk Execution can be invoked via a Public WebApp Event on a custom designed page, which allows a developer to provide a mechanism of implicit validation. A user will not have to access each page individually and use the Bulk Execution panel. The Public WebApp event can also allow non-direct access users to invoke Bulk Execution via the Services user (Background Service).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/bulk-execution/view_bulk_execution_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/bulk-execution/view_bulk_execution_results/</guid>
+      <description>View Bulk Execution Results For general information about Bulk Execution, refer to Use Bulk Execution.
+The Results tab includes the record metrics in the top right of the tab.
+The Record Metrics display:
+ Failed—The total number of records that failed all validations and business rules, if applicable, during Bulk Execution. Passed—The total number of records that passed all validations and business rules, if applicable, during Bulk Execution. Unknown—The total number of records that failed validations for which the user set the action to “No Action”.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Designate a System for a Check Table :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/map/" class="active">Map Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/map/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/map/config/access_map/" class="">Access Map</a></li>
+        
+            <li >
+                <a href="/map/config/setup_user_notifications/" class="">Set Up User Notifications</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/map/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/map/page_desc/check_table_values/" class="">Check Table Values</a></li>
+        
+            <li >
+                <a href="/map/page_desc/export_field_mappings/" class="">Export Field Mappings</a></li>
+        
+            <li >
+                <a href="/map/page_desc/field_mapping_history/" class="">Field Mapping History</a></li>
+        
+            <li >
+                <a href="/map/page_desc/field_mappings_h/" class="">Field Mappings H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/field_mappings_by_target_field_all_waves/" class="">Field Mappings by Target Field (All Waves)</a></li>
+        
+            <li >
+                <a href="/map/page_desc/import_field_mappings/" class="">Import Field Mappings</a></li>
+        
+            <li >
+                <a href="/map/page_desc/legacy_value_source_table_fields_h/" class="">Legacy Value (Source Table Fields) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/mapping_approval_h/" class="">Mapping Approval H &lt;span id=&#34;top&#34;&gt;&lt;/span&gt;</a></li>
+        
+            <li >
+                <a href="/map/page_desc/mapping_approvals_download_list/" class="">Mapping Approvals Download List</a></li>
+        
+            <li >
+                <a href="/map/page_desc/mapping_status_page/" class="">Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/page_desc/metrics_and_reports_landing/" class="">Metrics and Reports Landing</a></li>
+        
+            <li >
+                <a href="/map/page_desc/objects_map/" class="">Objects</a></li>
+        
+            <li >
+                <a href="/map/page_desc/process_area_launch_map/" class="">Process Area Launch</a></li>
+        
+            <li >
+                <a href="/map/page_desc/relationship_fields/" class="">Relationship Fields</a></li>
+        
+            <li >
+                <a href="/map/page_desc/relationship_joins_h/" class="">Relationship Joins H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/rule_status/" class="">Rule Status</a></li>
+        
+            <li >
+                <a href="/map/page_desc/source_check_table_config_h/" class="">Source Check Table (Config) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/source_value_tracking/" class="">Source Value Tracking</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_dashboard_stats_h/" class="">Target Dashboard Stats H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_field_groups/" class="">Target Field Groups</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_metrics_daily_h/" class="">Target Metrics Daily H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/targets_metrics_weekly_h/" class="">Target Metrics Weekly H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_rule_copy_to/" class="">Target Rule Copy To</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_source_copy_to/" class="">Target Source Copy To</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_source_rule_book/" class="">Target Source Rule Book</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_source_schema_h/" class="">Target Source Schema H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_sources_add_row/" class="">Target Sources (Add Row)</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_sources_update_row/" class="">Target Sources (Update Row) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/target_sources_h_map/" class="">Target Sources H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/targets_h_map/" class="">Targets H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/targets_metrics_monthly_h/" class="">Targets Metrics Monthly H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/user_track_changes/" class="">User Track Changes</a></li>
+        
+            <li >
+                <a href="/map/page_desc/value_mapping/" class="">Value Mapping</a></li>
+        
+            <li >
+                <a href="/map/page_desc/value_mapping_config_h/" class="">Value Mapping (Config) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/value_mapping_legacy_to_target_h/" class="">Value Mapping (Legacy to Target) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/value_mapping_sources_h/" class="">Value Mapping (Sources) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/wave_gate_metrics_value_mapping_h/" class="">Wave Gate Metrics (Value Mapping) H</a></li>
+        
+            <li >
+                <a href="/map/page_desc/wave_lookup_table_refresh/" class="">Wave Lookup Table Refresh</a></li>
+        
+            <li >
+                <a href="/map/page_desc/wave_proc_area_gate_metrics_field_mapping/" class="">Wave Process Area Gate Metrics (Field Mapping) H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/map/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/map/use_cases/add_an_add_row_source/" class="">Add Add Row Sources</a></li>
+        
+            <li >
+                <a href="/map/use_cases/add_relationship_joins_to_source/" class="">Add Relationship Joins to Sources</a></li>
+        
+            <li >
+                <a href="/map/use_cases/add_update_row_sources/" class="">Add Update Row Sources</a></li>
+        
+            <li >
+                <a href="/map/use_cases/add_zactive/" class="">Add ZActive Fields</a></li>
+        
+            <li >
+                <a href="/map/use_cases/add_assemble_where_clause/" class="">Add an Assemble Where Clause</a></li>
+        
+            <li >
+                <a href="/map/use_cases/add_an_external_source/" class="">Add an External Source</a></li>
+        
+            <li >
+                <a href="/map/use_cases/approve_or_reject_mappings/" class="">Approve or Reject Mappings</a></li>
+        
+            <li >
+                <a href="/map/use_cases/build_a_remediation_report/" class="">Build a Remediation Report</a></li>
+        
+            <li >
+                <a href="/map/use_cases/capture_statistics_for_wave_gate_metrics/" class="">Capture Statistics for Wave Gate Metrics</a></li>
+        
+            <li >
+                <a href="/map/use_cases/construction/" class="">Construction</a></li>
+        
+            <li >
+                <a href="/map/use_cases/copy_map/" class="">Copy</a></li>
+        
+            <li >
+                <a href="/map/use_cases/copy_all_target_rules_to_another_target/" class="">Copy All Target Rules to Another Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/copy_a_mapping/" class="">Copy a Mapping</a></li>
+        
+            <li >
+                <a href="/map/use_cases/copy_a_target_source_to_another_target/" class="">Copy a Target Source to Another Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/daily_summary_by_object/" class="">Daily Summary By Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/daily_summary_by_wave_and_process_area/" class="">Daily Summary By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/default_action/" class="">Default</a></li>
+        
+            <li >
+                <a href="/map/use_cases/designate_a_system_for_check_table/" class="uk-active">Designate a System for a Check Table</a></li>
+        
+            <li >
+                <a href="/map/use_cases/download_tables_map/" class="">Download Tables</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_daily_by_object/" class="">Field Mapping Changes Daily by Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_daily_by_target/" class="">Field Mapping Changes Daily by Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_daily_wave_process_area/" class="">Field Mapping Changes Daily by Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_month_by_object/" class="">Field Mapping Changes Month by Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_month_by_target/" class="">Field Mapping Changes Month by Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_map_changes_month_wave_process_area/" class="">Field Mapping Changes Month by Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_week_by_object/" class="">Field Mapping Changes Week by Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_changes_week_by_target/" class="">Field Mapping Changes Week by Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_map_changes_week_wave_process_area/" class="">Field Mapping Changes Week by Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_summary_by_object/" class="">Field Mapping Summary by Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_summary_by_target/" class="">Field Mapping Summary by Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_summary_by_wave_and_process_area/" class="">Field Mapping Summary by Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_by_wave/" class="">Field Mapping by Wave</a></li>
+        
+            <li >
+                <a href="/map/use_cases/field_mapping_by_wave_and_process_area/" class="">Field Mapping by Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/import_and_export_mappings/" class="">Import and Export Mappings</a></li>
+        
+            <li >
+                <a href="/map/use_cases/internal/" class="">Internal</a></li>
+        
+            <li >
+                <a href="/map/use_cases/manual_construction/" class="">Manual Construction</a></li>
+        
+            <li >
+                <a href="/map/use_cases/manual_rule/" class="">Manual Rule</a></li>
+        
+            <li >
+                <a href="/map/use_cases/map_columns_template_to_sprdsht/" class="">Map Columns from the Template to Columns from the Excel File</a></li>
+        
+            <li >
+                <a href="/map/use_cases/map_overview/" class="">Map Overview</a></li>
+        
+            <li >
+                <a href="/map/use_cases/mapping_status_and_rule_status/" class="">Mapping Status and Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/metrics_summary_dashboards/" class="">Metrics Summary Dashboards</a></li>
+        
+            <li >
+                <a href="/map/use_cases/monthly_summary_by_object/" class="">Monthly Summary By Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/monthly_summary_by_wave_and_process_area/" class="">Monthly Summary By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/not_used/" class="">Not Used</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_source_rules_mapping_status/" class="">Object Source Rules: Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_source_rules_rule_status/" class="">Object Source Rules: Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_target_rules_rule_status/" class="">Object Target Rules: Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_target_rules_mapping_status/" class="">Object Target Rules: Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_target_source_rules_mapping_status/" class="">Object Target Source Rules: Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_target_source_rules_rule_status/" class="">Object Target Source Rules: Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_trgt_trgt_rules_rule_stats/" class="">Object Target Target Rules: Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/object_trgt_trgt_rules_map_status/" class="">Object Target Target Rules: Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/perform_field_mapping/" class="">Perform Field Mapping Overview</a></li>
+        
+            <li >
+                <a href="/map/use_cases/perform_value_mapping/" class="">Perform Value Mapping</a></li>
+        
+            <li >
+                <a href="/map/use_cases/perform_value_mapping_overview/" class="">Perform Value Mapping Overview</a></li>
+        
+            <li >
+                <a href="/map/use_cases/refresh_lookup_tbls/" class="">Refresh Lookup Tables</a></li>
+        
+            <li >
+                <a href="/map/use_cases/refresh_target_and_legacy_values/" class="">Refresh Target and Legacy Values</a></li>
+        
+            <li >
+                <a href="/map/use_cases/remove_unmapped_source_values/" class="">Remove Unmapped Source Values</a></li>
+        
+            <li >
+                <a href="/map/use_cases/reset_target_source_schema_field_lengths/" class="">Reset Target Source Schema Field Lengths</a></li>
+        
+            <li >
+                <a href="/map/use_cases/restore_current_field_mapping_from_history/" class="">Restore Current Field Mapping From History</a></li>
+        
+            <li >
+                <a href="/map/use_cases/rule/" class="">Rule</a></li>
+        
+            <li >
+                <a href="/map/use_cases/rule_xref/" class="">Rule Xref</a></li>
+        
+            <li >
+                <a href="/map/use_cases/set_up_a_system_type_for_the_legacy_system/" class="">Set up a System Type for the Legacy System</a></li>
+        
+            <li >
+                <a href="/map/use_cases/setup_and_configuration_for_map/" class="">Setup and Configuration for Map</a></li>
+        
+            <li >
+                <a href="/map/use_cases/summary_by_wave_and_process_area/" class="">Summary By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/summary_field_mapping_dashboards/" class="">Summary Field Mapping Dashboards</a></li>
+        
+            <li >
+                <a href="/map/use_cases/summary_mapping_status_dashboard/" class="">Summary Mapping Status Dashboards</a></li>
+        
+            <li >
+                <a href="/map/use_cases/summary_value_mapping_dashboard/" class="">Summary Value Mapping Dashboard</a></li>
+        
+            <li >
+                <a href="/map/use_cases/target_summary_by_object/" class="">Target Summary By Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/update_client_and_language_for_all_sources/" class="">Update Client and Language for all Sources</a></li>
+        
+            <li >
+                <a href="/map/use_cases/update_unmapped_fields_to_notused/" class="">Update Unmapped Fields to NotUsed</a></li>
+        
+            <li >
+                <a href="/map/use_cases/use_the_add_row_source_override_field_with_update_row_sources/" class="">Use the Add Row Source Override Field with Update Row Sources</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_map_target_fields_from_mulitple_source_systems/" class="">Value Map Target Fields from Multiple Source Systems</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_completed_by_check_table/" class="">Value Mapping Completed By Check Table</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_completed_by_wave/" class="">Value Mapping Completed by Wave</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_daily_by_check_table/" class="">Value Mapping Daily By Check Table</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_daily_by_wave_and_process_area/" class="">Value Mapping Daily by Wave</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_monthly_by_check_table/" class="">Value Mapping Monthly By Check Table</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_monthly_by_wave_and_process_area/" class="">Value Mapping Monthly by Wave</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_weekly_by_check_table/" class="">Value Mapping Weekly By Check Table</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_weekly_by_wave_and_process_area/" class="">Value Mapping Weekly by Wave</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_by_wave/" class="">Value Mapping by Wave</a></li>
+        
+            <li >
+                <a href="/map/use_cases/value_mapping_by_wave_and_process_area/" class="">Value Mapping by Wave and Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/view_all_mappings_for_a_target/" class="">View All Mappings for a Target</a></li>
+        
+            <li >
+                <a href="/map/use_cases/view_dashboards_in_map/" class="">View Dashboards in Map</a></li>
+        
+            <li >
+                <a href="/map/use_cases/view_field_groups/" class="">View Field Groups</a></li>
+        
+            <li >
+                <a href="/map/use_cases/view_field_mapping_history/" class="">View Field Mapping History</a></li>
+        
+            <li >
+                <a href="/map/use_cases/view_metrics_map/" class="">View Metrics</a></li>
+        
+            <li >
+                <a href="/map/use_cases/view_the_source_tables_and_fields_mapped_to_a_lookup_table/" class="">View the Source Tables and Fields Mapped to a Lookup Table</a></li>
+        
+            <li >
+                <a href="/map/use_cases/wave_process_area_source_rules_map_status/" class="">Wave &amp; Process Area Source Rules: Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/wave_process_area_source_rules_rule_status/" class="">Wave &amp; Process Area Source Rules: Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/wave_and_process_area_target_rules_rule_status/" class="">Wave &amp; Process Area Target Rules: Rule Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/wave_and_process_area_target_rules_mapping_status/" class="">Wave &amp; Process Area Target Rules: Mapping Status</a></li>
+        
+            <li >
+                <a href="/map/use_cases/wave_prcs_area_sum_value_map_dashboard/" class="">Wave and Process Area Summary Value Mapping Dashboard</a></li>
+        
+            <li >
+                <a href="/map/use_cases/weekly_summary_by_object/" class="">Weekly Summary By Object</a></li>
+        
+            <li >
+                <a href="/map/use_cases/weekly_summary_by_wave_and_process_area/" class="">Weekly Summary By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/map/use_cases/work_with_sources/" class="">Work With Sources Overview</a></li>
+        
+            <li >
+                <a href="/map/use_cases/work_with_sources_with_multipart_keys/" class="">Work with Sources with Multi-part Keys</a></li>
+        
+            <li >
+                <a href="/map/use_cases/xref/" class="">Xref</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Map</a></li>
+        <li><span>Designate a System for a Check Table</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="designate-a-system-for-a-check-table">Designate a System for a Check Table</h1>
+
+<p>In most cases, check tables are stored in the Target system set for the
+Object at the Wave, Wave-Process Area, or Object level. The values
+stored in these check tables are used during the Value Mapping process.</p>
+
+<p>A Migration Developer can designate a system other than the Target
+system for check tables.</p>
+
+<p>To define a Target system for a check table in Map:</p>
+
+<ol>
+<li><p>Select <span style="font-weight: bold;">Configuration &gt; Value
+Mapping (Config)</span> in the
+<span style="font-style: italic;">Navigation</span> pane.</p></li>
+
+<li><p>Click the <span style="font-weight: bold;">Vertical View</span> icon
+for the check table.</p></li>
+
+<li><p>Click <span style="font-weight: bold;">Edit</span>.</p>
+
+<p><a href="../Page_Desc/Value_Mapping_Config_H.htm">View the field descriptions for the Value Mapping (Config)
+page</a></p></li>
+
+<li><p>Select the Target system that stores the selected check table in the
+<span style="font-weight: bold;">Value Data Source ID</span> list
+box.</p></li>
+
+<li><p>Click <span style="font-weight: bold;">Save</span>.</p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#designate-a-system-for-a-check-table">Designate a System for a Check Table</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

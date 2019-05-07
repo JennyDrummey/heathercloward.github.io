@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interface Events H :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/automate/" class="active">Automate Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/automate/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/automate/page_desc/disposition/" class="">Disposition</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/event_types/" class="">Event Types</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/file_format_types/" class="">File Format Types</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/file_modification_types/" class="">File Modification Types</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/file_operations/" class="">File Operations H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/history/" class="">History</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/history_chart/" class="">History (Chart)</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/history_detail/" class="">History (Detail) V</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/history_failed_detail/" class="">History Failed (Detail) H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/interface_event_validations/" class="">Interface Event (Validations) H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/interface_events/" class="uk-active">Interface Events H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/interface_history/" class="">Interface History H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/interface_validations/" class="">Interface Validations H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/interfaces/" class="">Interfaces H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/log/" class="">Log H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/logging_modules/" class="">Logging Modules</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/logging_severities/" class="">Logging Severities H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/logical_path_instance/" class="">Logical Path (Instance) H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/logical_path_instance_browse/" class="">Logical Path Instance (Browse)</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/logical_paths/" class="">Logical Paths H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/monitor_events/" class="">Monitor (Events) H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/monitor_h/" class="">Monitor H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/parameters/" class="">Parameters</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/purpose/" class="">Purpose</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/reports/" class="">Reports</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/role_instance/" class="">Role (Instance)</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/roles/" class="">Roles</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/stored_procedure/" class="">Stored Procedure</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/tasks/" class="">Tasks</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/transport_types_h/" class="">Transport Types H</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/uom/" class="">UOM</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/webapp_event/" class="">WebApp Event</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/workflow/" class="">Workflow</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/workflow_email/" class="">Workflow (Email)</a></li>
+        
+            <li >
+                <a href="/automate/page_desc/workflow_links/" class="">Workflow Links</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/automate/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/automate/use_cases/about_automate_events/" class="">About Automate Events</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/activate_interfaces_events/" class="">Activate Interfaces, Events and Validations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/add_file_operations/" class="">Add File Operations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/add_logging_modules/" class="">Add Logging Modules</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/add_logical_paths/" class="">Add Logical Paths</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/add_roles/" class="">Add Roles</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/assign_users_to_roles/" class="">Assign Users to Roles</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/browse_ftp_site_or_path/" class="">Browse FTP Site or Path</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/configure_automate_parameters/" class="">Configure Automate Parameters</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/configure_automate_service/" class="">Configure Automate Service Pages</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/configure_interface/" class="">Configure Interface</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/configure_logging_severities/" class="">Configure Logging Severities</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/copy_files_from_one_folder_to_another/" class="">Copy Files from One Folder to Another</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/create_an_interface/" class="">Create an Interface</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/help_with_command_timeouts/" class="">Help with Command Timeouts</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/monito_file_operations/" class="">Monitor File Operations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/monitor_i_o_operations/" class="">Monitor I/O Operations H</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/monitor_interfaces_events/" class="">Monitor Interfaces &amp; Events</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/notification_options/" class="">Notification Options</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/re_start_a_running_interface/" class="">Re-start a Running Interface</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_external_process_validations/" class="">Register External Process Validations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_interface_events/" class="">Register Interface Events</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_interface_validations/" class="">Register Interface Validations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_stored_procedure_events/" class="">Register Stored Procedure Events</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_stored_procedure_validations/" class="">Register Stored Procedure Validations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_view_validations/" class="">Register View Validations</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_webapp_events/" class="">Register WebApp Events</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/register_workflow_events/" class="">Register Workflow Events</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/run_interface_events_sequentially/" class="">Run Interface Events Sequentially</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/schedule_interfaces/" class="">Schedule Interfaces</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/set_retry_parameters/" class="">Set Retry Parameters</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/set_up_automate_security/" class="">Set Up Automate Security</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/set_up_notifications_for_an_interface/" class="">Set Up Notifications for an Interface</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/set_up_a_looping_process/" class="">Set up a Looping Process</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/setup_and_configuration_for_automate/" class="">Setup and Configuration for Automate</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/test_interfaces/" class="">Test Interfaces</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/view_history_of_an_interface/" class="">View History of an Interface</a></li>
+        
+            <li >
+                <a href="/automate/use_cases/view_logs_for_an_interface/" class="">View Logs for an Interface</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Automate</a></li>
+        <li><span>Interface Events H</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="interface-events-h">Interface Events H</h1>
+
+<p><a href="#InterfaceEventsV">Interface Events V</a></p>
+
+<div class="use">
+
+Use this page to:
+
+  - [Register Interface
+    Events](../Use_Cases/Register_Interface_Events.htm)
+  - [Register Stored Procedure
+    Events](../Use_Cases/Register_Stored_Procedure_Events.htm)
+  - [Register WebApp Events](../Use_Cases/Register_WebApp_Events.htm)
+  - [Register Workflow
+    Events](../Use_Cases/Register_Workflow_Events.htm)
+  - [Copy Files from One Folder to
+    Another](../Use_Cases/Copy_Files_from_One_Folder_to_Another.htm)
+  - [Set Up a Looping
+    Process](../Use_Cases/Set_up_a_Looping_Process.htm)
+
+</div>
+
+<p>To access this page:</p>
+
+<ol>
+<li>Select <strong>Interfaces</strong> in the <em>Navigation</em> pane.</li>
+<li>Click the <strong>Events</strong> icon for the desired interface.</li>
+</ol>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>EVENT ID</p></td>
+<td><p>Displays a system-generated ID to uniquely identify the event.</p></td>
+</tr>
+<tr class="odd">
+<td><p>PRIORITY</p></td>
+<td><p>Displays a value that determines the order in which the event runs.</p></td>
+</tr>
+<tr class="even">
+<td><p>EVENT TYPE</p></td>
+<td><p>Displays the type of event. Options are:</p>
+<ul>
+<li>Stored Procedure</li>
+<li>WebApp</li>
+<li>Workflow</li>
+</ul>
+<p><strong>NOTE:</strong> The Event Type selected on the <em>Horizontal</em> View of the <em><a href="#">Interface Events</a></em> page determines the configuration options available on the <em><a href="#InterfaceEventsV">Vertical</a></em> View.</p></td>
+</tr>
+<tr class="odd">
+<td><p>PAGE ID</p></td>
+<td><p>Displays the page for which the event runs.</p>
+<p><strong>NOTE:</strong> This field only applies to WebApp events. </p></td>
+</tr>
+<tr class="even">
+<td><p>EVENT</p></td>
+<td><p>Displays the event that executes, which is selected on the <em><a href="#InterfaceEventsV">Vertical</a></em> View. The events that are available are those registered to the page selected in the Page ID field.</p>
+<p><strong>NOTE:</strong> This field only applies to WebApp events. </p></td>
+</tr>
+<tr class="odd">
+<td><p>LOOP</p></td>
+<td><p>If checked, the event is intended to be processed multiple times based on input, (e.g. an Automate IO process that downloads multiple files, each of which must be processed individually).</p>
+<p>If unchecked, the event is not processed multiple times.</p>
+<p>Refer to <a href="../Use_Cases/Set_up_a_Looping_Process.htm">Set Up a Looping Process</a> for more information.</p>
+<p>It is unchecked by default.</p></td>
+</tr>
+<tr class="even">
+<td><p>OBJECT</p></td>
+<td><p>Displays the name of the workflow view (with the naming convention wf:[WorkflowView])or thestored procedure (with the naming convention sp:[StoredProcedureName])</p>
+<p><strong>NOTE:</strong> This field is only populated for Workflow and Stored Procedure events.</p></td>
+</tr>
+<tr class="odd">
+<td><p>COMMENT</p></td>
+<td><p>Displays a description of the event.</p></td>
+</tr>
+<tr class="even">
+<td><p>ACTIVE</p></td>
+<td><p>If checked, the event has been tested and is ready to be run.</p>
+<p>If unchecked, the event does not run when the interface is either manually run or set to run on a schedule.</p>
+<p>It is checked by default.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Parameters</p></td>
+<td><p>Click to open a parameters page unique to the Event Type:</p>
+<ul>
+<li>For Workflow events, the <em><a href="Workflow.htm">Workflow</a></em> page displays.</li>
+<li>For WebApp events, the <em><a href="WebApp_Event.htm">WebApp Event</a></em> page displays.</li>
+<li>For Stored Procedure events, the <em><a href="Stored_Procedure.htm">Stored Procedure</a></em> page displays.</li>
+</ul>
+<p>Use these pages to set parameters for the event. The parameters in the code are automatically registered to the parameters page for the event.</p></td>
+</tr>
+<tr class="even">
+<td><p>Validations</p></td>
+<td><p>Click to open the <em><a href="Interface_Event_Validations.htm">Interface Event (Validations)</a></em> page. Use this page to add validations at the event level, versus at the interface level.</p>
+<p>The count on the icon is the total number of validations registered to the selected event.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="span-id-interfaceeventsv-span-interface-events-v"><span id="InterfaceEventsV"></span> Interface Events V</h1>
+
+<p><a href="#InterfaceEventsH">Interface Events H</a></p>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Event ID</p>
+
+<p>Displays a system-generated ID to uniquely identify the event.</p>
+
+<p>Stored Procedure</p>
+
+<p>Displays the stored procedure assigned to the event.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Stored Procedure events.</p>
+
+<p>Stored Procedure Parameters</p>
+
+<p>Click to open the <em><a href="Stored_Procedure.htm">Stored Procedure</a></em> page to
+view parameters passed to the event. The parameters in the stored
+procedure event code are automatically registered to the <em><a href="Stored_Procedure.htm">Stored
+Procedure</a></em> page for the event.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Stored Procedure events.</p>
+
+<p>Event Type</p>
+
+<p>Displays the type of event. Options are:</p>
+
+<ul>
+<li>Stored Procedure</li>
+<li>WebApp</li>
+<li>Workflow</li>
+</ul>
+
+<p>The Event Type selected on the <em><a href="#InterfaceEventsH">Horizontal</a></em> View of
+the <em><a href="#">Interface Events</a></em> page determines the configuration options
+available on the <em><a href="#InterfaceEventsV">Vertical</a></em> View.</p>
+
+<p>Page ID</p>
+
+<p>Displays the page for which the event runs.</p>
+
+<p><strong>NOTE:</strong> This field only displays for WebApp events. </p>
+
+<p>Event</p>
+
+<p>Displays the event that executes, which is selected on the <em>Vertical</em>
+View. The events that are available are those registered to the page
+selected in the Page ID field.</p>
+
+<p><strong>NOTE:</strong> This field only displays for WebApp events. </p>
+
+<p>WebApp Parameters</p>
+
+<p>Click to open the <em><a href="WebApp_Event.htm">WebApp Event</a></em> page to view
+parameters (i.e., fields and values) passed to the event. The parameters
+in the WebApp event code are automatically registered to the <em><a href="WebApp_Event.htm">WebApp
+Event</a></em> page for the event.</p>
+
+<p><strong>NOTE:</strong> This field only displays for WebApp events.</p>
+
+<p>View</p>
+
+<p>Displays the workflow view used by the workflow event. The view is
+created in the Data Source assigned when the interface was created on
+the <em><a href="Interfaces.htm">Interfaces</a></em> page.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Fields</p>
+
+<p>Click to open the <em><a href="Workflow_Email.htm">Workflow (Email)</a></em> page to
+configure the email settings for the workflow notification, such as
+subject line and body text. These fields must be added to the view and
+aliased correctly to be utilized by the workflow. Refer to <em><a href="../../Sys_Admin/Use_Cases/Configure_Workflow_Fields.htm">Configure
+Workflow
+Fields</a></em> in the
+System Administration help for more information.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Links</p>
+
+<p>Click to open the <em><a href="Workflow_Links.htm">Workflow Links</a></em> page to add
+links that navigates a user to a specific page to then perform a
+function. Refer to <em><a href="../../Sys_Admin/Use_Cases/Configure_Workflow_Links.htm">Configure Workflow
+Links</a></em> in the
+System Administration help for more information.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Workflow Properties</p>
+
+<p>Workflow Method</p>
+
+<p>Displays the protocol for sending and receiving emails.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Workflow User ID</p>
+
+<p>If populated, anonymous workflow is used and Workflow User ID displays
+the user ID who receives the workflow email.</p>
+
+<p>If blank, standard workflow is used. Refer to <em><a href="../../Sys_Admin/Use_Cases/Workflow_Views.htm">Workflow
+Overview</a></em> in System
+Administration help for more information.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Workflow Expire Days</p>
+
+<p>Displays the number of days in which a Workflow expires. After the
+defined number of days, the workflow link no longer works for the user.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Workflow Reuse</p>
+
+<p>If checked, the workflow is reusable for other interface events.</p>
+
+<p>If unchecked, the workflow is not reusable for other interface events.</p>
+
+<p>It is unchecked by default.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Link To Page ID</p>
+
+<p>Displays the page that opens when the user clicks the workflow link in
+the workflow email.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Link To Page Restricted</p>
+
+<p>If checked, page access between two pages bound by key fields is
+restricted.</p>
+
+<p>If unchecked, page access between two pages bound by key fields is not
+restricted, i.e., pages can be linked without restriction.</p>
+
+<p>It is unchecked by default.</p>
+
+<p>This field is used in conjunction with the Binding Fieldnames field. 
+Normally when two pages contain shared key fields (such as Orders and
+Order Details), restrict the link to page by binding key.</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Binding Fieldnames</p>
+
+<p>Displays the fields to bind the workflow event. Binding fields are
+required when the primary keys are not available or if the primary keys
+have different names. They are needed when the linking relationship
+cannot be inferred because keys are either not defined or have different
+names from parent to child. Specify the field names here as one or more
+parent=child pairs, separated by commas. For example: CustomerID=CustID;
+or EmployeeID=EmployeeID, Department=DepartNo. (=child portion may be
+omitted if names are not different.)</p>
+
+<p><strong>NOTE:</strong> This field only displays for Workflow events.</p>
+
+<p>Retry Parameters</p>
+
+<p>Retry Interval</p>
+
+<p>Displays the interval at which to retry running the event. If the Retry
+Interval field is set 5, and the UOM is set to Hours, when the event
+fails, the DSP tries to run it again in 5 hours.</p>
+
+<p>Maximum Retry Interval</p>
+
+<p>Displays the number of times the event runs until it stops. If the
+Maximum Retry Interval is 10, and if the event fails, it will retry
+according to the Retry Interval and Retry Interval UOM for 10 times and
+then stop.</p>
+
+<p>Retry Interval UOM</p>
+
+<p>Displays the unit of measure used with the Retry Interval. Options are:</p>
+
+<ul>
+<li>Day</li>
+<li>Hour</li>
+<li>Minute</li>
+<li>Month</li>
+<li>Second</li>
+</ul>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#interface-events-h">Interface Events H</a></li>
+<li><a href="#span-id-interfaceeventsv-span-interface-events-v"><span id="InterfaceEventsV"></span> Interface Events V</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

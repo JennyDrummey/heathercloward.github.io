@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/isa/" class="active">Information Steward Accelerator (ISA) Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/isa/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/isa/page_desc/distribution_workflow_attachment_option/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/edit_workflow_templates/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/isa_parameters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/log_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/metric_summary_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_attribute_value/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_attribute_value_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_attributes/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_filters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_reports/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_user_filters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distribution_users/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_distributions_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_quality_dimension_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_quality_dimensions/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/project_summary_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/report_data_viewer/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/rule_binding_detail/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/rule_binding_list/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/template_isa_external_request_scenario_h/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/users_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/workflow_h_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/workflow_template/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/page_desc/workflow_template_detail/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/isa/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/isa/use_cases/access_scorecards/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/activate_columns/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_distributions_to_a_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_rules_using_quality_dimensions/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_rules_to_a_project_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/add_users_to_a_project_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/assign_prjt_distrib_rules_custom_attribs/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_isa_security_if_the_dgrepository_is_does_not_display_as_a_target_in_collect/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_project_distribution_filters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_user_filters_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_optionsisa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates_at_the_parameter_level/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates_at_the_project_distribution_level/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/configure_workflow_templates_at_the_project__level/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_custom_rules_for_information_steward-initiated_requests/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_language-specific_workflow_email_templates/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_a_request_in_dspcompose_from_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_an_external_request_scenario_for_an_information_steward-initiated_request/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/create_an_isa_security_role/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/deactivate_columns_for_project_distribution_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/dimension_summary/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/download_isa_metrics_summary_information/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/edit_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/export_is_project_content_in_is/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/external_request_scenarios_that_create_information_steward-initiated_requests/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_summary/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_by_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/failure_percentage_by_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/isa-troubleshooting/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/isa_cts_overview/" class="uk-active"></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/is_data_construct/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/map_columns_from_the_template_to_columns_from_the_isa_report/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_prjt_distrib_rule_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_prjt_distrib_user/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_prjt_distrib_user_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_by_project_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/record_trend_by_project_distribution_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_distribution_user_rules/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_distribution_user_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_distribution_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_project_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_rule_chart/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/records_by_user_charts/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/review_the_workflow_email/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/run_rulesrun_workflows_/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/run_tracking/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/run_tracking_page/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/schedule_workflow_notifications/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/selected_dimension_by_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/selected_dimension_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/selected_dimension_by_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/set_parameters_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/setconnectionisrepositorysysadmin/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/setup_and_configuration_for_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/summaries_and_attachments/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs._failures_summary/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs._failures_by_distribution/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs._failures_by_rule/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_opportunities_vs_failures_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/total_records_charts/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/update_the_scorecard_link/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/use-the-isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/user_filters_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_isa_dashboards/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_isa_log/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_quality_dimensions_by_project/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_reports_for_project_distributions/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_rule_bindings/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_a_users_workflows_isa/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/view_and_edit_all_workflow_templates_from_one_page/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/use_cases/work_with_projects_isa/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/isa/config/" class="">Configs</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/isa/config/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/isa/config/config/configure_sap_client_name_for_dspmonitor_reports/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/configure_schedules_on_services_pages/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/configure_dspmonitor_parameters/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/configure_the_path_of_the_datadialysis_report_filepath_data_source/" class=""></a></li>
+        
+            <li >
+                <a href="/isa/config/config/set_up_security_for_dspmonitor/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#"></a></li>
+        <li><a>ISA</a></li>
+        <li><span></span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="isa-cts-overview">ISA CTS Overview</h1>
+
+<p>To move SAP Information Steward (IS) and SAP Information Steward
+Accelerator (ISA) content between development tiers (environments), a
+set of steps must be followed in the order specified due to the
+interrelationships that exist between the data elements in the two
+applications (Projects, Rules, Rule Bindings and other
+elements).<span> </span></p>
+
+<p>The process is performed in:</p>
+
+<ul>
+<li>SAP IS by a technical IS user</li>
+<li>SAP ISA by a user familiar with ISA</li>
+<li>SAP Central Management Console (CMC) by the Administrator of the CMC
+environment</li>
+<li>Data Stewardship Platform (DSP)® by an Administrator or technical
+lead</li>
+</ul>
+
+<p>Refer to the
+<a href="../../../Platform/Sys_Admin/Use_Cases/CTS_Overview.htm">CTS</a> section in
+System Administration for general information about CTS.</p>
+
+<p>Before the promotion of the code to the target environment:</p>
+
+<ul>
+<li>The client environment must be running ISA version 6.5.3 or later.</li>
+<li>Both the source and target environment must be on the same version
+level.</li>
+</ul>
+
+<p>Additionally, to move the data elements:</p>
+
+<ul>
+<li>The user performing the code promotion must be familiar with both IS
+and the ISA.</li>
+<li>The user must have knowledge of the CTS application used for the
+code promotion of the ISA. Refer to
+<a href="../../../Platform/Sys_Admin/Use_Cases/CTS_Overview.htm">CTS</a> in
+System Administration for more information.</li>
+<li>The source environment must have been built out so that the IS and
+ISA configuration is aligned and able to be executed successfully
+for the IS Project that is to be promoted.</li>
+<li>The source and target Collect environments must have been configured
+to point to the respective IS repository sources.</li>
+</ul>
+
+<p>To CTS ISA objects:</p>
+
+<ol>
+<li><p><a href="#Export_IS_Project_Content_in_IS">Export IS Project Content in IS</a></p></li>
+
+<li><p><a href="#Create_the_CTS_Package_of_ISA_Content">Create the CTS Package of ISA
+Content</a></p></li>
+
+<li><p><a href="#Create_the_CTS_Package_of_Schedules">Create the CTS Package of
+Schedules</a></p></li>
+
+<li><p><a href="#Create_the_Target_Environment_Project_and_Connections">Create the Target Environment Project and
+Connections</a></p></li>
+
+<li><p><a href="#Import_the_IS_Project_into_the_Target_IS_Environment">Import the IS Project into the Target IS Environment in
+IS</a></p></li>
+
+<li><p><a href="#Create_Users_in_the_Target_ISA_Environment">Create Users in the Target ISA
+Environment</a></p></li>
+
+<li><p><a href="#Align_the_IS_Metadata_Repository_with_ISA">Align the IS Metadata Repository with
+ISA</a></p></li>
+
+<li><p><a href="#Run_Tasks_Associated_with_the_IS_Project">Run Tasks associated to the IS Project in
+IS</a></p></li>
+
+<li><p><a href="#Import_the_CTS_Package_of_ISA_Content_into_the_Target_Environment">Import the CTS Package into the Target
+Environment</a></p></li>
+
+<li><p><a href="#Import_the_CTS_Schedules_Package_into_the_Target_Environment">Import the CTS Package of Schedules into the Target
+Environment</a></p></li>
+
+<li><p>Open the
+<span style="font-style: italic;" data-xmlns="http://www.w3.org/1999/xhtml">Project
+Summary</span> page to align the
+metadata</p></li>
+</ol>
+
+<h2 id="span-id-export-is-project-content-in-is-span-export-is-project-content-in-is"><span id="Export_IS_Project_Content_in_IS"></span>Export IS Project Content in IS</h2>
+
+<p>To export the project:</p>
+
+<ol>
+<li><p>Open the Information Steward Project to be promoted.</p></li>
+
+<li><p>Click the <strong>Export project and associated objects</strong> drop-down menu
+and select <strong>Project</strong> from the top right of the Workspace Home
+page.</p></li>
+
+<li><p>Export the Project contents and save to a zip file.</p>
+
+<p><strong>NOTE</strong> Do not update the file name that is automatically generated
+by IS.</p></li>
+
+<li><p>Copy the .zip file to a directory that the Target IS environment can
+access.</p></li>
+</ol>
+
+<h2 id="span-id-create-the-cts-package-of-isa-content-span-create-the-cts-package-of-isa-content"><span id="Create_the_CTS_Package_of_ISA_Content"></span>Create the CTS Package of ISA Content</h2>
+
+<p>To create the package:</p>
+
+<ol>
+<li><p>Select
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Admin
+&gt; CTS</span> in the
+<span style="font-style: italic;" data-xmlns="http://www.w3.org/1999/xhtml">Navigation</span>
+pane.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Add.</span></p></li>
+
+<li><p>Enter a description in the
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">DESCRIPTION</span>
+field.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Save</span>.</p></li>
+
+<li><p>Enter a comment in the
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Comments</span>
+field if necessary.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Save</span>.</p></li>
+
+<li><p>Click the
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Items</span>
+icon for the newly created CTS package.</p></li>
+
+<li><p>If no records exist, the page displays in add mode. Otherwise, click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Add</span>.</p>
+
+<p><strong>NOTE</strong>: For each item added, there is a corresponding Project or
+Project Distribution being promoted. For example, if one Project
+that has two Project Distributions is being promoted, add three
+items, one Project and two Project Distribution records.</p>
+
+<p><strong>NOTE:</strong>It is best practice to create one CTS Package for one
+Project.</p></li>
+
+<li><p>Select <em>dspMonitor_AccPak – Project</em> from the <strong>CTS CONFIG ITEM
+ID</strong> list box.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click <strong>Save</strong> on the <em>Vertical</em> View.</p></li>
+
+<li><p>Select <em>dspMonitor_AccPak – Project Distribution</em> from the <strong>CTS
+CONFIG ITEM ID</strong> list box.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click <strong>Save</strong> on the <em>Vertical</em> View.</p></li>
+
+<li><p>If no additional items need to be added, click <strong>Cancel</strong>.
+Otherwise, continue to add Project and Project Distributions.</p></li>
+
+<li><p>Click the <strong>Keys</strong> icon for the Project record.</p></li>
+
+<li><p>Click <strong>Edit</strong>.</p></li>
+
+<li><p>Enter the name of the ISA/IS Project being promoted in the <strong>VALUE</strong>
+list box.</p>
+
+<p><strong>NOTE</strong>: A list of available projects that match the entry display.</p></li>
+
+<li><p>Select the project name from the list.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click the back arrow on the browser to return to the
+<span style="font-style: italic;" data-xmlns="http://www.w3.org/1999/xhtml">CTS
+Items</span> page.</p></li>
+
+<li><p>Click the <strong>Keys</strong> icon of a Project Distribution record.</p></li>
+
+<li><p>Click <strong>Edit</strong>.</p></li>
+
+<li><p>Enter the name of the ISA Project Distribution being promoted in the
+<strong>VALUE</strong> list box.</p>
+
+<p><strong>NOTE:</strong> A list of available project distributions that match the
+entry display.</p></li>
+
+<li><p>Select the project distribution name from the list.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click the back arrow on the browser to return to the <em>CTS Items</em>
+page.</p></li>
+
+<li><p>Continue adding Project Distribution keys until all of the Project
+Distributions have been included in the Project being promoted.</p></li>
+
+<li><p>Click the back arrow to return to the <em>CTS Build</em> page.</p></li>
+
+<li><p>Click the <strong>Build Packing List</strong> icon to build the packing list
+based on the keys entered; a confirmation message displays.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Ok</span>.</p></li>
+
+<li><p>After the Packing List build is complete, click the <strong>Build
+Archive</strong> icon; a confirmation message displays.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">OK</span>.</p></li>
+
+<li><p>Locate the archive file created in the &lt;installation
+folder&gt;\Archives (e.g., C:\Program Files
+(x86)\BOA\DSP\Archives) and copy the file to the target
+environment into the same
+location.</p></li>
+</ol>
+
+<h2 id="span-id-create-the-cts-package-of-schedules-span-create-the-cts-package-of-schedules"><span id="Create_the_CTS_Package_of_Schedules"></span>Create the CTS Package of Schedules</h2>
+
+<p>To create the package:</p>
+
+<ol>
+<li><p>Select <strong>Admin &gt; CTS</strong> in the <em>Navigation</em> pane.</p></li>
+
+<li><p>Click <strong>Add</strong>.</p></li>
+
+<li><p>Enter a description in the <strong>DESCRIPTION</strong> field.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Enter a comment in the <strong>Comments</strong> field if necessary.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click the <strong>Items</strong> icon for the newly created CTS Build.</p></li>
+
+<li><p>If no records exist, the page displays in add mode. Otherwise, click
+<strong>Add</strong>.</p>
+
+<p><strong>NOTE:</strong> For each item added, there is a corresponding Schedule
+being promoted. If your ISA Project Distributions reference multiple
+Schedules then add multiple records to the CTS Archive</p>
+
+<p><strong>NOTE:</strong> All Schedules can be added to a single CTS Archive.</p></li>
+
+<li><p>Select <em>DSPCommon - Schedule</em> from the <strong>CTS CONFIG ITEM ID</strong> list
+box.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click <strong>Save</strong> on the <em>Vertical</em> View.</p></li>
+
+<li><p>If no additional items need to be added, click <strong>Cancel</strong>.
+Otherwise, continue to add Schedules.</p></li>
+
+<li><p>Click the <strong>Keys</strong> icon for the Schedules record.</p></li>
+
+<li><p>Click <strong>Edit</strong>.</p></li>
+
+<li><p>Enter the name of the Schedule being promoted in the <strong>VALUE</strong> list
+box.</p>
+
+<p><strong>NOTE:</strong> A list of available Schedules that match the entry
+display.</p></li>
+
+<li><p>Select the Schedule name from the list.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click the back arrow on the browser to return to the
+<span data-xmlns="http://www.w3.org/1999/xhtml"><em>CTS Items</em></span>
+page.</p></li>
+
+<li><p>Continue adding Schedule keys until all of the Schedules have been
+included in the ISA Content being promoted.</p></li>
+
+<li><p>Click the back arrow to return to the <em>CTS Build</em> page.</p></li>
+
+<li><p>Click the <strong>Build Packing List</strong> icon to build the packing list
+based on the keys entered; a confirmation message displays.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Ok</span>.</p></li>
+
+<li><p>After the Packing List build is complete, click the <strong>Build
+Archive</strong> icon; a confirmation message displays.</p></li>
+
+<li><p>Click
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">OK</span>.</p></li>
+
+<li><p>Once the archive build is complete, the <strong>DATE CREATED</strong> is updated
+and the <strong>LOG</strong> should not show any entries.</p></li>
+
+<li><p>Locate the archive file created in the &lt;installation folder&gt;
+\Archives (e.g., C:\Program Files (x86)\BOA\DSP\Archives) and
+copy the file to the target environment into the same
+location.</p></li>
+</ol>
+
+<h2 id="span-id-create-the-target-environment-project-and-connections-span-create-the-target-environment-project-and-connections"><span id="Create_the_Target_Environment_Project_and_Connections"></span>Create the Target Environment Project and Connections</h2>
+
+<p><strong>NOTE</strong>: Confirm the names of the Project and connections from the
+source instance. These must be entered exactly when creating the project
+and connections in the CMC.</p>
+
+<p>To create the target project and source connections in CMC.</p>
+
+<ol>
+<li><p>Log on to the Central Management Console.</p></li>
+
+<li><p>Navigate to the Information Steward area.</p></li>
+
+<li><p>Right-click <strong>Manage</strong> and choose <strong>New &gt; Data Insight Project</strong>.</p></li>
+
+<li><p>Enter the name of the Project in the ISA source environment in the
+DSP®.</p>
+
+<p><strong>NOTE:</strong> The name must match the Project name in the ISA’s source
+instance or the import process will fail to align the source and
+target environments.</p></li>
+</ol>
+
+<!-- end list -->
+
+<ol>
+<li><p>Enter a description.</p>
+
+<p><strong>NOTE:</strong> The description is required.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Right-click <strong>Manage</strong> and choose <strong>New &gt; Connection</strong>.</p></li>
+
+<li><p>Enter the connection details to the ISFailedData database on the
+DSP® database server, again ensuring that the name of the
+connection matches the name of the source environment IS failed data
+database.</p></li>
+
+<li><p>Right-click <strong>Manage</strong> and choose <strong>New &gt; Connection</strong>.</p></li>
+
+<li><p>Enter the connection details to any other connections required by
+the IS project being exported. Ensure that the name of the
+connections is identical to the name used in the source environment.</p></li>
+
+<li><p>Test all of the connections to ensure they connect to the target
+database environment
+correctly.</p></li>
+</ol>
+
+<h2 id="span-id-import-the-is-project-into-the-target-is-environment-span-import-the-is-project-into-the-target-is-environment"><span id="Import_the_IS_Project_into_the_Target_IS_Environment"></span>Import the IS Project into the Target IS Environment</h2>
+
+<p>The next step in the CTS process for ISA is to import the file that was
+exported in IS. .</p>
+
+<p>To import the IS Project content from the source to the target:</p>
+
+<ol>
+<li><p>Open the Information Steward Project that is being promoted into on
+the target environment.</p></li>
+
+<li><p>Click the <strong>Import project and associated objects</strong> button on the
+Workspace Home window.</p></li>
+
+<li><p>Click the <strong>Browse</strong> button next to the <strong>Import ZIP file path</strong>
+field on the Import window.</p></li>
+
+<li><p>Select the IS export file created in the source environment.</p></li>
+
+<li><p>Select the check box to overwrite existing objects.</p></li>
+
+<li><p>Select the check box to automatically approve imported rules.</p>
+
+<p><strong>NOTE:</strong> This step is optional.</p></li>
+
+<li><p>Select Select Administrators from the list box with the value
+<strong>Select Default Observer</strong>.</p></li>
+
+<li><p>Click <strong>Next</strong>.</p></li>
+
+<li><p>Map the connections contained in the Export file to the connections
+created in the target environment.</p></li>
+
+<li><p>Click <strong>Import</strong>.</p>
+
+<p><strong>NOTE:</strong> If there are errors during the import that cannot be
+resolved, contact SAP support.</p></li>
+
+<li><p>Click <strong>Close</strong>.</p></li>
+
+<li><p>Click
+<strong>Finish</strong>.</p></li>
+</ol>
+
+<h2 id="span-id-create-users-in-the-target-isa-environment-span-create-users-in-the-target-isa-environment"><span id="Create_Users_in_the_Target_ISA_Environment"></span>Create Users in the Target ISA Environment</h2>
+
+<p>In the CTS process for ISA, the target environment must be set up with
+the user accounts required to support the ISA Project Distributions. If
+these user accounts do not exist in the target environment, they must be
+added by an Administrator user. Refer to <a href="../../../Platform/Sys_Admin/Use_Cases/Create_User_Accounts_in_System_Administration.htm">Create User
+Accounts</a>
+in System Administration for more information.</p>
+
+<p>If user accounts that are assigned to ISA Project Distributions in the
+source environment are not present in the target environment, then those
+users will be automatically removed from the Project Distributions on
+import to the target
+environment.</p>
+
+<h2 id="span-id-align-the-is-metadata-repository-with-isa-span-align-the-is-metadata-repository-with-isa"><span id="Align_the_IS_Metadata_Repository_with_ISA"></span>Align the IS Metadata Repository with ISA</h2>
+
+<p>To run the Collect process that aligns the metadata:</p>
+
+<ol>
+<li>Select <strong>Collect</strong> in the <em>Navigation</em> pane.</li>
+<li>Select the <strong>dgRepository_IS Target</strong> record.</li>
+<li>Select the ISSAP Target Source on the <em><a href="../../../Platform/Collect/Page_Desc/Target_Sources_H_Collect.htm">Target
+Sources</a></em>
+page.</li>
+<li>Click the Refresh icon to pull the latest metadata from IS into the
+ISA repository.</li>
+</ol>
+
+<p><strong>NOTE:</strong> If this is the first execution in the Target environment then
+a Build is required prior to the Refresh. Click the Build and Refresh
+icon.</p>
+
+<p><strong>NOTE</strong>: The Refresh must be successfully completed for all tables in
+the Collect ISSAP
+package.</p>
+
+<h2 id="span-id-run-tasks-associated-with-the-is-project-span-run-tasks-associated-with-the-is-project"><span id="Run_Tasks_Associated_with_the_IS_Project"></span>Run Tasks Associated with the IS Project</h2>
+
+<p>To run tasks associated with the IS project:</p>
+
+<ol>
+<li>Open the Information Steward Data Insight Project that has been
+promoted into on the target environment.</li>
+<li>Click the <strong>Tasks</strong> tab on the left side of the window.</li>
+<li>Select each of the Tasks and click the <strong>Run Now</strong> button.</li>
+</ol>
+
+<p><span style="font-weight: bold;">NOTE</span>:To ensure that the Tasks
+are pointing to the correct Failed Data Connection, click the
+<span style="font-weight: bold;">Edit</span> button to view the Task
+properties.</p>
+
+<h2 id="span-id-import-the-cts-package-of-isa-content-into-the-target-environment-span-import-the-cts-package-of-isa-content-into-the-target-environment"><span id="Import_the_CTS_Package_of_ISA_Content_into_the_Target_Environment"></span>Import the CTS Package of ISA Content into the Target Environment</h2>
+
+<p>Additionally, the CTS package created on the source system must be
+transferred to the following directory on the target ISA
+environment: &lt;installation folder&gt; \Archives e.g. C:\Program Files
+(x86)\BOA\DSP\Archives.</p>
+
+<p>To import the CTS package:</p>
+
+<ol>
+<li>Select <strong>Admin &gt; CTS&gt; Archives</strong> in the <em>Navigation</em> pane.</li>
+<li>Click the <strong>Detect Archives</strong> icon.</li>
+<li>Refresh the Archives page until the CTS Archive created in the
+source environment displays.</li>
+<li>Click the
+<span style="font-weight: bold;" data-xmlns="http://www.w3.org/1999/xhtml">Install</span>
+icon for the CTS package containing the ISA content.</li>
+<li>Wait for the installation process to complete and check the Log to
+ensure correct import execution has
+occurred.</li>
+</ol>
+
+<h2 id="span-id-import-the-cts-schedules-package-into-the-target-environment-span-import-the-cts-schedules-package-into-the-target-environment"><span id="Import_the_CTS_Schedules_Package_into_the_Target_Environment"></span>Import the CTS Schedules Package into the Target Environment</h2>
+
+<p>Additionally, the CTS package created on the source system must be
+transferred to the following directory on the target ISA
+environment:<span> </span> &lt;installation folder&gt; \Archives e.g.
+C:\Program Files (x86)\BOA\DSP\Archives</p>
+
+<p>To import the package:</p>
+
+<ol>
+<li>Select <strong>Admin &gt; CTS&gt; Archives</strong> in the <em>Navigation</em> pane.</li>
+<li>Click the <strong>Detect Archives</strong> icon.</li>
+<li>Refresh the
+<span style="font-style: italic;" data-xmlns="http://www.w3.org/1999/xhtml">Archives</span>
+page until the CTS Archive created in the source environment
+displays.</li>
+<li>Click the <strong>Install</strong> icon for the CTS package containing the
+Schedules.</li>
+<li>Wait for the installation process to complete and check the Log to
+ensure correct import execution has
+occurred.</li>
+</ol>
+
+<h2 id="span-id-open-the-project-summary-page-to-align-the-metadata-span-open-the-project-summary-page-to-align-the-metadata"><span id="Open_the_Project_Summary_Page_to_Align_the_Metadata"></span>Open the <em>Project Summary</em> Page to Align the Metadata</h2>
+
+<p>The final step in the CTS process for ISA is to access the
+<span style="font-style: italic;"><a href="../Page_Desc/Project_Summary_H.htm">Project
+Summary</a></span> page.</p>
+
+<p>To complete the CTS process for ISA:</p>
+
+<ol>
+<li><p>Click <strong>Information Steward Accelerator &gt; Project Summary</strong> in the
+<em>Navigation</em> pane.</p>
+
+<p><strong>NOTE</strong>: This triggers the alignment process stored procedure that
+runs on loading the project summary.</p></li>
+
+<li><p>Review the Project / Project Distribution details to ensure they are
+aligned with the source ISA environment as expected.</p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#isa-cts-overview">ISA CTS Overview</a>
+<ul>
+<li><a href="#span-id-export-is-project-content-in-is-span-export-is-project-content-in-is"><span id="Export_IS_Project_Content_in_IS"></span>Export IS Project Content in IS</a></li>
+<li><a href="#span-id-create-the-cts-package-of-isa-content-span-create-the-cts-package-of-isa-content"><span id="Create_the_CTS_Package_of_ISA_Content"></span>Create the CTS Package of ISA Content</a></li>
+<li><a href="#span-id-create-the-cts-package-of-schedules-span-create-the-cts-package-of-schedules"><span id="Create_the_CTS_Package_of_Schedules"></span>Create the CTS Package of Schedules</a></li>
+<li><a href="#span-id-create-the-target-environment-project-and-connections-span-create-the-target-environment-project-and-connections"><span id="Create_the_Target_Environment_Project_and_Connections"></span>Create the Target Environment Project and Connections</a></li>
+<li><a href="#span-id-import-the-is-project-into-the-target-is-environment-span-import-the-is-project-into-the-target-is-environment"><span id="Import_the_IS_Project_into_the_Target_IS_Environment"></span>Import the IS Project into the Target IS Environment</a></li>
+<li><a href="#span-id-create-users-in-the-target-isa-environment-span-create-users-in-the-target-isa-environment"><span id="Create_Users_in_the_Target_ISA_Environment"></span>Create Users in the Target ISA Environment</a></li>
+<li><a href="#span-id-align-the-is-metadata-repository-with-isa-span-align-the-is-metadata-repository-with-isa"><span id="Align_the_IS_Metadata_Repository_with_ISA"></span>Align the IS Metadata Repository with ISA</a></li>
+<li><a href="#span-id-run-tasks-associated-with-the-is-project-span-run-tasks-associated-with-the-is-project"><span id="Run_Tasks_Associated_with_the_IS_Project"></span>Run Tasks Associated with the IS Project</a></li>
+<li><a href="#span-id-import-the-cts-package-of-isa-content-into-the-target-environment-span-import-the-cts-package-of-isa-content-into-the-target-environment"><span id="Import_the_CTS_Package_of_ISA_Content_into_the_Target_Environment"></span>Import the CTS Package of ISA Content into the Target Environment</a></li>
+<li><a href="#span-id-import-the-cts-schedules-package-into-the-target-environment-span-import-the-cts-schedules-package-into-the-target-environment"><span id="Import_the_CTS_Schedules_Package_into_the_Target_Environment"></span>Import the CTS Schedules Package into the Target Environment</a></li>
+<li><a href="#span-id-open-the-project-summary-page-to-align-the-metadata-span-open-the-project-summary-page-to-align-the-metadata"><span id="Open_the_Project_Summary_Page_to_Align_the_Metadata"></span>Open the <em>Project Summary</em> Page to Align the Metadata</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

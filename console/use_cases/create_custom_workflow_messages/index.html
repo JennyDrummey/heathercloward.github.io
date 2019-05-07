@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Create Custom Workflow Messages :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/console/" class="active">Console Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/console/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/config/access_console/" class="">Access Console</a></li>
+        
+            <li >
+                <a href="/console/config/configure_data_services_functionality/" class="">Configure Data Services Functionality</a></li>
+        
+            <li >
+                <a href="/console/config/set_parameters_for_other_components/" class="">Set Parameters for Other Components</a></li>
+        
+            <li >
+                <a href="/console/config/set_up_and_register_the_object_database/" class="">Set up and Register the Object Database (dsw\*)</a></li>
+        
+            <li >
+                <a href="/console/config/setup_and_configuration_for_console/" class="">Setup and Configuration for Console</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/console/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/page_desc/all_objects/" class="">All Objects</a></li>
+        
+            <li >
+                <a href="/console/page_desc/build_wave_comparison/" class="">Build Wave Comparison</a></li>
+        
+            <li >
+                <a href="/console/page_desc/bulk_contact_staging_area/" class="">Bulk Contact Staging Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/context_select/" class="">Context Select</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_object/" class="">Copy Object</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_object_to_process_area/" class="">Copy Object to Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_process_area/" class="">Copy Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_wave/" class="">Copy Wave</a></li>
+        
+            <li >
+                <a href="/console/page_desc/list_value_configuration/" class="">List Value Configuration</a></li>
+        
+            <li >
+                <a href="/console/page_desc/milestone/" class="">Milestone</a></li>
+        
+            <li >
+                <a href="/console/page_desc/move_object_to_process_area/" class="">Move Object to Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_contacts/" class="">Object Contacts</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_decision_comments/" class="">Object Decision Comments</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_decisions_h/" class="">Object Decisions H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_history_h/" class="">Object History H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/objects_h/" class="">Objects H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/parameters/" class="">Parameters</a></li>
+        
+            <li >
+                <a href="/console/page_desc/process_area/" class="">Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/process_area_objecth/" class="">Process Area: Object H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/report_headers_footers_setup/" class="">Report Headers / Footers (Setup)</a></li>
+        
+            <li >
+                <a href="/console/page_desc/staged_contacts/" class="">Staged Contacts</a></li>
+        
+            <li >
+                <a href="/console/page_desc/user_context_setting/" class="">User Context Setting</a></li>
+        
+            <li >
+                <a href="/console/page_desc/user_message_type/" class="">User Message Type</a></li>
+        
+            <li >
+                <a href="/console/page_desc/users_console/" class="">Users</a></li>
+        
+            <li >
+                <a href="/console/page_desc/values/" class="">Values</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_object_results_h/" class="">Wave Compare for Object Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_process_area_results_h/" class="">Wave Compare for Process Area Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_target_field_results/" class="">Wave Compare for Target Field Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_target_results/" class="">Wave Compare for Target Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_gate_metrics_value_mapping_h/" class="">Wave Gate Metrics (Value Mapping) H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_process_area_gate_metrics_field_mapping_h/" class="">Wave Process Area Gate Metrics (Field Mapping) H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_process_areas/" class="">Wave: Process Areas H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/waves_h/" class="">Waves H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_message_summary_h/" class="">Workflow Message Summary H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_message_summary_user/" class="">Workflow Message Summary User</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_summary_views_h/" class="">Workflow Summary Views H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/console/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/use_cases/add_elements_separately/" class="">Add Elements Separately</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_multiple_target_systems/" class="">Add Multiple Target Systems</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_target_contacts_to_objects/" class="">Add Target Contacts to Objects</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_a_wave_and_create_elements/" class="">Add a Wave and Create Elements</a></li>
+        
+            <li >
+                <a href="/console/use_cases/configure_list_box_values/" class="">Configure List Box Values</a></li>
+        
+            <li >
+                <a href="/console/use_cases/configure_object/" class="">Configure an Object</a></li>
+        
+            <li >
+                <a href="/console/use_cases/copy_elements/" class="">Copy Elements</a></li>
+        
+            <li >
+                <a href="/console/use_cases/create_custom_workflow_messages/" class="uk-active">Create Custom Workflow Messages</a></li>
+        
+            <li >
+                <a href="/console/use_cases/create_contexts_for_migration_projects/" class="">Create the Contexts for Migration Projects</a></li>
+        
+            <li >
+                <a href="/console/use_cases/evaluate_mapping_with_wave_gate_metrics/" class="">Evaluate Mapping with Wave Gate Metrics</a></li>
+        
+            <li >
+                <a href="/console/use_cases/set_message_types_for_mapping_review/" class="">Set Message Types for Mapping Review</a></li>
+        
+            <li >
+                <a href="/console/use_cases/set_the_data_source/" class="">Set the Data Source</a></li>
+        
+            <li >
+                <a href="/console/use_cases/synchronize_target_designs_across_waves/" class="">Synchronize Target Designs Across Waves</a></li>
+        
+            <li >
+                <a href="/console/use_cases/update_construct_webapp_and_data_source/" class="">Update Construct WebApp and Data Source</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Console</a></li>
+        <li><span>Create Custom Workflow Messages</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="create-custom-workflow-messages">Create Custom Workflow Messages</h1>
+
+<p>Console allows users to set up custom workflow messages to notify users
+with a report summary. Console is delivered with a weekly Map status;
+however, additional workflow messages can be added.</p>
+
+<p>Before adding the workflow message, create the workflow views and
+register them in System Administration.</p>
+
+<p>To create the message:</p>
+
+<ul>
+<li><p><a href="#Create">Create the Message</a></p></li>
+
+<li><p><a href="#Add">Add Users to the Workflow Message</a></p></li>
+
+<li><p><a href="#Register">Register Workflow Views</a></p></li>
+
+<li><p><a href="#Process">Process Workflow</a></p></li>
+</ul>
+
+<h2 id="span-id-create-span-create-the-message"><span id="Create"></span>Create the Message</h2>
+
+<p>To create a custom workflow message:</p>
+
+<ol>
+<li><p>Select <span style="font-weight: bold;">Advanced Configuration &gt;
+Workflow Message Summary</span> in the *Navigation*pane.</p></li>
+
+<li><p>Click <strong>Add.</strong></p>
+
+<p><em><a href="../Page_Desc/WorkFlow_Message_Summary_H.htm">View the field descriptions for the Workflow Message Summary
+page</a></em></p></li>
+
+<li><p>Enter the user-friendly name of the workflow in the <strong>WORKFLOW
+NAME</strong> field.</p></li>
+
+<li><p>Select a message type from the <strong>MESSAGE TYPE ID</strong> list box to
+determine the type of workflow message to send to users.</p></li>
+
+<li><p>Click <strong>Save.</strong></p></li>
+
+<li><p>Click the <strong>Vertical View</strong> icon to configure the workflow message.</p></li>
+
+<li><p>Click <strong>Edit</strong> on the Page toolbar.</p>
+
+<p><a href="../Page_Desc/WorkFlow_Message_Summary_H.htm">View the field descriptions for the Workflow Message Summary page&rsquo;s
+Vertical View</a></p></li>
+
+<li><p>Select a schedule from the <strong>Schedule ID</strong> list box to control when
+the workflow email is sent. These schedules are defined in Common.
+Refer to <a href="../../../Platform/Common/Use_Cases/Create_Schedules.htm">Create
+Schedules</a>
+fro detailed information.</p></li>
+
+<li><p>Enter text to display in the body of the workflow email in the
+<strong>Workflow Body Template</strong> field. Use standard dynamic substitution
+enclosed in hashtags (#) to customize the workflow body at run
+time.</p></li>
+
+<li><p>Enter a color code in the <strong>Workflow Header Color</strong> field to
+configure the color of the header column in the workflow message.</p></li>
+
+<li><p>Enter a color code in the <strong>Workflow Row Color</strong> to field configure
+the color of the row color in the workflow message.</p>
+
+<p><strong>NOTE</strong>: Text within workflow messages is converted into HTML
+tables in the workflow email. Use the <strong>Workflow Header Color</strong> and
+<strong>Workflow Row Color</strong> fields to configure the table colors. Use BG
+color codes and this standard: bgcolor-#[color code].</p></li>
+
+<li><p>Click <strong>Save.</strong></p></li>
+</ol>
+
+<p>Continue with Add Users to Workflow Message.</p>
+
+<h2 id="span-id-add-span-add-users-to-workflow-message"><span id="Add"></span>Add Users to Workflow Message</h2>
+
+<p>A user’s email address is pulled from their user profile created in
+System Administration.</p>
+
+<p>To add users to the workflow message:</p>
+
+<ol>
+<li><p>From the <em><a href="../Page_Desc/WorkFlow_Message_Summary_H.htm">Workflow Message
+Summary</a></em> page’s
+<em>Horizontal</em> View, click the <strong>Users</strong> icon for the workflow name.</p></li>
+
+<li><p>The page opens in Add mode if no users have been added. If users
+exist on the page, click <strong>Add.</strong></p></li>
+
+<li><p>Select a user name from the <strong>USER ID</strong> list box. The user must be a
+valid user set up in System Administration with security to Console.</p>
+
+<p><a href="../Page_Desc/WorkFlow_Message_Summary_User.htm">View the field descriptions for the Workflow Message Summary User
+page</a></p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+
+<p>Continue with Register Workflow Views.</p>
+
+<h2 id="span-id-register-span-register-workflow-views"><span id="Register"></span>Register Workflow Views</h2>
+
+<p>The workflow views must be created and registered in System
+Administration before being added to the workflow summary.</p>
+
+<p>To register workflow views in Console:</p>
+
+<ol>
+<li><p>From the *<em><a href="../Page_Desc/WorkFlow_Message_Summary_H.htm">Workflow Message
+Summary</a></em>
+page’sHorizontal* View, click <strong>Views</strong> for the workflow name.</p></li>
+
+<li><p>Click <strong>Add</strong> on the Page toolbar.</p>
+
+<p><a href="../Page_Desc/WorkFlow_Summary_Views_H.htm">View  the field descriptions for the Workflow Summary Views
+page</a></p></li>
+
+<li><p>Enter a sort order in the <strong>PRIORITY</strong> field to control the order in
+which the view is run, if more than one view is registered for a
+single workflow message.</p></li>
+
+<li><p>Select a data source from the <strong>DATA SOURCE ID</strong> list box that
+indicates where the workflow views are stored.</p></li>
+
+<li><p>Select a view from the <strong>VIEW NAME</strong> list box.</p></li>
+
+<li><p>Click <strong>Save</strong> on the Page toolbar.</p></li>
+
+<li><p>Click the <strong>Vertical View</strong> icon to further configure the view
+registration.</p></li>
+
+<li><p>Click <strong>Edit</strong> on the Page toolbar.</p>
+
+<p><a href="../Page_Desc/WorkFlow_Summary_Views_H.htm">View the field descriptions for the WorkFlow Summary Views Vertical
+View</a></p></li>
+
+<li><p>Enter a title for the summary information that will appear in the
+workflow for this view in the <strong>Title</strong> field.</p></li>
+
+<li><p>Enter a sort order used to sort the data in the workflow in the
+<strong>Order BY</strong> field.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+
+<p>Continue with Process Workflow.</p>
+
+<h2 id="span-id-process-span-process-workflow"><span id="Process"></span>Process Workflow</h2>
+
+<p>The workflow is configured to run on a schedule (configured in the
+Schedule ID field). The NEXT RUN TIME field displays the next date and
+time the workflow is scheduled to run. However, the workflow can also be
+run immediately, ignoring the Next Run Time.</p>
+
+<p>To process a workflow message immediately:</p>
+
+<ol>
+<li>From the <em><a href="../Page_Desc/WorkFlow_Message_Summary_H.htm">Workflow Message
+Summary</a></em> page’s
+<em>Horizontal</em> View, click the <strong>Process</strong> icon for the workflow name;
+a confirmation message displays.</li>
+<li>Click <strong>Ok</strong>.</li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#create-custom-workflow-messages">Create Custom Workflow Messages</a>
+<ul>
+<li><a href="#span-id-create-span-create-the-message"><span id="Create"></span>Create the Message</a></li>
+<li><a href="#span-id-add-span-add-users-to-workflow-message"><span id="Add"></span>Add Users to Workflow Message</a></li>
+<li><a href="#span-id-register-span-register-workflow-views"><span id="Register"></span>Register Workflow Views</a></li>
+<li><a href="#span-id-process-span-process-workflow"><span id="Process"></span>Process Workflow</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

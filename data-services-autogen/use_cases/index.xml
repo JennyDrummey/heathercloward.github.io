@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/data-services-autogen/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/data-services-autogen/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build and Refresh Data Services Jobs</title>
+      <link>https://heathercloward.github.io/data-services-autogen/use_cases/build_and_refresh_ds_jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/data-services-autogen/use_cases/build_and_refresh_ds_jobs/</guid>
+      <description>Build and Refresh Data Services Jobs Before Data Services jobs can be created, the Data Service Repository and datastores must be configured. Refer to Configure a Data Services Repository and Configure a Data Services Datastore for more information.
+An AutoGen request contains all of the metadata required to generate the Data Services Jobs for the specific target. The AutoGen request takes the form of a number of metadata definition files that are compressed and sent to dspCloud™ for processing.</description>
+    </item>
+    
+    <item>
+      <title>Configure Proxy Sever Settings</title>
+      <link>https://heathercloward.github.io/data-services-autogen/use_cases/configure_proxy_server_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/data-services-autogen/use_cases/configure_proxy_server_settings/</guid>
+      <description>Configure Proxy Sever Settings To use Data Services AutoGen, the web server must be able to establish outbound connections to sites hosted by BackOffice Associates®. This may require firewall exceptions and/or proxy server configuration on the Parameters page.
+To configure proxy server settings for AutoGen:
+ Click the Automation tab in the Quick Panel.
+ Select the Object for which the proxy server settings are being set up.
+ Click the Build and Refresh Data Services icon in the Page toolbar.</description>
+    </item>
+    
+    <item>
+      <title>Configure a Data Services Datastore</title>
+      <link>https://heathercloward.github.io/data-services-autogen/use_cases/configure_a_ds_datastore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/data-services-autogen/use_cases/configure_a_ds_datastore/</guid>
+      <description>Configure a Data Services Datastore On the Data Services Datastores Mappings page, configure the Data Services datastores to support auto-generation.
+A Data Services Repository can be registered at the Process Area: Object level or at the Process Area level (for example, the same Data Service Repository can be assigned to different Process Area: Objects). The level at which the repository is registered influences how Data Services Projects are organized. In either case, Console is a required data source, so a pair of datastores must be registered: one for Console and one for the related dsw* database.</description>
+    </item>
+    
+    <item>
+      <title>Configure a Data Services Repository</title>
+      <link>https://heathercloward.github.io/data-services-autogen/use_cases/configure_a_ds_repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/data-services-autogen/use_cases/configure_a_ds_repository/</guid>
+      <description>Configure a Data Services Repository On the Data Services Repositories page, set up the Data Services Repository to accept the Data Services Jobs.
+When configuring a Data Services Repository, configure the Web Services connection, then configure the connection to the repository database.
+To configure a Data Services Repository in AutoGen:
+ Click the Automation tab in the Quick Panel.
+ Select the Object for which the Data Services Repository is being set up.</description>
+    </item>
+    
+    <item>
+      <title>Import Data Services Objects</title>
+      <link>https://heathercloward.github.io/data-services-autogen/use_cases/import_ds_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/data-services-autogen/use_cases/import_ds_objects/</guid>
+      <description>Import Data Services Objects Use this page to [Build and Refresh Data Services Jobs.](Build_and_Refresh_DS_Jobs.htm)  To access this page:
+ Click the Automation tab in the Quick Panel. Select the Object for which the request is being generated. Click the Build and Refresh Data Services icon in the Page toolbar; the *AutoGen Data Services* page displays. Click the Import Objects icon; the *Autogen BODS Requests* page displays.           Field Description   COMMENT Displays a comment regarding the Data Services Jobs.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for Data Services AutoGen</title>
+      <link>https://heathercloward.github.io/data-services-autogen/use_cases/setup_and_configuration_for_data_services_autogen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/data-services-autogen/use_cases/setup_and_configuration_for_data_services_autogen/</guid>
+      <description> Setup and Configuration for Data Services AutoGen Data Services AutoGen provides the ability to generate Data Services Jobs that perform target enrichments and validations and post load validations.
+Before using Data Services AutoGen:
+ Create the Contexts for Migration Projects Register the Data Services Repository as a Data Source in Common Configure Data Services Functionality Add a Target in Target Design Add Rules in Target Design Sync Map and Target Design  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register and Use Sources :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/collect/" class="active">Collect Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/collect/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/collect/config/build_process/" class="">Build Process</a></li>
+        
+            <li >
+                <a href="/collect/config/configure_parameters_in_common/" class="">Configure Parameters in Common</a></li>
+        
+            <li >
+                <a href="/collect/config/create_dbmoto_source_connections/" class="">Create DBMoto® Source Connections</a></li>
+        
+            <li >
+                <a href="/collect/config/encrypt_cransoft_datasource_password/" class="">Encrypt CranSoft® Data Source Password</a></li>
+        
+            <li >
+                <a href="/collect/config/register_target_and_source_data_sources/" class="">Register Target and Source Data Sources</a></li>
+        
+            <li >
+                <a href="/collect/config/set_up_schedule_groups/" class="">Set Up Schedule Groups</a></li>
+        
+            <li >
+                <a href="/collect/config/set_up_connection_types/" class="">Set up Connection Types</a></li>
+        
+            <li >
+                <a href="/collect/config/setup_and_configuration_for_collect/" class="">Setup and Configuration for Collect</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/collect/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/collect/page_desc/advanced_view_builder_h/" class="">Advanced View Builder H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/bulk_table_schedule_update/" class="">Bulk Table Schedule Update</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/column_table_list_in_source_target/" class="">Column Table List in Source Target</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/connection_type_data_conversion_h/" class="">Connection Type Data Conversion H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/connection_types_h/" class="">Connection Types H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/copy_targets/" class="">Copy Targets</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/dbmoto_table_rules/" class="">DBMoto Table Rules</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/daily_summary_metrics/" class="">Daily Summary Metrics</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/data_source_table_columns_h/" class="">Data Source Table Columns H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/data_source_table_create_download_sql_h/" class="">Data Source Table Create Download SQL H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/data_source_tables_h/" class="">Data Source Tables H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/detail_list_of_metrics/" class="">Detail List of Metrics</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/duration_warning_list/" class="">Duration Warning List</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/error_list_in_metrics/" class="">Error List in Metrics</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/group_import/" class="">Group Import</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/job_detail_h/" class="">Job Detail H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/job_summary/" class="">Job Summary</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/monitor_downloads_h/" class="">Monitor (Downloads) H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/next_schedule_run_times/" class="">Next Schedule Run Times</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/reports/" class="">Reports</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/retention_expiration_email/" class="">Retention Expiration Email</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/sap_text_list_h/" class="">SAP Text List H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/schedule_groups/" class="">Schedule Groups</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/scheduled_used_summary/" class="">Scheduled Used Summary</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/schedules_in_sources_and_tables/" class="">Schedules in Sources and Tables</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/source_connection_status/" class="">Source Connection Status</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/source_connection_types_h/" class="">Source Connection Types H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_indices_h/" class="">Table (Indices) H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_rfc_options/" class="">Table (Rfc Options)</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_rule_h/" class="">Table (Rule) H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_download_task_list/" class="">Table Download Task List</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_errors_h/" class="">Table Errors H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_index_column_list_in_source_and_target/" class="">Table Index Column List in Source and Target</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_index_list_in_source_and_target/" class="">Table Index List in Source and Target</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_list_in_source_and_target/" class="">Table List in Source and Target</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/table_rule_list_in_source_and_target/" class="">Table Rule List in Source and Target</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/tables_h/" class="">Tables H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_connection_status/" class="">Target Connection Status</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_daily_summary/" class="">Target Daily Summary</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_monthly_summary/" class="">Target Monthly Summary</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_record_counts/" class="">Target Record Counts</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_daily_metric_chart/" class="">Target Source Daily Metric Chart</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_group/" class="">Target Source Group</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_metric_charts/" class="">Target Source Metrics Charts</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_monthly_metric_chart/" class="">Target Source Monthly Metric Chart</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_record_counts/" class="">Target Source Record Counts</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_summary_metrics/" class="">Target Source Summary Metrics</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_table_column_encryption/" class="">Target Source Table Column Encryption</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_table_counts/" class="">Target Source Table Counts</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_table_download/" class="">Target Source Table Download</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_table_errors/" class="">Target Source Table Errors</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_table_index_columns/" class="">Target Source Table Index Columns</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_table_job_group/" class="">Target Source Table Job Group</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_tables/" class="">Target Source Tables H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_source_weekly_metric_chart/" class="">Target Source Weekly Metric Chart</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_sources_h_collect/" class="">Target Sources H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_sources_data_services_connection/" class="">Target Sources – DataServices Connection</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target-summary/" class="">Target Summary</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_table_status/" class="">Target Table Status</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_user_access/" class="">Target User Access</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/target_weekly_summary/" class="">Target Weekly Summary</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/targets_h_collect/" class="">Targets H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/view_build_skip_spras_table_list/" class="">View Build Skip SPRAS Table List</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/workflow_download_failures_h/" class="">Workflow Download Failures H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/workflow_summary_history_h/" class="">Workflow Summary History H</a></li>
+        
+            <li >
+                <a href="/collect/page_desc/workflow_summary_user_settings/" class="">Workflow Summary User Settings</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/collect/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/collect/use_cases/add_rules_and_indices_to_tables/" class="">Add Rules and Indices to Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/avoid_timeouts_when_building_a_dbmoto_target_connection/" class="">Avoid Timeouts When Building a DBMoto® Target Connection</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_advanced_views/" class="">Build Advanced Views</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_package1/" class="">Build Package</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_package_overview/" class="">Build Package</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_package_for_schedule_group/" class="">Build Package for Schedule Group</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_package_for_table/" class="">Build Package for Table</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_summary_workflow/" class="">Build Summary Workflow</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/build_and_refresh_tables_for_a_schedule_group/" class="">Build and Refresh Tables for a Schedule Group</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/configure_rfc_options/" class="">Configure RFC Options</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/configure_workflow_summary_user_settings/" class="">Configure Workflow Summary User Settings</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/connection_types/" class="">Connection Types</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/copy_a_target_collect/" class="">Copy a Target</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/create_groups_from_the_fetch_process/" class="">Create System Type Groups from the Fetch Process</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/create_table_indices/" class="">Create Table Indices</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/create_a_system_type_group_from_source_tables/" class="">Create a System Type Group from Source Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/data_considerations/" class="">Data Considerations</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/data_services_profiling_results_setup/" class="">Data Services Profiling Results Setup</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/decision_tree/" class="">Decision Tree</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/download_metrics/" class="">Download Metrics</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/encrypt_columns/" class="">Encrypt Columns</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/extraction_methods_overview/" class="">Extraction Methods Overview</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/extraction_methods_and_tools/" class="">Extraction Methods and Tools</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/import_group_tables/" class="">Import System Types Groups Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/improve_data_extraction_efficiency/" class="">Improve Data Extraction Efficiency</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/manage_dbmoto_table_rules/" class="">Manage DBMoto® Table Rules</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/manage_sap_text_list/" class="">Manage SAP Text List</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/manually_register_tables_to_source/" class="">Manually Register Tables to Source</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/modify_configuration_of_data_source_table_columns/" class="">Modify Configuration of Data Source Table Columns</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/modify_configuration_of_data_source_tables/" class="">Modify Configuration of Data Source Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/monitor_table_download_process/" class="">Monitor Table Download Process</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/package_types/" class="">Package Types</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/refresh_overview/" class="">Refresh</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/refresh_tables/" class="">Refresh Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/register_table_rules/" class="">Register Table Rules</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/register_tables_to_source/" class="">Register Tables to Source</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/register_and_use_sources/" class="uk-active">Register and Use Sources</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/register_and_use_tables/" class="">Register and Use Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/register_and_use_targets/" class="">Register and Use Targets</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/schedule_updates_to_tables/" class="">Schedule Updates to Tables</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/send_workflow_summary_on_demand/" class="">Send Workflow Summary On Demand</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/set_up_table_download_with_a_cranport_package/" class="">Set up Table Download with a CranPort Package</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/support_regulatory_compliance/" class="">Support Regulatory Compliance</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/system_considerations/" class="">System Considerations</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/use_advanced_options/" class="">Use Advanced Options</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/use_the_manual_data_services_package_type/" class="">Use the Manual Data Services Package Type</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_build_skip_spras_table_list/" class="">View Build Skip SPRAS Table List</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_collect_reports/" class="">View Collect Reports</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_configuration_of_data_source_table_sql_commands/" class="">View Configuration of Data Source Table SQL Commands</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_dashboard_in_collect/" class="">View Dashboard in Collect</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_summary/" class="">View Summary</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_table_metrics/" class="">View Table Metrics</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_workflow_download_failures/" class="">View Workflow Download Failures</a></li>
+        
+            <li >
+                <a href="/collect/use_cases/view_workflow_summary_history/" class="">View Workflow Summary History</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Collect</a></li>
+        <li><span>Register and Use Sources</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="register-and-use-sources">Register and Use Sources</h1>
+
+<p>A <em>Source</em> is a legacy system from where a copy of data is downloaded
+and stored in Collect.</p>
+
+<p>Registering and using Sources includes the following actions:</p>
+
+<ul>
+<li><a href="#Register_Sources_to_Target">Register Sources to Target</a></li>
+<li><a href="#Configure_Source_for_SAP_Data_Services">Configure Source for SAP Data
+Services</a></li>
+<li><a href="#Test_Source_Connection">Test Source Connection</a></li>
+<li><a href="#Register_Tables">Register Tables</a></li>
+<li><a href="#Build_Package_for_Source">Build Package for Source</a></li>
+<li><a href="#View_Source_Table_Metrics">View Source Table Metrics</a></li>
+<li><a href="#View_Summary_of_Source_Metrics">View Summary of Source
+Metrics</a></li>
+</ul>
+
+<h2 id="span-id-register-sources-to-target-span-register-sources-to-target"><span id="Register_Sources_to_Target"></span>Register Sources to Target</h2>
+
+<p>Data can be pulled from multiple sources to a single target; therefore,
+multiple sources can be registered to a Target.</p>
+
+<p>To register a source to a target: </p>
+
+<ol>
+<li><p>Click <strong>Targets</strong> in <em>Navigation</em> pane.</p></li>
+
+<li><p>Click <strong>Sources</strong> for Target.</p></li>
+
+<li><p>Click <strong>Add</strong>.</p>
+
+<p><a href="../Page_Desc/Target_Sources_H_Collect.htm">View the field descriptions for the Target Sources
+page</a></p></li>
+
+<li><p>Select a database name from <strong>SOURCE</strong> list box. The source database
+must be different from the target database.</p></li>
+
+<li><p>Update <strong>CONNECTION TYPE</strong> list box if the default value is not
+applicable.</p>
+
+<p><strong>NOTE:</strong> The CONNECTION TYPE is a valid database connection type
+from source to target.</p></li>
+
+<li><p>Select a System Type from <strong>SYSTEM TYPE ID</strong> list box if importing
+group tables from a System Type delivered with Common.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: Click the + icon to
+open the System Types page in Common in a new tab to add a System
+Type, if needed.</p></li>
+
+<li><p>Update <strong>SCHEMA OWNER</strong> field if the default value is not
+applicable.</p>
+
+<p><strong>NOTE:</strong> The SCHEMA OWNER controls the schema of the source
+database that contains the tables. The Schema Owner for a source
+cannot be the same as the Schema Owner for an associated target.</p></li>
+
+<li><p>Click <strong>Save</strong>; the <em>Vertical</em> View displays.</p>
+
+<p><a href="../Page_Desc/Target_Sources_H_Collect.htm">View the field descriptions for the Target Sources page&rsquo;s Vertical
+View</a></p></li>
+
+<li><p>Enter a brief description of the Source in <strong>Description</strong> field,
+e.g., DBA or Business Contact information.</p></li>
+
+<li><p>Click <strong>Advanced Settings</strong> tab.</p></li>
+
+<li><p>Enter table name of renamed table in target database in <strong>Rename
+Table Template field</strong>, if tables must be renamed when copied to the
+target.</p>
+
+<p><strong>NOTE:</strong> The <strong>Rename Table Template</strong> field allows the user to
+rename a table in the target database when the target is refreshed
+with source data. The field must contain the value &lt;TableName&gt; and
+any prefix or suffix can be used. When the table is downloaded from
+the source, &lt;TableName&gt; is replaced with the Rename Table Template
+value. If the table has been previously created, enable <strong>Delete
+Target Table On Build</strong> to recreate the table using the new name.</p></li>
+
+<li><p>Update <strong>Schedule ID</strong> list box if the default value is not
+applicable.</p>
+
+<p><strong>NOTE:</strong> The <span style="font-weight: bold;">Schedule ID</span>
+determines when the refresh process is run. Schedules are created
+and maintained in Common. Refer to <a href="../../Common/Use_Cases/Create_Schedules.htm">Create
+Schedules</a> for detailed
+information.</p></li>
+
+<li><p>Click <strong>Download Keys Indices</strong> check box to activate it, allowing
+Collect to download primary key indices from non-SAP source system.</p>
+
+<p><strong>NOTE:</strong> If Download Keys Indices is enabled, Download SQL
+(Configuration &gt; Connection Types &gt; Sources) must be defined for
+the database connection type.</p></li>
+
+<li><p>Click <strong>Delete Target Table on Build</strong> check box to activate it,
+which deletes all previously downloaded tables (and primary keys and
+indices) and rebuilds the table each time a package is built.</p>
+
+<p><strong>NOTE:</strong> The Delete Target Table on Build setting ensures the most
+recent table schema is downloaded.</p></li>
+
+<li><p>Select a database connection type from <strong>Data Services Connection
+Type</strong> list box to connect to the source database if using SAP Data
+Services. Values are:</p></li>
+</ol>
+
+<!-- end list -->
+
+<ul>
+<li><p>AES15</p></li>
+
+<li><p>DB2 UDBv8</p></li>
+
+<li><p>DB2 UDBv9</p></li>
+
+<li><p>Informix v10</p></li>
+
+<li><p>Informix v11</p></li>
+
+<li><p>MySQL v5.0</p></li>
+
+<li><p>MySQL v5.1</p></li>
+
+<li><p>ODBC</p></li>
+
+<li><p>Oracle10g</p></li>
+
+<li><p>Oracle 11g</p></li>
+
+<li><p>Oracle9i</p></li>
+
+<li><p>SQL2000</p></li>
+
+<li><p>SQL2005</p></li>
+
+<li><p>SQL2008</p></li>
+</ul>
+
+<p><strong>NOTE:</strong> The Data Services Connection Type list box displays Data
+Sources supported via the DSP’s integration with Data Services. If the
+source connects to SAP Data Services, populate the Connection Settings.
+Refer to <a href="#Configure_Source_for_SAP_Data_Services">Configure Source for SAP Data
+Services</a> for detailed
+information.</p>
+
+<ol>
+<li><p>Click <strong>Sap Settings</strong> tab if SAP is the target database. If SAP is
+not the target database, these fields can remain blank.</p>
+
+<p><strong>NOTE:</strong> With the SAP Settings fields populated, Collect recognizes
+that the connecting system is SAP. If the actual value is unknown,
+populate these fields with dummy values for the time being (e.g.,
+“NA”). Be sure to update these values before Go-Live.</p></li>
+
+<li><p>Enter an ID in <strong>SAP User ID</strong> field.</p></li>
+
+<li><p>Enter the password that corresponds to the User ID in <strong>SAP
+Password</strong> field.</p></li>
+
+<li><p>Enter name of client within the SAP instance in <strong>Client</strong>
+field.</p>
+
+<p><span style="color: rgb(51, 51, 51);font-size: 13.63636302948px;line-height: 18.5818176269531px;orphans: auto;widows: auto;-webkit-text-stroke-width: 0px;display: inline !important;float: none;background-color: #ffffff;font-weight: bold;">NOTE:</span>
+The information in this field is used to filter the data downloaded
+from the source. The filter runs against the MANDT column.</p></li>
+
+<li><p>Click the <strong>All Clients</strong> check box to activate it, if more than one
+SAP client is required. If enabled, data is downloaded for all
+clients in the SAP instance.</p></li>
+
+<li><p>Click <strong>Remove Client From Key</strong> check box to activate it, which
+builds the Client field (usually MANDT). This feature can only be
+used if one client is being downloaded (i.e., if <strong>All Clients</strong> is
+disabled).</p></li>
+
+<li><p>Enter a three-character SAP instance used in the source refresh in
+<strong>Instance</strong> field.</p></li>
+
+<li><p>Enter the default language in <strong>Language</strong> field, e.g., <strong>E</strong> for
+English.</p></li>
+
+<li><p>Enter system number used to log into SAP in <strong>SAP System Number</strong>
+field so Pool Table data can be refreshed.</p></li>
+</ol>
+
+<p><strong>NOTE</strong>: The information in this field is used to filter the data
+downloaded from the source. The filter runs against the MANDT column.</p>
+
+<p><strong>NOTE:</strong> The SAP System Number is located on <em>SAP GUI Change Item</em>
+screen in SAP so Pool Table data can be refreshed.</p>
+
+<ol>
+<li><p>Enter server host name in <strong>SAP Server Host</strong> field.</p>
+
+<p><strong>NOTE:</strong> SAP Server Host is located on <em>SAP GUI Change Item</em> screen
+in SAP.</p></li>
+
+<li><p>Expand <strong>SapOptional</strong> label to configure RFC options.</p>
+
+<p><span style="font-weight: bold;">NOTE:</span> If not using an RFC
+connection, the fields under <span style="font-weight: bold;">Sap
+Optional</span> can remain blank.</p></li>
+
+<li><p>Update <strong>RFC Name Space Option</strong> list box if default value is not
+applicable. Values are:</p>
+
+<p>NAMESPACE&rdquo;</p>
+
+<p>NONNAMESPACE</p></li>
+
+<li><p>Enter the server host name in <strong>SAP Msg Server Host</strong> if SAP Load
+Balancing is used to download SAP table via RFC.</p>
+
+<p><strong>NOTE:</strong> If Load Balancing is not used, enter a single space. SAP
+Msg Server Host is located on the SAP GUI.</p></li>
+
+<li><p>Enter logon group name in <strong>SAP Logon Group</strong> if SAP Load Balancing
+is used to download SAP table via RFC.</p>
+
+<p><strong>NOTE:</strong> If Load Balancing is not used, enter a single space. SAP
+Logon Group is located on the SAP GUI.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p>
+
+<p><strong>NOTE</strong>: If the source database is not SAP, close the <em>Vertical</em>
+View and continue with <a href="#Test_Source_Connection">Test Source
+Connection</a>.</p></li>
+
+<li><p>Click <strong>Sap Settings</strong> tab to test the SAP connection.</p></li>
+
+<li><p>Click <strong>Test Sap Connection</strong> to use the provided User ID and
+Password to verify the login credentials are valid. This process
+does not verify the user has security to the source tables within
+SAP.</p></li>
+</ol>
+
+<p>Continue with Configure Source for SAP Data
+Services.</p>
+
+<h2 id="span-id-configure-source-for-sap-data-services-span-configure-source-for-sap-data-services"><span id="Configure_Source_for_SAP_Data_Services"></span>Configure Source for SAP Data Services</h2>
+
+<p>If SAP Data Services are being used, specific connection information
+used by SAP Data Services must be configured at the Target Source level.
+This connection is then tested to ensure that Data Services can connect
+to the Source and Target instances.</p>
+
+<p>To configure a source for SAP Data Services:</p>
+
+<ol>
+<li><p>Click <strong>Targets</strong> in the <em>Navigation</em> pane.</p></li>
+
+<li><p>Click the <strong>Sources</strong> icon for the Target.</p></li>
+
+<li><p>Click <strong>Vertical View</strong> for the Source.</p></li>
+
+<li><p>Click the <strong>Advanced Settings</strong> tab.</p></li>
+
+<li><p>Click <strong>Edit</strong>.</p>
+
+<p><em><a href="../Page_Desc/Target_Sources_H_Collect.htm">View the field descriptions for the Target Sources page&rsquo;s Vertical
+View</a></em></p></li>
+
+<li><p>Select the name of the target source repository in the <strong>Data
+Services ID</strong> field.</p>
+
+<p><strong>NOTE:</strong> If this field is blank, the repository set at the target
+level is used. Consider creating and registering an additional
+repository for separate target sources to minimize the chance of
+overloading the communication between Collect and Data Services.</p></li>
+
+<li><p>If using change data capture jobs with DBMoto or Data Services,
+click the <strong>Do Not Delete Data</strong> check box to disable it.</p>
+
+<p><strong>NOTE:</strong> This check box displays once the Data Services ID field is
+populated.</p></li>
+
+<li><p>Select a database connection type from the <strong>Data Services
+Connection Type</strong> list box to connect to the source database if
+using SAP Data Services.</p>
+
+<p><strong>NOTE:</strong> Refer to SAP documentation for details about the types of
+Data Services connections.</p>
+
+<p><strong>NOTE:</strong> If the Data Services Connection Type is SAP Application
+for a Target Source, the Test Connection icon is disabled on the
+<em>Target Sources</em> page <em>Horizontal</em> View for that Target Source.
+Connections to SAP can only be made through Data Services or RFC.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+
+<li><p>Click <strong>Connection Settings</strong>.</p></li>
+
+<li><p>Click <strong>Edit</strong>.</p>
+
+<p><a href="../Page_Desc/Target_Sources_Data_Services_Connection.htm">View the field descriptions for the Target Sources – DataServices
+Connection
+page</a></p>
+
+<p><strong>NOTE:</strong> The fields available on the <em>Target-Sources – Data
+Services Connection</em> page vary based on the Data Services Connection
+Type.</p>
+
+<p>Use the following table to populate the applicable
+fields.</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Field</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>Server</td>
+<td>Enter server and instance name of the database to which Data Services will connect when building or executing a package.</td>
+</tr>
+
+<tr>
+<td>User</td>
+<td>Enter user ID used to access the database.</td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td>Enter password for user ID to access the database.</td>
+</tr>
+
+<tr>
+<td>Initial Catalog</td>
+<td>Enter the database name used by Data Services to connect to a SQL Server.</td>
+</tr>
+
+<tr>
+<td>Host String</td>
+<td>Enter TNS name or string used to connect to the database using the following format: &lt;Oracle_system&gt;/&lt;Oracle_SID&gt;, where Oracle_system is the IP or network name of the system where Oracle is running, and Oracle_SID is the Oracle System identifier that identifies the database on the Oracle system.</td>
+</tr>
+
+<tr>
+<td>Database</td>
+<td>Enter the database name where the source or target tables are stored.</td>
+</tr>
+
+<tr>
+<td>odbcDSN</td>
+<td>Enter ODBC Data Source name used to connect to the database.</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>NOTE:</strong> Once Data Services settings have been configured for the
+Target and Source, SAP Data Services packages can be registered for
+tables, and packages can be built and refreshed.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+
+<p>Continue with Test Source Connection.</p>
+
+<h2 id="span-id-test-source-connection-span-test-source-connection"><span id="Test_Source_Connection"></span>Test Source Connection</h2>
+
+<p>Test the Data Source connection to verify the database User ID and
+Password login  credentials are connected to the source database.</p>
+
+<p><strong>NOTE:</strong> The Test Connection feature does not test the validity of the
+SAP login credentials or the DSN connection options.</p>
+
+<p>To test the source database connection in Collect</p>
+
+<ol>
+<li>Click the <strong>Targets</strong> icon in the <em>Navigation</em> pane.</li>
+<li>Click the <strong>Sources</strong> icon for a Target.</li>
+<li>Select the Source.</li>
+<li>Click the <strong>Test Connection</strong> icon on the Page toolbar to test the
+connectivity to the source database; a confirmation message
+displays.</li>
+<li>Click <strong>OK</strong>.</li>
+<li>Click the <strong>Vertical View</strong> icon to review the connection metrics.
+
+<ul>
+<li><strong>Test Connection Status</strong> – Displays status of the last test
+connection.</li>
+<li><strong>Test Connection On</strong> – Displays last date time of test
+connection.</li>
+</ul></li>
+<li>Continue with Register Tables.</li>
+</ol>
+
+<h2 id="span-id-register-tables-span-register-tables"><span id="Register_Tables"></span>Register Tables</h2>
+
+<p>Once the source is set up, register tables. There are two ways to
+register tables to a source:</p>
+
+<ul>
+<li><p><strong>Import a Group Table</strong> – Used to import System Type tables
+delivered with Common. This method facilitates the process of
+registering tables by importing content delivered with Common into
+Collect.</p></li>
+
+<li><p><strong>Manually</strong> – Used if the source is not a System Type delivered
+with Common.</p></li>
+</ul>
+
+<p>Refer to <a href="Register_Tables_to_Source.htm">Register Tables to Source</a> for
+detailed information about this step.</p>
+
+<p>Continue with Build Package for Source.</p>
+
+<h2 id="span-id-build-package-for-source-span-build-package-for-source"><span id="Build_Package_for_Source"></span>Build Package for Source</h2>
+
+<p>Building a package for a source includes all active tables included in
+the source.</p>
+
+<p>To build a package for a source:</p>
+
+<ol>
+<li><p>Verify all tables for the source are active.</p></li>
+
+<li><p>Verify a package name is listed for all active tables for the
+source.</p>
+
+<p><strong>NOTE:</strong> If the package name does not display in the list box,
+confirm that the package has been named following naming
+conventions. Refer to <a href="../../Assemble/Create_Packages.htm">Create
+Packages</a> for more information.</p></li>
+
+<li><p>Click <strong>Targets</strong> in <em>Navigation</em> pane.</p></li>
+
+<li><p>Click <strong>Source</strong> for Target. </p></li>
+
+<li><p>Select the Source.</p></li>
+
+<li><p>Click <strong>Build And Refresh</strong> on Page toolbar for Source to build
+package and download tables from source; a confirmation message
+displays. </p></li>
+
+<li><p>Click <strong>Ok</strong>.</p></li>
+</ol>
+
+<p><strong>NOTE:</strong> If the package name already exists for the table record, the
+table is refreshed (i.e., data is downloaded from the source database).
+If the package for the table does not exist, a package is immediately
+scheduled to be built and the table is refreshed. The Refresh icon is
+disabled for DBMotoMirror package type because the refresh is run by
+DBMoto® instead of Collect.</p>
+
+<p><strong>NOTE:</strong> To receive a workflow email that a table download has failed
+in Collect, a user must be assigned to a security role that has the
+Collect WebApp group WorkFlowFailureAll or WorkFlowFaiureByTargetAccess
+assigned. Refer to <a href="../../Sys_Admin/Use_Cases/Setting_security.htm">Set
+Security</a> in System
+Administration for more information.</p>
+
+<p>Continue with View Source Table Metrics.</p>
+
+<h2 id="span-id-view-source-table-metrics-span-view-source-table-metrics"><span id="View_Source_Table_Metrics"></span>View Source Table Metrics</h2>
+
+<p>View monthly, weekly and daily metrics for the number of tables
+downloaded for a source.</p>
+
+<p>To view sources metrics:</p>
+
+<ol>
+<li>Click <strong>Targets</strong> in <em>Navigation</em> pane.</li>
+<li>Click <strong>Sources</strong> for Target.</li>
+<li>Click <strong>Metrics</strong> for Source.</li>
+<li>Click <strong>Metrics</strong> to view monthly, weekly or daily metrics; a graph
+plotting the metrics
+display</li>
+</ol>
+
+<h2 id="span-id-view-summary-of-source-metrics-span-view-summary-of-source-metrics"><span id="View_Summary_of_Source_Metrics"></span>View Summary of Source Metrics</h2>
+
+<p>A series of charts are available that display monthly, weekly and daily
+metrics for the Target Source.</p>
+
+<p>To view a summary of source metrics:</p>
+
+<ol>
+<li>Click <span style="font-weight: bold;">Targets</span> in
+<span style="font-style: italic;">Navigation</span> pane.</li>
+<li>Click <span style="font-weight: bold;">Sources</span> for a target.</li>
+<li>Click <span style="font-weight: bold;">Metrics</span> for a Target
+Source.</li>
+</ol>
+
+<p><a href="../Page_Desc/Target_Source_Metric_Charts.htm">View the field descriptions for the Target Source Metrics Charts
+page</a></p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#register-and-use-sources">Register and Use Sources</a>
+<ul>
+<li><a href="#span-id-register-sources-to-target-span-register-sources-to-target"><span id="Register_Sources_to_Target"></span>Register Sources to Target</a></li>
+<li><a href="#span-id-configure-source-for-sap-data-services-span-configure-source-for-sap-data-services"><span id="Configure_Source_for_SAP_Data_Services"></span>Configure Source for SAP Data Services</a></li>
+<li><a href="#span-id-test-source-connection-span-test-source-connection"><span id="Test_Source_Connection"></span>Test Source Connection</a></li>
+<li><a href="#span-id-register-tables-span-register-tables"><span id="Register_Tables"></span>Register Tables</a></li>
+<li><a href="#span-id-build-package-for-source-span-build-package-for-source"><span id="Build_Package_for_Source"></span>Build Package for Source</a></li>
+<li><a href="#span-id-view-source-table-metrics-span-view-source-table-metrics"><span id="View_Source_Table_Metrics"></span>View Source Table Metrics</a></li>
+<li><a href="#span-id-view-summary-of-source-metrics-span-view-summary-of-source-metrics"><span id="View_Summary_of_Source_Metrics"></span>View Summary of Source Metrics</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

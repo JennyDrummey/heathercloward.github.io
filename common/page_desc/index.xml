@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/common/page_desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/common/page_desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://heathercloward.github.io/common/page_desc/algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/algorithms/</guid>
+      <description> Algorithms This page displays algorithms pre-populated in the database.
+To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Algorithms in Navigation pane.
+         Field Description   ALGORITHM Displays a SQL Server algorithm.   DESCRIPTION Displays the description of the algorithm, e.g., what the algorithm does.   ACTIVE If enabled, the algorithm is available for use.    </description>
+    </item>
+    
+    <item>
+      <title>Analyze</title>
+      <link>https://heathercloward.github.io/common/page_desc/analyze/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/analyze/</guid>
+      <description>Analyze This page displays data sources registered in System Administration that are not added to the Ignore Data Sources page and to which the logged in user has security to view.
+To access this page, select Common &amp;gt; Analyze &amp;gt; Analyze in Navigation pane.
+         Field Description   DATA SOURCE ID Displays unique ID for the data source being analyzed.   Trace Click to trace changes in the data source.</description>
+    </item>
+    
+    <item>
+      <title>Automation Engine Action H</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_engine_action_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_engine_action_h/</guid>
+      <description>Automation Engine Action H Automation Engine Action V
+Use this page to [Modify Actions](../Use_Cases/Modify_Actions.htm).  To access this page, select Common &amp;gt; Automation Engine &amp;gt; Automation Engine Action in Navigation pane.
+         Field Description   ACTION Displays the Action in a DSP® component that calls the AE Task or Task Group stored in the AEID. This field is not editable and the value is set by the software developers.</description>
+    </item>
+    
+    <item>
+      <title>Automation Engine History</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_engine_history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_engine_history/</guid>
+      <description>Automation Engine History Use this page to [Generate Records in the AE History Table](../Use_Cases/Generate_Records_in_the_AE_History_Table.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Engine Params from the Navigation pane. Click the View History icon.           Field Description   AUTOMATION ENGINE HISTORY ID If enabled, a history of table inserts is captured. If not enabled, a history is not captured.</description>
+    </item>
+    
+    <item>
+      <title>Automation Engine Parameters</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_engine_parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_engine_parameters/</guid>
+      <description>Automation Engine Parameters Use this page to [Generate Records in the AE History Table](../Use_Cases/Generate_Records_in_the_AE_History_Table.htm).  To access this page, select Common &amp;gt; Automation Engine &amp;gt; Automation Engine Params from the Navigation pane.
+Field
+Description
+Retain AE Processing Instructions
+AE Insert History
+If enabled, a history of table inserts is captured. If not enabled, a history is not captured.
+View History
+Click to view the history</description>
+    </item>
+    
+    <item>
+      <title>Automation Instruction Task Definition</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_instruction_task_definition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_instruction_task_definition/</guid>
+      <description>Automation Instruction Task Definition Use this page to [Define Instructions for Tasks](../Use_Cases/Define_Instructions_for_Tasks.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Instruction Tasks in Navigation pane. Click Instructions for task.           Field Description   PRIORITY Displays the execution order of a task within the task group.   INSTRUCTION ID Displays the name of instruction. Click to view instruction details.</description>
+    </item>
+    
+    <item>
+      <title>Automation Instruction Task Group</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_instruction_task_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_instruction_task_group/</guid>
+      <description>Automation Instruction Task Group Use this page to [Create Task Groups](../Use_Cases/Create_Task_Groups.htm).  To access this page, select Common &amp;gt; Automation Engine &amp;gt; Automation Instruction Task Groups in Navigation pane.
+         Field Description   NAME Displays name of task group.   DESCRIPTION Displays a brief description of the task group.   Tasks Click to open the Automation Instruction Task Group Definition page to manage tasks within the task group.</description>
+    </item>
+    
+    <item>
+      <title>Automation Instruction Task Group Definition</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_instruction_task_group_definition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_instruction_task_group_definition/</guid>
+      <description>Automation Instruction Task Group Definition Use this page to [Define Tasks for Task Group](../Use_Cases/Define_Tasks_for_Task_Group.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Instruction Task Groups in Navigation pane. Click Tasks for task group.           Field Description   PRIORITY Displays the execution order of tasks within the task group.   TASK ID Displays name of task.</description>
+    </item>
+    
+    <item>
+      <title>Automation Instruction Task H</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_instruction_task_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_instruction_task_h/</guid>
+      <description>Automation Instruction Task H Automation Instruction Task V
+Use this page to [Create Tasks](../Use_Cases/Create_Tasks.htm).  To access this page, select Common &amp;gt; Automation Engine &amp;gt; Automation Instruction Tasks in Navigation pane.
+         Field Description   NAME Displays name of task.   DESCRIPTION Displays a brief description of the task.   Instructions Click to open the Automation Instruction Task Definition page to add, edit and delete instructions for the task.</description>
+    </item>
+    
+    <item>
+      <title>Automation Instruction – SQL</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_instruction_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_instruction_sql/</guid>
+      <description>Automation Instruction – SQL Use this page to [Create Instructions](../Use_Cases/Create_Instructions.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Instructions in Navigation pane. Click SQL for the instruction to add the SQL code.  Field
+Description
+Pre Check SQL Template
+Pre Check SQL
+Displays SQL code used to determine if the SQL execution should precede. The Automation Engine executes the Pre Check SQL and if one or more records are returned, the statement in the SQL field will not be executed.</description>
+    </item>
+    
+    <item>
+      <title>Automation Instructions</title>
+      <link>https://heathercloward.github.io/common/page_desc/automation_instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/automation_instructions/</guid>
+      <description>Automation Instructions Use this page to [Create Instructions](../Use_Cases/Create_Instructions.htm).  To access this page, select Common &amp;gt; Automation Engine &amp;gt; Automation Instructions in Navigation pane.
+         Field Description   NAME Displays name of instruction.   DESCRIPTION Displays a brief description of the instruction.   Sql Click to define PreCheck SQL and SQL.   Copy Click to copy the automation step to use as a base for a new automation step.</description>
+    </item>
+    
+    <item>
+      <title>Build View H</title>
+      <link>https://heathercloward.github.io/common/page_desc/build_view_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/build_view_h/</guid>
+      <description>Build View H Build View V
+Use this page to [Build Views](../Use_Cases/Build_Views.htm).  To access this page, select Common &amp;gt; Tools &amp;gt; Build View in the Navigation pane.
+         Field Description   Build View Click to build a view in the Target Database for every table in the Source database with specific client and language filters (if filters are applied).   SOURCE DATABASE Displays database where tables are referenced.</description>
+    </item>
+    
+    <item>
+      <title>Calendar Exception</title>
+      <link>https://heathercloward.github.io/common/page_desc/calendar_exception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/calendar_exception/</guid>
+      <description>Calendar Exception Use this page to [Add an Exception to the Calendar](../Use_Cases/Add_an_Exception_to_the_Calendar.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Calendar in the Navigation pane. Click Exceptions for a calendar.           Field Description   DATE Displays the calendar exception date of a work day on the selected calendar. This date has different work hours than the calendar’s work days.</description>
+    </item>
+    
+    <item>
+      <title>Calendar Exception Work Hours</title>
+      <link>https://heathercloward.github.io/common/page_desc/calendar_exception_work_hours/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/calendar_exception_work_hours/</guid>
+      <description>Calendar Exception Work Hours Use this page to [Add an Exception to the Calendar](../Use_Cases/Add_an_Exception_to_the_Calendar.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Calendar in the Navigation pane. Click Exceptions for a calendar. Click Exception Hours for the date.           Field Description   START TIME Displays the start time of work hours on the selected exception day.   FINISH TIME Displays the finish time of work hours on the selected exception day.</description>
+    </item>
+    
+    <item>
+      <title>Calendar H</title>
+      <link>https://heathercloward.github.io/common/page_desc/calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/calendar/</guid>
+      <description>Calendar H Calendar V
+Use this page to: - [Add a Calendar](../Use_Cases/Add_a_Calendar.htm) - [Copy a Calendar](../Use_Cases/Copy_a_Calendar.htm) - [Add and Remove a Calendar&#39;s Users](../Use_Cases/Add_and_Remove_a_Calendars_Users.htm) - [Set Work Days and Work Hours for a Calendar](../Use_Cases/SetWorkDysHrsCalendar.htm) - [Add an Exception to the Calendar](../Use_Cases/Add_an_Exception_to_the_Calendar.htm) - [Copy Work Hours Across Work Days](../Use_Cases/Copy_Work_Hours_Across_Work_Days.htm) - [Delete a Calendar](../Use_Cases/Delete_a_Calendar.htm)  To access this page, select Common &amp;gt; Tools &amp;gt; Calendar from the Navigation pane.
+    Field</description>
+    </item>
+    
+    <item>
+      <title>Calendar User</title>
+      <link>https://heathercloward.github.io/common/page_desc/calendar_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/calendar_user/</guid>
+      <description>Calendar User Use this page to [Add and Remove a Calendar&#39;s Users](../Use_Cases/Add_and_Remove_a_Calendars_Users.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Calendar in the Navigation pane. Click Users for a calendar.    Field
+ Description
+  Add To Calendar
+ Click to add the selected user(s) to the selected calendar.
+NOTE: A user can be assigned to one calendar as a time.
+  Remove From Calendar</description>
+    </item>
+    
+    <item>
+      <title>Candidates</title>
+      <link>https://heathercloward.github.io/common/page_desc/candidates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/candidates/</guid>
+      <description>Candidates Use this page to [Resolve Duplicate Candidates](../Use_Cases/Resolve_Duplicate_Candidates.htm).  To resolve duplicate candidates:
+ Click Analyze in Navigation pane. Click Duplicates for Data Source ID. Click Unresolved Candidates for Object.           Field Description   Objects Click to run the duplicate detection process or to manage unresolved candidates.   Results Click to review results from the duplicate detection process.   VALUE Displays original value.</description>
+    </item>
+    
+    <item>
+      <title>Client Column Name Variant</title>
+      <link>https://heathercloward.github.io/common/page_desc/client_column_name_variant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/client_column_name_variant/</guid>
+      <description>Client Column Name Variant Use this page to [Add Client Columns](../Use_Cases/Build_Views.htm#Add_Client_Columns).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Build View in Navigation pane. Click Client Columns for target/source combination.           Field Description   COLUMN Displays value to which client name is bound in views during the build views process.   COLUMN LIKE Displays client name in SAP.</description>
+    </item>
+    
+    <item>
+      <title>Copy Calendar</title>
+      <link>https://heathercloward.github.io/common/page_desc/copy_calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/copy_calendar/</guid>
+      <description>Copy Calendar Use this page to [Copy a Calendar](../Use_Cases/Copy_a_Calendar.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Calendar in the Navigation pane. Select the calendar to be copied. Click Copy Calendar in the Page toolbar.           Field Description   Copy Calendar Click to create a copy of the calendar once the New Name and New Description have been entered.</description>
+    </item>
+    
+    <item>
+      <title>Copy: Automation Instructions</title>
+      <link>https://heathercloward.github.io/common/page_desc/copy_automation_instructions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/copy_automation_instructions/</guid>
+      <description>Copy: Automation Instructions Use this page to [Copy Instructions](../Use_Cases/Copy_Instructions.htm).  To access this page:
+ Select Common &amp;gt; Automation Engine &amp;gt; Automation Instructions in Navigation pane. Click Copy for an instruction.  Field
+Description
+Source
+Name
+Displays name of automation instruction being copied.
+Copy To
+New Instruction Name
+Displays name of new automation instruction being created.
+Copy
+Click to copy current automation instruction.</description>
+    </item>
+    
+    <item>
+      <title>DBMoto Function Setup</title>
+      <link>https://heathercloward.github.io/common/page_desc/dbmoto_function_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/dbmoto_function_setup/</guid>
+      <description> DBMoto Function Setup Use this page to [Add DBMoto Functions](../Use_Cases/Add_DBMoto_Functions.htm).  To access this page, click Configuration &amp;gt; Modules &amp;gt; DBMoto Function Setup in the Navigation pane.
+   Field Description     FUNCTION NAME Displays the name of the global script function to be used in DBMoto.   FUNCTION SCRIPT Displays the global script function. Refer to Add DBMoto Functions for more information.    </description>
+    </item>
+    
+    <item>
+      <title>Data Classification</title>
+      <link>https://heathercloward.github.io/common/page_desc/data-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data-classification/</guid>
+      <description>Data Classification Use this page to [Add Custom Data Classifications](../Use_Cases/Add%20Custom%20Data%20Classifications%20and%20Information%20Types.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Collect &amp;gt; Data Classification in the Navigation pane.
+         Field Description   DATA CLASSIFICATION Displays a name to classify the data in the object, such as Human Resources, Sales, Customer, or Personal.   INFORMATION TYPE Displays whether the data classification is Personal, requiring a retention expiration date, Restricted, or Public.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Profiling Results</title>
+      <link>https://heathercloward.github.io/common/page_desc/data_services_profiling_results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data_services_profiling_results/</guid>
+      <description>Data Services Profiling Results Use this page to [View the Profiling Results](../Use_Cases/View_the_Profiling_Results.htm).  To access this page, select Common &amp;gt; Analyze &amp;gt; Data Services Profiling Results in the Navigation pane.
+         Fields Description   DATASTORE_ID Displays the name of the Data Services Data Store on which the profiling task was executed.   TABLE_ID Displays the name of the table within the Data Services Data Store on which the profiling task was executed   Columns Click to open the Data Services Profiling Results Table Columns page to view profiling results, such as null count and average string length, for each column in the selected table.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Profiling Results Table Columns</title>
+      <link>https://heathercloward.github.io/common/page_desc/data_services_profiling_results_table_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data_services_profiling_results_table_columns/</guid>
+      <description>Data Services Profiling Results Table Columns Use this page to [View the Profiling Results](../Use_Cases/View_the_Profiling_Results.htm).  To access this page:
+ Select Common &amp;gt; Analyze &amp;gt; Data Services Profiling Results in the Navigation pane. Click the Columns icon for a DATASOURCE_ID.           Fields Description   COLUMN_ID Data Services internal ID of the column profiled.   COLUMN_NAME Displays the name of the column.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Objects</title>
+      <link>https://heathercloward.github.io/common/page_desc/data_source_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data_source_objects/</guid>
+      <description>Data Source Objects Use this page to [Activate and Deactivate Data Sources](../Use_Cases/Activate_and_Deactivate_Data_Source.htm).  To access this page:
+ Click Common &amp;gt; Analyze in Navigation pane. Click Trace for Data Source ID.  Field
+Description
+Activate
+Click to activate the data source for tracing.
+Deactivate
+Click to deactivate the data source for tracing.
+Clear History
+Click to remove all historical tracing data for the data source.
+Reset
+Click to reset the status for a running trace.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Registry H</title>
+      <link>https://heathercloward.github.io/common/page_desc/data_source_registry_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data_source_registry_h/</guid>
+      <description>Data Source Registry H Data Source Registry V
+Use this page to [Register a Data Source in Common](../Use_Cases/Register_a_Data_Source_in_Common.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Data Source Registry in the Navigation pane.
+NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
+  Field
+ Description
+  Test Connection
+ Click to test the connection to the data source, which verifies the user ID and password.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Registry User Credentials H</title>
+      <link>https://heathercloward.github.io/common/page_desc/data_source_registry_user_credentials_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data_source_registry_user_credentials_h/</guid>
+      <description>Data Source Registry User Credentials H Data Source Registry User Credentials V
+Use this page to [Add User Credentials to an SAP Connection for a Specific User](../Use_Cases/Add_User_Credentials_to_an_SAP_Connection_for_a_Specific_Use.htm).  To access this page:
+ Select Common &amp;gt;Configuration &amp;gt; Data Source Registry in the Navigation pane. Click Vertical View for the data source with an APPLICATION DATA SOURCE TYPE of SAP Application Server.. Click the User Credentials icon.           Field Description   DATA SOURCE ID Displays the name of the data source.</description>
+    </item>
+    
+    <item>
+      <title>Data Sources Tables</title>
+      <link>https://heathercloward.github.io/common/page_desc/data_sources_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/data_sources_tables/</guid>
+      <description>Data Sources Tables Use this page to: - [Profile Entire Data Source.](../Use_Cases/Profile_Data_Sources.htm#Profile_Entire_Data_Source) - [Reset for a Data Source](../Use_Cases/Reset_Profiling.htm)  To access this page:
+ Select Common &amp;gt; Analyze in the Navigation pane. Click the Profile icon for a data source.  Field
+Description
+Process Information
+Profile Process Started On
+Displays the date when the profile process started.
+Profile Duration
+Displays how long it took the data source to be profiled.</description>
+    </item>
+    
+    <item>
+      <title>Database Function Setup</title>
+      <link>https://heathercloward.github.io/common/page_desc/database_function_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/database_function_setup/</guid>
+      <description> Database Function Setup Use this page to [Set Up Database Functions](../Use_Cases/Set_up_Database_Functions.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Database Function Setup in the Navigation pane.
+         Field Description   DATA BASE NAME Displays database function name.   DATA BASE RULE Displays SQL script for database function.    </description>
+    </item>
+    
+    <item>
+      <title>Debug Log H</title>
+      <link>https://heathercloward.github.io/common/page_desc/debug_log_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/debug_log_h/</guid>
+      <description>Debug Log H Debug Log V
+Use this page to [View Debug Logs](../Use_Cases/View_Debug_Logs.htm).  To access this page:
+ Select Common &amp;gt; Job Monitor &amp;gt; Debug Logs in Navigation pane. Click View Debug Log for the DSP® component.           Field Description   ID Displays a unique identifier of the debug record.   DATE Displays date and time when the record was added to the debug log.</description>
+    </item>
+    
+    <item>
+      <title>Debug Logs</title>
+      <link>https://heathercloward.github.io/common/page_desc/debug_logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/debug_logs/</guid>
+      <description>Debug Logs Use this page to [Configure Debug Logs Settings](../Use_Cases/Configure_Debug_Logs_Settings.htm).  To access this page, select Common &amp;gt; Job Monitor &amp;gt; Debug Logs in Navigation pane.
+    Field
+ Description
+  Clear Debug Log
+ Clears debug log records (i.e., records under View Debug Log).
+  COMPONENT
+ Displays name of DSP® component being monitored.   TRACE LEVEL
+ Displays severity of the message logged.</description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://heathercloward.github.io/common/page_desc/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/definitions/</guid>
+      <description>Definitions Use this page while [Viewing Objects](../../../Migration/Construct/Use_Cases/View_Objects.htm).  To access this page:
+ Click Common &amp;gt; Analyze in Navigation pane. Click Trace for Data Source ID. Click an applicable icon to view tracked objects. Click SQL icon to view the original SQL code, which is captured at the time an object is registered.           Field Description   DEFINITION Displays actual SQL code used to create the object.</description>
+    </item>
+    
+    <item>
+      <title>Duplicates</title>
+      <link>https://heathercloward.github.io/common/page_desc/duplicates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/duplicates/</guid>
+      <description>Duplicates Use this page to [Review Duplicate Records](../Use_Cases/Review_Duplicate_Records.htm).  To access this page:
+ Click Analyze in the Navigation pane. Click the Duplicates icon for the Data Source ID. Select an object. Click Results on the Page toolbar. Click Duplicates.           Field Description   OBSOLETE OBJECT Displays record that is discarded because it is a duplicate.   ACTUAL OBJECT Displays record that is kept after duplicate analysis.</description>
+    </item>
+    
+    <item>
+      <title>Field Values H</title>
+      <link>https://heathercloward.github.io/common/page_desc/field_values_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/field_values_h/</guid>
+      <description>Field Values H Field Values V Use this page to view the unique values for the selected field while [viewing table field results](../../../Migration/Construct/Use_Cases/View_Table_Field_Results.htm).  To access this page to view details about a specific table:
+ Select Common &amp;gt; Analyze in the Navigation pane. Click the Profile icon for a data source. Click the Tables icon. Click the Fields icon for a table. Click the Unique Value List icon for a field.</description>
+    </item>
+    
+    <item>
+      <title>History Of Changes</title>
+      <link>https://heathercloward.github.io/common/page_desc/history_of_changes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/history_of_changes/</guid>
+      <description>History Of Changes Use this page to [View Object History](../../../Migration/Construct/Use_Cases/View_Object_History.htm).  To access this page:
+ Click Common &amp;gt; Analyze in Navigation pane. Click Trace for Data Source ID. Click an applicable icon to view tracked objects. Click History icon to view an audit trail of the object.           Field Description   HISTORICAL DEFINITION Displays historical SQL code for the object.</description>
+    </item>
+    
+    <item>
+      <title>Information Type</title>
+      <link>https://heathercloward.github.io/common/page_desc/information-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/information-type/</guid>
+      <description>Information Type Use this page to [Add Custom Information Types.](../Use_Cases/Add%20Custom%20Data%20Classifications%20and%20Information%20Types.htm)  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Collect &amp;gt; Information Type in the Navigation pane.
+         Field Description   INFORMATION TYPE Display the name of the DSP delivered information type (Personal, Restricted or Public) or the custom information type.   RETENTION PERIOD WARNING If checked, a retention expiration date must be added to an object&amp;rsquo;s Data Protection settings if a data classification using this information type is used.</description>
+    </item>
+    
+    <item>
+      <title>Keys</title>
+      <link>https://heathercloward.github.io/common/page_desc/keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/keys/</guid>
+      <description>Keys Use this page to [Create a Secure Key](../Use_Cases/Create_a_Secure_Key.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Keys in Navigation pane.
+         Field Description   KEY IDENTIFIER Displays name used to identify the key during the encryption and decryption process.   KEY PASSWORD Displays encrypted password for the key.   KEY ALGORITHM Displays algorithm for the key.</description>
+    </item>
+    
+    <item>
+      <title>Language Column Name Variant</title>
+      <link>https://heathercloward.github.io/common/page_desc/language_column_name_variant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/language_column_name_variant/</guid>
+      <description>Language Column Name Variant Use this page to [Add Language Columns](../Use_Cases/Build_Views.htm#Add_Language_Columns).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Build View in Navigation pane. Click Language Columns for target/source combination.           Field Description   COLUMN Displays value to which language is bound in views during the build views process.   COLUMN LIKE Displays Language name in SAP.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Set</title>
+      <link>https://heathercloward.github.io/common/page_desc/mapping_set/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/mapping_set/</guid>
+      <description>Mapping Set Use this page to [Add a Mapping Set.](../../../Migration/Map/Use_Cases/Import_and_Export_Mappings.htm#Add_a_Mapping_Set)  To access this page:
+ Select Common &amp;gt;System Types in the Navigation pane. Click Target Mapping for a System Type. Click Edit for a mapping. Click the + sign in the MAPPING SET ID list box.    Field
+ Description
+  MAPPING SET
+ Displays the name of a set of mappings used to import mappings into a Target Source in Map.</description>
+    </item>
+    
+    <item>
+      <title>Monitor H</title>
+      <link>https://heathercloward.github.io/common/page_desc/monitor_hcommon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/monitor_hcommon/</guid>
+      <description>Monitor H Monitor V
+Use this page to [View Activity](../Use_Cases/View_Activity.htm).  To access this page:
+ Click Common &amp;gt; Job Monitor in Navigation pane. Click an icon to view all jobs with the selected monitor status for the application.      Field
+ Description
+  MONITOR ID
+ Displays unique identifier associated with the monitor job.
+  CREATED ON
+ Displays date and time when process was executed.</description>
+    </item>
+    
+    <item>
+      <title>NonDuplicates</title>
+      <link>https://heathercloward.github.io/common/page_desc/nonduplicates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/nonduplicates/</guid>
+      <description>NonDuplicates Use this page to [Review Non Duplicate Records](../Use_Cases/Review_Non_Duplicate_Records.htm).  To access this page:
+ Click Analyze in Navigation pane. Click Duplicates for Data Source ID. Select an object. Click Results on Page toolbar. Click Non Duplicates.           Field Description   OBJECT 1 Displays record that is considered a non duplicate when compared to Object 2.   OBJECT 2 Displays record that is considered a non duplicate when compared to Object 1.</description>
+    </item>
+    
+    <item>
+      <title>Object Columns H</title>
+      <link>https://heathercloward.github.io/common/page_desc/object_columns_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/object_columns_h/</guid>
+      <description>Object Columns H Object Columns V
+Use this page to [Configure Columns](../Use_Cases/Configure_Columns.htm).  To access this page:
+ Click Analyze in the Navigation pane. Click the Duplicates icon for the Data Source ID. Select an object. Click Columns on the Page toolbar.           Field Description   COLUMN Displays column being searched for duplicates.   ORDER Displays sort order of columns within the object.</description>
+    </item>
+    
+    <item>
+      <title>Object History H</title>
+      <link>https://heathercloward.github.io/common/page_desc/object_history_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/object_history_h/</guid>
+      <description>Object History H Object History V
+This page displays changes made to an object.  To access this page:
+ Click Analyze in Navigation pane. Click Duplicates for Data Source ID. Click Vertical View for an object. Click the Actions tab. Click History.           Field Description   BUILD STARTED ON Displays date and time when the duplicate detection build process was started.</description>
+    </item>
+    
+    <item>
+      <title>Objects Changed By Week (Users)</title>
+      <link>https://heathercloward.github.io/common/page_desc/objects-changed-by-week-users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/objects-changed-by-week-users/</guid>
+      <description>Objects Changed By Week (Users) This chart displays the count of objects that were updated in the data source selected on the Analyze page. It is broken out by user and week and displays data for a seven week time span. If the user is DSP, the system updated the object through a process or some other method.
+To access the chart in Common:
+ Click Analyze in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Objects H</title>
+      <link>https://heathercloward.github.io/common/page_desc/objects_h_common/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/objects_h_common/</guid>
+      <description>Objects H Objects V All Tabs
+Use this page to [Register Objects](../Use_Cases/Register_Objects.htm).  To access this page:
+ Click Common &amp;gt; Analyze in the Navigation pane. Click the Duplicates icon for a data source.      Field
+ Description
+  Columns
+ Click to specify columns to be analyzed for duplicate records.
+  Results
+ Click to view duplicate results for the object.
+  BDD</description>
+    </item>
+    
+    <item>
+      <title>Parameters - Metrics</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_metrics/</guid>
+      <description>Parameters - Metrics This page is not currently used, but will be activated in a future release.</description>
+    </item>
+    
+    <item>
+      <title>Parameters - User Management</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_user_management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_user_management/</guid>
+      <description>Parameters - User Management Use this page to [Modify Text for Password Email Notifications](../Use_Cases/Modify_Text_for_Password_Email_Notifications.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters - User Mgmt in the Navigation pane.
+Field
+Description
+Default Language
+Displays the default language used for the user’s session.
+NOTE: English is the default value is a language is not selected.
+User Email From
+Displays the email address from which the notifications will be sent.</description>
+    </item>
+    
+    <item>
+      <title>Parameters – Collect</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_collect/</guid>
+      <description>Parameters – Collect Use this page to [Configure Collect Parameters](../Use_Cases/Configure_Collect_Parameters.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters-Collect in the Navigation pane.
+This page contains the following tabs:
+ General tab General Settings tab Package Info tab Data Services Settings tab DBMoto Settings tab Workflow Settings tab  General tab Field
+Description
+Application Information
+Version
+Displays current release version of the component, Collect.
+Release Date</description>
+    </item>
+    
+    <item>
+      <title>Parameters – Duplicates</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_duplicates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_duplicates/</guid>
+      <description>Parameters – Duplicates Use this page to [Configure Duplicates Parameters.](../Use_Cases/Configure_Duplicates_Parameters.htm)  To access this page, click Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters – Duplicates in the Navigation pane.
+Field
+Description
+Application Information
+Version
+Displays current release version of the component, Duplicates. .
+Date
+Displays date when the component version was released.
+Default Values
+Search ID
+Displays ID associated with the duplicate search table (DSPCommon.ttduplicate ).
+Duplicate Detection Threshold</description>
+    </item>
+    
+    <item>
+      <title>Parameters – Integrate</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_integrate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_integrate/</guid>
+      <description>Parameters – Integrate Use this page to [Configure Integrate Parameters](../Use_Cases/Configure_Integrate_Parameters.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters - Integrate in the Navigation pane.
+This page contains the following tabs:
+ General tab Posting Defaults tab  General tab Field
+Description
+Application Information
+Version
+Displays current release version of the component, Integrate.
+Release Date
+Displays date when the component version was released.
+Integrate Settings</description>
+    </item>
+    
+    <item>
+      <title>Parameters – Profile</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_profile/</guid>
+      <description>Parameters – Profile Use this page to [Configure Profile Parameters](../Use_Cases/Configure_Profile_Parameters.htm).  To access this page, click Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters – Profile in the Navigation pane.
+Field
+Description
+Application Information
+Version
+Displays current release version of the component, Profile.
+Date
+Displays date when the component version was released.
+Processing Settings
+Profile Queue ID
+Displays type of background queue to use as the default when profiling objects. The recommended value is Background Event.</description>
+    </item>
+    
+    <item>
+      <title>Parameters – Secure</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_secure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_secure/</guid>
+      <description>Parameters – Secure Use this page to [Configure Secure Parameters](../Use_Cases/Configure_Secure_Parameters.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters - Secure in the Navigation pane
+Field
+Description
+Application Information
+Version
+Displays current release version of the component, Secure.
+Release Date
+Displays date when the component version was released.
+General Settings
+Default Algorithm
+Displays algorithm used when adding a new key. The algorithm is based on SQL Server encryption</description>
+    </item>
+    
+    <item>
+      <title>Parameters – Trace</title>
+      <link>https://heathercloward.github.io/common/page_desc/parameters_trace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/parameters_trace/</guid>
+      <description>Parameters – Trace Use this page to [Configure Trace Parameters](../Use_Cases/Configure_Trace_Parameters.htm).  To access this page, select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Parameters - Trace in Navigation pane.
+Field
+Description
+Application Information
+Version
+Displays current release version of the component, Trace.
+Date
+Displays date when the component version was released.
+General Settings
+Base Language
+Displays language used in the tracing process. Default value is English.
+Object Filter
+Displays prefix used for database object stored procedures.</description>
+    </item>
+    
+    <item>
+      <title>Post Action Rule Table Column</title>
+      <link>https://heathercloward.github.io/common/page_desc/post_action_rule_table_column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/post_action_rule_table_column/</guid>
+      <description>Post Action Rule Table Column Use this page to: - [Add Post Action Rules](../Use_Cases/Add_Post_Action_Table_Rules.htm) - [Configure Rule Columns](../Use_Cases/Set_Up_Post_Action_Rule_Tables.htm#Configure_Rule_Columns)  To access this page:
+ Select Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Post Action Rule Table in the Navigation pane. Click the Rule Columns icon for the table.           Field Description   TABLE Displays table name that post action rules are run against.</description>
+    </item>
+    
+    <item>
+      <title>Post Action Rule Table H</title>
+      <link>https://heathercloward.github.io/common/page_desc/post_action_rule_table_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/post_action_rule_table_h/</guid>
+      <description>Post Action Rule Table H Post Action Rule Table V
+Use this page to [Add Post Action Rules](../Use_Cases/Add_Post_Action_Table_Rules.htm).  To access this page select Configuration &amp;gt; Modules &amp;gt; Post Action Rule Table in Navigation pane.
+         Field Description   TABLE Displays table name that rules are run after against the table has downloaded.   DESCRIPTION Displays a brief description of table.</description>
+    </item>
+    
+    <item>
+      <title>Process Adapter</title>
+      <link>https://heathercloward.github.io/common/page_desc/process_adapter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/process_adapter/</guid>
+      <description>Process Adapter Use this page to [Modify the Process Adapter Entries](../Use_Cases/Process_Adapters.htm#Modify_the_Process_Adapter_Entries).  To access this page, select Common &amp;gt; Configuration &amp;gt; Process Adapters in the Navigation pane.
+  Field
+ Description
+  PROCESS NAME
+ Displays the name of the external process being accessed via the Process Queue. The names are derived from the name of the Data Services entry in the Data Source Registry page (the Name column from the ttDataSourceRegistry table in the DSPCommon database) with a prefix based on the operation the processes perform.</description>
+    </item>
+    
+    <item>
+      <title>Process Adapter Properties</title>
+      <link>https://heathercloward.github.io/common/page_desc/process_adapter_properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/process_adapter_properties/</guid>
+      <description>Process Adapter Properties Use this page to [Modify the Process Adapter Properties](../Use_Cases/Process_Adapters.htm#Modify_the_Process_Adapter_Properties).  To access this page:
+ Select Common &amp;gt; Configuration &amp;gt; Process Adapters in the Navigation pane. Click the Properties icon for a process.    Field
+ Description
+  PROPERTY NAME
+ Displays the property name. This field is not editable.
+The available property names are:
+ OperationTimeoutMinutes - This is the timeout value to wait for the Data Services Web service to respond or for the job import utility to complete the import process.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine - Filters</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_filters/</guid>
+      <description>Report Engine - Filters This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine - Job User Filters</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_job_user_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_job_user_filters/</guid>
+      <description>Report Engine - Job User Filters This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine - Report Source</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_report_source_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_report_source_h/</guid>
+      <description>Report Engine - Report Source This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine Core Configuration</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_core_configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_core_configuration/</guid>
+      <description>Report Engine Core Configuration This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine Formats</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_formats_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_formats_h/</guid>
+      <description>Report Engine Formats This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine Formatting Styles</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_formatting_styles_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_formatting_styles_h/</guid>
+      <description>Report Engine Formatting Styles This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine Job DataStores</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_job_datastores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_job_datastores/</guid>
+      <description>Report Engine Job DataStores This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine MongoDB Configuration</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_mongodb_configuration_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_mongodb_configuration_h/</guid>
+      <description>Report Engine MongoDB Configuration This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine Notifications</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_notifications_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_notifications_h/</guid>
+      <description>Report Engine Notifications This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine – Header/Footers</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_headerfooters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_headerfooters/</guid>
+      <description>Report Engine – Header/Footers This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine – Job Filters</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_job_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_job_filters/</guid>
+      <description>Report Engine – Job Filters This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine – Job Users</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_job_users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_job_users/</guid>
+      <description>Report Engine – Job Users This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine – Jobs H</title>
+      <link>https://heathercloward.github.io/common/page_desc/report_engine_jobs_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/report_engine_jobs_h/</guid>
+      <description>Report Engine – Jobs H This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://heathercloward.github.io/common/page_desc/reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/reports/</guid>
+      <description> Reports Use this page to access installed Common reports.  To access this page, select Common &amp;gt; Reports in the Navigation pane.
+         Field Description   PRIORITY Displays the priority in which the Collect reports are displayed.   Report Displays the reports available in Collect.    </description>
+    </item>
+    
+    <item>
+      <title>Results</title>
+      <link>https://heathercloward.github.io/common/page_desc/results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/results/</guid>
+      <description>Results Use this page to [View Results](../../../Migration/Construct/Use_Cases/View_Results.htm).  To access this page:
+ Click Analyze in Navigation pane. Click Duplicates for Data Source ID. Select an object. Click Results on Page toolbar.      Field
+ Description
+  Objects
+ Click to run the duplicate detection process or to manage unresolved candidates.
+  OBJECT
+ Displays column name being analyzed for duplicate records.
+  RECORD COUNT</description>
+    </item>
+    
+    <item>
+      <title>SAP RFC</title>
+      <link>https://heathercloward.github.io/common/page_desc/sap_rfc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/sap_rfc/</guid>
+      <description>SAP RFC Use this page to view the RFCs extracted from SAP for a data source. Refer to [Extract RFC Functions](../../Integrate/Config/Extract_RFC_Functions.htm) for more information.   To access this page:
+ Select Configuration &amp;gt; Data Source Registry in the Navigation pane. Click Vertical View for the data source with an APPLICATION DATA SOURCE TYPE of SAP Application Server, Click the RFC Extract icon.           Field Description   NAME Displays the name of the RFC extracted from SAP.</description>
+    </item>
+    
+    <item>
+      <title>SQL Objects</title>
+      <link>https://heathercloward.github.io/common/page_desc/sql_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/sql_objects/</guid>
+      <description>SQL Objects Use this page to [View Objects](../../../Migration/Construct/Use_Cases/View_Objects.htm).  To access this page:
+ Click Common &amp;gt; Analyze in Navigation pane. Click Trace for Data Source ID. Click an applicable icon to view tracked objects.           Field Description   Filter Changed Only Click to apply the filter to only display changed objects.   Filter All Click to remove change filter so all objects display.</description>
+    </item>
+    
+    <item>
+      <title>SQL Objects (With History)</title>
+      <link>https://heathercloward.github.io/common/page_desc/sql_objects_with_history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/sql_objects_with_history/</guid>
+      <description>SQL Objects (With History) This page displays only SQL objects that have been changed.
+To access this page:
+ Click Common &amp;gt; Analyze in Navigation pane. Click Trace for Data Source ID. Click an applicable icon to view tracked objects. Click theFilter Changed Only icon.           Field Description   OBJECT NAME Displays name of object being traced.   TYPE_DESC Displays type of SQL object, e.</description>
+    </item>
+    
+    <item>
+      <title>Schedule – Configure</title>
+      <link>https://heathercloward.github.io/common/page_desc/schedule_configure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/schedule_configure/</guid>
+      <description>Schedule – Configure Use this page to [Create Schedules](../Use_Cases/Create_Schedules.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Schedules in Navigation pane. Click Vertical View. Click link for Recurrence ID.  The configuration of this page depends on the Recurrence ID:
+ Minutes – Every ## minutes – Example: Every 30 minutes Hourly – Every ## hour(s) – Example: Every 2 hour(s) Daily – Every ## day(s) – Example: Every 2 day(s) Daily – Every weekday Weekly – Recur every ## week(s) on specific weekdays – Example: Recur every 3 week(s) on Tuesday, Thursday, Saturday Monthly – Fixed date – Example: Day 1 of every 3 month(s) Monthly – Variable date – Example: The third weekday of every 2 month(s) Yearly – Fixed date – Example: Every October 19 Yearly – Variable date – Example: The third Sunday of March  Minutes – Every ## minutes – Example: Every 30 minutes Field</description>
+    </item>
+    
+    <item>
+      <title>Schedules H</title>
+      <link>https://heathercloward.github.io/common/page_desc/schedules_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/schedules_h/</guid>
+      <description>Schedules H Schedules V
+Use this page to [Create Schedules](../Use_Cases/Create_Schedules.htm).  To access this page, select Common &amp;gt; Tools &amp;gt; Schedules in Navigation pane.
+         Field Description   NAME Displays name of the schedule.   DESCRIPTION Displays brief description of the schedule.   RECURRENCE DESCRIPTION Displays when the schedule recurs.   NEXT RUN TIME Displays date and time when schedule will run next.</description>
+    </item>
+    
+    <item>
+      <title>System Types Group Table Rule Fields</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_group_table_rule_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_group_table_rule_fields/</guid>
+      <description>System Types Group Table Rule Fields Use this page to [Add Post Action Table Rules](../Use_Cases/Add_Post_Action_Table_Rules.htm).  To access this page:
+ Click Common &amp;gt; System Types in Navigation pane. Click Groups icon for System Type. Click Tables icon for Group. Click Post Action Table Rules for Table. Click Post Action Table Rule Fields for Rule.      Field
+ Description
+  SYSTEM TYPE TABLE FIELD ID</description>
+    </item>
+    
+    <item>
+      <title>System Types Group Table Rules</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_group_table_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_group_table_rules/</guid>
+      <description>System Types Group Table Rules Use this page to [Add Post Action Table Rules](../Use_Cases/Add_Post_Action_Table_Rules.htm).  To access this page:
+ Click Common &amp;gt; System Types in the Navigation pane. Click the Groups icon for the System Type. Click the Tables icon for the Group. Click the Post Action Table Rules for the Table.           Field Description   DATABASE RULE ID Displays database function name run against the table.</description>
+    </item>
+    
+    <item>
+      <title>System Types Group Tables</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_group_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_group_tables/</guid>
+      <description>System Types Group Tables Use this page to: - [Add a System Type Group](../Use_Cases/Add_System_Types_Groups.htm) - [Activate or Deactivate Tables in a System Type Group](../Use_Cases/Activate_Deactivate_Tbls_System_Type_Group.htm)  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Groups icon for a System Type. Click the Tables icon for a group.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.</description>
+    </item>
+    
+    <item>
+      <title>System Types Groups</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_groups/</guid>
+      <description>System Types Groups Use this page to [Add System Type Groups](../Use_Cases/Add_System_Types_Groups.htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Groups icon for a System Type.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+         Field Description   GROUP Displays name of the System Type group, a logical grouping of tables, such as Customer or Vendor.</description>
+    </item>
+    
+    <item>
+      <title>System Types H</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_h/</guid>
+      <description>System Types H System Types V
+Use this page to [Add System Types](../Use_Cases/Add_System_Types.htm).  To access this page, click Common &amp;gt; System Types in Navigation pane.
+    Field
+ Description
+  Import from Data Source or Model
+ Click to open the System Types Import page to import a System Type. Refer to Import a Data Source and Import a Model for more information.
+  SYSTEM TYPE</description>
+    </item>
+    
+    <item>
+      <title>System Types Import</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_import/</guid>
+      <description>System Types Import Use this page to: - [Import a Data Source](../Use_Cases/Import_a_Data_Source.htm). - [Import a Model](../Use_Cases/Import%20a%20Model.htm) - [Export Translations to a Catalog](../Use_Cases/Export_Translations_to_a_Catalog.htm)  To access this page:
+ SelectCommon &amp;gt; System Types in the Navigation pane. Click the Vertical View icon for a System Type. Click Import from Data Source or Model.  Field
+Description
+Model
+Click the System Types Models page to document in which tables must be populated when building the System Type.</description>
+    </item>
+    
+    <item>
+      <title>System Types Index Fields</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_index_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_index_fields/</guid>
+      <description>System Types Index Fields Use this page to [Add Indices](../Use_Cases/Add_Indices.htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Tables icon for a System Type. Click the Indices icon for a table. Click the Index Fields icon for a table index.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+         Field Description   SYSTEM TYPE TABLE FIELD ID Displays field in column that exists in the index.</description>
+    </item>
+    
+    <item>
+      <title>System Types Join Field</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_join_field/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_join_field/</guid>
+      <description>System Types Join Field Use this page to [Add Table Join Relationships](../Use_Cases/Add_Table_Join_Relationships.htm).  To access this page:
+ Click Common &amp;gt; System Types in Navigation pane.
+ Click Tables icon for a System Type.
+ Click Joins icon for System Type table.
+ Click Fields for join.
+  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+  Field</description>
+    </item>
+    
+    <item>
+      <title>System Types Joins</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_joins/</guid>
+      <description>System Types Joins Use this page to [Add Table Join Relationships](../Use_Cases/Add_Table_Join_Relationships.htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane.
+ Click the Tables icon for a System Type.
+ Click the Joins icon for a System Type table.
+  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+         Field Description   NAME Displays the name of the relationship.</description>
+    </item>
+    
+    <item>
+      <title>System Types Mappings</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_mappings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_mappings/</guid>
+      <description>System Types Mappings Use this page to [Add Mappings](../Use_Cases/Add_Mappings.htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Target Mappings icon for a System Type.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+  Field
+ Description
+  SOURCE SYSTEM TYPE TABLE ID
+ Displays table within the target system being mapped.</description>
+    </item>
+    
+    <item>
+      <title>System Types Model Build Views</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_model_build_views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_model_build_views/</guid>
+      <description>System Types Model Build Views Use this page to [build views based on the System Type Model.](../Use_Cases/Build%20Views%20based%20on%20a%20ST%20Model.htm)  To access this page:
+ Select Common &amp;gt; Configuration &amp;gt; System Type Models in the Navigation pane. Click Vertical View icon for a System Type Model. Click Build Viewsicon.  Field
+Description
+ Import View Names
+Build Data Source ID
+Displays the data source of the target System Type’s database.
+SQL Table</description>
+    </item>
+    
+    <item>
+      <title>System Types Model Group Tables</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_model_group_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_model_group_tables/</guid>
+      <description>System Types Model Group Tables Use this page to - [Add a System Type Model Group](../Use_Cases/Add%20a%20System%20Type%20Model%20Group.htm) - [Activate or Deactivate Tables in a System Type Model Group](../Use_Cases/ActiveDeactiveTblsSystmTypeModelGrp.htm)  To access this page:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane. Click the Model Groups icon for a System Type Model. Click the Tables icon for a model group.  NOTE: Excel Integration has been enabled on this page.</description>
+    </item>
+    
+    <item>
+      <title>System Types Model Groups</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_model_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_model_groups/</guid>
+      <description>System Types Model Groups Use this page to: - [Add a System Type Model Group.](../Use_Cases/Add%20a%20System%20Type%20Model%20Group.htm) - [Activate or Deactivate Tables in a System Type Model Group](../Use_Cases/ActiveDeactiveTblsSystmTypeModelGrp.htm)  To access this page:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane. Click the Model Groups icon for a System Type Model.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.</description>
+    </item>
+    
+    <item>
+      <title>System Types Model Required Fields</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_model_required_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_model_required_fields/</guid>
+      <description>System Types Model Required Fields Use this page to [view fields required for System Type tables](../Use_Cases/View%20Fields%20Required%20for%20System%20Type%20Tables.htm).  To access this page:
+ Select Common &amp;gt; Configuration &amp;gt; System Type Models in the Navigation pane. Click the Model Required For (Tables, Tables Fields, Table Lookup Fields, Table Fields Domains) icon respectively to view the requirements.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.</description>
+    </item>
+    
+    <item>
+      <title>System Types Model Tables</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_model_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_model_tables/</guid>
+      <description>System Types Model Tables Use this page to [Add a System Type Model Table](../Use_Cases/Add_a_New_System_Type_Model_Table.htm).  To access this page:
+ Select Configuration &amp;gt; System Type Models in the Navigation pane. Click the Model Tables icon for a System Type model.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+  Field
+ Description
+  TABLE NAME
+ Displays the name of the table required to do the import for the selected System Type model.</description>
+    </item>
+    
+    <item>
+      <title>System Types Models H</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_models_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_models_h/</guid>
+      <description>System Types Models H System Types Models V
+Use this page to: - [Add a System Type Model](../Use_Cases/Add_a_New_System_Type_Model.htm) - [Add a System Type Model Table](../Use_Cases/Add_a_New_System_Type_Model_Table.htm). - [View Fields Required for System Type Tables](../Use_Cases/View%20Fields%20Required%20for%20System%20Type%20Tables.htm) - [Add a System Type Model Group](../Use_Cases/Add%20a%20System%20Type%20Model%20Group.htm)  To access this page, select Configuration &amp;gt; System Type Models in the Navigation pane.
+  Field
+ Description
+  Model Tables
+ Click to open the System Types Model Tables page to add tables to a System Type model table.</description>
+    </item>
+    
+    <item>
+      <title>System Types Table Fields H</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_table_fields_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_table_fields_h/</guid>
+      <description>System Types Table Fields H System Types Table Fields V
+Use this page to: - [Add Fields to Tables](../Use_Cases/Add_Fields_to_Tables.htm) - [Add a Lookup Table Manually](../Use_Cases/Add_a%20Lookup%20Table%20Manually..htm)  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Tables icon for a System Type. Click the Fields icon for a Table Name.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.</description>
+    </item>
+    
+    <item>
+      <title>System Types Table Indices</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_table_indices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_table_indices/</guid>
+      <description>System Types Table Indices Use this page to [Add Indices](../Use_Cases/Add_Indices.htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click theTables icon for a System Type. Click the Indices icon for a table.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+  Field
+ Description
+  INDEX NAME
+ Displays name of index.</description>
+    </item>
+    
+    <item>
+      <title>System Types Table Lookup</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_table_lookup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_table_lookup/</guid>
+      <description>System Types Table Lookup Use this page to [Add a Lookup Table Manually](../Use_Cases/Add_a%20Lookup%20Table%20Manually..htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Tables icon for a System Type. Click the Fields icon for a Table Name. Click a lookup table name in the LOOKUP TABLE column.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.</description>
+    </item>
+    
+    <item>
+      <title>System Types Table Statics</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_table_statics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_table_statics/</guid>
+      <description>System Types Table Statics Use this page to [Set Values for System Types Table Fields](../Use_Cases/Set%20Values%20for%20System%20Types%20Table%20Fields.htm).  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Tables icon for a System Type. Click the Fields icon for a Table Name. Click the Static Value List icon for the field.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.</description>
+    </item>
+    
+    <item>
+      <title>System Types Tables H</title>
+      <link>https://heathercloward.github.io/common/page_desc/system_types_tables_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/system_types_tables_h/</guid>
+      <description>System Types Tables H System Types Tables V
+Use this page to - [Manually Add System Tables](../Use_Cases/Manually_Add_System_Tables.htm) - [Copy a System Type Table](../Use_Cases/Copy_a_System_Type_Table1.htm)  To access this page:
+ Select Common &amp;gt; System Types in the Navigation pane. Click the Tables icon for the System Type.  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+    Field</description>
+    </item>
+    
+    <item>
+      <title>Table (Results) H</title>
+      <link>https://heathercloward.github.io/common/page_desc/table_results_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/table_results_h/</guid>
+      <description>Table (Results) H Table (Results) V Use this page to - [Activate and Deactivate Tables](../Use_Cases/Activate_and_Deactivate_Tables.htm) - [Profile Individual Tables](../Use_Cases/Profile_Data_Sources.htm#Profile_Individual_Tables) - [View Table Results](../../../Migration/Construct/Use_Cases/View_Table_Results.htm) - [Reset for a Table](../Use_Cases/Reset_Profiling.htm)  This page can be accessed in two ways.
+To access this page to view a list of all tables that are profiled::
+ Select Common &amp;gt; Analyze in the Navigation pane. Click the Profile icon for a data source. Click the Tables icon.</description>
+    </item>
+    
+    <item>
+      <title>Table Field (Results) H</title>
+      <link>https://heathercloward.github.io/common/page_desc/table_field_results_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/table_field_results_h/</guid>
+      <description>Table Field (Results) H Table Field (Results) V
+Use this page to [View Table Field Results](../../../Migration/Construct/Use_Cases/View_Table_Field_Results.htm).  To access this page:
+ Select Common &amp;gt; Analyze in the Navigation pane. Click the Profile icon for a data source. Click the Tables icon. Click the Fields icon for a table.           Field Description   FIELD DEFINED ORDER Displays the order in which field displays in the table.</description>
+    </item>
+    
+    <item>
+      <title>Toolkit: Excel H</title>
+      <link>https://heathercloward.github.io/common/page_desc/toolkit_excel_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/toolkit_excel_h/</guid>
+      <description>Toolkit: Excel H Toolkit: Excel V
+Use this page to: - [Import Excel Files](../Use_Cases/Import_Excel_Files.htm) - [Export Excel Files](../Use_Cases/Export_Excel_Files.htm)  To access this page, select Common &amp;gt; Toolkit &amp;gt; Excel in Navigation pane.
+         Field Description   ID Displays the unique identifier of the Excel record.   EXCEL EXPORT TABLE NAME Displays the table name of the calling component’s database into which exports from Excel file are processed.</description>
+    </item>
+    
+    <item>
+      <title>Toolkit: File/Folder Operations H</title>
+      <link>https://heathercloward.github.io/common/page_desc/toolkit_file_folder_operations_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/toolkit_file_folder_operations_h/</guid>
+      <description>Toolkit: File/Folder Operations H Toolkit: File/Folder Operations V
+Use this page to: - [Copy Files](../Use_Cases/Copy_Files.htm) - [Move Files](../Use_Cases/Move_Files.htm) - [Copy Folders](../Use_Cases/Copy_Folders.htm) - [Delete Files](../Use_Cases/Delete_Files.htm)  To access this page, select Common &amp;gt; Toolkit &amp;gt; File/Folder in Navigation pane.
+         Field Description   ID Displays ID of record.   IO COPY SOURCE Displays source directory where file/folder currently exists.   IO COPY TARGET Displays target directory where file/folder is copied or moved.</description>
+    </item>
+    
+    <item>
+      <title>User Credentials H</title>
+      <link>https://heathercloward.github.io/common/page_desc/user_credentials_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/user_credentials_h/</guid>
+      <description>User Credentials H User Credentials V
+Use this page to [Add Stored Credentials as a User on a Page in Integrate or dspCompose](../../../Data_Quality/dspCompose/Config/Add_Stored_Credentials_as_a_User_on_a_Page_in_Integrate_or_dspCompose.htm).  To access this page:
+ Click Integrate &amp;gt;Categories in the Navigation pane. Click the Templates icon for a category. Click Vertical View for a template of type BDC Script, GUI Script, BAPI or RFC. Click the User Credentials icon; Vertical View displays.    Field</description>
+    </item>
+    
+    <item>
+      <title>User Management H</title>
+      <link>https://heathercloward.github.io/common/page_desc/user_management_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/user_management_h/</guid>
+      <description>User Management H User Management V
+Use this page to: - [Create a User Account in Common](../Use_Cases/Create_a_User.htm) - [Send a Temporary Password to a New User](../Use_Cases/Send_a_Temporary_Password_to_a_User.htm) - [Reset a User&#39;s Password](../Use_Cases/Reset%20a%20User&#39;s%20Password.htm) - [Assign an Expiration Date to a User](../Use_Cases/Assign_an_Expiration_Date_to_a_User.htm)  To access this page, select Common &amp;gt; User Management in the Navigation pane.
+NOTE: Excel Integration has been enabled on this page to allow for Excel-driven user management. Refer to Use Excel Integration and the Knowledge Base article Use Excel Integration to Create or Update Multiple User Accounts for more information.</description>
+    </item>
+    
+    <item>
+      <title>User Role</title>
+      <link>https://heathercloward.github.io/common/page_desc/user_role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/user_role/</guid>
+      <description>User Role Use this page to [Assign a User to a Security Role in Common](../Use_Cases/Assign_a_User_to_a_Security_Role_in_Common.htm)  To access this page:
+ Select Common &amp;gt; User Management in the Navigation pane.
+ Click the Security Roles icon for a user ID.
+      Field
+ Description
+  Web App Groups
+ Click to open the WebApp Security page which is where the selected user is given access (by the Administrator) to design and develop custom WebApps or to customize the set of delivered components for which customization is allowed.</description>
+    </item>
+    
+    <item>
+      <title>Work Day</title>
+      <link>https://heathercloward.github.io/common/page_desc/work_day/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/work_day/</guid>
+      <description>Work Day Use this page to [Set Work Days and Work Hours for a Calendar](../Use_Cases/SetWorkDysHrsCalendar.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Calendar from the Navigation pane. Click Work Days for a calendar.           Field Description   Copy Work Hours Click to copy the work hours of the selected work day to all other work days in the calendar.</description>
+    </item>
+    
+    <item>
+      <title>Work Hours</title>
+      <link>https://heathercloward.github.io/common/page_desc/work_hours/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/common/page_desc/work_hours/</guid>
+      <description>Work Hours Use this page to [Set Work Days and Work Hours for a Calendar](../Use_Cases/SetWorkDysHrsCalendar.htm).  To access this page:
+ Select Common &amp;gt; Tools &amp;gt; Calendar from the Navigation pane. Click Work Days for a calendar. Click the Work Hours icon for a work day.           Field Description   START TIME Displays the start time of a shift on the selected work day.</description>
+    </item>
+    
+  </channel>
+</rss>

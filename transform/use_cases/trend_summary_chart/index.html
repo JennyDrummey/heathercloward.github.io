@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trend Summary (Chart) :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/transform/" class="active">Transform Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/transform/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/transform/config/access_transform/" class="">Access Transform</a></li>
+        
+            <li >
+                <a href="/transform/config/add_report_types/" class="">Add Report Types</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_complexity_values/" class="">Configure Complexity Values</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_import_export_types/" class="">Configure Import / Export Types</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_object_estimates/" class="">Configure Object Estimates</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_parameters/" class="">Configure Parameters</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_sample_size/" class="">Configure Sample Size</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_sampling_methods/" class="">Configure Sampling Methods</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_score_card_limits/" class="">Configure Score Card Limits</a></li>
+        
+            <li >
+                <a href="/transform/config/configure_target_types/" class="">Configure Target Types</a></li>
+        
+            <li >
+                <a href="/transform/config/set_up_headers_and_footers/" class="">Set Up Headers and Footers for Transform Reports</a></li>
+        
+            <li >
+                <a href="/transform/config/set_up_data_sources_for_transform/" class="">Set up Data Sources for Transform</a></li>
+        
+            <li >
+                <a href="/transform/config/setup_and_configuration_for_transform/" class="">Setup and Configuration for Transform</a></li>
+        
+            <li >
+                <a href="/transform/config/view_status/" class="">View Status</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/transform/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/transform/page_desc/all_actionable_reports/" class="">All Actionable Reports H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_business_reports/" class="">All Business Reports</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_business_reports_all_wave_process_areas/" class="">All Business Reports – All Wave/Process Areas H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_reports_by_object/" class="">All Reports (By Object)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_reports_by_source/" class="">All Reports (By Source)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_reports_by_target/" class="">All Reports (By Target)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_reports_all_users/" class="">All Reports All Users</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/all_reports/" class="">All Reports H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/assign_filters_by_user/" class="">Assign Filters By User</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/complexity_setup/" class="">Complexity (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/copy_filter/" class="">Copy Filter</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/cutover_plan/" class="">Cutover Plan</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/debug_breakpoints/" class="">Debug - Breakpoints</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/debug_breakpoints_target_sources/" class="">Debug - Breakpoints (Target Sources)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/filter_column_and_values/" class="">Filter Column and Values</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/filters/" class="">Filters</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/import_export_types_setup/" class="">Import / Export Types (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/load_type_setup/" class="">Load Types (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/milestone_objects_h/" class="">Milestone Objects H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/milestones/" class="">Milestones</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/monitor_transform_h/" class="">Monitor H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/object_metrics/" class="">Object (Metrics)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/object_documentation/" class="">Object Documentation</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/object_documentation_reports/" class="">Object Documentation Reports</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/object_estimates_setup/" class="">Object Estimates (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/objects/" class="">Objects</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/objects_htransform/" class="">Objects H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/process_area_launch/" class="">Process Area Launch</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/report_access_by_report_by_user/" class="">Report Access (By Report, By User)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/report_quick_list/" class="">Report Quick List H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/report_readiness_notification/" class="">Report Readiness Notification</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/report_run_historical_record_count/" class="">Report Run Historical Record Count</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/report_types_setup/" class="">Report Types (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/report_user_access_log/" class="">Report User Access Log</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/reports/" class="">Reports</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/reports_never_viewed/" class="">Reports – Never Viewed</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/reports_updated_not_viewed_by_user/" class="">Reports – Updated Not Viewed (By User)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/sample_sizes_setup/" class="">Sample Sizes (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/sampling_methods_setup/" class="">Sampling Methods (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/score_card_metrics/" class="">Score Card (Metrics)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/score_card_limits_setup/" class="">Score Card Limits (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/source_errors/" class="">Source (Errors) H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/source_info/" class="">Source (Info) H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/status_setup/" class="">Status (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_errors/" class="">Target (Errors) H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_info/" class="">Target (Info) H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_all_errors_report/" class="">Target All Errors Report</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_ds_remediation_h/" class="">Target Data Services Remediation H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_ds_remediation_overview/" class="">Target Data Services Remediation Overview</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_ds_remediation_setup/" class="">Target Data Services Remediation Setup</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_data_services_report_segments/" class="">Target Data Services Report Segments</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_data_services_reports_h/" class="">Target Data Services Reports H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_ds_rule_audit_h/" class="">Target Data Services Rule Audit H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_ds_rule_global_variables/" class="">Target Data Services Rule Global Variables</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_data_services_rules_h/" class="">Target Data Services Rules H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_documentation/" class="">Target Documentation</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_documentation_reports/" class="">Target Documentation Reports</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_exports_h/" class="">Target Exports H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_remediation_h/" class="">Target Remediation H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_remediation_overview/" class="">Target Remediation Overview</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_remediation_setup/" class="">Target Remediation Setup</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_report_segment_user_assignment/" class="">Target Report Segment User Assignment</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_report_segments/" class="">Target Report Segments</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_reports_h/" class="">Target Reports H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_reports_segments/" class="">Target Reports Segments</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_rule_audit_report/" class="">Target Rule (Audit)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_rule_audit_h/" class="">Target Rule Audit H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_rules_h/" class="">Target Rules H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_source_documentation/" class="">Target Source Documentation</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_source_documentation_reports/" class="">Target Source Documentation Reports</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_source_reports_h/" class="">Target Source Reports H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_source_rule_audit/" class="">Target Source Rule Audit H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_source_rules_h/" class="">Target Source Rules H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_sources_h/" class="">Target Sources H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/target_types_setup/" class="">Target Types (Setup)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/targets_h/" class="">Targets H</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/tasks/" class="">Tasks</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/trend_summary/" class="">Trend Summary</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/trend_summary_error_reports/" class="">Trend Summary (Error Reports)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/trend_summary_procedures/" class="">Trend Summary (Procedures)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/trend_summary_tables/" class="">Trend Summary (Tables)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/trend_summary_views/" class="">Trend Summary (Views)</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/user_filter_user_assignment/" class="">User Filter User Assignment</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/user_filters_by_user_parent/" class="">User Filters By User Parent</a></li>
+        
+            <li >
+                <a href="/transform/page_desc/workflow_template_transform/" class="">Workflow Template</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/transform/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/transform/use_cases/access_chart_by_report_by_user/" class="">Access Chart (By Report By User)</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_source_audit_rules/" class="">Add Source Audit Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_audit_rules/" class="">Add Target Audit Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_ds_rpts/" class="">Add Target Data Services Reports</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_ds_rules/" class="">Add Target Data Services Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_exports/" class="">Add Target Exports</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_reports/" class="">Add Target Reports</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_rules/" class="">Add Target Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_source_reports/" class="">Add Target Source Reports</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_target_source_rules/" class="">Add Target Source Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/add_a_report_to_the_report_quick_list/" class="">Add a Report to the Report Quick List</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/assign_additional_target_sources/" class="">Assign Additional Target Sources</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/change_summary_dashboard/" class="">Change Summary Dashboard</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/changes_daily_by_object/" class="">Changes Daily By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/changes_daily_by_wave_and_process_area/" class="">Changes Daily By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/changes_monthly_by_object/" class="">Changes Monthly By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/changes_monthly_by_wave_and_process_area/" class="">Changes Monthly By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/changes_weekly_by_object/" class="">Changes Weekly By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/changes_weekly_by_wave_and_process_area/" class="">Changes Weekly By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/configure_notifications_for_report_readiness/" class="">Configure Notifications for Report Readiness</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/configure_report_delivery/" class="">Configure Report Delivery</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/configure_report_delivery_settings/" class="">Configure Report Delivery Settings</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/configure_target_ds_rule_global_var/" class="">Configure Target Data Services Rule Global Variables</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/correct_errors_in_target_ds_data_with_fixed/" class="">Correct Errors in Target Data Services Data with Fixed Remediation Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/correct_errors_in_target_data_with_fixed/" class="">Correct Errors in Target Data with Fixed Remediation Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/create_milestones/" class="">Create Milestones</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/data_source_connection_types/" class="">Data Source Connection Types</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/debug_rules_and_reports_using_brkpnts/" class="">Debug Rules and Reports using Breakpoints</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/download_a_report/" class="">Download a Report</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/edit_the_priority_and_publish_setting/" class="">Edit the Priority and Publish Setting</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/generate_documentation/" class="">Generate Documentation</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/grant_users_access_to_reports_and_sensitive_data/" class="">Grant Users Access to Reports and Sensitive Data</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/import_sources/" class="">Import Sources</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/manage_target_sources/" class="">Manage Target Sources</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/manage_targets/" class="">Manage Targets</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/monitor_jobs/" class="">Monitor Jobs</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/naming_conventions/" class="">Naming Conventions</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/publish_reports_to_report_delivery_pages/" class="">Publish Reports to Report Delivery Pages</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/register_target_ds_remediation_rules/" class="">Register Target Data Services Remediation Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/register_target_remediation_rules/" class="">Register Target Remediation Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/remove_a_report_from_report_delivery_pages/" class="">Remove a Report from Report Delivery Pages</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_delivery_filters/" class="">Report Delivery Filters</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_delivery_overview/" class="">Report Delivery Overview</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_process_count_by_object/" class="">Report Process Count By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_process_count_by_source_report/" class="">Report Process Count By Source Report</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_process_count_by_target_report/" class="">Report Process Count By Target Report</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_process_count_by_wave_and_process_area/" class="">Report Process Count By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/report_process_count_dashboard/" class="">Report Process Count Dashboard</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/rule_report_summary_dashboard/" class="">Rule Report Summary Dashboard</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/run_target_data_services_rules/" class="">Run Target Data Services Rules</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/ssis_packages/" class="">SSIS Packages</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/set_a_priority_level_for_reports/" class="">Set a Priority Level for Reports on Report Delivery Pages</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/source_reports_active_by_object/" class="">Source Reports (Active) By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/source_reports_active_by_target/" class="">Source Reports (Active) By Target</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/source_reports_active_by_wave_and_process_area/" class="">Source Reports (Active) By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/source_rules_active_by_object/" class="">Source Rules (Active) By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/source_rules_active_by_target/" class="">Source Rules (Active) By Target</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/source_rules_active_by_wave_and_process_area/" class="">Source Rules (Active) By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/summary_type_by_object/" class="">Summary Type By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/summary_type_by_wave_process_area/" class="">Summary Type By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_metrics_content/" class="">Target Metrics Content</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_metrics_object_development/" class="">Target Metrics Object Development</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_metrics_report/" class="">Target Metrics Report</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_report_segments/" class="">Target Report Segments</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_reports_active_by_object/" class="">Target Reports (Active) By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_reports_active_by_target/" class="">Target Reports (Active) By Target</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_reports_active_by_wave_and_process_area/" class="">Target Reports (Active) By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_rules_active_by_object/" class="">Target Rules (Active) By Object</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_rules_active_by_target/" class="">Target Rules (Active) By Target</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/target_rules_active_by_wave_and_process_area/" class="">Target Rules (Active) By Wave &amp; Process Area</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/trend_summary_chart/" class="uk-active">Trend Summary (Chart)</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/use_an_integrate_process_as_an_export_type/" class="">Use an Integrate Process as an Export Type</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_dashboards_in_transform/" class="">View Dashboards in Transform</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_ds_remediation_rule_information/" class="">View Data Services Remediation Rule Information</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_remediation_rule_information/" class="">View Remediation Rule Information</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_reports/" class="">View Reports</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_transform_reports/" class="">View Transform Reports</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_your_report_access_level/" class="">View Your Report Access Level</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_the_report_user_access_dashboard/" class="">View the Report User Access Dashboard</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_the_report_user_access_log/" class="">View the Report User Access Log</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_the_reports_never_viewed/" class="">View the Reports - Never Viewed</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/view_the_reports_updated_not_viewed_by_user/" class="">View the Reports - Updated Not Viewed (By User)</a></li>
+        
+            <li >
+                <a href="/transform/use_cases/work_with_objects/" class="">Work with Objects</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Transform</a></li>
+        <li><span>Trend Summary (Chart)</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="trend-summary-chart">Trend Summary (Chart)</h1>
+
+<p><strong>NOTE:</strong> Before data displays on this chart:</p>
+
+<ul>
+<li>Trace must be turned on for the tables, views, functions and
+procedure counts. Refer to <a href="../../../Platform/Common/Use_Cases/Activate_and_Deactivate_Data_Source.htm">Activate and Deactivate Data
+Sources</a>
+for more information. For Transform, trace should be activated for
+the databases beginning with “dsw.&rdquo;</li>
+<li>A milestone must be captured. Refer to <a href="Create_Milestones.htm">Create
+Milestones</a> for more information.</li>
+</ul>
+
+<p>This chart displays the count for all Objects regardless of Wave and
+Process Area. The following counts are tracked for each Object:</p>
+
+<ul>
+<li>Tables</li>
+<li>Procedures</li>
+<li>Views</li>
+<li>Records on error reports</li>
+<li>Total count for Objects</li>
+</ul>
+
+<p>To access the chart in Transform:</p>
+
+<ol>
+<li>Click <span style="font-weight: bold;">Transform</span> in the
+<span style="font-style: italic;">Navigation</span> pane or click
+Transform in the Context bar.</li>
+<li>Select <span style="font-weight: bold;">Tracking &gt; Summary
+(Chart)</span> in the
+<span style="font-style: italic;">Navigation</span> pane.</li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#trend-summary-chart">Trend Summary (Chart)</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

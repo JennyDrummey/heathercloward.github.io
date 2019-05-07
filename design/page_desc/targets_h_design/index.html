@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Targets H :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/design/" class="active">Target Design Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/design/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/design/config/access_design/" class="">Access Target Design</a></li>
+        
+            <li >
+                <a href="/design/config/add_custom_criticality_levels/" class="">Add Custom Criticality Levels</a></li>
+        
+            <li >
+                <a href="/design/config/add_custom_requirement_settings/" class="">Add Custom Requirement Settings</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/design/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/design/page_desc/append_utility_columns/" class="">Append Utility Columns</a></li>
+        
+            <li >
+                <a href="/design/page_desc/copy_targets/" class="">Copy Targets</a></li>
+        
+            <li >
+                <a href="/design/page_desc/criticality/" class="">Criticality</a></li>
+        
+            <li >
+                <a href="/design/page_desc/database_import/" class="">Database Import</a></li>
+        
+            <li >
+                <a href="/design/page_desc/design/" class="">Design</a></li>
+        
+            <li >
+                <a href="/design/page_desc/field_groups/" class="">Field Groups</a></li>
+        
+            <li >
+                <a href="/design/page_desc/metric_groups/" class="">Metric Groups</a></li>
+        
+            <li >
+                <a href="/design/page_desc/object_field_groups/" class="">Object Field Groups</a></li>
+        
+            <li >
+                <a href="/design/page_desc/objects_target_design/" class="">Objects</a></li>
+        
+            <li >
+                <a href="/design/page_desc/required/" class="">Required</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_basic_rule_h/" class="">Rules: Basic Rule H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_complex_rule_h/" class="">Rules: Complex Rule H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_execution_stage_complex_rule/" class="">Rules: Execution Stage Complex Rules</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_execution_stage_h/" class="">Rules: Execution Stage H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_field_complex_rules/" class="">Rules: Field Complex Rules</a></li>
+        
+            <li >
+                <a href="/design/page_desc/select_destination_object_for_targets/" class="">Select Destination Object For Targets</a></li>
+        
+            <li >
+                <a href="/design/page_desc/source_target_design/" class="">Source</a></li>
+        
+            <li >
+                <a href="/design/page_desc/source_where_used/" class="">Source Where Used</a></li>
+        
+            <li >
+                <a href="/design/page_desc/system_type_import/" class="">System Type Import</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_contacts/" class="">Target Contacts</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependencies/" class="">Target Dependencies</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_children/" class="">Target Dependency (Children)</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_parents/" class="">Target Dependency (Parents)</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_relationship/" class="">Target Dependency Relationship</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_selection/" class="">Target Dependency Selection</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_design_pending_changes/" class="">Target Design Pending Changes</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_fields_h_target_design/" class="">Target Fields H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_import_configuration/" class="">Target Import Configuration</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_import_excel_import_h/" class="">Target Import: Excel Import H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_lookup_table_h/" class="">Target Lookup Table H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_object_import/" class="">Target Object Import</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_object_import_database/" class="">Target Object Import: Database</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_object_import_system_types/" class="">Target Object Import: System Types</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_source_contacts/" class="">Target Source Contacts</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_sources_h_design/" class="">Target Sources H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_table_joins_target_design/" class="">Target Table Join</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_type/" class="">Target Type</a></li>
+        
+            <li >
+                <a href="/design/page_desc/targets_h_design/" class="uk-active">Targets H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/utility_field_defaults/" class="">Utility Field Defaults</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/design/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/design/use_cases/access_targets_at_the_object_level/" class="">Access Targets at the Object Level</a></li>
+        
+            <li >
+                <a href="/design/use_cases/activate_fields_for_map/" class="">Activate Fields for Mapping</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_developers_and-business-contacts/" class="">Add Developers and Business Contacts</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_fields_to_a_target/" class="">Add Fields to a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_utility_field_defaults/" class="">Add Utility Field Defaults</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_a_target_in_target_design/" class="">Add a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/allow_mapping_of_utility_columns/" class="">Allow Mapping of Utility Columns</a></li>
+        
+            <li >
+                <a href="/design/use_cases/append_utility_columns_to_all_tables/" class="">Append Utility Columns to All Tables</a></li>
+        
+            <li >
+                <a href="/design/use_cases/assign_a_field_group_to_an_object/" class="">Assign a Field Group to an Object</a></li>
+        
+            <li >
+                <a href="/design/use_cases/assign_a_source_to_a_target/" class="">Assign a Source to a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/basic_rules/" class="">Basic Rules</a></li>
+        
+            <li >
+                <a href="/design/use_cases/complex_rules/" class="">Complex Rules</a></li>
+        
+            <li >
+                <a href="/design/use_cases/copy_a_target_in_target_design/" class="">Copy a Target in Target Design</a></li>
+        
+            <li >
+                <a href="/design/use_cases/create_field_groups/" class="">Create Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/delete_a_target/" class="">Delete a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/extend_a_field_to_a_field_group/" class="">Extend a Field to a Field Group</a></li>
+        
+            <li >
+                <a href="/design/use_cases/import_from_a_database/" class="">Import From a Database</a></li>
+        
+            <li >
+                <a href="/design/use_cases/import_from_a_system_type/" class="">Import From a System Type</a></li>
+        
+            <li >
+                <a href="/design/use_cases/import_from_an_excel_file/" class="">Import From an Excel File</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_date_time_and_decimal_format/" class="">Set Date, Time, and Decimal Formats</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_design_status/" class="">Set Design Status</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_execution_status/" class="">Set Execution Status</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_field_visibility_for_mapping/" class="">Set Field Visibility for Mapping</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_rule_priority_for_fields_in_field_groups/" class="">Set Rule Priority for Fields in Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_target_dependencies/" class="">Set Target Dependencies</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_the_design_status/" class="">Set a Target&#39;s Design Status</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_up_lookup_tables/" class="">Set up Lookup Tables</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_up_a_complex_lookup_table/" class="">Set up a Complex Lookup Table</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_up_a_simple_lookup_table/" class="">Set up a Simple Lookup Table</a></li>
+        
+            <li >
+                <a href="/design/use_cases/setup_and_configuration_for_target_design/" class="">Setup and Configuration for Target Design</a></li>
+        
+            <li >
+                <a href="/design/use_cases/sync_data_source_system_types_across_targets/" class="">Sync Data Source System Types Across Targets</a></li>
+        
+            <li >
+                <a href="/design/use_cases/sync_map_and_target_design_td/" class="">Sync Map and Target Design</a></li>
+        
+            <li >
+                <a href="/design/use_cases/update_system_types_for_a_source/" class="">Update System Types for a Source</a></li>
+        
+            <li >
+                <a href="/design/use_cases/use_field_groups/" class="">Use Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/use_target_rules/" class="">Use Target Rules</a></li>
+        
+            <li >
+                <a href="/design/use_cases/view_target_and_source_assignments/" class="">View Target and Source Assignments</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_field_groups/" class="">Work With Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_metric_groups/" class="">Work with Metric Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_target_fields/" class="">Work with Target Fields</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_targets_and_sources/" class="">Work with Targets and Sources</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Design</a></li>
+        <li><span>Targets H</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="targets-h">Targets H</h1>
+
+<p><a href="#Targets_V">Targets V</a></p>
+
+<div class="use">
+
+Use this page to:
+
+  - [Sync Map and Target
+    Design](../Use_Cases/Sync_Map_and_Target_Design_TD.htm)
+  - [Add a Basic Rule](../Use_Cases/Basic_Rules.htm)
+  - [Set a Target's Design
+    Status](../Use_Cases/Set_the_Design_Status.htm)
+  - [Set Target Dependencies](../Use_Cases/Set_Target_Dependencies.htm)
+
+</div>
+
+<p>To access this page:</p>
+
+<ol>
+<li>Select <span style="font-weight: bold;">dspMigrate</span> in the
+<span style="font-style: italic;">Navigation</span> pane.</li>
+<li>Select <span style="font-weight: bold;">Design </span>in the Context
+bar.</li>
+<li>Click the <span style="font-weight: bold;">Targets</span>icon on the
+<em><a href="Design.htm">Design</a></em> page.</li>
+</ol>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Target Import</p></td>
+<td><p>Click to open the <em><a href="Target_Object_Import.htm">Target Object Import</a></em> page, to begin the process of importing a System Type, database table or Excel file as the basis for a Target design.</p>
+<p><strong>NOTE</strong>: When accessing the <span style="font-style: italic;">Target Object Import</span> page from the Target Import icon, the Object selected on the <span style="font-style: italic;"><a href="#">Targets</a></span> page is not carried over to the <span style="font-style: italic;">Target Object Import</span> page. The Object where the Target design is to be imported must be selected on the <span style="font-style: italic;">Target Object Import</span> page.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Import Fields</p></td>
+<td><p>Click to load all fields found in the System Type for Target System Table Name into DSPTM.</p>
+<p><strong>NOTE</strong>: The Import Fields icon on the Targets page works the same as the Execute Import icon on the <span style="font-style: italic;"><a href="System_Type_Import.htm">System Type Import</a></span> page. The user has the option to import one Target at a time on the Targets page or import one or more Targets on the System Type Import page.</p></td>
+</tr>
+<tr class="even">
+<td><p>Sync to Map</p></td>
+<td><p>Click to sync the selected Target to Map if the STATUS field displays &quot;Pending Design Changes.” If updates have been made in Target Design to Targets, Sources, Target fields, or lookup tables after they have been loaded into Map, this process syncs those updates with the data in Map.</p>
+<p>Refer to <a href="../Use_Cases/Sync_Map_and_Target_Design_TD.htm">Sync Map and Target Design</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Object ID</p></td>
+<td><p>Displays the Object to which the Target is assigned. Objects can have multiple Targets assigned. Objects are added in Console and assigned to a Wave-Process Area to create a context.</p>
+<p>A Target design is imported into the Object selected on the <span style="font-style: italic;"><a href="Target_Object_Import.htm">Target Object Import</a></span> page.</p>
+<p> A user can also select an Object when adding the Target manually.</p></td>
+</tr>
+<tr class="even">
+<td><p>STATUS OF SYNC</p></td>
+<td><p>Click to open the <span style="font-style: italic;"><a href="Target_Design_Pending_Changes.htm">Target Design Pending Changes</a></span> page to view the change to the Target that must be synced with Map.</p>
+<p>If the field is blank, the Target is in sync in Map and Target Design.</p></td>
+</tr>
+<tr class="odd">
+<td><p>PRIORITY</p></td>
+<td><p>Displays the display order of the Target on the <em>Targets</em> page.</p>
+<p>When a Wave-Process Area uses the Object, the Object priority cascades down to Target Design. Once the Target that belongs to the Object is synced with Map, the priority is also available in Map and displays on the <span style="font-style: italic;"><a href="../../Map/Page_Desc/Objects_map.htm">Objects</a></span> page. The Priority field in Transform is not updated. To change the order the Object is processed, the Priority field can be updated manually in Transform on the <span style="font-style: italic;">Targets</span> page (Process Area Launch &gt; Targets).</p></td>
+</tr>
+<tr class="even">
+<td><p>NAME</p></td>
+<td><p>Displays the Target name, which is the table name with tt appended to the front.</p></td>
+</tr>
+<tr class="odd">
+<td><p>DESCRIPTION</p></td>
+<td><p>Displays a brief description of the Target table.</p></td>
+</tr>
+<tr class="even">
+<td><p>DESIGN STATUS</p></td>
+<td><p>Displays the status of the Target design.</p>
+<p>Values are:</p>
+<ul>
+<li><span style="font-weight: bold;">In Design</span> – A Target is in this Design Status when it has been added and while the Target is being configured. All functionality that can be performed on a Target is available and the Sync to Map icon is enabled.</li>
+<li><span style="font-weight: bold;">Design Finished</span> – When a Target is in this status, the design is locked down, and no changes are allowed. A Target can only move to this status if it is in sync with Map. The Sync to Map icon is enabled. Auto Generation in Data Services and in SQL is allowed.</li>
+<li><span style="font-weight: bold;">Completed</span> When a Target is in this status, the design is locked down, and no changes are allowed. A Target can only move to this status if it is in sync with Map. Auto-generation in Data Services and in SQL is not allowed. The Sync to Map icon is disabled.</li>
+<li><span style="font-weight: bold;">Inactive</span> A Target in Inactive status will not be pushed to Map for mapping and is not available in Transform. When a Target in this status is selected, the Sync to Map icon is disabled.</li>
+</ul>
+<p>Refer to <a href="../Use_Cases/Set_the_Design_Status.htm">Set a Target's Design Status</a>  for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>EXECUTION STATUS</p></td>
+<td><p>This field is not currently used, but will be activated in a future release.</p></td>
+</tr>
+<tr class="even">
+<td><p>USAGE</p></td>
+<td><p>Displays how data in the Target table moves through the migration process.</p>
+<ul>
+<li><strong>Natural</strong> - The Target follows the standard migration process. The Target fields and Source must be entered or imported into Target Design and synced to Map. Map must have Source tables selected and fields mapped. SQL AutoGen creates the Target table, Source table, and rules Objects.</li>
+<li><strong>Utility</strong> – The Target is not mapped in Map and SQL AutoGen does not create any Objects. A user must still enter the Target into Target Design and the Target’s fields and Sources. The Target tables, Source Tables and rule Objects must be created manually.</li>
+</ul>
+<p><strong>NOTE</strong>: If the client’s installation is upgraded from a version that did not use Waves and Process Areas, all Targets are set to Utility</p>
+<p><strong>NOTE</strong>: A visibility can be set so that Utility fields can be mapped. Refer to <a href="../Use_Cases/Set_Field_Visibility_for_Mapping.htm">Set Field Visibility for Mapping</a> for more information.</p>
+<p><strong>NOTE</strong>: By default, the visibility of a Utility field is set to NONE, with the exception of zLegacy keys. zLegacy key fields will default to Source visibility.  Refer to <a href="../Use_Cases/Allow_Mapping_of_Utility_Columns.htm">Allow Mapping of Utility Columns</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>TARGET SYSTEM TABLE NAME</p></td>
+<td><p>Displays the name of the table in the Target system, which is the name in the NAME field without the tt appended to the front.</p></td>
+</tr>
+<tr class="even">
+<td><p>SYSTEM TYPE ID</p></td>
+<td><p>Displays the System Type that was imported to create the Target design, or the System Type that was selected for the Target.</p>
+<p>Refer to <a href="../../../Platform/Common/Use_Cases/System_Types_Overview.htm">System Types</a>  for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Sources</p></td>
+<td><p>Click to open the <em><a href="Target_Sources_H_Design.htm">Target Sources</a></em> page to add a Source to the Target.</p>
+<p>Refer to <a href="../Use_Cases/Assign_a_Source_to_a_Target.htm">Assign a Source to a Target</a>  for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>Fields</p></td>
+<td><p>Click to open the <em><a href="Target_Fields_H_Target_Design.htm">Target Fields</a></em> page to add a field to the Target or activate or deactivate fields for mapping.</p>
+<p>Refer to <a href="../Use_Cases/Add_Fields_to_a_Target.htm">Add Fields to a Target</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Basic Rules</p></td>
+<td><p>Click to open the <span style="font-style: italic;"><a href="Rules_Basic_Rule_H.htm">Rules: Basic Rules</a></span> page to view all basic rules assigned to active fields in the Target.  Basic rules are logic conditions to apply to the data in the associated field.</p>
+<p><strong>NOTE</strong>: If the field is a zLegacy field, this icon is disabled.</p>
+<p>Refer to <a href="../Use_Cases/Basic_Rules.htm">Add a Basic Rule</a>  for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>Mapping</p></td>
+<td><p>Click to open the <span style="font-style: italic;"><a href="../../Map/Page_Desc/Targets_H_Map.htm">Targets</a></span>page in Map to view all field mappings for the selected Target.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Developers</p></td>
+<td><p>Click to open the <em><a href="Target_Contacts.htm">Target Contacts</a></em> page to add Developers to the Target. Developers approve mappings submitted for this Source on the <em>Mapping Approval</em> page (Quick Panel &gt; Mapping Approval).</p>
+<p>Refer to <a href="../Use_Cases/Add_Developers_and%20Business%20Contacts.htm">Add Developers and Business Contacts to a Target or Source</a>  and  <a href="../../Map/Use_Cases/Approve_or_Reject_Mappings.htm">Approve or Reject Field Mappings</a> for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>Business Contacts</p></td>
+<td><p>Click to open the <em><a href="Target_Contacts.htm">Target Contacts</a></em> page to assign Business Contacts to the selected Target. Business Contacts are used for reporting purposes and automatically receive public reports for the Target–Source in Transform.</p>
+<p>Refer to <a href="../Use_Cases/Add_Developers_and%20Business%20Contacts.htm">Add Developers and Business Contacts to a Target or Source</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Summary Construction</p></td>
+<td><p>Click to open a dashboard that displays a summary of estimated records and completed records in Construct for the Target.</p>
+<p>Refer to <a href="../../Construct/Use_Cases/View_Dashboard_in_Construct.htm">View the Dashboard in Construct</a>  for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>Dependencies</p></td>
+<td><p>Click to open the <span style="font-style: italic;"><a href="Target_Dependencies.htm">Target Dependencies</a></span> page to set a parent dependency for the selected Target table.</p>
+<p>Refer to <a href="../Use_Cases/Set_Target_Dependencies.htm">Set Target Dependencies</a> for more information.</p></td>
+</tr>
+</tbody>
+</table>
+
+<div>
+
+-----
+
+</div>
+
+<p> </p>
+
+<h2 id="span-id-targets-v-span-targets-v"><span id="Targets_V"></span>Targets V</h2>
+
+<p><a href="Targets_H_Design.htm">Targets H</a></p>
+
+<div class="use">
+
+Use this page to [Set the Field Formats for Date, Time, and Decimal For
+Use in Data Services
+AutoGen](../Use_Cases/Set_Date_Time_and_Decimal_Format.htm).
+
+</div>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Basic</p>
+
+<p>Object Id</p>
+
+<p>Displays the Object to which the Target is assigned. Objects can have
+multiple Targets assigned. Objects are added in Console and assigned to
+a Wave-Process Area to create a context.</p>
+
+<p>A Target design is imported into the Object selected on
+the<span style="font-style: italic;"> Target Object Import</span> page
+(Design &gt; Target Import).  </p>
+
+<p>A user can also select an Object when adding the Target manually.</p>
+
+<p>Priority</p>
+
+<p>Displays the display order of the Target on the <em>Targets</em> page.</p>
+
+<p>When a Wave-Process Area uses the Object, the Object priority cascades
+down to Target Design. Once the Target that belongs to the Object is
+synced with Map, the priority is also available in Map and displays on
+the <span style="font-style: italic;">Objects</span> page (Process Area
+Launch &gt; Objects). The Priority field in Transform is not updated. To
+change the order the Object is processed, the Priority field can be
+updated manually in Transform on the
+<span style="font-style: italic;">Targets</span> page (Process Area
+Launch &gt; Targets).</p>
+
+<p>Name</p>
+
+<p>Displays the Target name, which is the table name with tt appended to
+the front.</p>
+
+<p>Description</p>
+
+<p>Displays a brief description of the Target table.</p>
+
+<p>Usage</p>
+
+<p>Displays how fields in the Target are used.</p>
+
+<p>Values are:</p>
+
+<ul>
+<li><span style="font-weight: bold;">Natural</span> – The fields exist
+in the Target system. The system adds a “z” to the front of the
+field name used in the Source table.</li>
+<li><span style="font-weight: bold;">Utility</span> – The fields do not
+exist in the Target system, but can be used to register rules and
+reports to in Transform. Fields of this type should be captured in
+Target Design. A utility field is added to the Target table to be
+used by the AutoGen process. Utility fields will be appended to BOTH
+the Target and Source table as is. No “z” field will be appended.</li>
+</ul>
+
+<p><strong>NOTE</strong>: A visibility can be set so that Utility fields can be mapped.
+Refer to <a href="../Use_Cases/Set_Field_Visibility_for_Mapping.htm">Set Visibility for Mapping of Target and Source
+Fields</a>  for more
+information.</p>
+
+<p><strong>NOTE</strong>: By default, the visibility of a Utility field is set to NONE,
+with the exception of zLegacy keys. zLegacy key fields will default to
+Source visibility. Refer to <a href="../Use_Cases/Allow_Mapping_of_Utility_Columns.htm">Set Visibility for Appended Utility
+Columns</a> for more
+information.</p>
+
+<p>Target System Table Name</p>
+
+<p>Displays the name of the table in the Target system, which is the name
+in the NAME field without the tt appended to the front.</p>
+
+<p>System Type ID</p>
+
+<p>Displays the System Type that was imported to create the Target design,
+or the System Type that was selected for the Target.</p>
+
+<p>Refer to <a href="../Use_Cases/Import_from_a_System_Type.htm">Import a Target Design from a System
+Type</a> and <a href="../../../Platform/Common/Use_Cases/System_Types_Overview.htm">System
+Types</a>
+ for more information.</p>
+
+<p>Details</p>
+
+<p>Comments</p>
+
+<p>Displays a user-entered comment about the Target.</p>
+
+<p>This field is for documentation purposes only.</p>
+
+<p>Instructions</p>
+
+<p>Displays instructions about how to use the Target in mapping or other
+functions.</p>
+
+<p>This field is for documentation purposes only.</p>
+
+<p>Documentation</p>
+
+<p>Click Upload a file to upload documentation related to the Target field.
+If documentation has been uploaded, the Download a File icon is active,
+and the file can be downloaded. The Download a File icon is disabled if
+no documentation has been uploaded for the Target.</p>
+
+<p>Dependencies</p>
+
+<p>Parent Targets</p>
+
+<p>Click to open the <span style="font-style: italic;"><a href="Target_Dependency_Parents.htm">Target Dependency
+(Parents)</a></span> page to view a list of
+Target tables that have a parent dependency with the selected Target
+(i.e., the selected Target is a child of the Targets that display on
+this page).</p>
+
+<p>The number on the icon represents the number of Targets that have a
+parent dependency with the selected Target.</p>
+
+<p>Refer to <a href="../Use_Cases/Set_Target_Dependencies.htm">Set Target
+Dependencies</a> for more
+information.</p>
+
+<p>Child Targets</p>
+
+<p>Click to open the <span style="font-style: italic;"><a href="Target_Dependency_Children.htm">Target Dependency
+(Children)</a></span> page to view a list
+of Target tables that have a child dependency with the selected Target
+(i.e., the selected Target is a parent of the Targets that display on
+this page).</p>
+
+<p>The number on the icon represents the number of Targets that have a
+child dependency with the selected Target.</p>
+
+<p>Refer to <a href="../Use_Cases/Set_Target_Dependencies.htm">Set Target
+Dependencies</a> for more
+information.</p>
+
+<p>Field Formats</p>
+
+<p>Date Format</p>
+
+<p>Displays the format to use for date fields when writing validation rules
+in Data Services AutoGen.</p>
+
+<p>The Date Format works in conjunction with the Field Format field on the
+<span style="font-style: italic;">Target Fields</span> page&rsquo;s
+<span style="font-style: italic;">Vertical</span> View, where the type
+of format for data fields is stored.</p>
+
+<p>For example, the Date Format for a Target is set in this field at
+YYYYDDMM.</p>
+
+<p>A  user selects Date in the Field Format list box on the
+<span style="font-style: italic;">Target Fields Vertical</span> View for
+the field Received By Date.</p>
+
+<p>The data in the Received By Date field passes through the migration
+process with a data type of NVARCHAR. When validation rules are written
+for this field in Date Services AutoGen, the format of the data in the
+Received By Date field is formatted as YYYYDDMM so that it can be loaded
+into the Target with no errors.</p>
+
+<p>Refer to <a href="../Use_Cases/Set_Date_Time_and_Decimal_Format.htm">Set the Date, Time, and Decimal
+Formats</a> for more
+information.</p>
+
+<p>Time Format</p>
+
+<p>Displays the format to use for time fields when writing validation rules
+in Data Services AutoGen.</p>
+
+<p>The Time Format works in conjunction with the Field Format field on the
+<span style="font-style: italic;">Target Fields</span> page&rsquo;s
+<span style="font-style: italic;">Vertical</span> View, where the type
+of format for data fields is stored.</p>
+
+<p>For example, the Time Format for a Target is set in this field as
+HH:MM:SS.</p>
+
+<p>A  user selects Time in the Field Format list box on the
+<span style="font-style: italic;">Target Fields Vertical</span> View for
+the field Received By Time.</p>
+
+<p>The data in the Received By Time field passes through the migration
+process with a data type of NVARCHAR. When validation rules are written
+for this field in Date Services AutoGen, the format of the Received By
+Time field is set as HH:MM:SS so that it can be loaded into the Target
+with no errors.</p>
+
+<p>Refer to <a href="../Use_Cases/Set_Date_Time_and_Decimal_Format.htm">Set the Field Formats for Date, Time, and Decimal For Use in
+Data Services
+AutoGen</a> for more
+information.</p>
+
+<p>Decimal Format</p>
+
+<p>Displays the separator format (either &ldquo;,&rdquo; or &ldquo;.&rdquo;) to use for decimal
+fields when writing validation rules in Data Services AutoGen.</p>
+
+<p>The Decimal Format works in conjunction with the Field Format on the
+<span style="font-style: italic;">Target Fields</span> page&rsquo;s
+<span style="font-style: italic;">Vertical</span> View, where the type
+of format for data fields is stored.  </p>
+
+<p>Refer to <a href="../Use_Cases/Set_Date_Time_and_Decimal_Format.htm">Set the Field Formats for Date, Time, and Decimal For Use in
+Data Services
+AutoGen</a> for more
+information.</p>
+
+<p>Advanced</p>
+
+<p>Target Table Join</p>
+
+<p>Click to open the <em><a href="Target_Table_Joins_Target_Design.htm">Target Table
+Join</a></em> page to view or enter
+information about joins in Target tables for the selected Target. This
+information is for documentation purposes only.</p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#targets-h">Targets H</a>
+<ul>
+<li><a href="#span-id-targets-v-span-targets-v"><span id="Targets_V"></span>Targets V</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

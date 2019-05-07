@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Template (Columns) :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/dspcompose/" class="active">dspCompose Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/dspcompose/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/config/add_a_global_role/" class="">Add a Global Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/add_email_addresses_for_external_users/" class="">Add Email Addresses for External Users</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/add_stored_credentials_as_a_user_on_a_page_in_integrate_or_dspcompose/" class="">Add Stored Credentials as a User on a Page in Integrate or dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/add_users_to_dspcompose/" class="">Add Users to dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/assign_catalog_custom_webapp_for_dspcompose/" class="">Assign a Catalog to a Custom WebApp for Use with dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/configure_columns_to_exclude_from_mass_change/" class="">Configure Columns to Exclude from Mass Change</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/configure_global_roles/" class="">Configure Global Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/configure_request_statuses/" class="">Configure Request Statuses</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/configure_settings_for_external_data_processing/" class="">Configure Settings for External Data Processing and External Request Scenarios</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/configure_workflow_messages/" class="">Configure Workflow Messages</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/configure_dspcompose_parameters/" class="">Configure dspCompose™ Parameters</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/display_posting_options_on_requests/" class="">Display Posting Options on Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/enable_role_validations/" class="">Enable Role Validations</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/requests_vs_templates/" class="">Requests vs. Templates</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/set_up_security/" class="">Set Up Security for dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/set_up_workflow_messages/" class="">Set Up Workflow Messages</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/set_up_an_external_data_email_account/" class="">Set Up an External Data Email Account</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/update_validation_messages/" class="">Update Validation Messages</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/update_the_email_from_column/" class="">Update the EMAIL FROM Column</a></li>
+        
+            <li >
+                <a href="/dspcompose/config/user_credentials_in_dspcompose/" class="">User Credentials in dspCompose™</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/dspcompose/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/dspcompose/page_desc/a-d/" class="">A-D</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/active_requests/" class="">Active Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/all_requests/" class="">All Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/archive_delete/" class="">Archive Delete</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/archive_requests_page/" class="">Archive Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/archived_requests/" class="">Archived Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/change_request_status/" class="">Change Request Status</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/create_template/" class="">Create Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/dashboard_parameters/" class="">Dashboard Parameters</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/data_services_execution_logs/" class="">Data Services Execution Logs</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/data_services_global_variables/" class="">Data Services Global Variables</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/data_services_global_variables_setup/" class="">Data Services Global Variables Setup</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/data_services_job_executor/" class="">Data Services Job Executor</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/a-d/dspcompose_requests/" class="">dspCompose Requests H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/dspcompose/page_desc/e-h/" class="">E-H</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/page_desc/e-h/email_validation/" class="">Email Validation</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/e-h/email_validation_message/" class="">Email Validation Message</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/e-h/external_data_email_accounts/" class="">External Data Email Accounts</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/e-h/external_users/" class="">External Users</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/dspcompose/page_desc/m-p/" class="">M-P</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/page_desc/m-p/mass_change_exclude_columns/" class="">Mass Change Exclude Columns</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/m-p/org_units/" class="">Org Units</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/m-p/parameters/" class="">Parameters</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/dspcompose/page_desc/q-t/" class="active">Q-T</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/reject/" class="">Reject</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_external_role_contacts/" class="">Request (External Role Contacts)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_org_unit_assignments/" class="">Request (Org Unit Assignments)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_org_units_assigned/" class="">Request (Org Units Assigned)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_partial_approve/" class="">Request (Partial Approve)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_post/" class="">Request (Post)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_role_view_filter/" class="">Request (Role View Filter)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_roles_h/" class="">Request (Roles) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_roles_validations/" class="">Request (Roles-Validations)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_connections/" class="">Request Connections</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_details_monitor/" class="">Request Details Monitor</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_h/" class="">Request H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_mass_change_where_clause/" class="">Request Mass Change (Where Clause)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_mass_change_h/" class="">Request Mass Change H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_post_connections/" class="">Request Post Connections</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_role_finish_download/" class="">Request Role (Finish Download)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_role_finish_monitor/" class="">Request Role Finish Monitor</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/request_status/" class="">Request Status</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/roles_execute/" class="">Roles (Execute)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/roles_h/" class="">Roles H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/team/" class="">Team</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_archive_settings/" class="">Template (Archive Settings)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_columns/" class="uk-active">Template (Columns)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_event_rule/" class="">Template (Event Rule)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_events/" class="">Template (Events)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_external_request_scenario_column/" class="">Template (External Request Scenario Column)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_external_request_scenario_email_address/" class="">Template (External Request Scenario Email Address)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_external_request_sceanario_external_role/" class="">Template (External Request Scenario External Role)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_external_request_scenario/" class="">Template (External Request Scenario) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_external_request_scenarios_connections/" class="">Template (External Request Scenarios Connections)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_objects/" class="">Template (Objects)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_org_units_h/" class="">Template (Org Units) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_post_message_tables/" class="">Template (Post Message Tables)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_request_retention/" class="">Template (Request Retention)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_column/" class="">Template (Role Column)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_dependency_select/" class="">Template (Role Dependency Select)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_event_rule/" class="">Template (Role Event Rule)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_event/" class="">Template (Role Event)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_excel_column_control_h/" class="">Template (Role Excel Column Control) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_validation_threshold_contact/" class="">Template (Role Validation Threshold Contact)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_validations_h/" class="">Template (Role Validations) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_h/" class="">Template (Role) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_users_h/" class="">Template (Users) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_finish_columns_h/" class="">Template Role (Finish Columns) H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_finish/" class="">Template Role (Finish)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_excel_required_columns/" class="">Template Role Excel (Required Columns)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_role_users_monitor/" class="">Template Role Users Monitor</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/template_user_org_units_assigned/" class="">Template User (Org Units Assigned)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/q-t/templates_h/" class="">Templates H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/dspcompose/page_desc/u-x/" class="">U-X</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/user_org_unit_assignments/" class="">User (Org Unit Assignments)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/user_org_units/" class="">User (Org Units)</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/user_h/" class="">User H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/user_template_filter/" class="">User Template Filter</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/user_template_role_access/" class="">User Template Role Access</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/workflow_language_message_h/" class="">Workflow Language Message H</a></li>
+        
+            <li >
+                <a href="/dspcompose/page_desc/u-x/workflow_message/" class="">Workflow Message</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/dspcompose/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/dspcompose/use_cases/activate_the_template/" class="">Activate the Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/active_requests_chart/" class="">Active Requests Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/active_requests_time_taken_days_chart/" class="">Active Requests Time Taken (Days) Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/active_requests_for_user_chart/" class="">Active Requests for User Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_custom_roles_for_the_looped_template/" class="">Add Custom Roles for the Looped Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_email_addresses_for_a_scenario/" class="">Add Email Addresses for a Scenario</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_external_data_role_to_global_roles/" class="">Add External Data Role to Global Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_list_boxes_to_an_excel_file/" class="">Add List Boxes to an Excel File</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_quicklinks_for_dspcompose/" class="">Add Quick Links for dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_role_dependencies/" class="">Add Role Dependencies</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_users_to_templates/" class="">Add Users to Templates</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_validations_to_roles/" class="">Add Validations to Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_a_data_source_that_stores_views_for_import/" class="">Add a Data Source that Stores Views for Import</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_a_mass_change_custom_link_to_a_custom_page/" class="">Add a Mass Change Custom Link to a Custom Page</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_a_rule_to_a_template_role_event/" class="">Add a Rule to a Template Role Event</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_an_external_data_role_to_template/" class="">Add an External Data Role Type to a Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_and_configure_template_roles/" class="">Add and Configure Template Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/add_the_org_unit_security_view_to/" class="">Add the Org Unit Security View to Template Role Validation Rules</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/all_requests_chart/" class="">All Requests Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/archive_requests/" class="">Archive Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/archived_requests_chart/" class="">Archived Requests Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/archived_requests_for_user_chart/" class="">Archived Requests for User Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/assign_default_data_source_and_views/" class="">Assign Default Data Source and Views</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/assign_a_custom_page_to_template_role/" class="">Assign a Custom Page to a Template Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/automatically_set__settings_when_createng_an_external/" class="">Automatically Set Settings when Creating an External Request Scenario that Creates an Excel-initiated Request</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/bdc_and_gui_script_recording/" class="">BDC and GUI Script Recording</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/cts_notes_specific_to_dspcompose/" class="">CTS Notes Specific to dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/change_request_status/" class="">Change Request Status</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/complete_the_spreadsheet_as_as_external_data_role/" class="">Complete the Spreadsheet as an External Data Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_column_display/" class="">Configure Column Display</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_columns_for_file_generation/" class="">Configure Columns for File Generation and Data Entry</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_retention_parameters/" class="">Configure Retention Parameters</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_settings_for_external_data_roles/" class="">Configure Settings for External Data Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_settings_external_rqst_scenarios_that_create_excel/" class="">Configure Settings for External Request Scenarios that Create Excel-initiated Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_templates/" class="">Configure Templates</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_an_external_request_scenario/" class="">Configure an External Request Scenario</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_external_rqst_scenario_for_excel_initiated_request/" class="">Configure an External Request Scenario for an Excel-initiated Request</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/configure_the_comparison_approval_setting/" class="">Configure the Comparison Approval Setting</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/correct_rejected_records/" class="">Correct Rejected Records</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/correct_and_post_failed_records/" class="">Correct and Post Failed Records</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_custom_pages_and_views/" class="">Create Custom Pages and Views</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_custom_pages_and_views_for_the_bapi_process/" class="">Create Custom Pages and Views for the BAPI Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_custom_rules_for_excel_initiated_requests/" class="">Create Custom Rules for Excel-initiated Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_custom_template/" class="">Create Custom Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_pages_and_views_in_custom_webapp/" class="">Create Pages and Views in Custom WebApp</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_requests/" class="">Create Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_teams/" class="">Create Teams</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_template_integrate_template/" class="">Create Template (Integrate Template)</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_template_recording/" class="">Create Template (Recording)</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_template_roles/" class="">Create Template Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_templates/" class="">Create Templates</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_bdc_script_template/" class="">Create a BDC Script</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_custom_template_dspcompose/" class="">Create a Custom Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_custom_template_for_use_with_the_custom_webapp/" class="">Create a Custom Template for Use with the Custom WebApp</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_gui_script_template/" class="">Create a GUI Script Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_request_for_comparison_approval/" class="">Create a Request for Comparison Approval</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_template_from_the_templates_page/" class="">Create a Template For Advanced Users</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_tempate_from_an_integrate_template/" class="">Create a Template from an Integrate Template</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_a_template_that_uses_the_custom_pages/" class="">Create a Template that Uses the Custom Pages in dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_tt_tables_and_views_for_the_bap_process/" class="">Create all tt Tables and Views for the BAPI Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_all_tt_tables_and_views_to_support_the_pages_in_the_custom_webapp/" class="">Create all tt Tables and Views to Support the Pages in the Custom WebApp</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_all_tt_tables_and_tx_views_for_the_integrate_process/" class="">Create all tt Tables and tx Views for the Integrate Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_an_external_request_scenario/" class="">Create an External Request Scenario</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_an_external_request_scenario_for_an_excel_initiated_requestel/" class="">Create an External Request Scenario for an Excel-initiated Request</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/createrttblstttablecreatevwsbapi/" class="">Create rt Tables From the tt Tables and Create Views for the BAPI Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_rt_tables_from_the_tt_tables_and_create_views_for_the_custom_webapp/" class="">Create rt Tables From the tt Tables and Create Views for the Custom WebApp</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/create_rt_tables_from_the_tt_tables/" class="">Create rt Tables from the tt Tables</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/data_objects/" class="">Data Objects</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/download_data_as_a_finish_process/" class="">Download Data as a Finish Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/edit_active_template_external_rqst_scnario/" class="">Edit an Active Template with an External Request Scenario that uses an Excel-initiated Request</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/enter_data_for_a_request/" class="">Enter Data for a Request</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/external_request_scenarios/" class="">External Request Scenarios</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/external_request_scenarios_that_create_excel_initiated_requests/" class="">External Request Scenarios that Create Excel-Initiated Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/finish_the_external_data_role/" class="">Finish the External Data Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/format_required_fields_in_an_excel_file/" class="">Format Required Fields in an Excel File</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/import_a_column_added_to_the_roles_assigned_page/" class="">Import a Column Added to the Role’s Assigned Page</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/import_a_file_at_the_request_role_level/" class="">Import a File at the Request Role Level</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/import_a_view_at_the_request-role_level/" class="">Import a View at the Request-Role Level</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/inctive_requests_chart/" class="">Inactive Requests Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/inctive_requests_for_user_chart/" class="">Inactive Requests for User Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/include_dsp_pages_listed_on_template_objects_page/" class="">Include DSP® Pages Listed on *Template (Objects)* Page</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/incorporate_the_security_view_into_request_processing/" class="">Incorporate the Security View into Request Processing</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/link_a_template_to_a_page/" class="">Link a Template to a Page</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/modify_an_active_template_in_developer_mode/" class="">Modify an Active Template in Developer Mode</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/monitor_requests/" class="">Monitor Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/org_unit_objects_generated_by_dspcompose/" class="">Org Unit Objects Generated by dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/org_unit_security_in_action/" class="">Org Unit Security in Action</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/post_request_data_to_a_target_erp_system/" class="">Post Request Data to a Target ERP System</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/process_requests/" class="">Process Requests</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/register_rules_to_template-level_events/" class="">Register Rules to Template-level Events</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/register_tables_to_download_as_a_finish_process_using_collect/" class="">Register Tables for Download as a Finish Process using Collect</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/register_tables_for_download_through_data_services/" class="">Register Tables for Download through Data Services</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/register_validations_to_list_boxes/" class="">Register Validations to List Boxes</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/register_the_compareins_stored_procedure/" class="">Register the CompareIns Stored Procedure</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/reject_an_external_data_role/" class="">Reject an External Data Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/request_org_unit_assignments/" class="">Request Org Unit Assignments</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/reset_a_role/" class="">Reset a Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/review_posting_messages/" class="">Review Posting Messages</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/review_request_data/" class="">Review Request Data</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/sample_stored_procedure_for_comparison_approval/" class="">Sample Stored Procedure For Comparison Approval</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_external_role_contacts/" class="">Set External Role Contacts</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_force_reject_severity/" class="">Set Force Reject Severity</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_tables_to_store_posting_feedback/" class="">Set Tables to Store Posting Feedback</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_target_role_for_request_rejections/" class="">Set Target Role for Request Rejections</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_validation_threshold/" class="">Set Validation Threshold</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_a_columns_control_status/" class="">Set a Column’s Control Status</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_the_current_user_as_the_external_role_contact/" class="">Set the Current User as the External Role Contact</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_up_email_validations/" class="">Set up Email Validations</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_up_org_units/" class="">Set up Org Units</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/set_up_and_post_a_bapi_using_integrate_and_dspcompose/" class="">Set up and Post a BAPI using Integrate and dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/setting_the_post_start_time/" class="">Setting the Post Start Time</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/setup_and_configuration_for_dspcompose/" class="">Setup and Configuration for dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/shippable_items_in_detail/" class="">Shippable Items in Detail</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/submit_an_email_for_an_external_request_scenario/" class="">Submit an Email for an External Request Scenario</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/submit_email_external_reqst_scenario/" class="">Submit an Email for an External Request Scenario that Creates an Excel-initiated Request</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/supporting_objects_for_templates/" class="">Supporting Objects for Templates</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/team_average_records_request_chart/" class="">Team Average Records/Request Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/team_request_counts_chart/" class="">Team Request Counts Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/team_templates_chart/" class="">Team Templates Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/template_role_duration_chart/" class="">Template Role Duration Chart</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/top_15_request_record_counts/" class="">Top 15 Request Record Counts</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/top_15_template_request_counts/" class="">Top 15 Template Request Counts</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/troubleshoot_data_download_using_a_data_services_job/" class="">Troubleshoot Data Download Using a Data Services Job</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/troubleshoot_issues_with_external_roles/" class="">Troubleshoot Issues with External Roles</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/troubleshooting/" class="">Troubleshooting</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/update_external_role_contacts/" class="">Update External Role Contacts</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/updates_to_finishing_a_data_role_for_templates/" class="">Updates to Finishing a Data Role for Templates with the Security View</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_comparison_approvals/" class="">Use Comparison Appovals</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_external_data_roles_in_request_processing/" class="">Use External Data Roles in Request Processing</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_external_request_scenarios/" class="">Use External Request Scenarios</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_org_units/" class="">Use Org Units</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_a_custom_webapp_with_dspcompose/" class="">Use a Custom WebApp with dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_dspcompose_with_integrate_looped_templates/" class="">Use dspCompose™ with Integrate Looped Templates</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_the_comparison_approval_page/" class="">Use the Comparison Approval Page</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/use_the_custom_pages_in_dspcompose_for_the_bapi_process/" class="">Use the Custom Pages in dspCompose™ for the BAPI Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/validate_a_role/" class="">Validate a Role</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/view_dashboards_in_dspcompose/" class="">View Dashboards in dspCompose™</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/view_data_from_the_finish_download_process/" class="">View Data from the Finish Download Process</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/view_import_data_sources/" class="">View Import Data Sources</a></li>
+        
+            <li >
+                <a href="/dspcompose/use_cases/view_your_active_requests_details/" class="">View Your Active Requests Details</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Data Quality</a></li>
+        <li><a>dspCompose</a></li>
+        <li><span>Template (Columns)</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="template-columns">Template (Columns)</h1>
+
+<div class="use">
+
+Use this page when [Adding Org Units to a
+Template](../Use_Cases/Set_up_Org_Units.htm#Add_Org_Units_to_a_Template).
+
+</div>
+
+<p>To access this page:</p>
+
+<ol>
+<li>Click <span style="font-weight: bold;">dspCompose &gt; Team</span> on
+<em>Navigation</em> pane.</li>
+<li>Click <span style="font-weight: bold;">Templates</span> for a team.</li>
+<li>Click <span style="font-weight: bold;">Org Units</span> for a
+template.</li>
+<li>Click the <span style="font-weight: bold;">Template Column
+Display</span>
+icon.</li>
+</ol>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Field</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>FIELD NAME</td>
+<td>Displays the name of the field in the Integrate recording associated with the template, which is added as a column in the system-generated Org Unit table. This field name should be entered in the Template Column field on the <em>Template (Org Units)</em> page.</td>
+</tr>
+
+<tr>
+<td>DESCRIPTION</td>
+<td>Displays the description of the Field Name.</td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#template-columns">Template (Columns)</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dsptrack/page_desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dsptrack/page_desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attachments</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/attachments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/attachments/</guid>
+      <description>Attachments Use this page to [Upload Files for a Project, Task or Work List Item](../Use_Cases/UpldFilesfoProjTaskWrkListItem.htm) and [Download and View Uploaded Files for Project, Tasks, and Work List Items](../Use_Cases/DownloadViewUploadedFiles.htm).  To access this page:
+ To access a plan, select Track &amp;gt;Project in the *Navigation* pane and click Plans for a project
+Or
+To access a Plan Task, select Project in the *Navigation* pane, click Plans for a project and click Tasks for a plan</description>
+    </item>
+    
+    <item>
+      <title>Comment Codes</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/comment_codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/comment_codes/</guid>
+      <description>Comment Codes Use this page to [Add Comment Codes](../Use_Cases/Add_Comment_Codes.htm).  To access this page select Track &amp;gt; Configuration &amp;gt; Late Comment Codes in Navigation pane.
+         Field Description   CODE NAME Displays the name of the code that will list as an option in the LATE COMMENT CODE ID field on the Item Comment Code page.   CODE DESCRIPTION Displays a description of the comment code.</description>
+    </item>
+    
+    <item>
+      <title>Copy Project</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/copy_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/copy_project/</guid>
+      <description>Copy Project Use this page to [Copy Projects.](../Use_Cases/Copy_Projects.htm)  To access this page:
+ Select Track &amp;gt; Project in the *Navigation* pane. Select a project NAME. Click Copy Project.           Field Description   Copy Project Click to copy the project after selecting copy options.   Copy Users If enabled, users assigned to all tasks in all plans in the project are included in the copied project.</description>
+    </item>
+    
+    <item>
+      <title>Copy Tag Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/copy_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/copy_tag/</guid>
+      <description>Copy Tag Tasks Use this page to [Copy Tag Tasks](../Use_Cases/Copy_Tags.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type from the Navigation pane.  Click the Copy Tag Tasks icon on the Tag - All Types page.           Field Description   Copy Tag Tasks Click to copy the tasks assigned to the tag after selecting copy options.</description>
+    </item>
+    
+    <item>
+      <title>Escalation Process</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/escalation_hierarchy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/escalation_hierarchy/</guid>
+      <description>Escalation Process Use this page to [Create an Escalation Process](../Use_Cases/Create_an_Escalation_Process.htm).  To access this page, select Track &amp;gt; Configuration &amp;gt; Work Flow &amp;gt; Escalation Process in the Navigation pane.
+  Field
+ Description
+  PROCESS NAME
+ Displays the escalation process name.
+  Users - Escalations Received
+ Click to open the User List - Receive Work List Escalations page to add and edit managers for the selected process who will receive workflow emails when tasks are late.</description>
+    </item>
+    
+    <item>
+      <title>Event Rules All</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rules_all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rules_all/</guid>
+      <description>Event Rules All Use this page to [View or Edit All Work List Event Rules](../Use_Cases/View_and_Edit_All_Event_Rules.htm).  To access this page, select Track &amp;gt; Configuration &amp;gt; Event &amp;gt; Rules - All from the *Navigation* pane.
+  Field
+ Description
+  PLAN ID
+ Displays the name of the plan, or the name of the plan associated with the selected task that is associated with the rule. .</description>
+    </item>
+    
+    <item>
+      <title>Event Validations All H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/event_validations_all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/event_validations_all/</guid>
+      <description>Event Validations All H Event Validations All V
+Use this page to [View or Edit All Event Validations](../Use_Cases/View_and_Edit_All_Work_List_Event_Validations.htm).  To access this page, select Track &amp;gt; Configuration &amp;gt; Events &amp;gt; Validations - All from the *Navigation* pane.
+  Field
+ Description
+  PLAN ID
+ Displays the name of the plan associated with the validation..
+NOTE: If the validation was added to a Work List Item, this field is blank.</description>
+    </item>
+    
+    <item>
+      <title>File Upload Work List</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/file_upload_work_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/file_upload_work_list/</guid>
+      <description>File Upload Work List Use this page to [Upload Files for a Plan, Task or Work List Item](../Use_Cases/UpldFilesfoProjTaskWrkListItem.htm) and [Download and View Uploaded Files for Plans, Tasks, and Work List Items](../Use_Cases/DownloadViewUploadedFiles.htm).  To access this page:
+ Click Track &amp;gt; Project in the Navigation pane. Click Plans for a project. Click Tasks for a plan. Click Vertical View for a task. Click Late Comment.    Field
+ Description</description>
+    </item>
+    
+    <item>
+      <title>Item Comment Code</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/item_comment_code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/item_comment_code/</guid>
+      <description>Item Comment Code Use this page to: - [Set a Comment Code for a Work List Item](../Use_Cases/Set_a_Comment_Code_for_a_Work_List_Item.htm) - [Set a Comment Code for a Plan Task](../Use_Cases/Set_a_Comment_Code_for_a_Plan_Task.htm)  To access this page:
+ Click Track &amp;gt; Project in the Navigation pane. Click Plans for a project. Click Tasks for a plan. Click Vertical View for a task. Click Late Comment.           Field Description   LATE COMMENT CODE ID Displays the name of the comment code added on the Comment Codes page.</description>
+    </item>
+    
+    <item>
+      <title>Late Reason By Code</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/late_reason_by_code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/late_reason_by_code/</guid>
+      <description>Late Reason By Code Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Late Reason By Code.           Field Description   CODE NAME Displays late comment code selected for the task on the Work List or the Vertical View of the Plan Task page.   COUNT Displays number of tasks with the late comment code assigned.</description>
+    </item>
+    
+    <item>
+      <title>Late Reason By Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/late_reason_by_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/late_reason_by_plan/</guid>
+      <description>Late Reason By Plan Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Late Reason By Plan.           Field Description   PLAN NAME Displays name of plan.   CODE NAME Displays late comment code selected for the task on the Work List or the Vertical View of the Plan Task page.</description>
+    </item>
+    
+    <item>
+      <title>Late Reason By Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/late_reason_by_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/late_reason_by_tag/</guid>
+      <description>Late Reason By Tag Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Late Reason By Tag.           Field Description   NAME Displays the name of the tag.   CODE NAME Displays late comment code selected for the task on the Work List or the Vertical View of the Plan Task page.</description>
+    </item>
+    
+    <item>
+      <title>Late Task</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/late_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/late_task/</guid>
+      <description>Late Task Use this page to [View Late Tasks](../Use_Cases/View_Late_Tasks.htm).  To access this page:
+ Click Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Vertical View for a plan. Click the Additional Information tab. Click Late Tasks.    Field
+ Description
+  PROJECT
+ Displays the name of the project to which the late task belongs.
+  PLAN
+ Displays the name of the plan to which the late task belongs.</description>
+    </item>
+    
+    <item>
+      <title>Late Task Escalation</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/late_task_escalation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/late_task_escalation/</guid>
+      <description>Late Task Escalation Use this page to [Escalate Late Tasks](../Use_Cases/Escalate_Late_Tasks.htm).  To access this page:
+ Select Track &amp;gt; Late Tasks in the *Navigation* pane to view all late tasks across all projects.
+OR
+Select Project &amp;gt; Plans &amp;gt; Vertical View &amp;gt; Additional Information tab &amp;gt; Late Tasks to view late tasks for a plan.
+ Select the task that requires the escalation email to be sent.
+    Field</description>
+    </item>
+    
+    <item>
+      <title>Logic Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/logic_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/logic_tag/</guid>
+      <description>Logic Tag Use this page to [Configure Logic Tags](../Use_Cases/Configure_Logic_Tags.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type in the *Navigation* pane. Click Tags for the Logic Tag Type.           Field Description   NAME Displays the tag name.   DESCRIPTION Displays a description of the tag.   Rules Click to open the Work List Event Rules – Tag Registration page to add, edit and delete Work List Event rules to be assigned to the tag.</description>
+    </item>
+    
+    <item>
+      <title>Longest Running Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/longest_running_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/longest_running_tasks/</guid>
+      <description>Longest Running Tasks Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Longest Running Tasks.           Field Description   PROJECT NAME Displays the project name that contains the plan and task.   PLAN NAME Displays the plan name that contains the task.   TASK NAME Displays the task name.</description>
+    </item>
+    
+    <item>
+      <title>Metrics By Project</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/metrics_by_project_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/metrics_by_project_report/</guid>
+      <description>Metrics By Project Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Metrics By Project.           Field Description   PROJECT NAME Displays the project name that contains the plan.   PLAN NAME Displays the plan name.   PLAN TOTAL DAYS Display the total number of days estimated to be worked in the plan according to the planned start date and planned finish date for all tasks in the plan.</description>
+    </item>
+    
+    <item>
+      <title>Metrics By Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/metrics_by_tag_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/metrics_by_tag_report/</guid>
+      <description>Metrics By Tag Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Metrics By Tag.    Field
+ Description
+  TAG ID
+ Displays name of tag.
+  PLAN TASK ID
+ Displays name of plan task associated with the tag.
+  TASK DURATION HOURS
+ Displays total number of duration hours for the selected task, as entered on the Plan Task page.</description>
+    </item>
+    
+    <item>
+      <title>Milestone Completion</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/milestone_completion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/milestone_completion/</guid>
+      <description>Milestone Completion Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Milestone Completion.           Field Description   PROJECT NAME Displays the project name that contains the plan.   PLAN NAME Displays the plan name that contains the task.   TASK NAME Displays the task name marked as a milestone in an imported project file.</description>
+    </item>
+    
+    <item>
+      <title>Overdue Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/overdue_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/overdue_tasks/</guid>
+      <description>Overdue Tasks Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Overdue Tasks.           Field Description   PROJECT NAME Displays the project name that contains the plan.   PLAN NAME Displays the plan name that contains the task.   TASK NAME Displays the task name that is overdue.</description>
+    </item>
+    
+    <item>
+      <title>Overestimated Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/overestimated_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/overestimated_tasks/</guid>
+      <description>Overestimated Tasks Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Overestimated Tasks.           Field Description   PROJECT NAME Displays the project name that contains the plan.   PLAN NAME Displays the plan name that contains the task.   TASK NAME Displays the task name of the overestimated task.</description>
+    </item>
+    
+    <item>
+      <title>Parameters</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/parameters_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/parameters_dsptrack/</guid>
+      <description>Parameters This page has the following tabs: - [Validations](#Validations_Tab) - [Workflow](#Work_Flow_Tab) - [Security](#Security_Tab)  Validations tab Use this tab to Create Comment Requirements for Tasks.
+To access this page, select Track &amp;gt; Configuration &amp;gt; Parameters from *Navigation* pane.
+  Field
+ Description
+  Require Comment
+ Displays an option to indicate if users are required to enter a comment when finishing a task after the planned finish date.</description>
+    </item>
+    
+    <item>
+      <title>Parameters for Work List Event Rules</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/parameters_for_work_list_event_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/parameters_for_work_list_event_rules/</guid>
+      <description>Parameters for Work List Event Rules The Work List Event Rule Execution engine supports the following parameters for use in the rules:
+         Parameter Description   WorkListItemID The primary key in ttWorkList table.   ItemReferenceID The primary key in ttProjectTask table.   Name Task name entered on PlanTask page or Work List Setup page.   Item Description Description entered on PlanTask page or Work List Setup page.</description>
+    </item>
+    
+    <item>
+      <title>Parameters for Work List Event Validations</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/parameters_for_work_list_event_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/parameters_for_work_list_event_validations/</guid>
+      <description>Parameters for Work List Event Validations The validation can only use parameters that can be passed in from the Work List.
+The following parameters can be used in validations.
+         Parameters Descriptions   WorkListItemID The primary key in ttWorkList table.   ItemReferenceID The primary key in ttProjectTask table.   Name Task name entered on PlanTask page or Work List Setup page.</description>
+    </item>
+    
+    <item>
+      <title>Plan Access Setup</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/project_access_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/project_access_setup/</guid>
+      <description>Plan Access Setup Use this page to [Set Plan Security](../Config/Set_Plan_Security.htm).  To access this page:
+ Select Track &amp;gt; Project in *Navigation* pane. Click Plans for a project. Click Vertical View for a plan. Click the Security tab. Click Setup.    Field
+ Description
+  USER ID
+ Displays the name of the user.
+  WRITE ACCESS
+ If enabled, the user can update the Plan page and the Plan Task page, and all pages accessed from these pages, for the selected plan.</description>
+    </item>
+    
+    <item>
+      <title>Plan H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_h/</guid>
+      <description>Plan H Plan V
+Use this page to [Organize Plans with Projects](../Use_Cases/Organize_Plans_with_Projects.htm).  To access this page:
+ Click Track &amp;gt; Project in *Navigation* pane. Click Plans.    Field
+ Description
+  Copy Plan
+ Click to open the Copy Plan page to create a new plan based on a copy of the selected plan.
+  NAME
+ Displays the plan name.
+  ACTIVE</description>
+    </item>
+    
+    <item>
+      <title>Plan Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_tag/</guid>
+      <description>Plan Tag Use this page to [View Tags and Tag Types.](../Use_Cases/View_Tags_and_Tag_Types.htm)  To access this page:
+ To view a list of Tag Types, select Track &amp;gt; Configuration &amp;gt; Tag Type from the *Navigation* pane. To view the tags that have been added for each Tag type, click the icon for a tag type. To view the plans that have tasks that use the tag, click Plans for a tag.</description>
+    </item>
+    
+    <item>
+      <title>Plan Task Dependency</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_task_dependency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_task_dependency/</guid>
+      <description>Plan Task Dependency Use this page to [Add a Predecessor Task](../Use_Cases/Add_a_Predecessor_Task.htm).  To access this page:
+ Select Track &amp;gt; Project from the Navigation pane. Click Plans for a project. Click Tasks for a plan. Click Predecessor Tasks for a task.    Field
+ Description
+  PREDECESSOR PLAN ID
+ Displays the name of the plan containing the task that is the predecessor in the dependency relationship.</description>
+    </item>
+    
+    <item>
+      <title>Plan Task Dependency Successor</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_task_dependency_successor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_task_dependency_successor/</guid>
+      <description>Plan Task Dependency Successor Use this page to view successor tasks dependent on the selected task. Refer to[Use Dependency Types](../Use_Cases/Use_Dependency_Types.htm)for more information.  To access this page:
+ Select Track &amp;gt; Project from the Navigation pane. Click Plans for a project. Click Tasks for a plan. Click Vertical View for a Task. Navigate to the Additional Information tab. Click the Successor Tasks icon.      Field</description>
+    </item>
+    
+    <item>
+      <title>Plan Task H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_task_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_task_h/</guid>
+      <description>Plan Task H Plan Task V
+Use this page to [Add a Plan Task](../Use_Cases/Add_a_Plan_Task_Manually.htm).  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
+To access this page:
+ Click Track &amp;gt; Project in Navigation pane. Click Plans for a project. Click Tasks for a Plan.    Field
+ Description
+  Copy Plan Task
+ Click to open the Copy Plan Task page to copy the selected task to use as the basis for a new task.</description>
+    </item>
+    
+    <item>
+      <title>Plan Task Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_task_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_task_tag/</guid>
+      <description>Plan Task Tag Use this page to [View Tags and Tag Types](../Use_Cases/View_Tags_and_Tag_Types.htm).  To access this page:
+ To view a list of Tag Types, select Track &amp;gt; Configuration &amp;gt; Tag Type from the Navigation pane. To view the tags that have been added for each Tag type, click the icon for a tag type. To view the tasks that are assigned to the tag, click Tasks for a tag.</description>
+    </item>
+    
+    <item>
+      <title>Plan Task Tag Assignment</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_task_tag_assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_task_tag_assignment/</guid>
+      <description>Plan Task Tag Assignment Use this page to [Assign a Tag to Tasks](../Use_Cases/Assign_a_Tag_to_Tasks.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type in the *Navigation* pane. Click the icon for the Tag Type. Click Assign to Tasks for the tag.           Field Description   Manage Tags Click to open theTag Type page to add, edit and delete tags.</description>
+    </item>
+    
+    <item>
+      <title>Plan Task User</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_task_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_task_user/</guid>
+      <description>Plan Task User Use this page to [Add Users to Plan Tasks.](../Use_Cases/Add_Users_to_Plan_Tasks_Manually.htm)  To access this page:
+ Select Track &amp;gt; Project in the Navigation pane. Click Plans for a project. Click Tasks for a plan. Click Users for a task.    Field
+ Description
+  USER ID
+ Displays the name of a user assigned to the task.
+  PRIMARY CONTACT
+ If enabled, the user is the primary contact for the task.</description>
+    </item>
+    
+    <item>
+      <title>Plan Tasks Versus Work List Items</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_tasks_versus_work_list_items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_tasks_versus_work_list_items/</guid>
+      <description>Plan Tasks Versus Work List Items Plan Tasks can be added to a Project and Plan through an import or manually.
+Work List Items are ad hoc tasks that can be added outside of project and plans.
+Work List Items are different from Plan Tasks in that Work List Items:
+ Are not assigned to a plan or project Do not have predecessor tasks, and are never in the status Waiting on Dependency Are added on the Work List Setup page Cannot be copied Cannot have tags assigned Only display on the Work List Detail page when the status is Completed Do not have Warn Thresholds applied Do not have a duration or Unit of Measure set Are never included on the Critical Path Are never milestones  Plan Tasks and Work List Items display on the Work List and Work List Setup page.</description>
+    </item>
+    
+    <item>
+      <title>Plan User Registration</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/plan_user_registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/plan_user_registration/</guid>
+      <description>Plan User Registration Use this page to: - [Register Unregistered Users Imported into dspTrack™](../Use_Cases/Register_Unregistered_Users_Imprtd_dspTrack.htm) - [Assign a Registered User’s Tasks to Another User](../Use_Cases/Assign_Registered_User_Tasks_Another_User.htm)  To access this page:
+ Click Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Vertical View. Click Security tab. Click Register Unregistered Users.    Field
+ Description
+  Add Selected Users to System
+ Click to register the selected user in the platform and create a user account.</description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/project_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/project_/</guid>
+      <description>Project Use this page to [Organize Plans with Projects](../Use_Cases/Organize_Plans_with_Projects.htm).  To access this page, click Track &amp;gt; Project in *Navigation* pane.
+    Field
+ Description
+  Copy Project
+ Click to open the Copy Project page to copy all plans to create a new project.
+  NAME
+ Displays the unique name of the project.
+  DESCRIPTION
+ Displays a brief description of the project.</description>
+    </item>
+    
+    <item>
+      <title>Project Dependency</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/project_dependency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/project_dependency/</guid>
+      <description>Project Dependency Use this page to view all [dependency types](../Use_Cases/Use_Dependency_Types.htm) for all tasks in all plan in the project.  To access this page:
+ Click Track &amp;gt; Project in the Navigation pane. Click Plans for a project. Click Vertical View for a plan. Click the Additional Information tab. Click the Predecessor Dependency or the Successor Dependency icon.    Field
+ Description
+  PREDECESSOR PLAN ID</description>
+    </item>
+    
+    <item>
+      <title>Ready Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/ready_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/ready_tasks/</guid>
+      <description>Ready Tasks Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Ready Tasks.           Field Description   PROJECT NAME Displays the project name that contains the plan that contains the task.   PLAN NAME Displays the plan name that contains the task.   TASK NAME Displays the task name.</description>
+    </item>
+    
+    <item>
+      <title>Report Engine Email Configuration</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/report_engine_email_configuration_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/report_engine_email_configuration_h/</guid>
+      <description>Report Engine Email Configuration This page is not used.</description>
+    </item>
+    
+    <item>
+      <title>Reports</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/reports_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/reports_dsptrack/</guid>
+      <description> Reports Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page, click Track &amp;gt; Reports in the *Navigation* pane.
+         Field Description   PRIORITY Displays the order the report displays on this page.   REPORT Displays the report name. Click the link to open the report in a separate tab.    </description>
+    </item>
+    
+    <item>
+      <title>Resource Synonym</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/resource_synonym/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/resource_synonym/</guid>
+      <description>Resource Synonym Use this page to [Map a project user name to a user name in the platform](../Use_Cases/Map_prjct_usrnme_platform_usrnm.htm).  To access this page:
+ Click Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Vertical View. Click the Security tab. Click Resource Synonyms.           Field Description   USER ID The user ID of the user registered in the platform.</description>
+    </item>
+    
+    <item>
+      <title>Schedule Status Outlook</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/schedule_status_outlook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/schedule_status_outlook/</guid>
+      <description>Schedule Status Outlook The Schedule Status Outlook can also affect the schedule status.
+It can be set at the plan level on the Plan page’s Vertical View on the Status Configuration tab or at the task level on the Plan Task page’s Vertical View on the Additional Information tab.
+Values are:
+ Inherit - A task’s schedule status settings are inherited from the plan level. This value is available at the plan task level only.</description>
+    </item>
+    
+    <item>
+      <title>Security Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/security_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/security_tag/</guid>
+      <description>Security Tag Use this page to [Configure Security Tags](../Use_Cases/Configure_Security_Tags.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type in the *Navigation* pane. Click the icon for the Security Tag Type.           Field Description   NAME Displays the tag name with a Security tag type.   DESCRIPTION Displays a description of the tag.   Users Click to open the Security Tag User page to add and remove users from the tag.</description>
+    </item>
+    
+    <item>
+      <title>Security Tag User</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/security_tag_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/security_tag_user/</guid>
+      <description>Security Tag User Use this page to [Configure Security Tags](../Use_Cases/Configure_Security_Tags.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type in the *Navigation* pane. Click the icon for the Security Tag Type. Click Registrations for the tag. Click Users.    Field
+ Description
+  Add To Tag
+ Click to add the highlighted user to the selected tag.
+  Remove From Tag</description>
+    </item>
+    
+    <item>
+      <title>Tag H (Also Tag – All Types)</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/tag/</guid>
+      <description>Tag H (Also Tag – All Types) Use this page to [Add a Tag](../Use_Cases/Add_a_Tag.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type from the *Navigation* pane. Click the icon for a Tag Type.    Field
+ Description
+  Copy Tag Tasks
+ Click to open the Copy Tag Tasks page to copy all tasks to which this tag has been assigned to a plan specified on the Copy TagTasks page.</description>
+    </item>
+    
+    <item>
+      <title>Tag Plan Task Assignment</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/tag_plan_task_assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/tag_plan_task_assignment/</guid>
+      <description>Tag Plan Task Assignment Use this page to [Assign a Tag to Tasks](../Use_Cases/Assign_a_Tag_to_Tasks.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Tag Type in the *Navigation* pane. Click the icon for the Tag Type. Click Assign to Tasks for the tag.           Field Description   Add Plan Task Click to add the selected task(s) to the tag selected on the Tag page.</description>
+    </item>
+    
+    <item>
+      <title>Tag Type</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/tag_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/tag_type/</guid>
+      <description>Tag Type Use this page to [View Tags and Tag Types](../Use_Cases/View_Tags_and_Tag_Types.htm).  To view a list of Tag Types, select Track &amp;gt; Configuration &amp;gt; Tag Type from the Navigation pane.
+         Field Description   Tag Type Click to open the Tag page to add tags of the selected tag type, or, in the case of the Tags – All Type page, to view all tags.</description>
+    </item>
+    
+    <item>
+      <title>Task Status</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status1/</guid>
+      <description>Task Status When a project file is imported, dspTrack™ sets task status. Refer to Task Status on Import for more information.
+Work on a plan task or Work List Item can be tracked using the task status. dspTrack™ uses the following statuses.
+ Ready Waiting on Dependency In Progress Completed  These statuses display on the Work List, PlanTask and Work List Setup pages.
+Ready A task is in Ready status when:</description>
+    </item>
+    
+    <item>
+      <title>Task Status By Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_plan_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_plan_report/</guid>
+      <description>Task Status By Plan Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Task Status By Plan.           Field Description   PLAN NAME Displays the plan name that contains the tasks.   TASK STATUS Displays the task status name: Ready, Waiting on Dependency, In Progress and Completed.</description>
+    </item>
+    
+    <item>
+      <title>Task Status By Project</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_project_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_project_report/</guid>
+      <description>Task Status By Project Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Task Status By Project.           Field Description   PROJECT NAME Displays the project name that contains the tasks.   TASK STATUS Displays the task status name: Ready, Waiting on Dependency, In Progress and Completed.</description>
+    </item>
+    
+    <item>
+      <title>Task Status By Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_tag_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_tag_report/</guid>
+      <description>Task Status By Tag Use this page while Viewing Reports in dspTrack™.
+To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Task Status By Tag.           Field Description   TAG NAME Displays the tag name.   TASK STATUS Displays the task status name: Ready, Waiting on Dependency, In Progress and Completed.   COUNT BY STATUS Displays the total number of tasks in the task status that are assigned to the tag.</description>
+    </item>
+    
+    <item>
+      <title>Task Status by Project</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_project/</guid>
+      <description>Task Status by Project This chart displays the percentage of tasks in each status (Ready, Waiting on Dependency, In Progress or Completed) per project. The percentage of tasks is based on the number of tasks in each status in the project compared to the total number of tasks in the project.
+Hover a cursor over a section of the bar that represents task status and the count of tasks in that status display for that project.</description>
+    </item>
+    
+    <item>
+      <title>Task Status on Import</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status_on_import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status_on_import/</guid>
+      <description>Task Status on Import When a project file is imported, dspTrack™ analyzes data for each task and sets the Task Status. Every task must be assigned a Task Status.
+dspTrack™ assigns a task a Waiting on Dependency status if any of the task’s predecessor tasks are not complete and the dependency type is Finish to Start.
+dspTrack™ assigns a task a Completed status if the task has valid values for its Actual Start Date and Actual Finish Date.</description>
+    </item>
+    
+    <item>
+      <title>Tasks Due Next Week</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/tasks_due_next_week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/tasks_due_next_week/</guid>
+      <description>Tasks Due Next Week Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Tasks Due Next Week.    Field
+ Description
+  PROJECT NAME
+ Displays the project name that contains the plan.
+  PLAN NAME
+ Displays the plan name that contains the task.
+  TASK NAME
+ Displays the task name.</description>
+    </item>
+    
+    <item>
+      <title>Tasks Due Next Week By Project</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/tasks_due_next_week_by_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/tasks_due_next_week_by_project/</guid>
+      <description>Tasks Due Next Week By Project This chart provides a count of tasks that have not yet been completed with a planned finish date in the next week by project.
+Hover a cursor over a bar to view the number of tasks in the project.
+Click a project bar to drill down to the Tasks Status by Plan chart.
+Refer to View the Dashboard in dspTrack™ for general information about the type of data that displays on charts.</description>
+    </item>
+    
+    <item>
+      <title>Tasks Status by Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/task_status_by_plan/</guid>
+      <description>Tasks Status by Plan This chart displays a bar chart of the percentage of tasks in each status (Ready, Waiting on Dependency, In Progress or Completed) in each plan in the project selected on the Task Status by Project chart.
+Hover a cursor over a section of the bar that represents task status and the count of tasks in that status display for that plan.
+Refer to View the Dashboard in dspTrack™ for general information about the type of data that displays on charts.</description>
+    </item>
+    
+    <item>
+      <title>Tasks in Progress</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/tasks_in_progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/tasks_in_progress/</guid>
+      <description>Tasks in Progress Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Tasks in Progress.      Field
+ Description
+  PROJECT NAME
+ Displays the project name that contains the plan.
+  PLAN NAME
+ Displays the plan name that contains the task.
+  TASK NAME
+ Displays the task name.</description>
+    </item>
+    
+    <item>
+      <title>Unassigned Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/unassigned_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/unassigned_tasks/</guid>
+      <description>Unassigned Tasks Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Unassigned Tasks.           Field Description   PROJECT NAME Displays the project name that contains the plan.   PLAN NAME Displays the plan name that contains the task.   TASK NAME Displays the task name.</description>
+    </item>
+    
+    <item>
+      <title>Underestimated Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/underestimated_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/underestimated_tasks/</guid>
+      <description>Underestimated Tasks Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click Underestimated Tasks.    Field
+ Description
+  PROJECT NAME
+ Displays the project name that contains the plan.
+  PLAN NAME
+ Displays the plan name that contains the task.
+  TASK NAME
+ Displays the task name.
+  TASK STATUS</description>
+    </item>
+    
+    <item>
+      <title>User Assigned Hours</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/user_assigned_hours/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/user_assigned_hours/</guid>
+      <description> User Assigned Hours Use this page while [Viewing Reports in dspTrack™](../Use_Cases/View_Reports_in_dspTrack.htm).  To access this page:
+ Click Track &amp;gt; Reports in the *Navigation* pane. Click User Assigned Hours.           Field Description   USER ID Displays the user name.   HOURS ASSIGNED Displays the total number of hours assigned to the user for all tasks.    </description>
+    </item>
+    
+    <item>
+      <title>User List - Receive Work List Escalations</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/escalation_hierarchy_contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/escalation_hierarchy_contact/</guid>
+      <description>User List - Receive Work List Escalations Use this page to [Create an Escalation Process](../Use_Cases/Create_an_Escalation_Process.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Work Flow &amp;gt; Escalation Process in the *Navigation* pane.
+ Click Users - Escalations Received for a process.
+    Field
+ Description
+  PRIORITY
+ Displays a number to determine the order the managers display on the Late Task Escalation page.</description>
+    </item>
+    
+    <item>
+      <title>User List - Work List Items Escalated</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/escalation_hierarchy_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/escalation_hierarchy_user/</guid>
+      <description>User List - Work List Items Escalated Use this page to [Create an Escalation Process](../Use_Cases/Create_an_Escalation_Process.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Work Flow &amp;gt; Escalation Process in the *Navigation* pane.
+ Click Users – Work Items Escalated on the *Escalation Process* page.
+           Field Description   Add User Click to add the selected user to the escalation process.</description>
+    </item>
+    
+    <item>
+      <title>Warn Thresholds</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/warn_thresholds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/warn_thresholds/</guid>
+      <description>Warn Thresholds Thresholds can be set around the start or end of work on a task.
+Pre Start Warn and Post Start Warn Thresholds If work has not started on a task (the task is in Ready or Waiting on Dependency status), the Pre Start Warn Threshold marks the point in time prior to the planned start date that the task’s schedule status is behind and its Schedule Status icon becomes yellow.</description>
+    </item>
+    
+    <item>
+      <title>Work List Binding Criteria</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_binding_criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_binding_criteria/</guid>
+      <description>Work List Binding Criteria Use this page to [Add Work List Binding Criteria to a Work List Item or Plan Task](../Use_Cases/AddWrkLisBindingCriteriaItem.htm).  To access this page:
+ Select Track &amp;gt;Configuration &amp;gt; Work List in the Navigation pane.. Click the Keys icon for an item.    Field
+ Description
+  KEY NAME
+ Displays the primary key name(s) for the underlying table for the page selected in the PAGE ID list box on the Work List Set up page.</description>
+    </item>
+    
+    <item>
+      <title>Work List Detail</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_detail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_detail/</guid>
+      <description>Work List Detail Use this page to [View Work List Details.](../Use_Cases/View_Work_List_Details.htm)  To access this page:
+ Click the blue tab on the Quick Panel to access the Work List. Click Work List Details on the Page Toolbar; all work list details for all Plan Tasks and Work List Items display.    Field
+ Description
+  Schedule Status Image
+ Displays an image related to the task’s schedule status, which is calculated by dspTrack™.</description>
+    </item>
+    
+    <item>
+      <title>Work List Detail – Resource</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_detail_resource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_detail_resource/</guid>
+      <description>Work List Detail – Resource Use this page while [Viewing Work List Details](../Use_Cases/View_Work_List_Details.htm).  To access this page:
+ Click the blue tab on the Quick Panel to access the Work List.
+ Click Work List Details on the Page Toolbar; all work list details for all Plan Tasks and WorkList Items display.
+           Field Description   USER ID Displays user assigned to the selected Plan Task or Work List Item.</description>
+    </item>
+    
+    <item>
+      <title>Work List Detail – Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_detail_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_detail_tag/</guid>
+      <description>Work List Detail – Tag Use this page while [Viewing Work List Details](../Use_Cases/View_Work_List_Details.htm).  To access this page:
+ Click the blue tab on the Quick Panel to access the Work List.
+ Click Work List Details on the Page Toolbar; all work list details for all Plan Tasks and Work List Items display.
+ Click the Tags icon.
+    Field
+ Description
+  TAG ID</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Rule - Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rule-plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rule-plan_task/</guid>
+      <description>Work List Event Rule - Plan Task Use this page to [Register Work List Event Rules to a Plan Task](../Use_Cases/Register_Work_List_Event_Rules_for_a_Plan_Task.htm).  To access this page:
+ Select Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Tasks for a plan. Click Rules for a task.      Field
+ Description
+  PLAN TASK ID
+  Displays the task name associated with the rule.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Rule - Work List Setup</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rule_work_list_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rule_work_list_setup/</guid>
+      <description>Work List Event Rule - Work List Setup Use this page to [Register Work List Event Rules for a Work List Item](../Use_Cases/Register_WorkList_Event_Rules_WorkList_Item.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Work List in the *Navigation* pane. Click Rules for an item.    Field
+ Description
+  WORK LIST ITEM ID
+ Displays the name of Work List Item added via the Work List Setup page to which the rule is assigned.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Rule - Work List Setup – Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/worklist_event_rule_worklist_setup_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/worklist_event_rule_worklist_setup_plan_task/</guid>
+      <description>Work List Event Rule - Work List Setup – Plan Task Use this page to view Work List Event Rules assigned to Plan Tasks accessed from the *Work List Setup* page.  Refer to Register Work List Event Rules for a Work List Item for more information.
+To access this page:
+ Click Track &amp;gt; Configuration &amp;gt; Work List in the Navigation pane. Click the Rules icon for a Work List Item.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Rules</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rules/</guid>
+      <description>Work List Event Rules Use this page to [Register Work List Event Rules to a Plan](../Use_Cases/Register_Work_List_Event_Rules_for_a_Plan.htm).  To access this page:
+ Select Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Rules for a plan.    Field
+ Description
+  PLAN TASK ID
+ Displays the task name, if the rule was added at the Plan Task level.
+  PRIORITY</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Rules – Tag Registration</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rules_tag_registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_rules_tag_registration/</guid>
+      <description>Work List Event Rules – Tag Registration Use this page to [Configure Logic Tags](../Use_Cases/Configure_Logic_Tags.htm).  To access this page:
+ Click Track &amp;gt; Configuration &amp;gt; Tag Type in the Navigation pane. Click the Registrations icon for a Logic tag on the Tag - All Types page. Click the Roles icon for a logic tag.    Field
+ Description
+  TAG ID
+ Displays the name of the tag to which the rule is assigned.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Validations - Plan Task H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_plan_task/</guid>
+      <description>Work List Event Validations - Plan Task H Work List Event Validations - Plan Task V
+Use this page to register [Work List Event Validations to Plan Tasks.](../Use_Cases/Register_WorkList_Event_Validations_Plan_Task.htm)  To access this page:
+ Select Track &amp;gt;Project in the Navigation pane. Click Plans for a project. Click Tasks for a plan. Click Validations for a task.    Field
+ Description
+  PLAN TASK ID
+ Displays the name of the Plan Task associated with the validation if the validation was added at the Plan Task level.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Validations - Tag Registration H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_tag_registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_tag_registration/</guid>
+      <description>Work List Event Validations - Tag Registration H Work List Event Validations - Tag Registration V
+Use this page to [Configure Logic Tags](../Use_Cases/Configure_Logic_Tags.htm).  To access this page:
+ Select Track &amp;gt;Configuration &amp;gt; Tag Type in the *Navigation* pane. Click Tags for the Logic Tag Type. Click Registrations for the tag. Click Validations.    Field
+ Description
+  TAG ID
+ Displays the name of the tag used to assign the task to the validation.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Validations - Work List Setup H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_work_list_setup_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_work_list_setup_h/</guid>
+      <description>Work List Event Validations - Work List Setup H Work List Event Validations - Work List Setup V
+Use this page to [Register Work List Event Validations for Work List Items](../Use_Cases/Register_WorkList_Event_Valid_WorkList_Item.htm).  To access this page:
+ Select Track &amp;gt; Configuration &amp;gt; Work List in the *Navigation* pane. Click Validations for a Work List Item.    Field
+ Description
+  WORK LIST ITEM ID
+ Displays the name of Work List Item associated with the validation.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Validations -  Work List Setup Task H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/worklist_event_validations_worklist_setup_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/worklist_event_validations_worklist_setup_task/</guid>
+      <description>Work List Event Validations - Work List Setup Task H Work List Event Validations - Work List Setup Task V
+Use this page to view Work List Event Validations assigned to Plan Tasks accessed from the *[Work List Setup](Work_List_Setup_H.htm)* page.  Refer to Register Work List Event Validations for Work List Items for more information.
+To access this page:
+ Select Track &amp;gt;Configuration &amp;gt; Work List in the *Navigation* pane.</description>
+    </item>
+    
+    <item>
+      <title>Work List Event Validations H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_event_validations_h/</guid>
+      <description>Work List Event Validations H Work List Event Validations V
+Use this page to [Register Work List Event Validations to a Plan](../Use_Cases/Register_WorkList_Event_Validations_Plan.htm).  To access this page:
+ Select Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Validations for a plan.    Field
+ Description
+  PLAN TASK ID
+ Displays the name of the Plan Task associated with the validation if the validation was added at the Plan Task level.</description>
+    </item>
+    
+    <item>
+      <title>Work List H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list/</guid>
+      <description>Work List H Work List V
+Use this page to [Use the Work List.](../Use_Cases/Use_the_Work_List.htm)  To access this page, click the blue tab on the Quick Panel to access the Work List.
+  Field
+ Description
+  Work List Detail
+ Click to open the Work List Detail page to view additional information about Plan Tasks and Work List Item on the Work List and to view the tags and users assigned to each item.</description>
+    </item>
+    
+    <item>
+      <title>Work List Item User</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_item_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_item_user/</guid>
+      <description>Work List Item User Use this page to [Add Users to a Work List Item](../Use_Cases/Add_Users_to_an_Item.htm).  To access this page:
+ Select Track &amp;gt;Configuration &amp;gt; Work List from the Navigation pane. Click the Users icon for an item on the *Work List Setup* page.           Field Description   Add To Work List Item Click to add the selected user to the selected Work List Item.</description>
+    </item>
+    
+    <item>
+      <title>Work List Setup H</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_list_setup_h/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_list_setup_h/</guid>
+      <description>Work List Setup H Work List Setup V
+Use this page to [Add Work List Items](../Use_Cases/Add_Work_List_Items_Overview.htm).  To access this page, select Track &amp;gt; Configuration &amp;gt; Work List.
+  Field
+ Description
+  ITEM NAME
+ Displays the name of the Work List Item or Plan Task.
+  STATUS
+ Displays the Plan Task’s or Work List Item’s status. Refer to Task Status for more information.</description>
+    </item>
+    
+    <item>
+      <title>Workflow Log</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/work_flow_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/work_flow_log/</guid>
+      <description>Workflow Log Use this page to [View Work Flow Messages Sent](../Use_Cases/View_Workflow_Messages_Sent.htm).  To access this page, select Track &amp;gt; Configuration &amp;gt; Work Flow &amp;gt; Work Flow Log.
+  Field
+ Description
+  Acknowledge Work Flows
+ Click to clear all records from the WorkFlow log.
+This action cannot be undone.
+  SUBJECT
+ Displays the subject of the workflow email that was sent. dspTrack™ includes a standard set of subject text that cannot be updated.</description>
+    </item>
+    
+    <item>
+      <title>Workflow User Preference</title>
+      <link>https://heathercloward.github.io/dsptrack/page_desc/workflow_preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/page_desc/workflow_preferences/</guid>
+      <description>Workflow User Preference Use this page to [Set User Workflow Receipt Preferences](../Use_Cases/Set_User_Workflow_Receipt_Preferences.htm).  To access this page click Track &amp;gt; Configuration &amp;gt; Workflow &amp;gt; User Preferences.
+  Field
+ Description
+  User ID
+ Displays the name of the logged in user who will receive the workflow message in dspTrack™.
+NOTE: A user can only set preferences for that user’s account.
+  Message Type ID
+ Displays how the user receives workflow messages from dspTrack™.</description>
+    </item>
+    
+  </channel>
+</rss>

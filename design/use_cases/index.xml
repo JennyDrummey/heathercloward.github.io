@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/design/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/design/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access Targets at the Object Level</title>
+      <link>https://heathercloward.github.io/design/use_cases/access_targets_at_the_object_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/access_targets_at_the_object_level/</guid>
+      <description>Access Targets at the Object Level In Console, Objects are added and assigned to a Wave-Process Area to create a context.
+Refer to Add an Object for more information.
+Targets can then be added to an Object in Target Design.
+A user can drill down from the Object level to view and access all Targets for an Object.
+To access Targets at the Object level in Target Design:
+ Click Design in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Activate Fields for Mapping</title>
+      <link>https://heathercloward.github.io/design/use_cases/activate_fields_for_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/activate_fields_for_map/</guid>
+      <description>Activate Fields for Mapping Activate fields for the Target that are in scope for mapping. Deactivate fields if the field should not be mapped.
+NOTE: Fields can only be activated for a table if the table’s Design Status is In Design. Target fields cannot be activated or deactivated if the Target&amp;rsquo;s Design Status is Design Finished, Complete or Inactive.
+For a Target field to be mapped in Map on the Field Mappings page, the field must be active and visible Refer to Set Field Visibility for Mapping for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add Developers and Business Contacts</title>
+      <link>https://heathercloward.github.io/design/use_cases/add_developers_and-business-contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/add_developers_and-business-contacts/</guid>
+      <description>Add Developers and Business Contacts Users can be assigned as a Business Contact or a Developer at the Target or Source level in Target Design and at the Object level in Console. Refer to Add Individual Target Contacts for more information.
+Two types of contacts can be assigned to a Target and Source.
+ Developers approve mappings on the Mapping Approval page submitted for a Target-Source in Map on the Field Mappings page.</description>
+    </item>
+    
+    <item>
+      <title>Add Fields to a Target</title>
+      <link>https://heathercloward.github.io/design/use_cases/add_fields_to_a_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/add_fields_to_a_target/</guid>
+      <description>Add Fields to a Target While the easiest method to add fields to a Target is through import, a user can also manually add Target fields.
+In a typical migration, field data is downloaded from a System Type from dspCloud and imported into Target Design along with the Target table.
+Fields may be manually added in cases where only a few additional fields are required. Fields added manually are usually Utility fields which do not exist in the Target system, but are used to register rules and reports to Transform.</description>
+    </item>
+    
+    <item>
+      <title>Add Utility Field Defaults</title>
+      <link>https://heathercloward.github.io/design/use_cases/add_utility_field_defaults/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/add_utility_field_defaults/</guid>
+      <description>Add Utility Field Defaults Utility fields can be appended to all Target and/or Source tables automatically.
+A Utility field does not exist in the Target system, but rules and reports are registered to it in Transform. Fields of this type should be captured in Target Design but should not be mapped and will not display in Map. A Utility field is added to the Target table to be used by AutoGen.</description>
+    </item>
+    
+    <item>
+      <title>Add a Target</title>
+      <link>https://heathercloward.github.io/design/use_cases/add_a_target_in_target_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/add_a_target_in_target_design/</guid>
+      <description>Add a Target While the easiest method to add a Target table is through import, a user can also manually enter a Target, and then manually add fields to it.
+Refer to Import a Target Design from a System Type, Import Target Design from a Database, Import Target Design from an Excel File, and Add Fields to a Target for more information.
+To add a Target:
+ Select Design &amp;gt; Targets in the Context bar.</description>
+    </item>
+    
+    <item>
+      <title>Allow Mapping of Utility Columns</title>
+      <link>https://heathercloward.github.io/design/use_cases/allow_mapping_of_utility_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/allow_mapping_of_utility_columns/</guid>
+      <description>Allow Mapping of Utility Columns A Utility field does not exist in the Target system, but is used to register rules and reports in Transform. Fields of this type should be captured in Target Design. A Utility field is added to the Target table to be used by AutoGen.
+Visibility is set to None by default for appended utility columns. However, the visibility setting can be configured to allow utility columns to be mapped if needed.</description>
+    </item>
+    
+    <item>
+      <title>Append Utility Columns to All Tables</title>
+      <link>https://heathercloward.github.io/design/use_cases/append_utility_columns_to_all_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/append_utility_columns_to_all_tables/</guid>
+      <description>Append Utility Columns to All Tables A Designer can add Utility columns that must be appended to all Target and/or Source tables.
+A Utility field (also called a zField) does not exist in the Target system, but rules and reports are registered to it in Transform. Fields of this type should be captured in Target Design but should not be mapped and will not display in Map. A utility field is added to the Target table to be used by AutoGen.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Field Group to an Object</title>
+      <link>https://heathercloward.github.io/design/use_cases/assign_a_field_group_to_an_object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/assign_a_field_group_to_an_object/</guid>
+      <description>Assign a Field Group to an Object Once a field group has been created, it can be assigned to an Object. The field group can then be assigned to Target fields for Targets registered to the Object.
+Refer to Create Field Groups for more information.
+To assign a field group to an Object in Target Design:
+ Select Configuration &amp;gt; Field Group Setup in the Navigation pane.
+ Click Add.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Source to a Target</title>
+      <link>https://heathercloward.github.io/design/use_cases/assign_a_source_to_a_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/assign_a_source_to_a_target/</guid>
+      <description>Assign a Source to a Target In Target Design, a Migration Developer can add a Source with a Source type of:  Add Row - A Source database that contains the data from the Source system to be moved to the Target. A Source database name begins with &amp;ldquo;sdb.&amp;rdquo; A Source’s System Type determines the database schema, or table definitions, for the Source. {Full Construction} - A Source that is manually created using Construct.</description>
+    </item>
+    
+    <item>
+      <title>Basic Rules</title>
+      <link>https://heathercloward.github.io/design/use_cases/basic_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/basic_rules/</guid>
+      <description>Basic Rules A Basic rule allows a user to create a simple conditional or default rule (one that populates the field with a default value).
+Basic rules are logic conditions associated with a Target field that are used in Data Services AutoGen. They can be used to apply conditions based on up to three combined fields. When Data Services AutoGen runs, the Basic rules are added to the job in the enrichment data flow based on the priority set in Target Design.</description>
+    </item>
+    
+    <item>
+      <title>Complex Rules</title>
+      <link>https://heathercloward.github.io/design/use_cases/complex_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/complex_rules/</guid>
+      <description>Complex Rules Complex rules are managed in Target Design. They are not edited or submitted in Map. These mappings have a message on the record stating that the rule was created in Target Design. The mapping for a field with a Complex rule displays in Map with an Action of Manual Rule. Users can add a description of a Complex rule with documentation and comments. Complex rules provide information that the Data Services developer uses when writing the rule.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Target in Target Design</title>
+      <link>https://heathercloward.github.io/design/use_cases/copy_a_target_in_target_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/copy_a_target_in_target_design/</guid>
+      <description>Copy a Target in Target Design A Target can be copied to a Wave, a Process Area, and an Object to be used as the basis for a new Target.
+When a Target is copied, its fields and sources and all associated settings, including basic rules and complex rules, are also copied to the Object. The design status does not affect the ability to copy a Target.
+NOTE: The destination Wave, Process Area and Object for the copy must be a different Object than the currently selected Object.</description>
+    </item>
+    
+    <item>
+      <title>Create Field Groups</title>
+      <link>https://heathercloward.github.io/design/use_cases/create_field_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/create_field_groups/</guid>
+      <description>Create Field Groups Field groups are filters used to create subsets of data in a Target field. Rules, requirement settings, criticality levels and other settings can then be applied to these subsets of data.
+The default field group (*) is automatically created for all Targets. This field group designates the default action and specifies that the rule applies to the entire Target and is not dependent on a subset of data.</description>
+    </item>
+    
+    <item>
+      <title>Delete a Target</title>
+      <link>https://heathercloward.github.io/design/use_cases/delete_a_target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/delete_a_target/</guid>
+      <description> Delete a Target Before deleting a Target, be aware of the downstream implications.
+NOTE: Deleting a Target removes all mappings set for the Target and all settings related to the Target in Transform. If a mapping associated with the Target is waiting for approval and the Target is deleted, the mapping is removed from the Mapping Approval page.
+When a Target is deleted in Target Design:
+ Targets are automatically deleted in Map and Transform Basic and complex rules for the Target are also deleted Metrics that use the Target are updated to remove data related to the deleted Target Pending approvals for the Target are deleted from the Mapping Approvals page Objects that have been built in the database such as tables, views and store procedures must be manually removed Construction tables and views will not be deleted, and the entry will still exist in the DCS database; however, the tables will not be accessible through Construct  </description>
+    </item>
+    
+    <item>
+      <title>Extend a Field to a Field Group</title>
+      <link>https://heathercloward.github.io/design/use_cases/extend_a_field_to_a_field_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/extend_a_field_to_a_field_group/</guid>
+      <description>Extend a Field to a Field Group Field groups are filters used to create subsets of data in a Target field. Rules, requirement settings, criticality levels and other settings can then be applied to these subsets of data.
+A field can be extended to all field groups assigned to the Object from the Target Fields page, allowing this field to have a filter applied based for every field group.</description>
+    </item>
+    
+    <item>
+      <title>Import From a Database</title>
+      <link>https://heathercloward.github.io/design/use_cases/import_from_a_database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/import_from_a_database/</guid>
+      <description>Import From a Database The design of a Target can be imported from one or multiple tables in a database.
+Import is also allowed from a System Type or from an Excel file (using a provided template). Refer to Import Target Design from a System Type and Import Target Design from an Excel File for more information.
+When initially importing from a database, the table(s) and fields are imported. When importing a table that has already been imported for the Target, only updates are applied.</description>
+    </item>
+    
+    <item>
+      <title>Import From a System Type</title>
+      <link>https://heathercloward.github.io/design/use_cases/import_from_a_system_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/import_from_a_system_type/</guid>
+      <description>Import From a System Type The design of a Target can be imported from a System Type, which contains generic information about external systems (for example, Target and Legacy) used for a data migration. Refer to System Types for more information about adding and configuring System Types.
+NOTE:On the Targets page, Import Fields is available in Target Design to import one Target at a time. A user must enter the SYSTEM TYPE ID and the TARGET SYSTEM TABLE NAMEand click the Import Fields icon.</description>
+    </item>
+    
+    <item>
+      <title>Import From an Excel File</title>
+      <link>https://heathercloward.github.io/design/use_cases/import_from_an_excel_file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/import_from_an_excel_file/</guid>
+      <description>Import From an Excel File The design of a Target can be imported from an Excel file. A user must download a formatted template, add data and import the Excel file.
+Import is also allowed from a System Type or database tables. Refer to Import Target Design from a System Type and Import Target Design from a Database for more information.
+After a successful import, the table displays on the Targets page in Target Design, with &amp;lsquo;tt&amp;rsquo; appended to the front of the table name.</description>
+    </item>
+    
+    <item>
+      <title>Set Date, Time, and Decimal Formats</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_date_time_and_decimal_format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_date_time_and_decimal_format/</guid>
+      <description>Set Date, Time, and Decimal Formats In Target Design, on the Targets page’s Vertical View, users define formats for date, time, and decimal fields. This functionality allows the Target Design fields to be set to a data type of NVARCHAR as an open standard to allow all data to flow through the migration. The validation rules written in Data Services check that the Target data is in the correct format to load in to the Target system.</description>
+    </item>
+    
+    <item>
+      <title>Set Design Status</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_design_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_design_status/</guid>
+      <description>Set Design Status Use this page to [Set a Target&#39;s Design Status](Set_the_Design_Status.htm).  To access this page:
+ Select dspMigrate in the Navigation pane. Select Design in the Context bar. Click the Targetsicon on the Design page. Click the link in the DESIGN STATUS column for the Target.    Field
+ Description
+  In Design
+ Click to set the selected Target&#39;s Design Status to In Design.</description>
+    </item>
+    
+    <item>
+      <title>Set Execution Status</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_execution_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_execution_status/</guid>
+      <description>Set Execution Status This page is not currently used, but will be activated in a future release.</description>
+    </item>
+    
+    <item>
+      <title>Set Field Visibility for Mapping</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_field_visibility_for_mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_field_visibility_for_mapping/</guid>
+      <description>Set Field Visibility for Mapping A Migration Developer can set visibility for a field on the Target Fields page. Visibility determines whether fields display on the Field Mappings page in Map and can be mapped as Source fields, Target fields, or as both Target and Source fields. Visibility can also be set to None - No mapping required for the field, indicating that the field does not display on the Field Mappings page and is not mapped.</description>
+    </item>
+    
+    <item>
+      <title>Set Rule Priority for Fields in Field Groups</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_rule_priority_for_fields_in_field_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_rule_priority_for_fields_in_field_groups/</guid>
+      <description>Set Rule Priority for Fields in Field Groups A field’s priority determines the order in which the rule based on that field is run and is set on the Target Fields page. In this example, the PSTAT field’s priority is 4.
+All fields are associated with the default field group (*).
+The priority for fields in the default field group (*) is set by the order the field appears in the Target table.</description>
+    </item>
+    
+    <item>
+      <title>Set Target Dependencies</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_target_dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_target_dependencies/</guid>
+      <description>Set Target Dependencies Dependencies are used to document the order of execution across Process Areas and objects within the Wave. Dependencies are set for Target tables that have a relationship with one or more Target tables.
+Tables can have parent and child dependency relationships that are defined in Target Design.
+For example, if Target A is the parent of Target B, data from a field in Target A must be populated for a corresponding field in Target B.</description>
+    </item>
+    
+    <item>
+      <title>Set a Target&#39;s Design Status</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_the_design_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_the_design_status/</guid>
+      <description>Set a Target&amp;rsquo;s Design Status The Design Status for a Target indicates where the Target design is in the stages of the design process. To set the Design Status, click the link in the DESIGN STATUS column for the Target on the Targets page.
+A Target’s Design Status can be changed. The current Design Status does not restrict the ability to update the Design Status. For example, if a Target is in Inactive status, it can be moved to Complete status.</description>
+    </item>
+    
+    <item>
+      <title>Set up Lookup Tables</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_up_lookup_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_up_lookup_tables/</guid>
+      <description>Set up Lookup Tables In value mapping, an individual value in a Source field in one table is configured to be converted to a value stored in another table that the target system will accept in the Target field. For example, if two large companies merge, they may want to convert the Legacy Org Numbers first and then value map to the new Org numbers (in an Org check table) in the Target ERP system.</description>
+    </item>
+    
+    <item>
+      <title>Set up a Complex Lookup Table</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_up_a_complex_lookup_table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_up_a_complex_lookup_table/</guid>
+      <description>Set up a Complex Lookup Table A complex lookup table contains a multiple part key.
+Refer to Set up Lookup Tables for more information.
+NOTE: A lookup table can be added in Target Design with up to five key fields. If the table requires more than five key fields, a view must be written.
+NOTE: If the Target system is Oracle, a view must be written. A Target lookup table for an Oracle Target cannot be created using the Target Lookup Table page.</description>
+    </item>
+    
+    <item>
+      <title>Set up a Simple Lookup Table</title>
+      <link>https://heathercloward.github.io/design/use_cases/set_up_a_simple_lookup_table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/set_up_a_simple_lookup_table/</guid>
+      <description>Set up a Simple Lookup Table A simple lookup table contains one key.
+Refer to Set up Lookup Tables for more information.
+A lookup table that already exists can be edited or a lookup table can be added. The process is the same.
+NOTE: The RuleXref action must be used with a lookup table that has multiple key fields. This will allow missing values in the Target table to be inserted into the Value Mapping table.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for Target Design</title>
+      <link>https://heathercloward.github.io/design/use_cases/setup_and_configuration_for_target_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/setup_and_configuration_for_target_design/</guid>
+      <description> Setup and Configuration for Target Design Before Targets can be created in Target Design, a Wave, Process Area and an Object must have been created in Console.
+Targets can be created by importing a System Type, database, or Excel file, or can be added manually.
+To get started:
+ Access Design Set Up Security for Target Design Add Custom Requirement Settings Add Custom Criticality Levels  </description>
+    </item>
+    
+    <item>
+      <title>Sync Data Source System Types Across Targets</title>
+      <link>https://heathercloward.github.io/design/use_cases/sync_data_source_system_types_across_targets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/sync_data_source_system_types_across_targets/</guid>
+      <description>Sync Data Source System Types Across Targets A Source data source can be assigned to only one System Type across all Targets and Waves. For example, the Source data source of sdbSAP has been assigned to the System Type SAPLEGACY for the Target ttMARA. If the Target ttMAKT also uses the data source of sdbSAP, it cannot use a different System Type such as SAP. The data source sdbSAP must use the System Type SAPLEGACY.</description>
+    </item>
+    
+    <item>
+      <title>Sync Map and Target Design</title>
+      <link>https://heathercloward.github.io/design/use_cases/sync_map_and_target_design_td/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/sync_map_and_target_design_td/</guid>
+      <description>Sync Map and Target Design When changes have been made that require a sync, the message Pending Design Changes displays for the Target on the Design Status page in Target Design. On the Targets page, a Pending Design Changes link displays for the Target. Click the link to view a list of changes for the selected Target.
+The Pending Design Changes message also displays in Map on the Target Sources and Field Mappings page.</description>
+    </item>
+    
+    <item>
+      <title>Update System Types for a Source</title>
+      <link>https://heathercloward.github.io/design/use_cases/update_system_types_for_a_source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/update_system_types_for_a_source/</guid>
+      <description>Update System Types for a Source A Migration Developer can update the System Type used by a Source.
+A Source’s System Types is selected when the data source is registered.
+The Source type must be updated if the wrong System Type was selected when the Source was added to the Target.
+Updating the System Type ensures that all Target Sources are assigned the correct System Type when they are added.</description>
+    </item>
+    
+    <item>
+      <title>Use Field Groups</title>
+      <link>https://heathercloward.github.io/design/use_cases/use_field_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/use_field_groups/</guid>
+      <description>Use Field Groups Field groups are filters used to create subsets of data in a Target field. Based on values in another related field, these subsets can have different settings that define whether the field is required or which rules run against the field. If, for example, a field is required only under certain data conditions, field groups are used to define the conditions, fields, values, and requirement setting.</description>
+    </item>
+    
+    <item>
+      <title>Use Target Rules</title>
+      <link>https://heathercloward.github.io/design/use_cases/use_target_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/use_target_rules/</guid>
+      <description>Use Target Rules Basic and Complex rules are defined within Target Design and are used to extend the functionality of the Data Services Jobs used during the Data Services AutoGen process. Refer to Data Services AutoGen for more information.
+There are two types of Target rules that can be assigned to Target fields:
+ Complex rules allow a user to document rules. These rules may not have been written yet, or may have been written and saved in a data source.</description>
+    </item>
+    
+    <item>
+      <title>View Target and Source Assignments</title>
+      <link>https://heathercloward.github.io/design/use_cases/view_target_and_source_assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/view_target_and_source_assignments/</guid>
+      <description>View Target and Source Assignments To view all Targets that use a Source in the context selected in the Context bar:
+ Select Configuration &amp;gt; Sources in the Navigation pane. Click the Targets icon for a Source.  On this page, a user can also update the System Type ID for a data source if one has not been set.
+NOTE: System Types are added in Common and contain generic information including keys, fields, check tables, join relationships between tables and generic mappings for external systems (for example, Target ERP and Legacy) being used for a data migration.</description>
+    </item>
+    
+    <item>
+      <title>Work With Field Groups</title>
+      <link>https://heathercloward.github.io/design/use_cases/work_with_field_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/work_with_field_groups/</guid>
+      <description>Work With Field Groups Field groups are filters used to create subsets of data in a Target field. Based on values in another related field, these subsets can have different settings, such as criticality, whether the field is required or which rules will run against the field. If, for example, a field is required only under certain data conditions, field groups are used to define the conditions, fields, values, and requirement setting.</description>
+    </item>
+    
+    <item>
+      <title>Work with Metric Groups</title>
+      <link>https://heathercloward.github.io/design/use_cases/work_with_metric_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/work_with_metric_groups/</guid>
+      <description>Work with Metric Groups Metric groups are a subcategory of field groups and provide a way to further organize data for metrics tracking and mapping. The metric groups are defined in Target Design and set for Target Fields in Target Design. Metric groups are displayed on the Field Mappings page in Map and several reports showing progress of the mapping process.
+Each set of metric groups are delineated into logical sets of fields that relate to a screen within the Target system.</description>
+    </item>
+    
+    <item>
+      <title>Work with Target Fields</title>
+      <link>https://heathercloward.github.io/design/use_cases/work_with_target_fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/work_with_target_fields/</guid>
+      <description> Work with Target Fields This section contains the following topics:  Add Fields to a Target Allow Mapping of Utility Columns Set Field Visibility for Mapping Activate or Deactivate Target Fields for Mapping Set Date, Time, and Decimal Formats  </description>
+    </item>
+    
+    <item>
+      <title>Work with Targets and Sources</title>
+      <link>https://heathercloward.github.io/design/use_cases/work_with_targets_and_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/design/use_cases/work_with_targets_and_sources/</guid>
+      <description> Work with Targets and Sources This section contains the following topics:
+ Add a Target Assign a Source to a Target View Target and Source Assignments Sync Source Data Source-System Types Across all Targets Set a Target&amp;rsquo;s Design Status Copy a Target in Target Design Delete a Target Access Targets at the Object Level Add Developers and Business Contacts to a Target or Source Set Target Dependencies Update System Types for a Source Append Utility Columns to All Tables Add Utility Field Defaults  </description>
+    </item>
+    
+  </channel>
+</rss>

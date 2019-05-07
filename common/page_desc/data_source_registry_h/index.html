@@ -1,0 +1,1880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data Source Registry H :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/common/" class="active">Common Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/common/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/common/config/set_up_security_for_common/" class="">Set Up Security for Common</a></li>
+        
+            <li >
+                <a href="/common/config/setup_and_configuration_for_common/" class="">Setup and Configuration for Common</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/common/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/common/page_desc/algorithms/" class="">Algorithms</a></li>
+        
+            <li >
+                <a href="/common/page_desc/analyze/" class="">Analyze</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_engine_action_h/" class="">Automation Engine Action H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_engine_history/" class="">Automation Engine History</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_engine_parameters/" class="">Automation Engine Parameters</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_instruction_task_definition/" class="">Automation Instruction Task Definition</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_instruction_task_group/" class="">Automation Instruction Task Group</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_instruction_task_group_definition/" class="">Automation Instruction Task Group Definition</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_instruction_task_h/" class="">Automation Instruction Task H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_instruction_sql/" class="">Automation Instruction – SQL</a></li>
+        
+            <li >
+                <a href="/common/page_desc/automation_instructions/" class="">Automation Instructions</a></li>
+        
+            <li >
+                <a href="/common/page_desc/build_view_h/" class="">Build View H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/calendar_exception/" class="">Calendar Exception</a></li>
+        
+            <li >
+                <a href="/common/page_desc/calendar_exception_work_hours/" class="">Calendar Exception Work Hours</a></li>
+        
+            <li >
+                <a href="/common/page_desc/calendar/" class="">Calendar H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/calendar_user/" class="">Calendar User</a></li>
+        
+            <li >
+                <a href="/common/page_desc/candidates/" class="">Candidates</a></li>
+        
+            <li >
+                <a href="/common/page_desc/client_column_name_variant/" class="">Client Column Name Variant</a></li>
+        
+            <li >
+                <a href="/common/page_desc/copy_calendar/" class="">Copy Calendar</a></li>
+        
+            <li >
+                <a href="/common/page_desc/copy_automation_instructions/" class="">Copy: Automation Instructions</a></li>
+        
+            <li >
+                <a href="/common/page_desc/dbmoto_function_setup/" class="">DBMoto Function Setup</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data-classification/" class="">Data Classification</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data_services_profiling_results/" class="">Data Services Profiling Results</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data_services_profiling_results_table_columns/" class="">Data Services Profiling Results Table Columns</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data_source_objects/" class="">Data Source Objects</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data_source_registry_h/" class="uk-active">Data Source Registry H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data_source_registry_user_credentials_h/" class="">Data Source Registry User Credentials H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/data_sources_tables/" class="">Data Sources Tables</a></li>
+        
+            <li >
+                <a href="/common/page_desc/database_function_setup/" class="">Database Function Setup</a></li>
+        
+            <li >
+                <a href="/common/page_desc/debug_log_h/" class="">Debug Log H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/debug_logs/" class="">Debug Logs</a></li>
+        
+            <li >
+                <a href="/common/page_desc/definitions/" class="">Definitions</a></li>
+        
+            <li >
+                <a href="/common/page_desc/duplicates/" class="">Duplicates</a></li>
+        
+            <li >
+                <a href="/common/page_desc/field_values_h/" class="">Field Values H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/history_of_changes/" class="">History Of Changes</a></li>
+        
+            <li >
+                <a href="/common/page_desc/information-type/" class="">Information Type</a></li>
+        
+            <li >
+                <a href="/common/page_desc/keys/" class="">Keys</a></li>
+        
+            <li >
+                <a href="/common/page_desc/language_column_name_variant/" class="">Language Column Name Variant</a></li>
+        
+            <li >
+                <a href="/common/page_desc/mapping_set/" class="">Mapping Set</a></li>
+        
+            <li >
+                <a href="/common/page_desc/monitor_hcommon/" class="">Monitor H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/nonduplicates/" class="">NonDuplicates</a></li>
+        
+            <li >
+                <a href="/common/page_desc/object_columns_h/" class="">Object Columns H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/object_history_h/" class="">Object History H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/objects-changed-by-week-users/" class="">Objects Changed By Week (Users)</a></li>
+        
+            <li >
+                <a href="/common/page_desc/objects_h_common/" class="">Objects H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_metrics/" class="">Parameters - Metrics</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_user_management/" class="">Parameters - User Management</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_collect/" class="">Parameters – Collect</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_duplicates/" class="">Parameters – Duplicates</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_integrate/" class="">Parameters – Integrate</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_profile/" class="">Parameters – Profile</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_secure/" class="">Parameters – Secure</a></li>
+        
+            <li >
+                <a href="/common/page_desc/parameters_trace/" class="">Parameters – Trace</a></li>
+        
+            <li >
+                <a href="/common/page_desc/post_action_rule_table_column/" class="">Post Action Rule Table Column</a></li>
+        
+            <li >
+                <a href="/common/page_desc/post_action_rule_table_h/" class="">Post Action Rule Table H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/process_adapter/" class="">Process Adapter</a></li>
+        
+            <li >
+                <a href="/common/page_desc/process_adapter_properties/" class="">Process Adapter Properties</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_filters/" class="">Report Engine - Filters</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_job_user_filters/" class="">Report Engine - Job User Filters</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_report_source_h/" class="">Report Engine - Report Source</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_core_configuration/" class="">Report Engine Core Configuration</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_formats_h/" class="">Report Engine Formats</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_formatting_styles_h/" class="">Report Engine Formatting Styles</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_job_datastores/" class="">Report Engine Job DataStores</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_mongodb_configuration_h/" class="">Report Engine MongoDB Configuration</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_notifications_h/" class="">Report Engine Notifications</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_headerfooters/" class="">Report Engine – Header/Footers</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_job_filters/" class="">Report Engine – Job Filters</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_job_users/" class="">Report Engine – Job Users</a></li>
+        
+            <li >
+                <a href="/common/page_desc/report_engine_jobs_h/" class="">Report Engine – Jobs H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/reports/" class="">Reports</a></li>
+        
+            <li >
+                <a href="/common/page_desc/results/" class="">Results</a></li>
+        
+            <li >
+                <a href="/common/page_desc/sap_rfc/" class="">SAP RFC</a></li>
+        
+            <li >
+                <a href="/common/page_desc/sql_objects/" class="">SQL Objects</a></li>
+        
+            <li >
+                <a href="/common/page_desc/sql_objects_with_history/" class="">SQL Objects (With History)</a></li>
+        
+            <li >
+                <a href="/common/page_desc/schedule_configure/" class="">Schedule – Configure</a></li>
+        
+            <li >
+                <a href="/common/page_desc/schedules_h/" class="">Schedules H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_group_table_rule_fields/" class="">System Types Group Table Rule Fields</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_group_table_rules/" class="">System Types Group Table Rules</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_group_tables/" class="">System Types Group Tables</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_groups/" class="">System Types Groups</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_h/" class="">System Types H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_import/" class="">System Types Import</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_index_fields/" class="">System Types Index Fields</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_join_field/" class="">System Types Join Field</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_joins/" class="">System Types Joins</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_mappings/" class="">System Types Mappings</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_model_build_views/" class="">System Types Model Build Views</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_model_group_tables/" class="">System Types Model Group Tables</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_model_groups/" class="">System Types Model Groups</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_model_required_fields/" class="">System Types Model Required Fields</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_model_tables/" class="">System Types Model Tables</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_models_h/" class="">System Types Models H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_table_fields_h/" class="">System Types Table Fields H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_table_indices/" class="">System Types Table Indices</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_table_lookup/" class="">System Types Table Lookup</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_table_statics/" class="">System Types Table Statics</a></li>
+        
+            <li >
+                <a href="/common/page_desc/system_types_tables_h/" class="">System Types Tables H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/table_results_h/" class="">Table (Results) H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/table_field_results_h/" class="">Table Field (Results) H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/toolkit_excel_h/" class="">Toolkit: Excel H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/toolkit_file_folder_operations_h/" class="">Toolkit: File/Folder Operations H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/user_credentials_h/" class="">User Credentials H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/user_management_h/" class="">User Management H</a></li>
+        
+            <li >
+                <a href="/common/page_desc/user_role/" class="">User Role</a></li>
+        
+            <li >
+                <a href="/common/page_desc/work_day/" class="">Work Day</a></li>
+        
+            <li >
+                <a href="/common/page_desc/work_hours/" class="">Work Hours</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/common/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/common/use_cases/activate_and_deactivate_data_source/" class="">Activate and Deactivate Data Sources</a></li>
+        
+            <li >
+                <a href="/common/use_cases/activate_and_deactivate_tables/" class="">Activate and Deactivate Tables</a></li>
+        
+            <li >
+                <a href="/common/use_cases/activate_deactivate_tbls_system_type_group/" class="">Activate or Deactivate Tables in a System Type Group</a></li>
+        
+            <li >
+                <a href="/common/use_cases/activedeactivetblssystmtypemodelgrp/" class="">Activate or Deactivate Tables in a System Type Model Group</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add-custom-data-classifications-and-information-types/" class="">Add Custom Data Classifications and Information Types</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_dbmoto_functions/" class="">Add DBMoto Functions</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_default_user_credentials_to_a_connection/" class="">Add Default User Credentials to a Connection</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_fields_to_tables/" class="">Add Fields to Tables</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_indices/" class="">Add Indices</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_keys/" class="">Add Keys</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_mappings/" class="">Add Mappings</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_post_action_table_rules/" class="">Add Post Action Table Rules</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_system_tables_and_fields/" class="">Add System Tables and Fields</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_system_types/" class="">Add System Types</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_table_join_relationships/" class="">Add Table Join Relationships</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_user_credentials_to_an_sap_connection_for_a_specific_use/" class="">Add User Credentials to an SAP Connection for a Specific User</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_a_calendar/" class="">Add a Calendar</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_a_debug_log_to_a_custom_webapp/" class="">Add a Debug Log to a Custom WebApp</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_a-lookup-table-manually./" class="">Add a Lookup Table Manually</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_system_types_groups/" class="">Add a System Type Group</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_a_new_system_type_model/" class="">Add a System Type Model</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add-a-system-type-model-group/" class="">Add a System Type Model Group</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_a_new_system_type_model_table/" class="">Add a System Type Model Table</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_an_exception_to_the_calendar/" class="">Add an Exception to the Calendar</a></li>
+        
+            <li >
+                <a href="/common/use_cases/add_and_remove_a_calendars_users/" class="">Add and Remove a Calendar’s Users</a></li>
+        
+            <li >
+                <a href="/common/use_cases/assign_a_user_to_a_security_role_in_common/" class="">Assign a User to a Security Role in Common</a></li>
+        
+            <li >
+                <a href="/common/use_cases/assign_an_expiration_date_to_a_user/" class="">Assign an Expiration Date to a User</a></li>
+        
+            <li >
+                <a href="/common/use_cases/automation_engine_overview/" class="">Automation Engine</a></li>
+        
+            <li >
+                <a href="/common/use_cases/build_views/" class="">Build Views</a></li>
+        
+            <li >
+                <a href="/common/use_cases/build-views-based-on-a-st-model/" class="">Build Views based on a System Type Model</a></li>
+        
+            <li >
+                <a href="/common/use_cases/build_a_construction_page_manually/" class="">Build a Construction Page Manually</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_collect_overview/" class="">Configure Collect</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_collect_parameters/" class="">Configure Collect Parameters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_columns/" class="">Configure Columns</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_data_sources_to_be_ignored/" class="">Configure Data Sources to be Ignored</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_debug_logs_settings/" class="">Configure Debug Logs Settings</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_duplicates_parameters/" class="">Configure Duplicates Parameters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_integrate_parameters/" class="">Configure Integrate Parameters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_profile_parameters/" class="">Configure Profile Parameters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure-regulatory-compliance-settings/" class="">Configure Regulatory Compliance Settings</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_secure_overview/" class="">Configure Secure</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_secure_parameters/" class="">Configure Secure Parameters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/configure_trace_parameters/" class="">Configure Trace Parameters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_files/" class="">Copy Files</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_folders/" class="">Copy Folders</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_instructions/" class="">Copy Instructions</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_task_groups/" class="">Copy Task Groups</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_tasks/" class="">Copy Tasks</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_work_hours_across_work_days/" class="">Copy Work Hours Across Work Days</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_a_calendar/" class="">Copy a Calendar</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_a_system_type_table1/" class="">Copy a System Type Table</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_automation_instruction_task/" class="">Copy: Automation Instruction Task</a></li>
+        
+            <li >
+                <a href="/common/use_cases/copy_automation_instruction_task_group/" class="">Copy: Automation Instruction Task Group</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_dashboards/" class="">Create Dashboards</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_instructions/" class="">Create Instructions</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_object_views/" class="">Create Object Views</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_schedules/" class="">Create Schedules</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_task_groups/" class="">Create Task Groups</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_tasks/" class="">Create Tasks</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_a_secure_key/" class="">Create a Secure Key</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_a_user/" class="">Create a User Account in Common</a></li>
+        
+            <li >
+                <a href="/common/use_cases/create_user_accounts_in_common/" class="">Create and Manage User Accounts in Common</a></li>
+        
+            <li >
+                <a href="/common/use_cases/data_sources_in_common/" class="">Data Sources in Common</a></li>
+        
+            <li >
+                <a href="/common/use_cases/define_instructions_for_tasks/" class="">Define Instructions for Tasks</a></li>
+        
+            <li >
+                <a href="/common/use_cases/define_tasks_for_task_group/" class="">Define Tasks for Task Group</a></li>
+        
+            <li >
+                <a href="/common/use_cases/delete_files/" class="">Delete Files</a></li>
+        
+            <li >
+                <a href="/common/use_cases/delete_folders/" class="">Delete Folders</a></li>
+        
+            <li >
+                <a href="/common/use_cases/delete_monitor_records/" class="">Delete Monitored Records</a></li>
+        
+            <li >
+                <a href="/common/use_cases/delete_a_calendar/" class="">Delete a Calendar</a></li>
+        
+            <li >
+                <a href="/common/use_cases/display_data_services_profiling_results/" class="">Display Data Services Profiling Results</a></li>
+        
+            <li >
+                <a href="/common/use_cases/download_rate_of_change_spreadsheet/" class="">Download Rate of Change Spreadsheet</a></li>
+        
+            <li >
+                <a href="/common/use_cases/encrypt_cransoft_data_source_password/" class="">Encrypt CranSoft Data Source Password</a></li>
+        
+            <li >
+                <a href="/common/use_cases/establish_a_connection_to_a_target_system_overview/" class="">Establish a Connection in a Target System Overview</a></li>
+        
+            <li >
+                <a href="/common/use_cases/establish_a_connection_direct_connection/" class="">Establish a Connection via a Direct Connection to the Application Server</a></li>
+        
+            <li >
+                <a href="/common/use_cases/establish_a_connection_via_a_message_server/" class="">Establish a Connection via a Message Server</a></li>
+        
+            <li >
+                <a href="/common/use_cases/export_excel_files/" class="">Export Excel Files</a></li>
+        
+            <li >
+                <a href="/common/use_cases/export_translations_to_a_catalog/" class="">Export Translations to a Catalog</a></li>
+        
+            <li >
+                <a href="/common/use_cases/find_duplicates/" class="">Find Duplicates</a></li>
+        
+            <li >
+                <a href="/common/use_cases/find_duplicates_overview/" class="">Find Duplicates Overview</a></li>
+        
+            <li >
+                <a href="/common/use_cases/forgotten_incorrect_encryption-passwords/" class="">Forgotten/Incorrect Encryption Password</a></li>
+        
+            <li >
+                <a href="/common/use_cases/generate_records_in_the_ae_history_table/" class="">Generate Records in the AE History Table</a></li>
+        
+            <li >
+                <a href="/common/use_cases/ignore_data_sources/" class="">Ignore Data Sources</a></li>
+        
+            <li >
+                <a href="/common/use_cases/import_excel_files/" class="">Import Excel Files</a></li>
+        
+            <li >
+                <a href="/common/use_cases/import_system_types_using_collect/" class="">Import System Types Using Collect</a></li>
+        
+            <li >
+                <a href="/common/use_cases/import_a_data_source/" class="">Import a Data Source</a></li>
+        
+            <li >
+                <a href="/common/use_cases/import-a-model/" class="">Import a Model</a></li>
+        
+            <li >
+                <a href="/common/use_cases/manage_system_types_with_system_type_models/" class="">Manage System Types with System Type Models</a></li>
+        
+            <li >
+                <a href="/common/use_cases/manually_add_system_tables/" class="">Manually Add System Type Tables</a></li>
+        
+            <li >
+                <a href="/common/use_cases/modify_actions/" class="">Modify Actions</a></li>
+        
+            <li >
+                <a href="/common/use_cases/modify_text_for_password_email_notifications/" class="">Modify Text for Password Email Notifications</a></li>
+        
+            <li >
+                <a href="/common/use_cases/monitor_application_activity_overview/" class="">Monitor Application Activity</a></li>
+        
+            <li >
+                <a href="/common/use_cases/monitor_overview/" class="">Monitor Overview</a></li>
+        
+            <li >
+                <a href="/common/use_cases/move_files/" class="">Move Files</a></li>
+        
+            <li >
+                <a href="/common/use_cases/process_adapters/" class="">Process Adapters</a></li>
+        
+            <li >
+                <a href="/common/use_cases/profile_data_source/" class="">Profile Data Source</a></li>
+        
+            <li >
+                <a href="/common/use_cases/profile_data_sources/" class="">Profile Data Sources</a></li>
+        
+            <li >
+                <a href="/common/use_cases/register_objects/" class="">Register Objects</a></li>
+        
+            <li >
+                <a href="/common/use_cases/registerpluginsimportexportfiles/" class="">Register Plugins to Import and Export Files</a></li>
+        
+            <li >
+                <a href="/common/use_cases/register_public_plugins/" class="">Register Public Plugins</a></li>
+        
+            <li >
+                <a href="/common/use_cases/register_a_data_source_in_common/" class="">Register a Data Source in Common</a></li>
+        
+            <li >
+                <a href="/common/use_cases/reset_profiling/" class="">Reset Profiling</a></li>
+        
+            <li >
+                <a href="/common/use_cases/reset-a-users-password/" class="">Reset a User&#39;s Password</a></li>
+        
+            <li >
+                <a href="/common/use_cases/resolve_duplicate_candidates/" class="">Resolve Duplicate Candidates</a></li>
+        
+            <li >
+                <a href="/common/use_cases/review_duplicate_records/" class="">Review Duplicate Records</a></li>
+        
+            <li >
+                <a href="/common/use_cases/review_non_duplicate_records/" class="">Review Non Duplicate Records</a></li>
+        
+            <li >
+                <a href="/common/use_cases/run_post_duplicate_detection_process/" class="">Run Post Duplicate Detection Process</a></li>
+        
+            <li >
+                <a href="/common/use_cases/send_a_temporary_password_to_a_user/" class="">Send a Temporary Password to a New User</a></li>
+        
+            <li >
+                <a href="/common/use_cases/set-values-for-system-types-table-fields/" class="">Set Values for System Types Table Fields</a></li>
+        
+            <li >
+                <a href="/common/use_cases/setworkdyshrscalendar/" class="">Set Work Days and Work Hours for a Calendar</a></li>
+        
+            <li >
+                <a href="/common/use_cases/set_up_database_functions/" class="">Set up Database Functions</a></li>
+        
+            <li >
+                <a href="/common/use_cases/set_up_post_action_rule_tables/" class="">Set up Post Action Rule Tables</a></li>
+        
+            <li >
+                <a href="/common/use_cases/sync_data_sources_in_common_and_system_administration/" class="">Sync Data Sources in Common and System Administration</a></li>
+        
+            <li >
+                <a href="/common/use_cases/system_types_overview/" class="">System Types</a></li>
+        
+            <li >
+                <a href="/common/use_cases/trace_data_sources_overview/" class="">Trace Data Sources</a></li>
+        
+            <li >
+                <a href="/common/use_cases/trace_object_changes_daily/" class="">Trace Object Changes Daily</a></li>
+        
+            <li >
+                <a href="/common/use_cases/trace_object_changes_monthly/" class="">Trace Object Changes Monthly</a></li>
+        
+            <li >
+                <a href="/common/use_cases/trace_object_changes_weekly/" class="">Trace Object Changes Weekly</a></li>
+        
+            <li >
+                <a href="/common/use_cases/trace_object_summary/" class="">Trace Object Summary</a></li>
+        
+            <li >
+                <a href="/common/use_cases/track_construction_status/" class="">Track Construction Status</a></li>
+        
+            <li >
+                <a href="/common/use_cases/update-retention-expiration-warning-period/" class="">Update Retention Expiration Warning Period</a></li>
+        
+            <li >
+                <a href="/common/use_cases/update-the-retention-expiration-email/" class="">Update the Retention Expiration Email</a></li>
+        
+            <li >
+                <a href="/common/use_cases/use_a_calendar/" class="">Use a Calendar</a></li>
+        
+            <li >
+                <a href="/common/use_cases/toolkit_overview/" class="">Use the Toolkit for Custom Development</a></li>
+        
+            <li >
+                <a href="/common/use_cases/view_activity/" class="">View Activity</a></li>
+        
+            <li >
+                <a href="/common/use_cases/view_debug_logs/" class="">View Debug Logs</a></li>
+        
+            <li >
+                <a href="/common/use_cases/view-fields-required-for-system-type-tables/" class="">View Fields Required for System Type Tables</a></li>
+        
+            <li >
+                <a href="/common/use_cases/view_trace_dashboard_object_summary/" class="">View Trace Dashboard: Object Summary</a></li>
+        
+            <li >
+                <a href="/common/use_cases/view_the_profiling_results/" class="">View the Profiling Results</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a>Common</a></li>
+        <li><span>Data Source Registry H</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="data-source-registry-h">Data Source Registry H</h1>
+
+<p><span lang="EN"><a href="#Data_Source_Registry_V">Data Source Registry V</a></span></p>
+
+<div class="use">
+
+Use this page to [Register a Data Source in
+Common](../Use_Cases/Register_a_Data_Source_in_Common.htm).
+
+</div>
+
+<p>To access this page, select <span style="font-weight: bold;">Common &gt;
+Configuration &gt; Data Source Registry</span> in the
+<span style="font-style: italic;">Navigation</span> pane.</p>
+
+<p><strong>NOTE:</strong> Bulk Execution has been enabled on this page. Refer to <a href="../../Bulk_Exec/Use_Bulk_Execution.htm">Use
+Bulk Execution</a> for more
+information.</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Test Connection</p></td>
+<td><p>Click to test the connection to the data source, which verifies the user ID and password.</p></td>
+</tr>
+<tr class="odd">
+<td><p>NAME</p></td>
+<td><p>Displays the name of the data source.</p></td>
+</tr>
+<tr class="even">
+<td><p>APPLICATION DATA SOURCE TYPE</p></td>
+<td><p>Displays the type of data source (for example, an Oracle Database or a Local File). Refer to the Knowledge Base article &quot;<a href="https://support.boaweb.com/hc/en-us/articles/115015120927--DSP-Common-SysAdmin-Data-Sources#C2">How DSP Applications Use Different Data Source Types</a>&quot; on the BackOffice Associates support site (https://support.boaweb.com) for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>OUT OF SYNC</p></td>
+<td><p>Displays an icon if there was a change made to the data source on the System Administration <span lang="EN" style="font-style: italic;">Data Sources</span> page.</p>
+<p>The user can either:</p>
+<ul>
+<li>Apply the updates made to the data source in Common to the data source in System Administration by validating or saving the record in Common</li>
+</ul>
+<ul>
+<li>Apply the updates made to the data source in System Administration to the data source in Common manually</li>
+</ul>
+<p>Refer to <a href="../Use_Cases/Sync_Data_Sources_in_Common_and_System_Administration.htm">Sync Data Sources in Common and System Administration</a> for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>Admin Data Source</p></td>
+<td><p>Click to open the <span style="font-style: italic;">Data Sources</span> page in System Administration to view changes entered in System Administration for the selected data source.</p>
+<p><strong>NOTE:</strong> A user must have permission to access the <em>Data Sources</em> page in System Administration.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-data-source-registry-v-span-data-source-registry-v"><span id="Data_Source_Registry_V"></span>Data Source Registry V</h2>
+
+<p><a href="#Data_Source_Registry_H">Data Source Registry H</a></p>
+
+<div class="use">
+
+Use this page to [Register a Data Source in
+Common](../Use_Cases/Register_a_Data_Source_in_Common.htm).
+
+</div>
+
+<p>Application Data Source Types</p>
+
+<p>Data Services Repository (%)</p>
+
+<ul>
+<li><a href="#data_service_rep_gen">General</a></li>
+<li><a href="#Data_Services_Repository_Advanced_Settings">Advanced Settings</a></li>
+</ul>
+
+<p>External System Connection (%)</p>
+
+<ul>
+<li><a href="#External_System_Connection_____-_General">General</a></li>
+<li><a href="#External_System_Connection_______Advanced_Settings">Advanced
+Settings</a></li>
+</ul>
+
+<p>IG Universal Connect (%)</p>
+
+<ul>
+<li><a href="#IG">General</a></li>
+<li><a href="#IG2">Advanced Settings</a></li>
+</ul>
+
+<p>Local Utility Database (%)</p>
+
+<ul>
+<li><a href="#Local_Utility_Database_____-_General">General</a></li>
+<li><a href="#Local_Utility_Database_______Advanced_Settings">Advanced Settings</a></li>
+</ul>
+
+<p>Migration Object Database (dsw%)</p>
+
+<ul>
+<li><a href="#Migration_Object_Database__dsw_____General">General</a></li>
+<li><a href="#Migration_Object_Database__dsw_____Advanced_Settings">Advanced
+Settings</a></li>
+</ul>
+
+<p>Migration Source Database (sdb%)</p>
+
+<ul>
+<li><a href="#Migration_Source_Database__sdb_____General">General</a></li>
+<li><a href="#Migration_Source_Database__sdb_____Advanced_Settings">Advanced
+Settings</a></li>
+</ul>
+
+<p>SAP Application Server (%)</p>
+
+<ul>
+<li><a href="#SAP_Application_Server_____-_General">General</a></li>
+<li><a href="#SAP_Application_Server_____-_Advanced_Settings">Advanced Settings</a></li>
+</ul>
+
+<p>Target System Database (dg%)</p>
+
+<ul>
+<li><a href="#Target_System_Database__dg_____General">General</a></li>
+<li><a href="#Target_System_Database__dg_____Advanced_Settings">Advanced
+Settings</a></li>
+</ul>
+
+<h2 id="span-id-data-service-rep-gen-span-data-services-repository-general"><strong><span id="data_service_rep_gen"></span>Data Services Repository (%) - General</strong></h2>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Test Connection</p></td>
+<td><p>Click to test the connection to the data source, which verifies the user ID and password.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Name</p></td>
+<td><p>Displays the name of the data source registry.</p></td>
+</tr>
+<tr class="even">
+<td><p>Application Data Source Type</p></td>
+<td><p>Displays the type of data source (for example, an Oracle Database or a Local File). Refer to the Knowledge Base article &quot;How DSP Applications Use Different Data Source Types&quot; on the BackOffice Associates support site (https://support.boaweb.com) for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Description</p></td>
+<td><p>Displays a description of the data source.</p></td>
+</tr>
+<tr class="even">
+<td><p>DS Default Connection</p></td>
+<td><p>If checked, the selected Data Services repository is the default Data Services connection for various automated processes. There is only one default Data Services connection.</p></td>
+</tr>
+<tr class="odd">
+<td><p>System</p></td>
+<td><p>Displays the server address of the Data Services server.</p></td>
+</tr>
+<tr class="even">
+<td><p>Web Services URL</p></td>
+<td><p>Displays the URL to the Data Services web service.</p>
+<p><strong>NOTE:</strong> URL supports both http and https.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Repository Name</p></td>
+<td><p>Displays the name of the Data Services repository.</p></td>
+</tr>
+<tr class="even">
+<td><p>Authentication</p></td>
+<td><p>Displays the type of Authentication used to connect to Data Services.</p></td>
+</tr>
+<tr class="odd">
+<td><p>DS User Name</p></td>
+<td><p>Displays the user name used to connect to Data Services.</p></td>
+</tr>
+<tr class="even">
+<td><p>DS Password</p></td>
+<td><p>Displays the password used to connect to Data Services.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Requires Web Service Authentication</p></td>
+<td><p>If checked, Web Services Authentication is required to connect to this Instance of Data Services. If unchecked, Web Services Authentication is not required.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-data-services-repository-advanced-settings-span-data-services-repository-advanced-settings"><strong><span id="Data_Services_Repository_Advanced_Settings"></span>Data Services Repository (%) – Advanced Settings</strong></h2>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Command Timeout</p></td>
+<td><p>Displays the length of time in seconds that a command can run before timing out. This value is configured via a Data Source registry entry for the Data Services calls for RFC Download Packages. If the field is blank, the timeout is set to 300 seconds.</p>
+<p><strong>NOTE:</strong> The recommended setting for the Command Timeout field is 600.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-external-system-connection-general-span-external-system-connection-general"><strong><span id="External_System_Connection_____-_General"></span>External System Connection (%) - General</strong></h2>
+
+<p><strong>NOTE:</strong> The Advanced Settings for the External System Connection type
+only need to be populated if the data source type is OleDb or ODBC.</p>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Test Connection</p>
+
+<p>Click to test the connection to the data source, which verifies the user
+ID and password.</p>
+
+<p>Recompile Data Sources</p>
+
+<p>Click to verify the data is available in the database.</p>
+
+<p><strong>NOTE:</strong> Objects should only be recompiled for SQL Server databases
+created for the project. Objects may need to be recompiled a few times.
+If the recompile fails after three attempts, submit an issue to
+BackOffice Support.</p>
+
+<p><strong>NOTE:</strong> This feature is not used for OleDb and ODBC data source types.</p>
+
+<p>Append Columns</p>
+
+<p>This feature is used for local SQL data sources only.</p>
+
+<p>Click to append the BackOffice reserved columns to all tables in the
+data source that do not already contain them. The following are
+BackOffice reserved columns:</p>
+
+<ul>
+<li>boaStatus</li>
+<li>AddedOn</li>
+<li>AddedBy</li>
+<li>AddedVia</li>
+<li>ChangedBy</li>
+<li>ChangedOn</li>
+<li>ChangedVia</li>
+</ul>
+
+<p>Refer to <a href="../../WebApp_Dev/Add%20Reserved%20Columns%20%20to%20Tables.htm">Append BOA Reserved Columns to
+Tables</a>
+in System Administration for more information.</p>
+
+<p><strong>NOTE:</strong> This feature is not used for OleDb and ODBC data source types.</p>
+
+<p>Name</p>
+
+<p>Displays the name of the data source.</p>
+
+<p>Application Data Source Type</p>
+
+<p>Displays the type of data source (for example, an Oracle Database or a
+Local File). Refer to the Knowledge Base article &ldquo;How DSP Applications
+Use Different Data Source Types&rdquo; on the BackOffice Associates support
+site (<a href="https://support.boaweb.com">https://support.boaweb.com</a>) for more information.</p>
+
+<p>Active</p>
+
+<p>If checked, the data source is active. If unchecked, the data source is
+inactive, and system views are not created for the data source.</p>
+
+<p>Data Source Type</p>
+
+<p>Displays the database type of the data source.</p>
+
+<p>Values are:</p>
+
+<ul>
+<li><p>ODBC</p></li>
+
+<li><p>OleDB</p>
+
+<p><strong>NOTE:</strong> The fields on the Advanced tab are required for the two
+data source types above.</p></li>
+
+<li><p>Oracle</p></li>
+
+<li><p>SqlServer</p></li>
+</ul>
+
+<p>Server Address</p>
+
+<p>Displays the server address of the data source.</p>
+
+<p>The Server Address combo box contains the server address from data
+sources registered in the Platform and in Common.</p>
+
+<p>To add a new server address, type the address in this field and click
+<strong>Use this value</strong>.</p>
+
+<p>Database</p>
+
+<p>Displays the database name of the data source.</p>
+
+<p>The Database name must be the name of the database exactly as it appears
+in the database. For Oracle databases, the Database name appears in the
+TNS name file.</p>
+
+<p>If this field is populated, the Database Instance Name on the Advanced
+Settings tab must be blank.</p>
+
+<p>User ID</p>
+
+<p>Displays the User ID used to connect to the data source.</p>
+
+<p>Password</p>
+
+<p>Displays asterisks representing the password used to connect to the data
+source.</p>
+
+<p>Database Settings</p>
+
+<p><strong>NOTE:</strong> A user must have access to System Administration to access the
+pages in this section.</p>
+
+<p>Audit</p>
+
+<p>Click to open the <em>Audit Configuration</em> page in System Administration to
+enable auditing for specific tables in the database. This icon is only
+enabled for SQL Server data sources if the data source is protected
+(i.e., if the Protected check box on the <em>Vertical</em> View of the <em>Data
+Sources</em> page is checked)</p>
+
+<p>Index</p>
+
+<p>Click to open the <em>Index (Specification)</em> page in System Administration
+for this data source. This icon is disabled if the data source is not
+Microsoft SQL Server and it is not protected (i.e., if the Protected
+check box on the <em>Vertical</em> View of the <em>Data Sources</em> page is
+unchecked).</p>
+
+<p>Instances</p>
+
+<p>Click to open the <em>Data Source Instances</em> page in System Administration
+to add, edit and delete instances for the data source</p>
+
+<p>Encryption</p>
+
+<p>Click to open the <em>Data Source Column Encryption</em> page in System
+Administration to enable or disable encryption for a specific field
+within a database table. This icon is disabled if the data source is not
+Microsoft SQL Server and it is not protected (i.e., if the Protected
+check box on the <em>Vertical</em> View of the Data Sources page is
+unchecked).</p>
+
+<h2 id="span-id-external-system-connection-advanced-settings-span-external-system-connection-advanced-settings"><strong><span id="External_System_Connection_______Advanced_Settings"></span>External System Connection (%) – Advanced Settings</strong></h2>
+
+<p><strong>NOTE:</strong> The Advanced Settings for the External System Connection type
+only need to be populated if the data source type is OleDb or ODBC.</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Connection Timeout</p></td>
+<td><p>Displays the number of seconds until the connection times out and the DSP® displays an error message stating that to wait before considering the connection failed. Generally, this value does not need to be changed to a value higher than 30 seconds, and adjustment to values above that should be made after checking with BackOffice Product Support.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Command Timeout</p></td>
+<td><p>Displays the number of seconds until the command times out, the execution of the command fails, and the DSP displays a notification about the error. Insufficient command timeouts are the main cause of timeout errors in DSP and this parameter may be increased to a high value to accommodate long running processes.</p></td>
+</tr>
+<tr class="even">
+<td><p>Database Type</p></td>
+<td><p>Displays the type of database to connect to. This is required if the database type is ODBC or OleDB.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Trusted Connection</p></td>
+<td><p>If checked, if the Server is configured to connect using Windows Authentication, the connection will use the hosting machine’s information to authenticate the connection and bypass the usage of the User ID and Password fields.</p></td>
+</tr>
+<tr class="even">
+<td><p>DSN</p></td>
+<td><p>Displays the Data Source Name (DSN) parameter, which can be used when the connection to the data source is not a SQL server connection. It is used primarily when defined by the web server control panel, or if the SQL server connection requires additional special parameters not supplied by the DSP standard connection.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Driver</p></td>
+<td><p>This field is not used.</p></td>
+</tr>
+<tr class="even">
+<td><p>DBQ</p></td>
+<td><p>This field is not used.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Connection String</p></td>
+<td><p>Displays the connection string for this data source.</p></td>
+</tr>
+<tr class="even">
+<td><p>Audit Data Source ID</p></td>
+<td><p>Displays the DataSourceID used for auditing.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Port</p></td>
+<td><p>Displays the port number of the connection.</p>
+<p>Some databases can be configured to run on the non-default port. The Port field allows users to enter the server that uses a different port. Also, the Port field is used for FTP connections to define the target port.</p></td>
+</tr>
+<tr class="even">
+<td><p>Protected</p></td>
+<td><p>If checked, the Data Source is protected (as in, read only) and features that make changes to the Data Source are hidden/disabled (e.g., Recompile Objects, Append System Columns, building System Views, indexing, auditing, encryption, and building WebApps).</p></td>
+</tr>
+<tr class="odd">
+<td><p>Database Instance Name</p></td>
+<td><p>Displays the name of the database instance. For Oracle it's the SID. If this field is populated, the Database field on the General tab must be blank.</p></td>
+</tr>
+<tr class="even">
+<td><p>Procedure Parameter Name Prefix</p></td>
+<td><p>Displays the prefix for the procedure parameter name. To prevent conflicts with table/view column names when writing a stored procedure, parameters are usually prefixed. By registering this prefix at the data source level, DSP will add the prefix to the column name when passing parameters to a stored procedures.</p></td>
+</tr>
+<tr class="odd">
+<td><p>System Views</p></td>
+<td><p>If checked, Systems Views are created in the data source by DSP. System Views are views that are installed by the Platform in a data source that links back to certain tables or views in the CranSoft database.</p>
+<p>This feature is often used for advanced WebApp development.</p>
+<p>If unchecked, Systems Views are not created in the data source by DSP®.</p></td>
+</tr>
+<tr class="even">
+<td><p>Net Connection String</p></td>
+<td><p>This field is not used.</p></td>
+</tr>
+</tbody>
+</table>
+
+<p><span id="IG_Universal_Connect_(%)_—_General_Tab"></span></p>
+
+<h2 id="span-id-ig-span-ig-universal-connect-general-tab"><span id="IG"></span>IG Universal Connect (%) — General tab</h2>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Test Connection</p>
+
+<p>Click to test the connection to Boomi using the credentials supplied
+below. The Boomi Account Name is populated if it does not already exist
+in the field.</p>
+
+<p>Name</p>
+
+<p>Displays the name of the data source.</p>
+
+<p>Application Data Source Type</p>
+
+<p>Displays the data source type for the application. The naming convention
+indicated by (%) means that any character can be used in the name.</p>
+
+<p>Boomi API Configuration</p>
+
+<p>Boomi Account Name</p>
+
+<p>Displays the name of the Boomi account.</p>
+
+<p>Click the Test Connection icon in the Page toolbar to populate this
+field if it is blank.</p>
+
+<p>Boomi Api End Point</p>
+
+<p>Displays the endpoint URL used to call the Boomi AtomSphere API.</p>
+
+<p>Boomi Account ID</p>
+
+<p>Displays the unique identifier for the account.</p>
+
+<p><strong>NOTE:</strong>This information can be found in Boomi by clicking the active
+account name &gt; Setup &gt; Account Information.</p>
+
+<p>Boomi User ID</p>
+
+<p>Displays the user ID tied to the Boomi account.</p>
+
+<p>Boomi Password</p>
+
+<p>Displays asterisks representing the password for the Boomi account.</p>
+
+<p>Boomi Default Atom</p>
+
+<p>Displays the atom, the default execution environment where the Process
+runs.</p>
+
+<p>Each DSP Server has its own atom.</p>
+
+<p>Optional Proxy Settings</p>
+
+<p>Boomi Proxy Server</p>
+
+<p>Displays the URI of the proxy server, if one is used.</p>
+
+<p>Boomi Proxy User Name</p>
+
+<p>Displays the user name for the proxy server account.</p>
+
+<p>Boomi Proxy Password</p>
+
+<p>Displays asterisks representing the password for the proxy server
+account.</p>
+
+<p><span id="IG_Universal_Connect_(%)_—_Advanced_Settings_Tab"></span></p>
+
+<h2 id="span-id-ig2-span-ig-universal-connect-advanced-settings-tab"><span id="IG2"></span>IG Universal Connect (%) — Advanced Settings tab</h2>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Connection Timeout</p></td>
+<td><p>Displays the maximum time in seconds that the Boomi Process can run before returning a status. After this time passes with no response, a timeout error occurs and the Process stops.</p>
+<p>The default value is 100 seconds.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Command Timeout</p></td>
+<td><p>Displays the maximum time in seconds that:</p>
+<ul>
+<li>The API call waits to get a response from Boomi</li>
+<li>The first step in the IG Universal Connect template has started (as indicated by a status message returned to the ttBoomiStatus table)</li>
+</ul>
+<p>If there is no response, a timeout error occurs. The default value is 86400 seconds (24 hours).</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-local-utility-database-general-span-local-utility-database-general"><strong><span id="Local_Utility_Database_____-_General"></span>Local Utility Database (%) - General</strong></h2>
+
+<h2 id="span-id-migration-object-database-dsw-general-span-migration-object-database-dsw-general"><strong><span id="Migration_Object_Database__dsw_____General"></span>Migration Object Database (dsw%) – General</strong></h2>
+
+<h2 id="span-id-migration-source-database-sdb-general-span-migration-source-database-sdb-general"><strong><span id="Migration_Source_Database__sdb_____General"></span>Migration Source Database (sdb%) – General</strong></h2>
+
+<h2 id="span-id-target-system-database-dg-general-span-target-system-database-dg-general"><strong><span id="Target_System_Database__dg_____General"></span>Target System Database (dg%) – General</strong></h2>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Test Connection</p>
+
+<p>Click to test the connection to the data source, which verifies the user
+ID and password.</p>
+
+<p>Recompile Data Source</p>
+
+<p>Click to verify the data is available in the database.</p>
+
+<p><strong>NOTE:</strong> Objects should only be recompiled for SQL Server databases
+created for the project. Objects may need to be recompiled a few times.
+If the recompile fails after three attempts, submit an issue to
+BackOffice Support.</p>
+
+<p>Append Columns</p>
+
+<p>Click to append the BackOffice reserved columns to all tables in the
+data source that do not already contain them. The following are
+BackOffice reserved columns:</p>
+
+<ul>
+<li>boaStatus</li>
+<li>AddedOn</li>
+<li>AddedBy</li>
+<li>AddedVia</li>
+<li>ChangedBy</li>
+<li>ChangedOn</li>
+<li>ChangedVia</li>
+</ul>
+
+<p>Refer to Append BOA Reserved Columns to Tables for more information.</p>
+
+<p><strong>NOTE:</strong> This feature is used for local SQL data sources only.</p>
+
+<p>Name</p>
+
+<p>Displays the name of the datasource.</p>
+
+<p>Application Data Source Type</p>
+
+<p>Displays the type of data source (for example, an Oracle Database or a
+Local File). Refer to the Knowledge Base article &ldquo;How DSP Applications
+Use Different Data Source Types&rdquo; on the BackOffice Associates support
+site (<a href="https://support.boaweb.com">https://support.boaweb.com</a>) for more information.</p>
+
+<p>Server Address</p>
+
+<p>Displays the server address of the data source.</p>
+
+<p>The Server Address combo box contains the server address from data
+sources registered in the Platform and in Common. This list can be used
+as suggestions where an existing server address can be selected. To add
+a new server address, type the address in tthis field and click <strong>Use
+this value</strong>.</p>
+
+<p>Database</p>
+
+<p>Displays the database name of the data source.</p>
+
+<p>The Database name must be the name of the database exactly as it appears
+in the database. For Oracle databases, the Database name appears in the
+TNS name file.</p>
+
+<p>If this field is populated, the Database Instance Name on the Advanced
+Settings tab must be blank.</p>
+
+<p>User ID</p>
+
+<p>Displays the User ID used to connect to the data source.</p>
+
+<p>Password</p>
+
+<p>Displays asterisks representing the password used to connect to the data
+source.</p>
+
+<p>System Type</p>
+
+<p>Displays the System Type, which includes the data dictionary, schema and
+relationship information about external systems used by DSP®.
+Information captured for System Types includes table and field
+descriptions, field properties, primary keys, lookup tables, and join
+relationships.</p>
+
+<p><strong>NOTE:</strong> This field displays for the Migration Source Database (.sdb)
+only.</p>
+
+<p>Database Settings</p>
+
+<p><strong>NOTE:</strong> A user must have access to System Administration to access the
+pages in this section.</p>
+
+<p>Audit</p>
+
+<p>Click to open the <em>Audit Configuration</em> page in System Administration to
+enable auditing for specific tables in the database. This icon is only
+enabled for SQL Server data sources if the data source is protected
+(i.e., if the Protected check box on the Vertical View of the Data
+Sources page is checked).</p>
+
+<p>Index</p>
+
+<p>Click to open the <em>Index (Specification)</em> page in System Administration
+for this data source in System Administration. This icon is disabled if
+the data source is not Microsoft SQL Server and it is not protected
+(i.e., if the Protected check box on the Vertical View of the Data
+Sources page is unchecked).</p>
+
+<p>Instances</p>
+
+<p>Click to open the <em>Data Source Instances</em> page in System Administration
+to add, edit and delete instances for the data source.</p>
+
+<p>Encryption</p>
+
+<p>Click to open the <em>Data Source Column Encryption</em> page in System
+Administration to enable or disable encryption for a specific field
+within a database table. This icon is disabled if the data source is not
+Microsoft SQL Server and it is not protected (i.e., if the Protected
+check box on the <em>Vertical</em> View of the <em>Data Sources</em> page is
+unchecked).</p>
+
+<h2 id="span-id-local-utility-database-advanced-settings-span-local-utility-database-advanced-settings"><strong><span id="Local_Utility_Database_______Advanced_Settings"></span>Local Utility Database (%) – Advanced Settings</strong></h2>
+
+<h2 id="span-id-migration-object-database-dsw-advanced-settings-span-migration-object-database-dsw-advanced-settings"><strong><span id="Migration_Object_Database__dsw_____Advanced_Settings"></span>Migration Object Database (dsw%) – Advanced Settings</strong></h2>
+
+<h2 id="span-id-migration-source-database-sdb-advanced-settings-span-migration-source-database-sdb-advanced-settings"><strong><span id="Migration_Source_Database__sdb_____Advanced_Settings"></span>Migration Source Database (sdb%) – Advanced Settings</strong></h2>
+
+<h2 id="span-id-target-system-database-dg-advanced-settings-span-target-system-database-dg-advanced-settings"><strong><span id="Target_System_Database__dg_____Advanced_Settings"></span>Target System Database (dg%) – Advanced Settings</strong></h2>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Connection Timeout</p></td>
+<td><p>Displays the number of seconds until the connection times out and the DSP displays an error message stating that the connection failed. Generally, this value does not need to be changed to a value higher than 30 seconds, and adjustment to values above that should be made after checking with BackOffice Product Support.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Command Timeout</p></td>
+<td><p>Displays the number of seconds until the command times out, the execution of the command fails, and the DSP displays a notification about the error. Insufficient command timeouts are the main cause of timeout errors in DSP and this parameter may be increased to a high value to accommodate long running processes.</p></td>
+</tr>
+<tr class="even">
+<td><p>Trusted Connection</p></td>
+<td><p>If checked, if the Server is configured to connect using Windows Authentication, the connection uses the hosting machine’s information to authenticate the connection and bypass the usage of the User ID and Password fields.</p></td>
+</tr>
+<tr class="odd">
+<td><p>DSN</p></td>
+<td><p>Displays the Data Source Name (DSN) parameter which can be used when the connection to the data source is not a SQL server connection. It is used primarily when defined by the web server control panel, or if the SQL server connection requires additional special parameters not supplied by the DSP standard connection.</p></td>
+</tr>
+<tr class="even">
+<td><p>Database Instance Name</p></td>
+<td><p>Displays the name of the database instance. For Oracle it's the SID. You must leave the Database field blank to use this feature.</p>
+<p>If this field is populated, the Database field on the General tab must be blank.</p></td>
+</tr>
+<tr class="odd">
+<td><p>System Views</p></td>
+<td><p>If checked, the Platform injects specific system views into the database. This feature is often used for advanced WebApp development.</p>
+<p>System Views are views that are installed by the Platform in a data source that link back to certain tables or views in the CranSoft database.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-sap-application-server-general-span-sap-application-server-general"><span id="SAP_Application_Server_____-_General"></span>SAP Application Server (%) - General</h2>
+
+<p>Use this tab to <a href="../Use_Cases/Establish_a_Connection_to_a_target_system_Overview.htm">Establish a Connection to a Target
+System</a>.</p>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Test Connection</p>
+
+<p>Click to test the connection to the data source, which verifies the
+database User ID and Password are connected to the database.</p>
+
+<p>Name</p>
+
+<p>Displays the name of the data source.</p>
+
+<p>Application Data Source Type</p>
+
+<p>Displays the type of data source (for example, an Oracle Database or a
+Local File). Refer to the Knowledge Base article &ldquo;How DSP Applications
+Use Different Data Source Types&rdquo; on the BackOffice Associates support
+site (<a href="https://support.boaweb.com">https://support.boaweb.com</a>) for more information.</p>
+
+<p>SAP System ID</p>
+
+<p>Displays a three-character alpha-numeric identifier for the SAP System.</p>
+
+<p>Application Server</p>
+
+<p>SAP Application Server</p>
+
+<p>Displays the name of the server where SAP is installed.</p>
+
+<p><strong>NOTE:</strong> An Administrator can connect directly to the Application
+Server using this method. Alternatively, an Administrator can use a
+Message Server to connect dynamically to the Application Server based on
+Server resources. Only one type of connection, direct or through a
+Message Server, can be created for an SAP connection.</p>
+
+<p>Refer to <a href="../Use_Cases/Establish_a_Connection_Direct_Connection.htm">Establish a Connection via a Direct Connection to the
+Application
+Server</a>  for
+more information.</p>
+
+<p>SAP System Number</p>
+
+<p>Displays a two character integer that identifies the SAP instance, used
+as a parameter in the SAP GUI Logon client when configuring the SAP
+connection. The SAP System Number displays in SAP on the <em>SAP GUI Change
+Item</em> screen.</p>
+
+<p>Message Server</p>
+
+<p>SAP Message Server</p>
+
+<p>Displays the name of the message server.</p>
+
+<p><strong>NOTE:</strong> Connecting to SAP via a Message Server uses load balancing to
+manage Server resources. Load Balancing dynamically distribute the SAP
+users to application server instances when connecting to the Application
+Server. Only one type of connection, direct or through a Message Server,
+can be created for an SAP connection.</p>
+
+<p><strong>NOTE:</strong> Refer to <a href="../Use_Cases/Establish_a_Connection_via_a_Message_Server.htm">Establish a Connection via a Message
+Server</a>
+ for more information.</p>
+
+<p>SAP Logon Group</p>
+
+<p>Displays the logon group name for the message server if SAP Load
+Balancing is used to download SAP tables from the source via RFC. Refer
+to SAP documentation for details about Load Balancing.</p>
+
+<p>Default Credentials</p>
+
+<p>SAP Client</p>
+
+<p>Displays the SAP client number.</p>
+
+<p>SAP Language</p>
+
+<p>Displays the language of the SAP instance and the SAP Language Code.</p>
+
+<p>The language is used when SAP interfaces with the platform and is used
+when logging in to SAP.</p>
+
+<p>SAP User ID</p>
+
+<p>Displays the user name the connection uses when logging in to SAP.</p>
+
+<p>SAP Password</p>
+
+<p>Displays asterisks to represent the user password the connection uses
+when logging in to SAP.</p>
+
+<p>User Credentials</p>
+
+<p>Click to open the <span style="font-style: italic;"><a href="Data_Source_Registry_User_Credentials_H.htm">Data Source
+Registry User
+Credentials</a></span> page to
+add user credentials to log in to SAP to specific user accounts.</p>
+
+<p>Refer to <a href="../Use_Cases/Add_User_Credentials_to_an_SAP_Connection_for_a_Specific_Use.htm">Add User Credentials to an SAP Connection for a Specific
+User</a>
+for more information.</p>
+
+<p>RFC</p>
+
+<p>RFC Functions</p>
+
+<p>Click to open the <span style="font-style: italic;"><a href="SAP_RFC.htm">SAP Connections:
+RFCs</a></span> page to view a list of RFCs enabled in the SAP
+System and a description of each.</p>
+
+<p>The list displays after a user clicks the RFC Extracts icon.</p>
+
+<p>RFC Extract</p>
+
+<p>Click to retrieve a list of all RFCs enabled in the SAP system.</p>
+
+<p>After the extract is complete, click the RFC Functions icon to view the
+extracted RFCs.</p>
+
+<p><strong>NOTE:</strong> RFCs must be extracted before the first BAPI/RFC template type
+can be created.</p>
+
+<p>Other</p>
+
+<p>SAP Default Connection</p>
+
+<p>If checked, this SAP connection is used by default when posting using
+the Application Data Source Type of <span style="color: #333333;">SAP
+Application Sever (%).</span></p>
+
+<p>SAP Max Pool Size</p>
+
+<p>Displays a value to specify how many RFC connections are left open for
+the current user, even if the connections are not being used actively. A
+pooled RFC connection is allocated much faster than a new connection.
+Therefore, increasing the pool size minimizes the time needed to get a
+new connection.</p>
+
+<p>However, if a connection is pooled, it is not available for other users.
+Typically, ABAP backend systems define an upper limit for the number of
+RFC connections. If this number has been fully allocated by pooled
+connections, then new users requesting a new connection may not succeed
+because the maximum number of connections allowed by the ABAP system has
+already been allocated.</p>
+
+<p>Typically, the maximum pool size is kept very low and may even be set to
+0. If there are substantially fewer concurrent users than the number of
+concurrent RFC connections to an ABAP system, then increase the pool
+size to improve performance.</p>
+
+<p>The recommended setting for Max Pool Size is 10 in highly parallel
+environments.</p>
+
+<h2 id="span-id-sap-application-server-advanced-settings-span-sap-application-server-advanced-settings"><span id="SAP_Application_Server_____-_Advanced_Settings"></span>SAP Application Server (%) - Advanced Settings</h2>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>SAP File Data Source ID</p></td>
+<td><p>Displays the data source remote file type that must be used for asynchronous postings for user defined templates. Files must be physically transferred to the SAP system via FTP, UNC or HTTP for these posting types.</p></td>
+</tr>
+<tr class="odd">
+<td><p>SAP Use Namespace</p></td>
+<td><p>If checked, the platform uses the namespace version of the BOA Function Module. If unchecked, the platform uses the non-namespace version of the BOA Function Module.</p>
+<p><strong>NOTE:</strong> The namespace concept describes how customers and partners name their development objects to avoid overlapping when SAP software is upgraded. BDC Function Modules and BAPI Function Modules can be namespace or non-namespace objects.</p></td>
+</tr>
+<tr class="even">
+<td><p>SAP All Clients</p></td>
+<td><p>If checked, data is downloaded in Collect for all clients in the SAP instance. This setting is used for RFC and SAP Text data downloads when more than one SAP client is required to download data.</p>
+<p>If unchecked, data is downloaded for the client associated with this data source only.</p></td>
+</tr>
+<tr class="odd">
+<td><p>SAP Remove Client From Key</p></td>
+<td><p>If checked, builds primary keys without the client field (usually MANDT). This feature can be used if only 1 client is downloaded (as in, the All Clients check box is unchecked) for RFC and SAP Text data downloads.</p></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#data-source-registry-h">Data Source Registry H</a>
+<ul>
+<li><a href="#span-id-data-source-registry-v-span-data-source-registry-v"><span id="Data_Source_Registry_V"></span>Data Source Registry V</a></li>
+<li><a href="#span-id-data-service-rep-gen-span-data-services-repository-general"><strong><span id="data_service_rep_gen"></span>Data Services Repository (%) - General</strong></a></li>
+<li><a href="#span-id-data-services-repository-advanced-settings-span-data-services-repository-advanced-settings"><strong><span id="Data_Services_Repository_Advanced_Settings"></span>Data Services Repository (%) – Advanced Settings</strong></a></li>
+<li><a href="#span-id-external-system-connection-general-span-external-system-connection-general"><strong><span id="External_System_Connection_____-_General"></span>External System Connection (%) - General</strong></a></li>
+<li><a href="#span-id-external-system-connection-advanced-settings-span-external-system-connection-advanced-settings"><strong><span id="External_System_Connection_______Advanced_Settings"></span>External System Connection (%) – Advanced Settings</strong></a></li>
+<li><a href="#span-id-ig-span-ig-universal-connect-general-tab"><span id="IG"></span>IG Universal Connect (%) — General tab</a></li>
+<li><a href="#span-id-ig2-span-ig-universal-connect-advanced-settings-tab"><span id="IG2"></span>IG Universal Connect (%) — Advanced Settings tab</a></li>
+<li><a href="#span-id-local-utility-database-general-span-local-utility-database-general"><strong><span id="Local_Utility_Database_____-_General"></span>Local Utility Database (%) - General</strong></a></li>
+<li><a href="#span-id-migration-object-database-dsw-general-span-migration-object-database-dsw-general"><strong><span id="Migration_Object_Database__dsw_____General"></span>Migration Object Database (dsw%) – General</strong></a></li>
+<li><a href="#span-id-migration-source-database-sdb-general-span-migration-source-database-sdb-general"><strong><span id="Migration_Source_Database__sdb_____General"></span>Migration Source Database (sdb%) – General</strong></a></li>
+<li><a href="#span-id-target-system-database-dg-general-span-target-system-database-dg-general"><strong><span id="Target_System_Database__dg_____General"></span>Target System Database (dg%) – General</strong></a></li>
+<li><a href="#span-id-local-utility-database-advanced-settings-span-local-utility-database-advanced-settings"><strong><span id="Local_Utility_Database_______Advanced_Settings"></span>Local Utility Database (%) – Advanced Settings</strong></a></li>
+<li><a href="#span-id-migration-object-database-dsw-advanced-settings-span-migration-object-database-dsw-advanced-settings"><strong><span id="Migration_Object_Database__dsw_____Advanced_Settings"></span>Migration Object Database (dsw%) – Advanced Settings</strong></a></li>
+<li><a href="#span-id-migration-source-database-sdb-advanced-settings-span-migration-source-database-sdb-advanced-settings"><strong><span id="Migration_Source_Database__sdb_____Advanced_Settings"></span>Migration Source Database (sdb%) – Advanced Settings</strong></a></li>
+<li><a href="#span-id-target-system-database-dg-advanced-settings-span-target-system-database-dg-advanced-settings"><strong><span id="Target_System_Database__dg_____Advanced_Settings"></span>Target System Database (dg%) – Advanced Settings</strong></a></li>
+<li><a href="#span-id-sap-application-server-general-span-sap-application-server-general"><span id="SAP_Application_Server_____-_General"></span>SAP Application Server (%) - General</a></li>
+<li><a href="#span-id-sap-application-server-advanced-settings-span-sap-application-server-advanced-settings"><span id="SAP_Application_Server_____-_Advanced_Settings"></span>SAP Application Server (%) - Advanced Settings</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

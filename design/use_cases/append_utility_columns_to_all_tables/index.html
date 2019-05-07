@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Append Utility Columns to All Tables :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/design/" class="active">Target Design Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/design/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/design/config/access_design/" class="">Access Target Design</a></li>
+        
+            <li >
+                <a href="/design/config/add_custom_criticality_levels/" class="">Add Custom Criticality Levels</a></li>
+        
+            <li >
+                <a href="/design/config/add_custom_requirement_settings/" class="">Add Custom Requirement Settings</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/design/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/design/page_desc/append_utility_columns/" class="">Append Utility Columns</a></li>
+        
+            <li >
+                <a href="/design/page_desc/copy_targets/" class="">Copy Targets</a></li>
+        
+            <li >
+                <a href="/design/page_desc/criticality/" class="">Criticality</a></li>
+        
+            <li >
+                <a href="/design/page_desc/database_import/" class="">Database Import</a></li>
+        
+            <li >
+                <a href="/design/page_desc/design/" class="">Design</a></li>
+        
+            <li >
+                <a href="/design/page_desc/field_groups/" class="">Field Groups</a></li>
+        
+            <li >
+                <a href="/design/page_desc/metric_groups/" class="">Metric Groups</a></li>
+        
+            <li >
+                <a href="/design/page_desc/object_field_groups/" class="">Object Field Groups</a></li>
+        
+            <li >
+                <a href="/design/page_desc/objects_target_design/" class="">Objects</a></li>
+        
+            <li >
+                <a href="/design/page_desc/required/" class="">Required</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_basic_rule_h/" class="">Rules: Basic Rule H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_complex_rule_h/" class="">Rules: Complex Rule H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_execution_stage_complex_rule/" class="">Rules: Execution Stage Complex Rules</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_execution_stage_h/" class="">Rules: Execution Stage H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/rules_field_complex_rules/" class="">Rules: Field Complex Rules</a></li>
+        
+            <li >
+                <a href="/design/page_desc/select_destination_object_for_targets/" class="">Select Destination Object For Targets</a></li>
+        
+            <li >
+                <a href="/design/page_desc/source_target_design/" class="">Source</a></li>
+        
+            <li >
+                <a href="/design/page_desc/source_where_used/" class="">Source Where Used</a></li>
+        
+            <li >
+                <a href="/design/page_desc/system_type_import/" class="">System Type Import</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_contacts/" class="">Target Contacts</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependencies/" class="">Target Dependencies</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_children/" class="">Target Dependency (Children)</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_parents/" class="">Target Dependency (Parents)</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_relationship/" class="">Target Dependency Relationship</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_dependency_selection/" class="">Target Dependency Selection</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_design_pending_changes/" class="">Target Design Pending Changes</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_fields_h_target_design/" class="">Target Fields H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_import_configuration/" class="">Target Import Configuration</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_import_excel_import_h/" class="">Target Import: Excel Import H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_lookup_table_h/" class="">Target Lookup Table H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_object_import/" class="">Target Object Import</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_object_import_database/" class="">Target Object Import: Database</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_object_import_system_types/" class="">Target Object Import: System Types</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_source_contacts/" class="">Target Source Contacts</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_sources_h_design/" class="">Target Sources H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_table_joins_target_design/" class="">Target Table Join</a></li>
+        
+            <li >
+                <a href="/design/page_desc/target_type/" class="">Target Type</a></li>
+        
+            <li >
+                <a href="/design/page_desc/targets_h_design/" class="">Targets H</a></li>
+        
+            <li >
+                <a href="/design/page_desc/utility_field_defaults/" class="">Utility Field Defaults</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/design/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/design/use_cases/access_targets_at_the_object_level/" class="">Access Targets at the Object Level</a></li>
+        
+            <li >
+                <a href="/design/use_cases/activate_fields_for_map/" class="">Activate Fields for Mapping</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_developers_and-business-contacts/" class="">Add Developers and Business Contacts</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_fields_to_a_target/" class="">Add Fields to a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_utility_field_defaults/" class="">Add Utility Field Defaults</a></li>
+        
+            <li >
+                <a href="/design/use_cases/add_a_target_in_target_design/" class="">Add a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/allow_mapping_of_utility_columns/" class="">Allow Mapping of Utility Columns</a></li>
+        
+            <li >
+                <a href="/design/use_cases/append_utility_columns_to_all_tables/" class="uk-active">Append Utility Columns to All Tables</a></li>
+        
+            <li >
+                <a href="/design/use_cases/assign_a_field_group_to_an_object/" class="">Assign a Field Group to an Object</a></li>
+        
+            <li >
+                <a href="/design/use_cases/assign_a_source_to_a_target/" class="">Assign a Source to a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/basic_rules/" class="">Basic Rules</a></li>
+        
+            <li >
+                <a href="/design/use_cases/complex_rules/" class="">Complex Rules</a></li>
+        
+            <li >
+                <a href="/design/use_cases/copy_a_target_in_target_design/" class="">Copy a Target in Target Design</a></li>
+        
+            <li >
+                <a href="/design/use_cases/create_field_groups/" class="">Create Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/delete_a_target/" class="">Delete a Target</a></li>
+        
+            <li >
+                <a href="/design/use_cases/extend_a_field_to_a_field_group/" class="">Extend a Field to a Field Group</a></li>
+        
+            <li >
+                <a href="/design/use_cases/import_from_a_database/" class="">Import From a Database</a></li>
+        
+            <li >
+                <a href="/design/use_cases/import_from_a_system_type/" class="">Import From a System Type</a></li>
+        
+            <li >
+                <a href="/design/use_cases/import_from_an_excel_file/" class="">Import From an Excel File</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_date_time_and_decimal_format/" class="">Set Date, Time, and Decimal Formats</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_design_status/" class="">Set Design Status</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_execution_status/" class="">Set Execution Status</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_field_visibility_for_mapping/" class="">Set Field Visibility for Mapping</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_rule_priority_for_fields_in_field_groups/" class="">Set Rule Priority for Fields in Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_target_dependencies/" class="">Set Target Dependencies</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_the_design_status/" class="">Set a Target&#39;s Design Status</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_up_lookup_tables/" class="">Set up Lookup Tables</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_up_a_complex_lookup_table/" class="">Set up a Complex Lookup Table</a></li>
+        
+            <li >
+                <a href="/design/use_cases/set_up_a_simple_lookup_table/" class="">Set up a Simple Lookup Table</a></li>
+        
+            <li >
+                <a href="/design/use_cases/setup_and_configuration_for_target_design/" class="">Setup and Configuration for Target Design</a></li>
+        
+            <li >
+                <a href="/design/use_cases/sync_data_source_system_types_across_targets/" class="">Sync Data Source System Types Across Targets</a></li>
+        
+            <li >
+                <a href="/design/use_cases/sync_map_and_target_design_td/" class="">Sync Map and Target Design</a></li>
+        
+            <li >
+                <a href="/design/use_cases/update_system_types_for_a_source/" class="">Update System Types for a Source</a></li>
+        
+            <li >
+                <a href="/design/use_cases/use_field_groups/" class="">Use Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/use_target_rules/" class="">Use Target Rules</a></li>
+        
+            <li >
+                <a href="/design/use_cases/view_target_and_source_assignments/" class="">View Target and Source Assignments</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_field_groups/" class="">Work With Field Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_metric_groups/" class="">Work with Metric Groups</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_target_fields/" class="">Work with Target Fields</a></li>
+        
+            <li >
+                <a href="/design/use_cases/work_with_targets_and_sources/" class="">Work with Targets and Sources</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Design</a></li>
+        <li><span>Append Utility Columns to All Tables</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="append-utility-columns-to-all-tables">Append Utility Columns to All Tables</h1>
+
+<p>A Designer can add Utility columns that must be appended to all Target
+and/or Source tables.</p>
+
+<p>A Utility field (also called a zField) does not exist in the Target
+system, but rules and reports are registered to it in Transform. Fields
+of this type should be captured in Target Design but should not be
+mapped and will not display in Map. A utility field is added to the
+Target table to be used by AutoGen.</p>
+
+<p>If a Target or Source table has already been created, the columns are
+appended automatically. The Target or Source table does not need to be
+rebuilt.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: The zSource  column is
+installed with the platform and cannot be deleted.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: If a user deletes an
+append column from the <a href="../Page_Desc/Append_Utility_Columns.htm">Append Utility
+Columns</a> page, if it has
+already been synced with Map, the column still appears on the Target
+table. To remove the append column in this case, set the column to
+inactive.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: If a user deletes a column
+from the <a href="../Page_Desc/Append_Utility_Columns.htm">Append Utility
+Columns</a> page that has already
+been added to a Target table using SQL AutoGen, that column must be
+manually deleted from the Target table.</p>
+
+<p>To append columns to tables in Target Design:</p>
+
+<ol>
+<li><p>Select <strong>Configuration &gt; Append Utility Columns</strong> in the
+<em>Navigation</em> pane.</p></li>
+
+<li><p>Click <span style="font-weight: bold;">Add</span>.</p>
+
+<p><em><a href="../Page_Desc/Append_Utility_Columns.htm">View the field descriptions for the Append Utility Columns
+page</a></em></p></li>
+
+<li><p>Enter the name of the column to append to the table in the
+<strong>COLUMN</strong> field.</p></li>
+
+<li><p>Enter a value in the <strong>PRIORITY</strong> field to indicate the order the
+field should be appended to the table.</p></li>
+
+<li><p>Enable or disable the <strong>ACTIVE</strong> check box as needed.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: The ACTIVE check box
+is enabled by default and indicates that the column will be appended
+to the  Target or Source table as indicated.</p></li>
+
+<li><p>Enable the <strong>KEY</strong> check box if the  column should be appended to
+the table as a key column.</p></li>
+
+<li><p>Select the column’s data type, such as NVARCHAR or DECIMAL, from the
+<strong>DATA TYPE</strong> list box.</p></li>
+
+<li><p>Enter the maximum number of characters that can be stored in the
+field in the <strong>LENGTH</strong> field.</p></li>
+
+<li><p>Enter the number of decimal places allowed in the field in the
+<strong>DECIMALS</strong> field.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: If the data type for
+the column is DECIMAL, this field is required.</p></li>
+
+<li><p>Select a default value to use for the column in the <strong>DEFAULT
+VALUE</strong> list box.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: Default values are
+added on the <em><a href="../Page_Desc/Utility_Field_Defaults.htm">Utility Field
+Defaults</a></em> page. Refer to
+<a href="Add_Utility_Field_Defaults.htm">Add Utility Field Defaults</a> for
+more information.</p></li>
+
+<li><p>Enable or disable the <strong>TARGET APPEND</strong> check box as needed.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: The
+<span style="font-weight: bold;">TARGET APPEND</span> check box is
+checked by default and indicates that the column will be appended to
+all Target tables.</p></li>
+
+<li><p>Enable or disable the <strong>SOURCE APPEND</strong> check box as needed.</p>
+
+<p><span style="font-weight: bold;">NOTE</span>: The
+<span style="font-weight: bold;">SOURCE APPEND</span> check box is
+checked by default and indicates that the column will be appended to
+all Source  tables.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#append-utility-columns-to-all-tables">Append Utility Columns to All Tables</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

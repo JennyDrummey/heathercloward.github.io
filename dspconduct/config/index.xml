@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspconduct/config/</link>
+    <description>Recent content in Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspconduct/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assign a Backup User</title>
+      <link>https://heathercloward.github.io/dspconduct/config/assign_a_backup_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/assign_a_backup_user/</guid>
+      <description>Assign a Backup User There may be occasions when a user is unavailable for a period of time and there may be a need for a backup user to perform their tasks during their absence. A Security Administrator has the ability to assign a backup user with a start and end date to a primary user, and a user can assign a back-up user to their account.
+Upon assignment, the backup user retains their original security rights, acquires all security rights given to the primary user and then can perform the tasks of the primary user.</description>
+    </item>
+    
+    <item>
+      <title>Configure SLA settings at the Business Process Scenario Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/config/configure_sla_settings_at_the_bpsr_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/configure_sla_settings_at_the_bpsr_level/</guid>
+      <description>Configure SLA settings at the Business Process Scenario Role Level A Designer can configure SLA settings at the Business Process Scenario Role level. The SLA settings are inherited from the settings at the scenario &amp;gt; role level, but can be configured for the business process scenario &amp;gt; role combination. Refer to Setting up SLA notifications in dspConduct™ for more information about the prerequisites for setting up SLAs and how the SLAs work at the various levels for dspConduct™ elements.</description>
+    </item>
+    
+    <item>
+      <title>Configure Workflow Messages Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/config/configure_workflow_messages_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/configure_workflow_messages_overview/</guid>
+      <description>Configure Workflow Messages Overview Requests are workflow-enabled, meaning that each user assigned to a role in a request receives a notification when the tasks assigned to that role have work assigned.
+For example, when a user finishes a role by clicking Finish on the Request Role page, the Finish event is triggered, and an email notification and/or a pop-up notification from within dspConduct™ is sent to the next person(s) responsible for subsequent role(s).</description>
+    </item>
+    
+    <item>
+      <title>Configure a Registered User to Receive Notifications For Posting Success or Failure at the Request Role Level</title>
+      <link>https://heathercloward.github.io/dspconduct/config/configure_a_registered_user_to_receive_notifications_for_posting_success_or_failure_at_the_request_role_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/configure_a_registered_user_to_receive_notifications_for_posting_success_or_failure_at_the_request_role_level/</guid>
+      <description>Configure a Registered User to Receive Notifications For Posting Success or Failure at the Request Role Level A Designer can configure settings at the request role level for the Post role that determine if users registered in the platform receive a notification when a request posts successfully or fails to post. To add a registered DSP user to the Request Post Workflow Notification page, select the User ID from the USER ID field then save the record.</description>
+    </item>
+    
+    <item>
+      <title>Create Language-specific Workflow Messages for a Category</title>
+      <link>https://heathercloward.github.io/dspconduct/config/create_language-specific_workflow_messages_for_a_category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/create_language-specific_workflow_messages_for_a_category/</guid>
+      <description>Create Language-specific Workflow Messages for a Category dspConduct™ sends Workflow messages to users as a request moves through the workflow. By default, these messages are in English.
+If the notification text must use a language other than English, a Designer should create Category Workflow Language Messages for each relevant language that is marked Active in DSP®, though this is not required.. NOTE: Regardless of the notification&amp;rsquo;s language, a Designer must navigate to the Category Workflow Language Message page for workflow messages to be created.</description>
+    </item>
+    
+    <item>
+      <title>Edit Category Language-specific Messages</title>
+      <link>https://heathercloward.github.io/dspconduct/config/edit_category_language_specific_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/edit_category_language_specific_messages/</guid>
+      <description>Edit Category Language-specific Messages By default, dspConduct™ sends workflow messages to users who have access to a request when a request is created, canceled, deleted, finished, rejected or reset. dspConduct™ is installed with default workflow messages in English and the processing to send these messages. Default messages are used as the starting point for Category Language-specific messages.
+A Designer can modify the Subject, Message, and Email From to fit a specific language, or can update the Default message information for English language messages.</description>
+    </item>
+    
+    <item>
+      <title>Manage Request Statuses Overview</title>
+      <link>https://heathercloward.github.io/dspconduct/config/manage_request_statuses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/manage_request_statuses/</guid>
+      <description>Manage Request Statuses Overview The Request Status page lists the default statuses installed with dspConduct™. Default status cannot be edited or deleted.
+Default statuses have settings configured for archiving a request, editing a request, and allowing role access to the request.
+If the ARCHIVABLE check box on the Request Status page is enabled for a status, a request in the status can be archived. By default, a request is archived if it remains in the same status for 30 days.</description>
+    </item>
+    
+    <item>
+      <title>Send Workflow Notifications When a Post Fails or Succeeds</title>
+      <link>https://heathercloward.github.io/dspconduct/config/send_workflow_notifications_when_a_post_fails_or_succeeds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/send_workflow_notifications_when_a_post_fails_or_succeeds/</guid>
+      <description>Send Workflow Notifications When a Post Fails or Succeeds Requests are workflow-enabled, meaning that each user assigned to a role in a request receives a notification when the tasks assigned to that role have work assigned.
+By default, dspConduct™ does not send notifications when a request has succeeded or failed to post (i.e., when the request’s posting status is Success or Failed).
+A Designer can configure settings at the scenario role level or the request role level for the Post role that determine if users registered in the platform or external users (users who are not registered and cannot log in to the product) receive a notification when a request posts successfully or fails to post.</description>
+    </item>
+    
+    <item>
+      <title>Send Workflow Notifications when a Final Finish Package Fails</title>
+      <link>https://heathercloward.github.io/dspconduct/config/send_workflow_notifications_when_a_final_finish_package_fails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/send_workflow_notifications_when_a_final_finish_package_fails/</guid>
+      <description>Send Workflow Notifications when a Final Finish Package Fails If a Final Finish package is created but does not run successfully, a user who belongs to the Final Finish Admin WebApp group receives a workflow notification. These users have read-only access to all requests across categories, and can ensure that the issue is investigated by the proper resources.
+A user can receive a workflow email, view the notification as a popup message from within dspConduct, or both.</description>
+    </item>
+    
+    <item>
+      <title>Set Calendar Used For Business Value Calculations</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_calendar_used_for_business_value_calculations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_calendar_used_for_business_value_calculations/</guid>
+      <description>Set Calendar Used For Business Value Calculations An Administrator can set the calendar that is used to calculate the Request Working Hours for the business value dashboard calculation. The calendars are maintained in Common. Refer to Use a Calendar for more information.
+To set the calendar used for business value dashboard calculations:
+ Select Configuration &amp;gt; Setup &amp;gt; Parameters in the Navigation pane.
+ Click Edit.
+View the field descriptions on the Parameters page</description>
+    </item>
+    
+    <item>
+      <title>Set Currency Display Label</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_currency_display_label/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_currency_display_label/</guid>
+      <description>Set Currency Display Label An Administrator can set the currency label that is displayed on the Business Process page’s Vertical View for the currency associated with the Average Cost Per Hour value field. Updating the setting only changes the label. This setting does not accomplish any currency calculations or conversions.
+NOTE: This is the currency label for the Average Cost Per Hour value field for a business process if this label is changed the Average Cost Per Hour value may need to be changed as well.</description>
+    </item>
+    
+    <item>
+      <title>Set Preceding Weeks Count for Dashboards</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_preceding_weeks_count_for_dashboards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_preceding_weeks_count_for_dashboards/</guid>
+      <description>Set Preceding Weeks Count for Dashboards An Administrator can set the number of prior weeks to display on the count metrics charts.
+To set the Preceding Weeks Count for dashboards:
+ Select Configuration &amp;gt; Setup &amp;gt;Parameters in the Navigation pane.
+ Click Edit.
+View the field descriptions on the Parameters page.
+   Enter the number of prior weeks to display on the count metrics charts in the Preceding Weeks Count field.</description>
+    </item>
+    
+    <item>
+      <title>Set Up SLA Notifications</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_up_sla_notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_up_sla_notifications/</guid>
+      <description>Set Up SLA Notifications A Service Level Agreement (SLA) establishes a time constraint for completing tasks within a request role when a request is processed in dspConduct™. Users assigned to roles are notified through workflow messages when a time constraint is not met. A Designer performs the following tasks to set up SLA notifications for dspConduct™:
+ dspConduct™ is delivered with a default calendar named dspConduct. Before SLAs can be configured in dspConduct™, this calendar must be configured for working days, working hours, and holidays specific to a client site, and dspConduct™ users must be added to the calendar in Common.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Security for dspConduct™</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_up_security_for_dspconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_up_security_for_dspconduct/</guid>
+      <description>Set Up Security for dspConduct™ To set up security:
+ Create User Accounts in Common or have an Administrator create them in System Administration.
+NOTE; Adding a user in Common allows for a more streamlined process for password maintenance, and is the recommended method for use by a Help Desk or Call Center. In Common, password maintenance is the user’s responsibility. In System Administration, the Administrator must add a password for the user.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Service Pages for SLAs</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_up_service_pages_for_slas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_up_service_pages_for_slas/</guid>
+      <description>Set Up Service Pages for SLAs The Request SLA Notification Service page determines which request roles are late to be processed. The Request SLA Notification Workflow and Request SLA Summary Workflow service pages views the records created by Request SLA Notification Service page and sends the workflows necessary for those late request roles.
+An Administrator configures service pages.
+If the client site requires workflow notifications, the Request SLA Notification Service page and either the Request SLA Notification Workflow or Request SLA Summary Workflow Service pages must execute.</description>
+    </item>
+    
+    <item>
+      <title>Set User Workflow Receipt Preferences</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_user_workflow_receipt_preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_user_workflow_receipt_preferences/</guid>
+      <description>Set User Workflow Receipt Preferences dspConduct™ sends workflow messages to users who have access to a request when a request is created, canceled, deleted, finished, rejected or reset.
+Workflow messages can also be sent after a Final Finish package is created but fails to run, or when a post fails or succeeds.
+Workflow messages can be received via email, a notification in the DSP®, or both. By default, users receive workflow messages from dspConduct™ via email.</description>
+    </item>
+    
+    <item>
+      <title>Set the Days Active for a Request Status</title>
+      <link>https://heathercloward.github.io/dspconduct/config/set_the_days_active_for_a_request_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/set_the_days_active_for_a_request_status/</guid>
+      <description>Set the Days Active for a Request Status A Designer can configure how long the request data stays in the main request tables before it is archived.
+Before this task can be completed, Create a Category and Add a Custom Request Status.
+NOTE: Adding a custom request status is only necessary if a status other than the default statuses is needed
+To configure the category request status in dspConduct™:</description>
+    </item>
+    
+    <item>
+      <title>View Default Workflow Messages</title>
+      <link>https://heathercloward.github.io/dspconduct/config/view_default_workflow_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspconduct/config/view_default_workflow_messages/</guid>
+      <description>View Default Workflow Messages dspConduct™ is installed with default workflow messages and the processing to send these messages. By default, dspConduct™ sends workflow messages to users who have access to a request when a request is created, canceled, deleted, finished, rejected or reset. A user can view the default messages that are delivered with dspConduct™ but cannot change the default messages themselves. Default messages are used as the starting point for Category Language-specific messages which may be edited.</description>
+    </item>
+    
+  </channel>
+</rss>

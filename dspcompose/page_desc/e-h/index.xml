@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E-H on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspcompose/page_desc/e-h/</link>
+    <description>Recent content in E-H on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspcompose/page_desc/e-h/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Email Validation</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/e-h/email_validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/e-h/email_validation/</guid>
+      <description>Email Validation Use this page to: - [Set Up Email Validations](../Use_Cases/Set_up_Email_Validations.htm) - [Add Custom Email Validation Rules](../Use_Cases/Set_up_Email_Validations.htm#Add_Custom_Email_Validations)  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; Email Validation from *Navigation *pane.
+         Field Description   PRIORITY Displays order in which the email validation rule is run.   DATA SOURCE ID Displays data source that contains the view or stored procedure that is used for the email validation rule.</description>
+    </item>
+    
+    <item>
+      <title>Email Validation Message</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/e-h/email_validation_message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/e-h/email_validation_message/</guid>
+      <description>Email Validation Message Use this page to - [Set Up Email Validations](../Use_Cases/Set_up_Email_Validations.htm) - [Add Custom Email Validations](../Use_Cases/Set_up_Email_Validations.htm#Add_Custom_Email_Validations)  To access this page:
+ Select dspCompose &amp;gt; Configuration &amp;gt; Email Validation from *Navigation *pane. Click in the Message icon.           Field Description   LANGUAGE ID Displays language used for the email validation failure messagesent for the EmailValidation event. Language-specific messages are added on the Workflow Message page and the Workflow Language Message page.</description>
+    </item>
+    
+    <item>
+      <title>External Data Email Accounts</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/e-h/external_data_email_accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/e-h/external_data_email_accounts/</guid>
+      <description>External Data Email Accounts Use this page to [Set up an External Data Email Account](../Config/Set_up_an_External_Data_Email_Account.htm).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; External Data Email Accounts in the Navigation pane.
+         Field Description   HOST Displays the POP3 host name for the external email account.   USERNAME Displays email address for the external email account.   PASSWORD Displays encrypted password to the external email account.</description>
+    </item>
+    
+    <item>
+      <title>External Users</title>
+      <link>https://heathercloward.github.io/dspcompose/page_desc/e-h/external_users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspcompose/page_desc/e-h/external_users/</guid>
+      <description>External Users Use this page to [Add Email Addresses for External Users](../Config/Add_Email_Addresses_for_External_Users.htm).  To access this page, select dspCompose &amp;gt; Configuration &amp;gt; External Users from the *Navigation* pane.
+         Field Description   EMAIL ADDRESS Displays an email address for the external user who does not have an account in the platform. This address must be unique.   NAME Displays the name associated with the external user’s email account.</description>
+    </item>
+    
+  </channel>
+</rss>

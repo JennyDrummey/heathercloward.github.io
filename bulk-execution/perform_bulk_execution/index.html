@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/bulk-execution/" class="active">Bulk Execution Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/bulk-execution/filter_the_record_set/" class=""></a></li>
+        
+            <li >
+                <a href="/bulk-execution/perform_bulk_execution/" class="uk-active"></a></li>
+        
+            <li >
+                <a href="/bulk-execution/perform_bulk_execution_via_a_public_webapp_event/" class=""></a></li>
+        
+            <li >
+                <a href="/bulk-execution/view_bulk_execution_results/" class=""></a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#"></a></li>
+        <li><a>Bulk-Execution</a></li>
+        <li><span></span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="perform-bulk-execution">Perform Bulk Execution</h1>
+
+<p>For general information about Bulk Execution, refer to <a href="Use_Bulk_Execution.htm">Use Bulk
+Execution</a>.</p>
+
+<p>Bulk Execution runs against the context of the page at the time the
+panel was opened. If the user filters the records after the panel is
+opened, it will still run on the original data set.</p>
+
+<p>By default, the number of records that can have Bulk Execution performed
+at one time is 100K. Refer to <a href="../Sys_Admin/Use_Cases/Set_Bulk_Execution_Parameters.htm">Set Bulk Execution
+Parameters</a>
+for more information. When no filter is applied, all records on the page
+are validated.</p>
+
+<p>The Bulk Execution panel contains several context related items to
+ensure that the user understands the context in which Bulk Execution
+will be performed. The Bulk Execution panel displays the following
+information, where relevant:</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Icon/Information</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Row Count</p></td>
+<td><p>The record count reflects the context of the page when it was opened and isn’t a guaranteed count for processing. The number of rows is displayed in the upper right area of the panel.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Filter button</p></td>
+<td><p>If the record set is filtered, a filter button displays. Hover over the filter button to display the name of the column on which the records are filtered.</p></td>
+</tr>
+<tr class="even">
+<td><p>Drill Down</p>
+<p> </p></td>
+<td><p>This icon indicates what value the page is “drilled” or “bound” on when the user hovers over it. If the page where the user opens the Bulk Execution panel does not have “Drill” or “Binding” criteria, the icon does not display.</p></td>
+</tr>
+</tbody>
+</table>
+
+<p>To perform Bulk Execution:</p>
+
+<ol>
+<li><p>Select <strong>Bulk Execution</strong> from the page gear menu.</p>
+
+<p><strong>NOTE:</strong> The <strong>Bulk Execution Limit</strong> parameter is checked against
+the number of records in the current filtered record set. If the
+current number of records exceeds the Bulk Execution Limit parameter
+setting, a notification displays and the Bulk Execution process is
+not launched.</p>
+
+<p><strong>NOTE:</strong> The <strong>Event</strong> field displays the only event used by Bulk
+Execution, the Validate event.</p></li>
+
+<li><p>Click the <strong>Exclude Business Rules</strong> check box, if needed.</p>
+
+<p><strong>NOTE:</strong> If checked, the OnValidate event runs without running any
+business rules registered to the page event. If unchecked, both the
+Validation and Business rules run. In most cases, the user does not
+need to change this setting unless instructed to do so by the Page
+Designer of the custom application.</p>
+
+<p><strong>NOTE:</strong> The Page Designer can enable the check box by default
+and/or disable the user&rsquo;s ability to update it.  Refer to <a href="../Sys_Admin/Use_Cases/Configure_Business_Rule_Settings.htm">Configure
+Business Rule
+Settings</a>
+in System Administration for more information.</p></li>
+
+<li><p>Click <strong>Next</strong>; or click the <strong>Action on Warnings</strong> tab.</p>
+
+<p><strong>NOTE:</strong> Page Validations of type warning display on the Action on
+Warnings tab. If no validations of type warning are registered to
+the OnValidate event for the page, tthe Action on Warning tab is
+disabled and a Start button displays.</p>
+
+<p><strong>NOTE:</strong> On the Action on Warnings tab, the user can choose which
+action to take on a record that fails for the warning validations.</p></li>
+
+<li><p>Select an option for an individual warning listed on the tab. The
+user can choose to <strong>Update All</strong>.</p>
+
+<p><strong>NOTE:</strong> When an option is chosen from the <strong>Update All</strong> field,
+the options for each validation warning are set to that value.</p>
+
+<p>Options include:</p>
+
+<ul>
+<li><strong>Pass</strong>—Any records that fail the validation are passed as
+valid during the Bulk Execution process.</li>
+<li><strong>Fail</strong>—Any records that fail the validation are failed during
+the Bulk Execution process.</li>
+<li><strong>No Action</strong>—Any record that fails the validation is given a
+validation status of Unknown on the Results tab.</li>
+</ul></li>
+
+<li><p>Click <strong>Start</strong>.</p>
+
+<p><strong>NOTE:</strong> If an error occurs as a result of running a business rule
+execution against the event, the result is an error status.</p>
+
+<p><strong>NOTE:</strong> The same record can exist in multiple results. If a record
+is contained in multiple warning sets, fail takes precedence over
+pass, meaning, if a record is contained in a warning that is set to
+Pass and is contained in another warning set to Fail, the record is
+marked as Failed during processing.</p>
+
+<p>Continue with <a href="View_Bulk_Execution_Results.htm">View Bulk Execution
+Results</a>.</p></li>
+</ol>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#perform-bulk-execution">Perform Bulk Execution</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

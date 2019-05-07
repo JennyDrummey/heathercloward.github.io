@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agent Int Configuration on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/agent/config/</link>
+    <description>Recent content in Agent Int Configuration on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/agent/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add a BackOffice IGC Connector Agent URL in DSP</title>
+      <link>https://heathercloward.github.io/agent/config/add_a_backoffice_igc_connector_agent_url_in_dsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/agent/config/add_a_backoffice_igc_connector_agent_url_in_dsp/</guid>
+      <description>+++ title = &amp;ldquo;Add a BackOffice IGC Connector Agent URL in DSP&amp;rdquo; weight = 3 layout = &amp;ldquo;single&amp;rdquo; +++
+Add a BackOffice IGC Connector Agent URL in DSP Directly after installing an Connector Agent and connecting it to IGC, you must enter the RESTServer address for the Connector Agent in DSP to check the connection status.
+To add the RESTServer address for the Connector Agent in DSP:
+ Navigate to Agent Interface &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Install the BackOffice IGC Connector Agent Service</title>
+      <link>https://heathercloward.github.io/agent/config/install_the_backoffice_igc_connector_agent_service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/agent/config/install_the_backoffice_igc_connector_agent_service/</guid>
+      <description>Install the BackOffice IGC Connector Agent Service To install the Connector Agent:
+ Download the setup.msi file to the server where the Connector Agent will be installed.
+ Right-click the file and click Install.
+NOTE: To uninstall the Connector Agent, click Uninstall in this menu.
+ Click Next. The installer will ask for your token.
+ Paste the token provided by support into the field in the installer using Command V on a Mac computer or Control V on a Windows computer.</description>
+    </item>
+    
+    <item>
+      <title>Set up and Configuration for a BackOffice IGC Connector Agent</title>
+      <link>https://heathercloward.github.io/agent/config/set_up_and_configuration_for_a_backoffice_igc_connector_agent-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/agent/config/set_up_and_configuration_for_a_backoffice_igc_connector_agent-interface/</guid>
+      <description>Set up and Configuration for a BackOffice IGC Connector Agent Overview The BackOffice IGC™ Connector Agent is a Windows service that presents an HTTP interface to the DSP® on port 8000, and securely communicates with the cloud at https://connect.boaweb.com over an encrypted channel using TLS 1.2 or higher. The DSP transmits dspMigrate™ Wave metrics to the cloud via the service. To view the Migration dashboard, navigate to your instance of IGC (https://igc.</description>
+    </item>
+    
+    <item>
+      <title>Test a BackOffice IGC Agent Connection in DSP</title>
+      <link>https://heathercloward.github.io/agent/config/test_a_backoffice_igc_agent_connection_in_dsp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/agent/config/test_a_backoffice_igc_agent_connection_in_dsp/</guid>
+      <description>Test a BackOffice IGC Agent Connection in DSP The BackOffice IGC Connector Agent’s connection status can be checked in the DSP.
+To test the Connector Agent’s Connection Status in DSP:
+ Navigate to Agent Interface &amp;gt; Configuration &amp;gt; APIs &amp;gt; API Ping Agent in the *Navigatio*n pane. Click the Ping Agent icon to test the connection.  NOTE: The Connector Agent runs as a Windows service, so you can check to see if the service is still running as you would any other Windows Service.</description>
+    </item>
+    
+  </channel>
+</rss>

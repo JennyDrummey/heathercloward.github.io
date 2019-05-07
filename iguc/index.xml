@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IG Universal Connect Overview on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/iguc/</link>
+    <description>Recent content in IG Universal Connect Overview on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/iguc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Activate the Process</title>
+      <link>https://heathercloward.github.io/iguc/activate-the-process-iguc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/activate-the-process-iguc/</guid>
+      <description>Activate the Process A Template Administrator can activate a Process to use the Process template to post data.
+Before performing this task, create a template, activate it, and add the template to a Process.
+To activate a Process, the template assigned to the Process must be active.
+To activate the Process in Integrate:
+ Select Categories in the Navigation pane. Click the Processes icon for a category. Click the ACTIVATE/DEACTIVATE icon for the Process.</description>
+    </item>
+    
+    <item>
+      <title>Activate the Template</title>
+      <link>https://heathercloward.github.io/iguc/activate-the-template-iguc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/activate-the-template-iguc/</guid>
+      <description>Activate the Template A Template Administrator can activate the IG Universal Connect Template so it can be added to a Process.
+Before performing this task, create the Template.
+To activate a Template in Integrate:
+ Select Categories in the Navigation pane.
+ Click the Templates icon for a category.
+ Click ACTIVATE/DEACTIVATE icon for a Template; a confirmation message displays.
+ Click Ok.
+NOTE: An active Template displays a check mark in the ACTIVE column and a green icon in the ACTIVATE/DEACTIVATE column.</description>
+    </item>
+    
+    <item>
+      <title>Add the Template to a Process</title>
+      <link>https://heathercloward.github.io/iguc/add-the-template-to-a-process-iguc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/add-the-template-to-a-process-iguc/</guid>
+      <description>Add the Template to a Process A Template Administrator can add a template to a Process so that the Process template can be used to post data to the target system.
+Refer to Manage Processes for an overview of Processes.
+Before performing this task, create a template and activate it.
+For general information about the IG Universal Connect template, refer to Post Data Using IG Universal Connect.
+To add an IG Universal Connect Template template to a Process in Integrate:</description>
+    </item>
+    
+    <item>
+      <title>Configure Field Mappings for an IG Universal Connect Template</title>
+      <link>https://heathercloward.github.io/iguc/configure-field-mappings-for-an-ig-universal-connect-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/configure-field-mappings-for-an-ig-universal-connect-template/</guid>
+      <description>Configure Field Mappings for an IG Universal Connect Template Follow these steps if using parameters, which are optional.
+Before completing this task, Configure a Process Template Loop for an IG Universal Connect Process Template Manually or Automatically.
+For parameters to be used as inputs for a Boomi Process, a view must be created in SQL Server. The view serves as the basis of Process Template Loop Field Mappings, which connect a column in a view with a field on a Template.</description>
+    </item>
+    
+    <item>
+      <title>Configure a Process Template Loop for an IG Universal Connect Process Template Automatically</title>
+      <link>https://heathercloward.github.io/iguc/configure-a-process-template-loop-for-an-ig-universal-connect-process-template-automatically/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/configure-a-process-template-loop-for-an-ig-universal-connect-process-template-automatically/</guid>
+      <description>Configure a Process Template Loop for an IG Universal Connect Process Template Automatically Follow these steps if using parameters, which are optional.
+A Process Template Loop assigns a view from the Process’s data source to a loop within the template. The loop is mapped to a view which contains the data to post for the corresponding template loop in the Process. In the case of IG Universal Connect Templates, the data is parameter names and values that are used as inputs to a Boomi Process.</description>
+    </item>
+    
+    <item>
+      <title>Configure a Process Template Loop for an IG Universal Connect Process Template Manually</title>
+      <link>https://heathercloward.github.io/iguc/configure-a-process-template-loop-for-an-ig-universal-connect-process-template-manually/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/configure-a-process-template-loop-for-an-ig-universal-connect-process-template-manually/</guid>
+      <description>Configure a Process Template Loop for an IG Universal Connect Process Template Manually Follow these steps if using parameters, which are optional.
+A Process Template Loop assigns a view from the Process’s data source to a loop within the template. The loop is mapped to a view which contains the data to post for the corresponding template loop in the Process. In the case of IG Universal Connect Templates, the data is parameter names and values that are used as inputs to a Boomi Process.</description>
+    </item>
+    
+    <item>
+      <title>Create an IG Universal Connect Template</title>
+      <link>https://heathercloward.github.io/iguc/create-an-ig-universal-connect-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/create-an-ig-universal-connect-template/</guid>
+      <description>Create an IG Universal Connect Template A Template Administrator can configure an IG Universal Connect Template by selecting a Boomi Process ID that is used while posting data.
+NOTE: For general information about Templates, refer to Create a Basic Template.
+To create an IG Universal Connect Template in Integrate:
+ Select Categories in the Navigation pane.
+ Click the Templates icon for a category.
+ Click Add.
+View the field descriptions for the Template page</description>
+    </item>
+    
+    <item>
+      <title>Extract Data using IG Universal Connect in Collect</title>
+      <link>https://heathercloward.github.io/iguc/extract-data-using-ig-universal-connect-in-collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/extract-data-using-ig-universal-connect-in-collect/</guid>
+      <description>Extract Data using IG Universal Connect in Collect IG Universal Connect allows the DSP® to extract data from systems, which are defined by the connector associated with a Boomi Process. The Boomi Process also has an associated atom, the default execution environment (for example, Dev, QA and Prod). The Boomi Process is associated with the IG Universal Connect data source when it’s registered in Common.
+Collect does not automatically build tables or refresh packages/Processes when a Connection Type of IG Universal Connect is used.</description>
+    </item>
+    
+    <item>
+      <title>Post Data Using IG Universal Connect</title>
+      <link>https://heathercloward.github.io/iguc/post-data-using-ig-universal-connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/post-data-using-ig-universal-connect/</guid>
+      <description>Post Data Using IG Universal Connect A Template Administrator can post data to a Target system using a Process post based on an IG Universal Connect Template, which uses a Boomi Process when posting data.
+When a process is posted with an IG Universal Connect Template, Integrate runs the tx*Int view mapped at the Process – Template – Loop level applying the Where Clause from the process post. The IG Universal Connect with parameter values (if applicable) from the tx*Int view runs for each record returned from the Where clause.</description>
+    </item>
+    
+    <item>
+      <title>Post Data Using IG Universal Connect Overview</title>
+      <link>https://heathercloward.github.io/iguc/post-data-using-ig-universal-connect-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/post-data-using-ig-universal-connect-overview/</guid>
+      <description>Post Data Using IG Universal Connect Overview A Template defines how data is posted to a Target system, including which Target system screens and fields are processed. Every Template has a Template type. The IG Universal Connect Template type uses a Boomi Process when posting data to a Target system.
+IG Universal Connect allows a connection with many systems, such as Salesforce or Workday, as defined by the connector associated with a Boomi Process.</description>
+    </item>
+    
+    <item>
+      <title>Update the Connection for a Process Template</title>
+      <link>https://heathercloward.github.io/iguc/update-the-connection-for-a-process-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/iguc/update-the-connection-for-a-process-template/</guid>
+      <description>Update the Connection for a Process Template A Template Administrator can update the default atom, the default execution environment registered to the IG Universal Connect data source to post to a different atom (Dev, QA or Prod, for example).
+See Set Available Connections at the Process Template Level for general information.
+NOTE: The Process Template cannot be edited if the Process is active.
+To update the atom for a Process Template connection:</description>
+    </item>
+    
+  </channel>
+</rss>

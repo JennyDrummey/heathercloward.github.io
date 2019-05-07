@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configs on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/isa/config/</link>
+    <description>Recent content in Configs on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/isa/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/config/create_a_database_connection_to_store_is_failed_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/config/create_a_database_connection_to_store_is_failed_data/</guid>
+      <description>Create a Database Connection to Store IS Failed Data NOTE: Refer to the Administrator Guide for Information Steward for additional information.
+Set up the connection for the database that will store the data that fails the IS rules.
+Once data is extracted from the source and IS runs the rules on this data, it is then written to this database.
+To create a connection to the database that will store the failed data:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/config/refresh_tables_if_projects_rules_or_rule_bindings_are_updated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/config/refresh_tables_if_projects_rules_or_rule_bindings_are_updated/</guid>
+      <description>Refresh Tables if Projects, Rules, or Rule Bindings are Updated If projects, rules or rule bindings are added or updated in IS that contain rules that should be used in ISA, refresh the tables to bring the new project in to ISA.
+Watch Video: Refresh dgRepository_IS Target to Push Rules from IS to ISA
+ Click Collect &amp;gt;Target in the Navigation pane. Select dgRepository_IS. Click Sources icon. Click Refresh.  NOTE: The refresh may take a few minutes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/config/run_rules_in_is/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/config/run_rules_in_is/</guid>
+      <description>Run Rules in IS Run the rule to see the failed data.
+To run a new rule in IS:
+ Click the Workspace Home icon in the tree toolbar on the left side of the page.
+ Click Rule Results.
+NOTE: In the pane on the left, expand the source connection and click the check box next to the table name that has the rule.
+ Click Calculate Score.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/config/set_data_services_connections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/config/set_data_services_connections/</guid>
+      <description>Set Data Services Connections Connection information used by SAP Data Services must be configured at the Target Source level. This connection is then tested to ensure that Data Services can connect to the source instances.
+To configure a source for SAP Data Services:
+ Click Collect &amp;gt;Target in theNavigation pane.
+ Select dgRepository_IS.
+ Click Sources icon.
+ Click Add.
+View the field descriptions for the Target Sources page</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/isa/config/set_up_security_for_isa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/isa/config/set_up_security_for_isa/</guid>
+      <description>Set Up Security for ISA To set up security for the ISA:
+ Create User Accounts (performed by an Administrator).
+ Create an ISA Security Role (performed by an Administrator).
+ Assign Users to the ISA Security Role (performed byan Administrator).
+ Select Information Steward Accelerator &amp;gt; Configuration &amp;gt; Users in the Navigation pane.
+NOTE: There is an OnLoad event on this page that pulls in any DSP users with appropriate ISA security.</description>
+    </item>
+    
+  </channel>
+</rss>

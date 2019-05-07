@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dspmonitor/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dspmonitor/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Add Reports to a Group</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/add_reports_to_a_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/add_reports_to_a_group/</guid>
+      <description>Add Reports to a Group Add reports to the group and configure report-level settings.
+To add reports to a group:
+ Click Your Groups in Navigation pane.
+NOTE: The group must have at least one report assigned for data to display on this page.
+ Click Vertical View for Group ID.
+ Click Group Reports .
+NOTE: The Group Reports is only available if the current user is the group owner for the group.</description>
+    </item>
+    
+    <item>
+      <title>Add Users to a Report</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/add_users_to_a_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/add_users_to_a_report/</guid>
+      <description>Add Users to a Report Add users to the group to allow other users to view and process reports registered to the group.
+To add users to a group:
+1. Click dspMonitor &amp;gt;Your Groups in Navigation pane.
+NOTE: The group must have at least one report assigned for data to display on this page. Refer to Add Reports to a Group for more information.
+2. Click Vertical View for Group ID.</description>
+    </item>
+    
+    <item>
+      <title>Assign Group Owner to a Group</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/assign_group_owner_to_a_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/assign_group_owner_to_a_report/</guid>
+      <description>Assign Group Owner to a Group Group Owners are assigned by system administrators (i.e., users with access to the Configuration menu).
+NOTE: The Group Owner for a group is assigned when the group is added. After the group has been saved, only the Group Owner can assign another owner to the group.
+To assign a group owner to a group:
+1. Select Configuration &amp;gt; Groups in Navigation pane.
+2. Click Edit for Group ID.</description>
+    </item>
+    
+    <item>
+      <title>CTS Notes Specific to dspMonitor™</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/cts_notes_specific_to_dspmonitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/cts_notes_specific_to_dspmonitor/</guid>
+      <description>CTS Notes Specific to dspMonitor™ The following objects and tables can be used in the CTS process:
+ Filter Group Object Report Report Repository ztDQSThreshold ztQualityDimension ztSigmaLevel  The Report Repository and Group must already exist in the Target system prior to moving the Report object.
+If Objects are CTS’ed, they must exist in the Target system.
+The Report Repository, Object, Group and Filter can be sent independently.
+Refer to System Administration for detailed information regarding the CTS process.</description>
+    </item>
+    
+    <item>
+      <title>Configure User Settings, Reports and Filters</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/configure_user_settings_reports_and_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/configure_user_settings_reports_and_filters/</guid>
+      <description>Configure User Settings, Reports and Filters Once users are added to a group to gain access to reports, workflow and report settings can be configured to meet the user’s preference. Some settings are configured for the group or report, but can be overwritten at the user level.
+This use case covers the following topics:
+ Customize User Settings
+ Customize Report Settings
+ Define Where Clauses
+ Define Filters</description>
+    </item>
+    
+    <item>
+      <title>Configure the Business Value Dashboard</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/configure_the_business_value_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/configure_the_business_value_dashboard/</guid>
+      <description>Configure the Business Value Dashboard For data to appear on the Business Value dashboard, the cost of the failure must be set at the report level. Update the currency at the WebApp level if the default of US dollars is not applicable.
+Once configuration is complete, the cost per failure is calculated and displays on dspMonitor™ pages in the Error Cost field.
+To configure currency (if other than US dollars):</description>
+    </item>
+    
+    <item>
+      <title>Create Groups</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/create_groups_dspmonitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/create_groups_dspmonitor/</guid>
+      <description>Create Groups Create a group to control report access by user. Reports are configured by group to allow report settings to differ by group.
+To create a group:
+ Select Configuration &amp;gt; Groups in Navigation pane.
+ Click Add.
+View the field descriptions for the Groups page
+ Enter a group name (without spaces) in GROUP ID field.  Enter a brief description about group in GROUP DESCRIPTION field.</description>
+    </item>
+    
+    <item>
+      <title>Create Objects and Publish Reports to Groups</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/create_objects_and_publish_reports_to_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/create_objects_and_publish_reports_to_groups/</guid>
+      <description>Create Objects and Publish Reports to Groups dspMonitor™ is delivered with objects that contain pre-registered reports. Publish an object to register all reports to a group. While dspMonitor is delivered with a standard set of objects, additional objects can be created.
+To create an object:
+ Create a group.
+NOTE: A group is a collection of reports. Refer to the Create Groups section for detailed information.
+ Select Configuration &amp;gt; Objects in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Create Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/create_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/create_reports/</guid>
+      <description>Create Reports There are three types of reports:
+ Error – backbone of dspMonitor™. Error reports display data errors and inconsistencies that require attention. When creating an error report, include a column called &amp;ldquo;boaError.&amp;rdquo; This column adds the filter &amp;ldquo;boaError=1&amp;rdquo; to signify that those are the error records returned by the report.
+ Information – might not display the exact list of errors. Information reports help the business analyze and understand the data and identify potential problems.</description>
+    </item>
+    
+    <item>
+      <title>Data Quality Score Thresholds</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/dqs_thresholds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/dqs_thresholds/</guid>
+      <description>Data Quality Score Thresholds Use this page to [Register Data Quality Score Thresholds](Populate_Configuration_Tables.htm#Register_Data_Quality_Score_Thresholds).  To access this page, select dspMonitor &amp;gt; Data Quality Score Thresholds in Navigation pane.
+         Field Description   NAME Displays the name of the threshold.   CRITICAL THRESHOLD Displays the critical threshold level. If the percentage of defects for the object being scored falls below this level, it has a status of Red on the dspMonitor™ summary pages, charts and dashboards.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Running Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/getting_started_with_running_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/getting_started_with_running_reports/</guid>
+      <description>Getting Started with Running Reports dspMonitor™ is the analytical component of the DSP® that facilitates reporting on and maintaining high quality master data. dspMonitor™ is delivered with a set of over 500 reports to help clients report on the quality of their data in SAP and to find errors, inconsistencies and referential integrity issues in master data. In addition, dspMonitor™ supports the ability to add custom reports.
+NOTE: SAP is a highly configurable application that is implemented in a unique manner for each client.</description>
+    </item>
+    
+    <item>
+      <title>Group Owner Responsibilities</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/group_owner_responsibilities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/group_owner_responsibilities/</guid>
+      <description> Group Owner Responsibilities Each group has a group owner who manages reports registered to the group and defines the report-level parameters. When the group is created, the Group Owner is automatically registered as a user for the group.
+Group Owner responsibilities are:
+ Assign Group Owner to a Group Add Users to a Report Add Reports to a Group  </description>
+    </item>
+    
+    <item>
+      <title>Manage Groups</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/manage_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/manage_groups/</guid>
+      <description>Manage Groups Groups are a free-form way to organize reports, for example, by region (North America, Europe) or employee type (full-time, contractor). Every group has one group owner whose task is to manage reports registered to the group and to define the report-level parameters.
+dspMonitor™ is delivered with a standard set of groups, which can be modified to allow more granularity in linking reports and users.
+This use case covers the following topics:</description>
+    </item>
+    
+    <item>
+      <title>Manage Objects</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/manage_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/manage_objects/</guid>
+      <description> Manage Objects dspMonitor™ is delivered with a standard set of reports organized by object (which is a categorization). Reports can be configured by object and then published to a group to facilitate the manual process of adding reports to groups. These reports are delivered in the DGReports Repository and can be published to any group(s).
+This use case consists of the following topics:
+ Create Objects and Publish Reports to Groups Register Object Reports View Your Objects View Your Object Reports  </description>
+    </item>
+    
+    <item>
+      <title>Manage Workflow Emails</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/manage_workflow_emails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/manage_workflow_emails/</guid>
+      <description>Manage Workflow Emails Workflow emails are sent to notify when reports have been run.
+This use case covers the following topics:
+ Configure Workflow Content
+ Configure Workflow Schedules
+  Configure Workflow Content The content of workflow emails, such as the email To, From and Subject lines, and the email body are configurable.
+To configure workflow content:
+ Navigate to Configuration &amp;gt; Parameters in Navigation pane.
+ Click Workflow Parameters tab.</description>
+    </item>
+    
+    <item>
+      <title>Monitor Activity</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/monitor_activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/monitor_activity/</guid>
+      <description>Monitor Activity dspMonitor™ monitors report activity to easily identify failed reports for debugging purposes. To monitor activity, click Monitor in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Populate Configuration Tables</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/populate_configuration_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/populate_configuration_tables/</guid>
+      <description>Populate Configuration Tables The Configuration Tables define the meta-data for standard and user-created reports.
+This use case covers the following topics:
+ Register Quality Dimensions Register Data Quality Score Thresholds Customize Group Metric Graph  Register Quality Dimensions A Quality Dimension is a recognized term used by data management professionals to describe a feature of data that can be measured or assessed against defined standards to determine data quality.</description>
+    </item>
+    
+    <item>
+      <title>Process Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/process_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/process_reports/</guid>
+      <description>Process Reports Reports can be processed at the group level (for all reports and all users) or at the user level for a single group or a report. This use case covers the following topics:
+ Schedule Reports to Process Manually Process Group Reports Manually Process Single Report Manually Process Single Application Table Report Manually Process Single Application Table Column Report  Schedule Reports to Process Reports can be scheduled to run at the group level.</description>
+    </item>
+    
+    <item>
+      <title>Profile a Target Table in dspMonitor™</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/profile_a_target_table_in_dspmonitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/profile_a_target_table_in_dspmonitor/</guid>
+      <description>Profile a Target Table in dspMonitor™ Common provides a quick and easy method to perform an assessment of data contained within a table.
+In dspMonitor™, on the Vertical View of the Your Application Tables page, a user can run Common’s profile feature on the selected table, then view the table data and the results of the profile analysis.
+For detailed information about profiling, refer to Profile Data Source.
+To profile a target table:</description>
+    </item>
+    
+    <item>
+      <title>Register Collect Target Table Columns to a Report</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_collect_target_table_columns_to_a_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_collect_target_table_columns_to_a_report/</guid>
+      <description>Register Collect Target Table Columns to a Report A Data Quality Steward can register a Collect target table to a particular report. This allows the Data Quality Steward to view data quality scoring on the Your Application Table Columns page at the target table column level.
+To register collect target table columns to a report:
+ Select dspMonitor &amp;gt; Configuration &amp;gt; Report Repositories in the Navigation pane.
+ Click the Reports icon.</description>
+    </item>
+    
+    <item>
+      <title>Register Collect Target Tables to a Report</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_collect_target_tables_to_a_report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_collect_target_tables_to_a_report/</guid>
+      <description>Register Collect Target Tables to a Report A Data Quality Steward can register a Collect target table to a particular report. This allows the Data Quality Steward to view data quality scoring on the Your Application Tables page at the target table level.
+To register target tables for a report:
+ Select dspMonitor &amp;gt; Configuration &amp;gt; Report Repositories in the Navigation pane.
+ Click the Reports icon.
+ Click the Target Tables icon.</description>
+    </item>
+    
+    <item>
+      <title>Register Collect Targets to a Report Repository</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_collect_targets_to_a_report_repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_collect_targets_to_a_report_repository/</guid>
+      <description>Register Collect Targets to a Report Repository A Data Quality Steward can link a report repository to a Collect target to relate reports to the underlying system, table, and fields that a rule in the report is querying. This gives the Data Quality Steward the ability to apply thresholds and view data quality scores at a table and field level.
+To register Collect targets to a report repository.
+ Select dspMonitor &amp;gt; Configuration &amp;gt; Report Repositories in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Register Object Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_object_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_object_reports/</guid>
+      <description>Register Object Reports Objects are delivered with standard reports registered. Additional reports can be configured for an object before it is published to a group.
+Depending on how objects are configured with reports, reports can be added to an object or an object can be added to a report.
+Register Reports to Objects To register a report for an object:
+ Select Configuration &amp;gt; Objects in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Register Report Repositories</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_report_repositories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_report_repositories/</guid>
+      <description>Register Report Repositories Reports are organized by report repository. Once created in the database and registered in Common, report repositories must then be registered in dspMonitor.
+To register a report repository (referred to as a data source in Common), refer to Register a Data Source in Common.
+To register a report repository in dspMonitor:
+ Select Configuration &amp;gt; Report Repositories in Navigation pane.
+ Click Add.
+View the field descriptions for the Report Repositories page</description>
+    </item>
+    
+    <item>
+      <title>Register Reports to Groups</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_reports_to_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_reports_to_groups/</guid>
+      <description>Register Reports to Groups Once a report is registered to a repository, it is then registered to a group or to multiple groups. Since reports can be assigned to multiple groups, configuration settings can be changed based on group requirements. From there, users are registered to the group to access the group reports.
+To register a report to a group:
+ Select Configuration &amp;gt; Groups in Navigation pane.
+ Click Group Report for Group.</description>
+    </item>
+    
+    <item>
+      <title>Register Reports to a Report Repository</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_reports_to_a_report_repo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_reports_to_a_report_repo/</guid>
+      <description>Register Reports to a Report Repository Reports are registered to a report repository and then to a group for individual users (group members) to view.
+To register a report:
+ Select dspMonitor &amp;gt; Configuration &amp;gt; Report Repositories in Navigation pane.
+ Click Reports for Repository.
+ Click Add.
+View the field descriptions for the Repository Reports page&amp;rsquo;s Vertical View
+ Select a report from Report list box.
+ Select an opportunity view from the Opportunity View list box.</description>
+    </item>
+    
+    <item>
+      <title>Register Thresholds for Collect Target Table Columns</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_thresholds_for_collect_target_table_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_thresholds_for_collect_target_table_columns/</guid>
+      <description>Register Thresholds for Collect Target Table Columns A Data Quality Steward can register data quality score thresholds for Collect target table columns. This allows the Data Quality Steward to register the columns to a report in the report repository.
+NOTE: The threshold levels set at the target table column level are applied globally across all report repositories for all reports that use the table column.
+To register data quality score thresholds for a Collect target:</description>
+    </item>
+    
+    <item>
+      <title>Register Thresholds for Collect Target Tables</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_thresholds_for_collect_target_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_thresholds_for_collect_target_tables/</guid>
+      <description>Register Thresholds for Collect Target Tables A Data Quality Steward can register data quality score thresholds for Collect target tables. This allows the Data Quality Steward to register the tables to a report in the report repository.
+NOTE: The threshold levels set at the target table level are applied globally across all report repositories for all reports that use the table.
+To register data quality score thresholds for a Collect target:</description>
+    </item>
+    
+    <item>
+      <title>Register Users to Groups</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/register_users_to_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/register_users_to_groups/</guid>
+      <description>Register Users to Groups Users gain access to reports by being a member of a group. Once users are registered to a group, they are able to receive reports through a workflow email and configure report settings.
+A single report can be registered to multiple groups. Users are not able to view or configure reports until user security has been granted to a group.
+NOTE: Only a groups owner can add users to a group.</description>
+    </item>
+    
+    <item>
+      <title>Service Pages</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/service_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/service_pages/</guid>
+      <description>Service Pages dspMonitor™ uses Service pages for background processing. The schedule of these Service pages can be adjusted to the client’s runtime and dependencies to getting reports to users.
+Service pages include:
+ Build Group and Report Metrics Build Metric Data Aging Build Summary Workflow Report Run Daily Maintenance Events Run File Deletion Maintenance Run Group Reports via Schedule Run Recycle Failed Reports Send Attachment Workflow Send Notifications WorkFlow Send Summary Workflow  Build Group and Report Metrics Description: Calculates the report metrics by day, week and month.</description>
+    </item>
+    
+    <item>
+      <title>Set Up Structure</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/set_up_structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/set_up_structure/</guid>
+      <description> Set Up Structure dspMonitor™ is organized by report repositories, groups, reports and users. Reports are registered to report repositories and then to groups. To allow for different report settings based on group requirements, the same report can exist in multiple groups. To access the group’s reports, users are registered to a group.
+Setting up the dspMonitor™ consists of the following steps:
+ Create and Register Report Repositories Register Collect Targets to a Report Repository Register Thresholds for Collect Target Tables Register Thresholds for Collect Target Table Columns Create Reports Create Groups Create Objects Register Reports to a Report Repository Register Collect Target Tables to a Report Register Collect Target Table Columns to a Report Track Error Records on Reports Register Reports to Objects Add Reports to a Group Register Users to Groups Customize User Settings Process Reports  </description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for dspMonitor™</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/setup_and_configuration_for_dspmonitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/setup_and_configuration_for_dspmonitor/</guid>
+      <description> Setup and Configuration for dspMonitor™ Before getting started with dspMonitor™, verify the following steps have been completed:
+ Register Report Repositories (referred to as Data Sources) in Common Set up Security (performed by an Administrator) Configure Path of Reports (performed by an Administrator) Configure dspMonitor™ Parameters Set up Structure Configure SAP Client Name for dspMonitor™ Reports Populate Configuration Tables Configure Schedules on Services Pages  </description>
+    </item>
+    
+    <item>
+      <title>Tips and Troubleshooting</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/tips_and_troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/tips_and_troubleshooting/</guid>
+      <description>Tips and Troubleshooting This section outlines common error messages that display in dspMonitor™ and a solution to work around the error.
+It contains the following sections:
+ Change Frequency of User Workflows Enable Metric Data Information  Change Frequency of User Workflows Issue: When the Group Schedule ID and Workflow Schedule ID for Groups are set to run more frequently than the Workflow Schedule ID set at the Report level, the following message displays:</description>
+    </item>
+    
+    <item>
+      <title>Track Error Records on Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/track_error_records_on_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/track_error_records_on_reports/</guid>
+      <description>Track Error Records on Reports Detailed metric information can be configured and generated for a specific report. These metric reports specifically track how long an error record exists in a report and provides details on when the error was fixed.
+To track error records on reports:
+ Select Configuration &amp;gt; Report Repositories in Navigation pane.
+ Click Reports icon for Repository.
+ Click Vertical View for Report.
+ Click Metric Data Information tab.</description>
+    </item>
+    
+    <item>
+      <title>Use Data Quality Dashboard</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/use_data_quality_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/use_data_quality_dashboard/</guid>
+      <description>Use Data Quality Dashboard A Business Data Owner or Director of Data Governance can view the Data Quality Dashboard to evaluate the quality of data and drill down into areas of data quality concern.
+The dashboard and charts only allow access to detail data to which the logged in user has access. Refer to Configure User Settings, Reports and Filters for more information about setting up user access.
+To use the Data Quality Dashboard:</description>
+    </item>
+    
+    <item>
+      <title>View Chart Histogram</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_chart_histogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_chart_histogram/</guid>
+      <description>View Chart Histogram The detail row for each context available on the Data Quality Dashboard page has a History option that opens a new browser tab with a Chart Histogram that shows the history of data quality scores for the context selected.
+The bar chart displays the current month to date, and the previous six months of history of the data quality scores based on the context selected.
+Hover a cursor over a data point on the line to view the number of reports included in the score for the month.</description>
+    </item>
+    
+    <item>
+      <title>View Dashboard Metrics</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_dashboard_metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_dashboard_metrics/</guid>
+      <description>View Dashboard Metrics Several reports are available to provide group, report and user metrics. To view metric reports, click Dashboard in the Navigation pane and click a report. The following metric reports are available:
+ Reports (Errors) – Displays error metrics organized by report. Group (Errors) – Displays error metrics organized by group. User (Errors) – Displays error metrics organized by user. A Reports icon is available to view reports assigned to an individual user.</description>
+    </item>
+    
+    <item>
+      <title>View Data Quality Dashboard</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_data_quality_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_data_quality_dashboard/</guid>
+      <description>View Data Quality Dashboard The overview area of the Data Quality Dashboard displays a doughnut chart with the overall data quality score across all reports as well as charts that show the data quality score for each of the seven industry standard quality dimensions delivered with dspMonitor™.
+Data Quality Dashboard — Initial Overview View
+The dashboard filter option (Filter on My Reports) filters the dashboards to show data based on the reports to which the logged in user has access or all reports.</description>
+    </item>
+    
+    <item>
+      <title>View Your Application Table Column Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_table_column_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_table_column_reports/</guid>
+      <description>View Your Application Table Column Reports This page displays all application table column reports to which the logged in user has access.
+To view application table column reports:
+ Click dspMonitor &amp;gt; Your Applications in the Navigation pane.
+ Click the Tables icon.
+ Click the Columns icon.
+ Click the Reports icon for a column.
+View the field descriptions for the Your Application Table Column Reports page
+ Click the View icon to view the report data.</description>
+    </item>
+    
+    <item>
+      <title>View Your Application Table Columns</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_table_columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_table_columns/</guid>
+      <description> View Your Application Table Columns The Your Application Table Columns page displays data quality information for application table columns across all associated reports that are assigned to the logged in user.
+To view Your Application Table Columns:
+ Select dspMonitor &amp;gt; Your Applications in the Navigation pane.
+ Click the Tables icon.
+ Click the Columns icon.
+View the field descriptions for the Your Application Table Columns page
+  </description>
+    </item>
+    
+    <item>
+      <title>View Your Application Table Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_table_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_table_reports/</guid>
+      <description>View Your Application Table Reports This page displays all application table reports to which the logged in user has access.
+To view application table reports:
+ Select dspMonitor &amp;gt; Your Applications in the Navigation pane.
+ Click the Tables icon.
+ Click the Reports icon.
+View the field descriptions for the Your Application Table Reports page
+ Click the View icon to view the report data.
+Or
+Click the Download a file icon to download the report data in a file.</description>
+    </item>
+    
+    <item>
+      <title>View Your Application Tables</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_application_tables/</guid>
+      <description> View Your Application Tables The Your Application Tables page displays data quality information for application tables across all associated reports that are assigned to the logged in user.
+To view application tables:
+ Select Your Applications in the Navigation pane.
+ Click Tables.
+View the field descriptions for the Your Application Tables page
+  </description>
+    </item>
+    
+    <item>
+      <title>View Your Applications</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_applications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_applications/</guid>
+      <description>View Your Applications The Your Applications page displays data quality information for application tables across all associated reports that are assigned to the logged in user.
+To view you applications, click Your Applications in the Navigation pane.
+View the field descriptions for the Your Applications page</description>
+    </item>
+    
+    <item>
+      <title>View Your Favorite Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_favorite_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_favorite_reports/</guid>
+      <description>View Your Favorite Reports A subset of frequently used reports can be marked as favorites to make accessing them faster. These reports display on the Your Favorite Reports page. For example, a user may need to review a subset of reports at the end of the month. These reports could be added to the Your Favorite Reports page and easily accessed during that time.
+To view reports on the Your Favorite Reports page, these reports must be marked as favorites on the Your Group Reports page.</description>
+    </item>
+    
+    <item>
+      <title>View Your Filters</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_filters/</guid>
+      <description>View Your Filters The Your Filters page displays all filters assigned to the logged in user. Filters are a way to customize which subset(s) of data users see through their set of assigned reports. All reports assigned to the user are filtered by these fields, provided that the report assigned contains any one or more of the referenced fields.
+Filters allow a report to be distributed to various users while limiting content to individual users based on user filters.</description>
+    </item>
+    
+    <item>
+      <title>View Your Group Metrics Chart</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_group_metrics_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_group_metrics_chart/</guid>
+      <description> View Your Group Metrics Chart Users can view a chart that displays group metrics.
+The View Data icon to the right of a chart name opens a pane that displays the alternate text descriptions of chart data in a table.
+To view your group metrics chart:
+ Select dspMonitor &amp;gt; Your Groups in Navigation pane. Click the Metrics icon.  </description>
+    </item>
+    
+    <item>
+      <title>View Your Group Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_group_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_group_reports/</guid>
+      <description>View Your Group Reports This page displays all a groups to which the logged in user has access.
+Reports can only be configured by a Group Owner. Refer to Group Owner Responsibilities for detailed information.
+To view Your Group Reports:
+ Click Your Groups in Navigation pane.
+ Click the Reports icon.
+ Click the View icon to view the report data.
+Or
+Click the Download a file icon to download the report data in a file.</description>
+    </item>
+    
+    <item>
+      <title>View Your Groups</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_groups/</guid>
+      <description>View Your Groups The Your Groups page displays all groups containing reports assigned to the logged in user. While a Group Owner can process a group, which runs all reports for all users, users can process their groups, which runs all reports for the group and the single user. Groups can be configured by a Group Owner. Refer to Group Owner Responsibilities for detailed information.
+To view groups, click Your Groups in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View Your Object Reports</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_object_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_object_reports/</guid>
+      <description>View Your Object Reports This page displays all object reports to which the logged in user has access.
+To view Your Object Reports:
+ Click Your Objects in Navigation pane.
+ Click the Reports icon.
+ Click the View icon to view the report data
+Or
+Click the Download a file icon to download the report data in a file.
+NOTE: Download a file is only active if the report has been recently generated through a scheduled process.</description>
+    </item>
+    
+    <item>
+      <title>View Your Objects</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_objects/</guid>
+      <description>View Your Objects The Your Objects page displays all objects containing reports assigned to the logged in user.
+To view objects, click Your Objects in the Navigation pane.
+View the field descriptions for the Your Objects page</description>
+    </item>
+    
+    <item>
+      <title>View Your Report Metrics Chart</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_your_report_metrics_chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_your_report_metrics_chart/</guid>
+      <description>View Your Report Metrics Chart Users can view a chart that displays report metrics.
+The View Data icon to the right of a chart name opens a pane that displays the alternate text descriptions of chart data in a table.
+To view your report metrics chart:
+To access this chart:
+ Select dspMonitor &amp;gt; Your Groups in Navigation pane. Click the Favorites or Reports icon. Click the Metrics icon.  Or</description>
+    </item>
+    
+    <item>
+      <title>View the Business Value Dashboard</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/view_the_business_value_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/view_the_business_value_dashboard/</guid>
+      <description>View the Business Value Dashboard dspMonitor’s Business Value Dashboard displays the cost of failures due to data quality issues.
+The charts on the dashboard display the cost of errors for the user’s group, objects, and applications, and displays a report of the top 10 reports with the highest error cost.
+For data to appear on the Business Value Dashboard, the cost of the failure must be set at the report level.</description>
+    </item>
+    
+    <item>
+      <title>dspMonitor™ Construction</title>
+      <link>https://heathercloward.github.io/dspmonitor/use_cases/dspmonitor_construction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dspmonitor/use_cases/dspmonitor_construction/</guid>
+      <description>dspMonitor™ Construction dspMonitor™ Construction provides the ability to rapidly create and maintain a web-based user interface to manage cross-reference table(s) and to control parameters dynamically within the application rather than hard code those values within the code of the report. The report is built once. If the report requires updates (for example, if parameters change or values need to be added), a business user does not need a developer to change the underlying code of the report.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/dsptrack/use_cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/dsptrack/use_cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Activate and Deactivate a Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/activate_and_deactivate_a_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/activate_and_deactivate_a_plan/</guid>
+      <description>Activate and Deactivate a Plan Activate a plan to start scheduling its tasks, and so that users assigned to tasks can begin work on them using the Work List.
+When a plan is created it is inactive by default. A user can add users, validations, rules and tags to the tasks in the plan. A user can also import a project file into a plan. However, the plan’s tasks will not appear on the Work List until the plan is activated.</description>
+    </item>
+    
+    <item>
+      <title>Add Comment Codes</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_comment_codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_comment_codes/</guid>
+      <description>Add Comment Codes An administrative user can add comment codes.
+NOTE: The Late Comment icon is disabled when the schedule status for a Plan Task or Work List Item is not late (i.e., its schedule status is on time (green) or behind (yellow)). The Late Comment icon is only available when a Plan Task or Work List item&amp;rsquo;s schedule status is late (red).
+To add a comment code:
+ Select Configuration &amp;gt; Late Comment Codes in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Add Users to Plan Tasks Manually</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_users_to_plan_tasks_manually/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_users_to_plan_tasks_manually/</guid>
+      <description>Add Users to Plan Tasks Manually When a project file is imported into dspTrack™, the component matches the resources assigned to tasks to users registered in the platform.
+Refer to Import Project Files into dspTrack™ for more information.
+Users can also be assigned to tasks manually.
+To add multiple users to a task, use a Security tag. Refer to Configure Security Tags for more information.
+To add a few users to a task, use the Plan Task User page.</description>
+    </item>
+    
+    <item>
+      <title>Add Users to a Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_users_to_an_item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_users_to_an_item/</guid>
+      <description>Add Users to a Work List Item When a user is added to a Work List Item, that item appears on the Work List when that user logs in (until it is in Completed status). When a user is removed from an item, the item no longer displays on the user’s Work List.
+Multiple users can be assigned to the same Work List Item.
+If multiple users are assigned to an item, that item will display in each user’s Work List.</description>
+    </item>
+    
+    <item>
+      <title>Add Work List Binding Criteria to a Work List Item or Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/addwrklisbindingcriteriaitem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/addwrklisbindingcriteriaitem/</guid>
+      <description>Add Work List Binding Criteria to a Work List Item or Plan Task NOTE: Users can add binding criteria to Work List Items and Plan Tasks. Throughout this topic, “item&amp;rdquo; refers to both Work List Items and Plan Tasks. Refer to Plan Tasks v. Work List Items for more information.
+An item can be bound to a specific set of data, such as a table.
+A user assigned to the Sample Project Level Role or the Sample Plan Level Role creates Work List Binding Criteria for an item by:</description>
+    </item>
+    
+    <item>
+      <title>Add Work List Items</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_work_list_items_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_work_list_items_overview/</guid>
+      <description>Add Work List Items Work List Items, like Plan Tasks, display on the Work List unless they are in Completed status. After work on a Plan Task or Work List Item completes, they can be viewed on the PlanTask page only.
+Work List Items, added on the Work List Setup page, are not assigned to a plan and do not have predecessor tasks. They cannot be in a Waiting on Dependency status and cannot have Tags assigned.</description>
+    </item>
+    
+    <item>
+      <title>Add a Comment to a Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_a_comment_to_a_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_a_comment_to_a_task/</guid>
+      <description>Add a Comment to a Task Enter a comment about a Plan Task on the Vertical View of the Plan Task page or the Vertical View of the Work List. Once saved, comments are visible on either page.
+NOTE: Comments can be added at any time. A user may be required to enter a comment Refer to Set Comment Requirements for Tasks for more information.
+Once a task is completed on the Work List, the task no longer displays on the Work List.</description>
+    </item>
+    
+    <item>
+      <title>Add a Default Calendar to a Plan or to All Plans</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_a_default_calendar_to_a_plan1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_a_default_calendar_to_a_plan1/</guid>
+      <description>Add a Default Calendar to a Plan or to All Plans dspTrack™ uses the non-work days and holidays in a calendar when performing status calculations. Calendars are added in Common, where the calendar users, holidays and non-work days are also assigned. Refer to Use a Calendar for more information.
+A calendar can be assigned while importing a project into a plan. Refer to Import Project Files into dspTrack™ for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add a Plan Task Manually</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_a_plan_task_manually/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_a_plan_task_manually/</guid>
+      <description>Add a Plan Task Manually Add a Plan Task by importing a project.
+Refer to Import Project Files into dspTrack™ for more information.
+A Plan Task can also be added manually.
+To add a task manually:
+ Click Project in Navigation pane.
+ Click Plans for a project.
+ Click Tasks for a Plan.
+ Click Add on the Plan Task page.
+View the field descriptions for the Plan Task page</description>
+    </item>
+    
+    <item>
+      <title>Add a Predecessor Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_a_predecessor_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_a_predecessor_task/</guid>
+      <description>Add a Predecessor Task When a project file is imported into dspTrack™, the predecessor tasks and dependency types are also imported.
+Refer to Import Project Files into dspTrack™ for more information.
+A predecessor task can also be added manually.
+If a task has a predecessor task, the dependency type determines when work on the dependent task can begin (i.e., when the task will move from Waiting on Dependency status to Ready status, so that a user can click Next Action on the Work List to move the task to In Progress status).</description>
+    </item>
+    
+    <item>
+      <title>Add a Tag</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/add_a_tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/add_a_tag/</guid>
+      <description>Add a Tag Add a tag on the Tag page.
+NOTE: A tag cannot be added on the Tag – All Types page.
+To add a tag:
+ Select Configuration &amp;gt; Tag Type from the Navigation pane.
+ Click the icon for a Tag Type.
+NOTE: If the user clicks the icon for All Tag Types, no tags can be added.
+ Click Add. View the field descriptions for the Tag page</description>
+    </item>
+    
+    <item>
+      <title>Archive a Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/archive_a_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/archive_a_plan/</guid>
+      <description>Archive a Plan dspTrack™ allows a user to archive a plan for reporting purposes. When a plan is archived, dspTrack™ stores a copy of that plan and the date the archive was saved  in an archive table, and the data can then be used as the basis for reports.
+To archive a plan:
+ Click Project in the Navigation pane. Click Plans for a project. Click Vertical View. Click Archive tab.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Registered User&#39;s Tasks to Another User</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/assign_registered_user_tasks_another_user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/assign_registered_user_tasks_another_user/</guid>
+      <description>Assign a Registered User&amp;rsquo;s Tasks to Another User If the name in the NAME field on the Plan User Registration page is changed to match a User ID that is already in the Platform, all of the user’s assignments for that plan will be assigned to that user in the Platform.
+To update the user name if necessary:
+ Click Project in the Navigation pane.
+ Click Plans for a project.</description>
+    </item>
+    
+    <item>
+      <title>Assign a Tag to Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/assign_a_tag_to_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/assign_a_tag_to_tasks/</guid>
+      <description>Assign a Tag to Tasks There are two methods to assign tags to tasks, depending on the number of tasks that will have the tag assigned.
+To assign a tag to many tasks at once:
+ Select Configuration &amp;gt; Tag Type in the Navigation pane.
+ Click the icon for the Tag Type.
+ Click Assign to Tasks for the tag.
+ Select a PLAN TASK ID on the Tag Plan Task Assignments page.</description>
+    </item>
+    
+    <item>
+      <title>Calculate Schedule Status</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/calculate_schedule_status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/calculate_schedule_status/</guid>
+      <description>Calculate Schedule Status The Schedule Status for a task indicates whether a task is on time, behind or late. 
+Using Warn Thresholds, dspTrack™ can give users a nuanced understanding of a task’s schedule status so that resources can be allocated or a project plan can be updated before the plan becomes late.
+These thresholds are set at the plan level and expressed as percentages of the entire duration of a task.</description>
+    </item>
+    
+    <item>
+      <title>Calculate the Critical Path for a Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/calculate_the_critical_path_for_a_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/calculate_the_critical_path_for_a_plan/</guid>
+      <description>Calculate the Critical Path for a Plan dspTrack™ uses a plan’s Critical Path (and other settings) to determine a task’s schedule status. If a task is on the Critical Path and that task is late, all subsequent tasks on the Critical Path will also be late, even if work on these tasks has not yet started, or the planned start date or planned finish date has not passed.
+When a Microsoft Project file or an Excel file is imported into dspTrack™, the schedule for that project is automatically calculated.</description>
+    </item>
+    
+    <item>
+      <title>Configure Logic Tags</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/configure_logic_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/configure_logic_tags/</guid>
+      <description>Configure Logic Tags Once a tag with a Logic tag type has been added, it can be further configured by adding rules and validations that will execute for any task assigned to the tag.
+Validations are stored procedures or views that have been written and saved in a data source that is registered in the DSP®. A validation executes when an event occurs, and confirms that a process is valid.</description>
+    </item>
+    
+    <item>
+      <title>Configure Plan Tags</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/configure_project_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/configure_project_tags/</guid>
+      <description>Configure Plan Tags Plan tags, used to group tasks for reporting and organization purpose, do not have additional registrations to configure.
+Refer to Assign a Tag to Tasks to continue with configuring plan tags.</description>
+    </item>
+    
+    <item>
+      <title>Configure Security Tags</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/configure_security_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/configure_security_tags/</guid>
+      <description>Configure Security Tags Once a tag with a Security tag type has been added, it can be further configured by adding users to the tag. These users are then assigned to any task to which the tag is assigned.
+To add a user to the tag:
+ Select Configuration &amp;gt; Tag Type in the Navigation pane.
+ Click the icon for the Security Tag Type.
+ Click Registrations for the tag.</description>
+    </item>
+    
+    <item>
+      <title>Copy Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_plan/</guid>
+      <description>Copy Plan Use this page to [Copy Plans](Copy_Plans.htm).  To access this page:
+ Select Track &amp;gt; Project from the *Navigation* pane. Click Plans for a project. Select a plan NAME. Click Copy Plan.           Field Description   Copy Plan Click to copy the plan after selecting copy options.   Copy Users If enabled, users assigned to all tasks in the plan are included in the copied plan.</description>
+    </item>
+    
+    <item>
+      <title>Copy Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_plan_task/</guid>
+      <description>Copy Plan Task Use this page to [Copy Plan Tasks](Copy_Tasks1.htm).  To access this page:
+ Select Track &amp;gt; Project in the *Navigation* pane. Click Plans for a project. Click Tasks for a plan. Select a task NAME. Click Copy Plan Task.    Field
+ Description
+  Copy Plan Task
+ Click to copy the plan task after selecting copy options.
+NOTE: A Plan Task cannot be copied to a Plan that is active.</description>
+    </item>
+    
+    <item>
+      <title>Copy Plan Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_tasks1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_tasks1/</guid>
+      <description>Copy Plan Tasks When a user copies a task, all of the following items can also be copied:
+ Users assigned to the task Task Dependencies Tags assigned to the task Work List Event rules for tasks Work List Event validations for tasks  NOTE: A Plan Task cannot be copied to a Plan that is active. Refer to Activate and Deactivate a Plan for more information.
+To copy a task:</description>
+    </item>
+    
+    <item>
+      <title>Copy Plans</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_plans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_plans/</guid>
+      <description>Copy Plans When a user copies a plan, all of the following items can also be copied:
+ Users assigned to all tasks in the plan Task dependencies for all tasks in the plan ags assigned to all tasks in the plan Work List Event rules for the plan Work List Event rules for the plan Work List Event validations for all tasks in the plan Work List Event validations for all tasks in the plan  To copy a plan:</description>
+    </item>
+    
+    <item>
+      <title>Copy Projects</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_projects/</guid>
+      <description>Copy Projects When a user copies a project, all of the following items can also be copied:
+ Users assigned to all tasks in all plans in the project Task dependencies for all tasks in all plans in the project Tags assigned to all tasks in the project Work List Event rules for plans Work List Event rules for tasks Work List Event validations for plans Work List Event validations for tasks  To copy a project:</description>
+    </item>
+    
+    <item>
+      <title>Copy Projects, Plans, Tasks, and Tags</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_projects_plans_tasks_and_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_projects_plans_tasks_and_tags/</guid>
+      <description>Copy Projects, Plans, Tasks, and Tags dspTrack™ objects (projects, plans, tasks and tags) can be copied and used as the basis for new objects.
+Depending on the object selected, the user can also copy:
+ Users assigned to the tasks Task dependencies Tags assigned to tasks Work List Event rules for plans Work List Event rules for tasks Work List Event validations for plans Work List Event validations for tasks  NOTE: Files uploaded to plans or Plan Tasks are not copied.</description>
+    </item>
+    
+    <item>
+      <title>Copy Tag Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/copy_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/copy_tags/</guid>
+      <description>Copy Tag Tasks When a user copies a Tag, all of the tasks assigned to the tag are copied. The following items associated with all of the tasks can also be copied:
+ Users assigned to the tasks assigned to the tag Task dependencies for all tasks assigned to the tag Tags assigned to all tasks assigned to the tag Work List Event rules for all tasks assigned to the tag Work List Event validations for all tasks assigned to the tag  NOTE: Because tags are not plan specific, a user must specify the source plan and the destination plan when copying a tag.</description>
+    </item>
+    
+    <item>
+      <title>Create an Escalation Process</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/create_an_escalation_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/create_an_escalation_process/</guid>
+      <description>Create an Escalation Process dspTrack™ allows users to send escalation workflow emails to management regarding late tasks. The escalation email is generated by dspTrack™ to make management aware of late tasks within a project.
+Before a late task can be escalated, the escalation process must be configured following the steps in this section.
+NOTE: Users must have the correct security to configure the escalation process. Users must be assigned to security roles that have the WebApp Groups Power User, Power Designer or Administrator assigned.</description>
+    </item>
+    
+    <item>
+      <title>Download and View Uploaded Files for a Plan, Task, or Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/downloadviewuploadedfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/downloadviewuploadedfiles/</guid>
+      <description>Download and View Uploaded Files for a Plan, Task, or Work List Item Once files have been uploaded, they can be downloaded and viewed from the File Upload page.
+The File Upload page displays:
+ For a plan, all files for that plan and tasks associated with the plan For a task, all files for that task For a Work List Item, all files for that item  Refer to Upload files for a Plan, Task or Work List Item for more information.</description>
+    </item>
+    
+    <item>
+      <title>Escalate Late Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/escalate_late_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/escalate_late_tasks/</guid>
+      <description>Escalate Late Tasks A user assigned to the DSPTrack.Project.Template or DSPTrack.Plan.Template security roles can escalate late tasks for a project.
+NOTE: The security keys for the project and plan must have been added to the security role as well. Refer to Set Up Security for dspTrack™ for more information.
+When viewing all tasks in all projects (select Late Tasks in the Navigation pane), the managers that display on the Late Task Escalation page depend on whether work on the late task selected on the Late Task page has begun.</description>
+    </item>
+    
+    <item>
+      <title>Export a Project File</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/export_a_project_file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/export_a_project_file/</guid>
+      <description>Export a Project File Export a project to make updates to the project in MS Project, then import the plan to dspTrack™ to update the project data.
+Refer to Import Project Files into dspTrack™ for more information.
+A project can be exported from dspTrack™ in the form of an Excel file (with an .xlsx extension) or an MS Project 2012 project (with an .mpp extension).
+NOTE: A plan must have a Project File Type set to use export functionality.</description>
+    </item>
+    
+    <item>
+      <title>Export a Project as an Excel File in MS Project</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/export_project_excl_sprdsht_msproject/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/export_project_excl_sprdsht_msproject/</guid>
+      <description>Export a Project as an Excel File in MS Project  In MS Project, select File &amp;gt; Save As and select Excel spreadsheet.
+NOTE: The export wizard displays.
+ Click Next.
+ Click Selected Data and click Next.
+ Select New map and click Next.
+ Ensure that Tasks, Resources, Assignments and Export includes headers check boxes are enabled.
+NOTE: The Include assignment rows in output check box should be disabled.</description>
+    </item>
+    
+    <item>
+      <title>Finish Work on a Work List Item or Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/finish_a_work_list_item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/finish_a_work_list_item/</guid>
+      <description>Finish Work on a Work List Item or Plan Task A user can mark an item as finished on the Work List, even if that item is late. Once an item is finished, it no longer displays on the Work List. Plan Tasks in a Completed status display on thePlan Taskpage and Work List Detail page. Work List Items in a Completed status display on theWork List Detailpage only.</description>
+    </item>
+    
+    <item>
+      <title>Finish to Finish</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/finish_to_finish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/finish_to_finish/</guid>
+      <description>Finish to Finish This dependency type dictates that work on the predecessor task must be finished before work on the dependent task can be finished.
+A user clicks Next Action on the Work List to move the predecessor Plan Task from In Progress to Completed status. Work on the dependent task may have already begun but cannot move from In Progress to Completed status until the predecessor task is in Completed status.</description>
+    </item>
+    
+    <item>
+      <title>Finish to Start</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/finish_to_start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/finish_to_start/</guid>
+      <description>Finish to Start This dependency type dictates that work on the predecessor task must be finished before work on the dependent task can start.
+A user clicks Next Action on the Work List to move the predecessor Plan Task from In Progress status to Completed status. The dependent task status moves from Waiting on Dependency to Ready status and work on the dependent task can begin.
+When setting a Finish to Start dependency type, the planned finish date for the predecessor task must not be a later date than the planned start date for the dependent task.</description>
+    </item>
+    
+    <item>
+      <title>Import Project Files into dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/import_project_files_into_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/import_project_files_into_dsptrack/</guid>
+      <description>Import Project Files into dspTrack™ dspTrack™ allows a user to import project files into a dspTrack™ plan, quickly adding tasks and other plan related information.
+Project files must be in the form of Excel files (in .xlsx format) which have been exported from Microsoft Project, or MS Project 2012 files (in .mpp format).
+Projects can also be exported from dspTrack™ to be updated in MS Project, then imported into dspTrack™ to update project data.</description>
+    </item>
+    
+    <item>
+      <title>Import a Project File</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/import_the_project_file_into_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/import_the_project_file_into_dsptrack/</guid>
+      <description>Import a Project File Refer to Required Columns for Import Import the Project File into dspTrack™ and Task Status on Import for more information.
+NOTE: When an MS Project file is imported into dspTrack™, a calendar is added with the Project name at the start of the calendar name.
+To import a project file:
+ Select Project in Navigation pane.
+ Click Plans for a project.
+ Click Vertical View for a plan.</description>
+    </item>
+    
+    <item>
+      <title>Inform Users of Late Tasks with Escalation Processes</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/inform-users-of-late-tasks-with-escalation-processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/inform-users-of-late-tasks-with-escalation-processes/</guid>
+      <description> Inform Users of Late Tasks with Escalation Processes This section contains the following topics:
+ View Late Tasks Create an Escalation Process Escalate Late Tasks  </description>
+    </item>
+    
+    <item>
+      <title>Map a Project User Name to a User Name in the Platform</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/map_prjct_usrnme_platform_usrnm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/map_prjct_usrnme_platform_usrnm/</guid>
+      <description>Map a Project User Name to a User Name in the Platform If an MS Project plan has resource names assigned to tasks that do not exactly match the corresponding user IDs in the platform, the Resource Synonym page can be used to map the resource names to the platform user IDs.
+To map a resource name to a platform user ID:
+ Click Project in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Organize Plans with Projects</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/organize_plans_with_projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/organize_plans_with_projects/</guid>
+      <description>Organize Plans with Projects Projects group plans for reporting purposes.
+NOTE: When a project or plan is added, the user who added the project or plan has access to that project or plan. For other users to access the project or plan, an Administrator must add the project or plan key to the Plan Role or Project Role security role.
+NOTE: Once a project and plan have been added to dspTrack™, import a project file to add data to the plan.</description>
+    </item>
+    
+    <item>
+      <title>Receive Workflow Messages</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/receive_workflow_messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/receive_workflow_messages/</guid>
+      <description>Receive Workflow Messages dspTrack™ sends workflow messages to users assigned to a Plan Task or Work List Item under certain conditions. Settings can configure how users receive the workflow messages, and how long these messages are retained.
+Users can receive messages as an email, a message displayed in the DSP®, or both. Refer to Set User Workflow Receipt Preferences for more information.
+dspTrack™ sends workflow messages to users assigned to a Plan Task or Work List Item when:</description>
+    </item>
+    
+    <item>
+      <title>Register Unregistered Users Imported into dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_unregistered_users_imprtd_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_unregistered_users_imprtd_dsptrack/</guid>
+      <description>Register Unregistered Users Imported into dspTrack™ When a project is imported into dspTrack™, the component attempts to match the resources from MS Project with users registered in the platform. When a match is found, that user is assigned to the Plan Task.
+If a project is imported into dspTrack™ with users that have not been registered in the Platform, register those users to assign them to Plan Tasks. The work these users perform can then be tracked using the Work List.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Rules</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_rules/</guid>
+      <description>Register Work List Event Rules Work List Event rules can be registered at the Work List, Plan, and Plan Task level and tag level, and can be set to run when work on a task starts or completes.
+The event rule is triggered when a user clicks the Next Action button on the Work List to indicate that work on the task has started or finished.
+Before registering the rule, it must be written and stored in a data source that is registered in Common.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Rules for a Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_rules_for_a_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_rules_for_a_plan/</guid>
+      <description>Register Work List Event Rules for a Plan Rules registered at the plan level execute for all tasks in the plan.
+NOTE: Work List Items do not belong to plans, so rules registered to a plan have no effect on Work List Items.
+Work List Event Rules can also be registered at the Work List Item level, Plan Task level or tag level.
+Refer to Register Work List Event Rules for more information about viewing and editing all rules from one page, and about parameters that can be used in Work List Event Rules.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Rules for a Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_rules_for_a_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_rules_for_a_plan_task/</guid>
+      <description>Register Work List Event Rules for a Plan Task Rules registered at the Plan Task level execute for the selected task.
+Work List Event Rules can also be registered at the plan level, Work List Item level, or tag level.
+Refer to Register Work List Event Rules for more information about viewing and editing all rules from one page, and about parameters that can be used in Work List Event Rules.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Rules for a Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_rules_worklist_item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_rules_worklist_item/</guid>
+      <description>Register Work List Event Rules for a Work List Item On the Work List Setup page, Work List Items and Plan Tasks display. A Work List Event Rule can be added to a Work List Item using the Rules icon on this page.
+Work List Event Rules can also be registered at the plan level, Plan Task level or tag level.
+Refer to Register Work List Event Rules for more information about viewing and editing all rules from one page, and about parameters that can be used in Work List Event Rules.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Validations</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_work_list_event_validations/</guid>
+      <description>Register Work List Event Validations Work List Event Validations can also be set at the Plan Task level, Work List Item level, the tag level, and the plan level, and can be set to run when work on a Plan Task or Work List Item starts or completes.
+Validations are stored procedures or views that have been written and saved in a data source that is registered in the DSP®.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Validations for a Plan</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_validations_plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_validations_plan/</guid>
+      <description>Register Work List Event Validations for a Plan Validations registered at the plan level execute for all tasks in the plan.
+NOTE: Work List Items do not belong to plans, so validation registered to a plan have no effect on Work List Items.
+Work List Event Validations can also be set at the Plan Task level, Work List Item level, and the tag level.
+Refer to Register Work List Event Validations for more information about viewing and editing all validations from one page, and about parameters that can be used in Work List Event validations.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Validations for a Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_validations_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_validations_plan_task/</guid>
+      <description>Register Work List Event Validations for a Plan Task Validations registered at the Plan Task level execute for the selected task.
+Work List Event Validations can also be set at the Plan Task level, Work List Item level, at the tag level, and at the plan level.
+Refer to Register Work List Event Validations for more information about registering validations at the plan level, viewing and editing all validations, and parameters that can be used for Work List Event Validations.</description>
+    </item>
+    
+    <item>
+      <title>Register Work List Event Validations for a Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_valid_worklist_item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/register_worklist_event_valid_worklist_item/</guid>
+      <description>Register Work List Event Validations for a Work List Item On the Work List Setup page, Work List Items and Plan Tasks display. A Work List Event Validation can be added to a Work List Item using the Validations icon on this page.
+Work List Event Validations can also be set at the Plan Task level, the tag level, and the plan level.
+Refer to Register Work List Event Validations for more information about viewing and editing all validations from one page, and about parameters that can be used in Work List Event validations.</description>
+    </item>
+    
+    <item>
+      <title>Required Columns for Import into dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/required_columns_for_import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/required_columns_for_import/</guid>
+      <description>Required Columns for Import into dspTrack™ To be imported into dspTrack™, the following columns are required in the spreadsheet or project file:
+ ID
+ Active
+NOTE: dspTrack™ will only import tasks that are marked as Active in MicroSoft Project.
+ Task Mode
+NOTE: Auto Scheduled is the only valid value in this column.
+ Name
+NOTE: This value in this column displays in the NAME column on the PlanTask page after the file is imported.</description>
+    </item>
+    
+    <item>
+      <title>Set Comment Requirements for Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/set_comment_requirements_for_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/set_comment_requirements_for_tasks/</guid>
+      <description>Set Comment Requirements for Tasks By default, comments are not required when finishing a task, even if the task is finished after the planned finish date. A user finishes a task by clicking the Next Action button on the Work List for a task with a status of In Progress.
+Refer to Task Status for more information.
+dspTrack™ can be configured to require a user to enter a comment when finishing a task on, before, or after the planned finish date.</description>
+    </item>
+    
+    <item>
+      <title>Set Parameters for Schedule Status Calculation</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/set_parameters_for_schedule_status_calculation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/set_parameters_for_schedule_status_calculation/</guid>
+      <description>Set Parameters for Schedule Status Calculation To set parameters for schedule status calculation at the plan level:
+ Select Project in the Navigation pane.
+ Click Plans for a project.
+ Click Vertical View for a plan.
+ Click the Status Configuration tab.
+ Click Edit.
+View the field descriptions for the Plan page’s Vertical View Status Configuration tab
+ Enter a value in the Pre Start Warn Threshold field.</description>
+    </item>
+    
+    <item>
+      <title>Set User Workflow Receipt Preferences</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/set_user_workflow_receipt_preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/set_user_workflow_receipt_preferences/</guid>
+      <description>Set User Workflow Receipt Preferences By default, users receive workflow messages from dspTrack™ via email and notification from within the DSP®.
+A user can change workflow receipt preferences for that user’s account only. Workflow messages can be received via email, a notification in the DSP®, or both.
+NOTE: By default, a service page runs every five minutes to check for workflow updates and to send a notification to the users assigned to the Plan Tasks and Work List Items that have been updated.</description>
+    </item>
+    
+    <item>
+      <title>Set a Comment Code for a Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/set_a_comment_code_for_a_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/set_a_comment_code_for_a_plan_task/</guid>
+      <description>Set a Comment Code for a Plan Task To set a comment code for a Plan Task:
+ Click Project in the Navigation pane.
+ Click Plans for a project.
+ Click Tasks for a plan.
+ Click Vertical View for a task.
+ Click Late Comment.
+NOTE: The Late Comment icon is disabled when the schedule status for a Plan Task or Work List Item is not late (i.</description>
+    </item>
+    
+    <item>
+      <title>Set a Comment Code for a Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/set_a_comment_code_for_a_work_list_item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/set_a_comment_code_for_a_work_list_item/</guid>
+      <description>Set a Comment Code for a Work List Item To set a comment code for a Work List item:
+ Click the blue tab on the Quick Panel to access theWork List.
+ Click Vertical View for an item.
+ Click Late Comment.
+NOTE: The Late Comment icon is disabled when the schedule status for a Plan Task or Work List Item is not late (i.e., its schedule status is on time (green) or behind (yellow)).</description>
+    </item>
+    
+    <item>
+      <title>Set the Upload Path for dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/set_the_upload_path_for_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/set_the_upload_path_for_dsptrack/</guid>
+      <description>Set the Upload Path for dspTrack™ dspTrack™ allows users to import project files in MSProject (.mpp) and Excel file (.xlsx) format to use when creating or updating a plan. A project file must be uploaded before it can be imported.
+The file path where project files are uploaded must be set at a client’s site prior to creating plans.
+To set the upload path:
+ Select Configuration &amp;gt; Parameters in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/setup_and_configuration_for_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/setup_and_configuration_for_dsptrack/</guid>
+      <description> Setup and Configuration for dspTrack™ Before getting started with dspTrack™, verify the following has been completed:
+ Set Up Security for dspTrack™ Set the Upload Path for dspTrack™  </description>
+    </item>
+    
+    <item>
+      <title>Start Work on a Work List Item or Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/start_work_on_a_work_list_item_or_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/start_work_on_a_work_list_item_or_plan_task/</guid>
+      <description>Start Work on a Work List Item or Plan Task A user can mark an item as started on the Work List.
+NOTE: Depending on how a user&amp;rsquo;s workflow preferences are set, a resource may receive an email when a task is in Ready status and work on the item can begin. Refer to Receive Workflow Messages for more information.
+NOTE: Work on a task cannot start if the task is in a status of Waiting on Dependency.</description>
+    </item>
+    
+    <item>
+      <title>Start to Finish</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/start_to_finish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/start_to_finish/</guid>
+      <description>Start to Finish This dependency type dictates that work on the predecessor task must have started before work on the dependent task can finish.
+A user clicks Next Action on the Work List to move the predecessor Plan Task from Ready to In Progress status. Work on the dependent task may have already begun, but the user cannot move the task status from In Progress to Completed until the predecessor task has a status of In Progress.</description>
+    </item>
+    
+    <item>
+      <title>Start to Start</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/start_to_start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/start_to_start/</guid>
+      <description>Start to Start This dependency type dictates that work on the predecessor task must have started before work on the dependent task can finish.
+A user clicks Next Action on the Work List to move the predecessor Plan Task from Ready to In Progress status. Work on the dependent task may have already begun, but the user cannot move the task status from In Progress to Completed until the predecessor task has a status of In Progress.</description>
+    </item>
+    
+    <item>
+      <title>Tasks on the Critical Path</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/tasks_on_the_critical_path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/tasks_on_the_critical_path/</guid>
+      <description>Tasks on the Critical Path Schedule status calculations take the critical path into account. If a task is in the critical path and it is late, all tasks that are also in the critical path that occur after the late task are also late.
+A task is in the critical path if it is marked as part of the critical path in Microsoft Project and imported into dspTrack™.
+These tasks on the critical path display with a red icon until the earliest, incomplete task in the critical path is back on schedule.</description>
+    </item>
+    
+    <item>
+      <title>Upload Files for a Plan, Task or Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/upldfilesfoprojtaskwrklistitem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/upldfilesfoprojtaskwrklistitem/</guid>
+      <description>Upload Files for a Plan, Task or Work List Item Files of any type, such as .xlsx, .txt or .html, can be uploaded for a plan, Plan Task, or Work List Item. There is no restriction on the number of files that can be uploaded. File size restrictions for each file are based on settings in the underlying system and settings in the platform.
+Once uploaded, files can be downloaded and viewed.</description>
+    </item>
+    
+    <item>
+      <title>Upload Files to a Work List Item</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/upload_files_to_a_work_list_item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/upload_files_to_a_work_list_item/</guid>
+      <description>Upload Files to a Work List Item Refer to Upload and Download Files for a Plan, Task or Work List Item for more information.</description>
+    </item>
+    
+    <item>
+      <title>Upload and Download Files for a Plan Task</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/upload_and_download_files_for_a_plan_task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/upload_and_download_files_for_a_plan_task/</guid>
+      <description>Upload and Download Files for a Plan Task Refer to Upload and Download Files for a Plan, Task or Work List Item for more information.</description>
+    </item>
+    
+    <item>
+      <title>Use Comment Codes</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/use_comment_codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/use_comment_codes/</guid>
+      <description>Use Comment Codes Depending on how dspTrack™ is configured, a user may be required to select a comment code when a task is completed after the planned finish date.
+Refer to Set Comment Requirements for Tasks for more information.
+A user can also add a comment code even when not required to do so. Comment codes are available for all tasks in all plans.
+Reports are included with dspTrack™ that list counts of tasks, tags, and codes by comment code: Late Reason by Plan, Late Reason by Tag and Late Reason by Code.</description>
+    </item>
+    
+    <item>
+      <title>Use Dependency Types</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/use_dependency_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/use_dependency_types/</guid>
+      <description>Use Dependency Types When a project file is imported into dspTrack™, the predecessor tasks and dependency types are also imported.
+Refer to Import Project Files into dspTrack™ for more information.
+Use a dependency type (Start to Finish, Finish to Start, Finish to Finish, or Start to Start) to set when work on a dependent Plan task can start or finish based on when work on the predecessor task starts or finishes.</description>
+    </item>
+    
+    <item>
+      <title>Use Tags</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/use_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/use_tags/</guid>
+      <description>Use Tags A tag is an optional label applied to a task or group of tasks. Tags can ensure that a group of tasks all have the same users, rules or validations, and can be used to group tasks for reporting purposes.
+Tags are further defined by tag types. There are three tag types:
+ Logic – When a tag with this tag type is assigned to a task, any rules and validations assigned to the tag are executed when the task is either started or completed from the Work List.</description>
+    </item>
+    
+    <item>
+      <title>Use the Work List</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/use_the_work_list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/use_the_work_list/</guid>
+      <description>Use the Work List The Work List displays tasks in active plans that are not complete and are assigned to the logged in user. To activate a plan, refer to Activate and Deactivate a Plan for more information.
+A Work List Item, created on the Work List Setup page (Configuration &amp;gt; Work List) displays on the Work List after it has been created. Work List Items are not associated with plans, so do not require plan activation to display.</description>
+    </item>
+    
+    <item>
+      <title>View Late Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_late_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_late_tasks/</guid>
+      <description>View Late Tasks A task is late if the task is not in a Completed status and:
+ The current date is later than the planned finish date or The task is on the critical path and a task that occurs before it in the critical path is late or The task has passed a Threshold Warning. Refer to Set Parameters for Task Status Calculation for more information about Threshold Warnings.</description>
+    </item>
+    
+    <item>
+      <title>View Reports in dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_reports_in_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_reports_in_dsptrack/</guid>
+      <description>View Reports in dspTrack™ dspTrack™ is installed with reports to help users track task status, tasks that are late, whether tasks are unassigned to a resource or overdue, and many other parameters.
+The data that displays on reports is based on a user’s security settings.
+To access reports, click Reports in the Navigation pane.
+ Late Reason By Plan: Lists the name of the plan and the number of late tasks by comment code.</description>
+    </item>
+    
+    <item>
+      <title>View Tags and Tag Types</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_tags_and_tag_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_tags_and_tag_types/</guid>
+      <description>View Tags and Tag Types Tag Types are delivered with the Platform and cannot be edited. No new tag types can be added.
+To view a list of Tag Types, select Configuration &amp;gt; Tag Type from the Navigation pane.
+To view the tags that have been added for each Tag type, click the icon for a tag type.
+To view the plans that have tasks that use the tag, click Plans for a tag.</description>
+    </item>
+    
+    <item>
+      <title>View Work List Details</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_work_list_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_work_list_details/</guid>
+      <description>View Work List Details The Work List Detail page displays additional information that is not available on the Work List about all tasks in every task status, including Completed.
+To view the work list details:
+ Click the blue tab on the Quick Panel to access the Work List. Click Work List Details on the Page Toolbar; all work list details for all Plan Tasks and Work List Items display.</description>
+    </item>
+    
+    <item>
+      <title>View Workflow Messages Sent</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_workflow_messages_sent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_workflow_messages_sent/</guid>
+      <description>View Workflow Messages Sent A user can view the workflow messages dspTrack™ has sent by selecting Configuration &amp;gt; Workflow &amp;gt; Log.
+Each record displays the details of the message, who received it, and when it was sent.
+Workflow messages are retained for the number of days set in Workflow Retention Days. Access this option by selecting Configuration &amp;gt; Parameters &amp;gt; Workflow tab. After the retention period has passed, the messages are deleted.</description>
+    </item>
+    
+    <item>
+      <title>View all Work List Items and Plan Tasks for All Work Lists</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/vwallitemsprojtasksforwrklists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/vwallitemsprojtasksforwrklists/</guid>
+      <description>View all Work List Items and Plan Tasks for All Work Lists To view all Work List Items and Plan Tasks for all Work Lists, selectConfiguration &amp;gt; Work List.
+This page also allows the user to access pages that display, for each task or item, the users assigned, associated event rules and validations, files uploaded, and the page ID and the binding criteria if applicable.
+If a Plan Task is in Completed status, it displays on the Plan Task page or the Work List Detail page.</description>
+    </item>
+    
+    <item>
+      <title>View and Edit All Event Rules</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_and_edit_all_event_rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_and_edit_all_event_rules/</guid>
+      <description>View and Edit All Event Rules dspTrack™ displays all of the Event Rules for all Work List Items, plans, Plan Tasks, and tags on the Event Rules All page.
+To access this page, select Configuration &amp;gt; Event Rules.
+To edit a Work List Event Rule on this page:
+ Select Configuration &amp;gt; Event &amp;gt; Rules - All from the Navigation pane.
+ Click Edit.
+View the field descriptions for the Event Rules All page</description>
+    </item>
+    
+    <item>
+      <title>View and Edit All Event Validations</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_and_edit_all_work_list_event_validations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_and_edit_all_work_list_event_validations/</guid>
+      <description>View and Edit All Event Validations dspTrack™ displays all of the Event Validations for all Work List Items, plans, Plan Tasks, and tags on the Event Validations All page.
+To access this page, select Configuration &amp;gt; Event Validations.
+To edit an Event Validation on this page:
+ Select Configuration &amp;gt; Events &amp;gt; ValidationsAll from the Navigation pane.
+ Click Edit; Vertical View displays.
+View the field descriptions for the Event Validations All page</description>
+    </item>
+    
+    <item>
+      <title>View the Dashboard in dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_dashboards_in_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_dashboards_in_dsptrack/</guid>
+      <description>View the Dashboard in dspTrack™ The dspTrack™ dashboard provides an overview of the status of projects, plans, and tasks.
+NOTE: Charts display data from active plans only. Refer to Activate and Deactivate a Plan for more information.
+NOTE: Information about Work List Items is not displayed in the dashboard as Work List Items are not assigned to projects and plans.
+The data on the dashboard displays based on a user’s security settings.</description>
+    </item>
+    
+    <item>
+      <title>View the Debug Log for dspTrack™</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/view_the_debug_log_for_dsptrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/view_the_debug_log_for_dsptrack/</guid>
+      <description>View the Debug Log for dspTrack™ Errors encountered when importing or exporting data from dspTrack™ are logged on the debug log accessible in Common.
+To assist in troubleshooting, view the log by selecting Common &amp;gt; Job Monitor &amp;gt; Debug Logs &amp;gt; View Debug Logs for dspTrack™. Refer to Monitor Application Activity for more information about viewing activity, configuring debug logs settings and deleting monitored records.</description>
+    </item>
+    
+    <item>
+      <title>Work with Plan Tasks</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/work_with_plan_tasks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/work_with_plan_tasks/</guid>
+      <description>Work with Plan Tasks Plan Tasks are imported into dspTrack™ when a project file is imported.
+Refer to Import Project Files into dspTrack™.
+Plan Tasks, user assignments to Plan Tasks, and task dependencies can also be added manually.
+Plan Tasks and Work List Items display on the Work List and Work List Setup page. To differentiate between the two, a Plan Task has a Project and Plan name in the PROJECT and PLAN field on the Work List and Work List Setup page.</description>
+    </item>
+    
+    <item>
+      <title>Work with Work List Items</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/work_with_work_list_items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/work_with_work_list_items/</guid>
+      <description>Work with Work List Items Work List Items are ad hoc tasks that can be added outside of project and plans.
+Work List Items are different from Plan Tasks in that Work List Items:
+ Are not assigned to a plan or project Do not have predecessor tasks, and are never in the status Waiting on Dependency Are added on the Work List Setup page Cannot be copied Cannot have tags assigned Only display on the Work List Detail page when the status is Completed Do not have Warn Thresholds applied Do not have a duration or Unit of Measure set Are never included on the Critical Path Are never milestones  Work List Items, like Plan Tasks, display on the Work List unless they are in Completed status.</description>
+    </item>
+    
+    <item>
+      <title>dspTrack™ and MSProject Integration</title>
+      <link>https://heathercloward.github.io/dsptrack/use_cases/dsptrck_and_msprjct_intgrtion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/dsptrack/use_cases/dsptrck_and_msprjct_intgrtion/</guid>
+      <description>dspTrack™ and MSProject Integration dspTrack™ is a task execution tool and should be used to monitor tasks as they move through a workflow. It should not be used as a project management tool. Updates to project data should be maintained in MSProject or Microsoft Excel.
+To update project data for a dspTrack™ plan:
+ Export the data from dspTrack™
+ Import the data into MSProject.
+ Update the data in MSProject</description>
+    </item>
+    
+  </channel>
+</rss>

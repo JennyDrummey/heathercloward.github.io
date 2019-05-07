@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Automation SQL Target Source :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/sql-autogen/" class="active">SQL AutoGen Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/sql-autogen/page_desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/sql-autogen/page_desc/autogen_sql_log/" class="">AutoGen SQL Log</a></li>
+        
+            <li >
+                <a href="/sql-autogen/page_desc/automation_page/" class="">Automation H</a></li>
+        
+            <li >
+                <a href="/sql-autogen/page_desc/automation_sql_field_mappings_h/" class="">Automation SQL Field Mappings H</a></li>
+        
+            <li >
+                <a href="/sql-autogen/page_desc/automation_sql_target_source/" class="uk-active">Automation SQL Target Source</a></li>
+        
+            <li >
+                <a href="/sql-autogen/page_desc/automation_sql_target_source_update_row/" class="">Automation SQL Target Source (Update Row)</a></li>
+        
+            <li >
+                <a href="/sql-autogen/page_desc/parameters_automation/" class="">Parameters Automation</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/sql-autogen/use_cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/sql-autogen/use_cases/build_reports/" class="">Build Reports</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/build_source_tables/" class="">Build Source Tables</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/build_target_tables/" class="">Build Target Tables</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/build_an_update_row_source_table/" class="">Build an Update Row Source Table</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/create_rules/" class="">Create Rules</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/create_rules_for_an_update_row_source/" class="">Create Rules for an Update Row Source</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/create_and_approve_all_rule/" class="">Create and Approve All Rules</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/field_mappings_and_sql_automation/" class="">Field Mappings and SQL AutoGen</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/reject_a_mapping/" class="">Reject a Mapping</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/reset_a_mapping/" class="">Reset A Mapping</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/set_the_auto_gen_level_for_a_target/" class="">Set the Auto Gen Level for a Target</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/setup_and_configuration_for_sql_autogen/" class="">Setup and Configuration for SQL AutoGen</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/update_a_rule_status/" class="">Update a Rule Status</a></li>
+        
+            <li >
+                <a href="/sql-autogen/use_cases/view_transaction_status/" class="">View Transaction Status</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>SQL-AutoGen</a></li>
+        <li><span>Automation SQL Target Source</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="automation-sql-target-source">Automation SQL Target Source</h1>
+
+<div class="use">
+
+Use this page to [Build a Source
+Table](../Use_Cases/Build_Source_Tables.htm).
+
+</div>
+
+<p>To access this page:</p>
+
+<ol>
+<li>Click the <strong>Automation</strong> tab on the Quick Panel.</li>
+<li>Click the <strong>Sources</strong> icon for an Object.</li>
+</ol>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Create Source Table</p></td>
+<td><p>Click to create the source table and Insert and Delete stored procedures used to load data into the target table.</p>
+<p><strong>NOTE:</strong> This icon is disabled if the source is assigned to a Target that has a Design Status of Inactive or Complete in Target Design.</p>
+<p><strong>NOTE:</strong> A source table cannot be built for a source of {Target Rules}. If the selected source is {Target Rules}, the Create Source Table icon is disabled.</p>
+<p><strong>NOTE:</strong> A System Type must be defined for a source before the table can be built. If the user did not import a System Type in Target Design (for example, an Excel file import, database table import, or manual entry was used for the target design) an error message displays when the user clicks the Create Source Table icon. The user must set a System Type before the table can be created. Add a System Type to a source in Target Design (Design &gt; Targets &gt; Sources &gt; System Type ID).</p></td>
+</tr>
+<tr class="odd">
+<td><p>Create All Rules</p></td>
+<td><p>Click to create all rules for field mappings that have a MAPPING STATUS of Complete on the <span style="font-style: italic;"><a href="../../Map/Page_Desc/Field_Mappings_H.htm">Field Mappings</a></span> page in Map. If the Auto Gen Level on the <span style="font-size: 11.0pt;font-family: Arial, sans-serif;font-style: italic;"><a href="Automation_page.htm#Automation_V">Automation</a></span> page’s <span style="font-size: 11.0pt;font-family: Arial, sans-serif;font-style: italic;">Vertical</span> View is set to Off for the target, the rules are not created.</p>
+<p><strong>NOTE:</strong> This icon is disabled if the source is assigned to a Target that has a Design Status of Inactive or Complete in Target Design.</p></td>
+</tr>
+<tr class="even">
+<td><p>Map Source</p></td>
+<td><p>Click to open the <a href="../../Map/Page_Desc/Target_Sources_H_Map.htm"><span style="font-style: italic;">Target Sources</span></a> page in Map to view information about the source such as a status summary of all mappings, the source schema, and the field mapping details.</p></td>
+</tr>
+<tr class="odd">
+<td><p>SOURCE</p></td>
+<td><p>Displays the name of the source as defined in Target Design, {Target Rules} if the source is the target rules, or DSPConstruct if the source is built using Construct.</p></td>
+</tr>
+<tr class="even">
+<td><p>ST TABLE NAME</p></td>
+<td><p>Displays the name of the source table or view, or indicates if the source is an Update Row source.</p></td>
+</tr>
+<tr class="odd">
+<td><p>SOURCE BUILT ON</p></td>
+<td><p>Displays the date and time the source table was built (for example, the date a user clicked the Create Source icon in the Page toolbar).</p></td>
+</tr>
+<tr class="even">
+<td><p>ACTIVE</p></td>
+<td><p>If enabled, the source is active for the target. If is not active, rules cannot be created for the source.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Update Row Sources</p></td>
+<td><p>Click to open the <a href="Automation_SQL_Target_Source_Update_Row.htm">Automation SQL Target Source (Update Row)</a> page to create Update Row source tables and all rules for an Update Row source.</p></td>
+</tr>
+<tr class="even">
+<td><p>Mappings</p></td>
+<td><p>Click to open the <em><a href="Automation_SQL_Field_Mappings_H.htm">Automation SQL Field Mappings</a></em> page to view the mappings that can be used in AutoGen, to create a rule or to reset a mapping.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Log</p></td>
+<td><p>Click to open the <span style="font-style: italic;"><a href="AutoGen_SQL_Log.htm">AutoGen SQL Log</a></span> page and view successful or failed AutoGen tasks.</p>
+<p><strong>NOTE:</strong> If the icon is disabled, no source tables, target tables or rules have been generated for the selected object.</p></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#automation-sql-target-source">Automation SQL Target Source</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

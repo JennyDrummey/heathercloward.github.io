@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Evaluate Mapping with Wave Gate Metrics :: Syniti Documentation</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+  
+  <div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
+                        <li><a href="/console/">Console</a></li>
+                        <li><a href="/design/">Target Design</a></li>
+                        <li><a href="/construct/">Construct</a></li>
+                        <li><a href="/map/">Map</a></li>
+                        <li><a href="/transform/">Transform</a></li>
+                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
+                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
+                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/agent/">Agent Interface</a></li>
+                          <li><a href="/collect/">Collect</a></li>
+                          <li><a href="/integrate/">Integrate</a></li>
+                          <li><a href="/webapp-dev/">DSP App Development</a></li>
+                          <li><a href="/assemble/">Assemble</a></li>
+                          <li><a href="/common/">Common</a></li>
+                          <li><a href="/system-admin/">System Administration</a></li>
+                          <li><a href="/iguc/">IG Universal Connect</a></li>
+                          <li><a href="/automate/">Automate</a></li>
+                          <li><a href="/dsptrack/">dspTrack</a></li>
+                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
+                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/console/" class="active">Console Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/console/config/" class="">Configuration</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/config/access_console/" class="">Access Console</a></li>
+        
+            <li >
+                <a href="/console/config/configure_data_services_functionality/" class="">Configure Data Services Functionality</a></li>
+        
+            <li >
+                <a href="/console/config/set_parameters_for_other_components/" class="">Set Parameters for Other Components</a></li>
+        
+            <li >
+                <a href="/console/config/set_up_and_register_the_object_database/" class="">Set up and Register the Object Database (dsw\*)</a></li>
+        
+            <li >
+                <a href="/console/config/setup_and_configuration_for_console/" class="">Setup and Configuration for Console</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/console/page_desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/page_desc/all_objects/" class="">All Objects</a></li>
+        
+            <li >
+                <a href="/console/page_desc/build_wave_comparison/" class="">Build Wave Comparison</a></li>
+        
+            <li >
+                <a href="/console/page_desc/bulk_contact_staging_area/" class="">Bulk Contact Staging Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/context_select/" class="">Context Select</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_object/" class="">Copy Object</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_object_to_process_area/" class="">Copy Object to Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_process_area/" class="">Copy Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/copy_wave/" class="">Copy Wave</a></li>
+        
+            <li >
+                <a href="/console/page_desc/list_value_configuration/" class="">List Value Configuration</a></li>
+        
+            <li >
+                <a href="/console/page_desc/milestone/" class="">Milestone</a></li>
+        
+            <li >
+                <a href="/console/page_desc/move_object_to_process_area/" class="">Move Object to Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_contacts/" class="">Object Contacts</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_decision_comments/" class="">Object Decision Comments</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_decisions_h/" class="">Object Decisions H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/object_history_h/" class="">Object History H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/objects_h/" class="">Objects H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/parameters/" class="">Parameters</a></li>
+        
+            <li >
+                <a href="/console/page_desc/process_area/" class="">Process Area</a></li>
+        
+            <li >
+                <a href="/console/page_desc/process_area_objecth/" class="">Process Area: Object H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/report_headers_footers_setup/" class="">Report Headers / Footers (Setup)</a></li>
+        
+            <li >
+                <a href="/console/page_desc/staged_contacts/" class="">Staged Contacts</a></li>
+        
+            <li >
+                <a href="/console/page_desc/user_context_setting/" class="">User Context Setting</a></li>
+        
+            <li >
+                <a href="/console/page_desc/user_message_type/" class="">User Message Type</a></li>
+        
+            <li >
+                <a href="/console/page_desc/users_console/" class="">Users</a></li>
+        
+            <li >
+                <a href="/console/page_desc/values/" class="">Values</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_object_results_h/" class="">Wave Compare for Object Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_process_area_results_h/" class="">Wave Compare for Process Area Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_target_field_results/" class="">Wave Compare for Target Field Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_compare_for_target_results/" class="">Wave Compare for Target Results H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_gate_metrics_value_mapping_h/" class="">Wave Gate Metrics (Value Mapping) H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_process_area_gate_metrics_field_mapping_h/" class="">Wave Process Area Gate Metrics (Field Mapping) H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/wave_process_areas/" class="">Wave: Process Areas H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/waves_h/" class="">Waves H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_message_summary_h/" class="">Workflow Message Summary H</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_message_summary_user/" class="">Workflow Message Summary User</a></li>
+        
+            <li >
+                <a href="/console/page_desc/workflow_summary_views_h/" class="">Workflow Summary Views H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/console/use_cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/console/use_cases/add_elements_separately/" class="">Add Elements Separately</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_multiple_target_systems/" class="">Add Multiple Target Systems</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_target_contacts_to_objects/" class="">Add Target Contacts to Objects</a></li>
+        
+            <li >
+                <a href="/console/use_cases/add_a_wave_and_create_elements/" class="">Add a Wave and Create Elements</a></li>
+        
+            <li >
+                <a href="/console/use_cases/configure_list_box_values/" class="">Configure List Box Values</a></li>
+        
+            <li >
+                <a href="/console/use_cases/configure_object/" class="">Configure an Object</a></li>
+        
+            <li >
+                <a href="/console/use_cases/copy_elements/" class="">Copy Elements</a></li>
+        
+            <li >
+                <a href="/console/use_cases/create_custom_workflow_messages/" class="">Create Custom Workflow Messages</a></li>
+        
+            <li >
+                <a href="/console/use_cases/create_contexts_for_migration_projects/" class="">Create the Contexts for Migration Projects</a></li>
+        
+            <li >
+                <a href="/console/use_cases/evaluate_mapping_with_wave_gate_metrics/" class="uk-active">Evaluate Mapping with Wave Gate Metrics</a></li>
+        
+            <li >
+                <a href="/console/use_cases/set_message_types_for_mapping_review/" class="">Set Message Types for Mapping Review</a></li>
+        
+            <li >
+                <a href="/console/use_cases/set_the_data_source/" class="">Set the Data Source</a></li>
+        
+            <li >
+                <a href="/console/use_cases/synchronize_target_designs_across_waves/" class="">Synchronize Target Designs Across Waves</a></li>
+        
+            <li >
+                <a href="/console/use_cases/update_construct_webapp_and_data_source/" class="">Update Construct WebApp and Data Source</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a>Console</a></li>
+        <li><span>Evaluate Mapping with Wave Gate Metrics</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="evaluate-mapping-with-wave-gate-metrics">Evaluate Mapping with Wave Gate Metrics</h1>
+
+<p>There are two types of gate metrics for Map:</p>
+
+<ul>
+<li><p><a href="#Gate">Value mapping</a>, which is set up at the Wave level in Console</p></li>
+
+<li><p><a href="#Gate2">Field mapping</a> which is set up at the Wave-process level in
+Console</p></li>
+</ul>
+
+<p>A gate, with a gate date and a percentage complete, which allows a user
+to evaluate current mapping status against a customizable goal. Use the
+Snap Shot process in Map to get current mapping statistics to measure
+against the Gate Wave metrics.</p>
+
+<p><strong>NOTE:</strong> The process for setting up Wave Gate metrics for value mapping
+and field mapping is the same. Wave Gate metrics for value mapping are
+set up on the <em><a href="../Page_Desc/Wave_Gate_Metrics_Value_Mapping_H.htm">Wave Gate Metrics (Value
+Mapping)</a></em> page.
+Wave Gate metrics for field mapping are set up on the <em><a href="../../Map/Page_Desc/Wave_Proc_Area_Gate_Metrics_Field_Mapping.htm">Wave Gate
+Metrics (Field
+Mapping)</a></em>
+page.</p>
+
+<p>The process for using Wave Gate metrics is:</p>
+
+<ol>
+<li>Enter the <strong>GATE NAME</strong>, the <strong>GATE DATE</strong> and the <strong>GATE
+PERCENTAGE</strong> for value mapping and field mapping in Console.</li>
+<li>Run the Snap Shot process in Map to gather current mapping status.
+The Snap Shot process captures mapping metrics at a specific point
+in time. Refer to <a href="../../Map/Use_Cases/Capture_Statistics_for_Wave_Gate_Metrics.htm">Capture Statistics for Wave Gate
+Metrics</a>
+for more information.</li>
+<li>View the current mapping status in relation to the gate metrics on
+the <em>Wave Gate Metrics (Value Mapping)</em> page and the <em>Wave Gate
+Metrics (Field Mapping)</em> page. View details for a gate by clicking
+<strong>Vertical View</strong> for the gate on the <em>Wave Gate Metrics (Value
+Mapping)</em> page or the <em>Wave Gate Metrics (Field Mapping)</em> page.</li>
+</ol>
+
+<p><strong>NOTE:</strong> These pages can be viewed in Map by clicking <strong>Metrics</strong> on
+the <em><a href="../../Transform/Page_Desc/Process_Area_Launch.htm">Process Area
+Launch</a></em> page. Click
+the <strong>Gate Value Metrics</strong> icon or the <strong>Gate Field Metrics</strong> icon.
+These pages open as display only when accessed in Map. Wave Gate metrics
+can only be edited in Console.</p>
+
+<h2 id="span-id-gate-span-gate-metrics-for-value-mapping"><span id="Gate"></span>Gate Metrics for Value Mapping</h2>
+
+<p>To set up Gate metrics for value mapping in Console:</p>
+
+<ol>
+<li><p>Click <strong>Waves</strong> icon on the <em>Navigation</em> pane.</p></li>
+
+<li><p>Click the <strong>Metrics</strong> icon for a Wave.</p></li>
+
+<li><p>Click <strong>Add</strong>.</p>
+
+<p><em><a href="../Page_Desc/Wave_Gate_Metrics_Value_Mapping_H.htm">View the field descriptions for the Wave Gate Metrics (Value
+Mapping) page</a></em></p></li>
+
+<li><p>Enter a name in the <strong>GATE NAME</strong> field.</p></li>
+
+<li><p>Enter a date or click the calendar to select a date in the <strong>GATE
+DATE</strong> field.</p></li>
+
+<li><p>Enter a value in the <strong>GATE PERCENTAGE</strong> field.</p></li>
+
+<li><p><strong>NOTE</strong>: This percent should be complete for value mapping by the
+date entered in the <strong>GATE DATE</strong> field.</p></li>
+
+<li><p>Click <strong>Save.</strong></p></li>
+</ol>
+
+<p><strong>NOTE:</strong> A service page runs daily to update the gate percentage. A
+user can also run the Snap Shot process in Map to update the current
+mapping statistics visible on the <em>Wave Gate Metrics (Value Mapping)</em>
+page’s <em>Horizontal</em> View with details provided on the <em>Vertical</em> View.
+The LAST UPDATE DATE field is updated with the date the service page
+ran, or the last date the Snap Shot process was run.</p>
+
+<p><strong>NOTE:</strong> If the current date is later than the date in the <strong>GATE
+DATE</strong> field, the statistics on the page will not update.</p>
+
+<h2 id="span-id-gate2-span-gate-metrics-for-field-mapping"><span id="Gate2"></span>Gate Metrics for Field Mapping</h2>
+
+<p>To set up Gate metrics for field mapping in Console:</p>
+
+<ol>
+<li><p>Click <strong>Waves</strong> on the <em>Navigation</em> pane.</p></li>
+
+<li><p>Click the <strong>Process Areas</strong> icon for a Wave.</p></li>
+
+<li><p>Click the <strong>Metrics</strong> icon for a Process Area.</p></li>
+
+<li><p>Click <strong>Add</strong></p>
+
+<p><a href="../../Map/Page_Desc/Wave_Proc_Area_Gate_Metrics_Field_Mapping.htm">View the field descriptions for the Wave Process Area Gate Metrics
+(Field Mapping)
+page</a></p></li>
+
+<li><p>Enter a name in the <strong>GATE NAME</strong> field.</p></li>
+
+<li><p>Enter a date or click the calendar to select a date in the <strong>GATE
+DATE</strong> field.</p>
+
+<p><strong>NOTE:</strong> This is the date by which the percentage of the field
+mapping entered in the GATE PERCENTAGE field should be completed.</p></li>
+
+<li><p>Enter a value in the <strong>GATE PERCENTAGE</strong> field.</p>
+
+<p><strong>NOTE:</strong> This percent should be complete for field mapping by the
+date entered in the GATE DATE field.</p></li>
+
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+
+<p><strong>NOTE:</strong> A service page runs daily to update the gate percentage. A
+user can also run the Snap Shot process in Map to update the current
+mapping statistics visible on the <em>Wave Process Area Gate Metrics (Field
+Mapping)</em> page’s <em>Horizontal</em> View, with details provided on the
+<em>Vertical</em> View. The LAST UPDATE DATE field is updated with the date the
+service page ran or the last date the Snap Shot process was run.</p>
+
+<p><strong>NOTE:</strong> If the current date is later than the date in the GATE DATE
+field, the statistics on the page will not update.</p>
+
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#evaluate-mapping-with-wave-gate-metrics">Evaluate Mapping with Wave Gate Metrics</a>
+<ul>
+<li><a href="#span-id-gate-span-gate-metrics-for-value-mapping"><span id="Gate"></span>Gate Metrics for Value Mapping</a></li>
+<li><a href="#span-id-gate2-span-gate-metrics-for-field-mapping"><span id="Gate2"></span>Gate Metrics for Field Mapping</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  <footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="#">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="#">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+</body>
+</html>

@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Target Object Import :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,34 +126,37 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/design/" class="active">Target Design Overview</a>
+        <a href="/Design/" class="active">Target Design Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
+
 
 
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/design/config/" class="">Configuration</a>
+        <a href="/Design/Config/" class="">Configuration</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/design/config/access_design/" class="">Access Target Design</a></li>
+                <a href="/Design/Config/Access_Design/" class="">Access Target Design</a></li>
         
             <li >
-                <a href="/design/config/add_custom_criticality_levels/" class="">Add Custom Criticality Levels</a></li>
+                <a href="/Design/Config/Add_Custom_Criticality_Levels/" class="">Add Custom Criticality Levels</a></li>
         
             <li >
-                <a href="/design/config/add_custom_requirement_settings/" class="">Add Custom Requirement Settings</a></li>
+                <a href="/Design/Config/Add_Custom_Requirement_Settings/" class="">Add Custom Requirement Settings</a></li>
         
     </ul>
     </li>
@@ -157,127 +166,127 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/design/page_desc/" class="active">Pages</a>
+        <a href="/Design/Page_Desc/" class="active">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/design/page_desc/append_utility_columns/" class="">Append Utility Columns</a></li>
+                <a href="/Design/Page_Desc/Append_Utility_Columns/" class="">Append Utility Columns</a></li>
         
             <li >
-                <a href="/design/page_desc/copy_targets/" class="">Copy Targets</a></li>
+                <a href="/Design/Page_Desc/Copy_Targets/" class="">Copy Targets</a></li>
         
             <li >
-                <a href="/design/page_desc/criticality/" class="">Criticality</a></li>
+                <a href="/Design/Page_Desc/Criticality/" class="">Criticality</a></li>
         
             <li >
-                <a href="/design/page_desc/database_import/" class="">Database Import</a></li>
+                <a href="/Design/Page_Desc/Database_Import/" class="">Database Import</a></li>
         
             <li >
-                <a href="/design/page_desc/design/" class="">Design</a></li>
+                <a href="/Design/Page_Desc/Design/" class="">Design</a></li>
         
             <li >
-                <a href="/design/page_desc/field_groups/" class="">Field Groups</a></li>
+                <a href="/Design/Page_Desc/Field_Groups/" class="">Field Groups</a></li>
         
             <li >
-                <a href="/design/page_desc/metric_groups/" class="">Metric Groups</a></li>
+                <a href="/Design/Page_Desc/Metric_Groups/" class="">Metric Groups</a></li>
         
             <li >
-                <a href="/design/page_desc/object_field_groups/" class="">Object Field Groups</a></li>
+                <a href="/Design/Page_Desc/Object_Field_Groups/" class="">Object Field Groups</a></li>
         
             <li >
-                <a href="/design/page_desc/objects_target_design/" class="">Objects</a></li>
+                <a href="/Design/Page_Desc/Objects_Target_Design/" class="">Objects</a></li>
         
             <li >
-                <a href="/design/page_desc/required/" class="">Required</a></li>
+                <a href="/Design/Page_Desc/Required/" class="">Required</a></li>
         
             <li >
-                <a href="/design/page_desc/rules_basic_rule_h/" class="">Rules: Basic Rule H</a></li>
+                <a href="/Design/Page_Desc/Rules_Basic_Rule_H/" class="">Rules: Basic Rule H</a></li>
         
             <li >
-                <a href="/design/page_desc/rules_complex_rule_h/" class="">Rules: Complex Rule H</a></li>
+                <a href="/Design/Page_Desc/Rules_Complex_Rule_H/" class="">Rules: Complex Rule H</a></li>
         
             <li >
-                <a href="/design/page_desc/rules_execution_stage_complex_rule/" class="">Rules: Execution Stage Complex Rules</a></li>
+                <a href="/Design/Page_Desc/Rules_Execution_Stage_Complex_Rule/" class="">Rules: Execution Stage Complex Rules</a></li>
         
             <li >
-                <a href="/design/page_desc/rules_execution_stage_h/" class="">Rules: Execution Stage H</a></li>
+                <a href="/Design/Page_Desc/Rules_Execution_Stage_H/" class="">Rules: Execution Stage H</a></li>
         
             <li >
-                <a href="/design/page_desc/rules_field_complex_rules/" class="">Rules: Field Complex Rules</a></li>
+                <a href="/Design/Page_Desc/Rules_Field_Complex_Rules/" class="">Rules: Field Complex Rules</a></li>
         
             <li >
-                <a href="/design/page_desc/select_destination_object_for_targets/" class="">Select Destination Object For Targets</a></li>
+                <a href="/Design/Page_Desc/Select_Destination_Object_for_Targets/" class="">Select Destination Object For Targets</a></li>
         
             <li >
-                <a href="/design/page_desc/source_target_design/" class="">Source</a></li>
+                <a href="/Design/Page_Desc/Source_Target_Design/" class="">Source</a></li>
         
             <li >
-                <a href="/design/page_desc/source_where_used/" class="">Source Where Used</a></li>
+                <a href="/Design/Page_Desc/Source_Where_Used/" class="">Source Where Used</a></li>
         
             <li >
-                <a href="/design/page_desc/system_type_import/" class="">System Type Import</a></li>
+                <a href="/Design/Page_Desc/System_Type_Import/" class="">System Type Import</a></li>
         
             <li >
-                <a href="/design/page_desc/target_contacts/" class="">Target Contacts</a></li>
+                <a href="/Design/Page_Desc/Target_Contacts/" class="">Target Contacts</a></li>
         
             <li >
-                <a href="/design/page_desc/target_dependencies/" class="">Target Dependencies</a></li>
+                <a href="/Design/Page_Desc/Target_Dependencies/" class="">Target Dependencies</a></li>
         
             <li >
-                <a href="/design/page_desc/target_dependency_children/" class="">Target Dependency (Children)</a></li>
+                <a href="/Design/Page_Desc/Target_Dependency_Children/" class="">Target Dependency (Children)</a></li>
         
             <li >
-                <a href="/design/page_desc/target_dependency_parents/" class="">Target Dependency (Parents)</a></li>
+                <a href="/Design/Page_Desc/Target_Dependency_Parents/" class="">Target Dependency (Parents)</a></li>
         
             <li >
-                <a href="/design/page_desc/target_dependency_relationship/" class="">Target Dependency Relationship</a></li>
+                <a href="/Design/Page_Desc/Target_Dependency_Relationship/" class="">Target Dependency Relationship</a></li>
         
             <li >
-                <a href="/design/page_desc/target_dependency_selection/" class="">Target Dependency Selection</a></li>
+                <a href="/Design/Page_Desc/Target_Dependency_Selection/" class="">Target Dependency Selection</a></li>
         
             <li >
-                <a href="/design/page_desc/target_design_pending_changes/" class="">Target Design Pending Changes</a></li>
+                <a href="/Design/Page_Desc/Target_Design_Pending_Changes/" class="">Target Design Pending Changes</a></li>
         
             <li >
-                <a href="/design/page_desc/target_fields_h_target_design/" class="">Target Fields H</a></li>
+                <a href="/Design/Page_Desc/Target_Fields_H_Target_Design/" class="">Target Fields H</a></li>
         
             <li >
-                <a href="/design/page_desc/target_import_configuration/" class="">Target Import Configuration</a></li>
+                <a href="/Design/Page_Desc/Target_Import_Configuration/" class="">Target Import Configuration</a></li>
         
             <li >
-                <a href="/design/page_desc/target_import_excel_import_h/" class="">Target Import: Excel Import H</a></li>
+                <a href="/Design/Page_Desc/Target_Import_Excel_Import_H/" class="">Target Import: Excel Import H</a></li>
         
             <li >
-                <a href="/design/page_desc/target_lookup_table_h/" class="">Target Lookup Table H</a></li>
+                <a href="/Design/Page_Desc/Target_Lookup_Table_H/" class="">Target Lookup Table H</a></li>
         
             <li >
-                <a href="/design/page_desc/target_object_import/" class="uk-active">Target Object Import</a></li>
+                <a href="/Design/Page_Desc/Target_Object_Import/" class="uk-active">Target Object Import</a></li>
         
             <li >
-                <a href="/design/page_desc/target_object_import_database/" class="">Target Object Import: Database</a></li>
+                <a href="/Design/Page_Desc/Target_Object_Import_Database/" class="">Target Object Import: Database</a></li>
         
             <li >
-                <a href="/design/page_desc/target_object_import_system_types/" class="">Target Object Import: System Types</a></li>
+                <a href="/Design/Page_Desc/Target_Object_Import_System_Types/" class="">Target Object Import: System Types</a></li>
         
             <li >
-                <a href="/design/page_desc/target_source_contacts/" class="">Target Source Contacts</a></li>
+                <a href="/Design/Page_Desc/Target_Source_Contacts/" class="">Target Source Contacts</a></li>
         
             <li >
-                <a href="/design/page_desc/target_sources_h_design/" class="">Target Sources H</a></li>
+                <a href="/Design/Page_Desc/Target_Sources_H_Design/" class="">Target Sources H</a></li>
         
             <li >
-                <a href="/design/page_desc/target_table_joins_target_design/" class="">Target Table Join</a></li>
+                <a href="/Design/Page_Desc/Target_Table_Joins_Target_Design/" class="">Target Table Join</a></li>
         
             <li >
-                <a href="/design/page_desc/target_type/" class="">Target Type</a></li>
+                <a href="/Design/Page_Desc/Target_Type/" class="">Target Type</a></li>
         
             <li >
-                <a href="/design/page_desc/targets_h_design/" class="">Targets H</a></li>
+                <a href="/Design/Page_Desc/Targets_H_Design/" class="">Targets H</a></li>
         
             <li >
-                <a href="/design/page_desc/utility_field_defaults/" class="">Utility Field Defaults</a></li>
+                <a href="/Design/Page_Desc/Utility_Field_Defaults/" class="">Utility Field Defaults</a></li>
         
     </ul>
     </li>
@@ -287,130 +296,130 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/design/use_cases/" class="">Procedures</a>
+        <a href="/Design/Use_Cases/" class="">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/design/use_cases/access_targets_at_the_object_level/" class="">Access Targets at the Object Level</a></li>
+                <a href="/Design/Use_Cases/Access_Targets_at_the_Object_Level/" class="">Access Targets at the Object Level</a></li>
         
             <li >
-                <a href="/design/use_cases/activate_fields_for_map/" class="">Activate Fields for Mapping</a></li>
+                <a href="/Design/Use_Cases/Activate_Fields_for_Map/" class="">Activate Fields for Mapping</a></li>
         
             <li >
-                <a href="/design/use_cases/add_developers_and-business-contacts/" class="">Add Developers and Business Contacts</a></li>
+                <a href="/Design/Use_Cases/Add_Developers_and-Business-Contacts/" class="">Add Developers and Business Contacts</a></li>
         
             <li >
-                <a href="/design/use_cases/add_fields_to_a_target/" class="">Add Fields to a Target</a></li>
+                <a href="/Design/Use_Cases/Add_Fields_to_a_Target/" class="">Add Fields to a Target</a></li>
         
             <li >
-                <a href="/design/use_cases/add_utility_field_defaults/" class="">Add Utility Field Defaults</a></li>
+                <a href="/Design/Use_Cases/Add_Utility_Field_Defaults/" class="">Add Utility Field Defaults</a></li>
         
             <li >
-                <a href="/design/use_cases/add_a_target_in_target_design/" class="">Add a Target</a></li>
+                <a href="/Design/Use_Cases/Add_a_Target_in_Target_Design/" class="">Add a Target</a></li>
         
             <li >
-                <a href="/design/use_cases/allow_mapping_of_utility_columns/" class="">Allow Mapping of Utility Columns</a></li>
+                <a href="/Design/Use_Cases/Allow_Mapping_of_Utility_Columns/" class="">Allow Mapping of Utility Columns</a></li>
         
             <li >
-                <a href="/design/use_cases/append_utility_columns_to_all_tables/" class="">Append Utility Columns to All Tables</a></li>
+                <a href="/Design/Use_Cases/Append_Utility_Columns_to_all_Tables/" class="">Append Utility Columns to All Tables</a></li>
         
             <li >
-                <a href="/design/use_cases/assign_a_field_group_to_an_object/" class="">Assign a Field Group to an Object</a></li>
+                <a href="/Design/Use_Cases/Assign_a_Field_Group_to_an_Object/" class="">Assign a Field Group to an Object</a></li>
         
             <li >
-                <a href="/design/use_cases/assign_a_source_to_a_target/" class="">Assign a Source to a Target</a></li>
+                <a href="/Design/Use_Cases/Assign_a_Source_to_a_Target/" class="">Assign a Source to a Target</a></li>
         
             <li >
-                <a href="/design/use_cases/basic_rules/" class="">Basic Rules</a></li>
+                <a href="/Design/Use_Cases/Basic_Rules/" class="">Basic Rules</a></li>
         
             <li >
-                <a href="/design/use_cases/complex_rules/" class="">Complex Rules</a></li>
+                <a href="/Design/Use_Cases/Complex_Rules/" class="">Complex Rules</a></li>
         
             <li >
-                <a href="/design/use_cases/copy_a_target_in_target_design/" class="">Copy a Target in Target Design</a></li>
+                <a href="/Design/Use_Cases/Copy_a_Target_in_Target_Design/" class="">Copy a Target in Target Design</a></li>
         
             <li >
-                <a href="/design/use_cases/create_field_groups/" class="">Create Field Groups</a></li>
+                <a href="/Design/Use_Cases/Create_Field_Groups/" class="">Create Field Groups</a></li>
         
             <li >
-                <a href="/design/use_cases/delete_a_target/" class="">Delete a Target</a></li>
+                <a href="/Design/Use_Cases/Delete_a_Target/" class="">Delete a Target</a></li>
         
             <li >
-                <a href="/design/use_cases/extend_a_field_to_a_field_group/" class="">Extend a Field to a Field Group</a></li>
+                <a href="/Design/Use_Cases/Extend_a_Field_to_a_Field_Group/" class="">Extend a Field to a Field Group</a></li>
         
             <li >
-                <a href="/design/use_cases/import_from_a_database/" class="">Import From a Database</a></li>
+                <a href="/Design/Use_Cases/Import_from_a_Database/" class="">Import From a Database</a></li>
         
             <li >
-                <a href="/design/use_cases/import_from_a_system_type/" class="">Import From a System Type</a></li>
+                <a href="/Design/Use_Cases/Import_from_a_System_Type/" class="">Import From a System Type</a></li>
         
             <li >
-                <a href="/design/use_cases/import_from_an_excel_file/" class="">Import From an Excel File</a></li>
+                <a href="/Design/Use_Cases/Import_from_an_Excel_File/" class="">Import From an Excel File</a></li>
         
             <li >
-                <a href="/design/use_cases/set_date_time_and_decimal_format/" class="">Set Date, Time, and Decimal Formats</a></li>
+                <a href="/Design/Use_Cases/Set_Date_Time_and_Decimal_Format/" class="">Set Date, Time, and Decimal Formats</a></li>
         
             <li >
-                <a href="/design/use_cases/set_design_status/" class="">Set Design Status</a></li>
+                <a href="/Design/Use_Cases/Set_Design_Status/" class="">Set Design Status</a></li>
         
             <li >
-                <a href="/design/use_cases/set_execution_status/" class="">Set Execution Status</a></li>
+                <a href="/Design/Use_Cases/Set_Execution_Status/" class="">Set Execution Status</a></li>
         
             <li >
-                <a href="/design/use_cases/set_field_visibility_for_mapping/" class="">Set Field Visibility for Mapping</a></li>
+                <a href="/Design/Use_Cases/Set_Field_Visibility_for_Mapping/" class="">Set Field Visibility for Mapping</a></li>
         
             <li >
-                <a href="/design/use_cases/set_rule_priority_for_fields_in_field_groups/" class="">Set Rule Priority for Fields in Field Groups</a></li>
+                <a href="/Design/Use_Cases/Set_Rule_Priority_for_Fields_in_Field_Groups/" class="">Set Rule Priority for Fields in Field Groups</a></li>
         
             <li >
-                <a href="/design/use_cases/set_target_dependencies/" class="">Set Target Dependencies</a></li>
+                <a href="/Design/Use_Cases/Set_Target_Dependencies/" class="">Set Target Dependencies</a></li>
         
             <li >
-                <a href="/design/use_cases/set_the_design_status/" class="">Set a Target&#39;s Design Status</a></li>
+                <a href="/Design/Use_Cases/Set_the_Design_Status/" class="">Set a Target&#39;s Design Status</a></li>
         
             <li >
-                <a href="/design/use_cases/set_up_lookup_tables/" class="">Set up Lookup Tables</a></li>
+                <a href="/Design/Use_Cases/Set_up_Lookup_Tables/" class="">Set up Lookup Tables</a></li>
         
             <li >
-                <a href="/design/use_cases/set_up_a_complex_lookup_table/" class="">Set up a Complex Lookup Table</a></li>
+                <a href="/Design/Use_Cases/Set_up_a_Complex_Lookup_Table/" class="">Set up a Complex Lookup Table</a></li>
         
             <li >
-                <a href="/design/use_cases/set_up_a_simple_lookup_table/" class="">Set up a Simple Lookup Table</a></li>
+                <a href="/Design/Use_Cases/Set_up_a_Simple_Lookup_Table/" class="">Set up a Simple Lookup Table</a></li>
         
             <li >
-                <a href="/design/use_cases/setup_and_configuration_for_target_design/" class="">Setup and Configuration for Target Design</a></li>
+                <a href="/Design/Use_Cases/Setup_and_Configuration_for_Target_Design/" class="">Setup and Configuration for Target Design</a></li>
         
             <li >
-                <a href="/design/use_cases/sync_data_source_system_types_across_targets/" class="">Sync Data Source System Types Across Targets</a></li>
+                <a href="/Design/Use_Cases/Sync_Data_Source_System_Types_Across_Targets/" class="">Sync Data Source System Types Across Targets</a></li>
         
             <li >
-                <a href="/design/use_cases/sync_map_and_target_design_td/" class="">Sync Map and Target Design</a></li>
+                <a href="/Design/Use_Cases/Sync_Map_and_Target_Design_TD/" class="">Sync Map and Target Design</a></li>
         
             <li >
-                <a href="/design/use_cases/update_system_types_for_a_source/" class="">Update System Types for a Source</a></li>
+                <a href="/Design/Use_Cases/Update_System_Types_for_a_Source/" class="">Update System Types for a Source</a></li>
         
             <li >
-                <a href="/design/use_cases/use_field_groups/" class="">Use Field Groups</a></li>
+                <a href="/Design/Use_Cases/Use_Field_Groups/" class="">Use Field Groups</a></li>
         
             <li >
-                <a href="/design/use_cases/use_target_rules/" class="">Use Target Rules</a></li>
+                <a href="/Design/Use_Cases/Use_Target_Rules/" class="">Use Target Rules</a></li>
         
             <li >
-                <a href="/design/use_cases/view_target_and_source_assignments/" class="">View Target and Source Assignments</a></li>
+                <a href="/Design/Use_Cases/View_Target_and_Source_Assignments/" class="">View Target and Source Assignments</a></li>
         
             <li >
-                <a href="/design/use_cases/work_with_field_groups/" class="">Work With Field Groups</a></li>
+                <a href="/Design/Use_Cases/Work_with_Field_Groups/" class="">Work With Field Groups</a></li>
         
             <li >
-                <a href="/design/use_cases/work_with_metric_groups/" class="">Work with Metric Groups</a></li>
+                <a href="/Design/Use_Cases/Work_with_Metric_Groups/" class="">Work with Metric Groups</a></li>
         
             <li >
-                <a href="/design/use_cases/work_with_target_fields/" class="">Work with Target Fields</a></li>
+                <a href="/Design/Use_Cases/Work_with_Target_Fields/" class="">Work with Target Fields</a></li>
         
             <li >
-                <a href="/design/use_cases/work_with_targets_and_sources/" class="">Work with Targets and Sources</a></li>
+                <a href="/Design/Use_Cases/Work_with_Targets_and_Sources/" class="">Work with Targets and Sources</a></li>
         
     </ul>
     </li>
@@ -431,7 +440,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Migration</a></li>
-        <li><a>Design</a></li>
+        <li><a href="/Design">Design</a></li>
         <li><span>Target Object Import</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -470,22 +479,60 @@ in the <span style="font-style: italic;">Navigation</span> pane.</li>
 </tr>
 <tr class="odd">
 <td><p>System Types Import</p></td>
-<td><p>Click to open the <em><a href="Target_Object_Import_System_Types.htm">Target Object Import: System Types</a></em> page to import a System Type to use as a Target design.</p>
-<p>Refer to <a href="../Use_Cases/Import_from_a_System_Type.htm">Import a Target Design from a System Type</a> for more information.</p></td>
+<td><p>Click to open the <em><a href="Target_Object_Import_System_Types">Target Object Import: System Types</a></em> page to import a System Type to use as a Target design.</p>
+<p>Refer to <a href="../Use_Cases/Import_from_a_System_Type">Import a Target Design from a System Type</a> for more information.</p></td>
 </tr>
 <tr class="even">
 <td><p>Database Import</p></td>
-<td><p>Click to open the <em><a href="Target_Object_Import_Database.htm">Target Object Import: Database</a></em> page to import a database to use as a Target design.</p>
-<p>Refer to <a href="../Use_Cases/Import_from_a_Database.htm">Import Target Design from a Database</a> for more information.</p></td>
+<td><p>Click to open the <em><a href="Target_Object_Import_Database">Target Object Import: Database</a></em> page to import a database to use as a Target design.</p>
+<p>Refer to <a href="../Use_Cases/Import_from_a_Database">Import Target Design from a Database</a> for more information.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Excel Import</p></td>
-<td><p>Click to open the <em><a href="Target_Import_Excel_Import_H.htm">Target Import: Excel Import</a></em> page to download an  Excel template to be used to import data, upload the Excel file that contains the data, and import data from the Excel file into the Target.</p>
-<p>Refer to <a href="../Use_Cases/Import_from_an_Excel_File.htm">Import Target Design from an Excel File</a> for more information.</p></td>
+<td><p>Click to open the <em><a href="Target_Import_Excel_Import_H">Target Import: Excel Import</a></em> page to download an  Excel template to be used to import data, upload the Excel file that contains the data, and import data from the Excel file into the Target.</p>
+<p>Refer to <a href="../Use_Cases/Import_from_an_Excel_File">Import Target Design from an Excel File</a> for more information.</p></td>
 </tr>
 </tbody>
 </table>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -503,13 +550,14 @@ in the <span style="font-style: italic;">Navigation</span> pane.</li>
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -517,12 +565,12 @@ in the <span style="font-style: italic;">Navigation</span> pane.</li>
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -535,18 +583,20 @@ in the <span style="font-style: italic;">Navigation</span> pane.</li>
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

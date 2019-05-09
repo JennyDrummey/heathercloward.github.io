@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/automate/page_desc/</link>
+    <link>https://heathercloward.github.io/Automate/Page_Desc/</link>
     <description>Recent content in Pages on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/automate/page_desc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Automate/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Disposition</title>
-      <link>https://heathercloward.github.io/automate/page_desc/disposition/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Disposition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/disposition/</guid>
-      <description>Disposition Use this page to: - [Register External Process Validations](../Use_Cases/Register_External_Process_Validations.htm) - [Register Stored Procedure Validations](../Use_Cases/Register_Stored_Procedure_Validations.htm) - [Register View Validations](../Use_Cases/Register_View_Validations.htm) - [Run Interface Events Sequentially](../Use_Cases/Run_Interface_Events_Sequentially.htm)  To access this page, select Configuration &amp;gt; Disposition in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Disposition/</guid>
+      <description>Disposition Use this page to: - [Register External Process Validations](../Use_Cases/Register_External_Process_Validations) - [Register Stored Procedure Validations](../Use_Cases/Register_Stored_Procedure_Validations) - [Register View Validations](../Use_Cases/Register_View_Validations) - [Run Interface Events Sequentially](../Use_Cases/Run_Interface_Events_Sequentially)  To access this page, select Configuration &amp;gt; Disposition in the Navigation pane.
 NOTE: It is not recommended to add new dispositions or to edit delivered dispositions; the Automate code would need to be updated for the disposition to properly work.
   Field
  Description</description>
@@ -24,21 +24,21 @@ NOTE: It is not recommended to add new dispositions or to edit delivered disposi
     
     <item>
       <title>Event Types</title>
-      <link>https://heathercloward.github.io/automate/page_desc/event_types/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Event_Types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/event_types/</guid>
-      <description>Event Types Use this page to: - [Register Interface Events](../Use_Cases/Register_Interface_Events.htm) - [About Automate Events](../Use_Cases/About_Automate_Events.htm) - [Register Stored Procedure Events](../Use_Cases/Register_Stored_Procedure_Events.htm) - [Register WebApp Events](../Use_Cases/Register_WebApp_Events.htm) - [Register Workflow Events](../Use_Cases/Register_Workflow_Events.htm) - [Copy Files from One Folder to Another](../Use_Cases/Copy_Files_from_One_Folder_to_Another.htm) - [Set Up a Looping Process](../Use_Cases/Set_up_a_Looping_Process.htm)  To access this page, select Configuration &amp;gt; Event Types in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Event_Types/</guid>
+      <description>Event Types Use this page to: - [Register Interface Events](../Use_Cases/Register_Interface_Events) - [About Automate Events](../Use_Cases/About_Automate_Events) - [Register Stored Procedure Events](../Use_Cases/Register_Stored_Procedure_Events) - [Register WebApp Events](../Use_Cases/Register_WebApp_Events) - [Register Workflow Events](../Use_Cases/Register_Workflow_Events) - [Copy Files from One Folder to Another](../Use_Cases/Copy_Files_from_One_Folder_to_Another) - [Set Up a Looping Process](../Use_Cases/Set_up_a_Looping_Process)  To access this page, select Configuration &amp;gt; Event Types in the Navigation pane.
 NOTE: It is not recommended to add new event types or to edit the delivered event types; the Automate code would need to be updated for the event type to properly work.</description>
     </item>
     
     <item>
       <title>File Format Types</title>
-      <link>https://heathercloward.github.io/automate/page_desc/file_format_types/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/File_Format_Types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/file_format_types/</guid>
-      <description>File Format Types Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths.htm).  To access this page, select IO Config &amp;gt; File Modification Types in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/File_Format_Types/</guid>
+      <description>File Format Types Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths).  To access this page, select IO Config &amp;gt; File Modification Types in the Navigation pane.
 NOTE: It is not recommended to add new file modification types or to edit the delivered file modification types; the Automate code would need to be updated for the file modification type to properly work.
   Field
  Description
@@ -47,11 +47,11 @@ NOTE: It is not recommended to add new file modification types or to edit the de
     
     <item>
       <title>File Modification Types</title>
-      <link>https://heathercloward.github.io/automate/page_desc/file_modification_types/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/File_Modification_Types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/file_modification_types/</guid>
-      <description>File Modification Types Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths.htm).  To access this page, select IO Config &amp;gt; File Format Types in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/File_Modification_Types/</guid>
+      <description>File Modification Types Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths).  To access this page, select IO Config &amp;gt; File Format Types in the Navigation pane.
 NOTE: It is not recommended to add new file modification types or to edit the delivered file modification types; the Automate code would need to be updated for the file modification type to properly work.
   Field
  Description
@@ -60,12 +60,12 @@ NOTE: It is not recommended to add new file modification types or to edit the de
     
     <item>
       <title>File Operations H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/file_operations/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/File_Operations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/file_operations/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/File_Operations/</guid>
       <description>File Operations H File Operations V
-Use this page to: - [Add File Operations](../Use_Cases/Add_File_Operations.htm) - [Set up a Looping Process](../Use_Cases/Set_up_a_Looping_Process.htm)  To access this page, select IO Config &amp;gt; File Operations in the Navigation pane.
+Use this page to: - [Add File Operations](../Use_Cases/Add_File_Operations) - [Set up a Looping Process](../Use_Cases/Set_up_a_Looping_Process)  To access this page, select IO Config &amp;gt; File Operations in the Navigation pane.
   Field
  Description
   OPERATION
@@ -76,11 +76,11 @@ Use this page to: - [Add File Operations](../Use_Cases/Add_File_Operations.htm) 
     
     <item>
       <title>History</title>
-      <link>https://heathercloward.github.io/automate/page_desc/history/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/History/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/history/</guid>
-      <description>History Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm).  To access this page, select History in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/History/</guid>
+      <description>History Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface).  To access this page, select History in the Navigation pane.
   Field
  Description
   INTERFACE ID
@@ -95,22 +95,22 @@ Use this page to: - [Add File Operations](../Use_Cases/Add_File_Operations.htm) 
     
     <item>
       <title>History (Chart)</title>
-      <link>https://heathercloward.github.io/automate/page_desc/history_chart/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/History_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/history_chart/</guid>
-      <description>History (Chart) Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/History_Chart/</guid>
+      <description>History (Chart) Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface).  To access this page:
  Select History in the Navigation pane. Click the Chart icon to open for the desired interface.           Field Description   Daily Duration Displays how long the interface took to complete each day.   Historical Duration Displays the average processing time for the interface to complete.</description>
     </item>
     
     <item>
       <title>History (Detail) V</title>
-      <link>https://heathercloward.github.io/automate/page_desc/history_detail/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/History_Detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/history_detail/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/History_Detail/</guid>
       <description>History (Detail) H History (Detail) V
-Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm).  To access this page:
+Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface).  To access this page:
  Select History in the Navigation pane. Click the History icon for the desired interface.    Field
  Description
   INSTANCE ID
@@ -121,11 +121,11 @@ Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_
     
     <item>
       <title>History Failed (Detail) H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/history_failed_detail/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/History_Failed_Detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/history_failed_detail/</guid>
-      <description>History Failed (Detail) H Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm) .  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/History_Failed_Detail/</guid>
+      <description>History Failed (Detail) H Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface) .  To access this page:
  Select History in the Navigation pane. Click the Failed icon for the desired interface.  History Failed (Detail) V
   Field
  Description
@@ -137,12 +137,12 @@ Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_
     
     <item>
       <title>Interface Event (Validations) H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/interface_event_validations/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Interface_Event_Validations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/interface_event_validations/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Interface_Event_Validations/</guid>
       <description>Interface Event (Validations) H Interface Event (Validations) V
-Use this page to: - [Register Interface Validations](../Use_Cases/Register_Interface_Validations.htm) - [Run Interface Events Sequentially](../Use_Cases/Run_Interface_Events_Sequentially.htm) - [Register External Process Validations](../Use_Cases/Register_External_Process_Validations.htm)  To access this page:
+Use this page to: - [Register Interface Validations](../Use_Cases/Register_Interface_Validations) - [Run Interface Events Sequentially](../Use_Cases/Run_Interface_Events_Sequentially) - [Register External Process Validations](../Use_Cases/Register_External_Process_Validations)  To access this page:
  Select Interfaces in the Navigation pane. Click the Events icon for the desired interface. Click the Validations icon for the desired event.    Field
  Description
   VALIDATION ID
@@ -151,12 +151,12 @@ Use this page to: - [Register Interface Validations](../Use_Cases/Register_Inter
     
     <item>
       <title>Interface Events H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/interface_events/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Interface_Events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/interface_events/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Interface_Events/</guid>
       <description>Interface Events H Interface Events V
-Use this page to: - [Register Interface Events](../Use_Cases/Register_Interface_Events.htm) - [Register Stored Procedure Events](../Use_Cases/Register_Stored_Procedure_Events.htm) - [Register WebApp Events](../Use_Cases/Register_WebApp_Events.htm) - [Register Workflow Events](../Use_Cases/Register_Workflow_Events.htm) - [Copy Files from One Folder to Another](../Use_Cases/Copy_Files_from_One_Folder_to_Another.htm) - [Set Up a Looping Process](../Use_Cases/Set_up_a_Looping_Process.htm)  To access this page:
+Use this page to: - [Register Interface Events](../Use_Cases/Register_Interface_Events) - [Register Stored Procedure Events](../Use_Cases/Register_Stored_Procedure_Events) - [Register WebApp Events](../Use_Cases/Register_WebApp_Events) - [Register Workflow Events](../Use_Cases/Register_Workflow_Events) - [Copy Files from One Folder to Another](../Use_Cases/Copy_Files_from_One_Folder_to_Another) - [Set Up a Looping Process](../Use_Cases/Set_up_a_Looping_Process)  To access this page:
  Select Interfaces in the Navigation pane. Click the Events icon for the desired interface.    Field
  Description
   EVENT ID</description>
@@ -164,23 +164,23 @@ Use this page to: - [Register Interface Events](../Use_Cases/Register_Interface_
     
     <item>
       <title>Interface History H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/interface_history/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Interface_History/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/interface_history/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Interface_History/</guid>
       <description>Interface History H Interface History V
-Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm).  To access this page:
+Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface).  To access this page:
  Select Interfaces in the Navigation pane. Click the History icon for the desired interface.           Field Description   TIME STARTED Displays the time the interface started running.   TIME COMPLETED Displays the time the interface finished running.   MESSAGE Displays a message to indicate if the interface completed, failed or if there is an error.</description>
     </item>
     
     <item>
       <title>Interface Validations H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/interface_validations/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Interface_Validations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/interface_validations/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Interface_Validations/</guid>
       <description>Interface Validations H Interface Validations V
-Use this page to [Register Interface Validations](../Use_Cases/Register_Interface_Validations.htm).  To access this page:
+Use this page to [Register Interface Validations](../Use_Cases/Register_Interface_Validations).  To access this page:
  Select Interface in the Navigation pane. Click the Validations icon for the desired interface.    Field
  Description
   VALIDATION ID
@@ -191,12 +191,12 @@ Use this page to [Register Interface Validations](../Use_Cases/Register_Interfac
     
     <item>
       <title>Interfaces H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/interfaces/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Interfaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/interfaces/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Interfaces/</guid>
       <description>Interfaces H Interfaces V
-Use this page to: - [Create an Interface](../Use_Cases/Create_an_Interface.htm) - [Schedule Interfaces](../Use_Cases/Schedule_Interfaces.htm) - [Activate Interfaces, Events and Validations](../Use_Cases/Activate_Interfaces_Events.htm) - [Test Interfaces](../Use_Cases/Test_Interfaces.htm) - [Schedule Interfaces](../Use_Cases/Schedule_Interfaces.htm) - [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm)  To access this page, select Interfaces in the Navigation pane.
+Use this page to: - [Create an Interface](../Use_Cases/Create_an_Interface) - [Schedule Interfaces](../Use_Cases/Schedule_Interfaces) - [Activate Interfaces, Events and Validations](../Use_Cases/Activate_Interfaces_Events) - [Test Interfaces](../Use_Cases/Test_Interfaces) - [Schedule Interfaces](../Use_Cases/Schedule_Interfaces) - [View History of an Interface](../Use_Cases/View_History_of_an_Interface)  To access this page, select Interfaces in the Navigation pane.
   Field
  Description
   GROUP
@@ -206,12 +206,12 @@ Use this page to: - [Create an Interface](../Use_Cases/Create_an_Interface.htm) 
     
     <item>
       <title>Log H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/log/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/log/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Log/</guid>
       <description>Log H Log V
-Use this page to [View Logs for an Interface](../Use_Cases/View_Logs_for_an_Interface.htm).  To access this page:
+Use this page to [View Logs for an Interface](../Use_Cases/View_Logs_for_an_Interface).  To access this page:
  Select Interfaces in the Navigation pane.
  Click the History icon for the desired interface.
  Click the Important icon to view the Log page filtered by tasks with a level set at Reporting by Importance Level or above. This icon is only enabled of there are tasks written to the log for the interface according to the level set in the Reporting by Importance Level field on the Parameters page.</description>
@@ -219,11 +219,11 @@ Use this page to [View Logs for an Interface](../Use_Cases/View_Logs_for_an_Inte
     
     <item>
       <title>Logging Modules</title>
-      <link>https://heathercloward.github.io/automate/page_desc/logging_modules/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Logging_Modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/logging_modules/</guid>
-      <description>Logging Modules Use this page to [Add Logging Modules](../Use_Cases/Add_Logging_Modules.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Logging_Modules/</guid>
+      <description>Logging Modules Use this page to [Add Logging Modules](../Use_Cases/Add_Logging_Modules).  To access this page:
  Select Configuration &amp;gt; Parameters in the Navigation pane. Click the Modules icon.    Field
  Description
   MODULE
@@ -234,12 +234,12 @@ Use this page to [View Logs for an Interface](../Use_Cases/View_Logs_for_an_Inte
     
     <item>
       <title>Logging Severities H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/logging_severities/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Logging_Severities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/logging_severities/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Logging_Severities/</guid>
       <description>Logging Severities H Logging Severities V
-Use this page to [Configure Logging Severities](../Use_Cases/Configure_Logging_Severities.htm).  To access this page, select Configuration &amp;gt; Logging &amp;gt; Severities in the Navigation pane.
+Use this page to [Configure Logging Severities](../Use_Cases/Configure_Logging_Severities).  To access this page, select Configuration &amp;gt; Logging &amp;gt; Severities in the Navigation pane.
   Field
  Description
   PRIORITY
@@ -250,12 +250,12 @@ Use this page to [Configure Logging Severities](../Use_Cases/Configure_Logging_S
     
     <item>
       <title>Logical Path (Instance) H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/logical_path_instance/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Logical_Path_Instance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/logical_path_instance/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Logical_Path_Instance/</guid>
       <description>Logical Path (Instance) H Logical Path (Instance) V
-Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths.htm).  To access this page:
+Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths).  To access this page:
  Select IO Config &amp;gt; Logical Paths in the Navigation pane.   Click the Instances icon for the desired logical path.    Field
  Description
   INSTANCE
@@ -265,11 +265,11 @@ NOTE: The instance configured must match the instance selected on the Automate P
     
     <item>
       <title>Logical Path Instance (Browse)</title>
-      <link>https://heathercloward.github.io/automate/page_desc/logical_path_instance_browse/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Logical_Path_Instance_Browse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/logical_path_instance_browse/</guid>
-      <description>Logical Path Instance (Browse) Use this page to [Browse FTP Site or Path](../Use_Cases/Browse_FTP_Site_or_Path.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Logical_Path_Instance_Browse/</guid>
+      <description>Logical Path Instance (Browse) Use this page to [Browse FTP Site or Path](../Use_Cases/Browse_FTP_Site_or_Path).  To access this page:
  Select IO Config &amp;gt; Logical Paths in the Navigation pane. Click the Instances icon for the desired logical path. Click the Browse icon for the desired instance.    Field
  Description
   T
@@ -278,12 +278,12 @@ NOTE: The instance configured must match the instance selected on the Automate P
     
     <item>
       <title>Logical Paths H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/logical_paths/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Logical_Paths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/logical_paths/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Logical_Paths/</guid>
       <description>Logical Paths H Logical Paths V
-Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths.htm).  To access this page, select IO Config &amp;gt; Logical Paths in the Navigation pane.
+Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths).  To access this page, select IO Config &amp;gt; Logical Paths in the Navigation pane.
   Field
  Description
   LOGICAL PATH
@@ -295,12 +295,12 @@ Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths.htm).  To ac
     
     <item>
       <title>Monitor (Events) H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/monitor_events/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Monitor_Events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/monitor_events/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Monitor_Events/</guid>
       <description>Monitor (Events) H Monitor (Events) V
-Use this page to [Monitor Interfaces &amp; Events](../Use_Cases/Monitor_Interfaces_Events.htm).  To access this page:
+Use this page to [Monitor Interfaces &amp; Events](../Use_Cases/Monitor_Interfaces_Events).  To access this page:
  Select Monitor in the Navigation pane.
  Click the Events icon for the desired interface.
 Or
@@ -312,12 +312,12 @@ Or
     
     <item>
       <title>Monitor H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/monitor_h/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Monitor_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/monitor_h/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Monitor_H/</guid>
       <description>Monitor H Monitor V
-Use this page to [Monitor Interfaces &amp; Events](../Use_Cases/Monitor_Interfaces_Events.htm).  To access this page, select Monitor in the Navigation pane.
+Use this page to [Monitor Interfaces &amp; Events](../Use_Cases/Monitor_Interfaces_Events).  To access this page, select Monitor in the Navigation pane.
   Field
  Description
   TIME STARTED
@@ -331,11 +331,11 @@ Use this page to [Monitor Interfaces &amp; Events](../Use_Cases/Monitor_Interfac
     
     <item>
       <title>Parameters</title>
-      <link>https://heathercloward.github.io/automate/page_desc/parameters/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/parameters/</guid>
-      <description>Parameters Use this page to [Configure Automate Parameters](../Use_Cases/Configure_Automate_Parameters.htm).  To access this page, select Configuration &amp;gt; Parameters in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Parameters/</guid>
+      <description>Parameters Use this page to [Configure Automate Parameters](../Use_Cases/Configure_Automate_Parameters).  To access this page, select Configuration &amp;gt; Parameters in the Navigation pane.
 NOTE: It is recommended for only developers or system administrators to edit Automate parameters.
 Field
 Description
@@ -350,11 +350,11 @@ Displays the database version that the application is using.</description>
     
     <item>
       <title>Purpose</title>
-      <link>https://heathercloward.github.io/automate/page_desc/purpose/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Purpose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/purpose/</guid>
-      <description>Purpose Use this page to: - [Register External Process Validations](../Use_Cases/Register_External_Process_Validations.htm) - [Register Stored Procedure Validations](../Use_Cases/Register_Stored_Procedure_Validations.htm) - [Register View Validations](../Use_Cases/Register_View_Validations.htm)  To access this page, select Configuration &amp;gt; Purpose in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Purpose/</guid>
+      <description>Purpose Use this page to: - [Register External Process Validations](../Use_Cases/Register_External_Process_Validations) - [Register Stored Procedure Validations](../Use_Cases/Register_Stored_Procedure_Validations) - [Register View Validations](../Use_Cases/Register_View_Validations)  To access this page, select Configuration &amp;gt; Purpose in the Navigation pane.
 NOTE: It is not recommended to add new purposes or to edit the delivered purposes; the Automate code would need to be updated for the purpose to properly work.
   Field
  Description
@@ -363,21 +363,21 @@ NOTE: It is not recommended to add new purposes or to edit the delivered purpose
     
     <item>
       <title>Reports</title>
-      <link>https://heathercloward.github.io/automate/page_desc/reports/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/reports/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Reports/</guid>
       <description> Reports Use this page to access installed Automate reports.  To access this page, select Reports from the Navigation pane.
          Field Description   PRIORITY Displays the priority in which the Automate reports display.   REPORT Displays the report available in Automate. Click to view the report.    </description>
     </item>
     
     <item>
       <title>Role (Instance)</title>
-      <link>https://heathercloward.github.io/automate/page_desc/role_instance/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Role_Instance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/role_instance/</guid>
-      <description>Role (Instance) Use this page to [Assign Users to Roles](../Use_Cases/Assign_Users_to_Roles.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Role_Instance/</guid>
+      <description>Role (Instance) Use this page to [Assign Users to Roles](../Use_Cases/Assign_Users_to_Roles).  To access this page:
  Select Configuration &amp;gt; Roles in the Navigation pane. Click the Users icon for the desired role.    Field
  Description
   ROLE
@@ -389,11 +389,11 @@ NOTE: The Instance selected MUST match the Instance field in 2 additional places
     
     <item>
       <title>Roles</title>
-      <link>https://heathercloward.github.io/automate/page_desc/roles/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/roles/</guid>
-      <description>Roles Use this page to [Add Roles](../Use_Cases/Add_Roles.htm).  To access this page, select Configuration &amp;gt; Roles in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Roles/</guid>
+      <description>Roles Use this page to [Add Roles](../Use_Cases/Add_Roles).  To access this page, select Configuration &amp;gt; Roles in the Navigation pane.
   Field
  Description
   ROLE
@@ -405,11 +405,11 @@ The count on the icon is the total number of users assigned to the selected role
     
     <item>
       <title>Stored Procedure</title>
-      <link>https://heathercloward.github.io/automate/page_desc/stored_procedure/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Stored_Procedure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/stored_procedure/</guid>
-      <description>Stored Procedure Use this page to [Register Stored Procedure Events](../Use_Cases/Register_Stored_Procedure_Events.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Stored_Procedure/</guid>
+      <description>Stored Procedure Use this page to [Register Stored Procedure Events](../Use_Cases/Register_Stored_Procedure_Events).  To access this page:
  Select Interfaces in the Navigation pane.
  Click the Events icon for the desired interface.  Click the Parameters icon for an event with EVENT TYPE of StoredProcedure.
            Field Description   Field Displays the field from the stored procedure view that is passed to the event.</description>
@@ -417,22 +417,22 @@ The count on the icon is the total number of users assigned to the selected role
     
     <item>
       <title>Tasks</title>
-      <link>https://heathercloward.github.io/automate/page_desc/tasks/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/tasks/</guid>
-      <description>Tasks Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Tasks/</guid>
+      <description>Tasks Use this page to [View History of an Interface](../Use_Cases/View_History_of_an_Interface).  To access this page:
  Select Interfaces in the Navigation pane. Click the History icon for the desired interface. Click the Tasks icon for the desired interface run.           Field Description   TASK Displays the Task icon.   NAME Displays the descriptive name of the tasks that has run for an interface.</description>
     </item>
     
     <item>
       <title>Transport Types H</title>
-      <link>https://heathercloward.github.io/automate/page_desc/transport_types_h/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Transport_Types_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/transport_types_h/</guid>
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Transport_Types_H/</guid>
       <description>Transport Types H Transport Types V
-Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths.htm).  To access this page, select IO Config &amp;gt; Transport Types in the Navigation pane.
+Use this page to [Add Logical Paths](../Use_Cases/Add_Logical_Paths).  To access this page, select IO Config &amp;gt; Transport Types in the Navigation pane.
 NOTE: It is not recommended to add new transport types or to edit the delivered transport types; the Automate code would need to be updated for the transport type type to properly work.
   Field
  Description
@@ -441,11 +441,11 @@ NOTE: It is not recommended to add new transport types or to edit the delivered 
     
     <item>
       <title>UOM</title>
-      <link>https://heathercloward.github.io/automate/page_desc/uom/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/UOM/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/uom/</guid>
-      <description>UOM This page is used to: - [Set Retry Parameters](../Use_Cases/Set_Retry_Parameters.htm) - [Run Interface Events Sequentially](../Use_Cases/Run_Interface_Events_Sequentially.htm) - [Schedule Interfaces](../Use_Cases/Schedule_Interfaces.htm)  To access this page, select Configuration &amp;gt; UOM in the Navigation pane.
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/UOM/</guid>
+      <description>UOM This page is used to: - [Set Retry Parameters](../Use_Cases/Set_Retry_Parameters) - [Run Interface Events Sequentially](../Use_Cases/Run_Interface_Events_Sequentially) - [Schedule Interfaces](../Use_Cases/Schedule_Interfaces)  To access this page, select Configuration &amp;gt; UOM in the Navigation pane.
 NOTE: It is not recommended to add new UOMs or to edit the delivered UOMs; the Automate code would need to be updated for the UOM to properly work.
   Field
  Description
@@ -455,11 +455,11 @@ NOTE: It is not recommended to add new UOMs or to edit the delivered UOMs; the A
     
     <item>
       <title>WebApp Event</title>
-      <link>https://heathercloward.github.io/automate/page_desc/webapp_event/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/WebApp_Event/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/webapp_event/</guid>
-      <description>WebApp Event Use this page to [Register WebApp Events](../Use_Cases/Register_WebApp_Events.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/WebApp_Event/</guid>
+      <description>WebApp Event Use this page to [Register WebApp Events](../Use_Cases/Register_WebApp_Events).  To access this page:
  Select Interfaces in the Navigation pane.
  Click the Events icon.
  Click the Parameters icon for an event with EVENT TYPE of WebApp.
@@ -468,11 +468,11 @@ NOTE: It is not recommended to add new UOMs or to edit the delivered UOMs; the A
     
     <item>
       <title>Workflow</title>
-      <link>https://heathercloward.github.io/automate/page_desc/workflow/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/workflow/</guid>
-      <description>Workflow Use this page to [Register Workflow Events](../Use_Cases/Register_Workflow_Events.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Workflow/</guid>
+      <description>Workflow Use this page to [Register Workflow Events](../Use_Cases/Register_Workflow_Events).  To access this page:
  Select Interfaces in the Navigation pane.
  Click the Events icon.
  Click the Parameters icon for an event with EVENT TYPE of Workflow.
@@ -481,11 +481,11 @@ NOTE: It is not recommended to add new UOMs or to edit the delivered UOMs; the A
     
     <item>
       <title>Workflow (Email)</title>
-      <link>https://heathercloward.github.io/automate/page_desc/workflow_email/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Workflow_Email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/workflow_email/</guid>
-      <description>Workflow (Email) Use this page to [Register Workflow Events](../Use_Cases/Register_Workflow_Events.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Workflow_Email/</guid>
+      <description>Workflow (Email) Use this page to [Register Workflow Events](../Use_Cases/Register_Workflow_Events).  To access this page:
  Select Interfaces in the Navigation pane.
  Click the Events icon for the desired interface.
  Click Vertical View for an event with EVENT TYPE of Workflow.
@@ -500,11 +500,11 @@ Displays a system-generated ID to uniquely identify the event.</description>
     
     <item>
       <title>Workflow Links</title>
-      <link>https://heathercloward.github.io/automate/page_desc/workflow_links/</link>
+      <link>https://heathercloward.github.io/Automate/Page_Desc/Workflow_Links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/automate/page_desc/workflow_links/</guid>
-      <description>Workflow Links Use this page to [Register Workflow Events](../Use_Cases/Register_Workflow_Events.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Automate/Page_Desc/Workflow_Links/</guid>
+      <description>Workflow Links Use this page to [Register Workflow Events](../Use_Cases/Register_Workflow_Events).  To access this page:
  Select Interfaces in the Navigation pane.
  Click the Events icon for the desired interface.
  Click Vertical View for an event with EVENT TYPE of Workflow.

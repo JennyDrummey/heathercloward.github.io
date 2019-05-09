@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/transform/config/</link>
+    <link>https://heathercloward.github.io/Transform/Config/</link>
     <description>Recent content in Configuration on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/transform/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Transform/Config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Access Transform</title>
-      <link>https://heathercloward.github.io/transform/config/access_transform/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Access_Transform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/access_transform/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Access_Transform/</guid>
       <description>Access Transform Transform is accessible through dspMigrate™ Advanced Data Migration (ADM) by clicking the Context Bar. It is not accessible through the Navigation pane.
 Refer toContext, the Context Bar, and Navigation for more information.
 To access Transform:
@@ -26,10 +26,10 @@ NOTE: The Wave and Process Area currently selected display in the Context bar.
     
     <item>
       <title>Add Report Types</title>
-      <link>https://heathercloward.github.io/transform/config/add_report_types/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Add_Report_Types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/add_report_types/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Add_Report_Types/</guid>
       <description>Add Report Types Report types are used on the Target Reports and Target Source Reports pages to categorize reports. The Report Type is set using the REPORT TYPE list box.
 Transform is delivered with report types that cannot be edited or deleted. These types are further categorized as Display and Error reports.
 Report types can be added and can also be categorized as a Display report or an Error report.</description>
@@ -37,10 +37,10 @@ Report types can be added and can also be categorized as a Display report or an 
     
     <item>
       <title>Configure Complexity Values</title>
-      <link>https://heathercloward.github.io/transform/config/configure_complexity_values/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Complexity_Values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_complexity_values/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Complexity_Values/</guid>
       <description>Configure Complexity Values Complexity values are used to estimate work assignments for building an Object. They are used to calculate the results on the report Target Metrics Object Development.
 To set the complexity values in Transform:
  Select Configuration &amp;gt; Setup &amp;gt; Complexity (Setup) in the Navigation pane.
@@ -51,10 +51,10 @@ To set the complexity values in Transform:
     
     <item>
       <title>Configure Import / Export Types</title>
-      <link>https://heathercloward.github.io/transform/config/configure_import_export_types/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Import_Export_Types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_import_export_types/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Import_Export_Types/</guid>
       <description>Configure Import / Export Types The Import/Export Type controls how data is imported into Transform or how data is exported from Transform. While Transform is delivered with predefined Import/Export Types, additional types can be added.
 A Source can be imported into a Transform object’s database, which can then be used as the Source table.
 Target exports are the last sets of rules to move the Target data to a location so that it can be staged for export to an ERP system using a load tool.</description>
@@ -62,10 +62,10 @@ Target exports are the last sets of rules to move the Target data to a location 
     
     <item>
       <title>Configure Object Estimates</title>
-      <link>https://heathercloward.github.io/transform/config/configure_object_estimates/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Object_Estimates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_object_estimates/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Object_Estimates/</guid>
       <description>Configure Object Estimates Object Estimates are factors used in calculating the estimates in metrics reports. A standard object estimates set is delivered with Transform that can be edited, but not deleted. Transform does not allow new Object Estimates to be added.
 To edit an Object Estimate in Transform:
  Select Configuration &amp;gt; Setup &amp;gt; Object Estimates (Setup) in the Navigation pane.
@@ -75,10 +75,10 @@ View the field descriptions for the Object Estimates (Setup) page.</description>
     
     <item>
       <title>Configure Parameters</title>
-      <link>https://heathercloward.github.io/transform/config/configure_parameters/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_parameters/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Parameters/</guid>
       <description>Configure Parameters Before getting started with Transform, configure the parameters and setup pages. These steps should only be performed by a developer or a system administrator.
 The Setup pages provide an additional level of configuration. Many of these configuration settings do not need to be modified from the delivered settings.
 Transform parameters are used throughout the component and must be configured per installation. Configure Transform parameters in Console.
@@ -87,30 +87,30 @@ To configure parameters in Transform:</description>
     
     <item>
       <title>Configure Sample Size</title>
-      <link>https://heathercloward.github.io/transform/config/configure_sample_size/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Sample_Size/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_sample_size/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Sample_Size/</guid>
       <description>Configure Sample Size A sample size is used with a sampling method on Target audit reports to set the number of random rows to be verified by users. This process allows a certain number of rows from very large Targets to be selected at random for quality verification prior to, or subsequent to, a data load.
 Users should decide from an auditing perspective what sample size is acceptable and choose the method that will give them that sampling size.</description>
     </item>
     
     <item>
       <title>Configure Sampling Methods</title>
-      <link>https://heathercloward.github.io/transform/config/configure_sampling_methods/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Sampling_Methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_sampling_methods/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Sampling_Methods/</guid>
       <description>Configure Sampling Methods Transform is delivered with several methods to audit data. These sampling methods are used on Target audit reports to select random rows for the users to verify data. This process allows rows from very large Targets to be selected at random for quality verification prior to, or subsequent to, a data load.
 Sampling methods delivered with the platform cannot be edited, but a sampling method can be added.</description>
     </item>
     
     <item>
       <title>Configure Score Card Limits</title>
-      <link>https://heathercloward.github.io/transform/config/configure_score_card_limits/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Score_Card_Limits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_score_card_limits/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Score_Card_Limits/</guid>
       <description>Configure Score Card Limits A Score Card Limit defines the severity status of an object based on certain factors.
 Set the Score Card Limits to define the severity of a metric status for an Object.
 Transform is delivered with a set of Score Card Limits. Score Card Limits cannot be deleted, but the installed limits can be edited.
@@ -120,10 +120,10 @@ To edit a Score Card Limit in Transform:
     
     <item>
       <title>Configure Target Types</title>
-      <link>https://heathercloward.github.io/transform/config/configure_target_types/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Configure_Target_Types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/configure_target_types/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Configure_Target_Types/</guid>
       <description>Configure Target Types The Target Type categorizes the Target and is used when registering a Target in Transform. While Transform is delivered with predefined Target Types that can be edited and deleted, additional types can be added.
 To add a Target Type in Transform:
  Select Configuration &amp;gt; Setup &amp;gt; Target Types (Setup) in the Navigation pane.
@@ -133,29 +133,29 @@ View the field descriptions for the Target Types (Setup) page.</description>
     
     <item>
       <title>Set Up Headers and Footers for Transform Reports</title>
-      <link>https://heathercloward.github.io/transform/config/set_up_headers_and_footers/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Set_Up_Headers_and_Footers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/set_up_headers_and_footers/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Set_Up_Headers_and_Footers/</guid>
       <description>Set Up Headers and Footers for Transform Reports The headers and footers that display on Transform reports can be customized in Console to include information that is generated when the report is written to a file, such as generated date, total number of pages, or path and file name. A user can also enter static text to include in the header or footer.
 How headers and footers display can also be customized in many ways.</description>
     </item>
     
     <item>
       <title>Set up Data Sources for Transform</title>
-      <link>https://heathercloward.github.io/transform/config/set_up_data_sources_for_transform/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Set_up_Data_Sources_for_Transform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/set_up_data_sources_for_transform/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Set_up_Data_Sources_for_Transform/</guid>
       <description>Set up Data Sources for Transform An Administration must set up data sources in System Administration before Transform can be used. Refer to System Administration help for more information.</description>
     </item>
     
     <item>
       <title>Setup and Configuration for Transform</title>
-      <link>https://heathercloward.github.io/transform/config/setup_and_configuration_for_transform/</link>
+      <link>https://heathercloward.github.io/Transform/Config/Setup_and_Configuration_for_Transform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/setup_and_configuration_for_transform/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/Setup_and_Configuration_for_Transform/</guid>
       <description> Setup and Configuration for Transform Users who have access to at least one context have access to Transform. Refer to Grant Users Access to dspMigrate™ for more information.
 Before getting started with Transform, some settings may need to be configured.
 Review the following steps and perform setup as needed.
@@ -164,10 +164,10 @@ Review the following steps and perform setup as needed.
     
     <item>
       <title>View Status</title>
-      <link>https://heathercloward.github.io/transform/config/view_status/</link>
+      <link>https://heathercloward.github.io/Transform/Config/View_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/config/view_status/</guid>
+      <guid>https://heathercloward.github.io/Transform/Config/View_Status/</guid>
       <description>View Status Transform is delivered with predefined status types. A status is used to indicate the current standing of Targets, Target rules, Target reports, Target exports, Target Sources, Target Source rules and Target Source reports.
 NOTE: Though the installed settings can be edited, they cannot be deleted. No new statuses can be added.
 To view the status types select Configuration &amp;gt; Setup &amp;gt; Status (Setup) in the Navigation pane.</description>

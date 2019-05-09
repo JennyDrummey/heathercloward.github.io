@@ -199,3 +199,161 @@ font-weight: bold;
 cursor: pointer;
 font-size: 1em;
 }
+
+/* These are the styles for the 'Use this page to' section of the page descriptions. A div with a class of "use" will need to be wrapped around
+the p and ul (if there is one) in order for this to apply. */
+
+div.use
+{
+	background-color: #ceebff;
+	border-left: 6px solid #39607a;
+	padding-left: 4em;
+	margin-bottom: 2.00em;
+}
+
+div.use
+{
+	-webkit-margin-after: -1em;
+}
+
+div.use ul
+{
+	padding-bottom: 1.5em;
+}
+
+div.use:before
+{
+	content: "🗹";
+	font-size: 2em;
+	line-height: 2;
+	padding-right: .3em;
+	margin-left: -1.5em;
+}
+
+/* Styling for the back to Top button that shows up in the bottom right corner of page when user scrolls down*/
+
+#myBtn
+{
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 20px;
+	/* Place the button at the bottom of the page */
+	right: 30px;
+	/* Place the button 30px from the right */
+	z-index: 99;
+	/* Make sure it does not overlap */
+	border: none;
+	/* Remove borders */
+	outline: none;
+	/* Remove outline */
+	background-color: #4fadc6;
+	/* Set a background color */
+	color: white;
+	/* Text color */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	padding: 15px;
+	/* Some padding */
+	border-radius: 10px;
+	/* Rounded corners */
+	font-size: 18px;
+	/* Increase font size */
+}
+
+#myBtn:hover
+{
+	background-color: #555;
+	/* Add a dark-grey background on hover */
+}
+
+/* feedback widget styles */
+/* Style the background of the feedback survey, making it blue with rounded edges and giving it some margin so it fits nicely on the page.*/
+
+div#feedback-survey
+{
+	margin-left: 1em;
+	background-color: #ceebff;
+	padding: 2em;
+	width: 86%;
+	border-radius: 1em;
+	padding-top: 1em;
+	margin-top: 2em;
+}
+
+/* Feedback Widget text styling. */
+
+.feedbackW
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: .4em;
+}
+
+/* Class that keeps the feedback reason options hidden until user clicks the no button. */
+
+.feedback-reason
+{
+	display: none;
+}
+
+/* Styling for the content when the user clicks the no button. */
+
+.feedback-reason.no
+{
+	padding: 1em;
+	width: 98%;
+	padding-top: .1em;
+}
+
+/* Feedback Widget text styling. */
+
+div.feedback-question
+{
+	color: #39607a;
+	font-size: 1.5em;
+}
+
+/* Styling for the feedback buttons. */
+
+button.feedback-yes
+{
+	background-color: #20aa97;
+	/* green*/
+
+	border: none;
+	color: #fafafa;
+	padding: 1em 2em;
+	font-size: .7em;
+	margin-left: 1em;
+}
+
+button.feedback-yes:hover
+{
+	background-color: #179080;
+	/* slightly darker green*/
+
+	cursor: pointer;
+}
+
+button.feedback-no
+{
+	background-color: #ee3124;
+	/* red*/
+
+	border: none;
+	color: #fafafa;
+	padding: 1em 2em;
+	font-size: .7em;
+	margin-left: 1em;
+}
+
+button.feedback-no:hover
+{
+	background-color: #ca2b20;
+	/* slightly darker red*/
+
+	cursor: pointer;
+}

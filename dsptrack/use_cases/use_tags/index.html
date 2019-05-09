@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Use Tags :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,43 +126,46 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/dsptrack/" class="active">dspTrack Overview</a>
+        <a href="/dspTrack/" class="active">dspTrack Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
+
 
 
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/dsptrack/config/" class="">Configuration</a>
+        <a href="/dspTrack/Config/" class="">Configuration</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dsptrack/config/set_plan_security/" class="">Set Plan Security</a></li>
+                <a href="/dspTrack/Config/Set_Plan_Security/" class="">Set Plan Security</a></li>
         
             <li >
-                <a href="/dsptrack/config/set_security_in_dsptrack/" class="">Set Up Security for dspTrack™</a></li>
+                <a href="/dspTrack/Config/Set_Security_in_dspTrack/" class="">Set Up Security for dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/config/setup_dsptrack_security_custom_security_role/" class="">Set Up dspTrack™ Security for Custom Security Roles</a></li>
+                <a href="/dspTrack/Config/SetUp_dspTrack_Security_Custom_Security_Role/" class="">Set Up dspTrack™ Security for Custom Security Roles</a></li>
         
             <li >
-                <a href="/dsptrack/config/set_dsptrack_security_in_system_administration/" class="">Set dspTrack™ Security</a></li>
+                <a href="/dspTrack/Config/Set_dspTrack_Security_in_System_Administration/" class="">Set dspTrack™ Security</a></li>
         
             <li >
-                <a href="/dsptrack/config/set_dsptrack_security_delivered_security_role/" class="">Set up dspTrack™ Security for Delivered Security Roles</a></li>
+                <a href="/dspTrack/Config/Set_dspTrack_Security_Delivered_Security_Role/" class="">Set up dspTrack™ Security for Delivered Security Roles</a></li>
         
             <li >
-                <a href="/dsptrack/config/use_template_security_roles/" class="">Use Template Security Roles</a></li>
+                <a href="/dspTrack/Config/Use_Template_Security_Roles/" class="">Use Template Security Roles</a></li>
         
     </ul>
     </li>
@@ -166,256 +175,256 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/dsptrack/page_desc/" class="">Pages</a>
+        <a href="/dspTrack/Page_Desc/" class="">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dsptrack/page_desc/attachments/" class="">Attachments</a></li>
+                <a href="/dspTrack/Page_Desc/Attachments/" class="">Attachments</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/comment_codes/" class="">Comment Codes</a></li>
+                <a href="/dspTrack/Page_Desc/Comment_Codes/" class="">Comment Codes</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/copy_project/" class="">Copy Project</a></li>
+                <a href="/dspTrack/Page_Desc/Copy_Project/" class="">Copy Project</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/copy_tag/" class="">Copy Tag Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Copy_Tag/" class="">Copy Tag Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/escalation_hierarchy/" class="">Escalation Process</a></li>
+                <a href="/dspTrack/Page_Desc/Escalation_Hierarchy/" class="">Escalation Process</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_rules_all/" class="">Event Rules All</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Rules_All/" class="">Event Rules All</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/event_validations_all/" class="">Event Validations All H</a></li>
+                <a href="/dspTrack/Page_Desc/Event_Validations_All/" class="">Event Validations All H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/file_upload_work_list/" class="">File Upload Work List</a></li>
+                <a href="/dspTrack/Page_Desc/File_Upload_Work_List/" class="">File Upload Work List</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/item_comment_code/" class="">Item Comment Code</a></li>
+                <a href="/dspTrack/Page_Desc/Item_Comment_Code/" class="">Item Comment Code</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/late_reason_by_code/" class="">Late Reason By Code</a></li>
+                <a href="/dspTrack/Page_Desc/Late_Reason_By_Code/" class="">Late Reason By Code</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/late_reason_by_plan/" class="">Late Reason By Plan</a></li>
+                <a href="/dspTrack/Page_Desc/Late_Reason_By_Plan/" class="">Late Reason By Plan</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/late_reason_by_tag/" class="">Late Reason By Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Late_Reason_By_Tag/" class="">Late Reason By Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/late_task/" class="">Late Task</a></li>
+                <a href="/dspTrack/Page_Desc/Late_Task/" class="">Late Task</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/late_task_escalation/" class="">Late Task Escalation</a></li>
+                <a href="/dspTrack/Page_Desc/Late_Task_Escalation/" class="">Late Task Escalation</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/logic_tag/" class="">Logic Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Logic_Tag/" class="">Logic Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/longest_running_tasks/" class="">Longest Running Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Longest_Running_Tasks/" class="">Longest Running Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/metrics_by_project_report/" class="">Metrics By Project</a></li>
+                <a href="/dspTrack/Page_Desc/Metrics_By_Project_Report/" class="">Metrics By Project</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/metrics_by_tag_report/" class="">Metrics By Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Metrics_By_Tag_Report/" class="">Metrics By Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/milestone_completion/" class="">Milestone Completion</a></li>
+                <a href="/dspTrack/Page_Desc/Milestone_Completion/" class="">Milestone Completion</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/overdue_tasks/" class="">Overdue Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Overdue_Tasks/" class="">Overdue Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/overestimated_tasks/" class="">Overestimated Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Overestimated_Tasks/" class="">Overestimated Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/parameters_dsptrack/" class="">Parameters</a></li>
+                <a href="/dspTrack/Page_Desc/Parameters_dspTrack/" class="">Parameters</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/parameters_for_work_list_event_rules/" class="">Parameters for Work List Event Rules</a></li>
+                <a href="/dspTrack/Page_Desc/Parameters_for_Work_List_Event_Rules/" class="">Parameters for Work List Event Rules</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/parameters_for_work_list_event_validations/" class="">Parameters for Work List Event Validations</a></li>
+                <a href="/dspTrack/Page_Desc/Parameters_for_Work_List_Event_Validations/" class="">Parameters for Work List Event Validations</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/project_access_setup/" class="">Plan Access Setup</a></li>
+                <a href="/dspTrack/Page_Desc/Project_Access_Setup/" class="">Plan Access Setup</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_h/" class="">Plan H</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_H/" class="">Plan H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_tag/" class="">Plan Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Tag/" class="">Plan Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_task_dependency/" class="">Plan Task Dependency</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Task_Dependency/" class="">Plan Task Dependency</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_task_dependency_successor/" class="">Plan Task Dependency Successor</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Task_Dependency_Successor/" class="">Plan Task Dependency Successor</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_task_h/" class="">Plan Task H</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Task_H/" class="">Plan Task H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_task_tag/" class="">Plan Task Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Task_Tag/" class="">Plan Task Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_task_tag_assignment/" class="">Plan Task Tag Assignment</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Task_Tag_Assignment/" class="">Plan Task Tag Assignment</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_task_user/" class="">Plan Task User</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Task_User/" class="">Plan Task User</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_tasks_versus_work_list_items/" class="">Plan Tasks Versus Work List Items</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_Tasks_Versus_Work_List_Items/" class="">Plan Tasks Versus Work List Items</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/plan_user_registration/" class="">Plan User Registration</a></li>
+                <a href="/dspTrack/Page_Desc/Plan_User_Registration/" class="">Plan User Registration</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/project_/" class="">Project</a></li>
+                <a href="/dspTrack/Page_Desc/Project_/" class="">Project</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/project_dependency/" class="">Project Dependency</a></li>
+                <a href="/dspTrack/Page_Desc/Project_Dependency/" class="">Project Dependency</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/ready_tasks/" class="">Ready Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Ready_Tasks/" class="">Ready Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/report_engine_email_configuration_h/" class="">Report Engine Email Configuration</a></li>
+                <a href="/dspTrack/Page_Desc/Report_Engine_Email_Configuration_H/" class="">Report Engine Email Configuration</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/reports_dsptrack/" class="">Reports</a></li>
+                <a href="/dspTrack/Page_Desc/Reports_dspTrack/" class="">Reports</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/resource_synonym/" class="">Resource Synonym</a></li>
+                <a href="/dspTrack/Page_Desc/Resource_Synonym/" class="">Resource Synonym</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/schedule_status_outlook/" class="">Schedule Status Outlook</a></li>
+                <a href="/dspTrack/Page_Desc/Schedule_Status_Outlook/" class="">Schedule Status Outlook</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/security_tag/" class="">Security Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Security_Tag/" class="">Security Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/security_tag_user/" class="">Security Tag User</a></li>
+                <a href="/dspTrack/Page_Desc/Security_Tag_User/" class="">Security Tag User</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/tag/" class="">Tag H (Also Tag – All Types)</a></li>
+                <a href="/dspTrack/Page_Desc/Tag/" class="">Tag H (Also Tag – All Types)</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/tag_plan_task_assignment/" class="">Tag Plan Task Assignment</a></li>
+                <a href="/dspTrack/Page_Desc/Tag_Plan_Task_Assignment/" class="">Tag Plan Task Assignment</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/tag_type/" class="">Tag Type</a></li>
+                <a href="/dspTrack/Page_Desc/Tag_Type/" class="">Tag Type</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status1/" class="">Task Status</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status1/" class="">Task Status</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status_by_plan_report/" class="">Task Status By Plan</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status_By_Plan_Report/" class="">Task Status By Plan</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status_by_project_report/" class="">Task Status By Project</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status_By_Project_Report/" class="">Task Status By Project</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status_by_tag_report/" class="">Task Status By Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status_By_Tag_Report/" class="">Task Status By Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status_by_project/" class="">Task Status by Project</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status_By_Project/" class="">Task Status by Project</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status_on_import/" class="">Task Status on Import</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status_on_Import/" class="">Task Status on Import</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/tasks_due_next_week/" class="">Tasks Due Next Week</a></li>
+                <a href="/dspTrack/Page_Desc/Tasks_Due_Next_Week/" class="">Tasks Due Next Week</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/tasks_due_next_week_by_project/" class="">Tasks Due Next Week By Project</a></li>
+                <a href="/dspTrack/Page_Desc/Tasks_Due_Next_Week_By_Project/" class="">Tasks Due Next Week By Project</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/task_status_by_plan/" class="">Tasks Status by Plan</a></li>
+                <a href="/dspTrack/Page_Desc/Task_Status_by_Plan/" class="">Tasks Status by Plan</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/tasks_in_progress/" class="">Tasks in Progress</a></li>
+                <a href="/dspTrack/Page_Desc/Tasks_in_Progress/" class="">Tasks in Progress</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/unassigned_tasks/" class="">Unassigned Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Unassigned_Tasks/" class="">Unassigned Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/underestimated_tasks/" class="">Underestimated Tasks</a></li>
+                <a href="/dspTrack/Page_Desc/Underestimated_Tasks/" class="">Underestimated Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/user_assigned_hours/" class="">User Assigned Hours</a></li>
+                <a href="/dspTrack/Page_Desc/User_Assigned_Hours/" class="">User Assigned Hours</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/escalation_hierarchy_contact/" class="">User List - Receive Work List Escalations</a></li>
+                <a href="/dspTrack/Page_Desc/Escalation_Hierarchy_Contact/" class="">User List - Receive Work List Escalations</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/escalation_hierarchy_user/" class="">User List - Work List Items Escalated</a></li>
+                <a href="/dspTrack/Page_Desc/Escalation_Hierarchy_User/" class="">User List - Work List Items Escalated</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/warn_thresholds/" class="">Warn Thresholds</a></li>
+                <a href="/dspTrack/Page_Desc/Warn_Thresholds/" class="">Warn Thresholds</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_binding_criteria/" class="">Work List Binding Criteria</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Binding_Criteria/" class="">Work List Binding Criteria</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_detail/" class="">Work List Detail</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Detail/" class="">Work List Detail</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_detail_resource/" class="">Work List Detail – Resource</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Detail_Resource/" class="">Work List Detail – Resource</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_detail_tag/" class="">Work List Detail – Tag</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Detail_Tag/" class="">Work List Detail – Tag</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_rule-plan_task/" class="">Work List Event Rule - Plan Task</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Rule-Plan_Task/" class="">Work List Event Rule - Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_rule_work_list_setup/" class="">Work List Event Rule - Work List Setup</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Rule_Work_List_Setup/" class="">Work List Event Rule - Work List Setup</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/worklist_event_rule_worklist_setup_plan_task/" class="">Work List Event Rule - Work List Setup – Plan Task</a></li>
+                <a href="/dspTrack/Page_Desc/WorkList_Event_Rule_WorkList_Setup_Plan_Task/" class="">Work List Event Rule - Work List Setup – Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_rules/" class="">Work List Event Rules</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Rules/" class="">Work List Event Rules</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_rules_tag_registration/" class="">Work List Event Rules – Tag Registration</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Rules_Tag_Registration/" class="">Work List Event Rules – Tag Registration</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_validations_plan_task/" class="">Work List Event Validations - Plan Task H</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Validations_Plan_Task/" class="">Work List Event Validations - Plan Task H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_validations_tag_registration/" class="">Work List Event Validations - Tag Registration H</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Validations_Tag_Registration/" class="">Work List Event Validations - Tag Registration H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_validations_work_list_setup_h/" class="">Work List Event Validations - Work List Setup H</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Validations_Work_List_Setup_H/" class="">Work List Event Validations - Work List Setup H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/worklist_event_validations_worklist_setup_task/" class="">Work List Event Validations -  Work List Setup Task H</a></li>
+                <a href="/dspTrack/Page_Desc/WorkList_Event_Validations_WorkList_Setup_Task/" class="">Work List Event Validations -  Work List Setup Task H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_event_validations_h/" class="">Work List Event Validations H</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Event_Validations_H/" class="">Work List Event Validations H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list/" class="">Work List H</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List/" class="">Work List H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_item_user/" class="">Work List Item User</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Item_User/" class="">Work List Item User</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_list_setup_h/" class="">Work List Setup H</a></li>
+                <a href="/dspTrack/Page_Desc/Work_List_Setup_H/" class="">Work List Setup H</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/work_flow_log/" class="">Workflow Log</a></li>
+                <a href="/dspTrack/Page_Desc/Work_Flow_Log/" class="">Workflow Log</a></li>
         
             <li >
-                <a href="/dsptrack/page_desc/workflow_preferences/" class="">Workflow User Preference</a></li>
+                <a href="/dspTrack/Page_Desc/Workflow_Preferences/" class="">Workflow User Preference</a></li>
         
     </ul>
     </li>
@@ -425,253 +434,253 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/dsptrack/use_cases/" class="active">Procedures</a>
+        <a href="/dspTrack/Use_Cases/" class="active">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dsptrack/use_cases/activate_and_deactivate_a_plan/" class="">Activate and Deactivate a Plan</a></li>
+                <a href="/dspTrack/Use_Cases/Activate_and_Deactivate_a_Plan/" class="">Activate and Deactivate a Plan</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_comment_codes/" class="">Add Comment Codes</a></li>
+                <a href="/dspTrack/Use_Cases/Add_Comment_Codes/" class="">Add Comment Codes</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_users_to_plan_tasks_manually/" class="">Add Users to Plan Tasks Manually</a></li>
+                <a href="/dspTrack/Use_Cases/Add_Users_to_Plan_Tasks_Manually/" class="">Add Users to Plan Tasks Manually</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_users_to_an_item/" class="">Add Users to a Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/Add_Users_to_an_Item/" class="">Add Users to a Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/addwrklisbindingcriteriaitem/" class="">Add Work List Binding Criteria to a Work List Item or Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/AddWrkLisBindingCriteriaItem/" class="">Add Work List Binding Criteria to a Work List Item or Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_work_list_items_overview/" class="">Add Work List Items</a></li>
+                <a href="/dspTrack/Use_Cases/Add_Work_List_Items_Overview/" class="">Add Work List Items</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_a_comment_to_a_task/" class="">Add a Comment to a Task</a></li>
+                <a href="/dspTrack/Use_Cases/Add_a_Comment_to_a_Task/" class="">Add a Comment to a Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_a_default_calendar_to_a_plan1/" class="">Add a Default Calendar to a Plan or to All Plans</a></li>
+                <a href="/dspTrack/Use_Cases/Add_a_Default_Calendar_to_a_Plan1/" class="">Add a Default Calendar to a Plan or to All Plans</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_a_plan_task_manually/" class="">Add a Plan Task Manually</a></li>
+                <a href="/dspTrack/Use_Cases/Add_a_Plan_Task_Manually/" class="">Add a Plan Task Manually</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_a_predecessor_task/" class="">Add a Predecessor Task</a></li>
+                <a href="/dspTrack/Use_Cases/Add_a_Predecessor_Task/" class="">Add a Predecessor Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/add_a_tag/" class="">Add a Tag</a></li>
+                <a href="/dspTrack/Use_Cases/Add_a_Tag/" class="">Add a Tag</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/archive_a_plan/" class="">Archive a Plan</a></li>
+                <a href="/dspTrack/Use_Cases/Archive_a_Plan/" class="">Archive a Plan</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/assign_registered_user_tasks_another_user/" class="">Assign a Registered User&#39;s Tasks to Another User</a></li>
+                <a href="/dspTrack/Use_Cases/Assign_Registered_User_Tasks_Another_User/" class="">Assign a Registered User&#39;s Tasks to Another User</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/assign_a_tag_to_tasks/" class="">Assign a Tag to Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/Assign_a_Tag_to_Tasks/" class="">Assign a Tag to Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/calculate_schedule_status/" class="">Calculate Schedule Status</a></li>
+                <a href="/dspTrack/Use_Cases/Calculate_Schedule_Status/" class="">Calculate Schedule Status</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/calculate_the_critical_path_for_a_plan/" class="">Calculate the Critical Path for a Plan</a></li>
+                <a href="/dspTrack/Use_Cases/Calculate_the_Critical_Path_for_a_Plan/" class="">Calculate the Critical Path for a Plan</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/configure_logic_tags/" class="">Configure Logic Tags</a></li>
+                <a href="/dspTrack/Use_Cases/Configure_Logic_Tags/" class="">Configure Logic Tags</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/configure_project_tags/" class="">Configure Plan Tags</a></li>
+                <a href="/dspTrack/Use_Cases/Configure_Project_Tags/" class="">Configure Plan Tags</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/configure_security_tags/" class="">Configure Security Tags</a></li>
+                <a href="/dspTrack/Use_Cases/Configure_Security_Tags/" class="">Configure Security Tags</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_plan/" class="">Copy Plan</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Plan/" class="">Copy Plan</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_plan_task/" class="">Copy Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Plan_Task/" class="">Copy Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_tasks1/" class="">Copy Plan Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Tasks1/" class="">Copy Plan Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_plans/" class="">Copy Plans</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Plans/" class="">Copy Plans</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_projects/" class="">Copy Projects</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Projects/" class="">Copy Projects</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_projects_plans_tasks_and_tags/" class="">Copy Projects, Plans, Tasks, and Tags</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Projects_Plans_Tasks_and_Tags/" class="">Copy Projects, Plans, Tasks, and Tags</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/copy_tags/" class="">Copy Tag Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/Copy_Tags/" class="">Copy Tag Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/create_an_escalation_process/" class="">Create an Escalation Process</a></li>
+                <a href="/dspTrack/Use_Cases/Create_an_Escalation_Process/" class="">Create an Escalation Process</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/downloadviewuploadedfiles/" class="">Download and View Uploaded Files for a Plan, Task, or Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/DownloadViewUploadedFiles/" class="">Download and View Uploaded Files for a Plan, Task, or Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/escalate_late_tasks/" class="">Escalate Late Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/Escalate_Late_Tasks/" class="">Escalate Late Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/export_a_project_file/" class="">Export a Project File</a></li>
+                <a href="/dspTrack/Use_Cases/Export_a_Project_File/" class="">Export a Project File</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/export_project_excl_sprdsht_msproject/" class="">Export a Project as an Excel File in MS Project</a></li>
+                <a href="/dspTrack/Use_Cases/Export_Project_Excl_Sprdsht_MSProject/" class="">Export a Project as an Excel File in MS Project</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/finish_a_work_list_item/" class="">Finish Work on a Work List Item or Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Finish_a_Work_List_Item/" class="">Finish Work on a Work List Item or Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/finish_to_finish/" class="">Finish to Finish</a></li>
+                <a href="/dspTrack/Use_Cases/Finish_to_Finish/" class="">Finish to Finish</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/finish_to_start/" class="">Finish to Start</a></li>
+                <a href="/dspTrack/Use_Cases/Finish_to_Start/" class="">Finish to Start</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/import_project_files_into_dsptrack/" class="">Import Project Files into dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/Import_Project_Files_into_dspTrack/" class="">Import Project Files into dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/import_the_project_file_into_dsptrack/" class="">Import a Project File</a></li>
+                <a href="/dspTrack/Use_Cases/Import_the_Project_File_into_dspTrack/" class="">Import a Project File</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/inform-users-of-late-tasks-with-escalation-processes/" class="">Inform Users of Late Tasks with Escalation Processes</a></li>
+                <a href="/dspTrack/Use_Cases/Inform-Users-of-Late-Tasks-with-Escalation-Processes/" class="">Inform Users of Late Tasks with Escalation Processes</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/map_prjct_usrnme_platform_usrnm/" class="">Map a Project User Name to a User Name in the Platform</a></li>
+                <a href="/dspTrack/Use_Cases/Map_prjct_usrnme_platform_usrnm/" class="">Map a Project User Name to a User Name in the Platform</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/organize_plans_with_projects/" class="">Organize Plans with Projects</a></li>
+                <a href="/dspTrack/Use_Cases/Organize_Plans_with_Projects/" class="">Organize Plans with Projects</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/receive_workflow_messages/" class="">Receive Workflow Messages</a></li>
+                <a href="/dspTrack/Use_Cases/Receive_Workflow_Messages/" class="">Receive Workflow Messages</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_unregistered_users_imprtd_dsptrack/" class="">Register Unregistered Users Imported into dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/Register_Unregistered_Users_Imprtd_dspTrack/" class="">Register Unregistered Users Imported into dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_work_list_event_rules/" class="">Register Work List Event Rules</a></li>
+                <a href="/dspTrack/Use_Cases/Register_Work_List_Event_Rules/" class="">Register Work List Event Rules</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_work_list_event_rules_for_a_plan/" class="">Register Work List Event Rules for a Plan</a></li>
+                <a href="/dspTrack/Use_Cases/Register_Work_List_Event_Rules_for_a_Plan/" class="">Register Work List Event Rules for a Plan</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_work_list_event_rules_for_a_plan_task/" class="">Register Work List Event Rules for a Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Register_Work_List_Event_Rules_for_a_Plan_Task/" class="">Register Work List Event Rules for a Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_worklist_event_rules_worklist_item/" class="">Register Work List Event Rules for a Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/Register_WorkList_Event_Rules_WorkList_Item/" class="">Register Work List Event Rules for a Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_work_list_event_validations/" class="">Register Work List Event Validations</a></li>
+                <a href="/dspTrack/Use_Cases/Register_Work_List_Event_Validations/" class="">Register Work List Event Validations</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_worklist_event_validations_plan/" class="">Register Work List Event Validations for a Plan</a></li>
+                <a href="/dspTrack/Use_Cases/Register_WorkList_Event_Validations_Plan/" class="">Register Work List Event Validations for a Plan</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_worklist_event_validations_plan_task/" class="">Register Work List Event Validations for a Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Register_WorkList_Event_Validations_Plan_Task/" class="">Register Work List Event Validations for a Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/register_worklist_event_valid_worklist_item/" class="">Register Work List Event Validations for a Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/Register_WorkList_Event_Valid_WorkList_Item/" class="">Register Work List Event Validations for a Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/required_columns_for_import/" class="">Required Columns for Import into dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/Required_Columns_for_Import/" class="">Required Columns for Import into dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/set_comment_requirements_for_tasks/" class="">Set Comment Requirements for Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/Set_Comment_Requirements_for_Tasks/" class="">Set Comment Requirements for Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/set_parameters_for_schedule_status_calculation/" class="">Set Parameters for Schedule Status Calculation</a></li>
+                <a href="/dspTrack/Use_Cases/Set_Parameters_for_Schedule_Status_Calculation/" class="">Set Parameters for Schedule Status Calculation</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/set_user_workflow_receipt_preferences/" class="">Set User Workflow Receipt Preferences</a></li>
+                <a href="/dspTrack/Use_Cases/Set_User_Workflow_Receipt_Preferences/" class="">Set User Workflow Receipt Preferences</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/set_a_comment_code_for_a_plan_task/" class="">Set a Comment Code for a Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Set_a_Comment_Code_for_a_Plan_Task/" class="">Set a Comment Code for a Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/set_a_comment_code_for_a_work_list_item/" class="">Set a Comment Code for a Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/Set_a_Comment_Code_for_a_Work_List_Item/" class="">Set a Comment Code for a Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/set_the_upload_path_for_dsptrack/" class="">Set the Upload Path for dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/Set_the_Upload_Path_for_dspTrack/" class="">Set the Upload Path for dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/setup_and_configuration_for_dsptrack/" class="">Setup and Configuration for dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/Setup_and_Configuration_for_dspTrack/" class="">Setup and Configuration for dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/start_work_on_a_work_list_item_or_plan_task/" class="">Start Work on a Work List Item or Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Start_Work_on_a_Work_List_Item_or_Plan_Task/" class="">Start Work on a Work List Item or Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/start_to_finish/" class="">Start to Finish</a></li>
+                <a href="/dspTrack/Use_Cases/Start_to_Finish/" class="">Start to Finish</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/start_to_start/" class="">Start to Start</a></li>
+                <a href="/dspTrack/Use_Cases/Start_to_Start/" class="">Start to Start</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/tasks_on_the_critical_path/" class="">Tasks on the Critical Path</a></li>
+                <a href="/dspTrack/Use_Cases/Tasks_on_the_Critical_Path/" class="">Tasks on the Critical Path</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/upldfilesfoprojtaskwrklistitem/" class="">Upload Files for a Plan, Task or Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/UpldFilesfoProjTaskWrkListItem/" class="">Upload Files for a Plan, Task or Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/upload_files_to_a_work_list_item/" class="">Upload Files to a Work List Item</a></li>
+                <a href="/dspTrack/Use_Cases/Upload_Files_to_a_Work_List_Item/" class="">Upload Files to a Work List Item</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/upload_and_download_files_for_a_plan_task/" class="">Upload and Download Files for a Plan Task</a></li>
+                <a href="/dspTrack/Use_Cases/Upload_and_Download_Files_for_a_Plan_Task/" class="">Upload and Download Files for a Plan Task</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/use_comment_codes/" class="">Use Comment Codes</a></li>
+                <a href="/dspTrack/Use_Cases/Use_Comment_Codes/" class="">Use Comment Codes</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/use_dependency_types/" class="">Use Dependency Types</a></li>
+                <a href="/dspTrack/Use_Cases/Use_Dependency_Types/" class="">Use Dependency Types</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/use_tags/" class="uk-active">Use Tags</a></li>
+                <a href="/dspTrack/Use_Cases/Use_Tags/" class="uk-active">Use Tags</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/use_the_work_list/" class="">Use the Work List</a></li>
+                <a href="/dspTrack/Use_Cases/Use_the_Work_List/" class="">Use the Work List</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_late_tasks/" class="">View Late Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/View_Late_Tasks/" class="">View Late Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_reports_in_dsptrack/" class="">View Reports in dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/View_Reports_in_dspTrack/" class="">View Reports in dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_tags_and_tag_types/" class="">View Tags and Tag Types</a></li>
+                <a href="/dspTrack/Use_Cases/View_Tags_and_Tag_Types/" class="">View Tags and Tag Types</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_work_list_details/" class="">View Work List Details</a></li>
+                <a href="/dspTrack/Use_Cases/View_Work_List_Details/" class="">View Work List Details</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_workflow_messages_sent/" class="">View Workflow Messages Sent</a></li>
+                <a href="/dspTrack/Use_Cases/View_Workflow_Messages_Sent/" class="">View Workflow Messages Sent</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/vwallitemsprojtasksforwrklists/" class="">View all Work List Items and Plan Tasks for All Work Lists</a></li>
+                <a href="/dspTrack/Use_Cases/VwallItemsProjTasksforWrkLists/" class="">View all Work List Items and Plan Tasks for All Work Lists</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_and_edit_all_event_rules/" class="">View and Edit All Event Rules</a></li>
+                <a href="/dspTrack/Use_Cases/View_and_Edit_All_Event_Rules/" class="">View and Edit All Event Rules</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_and_edit_all_work_list_event_validations/" class="">View and Edit All Event Validations</a></li>
+                <a href="/dspTrack/Use_Cases/View_and_Edit_All_Work_List_Event_Validations/" class="">View and Edit All Event Validations</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_dashboards_in_dsptrack/" class="">View the Dashboard in dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/View_Dashboards_in_dspTrack/" class="">View the Dashboard in dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/view_the_debug_log_for_dsptrack/" class="">View the Debug Log for dspTrack™</a></li>
+                <a href="/dspTrack/Use_Cases/View_the_Debug_Log_for_dspTrack/" class="">View the Debug Log for dspTrack™</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/work_with_plan_tasks/" class="">Work with Plan Tasks</a></li>
+                <a href="/dspTrack/Use_Cases/Work_with_Plan_Tasks/" class="">Work with Plan Tasks</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/work_with_work_list_items/" class="">Work with Work List Items</a></li>
+                <a href="/dspTrack/Use_Cases/Work_with_Work_List_Items/" class="">Work with Work List Items</a></li>
         
             <li >
-                <a href="/dsptrack/use_cases/dsptrck_and_msprjct_intgrtion/" class="">dspTrack™ and MSProject Integration</a></li>
+                <a href="/dspTrack/Use_Cases/dspTrck_and_MSPrjct_Intgrtion/" class="">dspTrack™ and MSProject Integration</a></li>
         
     </ul>
     </li>
@@ -692,7 +701,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Platform</a></li>
-        <li><a>dspTrack</a></li>
+        <li><a href="/dspTrack">dspTrack</a></li>
         <li><span>Use Tags</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -719,7 +728,7 @@ assigned to a task, any users assigned to the tag are assigned to
 the associated task.</li>
 </ul>
 
-<p>Tags can be assigned to multiple tasks. Refer to <a href="Assign_a_Tag_to_Tasks.htm">Assign a Tag to a
+<p>Tags can be assigned to multiple tasks. Refer to <a href="Assign_a_Tag_to_Tasks">Assign a Tag to a
 Task</a> for more information.</p>
 
 <p>Tags can be assigned to tasks in two ways:</p>
@@ -737,14 +746,52 @@ to Work List Items added via the <em>Work List Setup</em> page.</p>
 <p>To work with tags:</p>
 
 <ul>
-<li><a href="View_Tags_and_Tag_Types.htm">View Tags and Tag Types</a></li>
-<li><a href="Add_a_Tag.htm">Add a Tag</a></li>
-<li><a href="Configure_Logic_Tags.htm">Configure Logic Tags</a></li>
-<li><a href="Configure_Project_Tags.htm">Configure Plan Tags</a></li>
-<li><a href="Configure_Security_Tags.htm">Configure Security Tags</a></li>
-<li><a href="Assign_a_Tag_to_Tasks.htm">Assign a Tag to Tasks</a></li>
+<li><a href="View_Tags_and_Tag_Types">View Tags and Tag Types</a></li>
+<li><a href="Add_a_Tag">Add a Tag</a></li>
+<li><a href="Configure_Logic_Tags">Configure Logic Tags</a></li>
+<li><a href="Configure_Project_Tags">Configure Plan Tags</a></li>
+<li><a href="Configure_Security_Tags">Configure Security Tags</a></li>
+<li><a href="Assign_a_Tag_to_Tasks">Assign a Tag to Tasks</a></li>
 </ul>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -762,13 +809,14 @@ to Work List Items added via the <em>Work List Setup</em> page.</p>
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -776,12 +824,12 @@ to Work List Items added via the <em>Work List Setup</em> page.</p>
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -794,18 +842,20 @@ to Work List Items added via the <em>Work List Setup</em> page.</p>
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

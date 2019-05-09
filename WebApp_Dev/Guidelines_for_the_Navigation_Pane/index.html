@@ -1,0 +1,700 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guidelines for the Navigation Pane :: Syniti Documentation</title>
+  
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
+</script>
+<script src="/js/modal.js"></script>
+<script src="/js/custom.js"></script>
+</head>
+<body>
+  
+  
+<div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/WebApp_Dev/" class="active">DSP App Dev Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/WebApp_Dev/Add-Binding-Criteria-when-Linking-to-a-Page/" class="">Add Binding Criteria when Linking to a Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_Column_Help_Text/" class="">Add Column Help Text</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add-Columns-to-a-Report/" class="">Add Columns to a Report for a Report Group</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/addDynamicHelpToAPage/" class="">Add Dynamic Help to a Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add-Layouts/" class="">Add Layouts</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_List_Boxes_and_Combo_Boxes/" class="">Add List Boxes and Combo Boxes</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_Pages_to_the_Navigation_Pane/" class="">Add Pages to the *Navigation* Pane</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add-Reserved-Columns-to-Tables/" class="">Add Reserved Columns to Tables</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add-a-Check-Box/" class="">Add a Check Box</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add-a-Control-Type-to-a-Column/" class="">Add a Control Type to a Column</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_Filtered_Combo_Box/" class="">Add a Filtered Combo Box</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_Label/" class="">Add a Label</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add-a-link-to-the-Site-Menu/" class="">Add a Link to the Site Menu</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_List_Selection_Field/" class="">Add a List Selection Field</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_Menu_to_the_Navigation_Pane/" class="">Add a Menu to the Navigation Pane</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_Tab/" class="">Add a Tab</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_Tooltip/" class="">Add a Tooltip</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_a_Watermark/" class="">Add a Watermark</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Add_an_HTML_Area_to_a_Column/" class="">Add an HTML Area to a Column</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Append_BOA_Reserved_Columns_to_Tables/" class="">Append BOA Reserved Columns to Tables</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Assign_Column_Properties/" class="">Assign Column Properties</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Assign_Page_Properties/" class="">Assign Page Properties to a Dynamic Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Business_Rule_Guidelines/" class="">Business Rule Guidelines</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Business_Rules/" class="">Business Rules</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Column_Encryption/" class="">Column Encryption</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Configure-Report-Generation-for-Linked-Pages/" class="">Configure Report Generation for Linked Pages</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Configure-boaReport-Reserved-Column/" class="">Configure boaReport Reserved Column</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Configure_the_Navigation_Pane_Submenus_and_Links_to_Pages/" class="">Configure the Navigation Pane, Submenus and Links to Pages</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Consolidation/" class="">Consolidation</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Control_Status_Fields/" class="">Control Status Fields</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Control_Status_Manipulation_Overhead_Minimization/" class="">Control Status Manipulation Overhead Minimization</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Control_Views/" class="">Control Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Copy-a-Layout/" class="">Copy a Layout</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Copy_a_Page_in_a_WebApp/" class="">Copy a Page in a WebApp</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_Chart_Drill_Down/" class="">Create Chart Drill Down</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Dashboards_and_Charts/" class="">Create Dashboards and Charts</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_Events/" class="">Create Events</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-Report-Groups/" class="">Create Report Groups</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-Report-Pages/" class="">Create Report Pages</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-Report-Views/" class="">Create Report Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-Reports/" class="">Create Reports</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_Tables_in_SQL/" class="">Create Tables in SQL</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_Views_in_SQL/" class="">Create Views in SQL</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_a_Chart/" class="">Create a Chart Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-a-Combination-Chart/" class="">Create a Combination Chart</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_a_Dashboard/" class="">Create a Dashboard Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Register_a_Dynamic_Page/" class="">Create a Dynamic Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_Header_Detail_Pages/" class="">Create a Header Detail Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-a-Service-Page/" class="">Create a Service Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create-a-Static-Page/" class="">Create a Static Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_a_Business_Rule_for_a_Field/" class="">Create a Stored Procedure Business Rule</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_a_WebApp/" class="">Create a WebApp</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/CreateWebAppEventPrivateBusinessRule/" class="">Create a WebApp Event (Private) Business Rule</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/CreateWebAppEventBusinessRule/" class="">Create a WebApp Event Business Rule</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_a_WebApp_in_DSP/" class="">Create a WebApp in DSP®</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Create_a_Workflow/" class="">Create a Workflow</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/CreateExternalPageBusinessRule/" class="">Create an External Page Business Rule</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Creating_a_Security_View_Guidelines/" class="">Creating a Security View Guidelines</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Customize_Dashboard_Pages/" class="">Customize Dashboard Pages</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Data_Control_Views/" class="">Data Control Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Database_Design/" class="">Database Design</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Decrypt-Data/" class="">Decrypt Data</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Drop_Audit_Tables/" class="">Drop Audit Tables</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Dynamic_Views_for_Multiple_Control_Fields/" class="">Dynamic Views for Multiple Control Fields</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Effectively_Implementing_Security_Definitions_Role_Security/" class="">Effectively Implementing Security Definitions (Role Security)</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_Audit_Trail_Electronic_Signature/" class="">Enable Audit Trail and Electronic Signature</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_Audit_Trail_on_a_Page/" class="">Enable Audit Trail on a Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_Dynamic_Image/" class="">Enable Dynamic Image</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable-Dynamic-Page-Reporting/" class="">Enable Dynamic Page Reporting</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_Electronic_Signature/" class="">Enable Electronic Signature</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_File_Upload_Download/" class="">Enable File Upload and Download</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_List_Allow_Insert/" class="">Enable List Allow Insert</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_List_Unique/" class="">Enable List Unique</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_List_Where_Clause/" class="">Enable List Where Clause</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Enable_Show_in_Navigation/" class="">Enable Show in Navigation</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Encrypt_a_Column/" class="">Encrypt a Column</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Event_Design_Process/" class="">Event Design Process</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Execute-a-Boomi-Process-From-a-Custom-Page/" class="">Execute a Boomi Process From a Custom Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Guidelines_for_Horizontal_Page_Views/" class="">Guidelines for Horizontal Page Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Guidelines_for_Vertical_Page_Views/" class="">Guidelines for Vertical Page Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Guidelines_for_the_Navigation_Pane/" class="uk-active">Guidelines for the Navigation Pane</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Hide-a-Column-from-Download/" class="">Hide a Column from Download</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Hide-a-Page-Column-on-a-Report/" class="">Hide a Page Column on a Report</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Horizontal_vs_Vertical_Views/" class="">Horizontal vs. Vertical Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Improve_Page_Load_Performance_Related_to_List_Boxes/" class="">Improve Page Load Performance Related to List Boxes</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Include_All_Page_Details_in_Reports/" class="">Include all Page Details in Reports</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Link-to-Report-Pages/" class="">Link to Report Pages</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Link_to_a_Page_Using_Buttons_and_Images/" class="">Link to a Page Using Buttons and Images</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Link_to_a_Report_from_a_Page/" class="">Link to a Report from a Page</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Modify_Chart_Properties/" class="">Modify Chart Properties</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Modify_a_Chart/" class="">Modify a Chart</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Naming_Conventions_and_the_Enforce_Strict_Naming_Feature/" class="">Naming Conventions and the Enforce Strict Naming Feature</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/OnLoad_Events/" class="">OnLoad Events</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/OnValidate_Events/" class="">OnValidate Events</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Page_Control_View/" class="">Page Control View</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Page-Design-Guidelines/" class="">Page Design Guidelines</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Page-Design-Overview/" class="">Page Design Overview</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Partition_Logic_Semantically/" class="">Partition Logic Semantically</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Precedence/" class="">Precedence</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Register_the_Database_for_a_Custom_WebApp/" class="">Register the Database for a Custom WebApp</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Review-Dashboard-Customization-Settings-For-a-User/" class="">Review Dashboard Customization Settings For a User</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/SQL_View_Function_Procedure_Design/" class="">SQL View/Function/Procedure Design</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_Column_Control_Status/" class="">Set Column Control Status</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_Default_Field_Value_for_a_Column/" class="">Set Default Field Value for a Column</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_Param_Public/" class="">Set Parameters for a Public WebApp Event</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_Required_Fields/" class="">Set Required Fields</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_Security_for_a_WebApp/" class="">Set Security for a Custom WebApp</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_Spanning_Properties/" class="">Set Spanning Properties</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_a_Columns-Format/" class="">Set a Column&#39;s Format</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_a_Dynamic_List_Box/" class="">Set a Dynamic List Box</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/SetParameterValueBusinessRules/" class="">Set a Parameter Value for Business Rule Parameters for a Public WebApp Event</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_the_List_Order_By/" class="">Set the List Order By</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_the_X-axis_of_a_Chart_with_the_Category_Column_Property/" class="">Set the X-axis of a Chart with the Category Column Property</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Set_the_Y-axis_of_a_Chart_with_the_Value_Column_Property/" class="">Set the Y-axis of a Chart with the Value Column Property</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Simplification/" class="">Simplification</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Table_Naming_Conventions/" class="">Table Naming Conventions</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Troubleshoot-Report-Issues/" class="">Troubleshoot Report Issues</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Use-View-Types-with-Column-Properties/" class="">Use View Types with Column Properties</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/Use-boaStatus-to-Set-a-Toolbar-Buttons-Control-Status/" class="">Use boaStatus to Set a Toolbar Button&#39;s Control Status</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/User_Control_Views/" class="">User Control Views</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/ValidationRules/" class="">Validation Rules</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/View_Controls_and_Control_Formats/" class="">View Controls and Control Formats</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/View-Dynamic-Page-Reports/" class="">View Dynamic Page Reports</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/View-Report-Pages/" class="">View Report Pages</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/View_and_Stored_Procedure_Naming_Conventions/" class="">View and Stored Procedure Naming Conventions</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/View-the-Controls-Available-For-A-Page-Type/" class="">View the Controls Available For A Page Type</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/WebApp_Security_Group_Design/" class="">WebApp Group Design</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/WebApp_Layout/" class="">WebApp Layout</a></li>
+        
+            <li >
+                <a href="/WebApp_Dev/When_to_use_Value_Columns_Instead_of_a_Secondary_Column/" class="">When to use Value Columns Instead of a Secondary Column</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a href="/WebApp_Dev">WebApp_Dev</a></li>
+        <li><span>Guidelines for the Navigation Pane</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="guidelines-for-the-navigation-pane">Guidelines for the Navigation Pane</h1>
+
+<p>The <em>Navigation</em> pane on the left displays page links to the WebApp.</p>
+
+<p>The following are the suggested menu links on the <em>Navigation</em> pane for
+each WebApp (in this order, from top to bottom):</p>
+
+<ul>
+<li><strong>WebApp Name</strong> – Displays the name of the current WebApp with the
+proper trademark. This menu item links to the WebApp home page or
+message board.</li>
+<li><strong>Configuration</strong> – A submenu often created to link to the multiple
+pages available under Configuration. Each page under Configuration
+should display the <em>Navigation</em> pane at the left, with links to all
+configuration tables specific to the WebApp. It is suggested that
+every WebApp contain a link to the <em>Parameters</em> page that contains,
+at a minimum, the following fields: <strong>Application Name</strong>,
+<strong>Version</strong> and <strong>Release Date</strong>.</li>
+</ul>
+
+<p><strong>NOTE:</strong> The <em>Configuration</em> submenu often provides links to other
+pages that can be used for list boxes on other pages within the WebApp.</p>
+
+<p>The following are general menu guidelines:</p>
+
+<ul>
+<li>Use a standard Navigation pane on all pages. The menu items on the
+Navigation pane vary depending on the WebApp.</li>
+<li>Do not modify the Navigation pane labels that are automatically
+added by DSP® when a WebApp is created. If copying an existing
+WebApp to create a new WebApp, the Navigation pane links must be
+modified to link to the appropriate pages within the new WebApp.
+Refer to <a href="Copy_a_Page_in_a_WebApp">Copy Page</a> for more
+information.</li>
+<li>Do not use labels for menus unless the name of the page needs to be
+different only when displayed on the menu.</li>
+</ul>
+
+<p><strong>NOTE:</strong> When a user navigates from one WebApp to another, the menu
+displayed in the navigation pane is chosen from the target page the user
+is loading. Most WebApps are accessed via the <em>Navigation</em> pane with a
+link to the WebApp’s home page. The Horizontal Menu of that target page
+is chosen, unless it is null where it will fall back to the Vertical
+Menu. This menu will be the menu used for the entirety of the time the
+user remains in this WebApp. The most common usage is to define the main
+pages on the <em>Switchboard</em> menu and use that on most pages as the
+Horizontal View. Submenus can be created and then registered on the
+<em>Switchboard</em> menu to provide access to other top-level pages.</p>
+
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#guidelines-for-the-navigation-pane">Guidelines for the Navigation Pane</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  
+<footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
+</body>
+</html>

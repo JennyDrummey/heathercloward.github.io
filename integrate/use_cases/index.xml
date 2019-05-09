@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedures on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/integrate/use_cases/</link>
+    <link>https://heathercloward.github.io/Integrate/Use_Cases/</link>
     <description>Recent content in Procedures on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/integrate/use_cases/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Integrate/Use_Cases/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Activate or Deactivate Multiple Processes for a Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activatedeactivatemultproc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ActivateDeactivateMultProc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activatedeactivatemultproc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ActivateDeactivateMultProc/</guid>
       <description>Activate or Deactivate Multiple Processes for a Template Integrate allows a user to quickly activate or deactivate individual processes or all processes associated with a template.
 NOTE: This overrides the Activate or Deactivate status at the process level. NOTE: This functionality should only be used during development as the processes are activated or deactivated without any pre-validations.
 NOTE: When using dspConduct™ component with Integrate, if the scenario is in any status other than Published, the Designer can activate or deactivate the process in Integrate as needed to test and troubleshoot the process.</description>
@@ -23,10 +23,10 @@ NOTE: When using dspConduct™ component with Integrate, if the scenario is in a
     
     <item>
       <title>Activate the BAPI Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_bapi_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_BAPI_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_bapi_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_BAPI_Template/</guid>
       <description>Activate the BAPI Template &amp;gt;Review the steps in the process. 
 Before a template can be added to a process, it must be activated.
 To activate a template on the Template page:
@@ -38,10 +38,10 @@ NOTE: An active template displays a check mark in the ACTIVE column and a green 
     
     <item>
       <title>Activate the BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_bdc_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_BDC_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_bdc_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_BDC_Script_Template/</guid>
       <description>Activate the BDC Script Template &amp;gt;Review the steps in the process. 
 Before a template can be added to a process, it must be activated.
 To activate a template on the Template page:
@@ -53,10 +53,10 @@ NOTE: An Active template displays a check mark in the ACTIVE column and a green 
     
     <item>
       <title>Activate the Custom Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_custom_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Custom_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_custom_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Custom_Template/</guid>
       <description>Activate the Custom Template A Custom template allows a user to create a mechanism for posting to any system.
 A user must create all of the associated files and code to support the Custom template.
 After creating a template, but before a template can be added to a process, it must be activated.
@@ -67,10 +67,10 @@ To activate a template:
     
     <item>
       <title>Activate the GUI Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_gui_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_GUI_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_gui_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_GUI_Script_Template/</guid>
       <description>Activate the GUI Script Template &amp;gt;Review the steps in the process. 
 Before a template can be added to a process, it must be activated.
 To activate a template on the Template page:
@@ -82,10 +82,10 @@ NOTE: An active template displays a check mark in the ACTIVE column and a green 
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process/</guid>
       <description>Activate the Process &amp;gt;Review the steps in the process. 
 After process template loops and field mappings have been configured, activate the process. On the Process page, click ACTIVATE/DEACTIVATE. An active process displays a green icon in the ACTIVATE/DEACTIVATE column and the ACTIVE check box is enabled.
 To activate a process, each template assigned to the process must be active, and each template assigned to the process must have at least one view assigned.</description>
@@ -93,10 +93,10 @@ To activate a process, each template assigned to the process must be active, and
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process1/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process1/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process1/</guid>
       <description>Activate the Process &amp;gt;Review the steps in the process. 
 After process template loops and field mappings have been configured, activate the process. On the Process page, click ACTIVATE/DEACTIVATE. An active process displays a green icon in the ACTIVATE/DEACTIVATE column and the ACTIVE check box is enabled.
 To activate a process, each template assigned to the process must be active, and each template assigned to the process must have at least one view assigned.</description>
@@ -104,10 +104,10 @@ To activate a process, each template assigned to the process must be active, and
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process2/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process2/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process2/</guid>
       <description>Activate the Process &amp;gt;Review the steps in the process. 
 After process template loops and field mappings have been configured, activate the process. On the Process page, click ACTIVATE/DEACTIVATE. An active process displays a green icon in the ACTIVATE/DEACTIVATE column and the ACTIVE check box is enabled.
 To activate a process, each template assigned to the process must be active, and each template assigned to the process must have at least one view assigned.</description>
@@ -115,10 +115,10 @@ To activate a process, each template assigned to the process must be active, and
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process3/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process3/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process3/</guid>
       <description>Activate the Process &amp;gt;Review the steps in the process. 
 After process template loops and field mappings have been configured, activate the process. On the Process page, click ACTIVATE/DEACTIVATE. An active process displays a green icon in the ACTIVATE/DEACTIVATE column and the ACTIVE check box is enabled.
 To activate a process, each template assigned to the process must be active, and each template assigned to the process must have at least one view assigned.</description>
@@ -126,10 +126,10 @@ To activate a process, each template assigned to the process must be active, and
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process7/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process7/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process7/</guid>
       <description>Activate the Process Review the steps in the process. 
 After process template loops and field mappings have been configured, activate the process. On the Process page, click ACTIVATE/DEACTIVATE. An active process displays a green icon in the ACTIVATE/DEACTIVATE column and the ACTIVE check box is enabled.
 To activate a process, each template assigned to the process must be active, and each template assigned to the process must have at least one view assigned.</description>
@@ -137,10 +137,10 @@ To activate a process, each template assigned to the process must be active, and
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process8/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process8/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process8/</guid>
       <description>Activate the Process Review the steps to create and transfer XML files. 
 After process template loops and field mappings have been configured, activate the process. On the Process page, click ACTIVATE/DEACTIVATE. An active process displays a green icon in the ACTIVATE/DEACTIVATE column and the ACTIVE check box is enabled.
 To activate a process, each template assigned to the process must be active, and each template assigned to the process must have at least one view assigned.</description>
@@ -148,10 +148,10 @@ To activate a process, each template assigned to the process must be active, and
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process_custom_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process_Custom_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process_custom_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process_Custom_Template/</guid>
       <description>Activate the Process A Custom template allows a user to create a mechanism for posting to any system.
 A user must create all of the associated files and code to support the Custom template.
 After adding the template to a process, activate it.
@@ -161,10 +161,10 @@ To activate the process:
     
     <item>
       <title>Activate the Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_process_ds_job/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process_DS_Job/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_process_ds_job/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Process_DS_Job/</guid>
       <description>Activate the Process A Template Administrator can activate a process to use the process template to post data.
 Before performing this task, create a template, and add the template to a process.
 To activate a process, the template assigned to the process must be active.
@@ -174,10 +174,10 @@ To activate the process in Integrate:
     
     <item>
       <title>Activate the RFC Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_rfc_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_RFC_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_rfc_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_RFC_Template/</guid>
       <description>Activate the RFC Template &amp;gt;Review the steps in the process. 
 Before a template can be added to a process, it must be activated.
 To activate a template on the Template page:
@@ -189,10 +189,10 @@ NOTE: An active template displays a check mark in the ACTIVE column and a green 
     
     <item>
       <title>Activate the Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_template_ds_job/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Template_DS_Job/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_template_ds_job/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_Template_DS_Job/</guid>
       <description>Activate the Template A Template Administrator can activate the SAP Data Services Job template so it can be added to a process.
 For general information about the SAP Data Services Job template, refer to Post Data Using an SAP Data Services Job Overview.
 Before performing this task, create the template.
@@ -202,10 +202,10 @@ To activate a template in Integrate:
     
     <item>
       <title>Activate the User Defined Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_user_defined_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_User_Defined_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_user_defined_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_User_Defined_Template/</guid>
       <description>Activate the User Defined Template Review the steps in the process. 
 Before a template can be added to a process, it must be activated.
 To activate a template on the Template page:
@@ -215,10 +215,10 @@ A template cannot be edited until it is deactivated.</description>
     
     <item>
       <title>Activate the XML Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/activate_the_xml_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_XML_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/activate_the_xml_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Activate_the_XML_Template/</guid>
       <description>Activate the XML Template Review the steps to create and transfer XML files. 
 Before a template can be added to a process, it must be activated.
 To activate a template on the Template page:
@@ -228,11 +228,11 @@ A template cannot be edited until it is deactivated.</description>
     
     <item>
       <title>Add Child Structure</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/addchildstrxml/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/AddChildStrXML/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/addchildstrxml/</guid>
-      <description>Add Child Structure Use this page to [Configure an XML Template with Structures, Elements and Attributes](ConfigureXMTemplateStrctrEleAtt.htm).  NOTE: This page is only available for processes based on User Defined XML template type.
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/AddChildStrXML/</guid>
+      <description>Add Child Structure Use this page to [Configure an XML Template with Structures, Elements and Attributes](ConfigureXMTemplateStrctrEleAtt).  NOTE: This page is only available for processes based on User Defined XML template type.
 To access this page:
  SelectIntegrate &amp;gt; Categories in the Navigation pane.
  Click the Templates icon for a category.
@@ -242,20 +242,20 @@ NOTE: XML must be selected in the User Defined Template Type list box.</descrip
     
     <item>
       <title>Add Custom Fields to a BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_custom_fields_to_a_bdc_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_Custom_Fields_to_a_BDC_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_custom_fields_to_a_bdc_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_Custom_Fields_to_a_BDC_Script_Template/</guid>
       <description>Add Custom Fields to a BDC Script Template &amp;gt;Review the steps in the process. 
 Use custom fields when conditional screen execution is required and the data for existing template fields is not adequate. For example, the COMPANY_CODE field is a template field (i.e., recorded in a BDC script) that is going to be uploaded when the record posts to SAP. If a BDC screen only displays when COMPANY_CODE = 0001, a user can set a condition on the COMPANY_CODE field to only execute when the data mapped to COMPANY_CODE = 0001.</description>
     </item>
     
     <item>
       <title>Add Data in SQL to be Included in the Flat File</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/adddataincludedflat_filesql/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/AddDataIncludedFlat_FileSQL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/adddataincludedflat_filesql/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/AddDataIncludedFlat_FileSQL/</guid>
       <description>Add Data in SQL to be Included in the Flat File Review the steps in the process. 
 Enter the data in the SQL database that Integrate will include in the flat file when it is generated.
 Use the VIEW NAME generated by the Auto Generate Database Objects feature for each loop in the process.
@@ -265,10 +265,10 @@ Use the VIEW NAME generated by the Auto Generate Database Objects feature for ea
     
     <item>
       <title>Add Data to be Included in the XML file in SQL</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/adddataincludedxmlsql/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/AddDataIncludedXMLSQL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/adddataincludedxmlsql/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/AddDataIncludedXMLSQL/</guid>
       <description>Add Data to be Included in the XML file in SQL Review the steps to create and transfer XML files. 
 Enter the data to the SQL database that Integrate will include in the XML file when it is generated.
 Use the view name generated by the Auto Generate Database Objects feature for each loop in the process or the view that was manually created.
@@ -277,80 +277,80 @@ Use the view name generated by the Auto Generate Database Objects feature for ea
     
     <item>
       <title>Add Templates to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_templates_to_a_process/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_Templates_to_a_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_templates_to_a_process/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_Templates_to_a_Process/</guid>
       <description>Add Templates to a Process A process can have one or many templates added to it but must have at least one template assigned. When creating a process, an initial template is selected to be assigned to the process. NOTE: A process must be inactive to add a template t it. A template must be active to add it to a process.
 After the initial template is added, add templates by either:</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process/</guid>
       <description>Add the Template to a Process &amp;gt;Review the steps in the process. 
 Refer to Create a Process for information about creating a process with an initial template. To add additional templates to a process, refer to Add Templates to a Process.</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process1/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process1/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process1/</guid>
       <description>Add the Template to a Process &amp;gt;Review the steps in the process. 
 Refer to Create a Process for information about creating a process with an initial template. To add additional templates to a process, refer to Add Templates to a Process.</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process2/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process2/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process2/</guid>
       <description>Add the Template to a Process Review the steps in the process.
 Refer to Create a Process for information about creating a process with an initial template. To add additional templates to a process, refer to Add Templates to a Process.</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process3/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process3/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process3/</guid>
       <description>Add the Template to a Process &amp;gt;Review the steps in the process. 
 Refer to Create a Process for information about creating a process with an initial template. To add additional templates to a process, refer to Add Templates to a Process.</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process7/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process7/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process7/</guid>
       <description>Add the Template to a Process Review the steps in the process. 
 Refer to Create a Process for information about creating a process with an initial template. To add additional templates to a process, refer to Add Templates to a Process.</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process8/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process8/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process8/</guid>
       <description>Add the Template to a Process Review the steps to create and transfer XML files. 
 Refer to Create a Process for information about creating a process with an initial template. To add additional templates to a process, refer to Add Templates to a Process.</description>
     </item>
     
     <item>
       <title>Add the Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process_dsjob/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process_DSJob/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_template_to_a_process_dsjob/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Template_to_a_Process_DSJob/</guid>
       <description>Add the Template to a Process A Template Administrator can add a template to a process so that the process template can be used to post data to the target system.
 Refer to Manage Processes for an overview of processes..
 Before performing this task, create a template and activate it.
@@ -359,10 +359,10 @@ For general information about the SAP Data Services Job template, refer to Post 
     
     <item>
       <title>Assign the Custom Template to a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_custom_template_to_a_process/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Custom_Template_to_a_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_custom_template_to_a_process/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Custom_Template_to_a_Process/</guid>
       <description>Assign the Custom Template to a Process A Custom template allows a user to create a mechanism for posting to any system.
 A user must create all of the associated files and code to support the Custom template.
 After activating the template, it must be added to a process. This process is used to post.
@@ -372,10 +372,10 @@ To create a process and add a Custom template:
     
     <item>
       <title>BDC Posting</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/bdc_posting/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/BDC_posting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/bdc_posting/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/BDC_posting/</guid>
       <description>BDC Posting Using a BDCPostMethod of BOASessionCreation creates batch input sessions in SAP that can be accessed using the SM35 transaction code. Once in the SM35 transaction code, the batch session can be run manually in the foreground thereby allowing a step-by-step walkthrough of the post process.
 To manually run the batch session:
  Highlight the session to walk through.
@@ -386,10 +386,10 @@ To manually run the batch session:
     
     <item>
       <title>BDC Script and GUI Script Recording Tips</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/bdcscriptguiscriptrectips/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/BDCScriptGUIScriptRecTips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/bdcscriptguiscriptrectips/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/BDCScriptGUIScriptRecTips/</guid>
       <description>BDC Script and GUI Script Recording Tips A recording should be as perfect as possible. It should not have any errors messages and there should only be warning messages when necessary. If a mistake is made while entering data, stop recording and try again.
 The following tips help facilitate script recording:
  When recording, do not use the scroll bars, cursor keys or the mouse to change the position because these actions do not get recorded.</description>
@@ -397,10 +397,10 @@ The following tips help facilitate script recording:
     
     <item>
       <title>Configure Conditional GUI Script Data Records</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureconditionalguiscriptdatarec/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureConditionalGUIScriptDatarec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureconditionalguiscriptdatarec/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureConditionalGUIScriptDatarec/</guid>
       <description>Configure Conditional GUI Script Data Records &amp;gt;Review the steps in the process. 
 Conditionals for GUI scripts contain logic used during the post process to determine whether or not to execute steps within the GUI Script template. Only one conditional can be configured per GUI data record. A condition can be applied to a single data record or can be applied to a loop.
 NOTE: Conditionals cannot be modified if the template is active.</description>
@@ -408,10 +408,10 @@ NOTE: Conditionals cannot be modified if the template is active.</description>
     
     <item>
       <title>Configure Field Mappings for a Process Based on a BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configurefieldmappingsbdc_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureFieldMappingsBDC_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configurefieldmappingsbdc_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureFieldMappingsBDC_Script_Template/</guid>
       <description>Configure Field Mappings for a Process Based on a BDC Script Template &amp;gt;Review the steps in the process. 
 For data to be extracted from a component and posted to SAP via Integrate, a view (or views) must be created in SQL Server. The view serves as the basis of Process Template Loop Field Mappings, which connect a column in a view with a field on a template.
 A user can create the view using the Auto Generate Database Objects feature.</description>
@@ -419,10 +419,10 @@ A user can create the view using the Auto Generate Database Objects feature.</de
     
     <item>
       <title>Configure Field Mappings for a Process based on a GUI Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configurefieldmappingsgui_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureFieldMappingsGUI_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configurefieldmappingsgui_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureFieldMappingsGUI_Script_Template/</guid>
       <description>Configure Field Mappings for a Process based on a GUI Script Template &amp;gt;Review the steps in the process. 
 The field mappings for process template loops can be created automatically using the Auto Generated Database Object feature. In this case, the MAPPING VALUE field and the TEMPLATE FIELD UNIQUE NAME field will have identical values. Refer to Generate Database Objects Automatically for more information.
 Once the process template loop is configured, configure the field mappings for each loop level</description>
@@ -430,10 +430,10 @@ Once the process template loop is configured, configure the field mappings for e
     
     <item>
       <title>Configure Field Mappings for an SAP Data Services Job Process Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_field_mappings_for_an_sap_data_services_job_process_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_Field_Mappings_for_an_SAP_Data_Services_Job_Process_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_field_mappings_for_an_sap_data_services_job_process_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_Field_Mappings_for_an_SAP_Data_Services_Job_Process_Template/</guid>
       <description>Configure Field Mappings for an SAP Data Services Job Process Template Follow these steps if using Global Variables, which are optional.
 Before completing this task, Configure a Process Template Loop for an SAP Data Services Job Process Template Manually or Automatically.
 For Global Variables to be used as inputs for a Data Services Job used to post data to SAP, a view must be created in SQL Server. The view serves as the basis of Process Template Loop Field Mappings, which connect a column in a view with a field on a template.</description>
@@ -441,20 +441,20 @@ For Global Variables to be used as inputs for a Data Services Job used to post d
     
     <item>
       <title>Configure Process Template Loops for a BAPI Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureprocesstemplateloopsbapi/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcessTemplateLoopsBAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureprocesstemplateloopsbapi/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcessTemplateLoopsBAPI/</guid>
       <description>Configure Process Template Loops for a BAPI Template &amp;gt;Review the steps in the process. 
 A process based on BAPI templates will post data bi-directionally. Data is uploaded to be posted into SAP, and downloaded into tables that Integrate automatically creates. Since processes based on BAPI templates often have return values, download registrations are often required for BAPI templates. NOTE: BAPI template types can use transaction stringing to pass return values to other templates assigned to a process.</description>
     </item>
     
     <item>
       <title>Configure Process Template Loops for a BDC Script Template with Looping Enabled</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureproctemploopsbdcloopen/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcTempLoopsBDCLoopEn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureproctemploopsbdcloopen/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcTempLoopsBDCLoopEn/</guid>
       <description>Configure Process Template Loops for a BDC Script Template with Looping Enabled &amp;gt;Review the steps in the process. 
 A process template loop assigns a view from the process’s data source to a loop within the template. Each loop is mapped to a view which contains the data to post for the corresponding template loop in the process.
 Once a BDC Script template with looping enabled has been added to a process, access the Process Template Loop page to view the loops Integrate added automatically to the process, and to edit and exclude process template loops.</description>
@@ -462,10 +462,10 @@ Once a BDC Script template with looping enabled has been added to a process, acc
     
     <item>
       <title>Configure Process Template Loops for a Delimited or Fixed Width Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureprocesstemplateloopsdelimited/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcessTemplateLoopsDelimited/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureprocesstemplateloopsdelimited/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcessTemplateLoopsDelimited/</guid>
       <description>Configure Process Template Loops for a Delimited or Fixed Width Template Review the steps in the process. 
 For a Delimited or Fixed Width Template, the VIEW NAME, PRIMARY KEY COLUMN NAME and FLAT FILE OBJECT KEY must be configured for each loop in the process.
 Use the Auto Generate Database Objects feature to automatically create tables and views and to generate values for the VIEW NAME, PRIMARY KEY COLUMN NAME and FLAT FILE OBJECT KEY value on the Process Template Loop page.</description>
@@ -473,10 +473,10 @@ Use the Auto Generate Database Objects feature to automatically create tables an
     
     <item>
       <title>Configure Process Template Loops for a GUI Script Template with Looping Enabled</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureproctemplloopsguiloopgen/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcTemplLoopsGUILoopgEn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureproctemplloopsguiloopgen/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcTemplLoopsGUILoopgEn/</guid>
       <description>Configure Process Template Loops for a GUI Script Template with Looping Enabled &amp;gt;Review the steps in the process. 
 A process template loop assigns a view from the process’s data source to a loop within the template. Each loop is mapped to a view which contains the data to post for the corresponding template loop in the process.
 Once a GUI Script template with looping enabled has been added to a process, access the Process Template Loop page to view the loops Integrate added automatically to the process, and to edit and exclude process template loops.</description>
@@ -484,20 +484,20 @@ Once a GUI Script template with looping enabled has been added to a process, acc
     
     <item>
       <title>Configure Process Template Loops for an RFC Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureprocess_emplate_loopsrfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcess_emplate_LoopsRFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureprocess_emplate_loopsrfc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcess_emplate_LoopsRFC/</guid>
       <description>Configure Process Template Loops for an RFC Template &amp;gt;Review the steps in the process. 
 A process based on an RFC templates will post data bi-directionally. Data is uploaded to be posted into SAP, and downloaded into tables that Integrate automatically creates. Since processes based on RFC templates often have return values, download registrations are often required for RFC templates. NOTE: RFC template types can use transaction stringing to pass return values to other templates assigned to a process.</description>
     </item>
     
     <item>
       <title>Configure Process Template Loops for an XML Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureprocesstemplateloopsxml/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcessTemplateLoopsXML/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureprocesstemplateloopsxml/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcessTemplateLoopsXML/</guid>
       <description>Configure Process Template Loops for an XML Template Review the steps to create and transfer XML files. 
 Once an XML template has been added to a process, each loop in the template must be configured either manually or by using the Auto Generate Database Object feature. Each loop level must have a relationship, View, and Primary Key Column Name configured.
 Each loop level must be the Parent or Child of another loop and must contain at least one relationship.</description>
@@ -505,10 +505,10 @@ Each loop level must be the Parent or Child of another loop and must contain at 
     
     <item>
       <title>Configure Relationships Manually for a Process based on an XML Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configurerelamanuallyxml/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureRelaManuallyXML/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configurerelamanuallyxml/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureRelaManuallyXML/</guid>
       <description>Configure Relationships Manually for a Process based on an XML Template Review the steps to create and transfer XML files. 
 A process based on an XML template must have links assigned to the view for different loops. These links are called relationships and are used to map values in parent views to values in child views.
 Relationships between loops can be established manually, or Integrate can automatically determine relationships using the Auto Generate Database Objects feature.</description>
@@ -516,10 +516,10 @@ Relationships between loops can be established manually, or Integrate can automa
     
     <item>
       <title>Configure Template Loops for a BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_template_loopsbdc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_Template_LoopsBDC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_template_loopsbdc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_Template_LoopsBDC/</guid>
       <description>Configure Template Loops for a BDC Script Template &amp;gt;Review the steps in the process. 
 Looping is a posting mechanism that processes multiple child keys for one parent key. It allows for multiple headers with infinite details to be posted. Looping can be enabled during template creation or after recording.
 When a template that uses loops is added to a process, each loop in the template becomes a process template loop.</description>
@@ -527,10 +527,10 @@ When a template that uses loops is added to a process, each loop in the template
     
     <item>
       <title>Configure Template Loops for a GUI Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_template_loopsgui/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_Template_LoopsGUI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_template_loopsgui/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_Template_LoopsGUI/</guid>
       <description>Configure Template Loops for a GUI Script Template &amp;gt;Review the steps in the process. 
 Looping is a posting mechanism that processes multiple child keys for one parent key. It allows for multiple headers with infinite details to be posted. Looping can be enabled during template creation or after recording.
 When a template that uses loops is added to a process, each loop in the template becomes a process template loop.</description>
@@ -538,10 +538,10 @@ When a template that uses loops is added to a process, each loop in the template
     
     <item>
       <title>Configure a BAPI Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_a_bapi_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_BAPI_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_a_bapi_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_BAPI_Template/</guid>
       <description>Configure a BAPI Template &amp;gt;Review the steps in the process. 
 Configuring a BAPI template includes selecting the name of the Function Module in SAP and clicking the Create BAPI Template icon so that Integrate pulls the definition of the Function Module from SAP to complete the template.
 Before creating a template, ensure the RFCs and BAPIs for the SAP connection have been downloaded. Refer to Extract RFC Functions for more information.</description>
@@ -549,20 +549,20 @@ Before creating a template, ensure the RFCs and BAPIs for the SAP connection hav
     
     <item>
       <title>Configure a Conditional for a BDC Screen</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureconditionalbdcscrn/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureConditionalBDCScrn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureconditionalbdcscrn/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureConditionalBDCScrn/</guid>
       <description>Configure a Conditional for a BDC Screen &amp;gt;Review the steps in the process. 
 This optional step allows a user to add conditionals at the BDC screen level. A conditional is a data condition that, if true, will result in the inclusion of the data from the process template field mappings associated with the screen in the resulting posting script. If the data condition is false, the screen will be left out of the posting script.</description>
     </item>
     
     <item>
       <title>Configure a Process Template Loop for a BDC Script Template with a Single Loop</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configureproctemplpbdcsinglp/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcTempLpBDCSingLp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configureproctemplpbdcsinglp/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureProcTempLpBDCSingLp/</guid>
       <description>Configure a Process Template Loop for a BDC Script Template with a Single Loop &amp;gt;Review the steps in the process. 
 A process template loop assigns a view from the process’s data source to a loop within the template. The loop is mapped to a view which contains the data to post for the corresponding template loop in the process.
 Once a BDC Script template with a single loop has been added to a process, access the Process Template Loop page to view the loop Integrate added automatically to the process and to edit the process template loop.</description>
@@ -570,10 +570,10 @@ Once a BDC Script template with a single loop has been added to a process, acces
     
     <item>
       <title>Configure a Process Template Loop for a GUI Script Template with a Single Loop</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configproctmplpguisinglp/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigProcTmpLpGUISingLp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configproctmplpguisinglp/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigProcTmpLpGUISingLp/</guid>
       <description>Configure a Process Template Loop for a GUI Script Template with a Single Loop &amp;gt;Review the steps in the process. 
 A process template loop assigns a view from the process’s data source to a loop within the template. The loop is mapped to a view which contains the data to post for the corresponding template loop in the process.
 Once a GUI Script template with a single loop has been added to a process, access the Process Template Loop page to view the loop Integrate added automatically to the process and to edit the process template loop.</description>
@@ -581,30 +581,30 @@ Once a GUI Script template with a single loop has been added to a process, acces
     
     <item>
       <title>Configure a Process Template Loop for a SAP Data Services Job Process Template Automatically</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_a_process_template_loop_for_a_sap_data_services_job_process_template_automatically/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_Process_Template_Loop_for_a_SAP_Data_Services_Job_Process_Template_Automatically/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_a_process_template_loop_for_a_sap_data_services_job_process_template_automatically/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_Process_Template_Loop_for_a_SAP_Data_Services_Job_Process_Template_Automatically/</guid>
       <description>Configure a Process Template Loop for a SAP Data Services Job Process Template Automatically Follow these steps if using Global Variables, which are optional.
 A process template loop assigns a view from the process’s data source to a loop within the template. The loop is mapped to a view which contains the data to post for the corresponding template loop in the process. In the case of SAP Data Services Job templates, the data is global variable names and values that are used as inputs to a Data Services Job.</description>
     </item>
     
     <item>
       <title>Configure a Process Template Loop for a SAP Data Services Job Process Template Manually</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_a_process_template_loop_for_a_sap_data_services_job_process_template_manually/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_Process_Template_Loop_for_a_SAP_Data_Services_Job_Process_Template_Manually/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_a_process_template_loop_for_a_sap_data_services_job_process_template_manually/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_Process_Template_Loop_for_a_SAP_Data_Services_Job_Process_Template_Manually/</guid>
       <description>Configure a Process Template Loop for a SAP Data Services Job Process Template Manually Follow these steps if using Global Variables, which are optional.
 A process template loop assigns a view from the process’s data source to a loop within the template. The loop is mapped to a view which contains the data to post for the corresponding template loop in the process. In the case of SAP Data Services Job templates, the data is global variable names and values that are used as inputs to a Data Services Job.</description>
     </item>
     
     <item>
       <title>Configure an RFC Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configure_a_rfc_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_RFC_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configure_a_rfc_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Configure_a_RFC_Template/</guid>
       <description>Configure an RFC Template &amp;gt;Review the steps in the process. 
 NOTE: This use case provides an example of posting using the RFC BOA/ZRFC_READ_TABLE – External access to R/3 tables via RFC, but does not supply comprehensive instructions to suit all RFCs.
 Configuring an RFC template includes selecting the name of the Function Module in SAP. Integrate then pulls the definition of the Function Module from SAP to complete the template.</description>
@@ -612,29 +612,29 @@ Configuring an RFC template includes selecting the name of the Function Module i
     
     <item>
       <title>Configure an XML Template with Structures, Elements and Attributes</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/configurexmtemplatestrctreleatt/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureXMTemplateStrctrEleAtt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/configurexmtemplatestrctreleatt/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ConfigureXMTemplateStrctrEleAtt/</guid>
       <description>Configure an XML Template with Structures, Elements and Attributes Review the steps to create and transfer XML files. 
 An XML template, when added to a process and posted, will create an XML file. Though a User Defined template, the registration of an XML file varies from the setup of a Fixed Width or Delimited template as an XML file has several additional options. NOTE: Begin template creation on the Template page in Horizontal View.</description>
     </item>
     
     <item>
       <title>Control data is obsolete, rerecord (VERBS-NAME: CreateObject CATT: \&lt;none; \&gt; Callno: 000001)</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/control_data_is_obsolete/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Control_data_is_obsolete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/control_data_is_obsolete/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Control_data_is_obsolete/</guid>
       <description>Control data is obsolete, rerecord (VERBS-NAME: CreateObject CATT: &amp;lt;none; &amp;gt; Callno: 000001) A GUI Script template records the template in a way that it is compatible with these SAP controls. If a &amp;ldquo;Control Data is obsolete&amp;rdquo; message displays, try recording a GUI Script template.</description>
     </item>
     
     <item>
       <title>Copy a GUI Script Data Record</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/copy_a_gui_script_data_record/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_GUI_Script_Data_Record/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/copy_a_gui_script_data_record/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_GUI_Script_Data_Record/</guid>
       <description>Copy a GUI Script Data Record &amp;gt;Review the steps in the process. 
 Integrate allows a user to copy a template based on a GUI Script and to copy an individual GUI script Data Record. The GUI Script Data Record can be copied to the current template only.
 Refer to Copy a Template for more information.
@@ -643,10 +643,10 @@ Create a copy of a GUI Script Data Record on the Vertical View of the GUI Script
     
     <item>
       <title>Copy a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/copy_a_process/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/copy_a_process/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_Process/</guid>
       <description>Copy a Process Use an existing process as the basis for a new process.
 When Integrate copies a process, it copies:
  All of the templates registrations assigned to the process  NOTE: If a process is copied to another category, the templates will be copied but the template names will display as a GUID.
@@ -655,10 +655,10 @@ When Integrate copies a process, it copies:
     
     <item>
       <title>Copy a Process Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/copy_a_process_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_Process_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/copy_a_process_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_Process_Template/</guid>
       <description>Copy a Process Template A Process Designer can reuse database objects generated for a different process using the same template by copying a process template.
 When Integrate copies a process template, it copies:
 All autogenerated data objects from the original process template.
@@ -668,10 +668,10 @@ NOTE: If a process template is copied to another category, the template is copie
     
     <item>
       <title>Copy a Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/copy_a_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/copy_a_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Copy_a_Template/</guid>
       <description>Copy a Template Integrate allows a user to copy an existing template to create a new template in any category. A copy of a template includes all settings in the original template, including:
  Screens, fields, loops and conditionals in the case of BDC Scripts and GUI Scripts
  Custom commands in the case of GUI Scripts
@@ -681,10 +681,10 @@ NOTE: If a process template is copied to another category, the template is copie
     
     <item>
       <title>Copy the Assembly File to the Integrate Process Folder</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/add_the_assembly_file_to_the_integrate_process_folder/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Assembly_File_to_the_Integrate_Process_Folder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/add_the_assembly_file_to_the_integrate_process_folder/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Add_the_Assembly_File_to_the_Integrate_Process_Folder/</guid>
       <description>Copy the Assembly File to the Integrate Process Folder A Custom template allows a user to create a mechanism for posting to any system.
 A user must create all of the associated files and code to support the Custom template.
 Before a Custom template can be posted, the assembly file associated with the Custom template must be copied to a folder so that Integrate can access it.
@@ -693,10 +693,10 @@ NOTE: To perform this task, a user must have permission to add files to the DSP�
     
     <item>
       <title>Create A Custom Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_a_custom_template_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Custom_Template_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_a_custom_template_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Custom_Template_Integrate/</guid>
       <description>Create A Custom Template A Custom template allows a user to create a mechanism for posting to any system.
 A user must create all of the associated files and code to support the Custom template.
 NOTE: The user must know the assembly file name and the Type Full Name (NameSpace + Class Name) to enter them while creating the template. The system does not validate this information. Refer to Create a Custom Assembly for more information.</description>
@@ -704,20 +704,20 @@ NOTE: The user must know the assembly file name and the Type Full Name (NameSpac
     
     <item>
       <title>Create a Basic Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_a_basic_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Basic_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_a_basic_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Basic_Template/</guid>
       <description>Create a Basic Template A template defines how data is posted into SAP, including which screens and fields will be processed and whether the process contains a single loop or multiple loops. Depending on the template type, additional configuration options are available, such as setting conditionals for BDC Screens or GUI Script Data, and defining structures for User Defined templates.
 Templates are not tied to data, but rather act as an independent guide for posting that can be assigned to many processes.</description>
     </item>
     
     <item>
       <title>Create a Custom Assembly</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_a_custom_assembly/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Custom_Assembly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_a_custom_assembly/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Custom_Assembly/</guid>
       <description>Create a Custom Assembly A developer creates an assembly that is used by the Custom template when posting.
 To create the assembly:
  Create a new Class Library Project in Visual Studio targeting .NET Framework 4.0.
@@ -727,10 +727,10 @@ To create the assembly:
     
     <item>
       <title>Create a Custom Posting</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_a_custom_posting/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Custom_Posting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_a_custom_posting/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Custom_Posting/</guid>
       <description>Create a Custom Posting Integrate supports custom process posts and is designed to support posting with any custom component without the need for plugin or external page development.
 NOTE: To perform these steps, a process must exist in Integrate, and the user must understand how to create a page view in the platform.
 To create a custom Process Post page that uses Integrate as its posting tool:
@@ -739,10 +739,10 @@ To create a custom Process Post page that uses Integrate as its posting tool:
     
     <item>
       <title>Create a Delimited or Fixed Width User Defined Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/createdelimfwud/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/CreateDelimFWUD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/createdelimfwud/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/CreateDelimFWUD/</guid>
       <description>Create a Delimited or Fixed Width User Defined Template Review the steps in the process. 
 Delimited files contain data elements, each separated by a character. The delimiter can be any character, and is defined on the Configuration tab of the Vertical View of the Template page.
 Each data element in a Fixed Width file has a defined length. On the Configuration tab, define the pad location to pad the values to its full length.</description>
@@ -750,10 +750,10 @@ Each data element in a Fixed Width file has a defined length. On the Configurat
     
     <item>
       <title>Create a Process</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_a_process/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_a_process/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_Process/</guid>
       <description>Create a Process A process, a series of posting steps:
  Defines how Integrate takes data from the platform and transfers it to SAP
  Serves to link the data in a column in a view with a field on a template assigned to the process
@@ -764,20 +764,20 @@ A process can have multiple templates, but must have at least one template assig
     
     <item>
       <title>Create a View in SQL Server</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_a_view_in_sql_server/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_View_in_SQL_Server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_a_view_in_sql_server/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_a_View_in_SQL_Server/</guid>
       <description>Create a View in SQL Server For data to be extracted from a component and posted to SAP via Integrate, a view must be created in SQL Server. This view serves as the basis of Process Template Loop Field Mappings.
 Create a view manually, or use the Auto Generate Database Objects feature to automatically create a view with all fields required to support the template type. Refer to Generate Database Objects Automatically for detailed information.</description>
     </item>
     
     <item>
       <title>Create an SAP Data Services Job Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_an_sap_data_services_job_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_an_SAP_Data_Services_Job_template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_an_sap_data_services_job_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_an_SAP_Data_Services_Job_template/</guid>
       <description>Create an SAP Data Services Job Template A Template Administrator can configure an SAP Data Services Job template by selecting a job name used while posting request records.
 NOTE: For general information about templates, refer to Create a Basic Template. For general information about the SAP Data Services Job template, refer to Post Data Using an SAP Data Services Job Overview.
 To create an SAP Data Services Job template in Integrate:</description>
@@ -785,10 +785,10 @@ To create an SAP Data Services Job template in Integrate:</description>
     
     <item>
       <title>Create and Transfer Delimited or Fixed Width Files</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/createtransferdelimfwidthfiles/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/CreateTransferDelimFWidthFiles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/createtransferdelimfwidthfiles/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/CreateTransferDelimFWidthFiles/</guid>
       <description>Create and Transfer Delimited or Fixed Width Files Review the steps in the process. 
 During the file creation process, Integrate generates flat files in the format as defined by the User Defined Template Type using the data as configured by the Auto Generated Database Objects feature and the data entered for the views in SQL.
 NOTE: A process must be active to create files.
@@ -797,10 +797,10 @@ To create files and transfer them to the data source (a remote FTP server):</des
     
     <item>
       <title>Create and Transfer Files for User Defined Fixed Width or Delimited Templates</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/creattransferfilesurdtemplates/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/CreatTransferFilesUrDTemplates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/creattransferfilesurdtemplates/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/CreatTransferFilesUrDTemplates/</guid>
       <description>Create and Transfer Files for User Defined Fixed Width or Delimited Templates When a User Defined template type is assigned to a process and posted, Integrate generates flat files in XML, Delimited, or Fixed Width format and can then transfer the files to a designated data source.
 The user must manually define the structures and fields for a User Defined template.
 Select the User Defined Template Type (Delimited, FixedWidth or XML) on the template’s Vertical View.</description>
@@ -808,10 +808,10 @@ Select the User Defined Template Type (Delimited, FixedWidth or XML) on the temp
     
     <item>
       <title>Create and Transfer XML Files</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/createtransferxmloverview/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/CreateTransferXMLOverview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/createtransferxmloverview/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/CreateTransferXMLOverview/</guid>
       <description>Create and Transfer XML Files When an XML User Defined template type is assigned to a process and posted, Integrate generates an XML file in the proper format and can then transfer the files to a designated data source.
 The user must manually define the elements and attributes for the XML User Defined template.
 Review the steps to create and transfer XML files.</description>
@@ -819,10 +819,10 @@ Review the steps to create and transfer XML files.</description>
     
     <item>
       <title>Create and Transfer XML Files</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/create_and_transfer_xml_files/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Create_and_Transfer_XML_Files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/create_and_transfer_xml_files/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Create_and_Transfer_XML_Files/</guid>
       <description>Create and Transfer XML Files Review the steps to create and transfer XML files. 
 During the file creation process, Integrate generates an XML file in the correct format using the data as configured by the Auto Generated Database Objects feature and the data entered for the views in SQL.
 NOTE: A process must be active to create files.
@@ -831,20 +831,20 @@ To create files and transfer them to the data source (a remote FTP server):</des
     
     <item>
       <title>Debug a GUI Script Posting</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/debug_a_gui_script_posting/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Debug_a_GUI_Script_Posting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/debug_a_gui_script_posting/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Debug_a_GUI_Script_Posting/</guid>
       <description>Debug a GUI Script Posting Sometimes the best way to determine a problem with a post is to manually step through the post process and examine each step in the post with the actual data being processed. Integrate provides a mechanism to enable this manual step-through processing: GUI Debug Script creation for GUI script postings.
 It may also be helpful to review the script for the entire record set prior to uploading.</description>
     </item>
     
     <item>
       <title>Define Structures and Fields for Delimited or Fixed Width Templates</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/definestrctfldsdelimitedfixedwidth/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/DefineStrctFldsDelimitedFixedWidth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/definestrctfldsdelimitedfixedwidth/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/DefineStrctFldsDelimitedFixedWidth/</guid>
       <description>Define Structures and Fields for Delimited or Fixed Width Templates Review the steps in the process. 
 Manually define the structures to be written to the file and the fields included in each structure on the Structure and Structure Field page.
 The registration of structures and fields for Delimited and Fixed Width templates follows the same process.
@@ -853,10 +853,10 @@ To register structures and fields for a template on the General tab of the Verti
     
     <item>
       <title>Delete GUI Script Fields</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/delete_gui_script_fields/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Delete_GUI_Script_Fields/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/delete_gui_script_fields/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Delete_GUI_Script_Fields/</guid>
       <description>Delete GUI Script Fields &amp;gt;Review the steps in the process. 
 GUI script fields are individual fields that capture data during the GUI script recording. If redundant steps were created during the recording, delete the field instead of re-recording the script.
 Delete GUI script fields on the GUI Script Data page by clicking Delete for the record.</description>
@@ -864,10 +864,10 @@ Delete GUI script fields on the GUI Script Data page by clicking Delete for the 
     
     <item>
       <title>Edit Connections to Target Systems at the Process Post Level</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/edit_connections_to_target_systems_at_the_process_post_level/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Edit_Connections_to_Target_Systems_at_the_Process_Post_Level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/edit_connections_to_target_systems_at_the_process_post_level/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Edit_Connections_to_Target_Systems_at_the_Process_Post_Level/</guid>
       <description>Edit Connections to Target Systems at the Process Post Level A Process Designer can reuse a process template by adding connections to load programs for multiple target systems to a single process template. Data can then be posted to these target systems sequentially.
 Before performing this task, Set Available Connections at the Process Template Level.
 Refer to Post Data to Multiple Target Systems with One Process Template for general information.</description>
@@ -875,10 +875,10 @@ Refer to Post Data to Multiple Target Systems with One Process Template for gene
     
     <item>
       <title>Elements and Attributes</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/elements_and_attributes/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Elements_and_Attributes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/elements_and_attributes/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Elements_and_Attributes/</guid>
       <description>Elements and Attributes If the user selects Element in the ELEMENT ATTRIBUTE list box on the Structure Field page, the field is added as a sub-element to the structure element. If the user selects Attribute in the ELEMENT ATTRIBUTE list box, the element is added as an attribute to the element. Using the following XML snippet as an example:
  &amp;lt;Customer&amp;gt;
  &amp;lt;Name&amp;gt;Back Office Associates&amp;lt;/Name&amp;gt;
@@ -887,19 +887,19 @@ Refer to Post Data to Multiple Target Systems with One Process Template for gene
     
     <item>
       <title>Field X is not an input field.</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/field_x_is_not_an_input_field/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Field_X_is_not_an_input_field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/field_x_is_not_an_input_field/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Field_X_is_not_an_input_field/</guid>
       <description>Field X is not an input field. This message is confusing because the field is an input field. A possible cause of this error is that the user recorded the transaction and made a mistake in the recording but did not realize the mistake was made until they had entered data in other fields. They received the error, then went back and corrected the data. This is not a good practice for recording because when the data is posted, it posted correctly, then SAP will try to go back into the field to correct the data and it will no longer be an input field.</description>
     </item>
     
     <item>
       <title>Generate Database Objects Automatically</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/generate_database_objects_automatically/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Generate_Database_Objects_Automatically/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/generate_database_objects_automatically/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Generate_Database_Objects_Automatically/</guid>
       <description>Generate Database Objects Automatically Use Integrate’s optional Auto Generate Database Objects feature to quickly configure process template loops, relationships, and field mappings and to create views and tables in the designated database.
 NOTE: The Auto Generate Database Objects feature is optional. Users can create and configure database objects manually.
 This section provides an overview of the feature. Refer to specific use case topics describing process template loop configuration, field mappings, and relationships for more information.</description>
@@ -907,10 +907,10 @@ This section provides an overview of the feature. Refer to specific use case top
     
     <item>
       <title>Import Legacy BDCPlus Templates into Integrate</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/importlegacybdcplustemps/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ImportLegacyBDCPlusTemps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/importlegacybdcplustemps/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ImportLegacyBDCPlusTemps/</guid>
       <description>Import Legacy BDCPlus Templates into Integrate Importing a BDCPlus template creates a template in Integrate based on the template in BDCPlus.
 To import legacy BDCPlus templates into Integrate:
  Populate the stBDCPlus* table in the Integrate SQL database for BDCPlus data.
@@ -919,10 +919,10 @@ NOTE: If the BDCPlus database has been backed up, the stBDCPlus* table can be po
     
     <item>
       <title>Import Legacy BDCdirect&lt;span&gt;®&lt;/span&gt; Scripts into Integrate</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/importlegacybdcdirectscripts/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ImportLegacyBDCdirectScripts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/importlegacybdcdirectscripts/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ImportLegacyBDCdirectScripts/</guid>
       <description>Import Legacy BDCdirect® Scripts into Integrate Importing a BDCdirect® script creates a template in Integrate based on the script in BDCdirect®.
 To import legacy BDCdirect® scripts into Integrate:
  Populate the stUSYS* tables in the Integrate SQL Database with BDCdirect® data.
@@ -933,10 +933,10 @@ NOTE: Populating this table is a manual process.
     
     <item>
       <title>Import Legacy Scripts into Integrate</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/import_legacy_scripts_into_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Import_Legacy_Scripts_into_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/import_legacy_scripts_into_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Import_Legacy_Scripts_into_Integrate/</guid>
       <description> Import Legacy Scripts into Integrate If users created scripts in BDCdirect® or templates in BDCPlus, but are now using the Integrate component of the DSP, the scripts/templates can be easily imported into Integrate.
 This use case contains the following topics:
  Import Legacy BDCdirect® Scripts into Integrate
@@ -946,10 +946,10 @@ This use case contains the following topics:
     
     <item>
       <title>Import a BDC Script From a File</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/import_a_bdc_script_from_a_file/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Import_a_BDC_Script_From_a_File/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/import_a_bdc_script_from_a_file/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Import_a_BDC_Script_From_a_File/</guid>
       <description>Import a BDC Script From a File &amp;gt;Review the steps in the process. 
 A BDC script can be uploaded (if the script has been created in SAP using the SHDB transaction). It is preferable to upload a script when:
 A script was already recorded in SAP using the SHDB transaction (as there is no need to re-record it).
@@ -959,10 +959,10 @@ The client security policy restricts recording.</description>
     
     <item>
       <title>Integrate Tips and Troubleshooting</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/tips_and_troubleshooting_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Tips_and_Troubleshooting_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/tips_and_troubleshooting_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Tips_and_Troubleshooting_Integrate/</guid>
       <description>Integrate Tips and Troubleshooting This section contains the following topics:
  Create a View in SQL Server View the Debug Log Resolve Problem Connecting to the SAP GUI During Template Recording BDC Script and GUI Script Recording Tips Reset and Resubmit a Failed Post Debug a GUI Script Posting BDC posting  Additionally, fixes for the following error messages are provided:
  No batch input data for screen Field X is not an input field.</description>
@@ -970,10 +970,10 @@ The client security policy restricts recording.</description>
     
     <item>
       <title>Manage BDC Screens and Fields</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/manage_bdc_screens_and_fields/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Manage_BDC_Screens_and_Fields/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/manage_bdc_screens_and_fields/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Manage_BDC_Screens_and_Fields/</guid>
       <description>Manage BDC Screens and Fields &amp;gt;Review the steps in the process. 
 This optional step allows for BDC scripts to be manually modified to remove or edit screens as well as remove or edit fields on screens.
 BDC screen fields are individual fields that capture data during the BDC script recording. If redundant steps were created during a recording or if a step was left out, the screens can be manually added, deleted or edited without having to re-record the script, regardless of the recording mechanism used.</description>
@@ -981,10 +981,10 @@ BDC screen fields are individual fields that capture data during the BDC script 
     
     <item>
       <title>Manage Processes</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/manage_processes/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Manage_Processes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/manage_processes/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Manage_Processes/</guid>
       <description> Manage Processes Regardless of the template type a process is based on, many functions around creating and configuring processes are the same.
 These include:
  Create a Process
@@ -997,10 +997,10 @@ These include:
     
     <item>
       <title>Manage Templates</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/manage_templates/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Manage_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/manage_templates/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Manage_Templates/</guid>
       <description> Manage Templates Though Integrate templates are based on template types, and configuration of each template type is different, some functionality is shared across all templates regardless of template type.
 These include:
  Create a Basic Template
@@ -1012,10 +1012,10 @@ These include:
     
     <item>
       <title>Merge or Copy BDC Screens to Another BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/mergecopybdcscrnsanotherbdcscript/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/MergeCopyBDCScrnsAnotherBDCScript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/mergecopybdcscrnsanotherbdcscript/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/MergeCopyBDCScrnsAnotherBDCScript/</guid>
       <description>Merge or Copy BDC Screens to Another BDC Script Template &amp;gt;Review the steps in the process. 
 Once a BDC script has been recorded or imported into the BDC Script template, the BDC screens captured in the recording can be copied to another BDC Script template or can be merged into another BDC Script template.
 NOTE: To merge or copy a BDC screen to another BDC Script template, the destination template must be inactive.</description>
@@ -1023,10 +1023,10 @@ NOTE: To merge or copy a BDC screen to another BDC Script template, the destinat
     
     <item>
       <title>Modify a GUI Script with a Custom Command</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/modifyguiscriptcustcommand/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ModifyGUIScriptCustCommand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/modifyguiscriptcustcommand/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ModifyGUIScriptCustCommand/</guid>
       <description>Modify a GUI Script with a Custom Command &amp;gt;Review the steps in the process. 
 Integrate allows a user to manually overwrite the GUI script using a custom command that performs advanced checks and functionality during posting.
 To view the current command and create a custom command for a field captured in the GUI recording:  Select Categories from Navigation pane.
@@ -1035,10 +1035,10 @@ To view the current command and create a custom command for a field captured in 
     
     <item>
       <title>Monitor Posts</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/monitor_posts/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Monitor_Posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/monitor_posts/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Monitor_Posts/</guid>
       <description>Monitor Posts Integrate allows a user to monitor process posts, whether submitted in the background or foreground, for success or failure; view messages returned from the target system; and view each process post’s data exactly as it was sent to the target system.
 The Post Monitor page displays the current posting status for all posts.
 To monitor posts on the Post Monitor page:
@@ -1047,28 +1047,28 @@ To monitor posts on the Post Monitor page:
     
     <item>
       <title>No batch input data for screen</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/no_batch_input_data_for_screen/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/No_batch_input_data_for_screen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/no_batch_input_data_for_screen/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/No_batch_input_data_for_screen/</guid>
       <description>No batch input data for screen This error indicates that there was a screen that appeared during the post that was not in the recording. Sometimes the data used for the post sends SAP in a different path of screens than the data used in the recording. For example, some data may require a plant number to be entered. If a plant number is not entered during the recording, some records may fail.</description>
     </item>
     
     <item>
       <title>Post Data Using Transaction Stringing</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_using_transaction_stringing/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_Transaction_Stringing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_using_transaction_stringing/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_Transaction_Stringing/</guid>
       <description>Post Data Using Transaction Stringing A process with multiple templates that uses the synchronous post execution method can use a Return Value, a value returned from the target system, from a template registered to the process when posting subsequent templates in the process. A template with a high priority can use a Return Value from a template with a lower priority in posting. This process is called Transaction Stringing. Transaction Stringing can use process information from one template (transaction) in a second template (transaction), or it can process two similar transactions within one upload.</description>
     </item>
     
     <item>
       <title>Post Data Using a BAPI</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_using_a_bapi/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_a_BAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_using_a_bapi/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_a_BAPI/</guid>
       <description>Post Data Using a BAPI Integrate supports the execution of any RFC enabled Function Module in SAP, including the execution of RFCs and the posting of data via BAPIs.
 Refer to Post Using RFC Execution for more information about RFC execution.
 NOTE: Before creating a template, ensure the RFCs and BAPIs for the SAP connection have been downloaded. Refer to Extract RFC Functions for more information.
@@ -1077,20 +1077,20 @@ A process based on a BAPI template will post data bi-directionally.</description
     
     <item>
       <title>Post Data Using a Custom Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_using_a_custom_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_a_Custom_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_using_a_custom_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_a_Custom_Template/</guid>
       <description>Post Data Using a Custom Template Custom templates provide the ability for a developer to post to proprietary systems not supported by Integrate by providing a custom implementation for the Process Template interface which Integrate can execute.
 A developer could use a custom implementation to allow dspConduct™ to act as a Master Data Management HUB for the most complicated Enterprise Architectures. For example, a custom implementation could be used to build a custom plugin that is intended to load data into third party on-premise or cloud systems.</description>
     </item>
     
     <item>
       <title>Post Data Using a GUI Script</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_using_a_gui_script/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_a_GUI_Script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_using_a_gui_script/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_a_GUI_Script/</guid>
       <description>Post Data Using a GUI Script Integrate allows a user to post data to SAP using the results of a GUI script recorded using the SAP Logon pad.
 During initial template creation, the user selects the SAP system against which the script will be created and the SAP transaction code being recorded by the GUI script.
 The user then records the GUI script during the template creation process.
@@ -1099,30 +1099,30 @@ A template defines how data is posted into SAP, including which screens and fiel
     
     <item>
       <title>Post Data Using an SAP Data Services Job</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_using_an_sap_data_services_job/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_an_SAP_Data_Services_Job/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_using_an_sap_data_services_job/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_an_SAP_Data_Services_Job/</guid>
       <description>Post Data Using an SAP Data Services Job A Template Administrator can post data to a target system using a process post based on an SAP Data Services Job template. The SAP Data Services Job template type uses a Data Services Job (consisting of a Data Services Repository and a job name) when posting data.
 For general information about SAP Data Services Job templates, refer to Post Data Using an SAP Data Services Job Overview.</description>
     </item>
     
     <item>
       <title>Post Data Using an SAP Data Services Job Overview</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_using_an_sap_data_services_job_overview/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_an_SAP_Data_Services_Job_Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_using_an_sap_data_services_job_overview/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Using_an_SAP_Data_Services_Job_Overview/</guid>
       <description>Post Data Using an SAP Data Services Job Overview A template defines how data is posted to a target system, including which target system screens and fields are processed. Every template has a template type. The SAP Data Services Job template type uses a Data Services Job (consisting of a Data Services Repository and a job name) when posting request data to a target system.
 The Data Services Job associated with the template type is stored in a Data Services Repository, a set of tables that stores user-created and predefined system objects, source and target metadata, and transformation rules.</description>
     </item>
     
     <item>
       <title>Post Data for a Process Based on a BAPI</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_a_bapi/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_a_BAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_a_bapi/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_a_BAPI/</guid>
       <description>Post Data for a Process Based on a BAPI &amp;gt;Review the steps in the process. 
 A process post allows the posting of a process through Integrate. Integrate automatically creates a process post for a process template with the name Auto Generated Post For [Process Name]. A user can also configure multiple process posts for a single process with each process post record having different post settings.
 To post data, edit the process post Integrate generated (or add a process post), post the data, and review the messages regarding posting status.</description>
@@ -1130,30 +1130,30 @@ To post data, edit the process post Integrate generated (or add a process post),
     
     <item>
       <title>Post Data for a Process Based on a BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_a_bdc_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_a_bdc_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template/</guid>
       <description>Post Data for a Process Based on a BDC Script Template &amp;gt;Review the steps in the process. 
 A process post allows the posting of a process through Integrate. Integrate automatically creates a process post for a process template with the name Auto Generated Post For [Process Name]. A user can also configure multiple process posts for a single process with each process post record having different post settings.</description>
     </item>
     
     <item>
       <title>Post Data for a Process Based on a GUI Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_a_gui_script_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_a_gui_script_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template/</guid>
       <description>Post Data for a Process Based on a GUI Script Template &amp;gt;Review the steps in the process. 
 A process post allows the posting of a process through Integrate. Integrate automatically creates a process post for a process template with the name Auto Generated Post For – [Process Name]. A user can also configured multiple process posts for a single process with each process post record having different post settings.</description>
     </item>
     
     <item>
       <title>Post Data for a Process Based on an RFC</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_an_rfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_an_RFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_for_a_process_based_on_an_rfc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_for_a_Process_Based_on_an_RFC/</guid>
       <description>Post Data for a Process Based on an RFC &amp;gt;Review the steps in the process. 
 A process post allows the posting of a process through Integrate. Integrate automatically creates a process post for a process template with the name Auto Generated Post For [Process Name]. A user can also configure multiple process posts for a single process with each process post record having different post settings.
 To post data, edit the process post Integrate generated (or add a process post), post the data, and review the messages regarding posting status.</description>
@@ -1161,10 +1161,10 @@ To post data, edit the process post Integrate generated (or add a process post),
     
     <item>
       <title>Post Data to Multiple Target Systems with One Process Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_to_multiple_target_systems_with_one_process_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_to_Multiple_Target_Systems_with_One_Process_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_to_multiple_target_systems_with_one_process_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_to_Multiple_Target_Systems_with_One_Process_Template/</guid>
       <description>Post Data to Multiple Target Systems with One Process Template A Process Designer can reuse a process template by adding connections to load programs for multiple target systems to a single process template. Data can then be posted to these target systems sequentially.
 At a high level, the user:
  Specifies available connections at the process template level. Edits the connections to target systems at the process post level (if needed).</description>
@@ -1172,20 +1172,20 @@ At a high level, the user:
     
     <item>
       <title>Post Data with a BDC Script</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_with_a_bdc_script/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_with_a_BDC_Script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_with_a_bdc_script/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_with_a_BDC_Script/</guid>
       <description>Post Data with a BDC Script Integrate allows a user to post data to SAP using the results of a Batch Data Communication (BDC) script recorded using either Integrate or the SHDB transaction in SAP (which is then imported into Integrate).
 During initial template creation, the user selects the SAP system against which the script will be created and the SAP transaction code being recorded by the BDC script.</description>
     </item>
     
     <item>
       <title>Post Data with a Custom Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_data_custom_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Custom_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_data_custom_template/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Data_Custom_Template/</guid>
       <description>Post Data with a Custom Template A Custom template allows a user to create a mechanism for posting to any system.
 A user must create all of the associated files and code to support the Custom template.
 After a Custom template has been added to a process and the process has been activated, the process can be posted.
@@ -1194,10 +1194,10 @@ Integrate automatically creates a process post for a process template with the n
     
     <item>
       <title>Post Using RFC Execution</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_using_rfc_execution/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_Using_RFC_Execution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_using_rfc_execution/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_Using_RFC_Execution/</guid>
       <description>Post Using RFC Execution Integrate supports the execution of any RFC enabled Function Module in SAP, including the execution of RFCs and the posting of data via BAPIs.
 Refer to Post Data Using a BAPI for more information.
 NOTE: Before creating an RFC template, the RFC functions must be extracted from SAP in Common. Refer to Establish an SAP Connection and Extract RFC Functions for more information.
@@ -1206,30 +1206,30 @@ A process based on an RFC template will post data bi-directionally.</description
     
     <item>
       <title>Post a Process with Multiple Templates</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/post_a_process_with_multiple_templates/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Post_a_Process_with_Multiple_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/post_a_process_with_multiple_templates/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Post_a_Process_with_Multiple_Templates/</guid>
       <description>Post a Process with Multiple Templates A process can contain multiple templates of different template types. A multi-template process must use a Post Execution Method of Synchronous (set on the Process page’s Vertical View on the Advanced tab). BDC Script, GUI Script, and BAPI/RFC templates can use the Synchronous Post Execution Method, so these are the only template types that can be assigned to a multiple template process.
 User Defined template types use the asynchronous post execution method, and cannot be assigned to a multiple template process.</description>
     </item>
     
     <item>
       <title>Posting Defaults</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/posting_defaults/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Posting_Defaults/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/posting_defaults/</guid>
-      <description>Posting Defaults Use this page to view the posting defaults for the selected process post. Refer to [BDC Post Methods and Settings on the Advanced tab](../Page_Desc/BDCPostMethodsSettingsAdvTab.htm) for more information.  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Posting_Defaults/</guid>
+      <description>Posting Defaults Use this page to view the posting defaults for the selected process post. Refer to [BDC Post Methods and Settings on the Advanced tab](../Page_Desc/BDCPostMethodsSettingsAdvTab) for more information.  To access this page:
  Click Integrate &amp;gt; Categories on Navigationpane. Click the Processes icon for a category. Click the Postings icon for a process. Click the Vertical View for a Process Post. Click the View Posting Defaults icon.  Field</description>
     </item>
     
     <item>
       <title>Posting Methods</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/posting_methods/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Posting_Methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/posting_methods/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Posting_Methods/</guid>
       <description>Posting Methods When posting data to SAP using a process post, select the posting method, which determines when and how Integrate sends the process post to SAP. The posting methods are Foreground Post and Background Post.
 Foreground Post This post method immediately posts data in the foreground. To use this method, either,
  Click Post on the *Process Post* page Click Post in the Page toolbar on the Vertical View of the Process Post page Click Foreground Post on the Posting tab of the Process Post page&amp;rsquo;s Vertical View.</description>
@@ -1237,28 +1237,28 @@ Foreground Post This post method immediately posts data in the foreground. To u
     
     <item>
       <title>Posting Troubleshooting</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/posting_troubleshooting/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Posting_Troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/posting_troubleshooting/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Posting_Troubleshooting/</guid>
       <description>Posting Troubleshooting Sometimes the best way to determine a problem with a post is to manually step through the post process and examine each step in the post with the actual data being processed. Integrate provides two separate mechanisms to enable this manual step-through processing – SM35 session creation for BDC postings and GUI Debug Script creation for GUI script postings.</description>
     </item>
     
     <item>
       <title>Process Template Loop View Relationships</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/proctemploopvwrlipsbdcguibapirfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ProcTempLoopVwRlipsBDCGUIBAPIRFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/proctemploopvwrlipsbdcguibapirfc/</guid>
-      <description>Process Template Loop View Relationships Use this page to: - [View and Configure Relationships for a Process Based on a BDC Script Template](ViewandConfigureRelationshipsBDC.htm) - [View and Configure Relationships for a Process Based on a GUI Script Template](VwConfigureRelshpsGUIe.htm) - [View and Configure Relationships for a Process Based on a BAPI](VwConfigureRlshipsProcBAPI.htm) - [View and Configure Relationships for a Process Based on an RFC](VwConfigureRshpsProcRFC.htm)  NOTE: This page is only available for processes based on BDC Script, GUI Script and BAPI/RFC template types.</description>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ProcTempLoopVwRlipsBDCGUIBAPIRFC/</guid>
+      <description>Process Template Loop View Relationships Use this page to: - [View and Configure Relationships for a Process Based on a BDC Script Template](ViewandConfigureRelationshipsBDC) - [View and Configure Relationships for a Process Based on a GUI Script Template](VwConfigureRelshpsGUIe) - [View and Configure Relationships for a Process Based on a BAPI](VwConfigureRlshipsProcBAPI) - [View and Configure Relationships for a Process Based on an RFC](VwConfigureRshpsProcRFC)  NOTE: This page is only available for processes based on BDC Script, GUI Script and BAPI/RFC template types.</description>
     </item>
     
     <item>
       <title>Record a BDC Script</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/record_a_bdc_script/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Record_a_BDC_Script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/record_a_bdc_script/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Record_a_BDC_Script/</guid>
       <description>Record a BDC Script &amp;gt;Review the steps in the process. 
 NOTE: Internet Explorer is required to record a BDC script.
 When the user records a BDC script, SAP launches in learning or listening mode which records the user&amp;rsquo;s actions in SAP. Once the recording is complete, the user exits the transaction in SAP and the recording is imported into Integrate.
@@ -1267,10 +1267,10 @@ Refer to BDC Script and GUI Script Recording Tips for tips on recording scripts.
     
     <item>
       <title>Record a GUI Script</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/record_a_gui_script/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Record_a_GUI_Script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/record_a_gui_script/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Record_a_GUI_Script/</guid>
       <description>Record a GUI Script &amp;gt;Review the steps in the process. 
 NOTE: Internet Explorer is required to record a GUI script.
 To create a template that uses a GUI script, record the script using Integrate and the SAP Logon Pad.
@@ -1279,70 +1279,70 @@ When recording a GUI script, the SAP Logon Pad must be open. Recording starts in
     
     <item>
       <title>Register After Post Rules to a Process Template Overview</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/register_after_post_rules_to_a_process_template_overview/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Register_After_Post_Rules_to_a_Process_Template_Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/register_after_post_rules_to_a_process_template_overview/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Register_After_Post_Rules_to_a_Process_Template_Overview/</guid>
       <description>Register After Post Rules to a Process Template Overview Rules pull data from a target or source to refresh local data after it has been changed or to manipulate the local data to prepare for the next process template to execute.
 When posting data to a target system, a Template Administrator can register an After Post Rule to a process template. The rule runs after the process template executes successfully and before the next process template begins processing (if posting with a multi-template process).</description>
     </item>
     
     <item>
       <title>Register a Collect Download After Post Rule Manually</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/register_a_collect_download_after_post_rule_manually/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Collect_Download_After_Post_Rule_Manually/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/register_a_collect_download_after_post_rule_manually/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Collect_Download_After_Post_Rule_Manually/</guid>
       <description>Register a Collect Download After Post Rule Manually When posting data to a target system, a Template Administrator can register an After Post Rule to a process template. The rule runs after the process template executes successfully and before the next process template begins processing (if posting with a multi-template process).
 Before performing this task, a Template Administrator must create a category, create a template, and create a process. The target, source and tables must be registered in Collect.</description>
     </item>
     
     <item>
       <title>Register a Collect Download After Post Rule that is Built Automatically</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/register_a_collect_download_after_post_rule_that_is_built_automatically/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Collect_Download_After_Post_Rule_that_is_Built_Automatically/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/register_a_collect_download_after_post_rule_that_is_built_automatically/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Collect_Download_After_Post_Rule_that_is_Built_Automatically/</guid>
       <description>Register a Collect Download After Post Rule that is Built Automatically When posting data to a target system, a Template Administrator can register an After Post Rule to a process template. The rule runs after the process template executes successfully and before the next process template begins processing (if posting with a multi-template process).
 Before performing this task, a Template Administrator must create a category, create a template, and create a process.</description>
     </item>
     
     <item>
       <title>Register a Collect Download as an After Post Rule</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/register_a_collect_download_as_an_after_post_rule/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Collect_Download_as_an_After_Post_Rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/register_a_collect_download_as_an_after_post_rule/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Collect_Download_as_an_After_Post_Rule/</guid>
       <description>Register a Collect Download as an After Post Rule When posting data to a target system, a Template Administrator can register an After Post Rule to a process template. The rule runs after the process template executes successfully and before the next process template begins processing (if posting with a multi-template process).
 A Collect rule downloads a Collect source - target - table registration. When registering a Collect Download as an After Post Rule, the source, target, and table to download must be selected.</description>
     </item>
     
     <item>
       <title>Register a Status View as an After Post Rule</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/register_a_status_view_as_an_after_post_rule/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Status_View_as_an_After_Post_Rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/register_a_status_view_as_an_after_post_rule/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Status_View_as_an_After_Post_Rule/</guid>
       <description>Register a Status View as an After Post Rule When posting data to a target system, a Template Administrator can register an After Post Rule to a process template. The rule runs after the process template executes successfully and before the next process template begins processing (if posting with a multi-template process).
 A Status View used to communicate posting status to the user can be run as an After Post Rule.</description>
     </item>
     
     <item>
       <title>Register a Stored Procedure as an After Post Rule</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/register_a_stored_procedure_as_an_after_post_rule/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Stored_Procedure_as_an_After_Post_Rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/register_a_stored_procedure_as_an_after_post_rule/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Register_a_Stored_Procedure_as_an_After_Post_Rule/</guid>
       <description>Register a Stored Procedure as an After Post Rule When posting data to a target system, a Template Administrator can register an After Post Rule to a process template. The rule runs after the process template executes successfully and before the next process template begins processing (if posting with a multi-template process).
 A stored procedure can be run as an After Post rule that may take a variable of @PostingID GUID.</description>
     </item>
     
     <item>
       <title>Reset and Resubmit a Failed Post</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/reset_and_resubmit_a_failed_post/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Reset_and_Resubmit_a_Failed_Post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/reset_and_resubmit_a_failed_post/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Reset_and_Resubmit_a_Failed_Post/</guid>
       <description>Reset and Resubmit a Failed Post If a posting fails, troubleshoot the errors using information on the Messages page or download the message file on the Message File page.
 Resubmit the post after correcting any errors. Click Reset for the process post on the Process Post page’s Vertical View on the Posting tab, then post the data again.
 After resetting a post it can be submitted again regardless of its status prior to the reset, and regardless of the reason for the failure.</description>
@@ -1350,10 +1350,10 @@ After resetting a post it can be submitted again regardless of its status prior 
     
     <item>
       <title>Resolve Problem Connecting to the SAP GUI During Template Recording</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/resolve_problem_connecting_to_the_sap_gui_during_template_recording/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Resolve_Problem_Connecting_to_the_SAP_GUI_During_Template_Recording/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/resolve_problem_connecting_to_the_sap_gui_during_template_recording/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Resolve_Problem_Connecting_to_the_SAP_GUI_During_Template_Recording/</guid>
       <description>Resolve Problem Connecting to the SAP GUI During Template Recording If an error message displays while recording a template (such as “There was a problem connecting to the SAP GUI”), settings may need to be configured in Internet Explorer.
 NOTE: Internet Explorer is required to record a BDC or GUI script.
 To troubleshoot the issue:
@@ -1362,10 +1362,10 @@ To troubleshoot the issue:
     
     <item>
       <title>Set Available Connections at the Process Template Level</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/set_connections_at_the_process_template_level/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Set_Connections_at_the_Process_Template_Level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/set_connections_at_the_process_template_level/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Set_Connections_at_the_Process_Template_Level/</guid>
       <description>Set Available Connections at the Process Template Level A Process Designer can reuse a process template by adding connections to load programs for multiple target systems to a single process template. Data can then be posted to these target systems sequentially.
 Refer to Post Data to Multiple Target Systems with One Process Template for general information.
 Before performing this task, add a template and add a process.
@@ -1374,20 +1374,20 @@ The steps to add a template and process are different for each template type.</d
     
     <item>
       <title>Set up After Post Rules to Check for Failed Posts for BAPI or RFC Processes</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/set_up_after_post_rules_to_check_for_failed_posts_for_bapi_or_rfc_processes/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Set_up_After_Post_Rules_to_Check_for_Failed_Posts_for_BAPI_or_RFC_Processes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/set_up_after_post_rules_to_check_for_failed_posts_for_bapi_or_rfc_processes/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Set_up_After_Post_Rules_to_Check_for_Failed_Posts_for_BAPI_or_RFC_Processes/</guid>
       <description>Set up After Post Rules to Check for Failed Posts for BAPI or RFC Processes After posting a request based on an Integrate process that uses BAPIs or RFCs, the posting process may return a Message Type of success even if data did not post correctly.
 In this case, a validation view or a stored procedure in SQL can be written to detect posting failure messages in the Output/Download table(s) that Integrate created for the BAPI or RFC.</description>
     </item>
     
     <item>
       <title>Setup and Configuration for Integrate</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/setup_and_configuration_for_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/Setup_and_Configuration_for_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/setup_and_configuration_for_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/Setup_and_Configuration_for_Integrate/</guid>
       <description>Setup and Configuration for Integrate Before getting started with Integrate, verify the following steps have been completed:
 NOTE: These steps should only be completed by a developer or a system administrator.
  Set up Security Configure Parameters Establish a Connection to a Target System Create Categories  A user can also Extract RFC Functions.
@@ -1396,19 +1396,19 @@ NOTE: Refer to Configure Integrate Parameters for additional configuration setti
     
     <item>
       <title>Synchronous and Asynchronous Post Execution Methods</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/synchasynchpostexecmthds/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/SynchAsynchPostExecMthds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/synchasynchpostexecmthds/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/SynchAsynchPostExecMthds/</guid>
       <description>Synchronous and Asynchronous Post Execution Methods Integrate supports two types of Post Execution Methods for a process: Synchronous and Asynchronous. Using the asynchronous method, Integrate posts data using a two-stage process when interacting with the target system. First, Integrate sends data to the target system, which processes the data. Second, Integrate then polls the target system for the posting status. When a process is added, the default post execution method is asynchronous.</description>
     </item>
     
     <item>
       <title>Verify the Data was Posted in SAP for the BAPI</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/verifydatapostedsapbapi/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VerifyDataPostedSAPBAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/verifydatapostedsapbapi/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VerifyDataPostedSAPBAPI/</guid>
       <description>Verify the Data was Posted in SAP for the BAPI &amp;gt;Review the steps in the process. 
 NOTE: This use case provides an example of posting using the BAPI_MATERIAL_SAVE DATA, but does not supply comprehensive instructions to suit all BAPIs.
 To verify that records were posted:
@@ -1419,10 +1419,10 @@ To verify that records were posted:
     
     <item>
       <title>Verify the RFC Retrieved Data from SAP and Updated the Download Tables in SQL</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/verifyrfcretdatasapupddwnldtblssql/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VerifyRFCRetDataSAPUpdDwnldTblsSQL/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/verifyrfcretdatasapupddwnldtblssql/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VerifyRFCRetDataSAPUpdDwnldTblsSQL/</guid>
       <description>Verify the RFC Retrieved Data from SAP and Updated the Download Tables in SQL &amp;gt;Review the steps in the process. 
 NOTE: This use case provides an example of posting using the RFC BOA/ZRFC_READ_TABLE – External access to R/3 tables via RFC, but does not supply comprehensive instructions to suit all RFCs.
 To access the download tables to verify the data retrieved from SAP:
@@ -1431,10 +1431,10 @@ To access the download tables to verify the data retrieved from SAP:
     
     <item>
       <title>Verify the Tables and Views were Created in SQL by the Auto Generate Process for a BAPI</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/verifytablesvscreatedinsqlautogenbap/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VerifyTablesVsCreatedinSQLAutoGenBAP/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/verifytablesvscreatedinsqlautogenbap/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VerifyTablesVsCreatedinSQLAutoGenBAP/</guid>
       <description>Verify the Tables and Views were Created in SQL by the Auto Generate Process for a BAPI &amp;gt;Review the steps in the process. 
 If the Auto Generate Database Objects feature was used, confirm that database objects were created. Access the SQL database to view the views and tables Integrate created during the auto-generation process.
  Log in to SQL Management Studio.
@@ -1443,10 +1443,10 @@ If the Auto Generate Database Objects feature was used, confirm that database ob
     
     <item>
       <title>Verify the Tables and Views were Created in SQL by the Auto Generate Process for an RFC</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/verifytblesvwscreatedsqlautogenrfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VerifyTblesVwsCreatedSQLAutoGenRFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/verifytblesvwscreatedsqlautogenrfc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VerifyTblesVwsCreatedSQLAutoGenRFC/</guid>
       <description>Verify the Tables and Views were Created in SQL by the Auto Generate Process for an RFC &amp;gt;Review the steps in the process. 
 If the Auto Generate Database Objects feature was used, confirm that database objects were created.
 NOTE: This use case provides an example of posting using the RFCBOA/ZRFC_READ_TABLE – External access to R/3 tables via RFC, but does not supply comprehensive instructions to suit all RFCs.</description>
@@ -1454,10 +1454,10 @@ NOTE: This use case provides an example of posting using the RFCBOA/ZRFC_READ_TA
     
     <item>
       <title>View Template Report</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/view_template_report/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/View_Template_Report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/view_template_report/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/View_Template_Report/</guid>
       <description>View Template Report For each template, view and print a report that lists the field name and value for each template field. A template report is available for a template regardless of its activation status.
 To view a template report:
  Select Categories on Navigation pane. Click the Templates icon for a category. Click the Reports icon for a template. Click Print to print the report.  NOTE: The template report can also be accessed on the Vertical View of the Template page for a template.</description>
@@ -1465,10 +1465,10 @@ To view a template report:
     
     <item>
       <title>View and Configure Field Mappings for a Process Based on an RFC</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/vwconfigurefldmappingsprocrfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureFldMappingsProcRFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/vwconfigurefldmappingsprocrfc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureFldMappingsProcRFC/</guid>
       <description>View and Configure Field Mappings for a Process Based on an RFC &amp;gt;Review the steps in the process. 
 Field Mappings can be performed by Integrate’s Auto Generate Database Object feature or can be configured manually.
 Integrate’s Auto Generate Database Objects feature maps the fields for each process template loop. The MAPPING VALUE is identical to the TEMPLATE FIELD UNIQUE NAME.
@@ -1477,10 +1477,10 @@ When mapping fields for a process template based on a BAPI template, both Upload
     
     <item>
       <title>View and Configure Field Mappings for a Process based on a BAPI</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/viewandconfigurefieldmappingsbapi/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ViewandConfigureFieldMappingsBAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/viewandconfigurefieldmappingsbapi/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ViewandConfigureFieldMappingsBAPI/</guid>
       <description>View and Configure Field Mappings for a Process based on a BAPI &amp;gt;Review the steps in the process. 
 Field Mappings can be performed by Integrate’s Auto Generate Database Object feature or can be configured manually.
 Integrate’s Auto Generate Database Objects feature maps the fields for each process template loop. The MAPPING VALUE is identical to the TEMPLATE FIELD UNIQUE NAME.
@@ -1489,10 +1489,10 @@ When mapping fields for a process template based on a BAPI template, both Upload
     
     <item>
       <title>View and Configure Relationships for a Process Based on a BAPI</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/vwconfigurerlshipsprocbapi/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureRlshipsProcBAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/vwconfigurerlshipsprocbapi/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureRlshipsProcBAPI/</guid>
       <description>View and Configure Relationships for a Process Based on a BAPI &amp;gt;Review the steps in the process. 
 Each loop in a process template based on a BAPI template must be linked to the Upload or Download loop through a relationship. The Auto Generate Database Objects feature creates these relationships, but they can also be edited.
 Relationships between loops can be established manually, or Integrate can automatically determine relationships using the Auto Generate Database Objects feature.</description>
@@ -1500,10 +1500,10 @@ Relationships between loops can be established manually, or Integrate can automa
     
     <item>
       <title>View and Configure Relationships for a Process Based on a BDC Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/viewandconfigurerelationshipsbdc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/ViewandConfigureRelationshipsBDC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/viewandconfigurerelationshipsbdc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/ViewandConfigureRelationshipsBDC/</guid>
       <description>View and Configure Relationships for a Process Based on a BDC Script Template &amp;gt;Review the steps in the process. 
 A process based on a looped template must have links assigned to the view for different loops. These links are called relationships and are used to map values in parent views to values in child views.
 Relationships between loops can be established manually, or Integrate can automatically determine relationships using the Auto Generate Database Objects feature.</description>
@@ -1511,10 +1511,10 @@ Relationships between loops can be established manually, or Integrate can automa
     
     <item>
       <title>View and Configure Relationships for a Process Based on a GUI Script Template</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/vwconfigurerelshpsguie/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureRelshpsGUIe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/vwconfigurerelshpsguie/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureRelshpsGUIe/</guid>
       <description>View and Configure Relationships for a Process Based on a GUI Script Template &amp;gt;Review the steps in the process. 
 A process based on a looped template must have links assigned to the view for different loops. These links are called relationships and are used to map values in parent views to values in child views.
 Relationships between loops can be established manually, or Integrate can automatically determine relationships using the Auto Generate Database Objects feature.</description>
@@ -1522,10 +1522,10 @@ Relationships between loops can be established manually, or Integrate can automa
     
     <item>
       <title>View and Configure Relationships for a Process Based on an RFC</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/vwconfigurershpsprocrfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureRshpsProcRFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/vwconfigurershpsprocrfc/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/VwConfigureRshpsProcRFC/</guid>
       <description>View and Configure Relationships for a Process Based on an RFC &amp;gt;Review the steps in the process. 
 Each loop in a process template based on an RFC template must be linked to the Upload or Download loop through a relationship. The Auto Generate Database Objects feature creates these relationships, but they can also be edited.
 Relationships between loops can be established manually, or Integrate can automatically determine relationships using the Auto Generate Database Objects feature.</description>
@@ -1533,10 +1533,10 @@ Relationships between loops can be established manually, or Integrate can automa
     
     <item>
       <title>View the Debug Log</title>
-      <link>https://heathercloward.github.io/integrate/use_cases/view_the_debug_log/</link>
+      <link>https://heathercloward.github.io/Integrate/Use_Cases/View_the_Debug_Log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/use_cases/view_the_debug_log/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Use_Cases/View_the_Debug_Log/</guid>
       <description>View the Debug Log To assist in troubleshooting, access the Debug Log for Integrate in the Common component.
 Refer to Configure Debug Log Settings for more information.</description>
     </item>

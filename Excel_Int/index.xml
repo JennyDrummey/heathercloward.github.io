@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel Integration Overview on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/Excel_Int/</link>
+    <description>Recent content in Excel Integration Overview on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/Excel_Int/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/Excel_Int/Download_an_Excel_Spreadsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Excel_Int/Download_an_Excel_Spreadsheet/</guid>
+      <description>Download an Excel Spreadsheet The downloaded Excel spreadsheet contains those columns in the Horizontal View that are not hidden or disabled via the “Excel” or “All Views” View Types. Refer to Exclude Columns from Excel Integration for more information.
+In the Excel template, the cell’s comment as well as column highlighting indicate if the column is required. Users can also include the Data Type in the header.
+ varchar, nvarchar, char, nchar will show the data type and length, for example nvarchar (50), when the field has maximum length it will show (-1) as the length, for example nvarchar (-1), ntext will show always (-1) decimal, numeric, money and smallmoney will show the data type and the number of whole digits and decimals, for example decimal (10,4) bit, int, smallint, bigint, double, float, real, datetime, datetime2, time and uniqueidentifier will show only the data type  Users can add new records or can update existing records using the template.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/Excel_Int/Import_Data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Excel_Int/Import_Data/</guid>
+      <description>Import Data Users have the ability to import data into the DSP® from an Excel spreadsheet created by the user (based on the current DSP® page) or from a spreadsheet previously downloaded from the DSP®. If the imported spreadsheet has multiple worksheets, the user will be able to choose which worksheet data to import. If multiple worksheets are to be imported, a separate import process must be performed for each worksheet.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/Excel_Int/Lock_Records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Excel_Int/Lock_Records/</guid>
+      <description>Lock Records A user that has the ability to add or edit the contents of the page can perform this task.
+For locking to occur on the page when an Excel template has been downloaded containing that data, the reserved columns Locked By, Locked On and boaLockType must be manually added to the underlying table(s) for the page. Refer to Add BOA Reserved Columns to Tables for more information.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://heathercloward.github.io/Excel_Int/Unlock_Records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Excel_Int/Unlock_Records/</guid>
+      <description>Unlock Records A user that has the ability to add or edit the contents of a page with Excel Integration enabled can perform this task.
+In order for a user to import records during the import process, the records must be unlocked. If the records are locked during the import process, they are listed as failed on the Excel Integration panel’s Import Results tab.
+Locked records are indicated by a padlock symbol in place of the pencil icon used for editing.</description>
+    </item>
+    
+  </channel>
+</rss>

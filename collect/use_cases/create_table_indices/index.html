@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Create Table Indices :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,49 +126,52 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/collect/" class="active">Collect Overview</a>
+        <a href="/Collect/" class="active">Collect Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
+
 
 
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/collect/config/" class="">Configuration</a>
+        <a href="/Collect/Config/" class="">Configuration</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/collect/config/build_process/" class="">Build Process</a></li>
+                <a href="/Collect/Config/Build_Process/" class="">Build Process</a></li>
         
             <li >
-                <a href="/collect/config/configure_parameters_in_common/" class="">Configure Parameters in Common</a></li>
+                <a href="/Collect/Config/Configure_Parameters_in_Common/" class="">Configure Parameters in Common</a></li>
         
             <li >
-                <a href="/collect/config/create_dbmoto_source_connections/" class="">Create DBMoto® Source Connections</a></li>
+                <a href="/Collect/Config/Create_DBMoto_Source_Connections/" class="">Create DBMoto® Source Connections</a></li>
         
             <li >
-                <a href="/collect/config/encrypt_cransoft_datasource_password/" class="">Encrypt CranSoft® Data Source Password</a></li>
+                <a href="/Collect/Config/Encrypt_CranSoft_DataSource_Password/" class="">Encrypt CranSoft® Data Source Password</a></li>
         
             <li >
-                <a href="/collect/config/register_target_and_source_data_sources/" class="">Register Target and Source Data Sources</a></li>
+                <a href="/Collect/Config/Register_Target_and_Source_Data_Sources/" class="">Register Target and Source Data Sources</a></li>
         
             <li >
-                <a href="/collect/config/set_up_schedule_groups/" class="">Set Up Schedule Groups</a></li>
+                <a href="/Collect/Config/Set_Up_Schedule_Groups/" class="">Set Up Schedule Groups</a></li>
         
             <li >
-                <a href="/collect/config/set_up_connection_types/" class="">Set up Connection Types</a></li>
+                <a href="/Collect/Config/Set_up_Connection_Types/" class="">Set up Connection Types</a></li>
         
             <li >
-                <a href="/collect/config/setup_and_configuration_for_collect/" class="">Setup and Configuration for Collect</a></li>
+                <a href="/Collect/Config/Setup_and_Configuration_for_Collect/" class="">Setup and Configuration for Collect</a></li>
         
     </ul>
     </li>
@@ -172,208 +181,208 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/collect/page_desc/" class="">Pages</a>
+        <a href="/Collect/Page_Desc/" class="">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/collect/page_desc/advanced_view_builder_h/" class="">Advanced View Builder H</a></li>
+                <a href="/Collect/Page_Desc/Advanced_View_Builder_H/" class="">Advanced View Builder H</a></li>
         
             <li >
-                <a href="/collect/page_desc/bulk_table_schedule_update/" class="">Bulk Table Schedule Update</a></li>
+                <a href="/Collect/Page_Desc/Bulk_Table_Schedule_Update/" class="">Bulk Table Schedule Update</a></li>
         
             <li >
-                <a href="/collect/page_desc/column_table_list_in_source_target/" class="">Column Table List in Source Target</a></li>
+                <a href="/Collect/Page_Desc/Column_Table_List_in_Source_Target/" class="">Column Table List in Source Target</a></li>
         
             <li >
-                <a href="/collect/page_desc/connection_type_data_conversion_h/" class="">Connection Type Data Conversion H</a></li>
+                <a href="/Collect/Page_Desc/Connection_Type_Data_Conversion_H/" class="">Connection Type Data Conversion H</a></li>
         
             <li >
-                <a href="/collect/page_desc/connection_types_h/" class="">Connection Types H</a></li>
+                <a href="/Collect/Page_Desc/Connection_Types_H/" class="">Connection Types H</a></li>
         
             <li >
-                <a href="/collect/page_desc/copy_targets/" class="">Copy Targets</a></li>
+                <a href="/Collect/Page_Desc/Copy_Targets/" class="">Copy Targets</a></li>
         
             <li >
-                <a href="/collect/page_desc/dbmoto_table_rules/" class="">DBMoto Table Rules</a></li>
+                <a href="/Collect/Page_Desc/DBMoto_Table_Rules/" class="">DBMoto Table Rules</a></li>
         
             <li >
-                <a href="/collect/page_desc/daily_summary_metrics/" class="">Daily Summary Metrics</a></li>
+                <a href="/Collect/Page_Desc/Daily_Summary_Metrics/" class="">Daily Summary Metrics</a></li>
         
             <li >
-                <a href="/collect/page_desc/data_source_table_columns_h/" class="">Data Source Table Columns H</a></li>
+                <a href="/Collect/Page_Desc/Data_Source_Table_Columns_H/" class="">Data Source Table Columns H</a></li>
         
             <li >
-                <a href="/collect/page_desc/data_source_table_create_download_sql_h/" class="">Data Source Table Create Download SQL H</a></li>
+                <a href="/Collect/Page_Desc/Data_Source_Table_Create_Download_SQL_H/" class="">Data Source Table Create Download SQL H</a></li>
         
             <li >
-                <a href="/collect/page_desc/data_source_tables_h/" class="">Data Source Tables H</a></li>
+                <a href="/Collect/Page_Desc/Data_Source_Tables_H/" class="">Data Source Tables H</a></li>
         
             <li >
-                <a href="/collect/page_desc/detail_list_of_metrics/" class="">Detail List of Metrics</a></li>
+                <a href="/Collect/Page_Desc/Detail_List_of_Metrics/" class="">Detail List of Metrics</a></li>
         
             <li >
-                <a href="/collect/page_desc/duration_warning_list/" class="">Duration Warning List</a></li>
+                <a href="/Collect/Page_Desc/Duration_Warning_List/" class="">Duration Warning List</a></li>
         
             <li >
-                <a href="/collect/page_desc/error_list_in_metrics/" class="">Error List in Metrics</a></li>
+                <a href="/Collect/Page_Desc/Error_List_in_Metrics/" class="">Error List in Metrics</a></li>
         
             <li >
-                <a href="/collect/page_desc/group_import/" class="">Group Import</a></li>
+                <a href="/Collect/Page_Desc/Group_Import/" class="">Group Import</a></li>
         
             <li >
-                <a href="/collect/page_desc/job_detail_h/" class="">Job Detail H</a></li>
+                <a href="/Collect/Page_Desc/Job_Detail_H/" class="">Job Detail H</a></li>
         
             <li >
-                <a href="/collect/page_desc/job_summary/" class="">Job Summary</a></li>
+                <a href="/Collect/Page_Desc/Job_Summary/" class="">Job Summary</a></li>
         
             <li >
-                <a href="/collect/page_desc/monitor_downloads_h/" class="">Monitor (Downloads) H</a></li>
+                <a href="/Collect/Page_Desc/Monitor_Downloads_H/" class="">Monitor (Downloads) H</a></li>
         
             <li >
-                <a href="/collect/page_desc/next_schedule_run_times/" class="">Next Schedule Run Times</a></li>
+                <a href="/Collect/Page_Desc/Next_Schedule_Run_Times/" class="">Next Schedule Run Times</a></li>
         
             <li >
-                <a href="/collect/page_desc/reports/" class="">Reports</a></li>
+                <a href="/Collect/Page_Desc/Reports/" class="">Reports</a></li>
         
             <li >
-                <a href="/collect/page_desc/retention_expiration_email/" class="">Retention Expiration Email</a></li>
+                <a href="/Collect/Page_Desc/Retention_Expiration_Email/" class="">Retention Expiration Email</a></li>
         
             <li >
-                <a href="/collect/page_desc/sap_text_list_h/" class="">SAP Text List H</a></li>
+                <a href="/Collect/Page_Desc/SAP_Text_List_H/" class="">SAP Text List H</a></li>
         
             <li >
-                <a href="/collect/page_desc/schedule_groups/" class="">Schedule Groups</a></li>
+                <a href="/Collect/Page_Desc/Schedule_Groups/" class="">Schedule Groups</a></li>
         
             <li >
-                <a href="/collect/page_desc/scheduled_used_summary/" class="">Scheduled Used Summary</a></li>
+                <a href="/Collect/Page_Desc/Scheduled_Used_Summary/" class="">Scheduled Used Summary</a></li>
         
             <li >
-                <a href="/collect/page_desc/schedules_in_sources_and_tables/" class="">Schedules in Sources and Tables</a></li>
+                <a href="/Collect/Page_Desc/Schedules_in_Sources_and_Tables/" class="">Schedules in Sources and Tables</a></li>
         
             <li >
-                <a href="/collect/page_desc/source_connection_status/" class="">Source Connection Status</a></li>
+                <a href="/Collect/Page_Desc/Source_Connection_Status/" class="">Source Connection Status</a></li>
         
             <li >
-                <a href="/collect/page_desc/source_connection_types_h/" class="">Source Connection Types H</a></li>
+                <a href="/Collect/Page_Desc/Source_Connection_Types_H/" class="">Source Connection Types H</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_indices_h/" class="">Table (Indices) H</a></li>
+                <a href="/Collect/Page_Desc/Table_Indices_H/" class="">Table (Indices) H</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_rfc_options/" class="">Table (Rfc Options)</a></li>
+                <a href="/Collect/Page_Desc/Table_Rfc_Options/" class="">Table (Rfc Options)</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_rule_h/" class="">Table (Rule) H</a></li>
+                <a href="/Collect/Page_Desc/Table_Rule_H/" class="">Table (Rule) H</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_download_task_list/" class="">Table Download Task List</a></li>
+                <a href="/Collect/Page_Desc/Table_Download_Task_List/" class="">Table Download Task List</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_errors_h/" class="">Table Errors H</a></li>
+                <a href="/Collect/Page_Desc/Table_Errors_H/" class="">Table Errors H</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_index_column_list_in_source_and_target/" class="">Table Index Column List in Source and Target</a></li>
+                <a href="/Collect/Page_Desc/Table_Index_Column_List_in_Source_and_Target/" class="">Table Index Column List in Source and Target</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_index_list_in_source_and_target/" class="">Table Index List in Source and Target</a></li>
+                <a href="/Collect/Page_Desc/Table_Index_List_in_Source_and_Target/" class="">Table Index List in Source and Target</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_list_in_source_and_target/" class="">Table List in Source and Target</a></li>
+                <a href="/Collect/Page_Desc/Table_List_in_Source_and_Target/" class="">Table List in Source and Target</a></li>
         
             <li >
-                <a href="/collect/page_desc/table_rule_list_in_source_and_target/" class="">Table Rule List in Source and Target</a></li>
+                <a href="/Collect/Page_Desc/Table_Rule_List_in_Source_and_Target/" class="">Table Rule List in Source and Target</a></li>
         
             <li >
-                <a href="/collect/page_desc/tables_h/" class="">Tables H</a></li>
+                <a href="/Collect/Page_Desc/Tables_H/" class="">Tables H</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_connection_status/" class="">Target Connection Status</a></li>
+                <a href="/Collect/Page_Desc/Target_Connection_Status/" class="">Target Connection Status</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_daily_summary/" class="">Target Daily Summary</a></li>
+                <a href="/Collect/Page_Desc/Target_Daily_Summary/" class="">Target Daily Summary</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_monthly_summary/" class="">Target Monthly Summary</a></li>
+                <a href="/Collect/Page_Desc/Target_Monthly_Summary/" class="">Target Monthly Summary</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_record_counts/" class="">Target Record Counts</a></li>
+                <a href="/Collect/Page_Desc/Target_Record_Counts/" class="">Target Record Counts</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_daily_metric_chart/" class="">Target Source Daily Metric Chart</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Daily_Metric_Chart/" class="">Target Source Daily Metric Chart</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_group/" class="">Target Source Group</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Group/" class="">Target Source Group</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_metric_charts/" class="">Target Source Metrics Charts</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Metric_Charts/" class="">Target Source Metrics Charts</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_monthly_metric_chart/" class="">Target Source Monthly Metric Chart</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Monthly_Metric_Chart/" class="">Target Source Monthly Metric Chart</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_record_counts/" class="">Target Source Record Counts</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Record_Counts/" class="">Target Source Record Counts</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_summary_metrics/" class="">Target Source Summary Metrics</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Summary_Metrics/" class="">Target Source Summary Metrics</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_table_column_encryption/" class="">Target Source Table Column Encryption</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Table_Column_Encryption/" class="">Target Source Table Column Encryption</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_table_counts/" class="">Target Source Table Counts</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Table_Counts/" class="">Target Source Table Counts</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_table_download/" class="">Target Source Table Download</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Table_Download/" class="">Target Source Table Download</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_table_errors/" class="">Target Source Table Errors</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Table_Errors/" class="">Target Source Table Errors</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_table_index_columns/" class="">Target Source Table Index Columns</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Table_Index_Columns/" class="">Target Source Table Index Columns</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_table_job_group/" class="">Target Source Table Job Group</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Table_Job_Group/" class="">Target Source Table Job Group</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_tables/" class="">Target Source Tables H</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Tables/" class="">Target Source Tables H</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_source_weekly_metric_chart/" class="">Target Source Weekly Metric Chart</a></li>
+                <a href="/Collect/Page_Desc/Target_Source_Weekly_Metric_Chart/" class="">Target Source Weekly Metric Chart</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_sources_h_collect/" class="">Target Sources H</a></li>
+                <a href="/Collect/Page_Desc/Target_Sources_H_Collect/" class="">Target Sources H</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_sources_data_services_connection/" class="">Target Sources – DataServices Connection</a></li>
+                <a href="/Collect/Page_Desc/Target_Sources_Data_Services_Connection/" class="">Target Sources – DataServices Connection</a></li>
         
             <li >
-                <a href="/collect/page_desc/target-summary/" class="">Target Summary</a></li>
+                <a href="/Collect/Page_Desc/Target-Summary/" class="">Target Summary</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_table_status/" class="">Target Table Status</a></li>
+                <a href="/Collect/Page_Desc/Target_Table_Status/" class="">Target Table Status</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_user_access/" class="">Target User Access</a></li>
+                <a href="/Collect/Page_Desc/Target_User_Access/" class="">Target User Access</a></li>
         
             <li >
-                <a href="/collect/page_desc/target_weekly_summary/" class="">Target Weekly Summary</a></li>
+                <a href="/Collect/Page_Desc/Target_Weekly_Summary/" class="">Target Weekly Summary</a></li>
         
             <li >
-                <a href="/collect/page_desc/targets_h_collect/" class="">Targets H</a></li>
+                <a href="/Collect/Page_Desc/Targets_H_Collect/" class="">Targets H</a></li>
         
             <li >
-                <a href="/collect/page_desc/view_build_skip_spras_table_list/" class="">View Build Skip SPRAS Table List</a></li>
+                <a href="/Collect/Page_Desc/View_Build_Skip_SPRAS_Table_List/" class="">View Build Skip SPRAS Table List</a></li>
         
             <li >
-                <a href="/collect/page_desc/workflow_download_failures_h/" class="">Workflow Download Failures H</a></li>
+                <a href="/Collect/Page_Desc/Workflow_Download_Failures_H/" class="">Workflow Download Failures H</a></li>
         
             <li >
-                <a href="/collect/page_desc/workflow_summary_history_h/" class="">Workflow Summary History H</a></li>
+                <a href="/Collect/Page_Desc/Workflow_Summary_History_H/" class="">Workflow Summary History H</a></li>
         
             <li >
-                <a href="/collect/page_desc/workflow_summary_user_settings/" class="">Workflow Summary User Settings</a></li>
+                <a href="/Collect/Page_Desc/Workflow_Summary_User_Settings/" class="">Workflow Summary User Settings</a></li>
         
     </ul>
     </li>
@@ -383,172 +392,172 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/collect/use_cases/" class="active">Procedures</a>
+        <a href="/Collect/Use_Cases/" class="active">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/collect/use_cases/add_rules_and_indices_to_tables/" class="">Add Rules and Indices to Tables</a></li>
+                <a href="/Collect/Use_Cases/Add_Rules_and_Indices_to_Tables/" class="">Add Rules and Indices to Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/avoid_timeouts_when_building_a_dbmoto_target_connection/" class="">Avoid Timeouts When Building a DBMoto® Target Connection</a></li>
+                <a href="/Collect/Use_Cases/Avoid_Timeouts_When_Building_a_DBMoto_Target_Connection/" class="">Avoid Timeouts When Building a DBMoto® Target Connection</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_advanced_views/" class="">Build Advanced Views</a></li>
+                <a href="/Collect/Use_Cases/Build_Advanced_Views/" class="">Build Advanced Views</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_package1/" class="">Build Package</a></li>
+                <a href="/Collect/Use_Cases/Build_Package1/" class="">Build Package</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_package_overview/" class="">Build Package</a></li>
+                <a href="/Collect/Use_Cases/Build_Package_Overview/" class="">Build Package</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_package_for_schedule_group/" class="">Build Package for Schedule Group</a></li>
+                <a href="/Collect/Use_Cases/Build_Package_for_Schedule_Group/" class="">Build Package for Schedule Group</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_package_for_table/" class="">Build Package for Table</a></li>
+                <a href="/Collect/Use_Cases/Build_Package_for_Table/" class="">Build Package for Table</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_summary_workflow/" class="">Build Summary Workflow</a></li>
+                <a href="/Collect/Use_Cases/Build_Summary_Workflow/" class="">Build Summary Workflow</a></li>
         
             <li >
-                <a href="/collect/use_cases/build_and_refresh_tables_for_a_schedule_group/" class="">Build and Refresh Tables for a Schedule Group</a></li>
+                <a href="/Collect/Use_Cases/Build_and_Refresh_Tables_for_a_Schedule_Group/" class="">Build and Refresh Tables for a Schedule Group</a></li>
         
             <li >
-                <a href="/collect/use_cases/configure_rfc_options/" class="">Configure RFC Options</a></li>
+                <a href="/Collect/Use_Cases/Configure_RFC_Options/" class="">Configure RFC Options</a></li>
         
             <li >
-                <a href="/collect/use_cases/configure_workflow_summary_user_settings/" class="">Configure Workflow Summary User Settings</a></li>
+                <a href="/Collect/Use_Cases/Configure_Workflow_Summary_User_Settings/" class="">Configure Workflow Summary User Settings</a></li>
         
             <li >
-                <a href="/collect/use_cases/connection_types/" class="">Connection Types</a></li>
+                <a href="/Collect/Use_Cases/Connection_Types/" class="">Connection Types</a></li>
         
             <li >
-                <a href="/collect/use_cases/copy_a_target_collect/" class="">Copy a Target</a></li>
+                <a href="/Collect/Use_Cases/Copy_a_Target_Collect/" class="">Copy a Target</a></li>
         
             <li >
-                <a href="/collect/use_cases/create_groups_from_the_fetch_process/" class="">Create System Type Groups from the Fetch Process</a></li>
+                <a href="/Collect/Use_Cases/Create_Groups_from_the_Fetch_Process/" class="">Create System Type Groups from the Fetch Process</a></li>
         
             <li >
-                <a href="/collect/use_cases/create_table_indices/" class="uk-active">Create Table Indices</a></li>
+                <a href="/Collect/Use_Cases/Create_Table_Indices/" class="uk-active">Create Table Indices</a></li>
         
             <li >
-                <a href="/collect/use_cases/create_a_system_type_group_from_source_tables/" class="">Create a System Type Group from Source Tables</a></li>
+                <a href="/Collect/Use_Cases/Create_a_System_Type_Group_from_Source_Tables/" class="">Create a System Type Group from Source Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/data_considerations/" class="">Data Considerations</a></li>
+                <a href="/Collect/Use_Cases/Data_Considerations/" class="">Data Considerations</a></li>
         
             <li >
-                <a href="/collect/use_cases/data_services_profiling_results_setup/" class="">Data Services Profiling Results Setup</a></li>
+                <a href="/Collect/Use_Cases/Data_Services_Profiling_Results_Setup/" class="">Data Services Profiling Results Setup</a></li>
         
             <li >
-                <a href="/collect/use_cases/decision_tree/" class="">Decision Tree</a></li>
+                <a href="/Collect/Use_Cases/Decision_Tree/" class="">Decision Tree</a></li>
         
             <li >
-                <a href="/collect/use_cases/download_metrics/" class="">Download Metrics</a></li>
+                <a href="/Collect/Use_Cases/Download_Metrics/" class="">Download Metrics</a></li>
         
             <li >
-                <a href="/collect/use_cases/encrypt_columns/" class="">Encrypt Columns</a></li>
+                <a href="/Collect/Use_Cases/Encrypt_Columns/" class="">Encrypt Columns</a></li>
         
             <li >
-                <a href="/collect/use_cases/extraction_methods_overview/" class="">Extraction Methods Overview</a></li>
+                <a href="/Collect/Use_Cases/Extraction_Methods_Overview/" class="">Extraction Methods Overview</a></li>
         
             <li >
-                <a href="/collect/use_cases/extraction_methods_and_tools/" class="">Extraction Methods and Tools</a></li>
+                <a href="/Collect/Use_Cases/Extraction_Methods_and_Tools/" class="">Extraction Methods and Tools</a></li>
         
             <li >
-                <a href="/collect/use_cases/import_group_tables/" class="">Import System Types Groups Tables</a></li>
+                <a href="/Collect/Use_Cases/Import_Group_Tables/" class="">Import System Types Groups Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/improve_data_extraction_efficiency/" class="">Improve Data Extraction Efficiency</a></li>
+                <a href="/Collect/Use_Cases/Improve_Data_Extraction_Efficiency/" class="">Improve Data Extraction Efficiency</a></li>
         
             <li >
-                <a href="/collect/use_cases/manage_dbmoto_table_rules/" class="">Manage DBMoto® Table Rules</a></li>
+                <a href="/Collect/Use_Cases/Manage_DBMoto_Table_Rules/" class="">Manage DBMoto® Table Rules</a></li>
         
             <li >
-                <a href="/collect/use_cases/manage_sap_text_list/" class="">Manage SAP Text List</a></li>
+                <a href="/Collect/Use_Cases/Manage_SAP_Text_List/" class="">Manage SAP Text List</a></li>
         
             <li >
-                <a href="/collect/use_cases/manually_register_tables_to_source/" class="">Manually Register Tables to Source</a></li>
+                <a href="/Collect/Use_Cases/Manually_Register_Tables_to_Source/" class="">Manually Register Tables to Source</a></li>
         
             <li >
-                <a href="/collect/use_cases/modify_configuration_of_data_source_table_columns/" class="">Modify Configuration of Data Source Table Columns</a></li>
+                <a href="/Collect/Use_Cases/Modify_Configuration_of_Data_Source_Table_Columns/" class="">Modify Configuration of Data Source Table Columns</a></li>
         
             <li >
-                <a href="/collect/use_cases/modify_configuration_of_data_source_tables/" class="">Modify Configuration of Data Source Tables</a></li>
+                <a href="/Collect/Use_Cases/Modify_Configuration_of_Data_Source_Tables/" class="">Modify Configuration of Data Source Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/monitor_table_download_process/" class="">Monitor Table Download Process</a></li>
+                <a href="/Collect/Use_Cases/Monitor_Table_Download_Process/" class="">Monitor Table Download Process</a></li>
         
             <li >
-                <a href="/collect/use_cases/package_types/" class="">Package Types</a></li>
+                <a href="/Collect/Use_Cases/Package_Types/" class="">Package Types</a></li>
         
             <li >
-                <a href="/collect/use_cases/refresh_overview/" class="">Refresh</a></li>
+                <a href="/Collect/Use_Cases/Refresh_Overview/" class="">Refresh</a></li>
         
             <li >
-                <a href="/collect/use_cases/refresh_tables/" class="">Refresh Tables</a></li>
+                <a href="/Collect/Use_Cases/Refresh_Tables/" class="">Refresh Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/register_table_rules/" class="">Register Table Rules</a></li>
+                <a href="/Collect/Use_Cases/Register_Table_Rules/" class="">Register Table Rules</a></li>
         
             <li >
-                <a href="/collect/use_cases/register_tables_to_source/" class="">Register Tables to Source</a></li>
+                <a href="/Collect/Use_Cases/Register_Tables_to_Source/" class="">Register Tables to Source</a></li>
         
             <li >
-                <a href="/collect/use_cases/register_and_use_sources/" class="">Register and Use Sources</a></li>
+                <a href="/Collect/Use_Cases/Register_and_Use_Sources/" class="">Register and Use Sources</a></li>
         
             <li >
-                <a href="/collect/use_cases/register_and_use_tables/" class="">Register and Use Tables</a></li>
+                <a href="/Collect/Use_Cases/Register_and_Use_Tables/" class="">Register and Use Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/register_and_use_targets/" class="">Register and Use Targets</a></li>
+                <a href="/Collect/Use_Cases/Register_and_Use_Targets/" class="">Register and Use Targets</a></li>
         
             <li >
-                <a href="/collect/use_cases/schedule_updates_to_tables/" class="">Schedule Updates to Tables</a></li>
+                <a href="/Collect/Use_Cases/Schedule_Updates_to_Tables/" class="">Schedule Updates to Tables</a></li>
         
             <li >
-                <a href="/collect/use_cases/send_workflow_summary_on_demand/" class="">Send Workflow Summary On Demand</a></li>
+                <a href="/Collect/Use_Cases/Send_Workflow_Summary_On_Demand/" class="">Send Workflow Summary On Demand</a></li>
         
             <li >
-                <a href="/collect/use_cases/set_up_table_download_with_a_cranport_package/" class="">Set up Table Download with a CranPort Package</a></li>
+                <a href="/Collect/Use_Cases/Set_Up_Table_Download_with_a_CranPort_Package/" class="">Set up Table Download with a CranPort Package</a></li>
         
             <li >
-                <a href="/collect/use_cases/support_regulatory_compliance/" class="">Support Regulatory Compliance</a></li>
+                <a href="/Collect/Use_Cases/Support_Regulatory_Compliance/" class="">Support Regulatory Compliance</a></li>
         
             <li >
-                <a href="/collect/use_cases/system_considerations/" class="">System Considerations</a></li>
+                <a href="/Collect/Use_Cases/System_Considerations/" class="">System Considerations</a></li>
         
             <li >
-                <a href="/collect/use_cases/use_advanced_options/" class="">Use Advanced Options</a></li>
+                <a href="/Collect/Use_Cases/Use_Advanced_Options/" class="">Use Advanced Options</a></li>
         
             <li >
-                <a href="/collect/use_cases/use_the_manual_data_services_package_type/" class="">Use the Manual Data Services Package Type</a></li>
+                <a href="/Collect/Use_Cases/Use_the_Manual_Data_Services_Package_Type/" class="">Use the Manual Data Services Package Type</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_build_skip_spras_table_list/" class="">View Build Skip SPRAS Table List</a></li>
+                <a href="/Collect/Use_Cases/View_Build_Skip_SPRAS_Table_List/" class="">View Build Skip SPRAS Table List</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_collect_reports/" class="">View Collect Reports</a></li>
+                <a href="/Collect/Use_Cases/View_Collect_Reports/" class="">View Collect Reports</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_configuration_of_data_source_table_sql_commands/" class="">View Configuration of Data Source Table SQL Commands</a></li>
+                <a href="/Collect/Use_Cases/View_Configuration_of_Data_Source_Table_SQL_Commands/" class="">View Configuration of Data Source Table SQL Commands</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_dashboard_in_collect/" class="">View Dashboard in Collect</a></li>
+                <a href="/Collect/Use_Cases/View_Dashboard_in_Collect/" class="">View Dashboard in Collect</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_summary/" class="">View Summary</a></li>
+                <a href="/Collect/Use_Cases/View_Summary/" class="">View Summary</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_table_metrics/" class="">View Table Metrics</a></li>
+                <a href="/Collect/Use_Cases/View_Table_Metrics/" class="">View Table Metrics</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_workflow_download_failures/" class="">View Workflow Download Failures</a></li>
+                <a href="/Collect/Use_Cases/View_Workflow_Download_Failures/" class="">View Workflow Download Failures</a></li>
         
             <li >
-                <a href="/collect/use_cases/view_workflow_summary_history/" class="">View Workflow Summary History</a></li>
+                <a href="/Collect/Use_Cases/View_Workflow_Summary_History/" class="">View Workflow Summary History</a></li>
         
     </ul>
     </li>
@@ -569,7 +578,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Platform</a></li>
-        <li><a>Collect</a></li>
+        <li><a href="/Collect">Collect</a></li>
         <li><span>Create Table Indices</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -581,17 +590,55 @@
 <p>Before performing this task:</p>
 
 <ul>
-<li><a href="Register_Tables_to_Source.htm">Register Tables to Source</a></li>
-<li><a href="Encrypt_Columns.htm">Encrypt Columns</a></li>
-<li><a href="Configure_RFC_Options.htm">Configure RFC Options</a></li>
-<li><a href="Register_Table_Rules.htm">Register Table Rules</a></li>
+<li><a href="Register_Tables_to_Source">Register Tables to Source</a></li>
+<li><a href="Encrypt_Columns">Encrypt Columns</a></li>
+<li><a href="Configure_RFC_Options">Configure RFC Options</a></li>
+<li><a href="Register_Table_Rules">Register Table Rules</a></li>
 </ul>
 
-<p>Refer to <a href="Add_Rules_and_Indices_to_Tables.htm">Add Rule and Indices to
+<p>Refer to <a href="Add_Rules_and_Indices_to_Tables">Add Rule and Indices to
 Tables</a> for details on this step.</p>
 
-<p>Continue with <a href="Build_Package1.htm">Build Package</a>.</p>
+<p>Continue with <a href="Build_Package1">Build Package</a>.</p>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -609,13 +656,14 @@ Tables</a> for details on this step.</p>
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -623,12 +671,12 @@ Tables</a> for details on this step.</p>
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -641,18 +689,20 @@ Tables</a> for details on this step.</p>
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

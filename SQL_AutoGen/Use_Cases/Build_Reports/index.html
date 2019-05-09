@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Build Reports :: Syniti Documentation</title>
+  
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
+</script>
+<script src="/js/modal.js"></script>
+<script src="/js/custom.js"></script>
+</head>
+<body>
+  
+  
+<div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/SQL_AutoGen/" class="active">SQL AutoGen Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/SQL_AutoGen/Page_Desc/" class="">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/SQL_AutoGen/Page_Desc/AutoGen_SQL_Log/" class="">AutoGen SQL Log</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Page_Desc/Automation_page/" class="">Automation H</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Page_Desc/Automation_SQL_Field_Mappings_H/" class="">Automation SQL Field Mappings H</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Page_Desc/Automation_SQL_Target_Source/" class="">Automation SQL Target Source</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Page_Desc/Automation_SQL_Target_Source_Update_Row/" class="">Automation SQL Target Source (Update Row)</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Page_Desc/Parameters_Automation/" class="">Parameters Automation</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/SQL_AutoGen/Use_Cases/" class="active">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Build_Reports/" class="uk-active">Build Reports</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Build_Source_Tables/" class="">Build Source Tables</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Build_Target_Tables/" class="">Build Target Tables</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Build_an_Update_Row_Source_Table/" class="">Build an Update Row Source Table</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Create_Rules/" class="">Create Rules</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Create_Rules_for_an_Update_Row_Source/" class="">Create Rules for an Update Row Source</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Create_and_Approve_all_rule/" class="">Create and Approve All Rules</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Field_Mappings_and_SQL_Automation/" class="">Field Mappings and SQL AutoGen</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Reject_a_Mapping/" class="">Reject a Mapping</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Reset_A_Mapping/" class="">Reset A Mapping</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Set_the_Auto_Gen_Level_for_a_Target/" class="">Set the Auto Gen Level for a Target</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Setup_and_Configuration_for_SQL_AutoGen/" class="">Setup and Configuration for SQL AutoGen</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/Update_a_Rule_Status/" class="">Update a Rule Status</a></li>
+        
+            <li >
+                <a href="/SQL_AutoGen/Use_Cases/View_Transaction_Status/" class="">View Transaction Status</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Migration</a></li>
+        <li><a href="/SQL_AutoGen">SQL_AutoGen</a></li>
+        <li><span>Build Reports</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="build-reports">Build Reports</h1>
+
+<p>SQL AutoGen can build target and source reports and reports with
+remediation.</p>
+
+<p><span style="font-weight: bold;">NOTE:</span> The target’s Design Status
+must be In Design or Design Finished to perform this task.</p>
+
+<p>A target report is a view built in SQL and stored in the target table.</p>
+
+<p>A Target Source report is a report run against the source table. Source
+reports are typically used to display data relevant to processing the
+rules.</p>
+
+<p>Target Remediation allows a remediation rule to be registered to an
+error report. Remediation rules are used only when there is a need to
+temporarily fix a data issue so the affected records can be loaded into
+a test environment. Once Transform has processed target data, it
+generates the error reports, but these reports can also be generated
+using SQL AutoGen. Based on these reports, a user may create remediation
+rules to correct erroneous values so that the data can be loaded
+successfully into the target system using a load tool.</p>
+
+<p>Refer to <a href="../../Transform/Use_Cases/Add_Target_Reports">Add Target
+Reports</a>, <a href="../../Transform/Use_Cases/Add_Target_Source_Reports">Add Target
+Source Reports</a>
+and <a href="../../Transform/Use_Cases/Register_Target_Remediation_Rules">Register Target Remediation
+Rules</a>
+for more information about reports.</p>
+
+<p>All objects created using SQL AutoGen are written to the data source
+defined for the object in Console (Process Area &gt; Objects &gt; Vertical
+View &gt; Data Source ID).</p>
+
+<p><span style="font-weight: bold;">NOTE:</span> When reports are
+autogenerated, the SAPINSTANCE and SAPCLIENT columns are not included in
+Target Report view.</p>
+
+<p><span style="font-weight: bold;">NOTE:</span> If a target report
+references a check table in SAP that uses the Client column, the ERP
+Client field must be populated in Console on the
+<span style="font-style: italic;"><a href="../../Console/Page_Desc/Process_Area_ObjectH">Process Area :
+Object</a></span> page
+(Waves &gt; Process Areas &gt; Objects &gt; Vertical View).</p>
+
+<p><strong>NOTE:</strong> The Report Auto Gen Level setting on the
+<em><a href="../Page_Desc/Automation_page">Automation</a></em> page’s <em>Vertical</em> View
+determines if and how business user reports are generated for the target
+with SQL AutoGen. Options are:</p>
+
+<ul>
+<li><strong>On - Drop &amp; Rebuild Report Views and Registrations.</strong> Any SQL
+views previously created for the business user reports in the target
+are dropped and new SQL views with the same name are added.</li>
+<li><strong>Off - No Report Generation.</strong> AutoGen is not used.</li>
+<li><strong>New - Add new reports without modifying existing report views or
+registrations.</strong> When autogenerating, only new views are created.
+Existing views are not updated.</li>
+</ul>
+
+<p>To create reports at the target level in AutoGen:</p>
+
+<ol>
+<li><p>Click the <strong>Automation</strong> tab on the Quick Panel.</p></li>
+
+<li><p>Either click the <strong>Build Reports</strong> icon in the Page toolbar</p>
+
+<p>OR</p>
+
+<p>Click the <strong>Build Reports with Remediation</strong> icon in the Page
+toolbar; a confirmation message displays.</p></li>
+
+<li><p>Click <strong>OK</strong>.</p></li>
+</ol>
+
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#build-reports">Build Reports</a></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  
+<footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
+</body>
+</html>

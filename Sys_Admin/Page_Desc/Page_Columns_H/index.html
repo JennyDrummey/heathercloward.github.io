@@ -1,0 +1,2611 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Page Columns H :: Syniti Documentation</title>
+  
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
+<link href="/css/uikit.css" rel="stylesheet">
+<link href="/css/app.css" rel="stylesheet">
+<script src="/js/app.js"></script>
+<script src="/js/uikit.min.js"></script>
+<script src="/js/uikit-icons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
+</script>
+<script src="/js/modal.js"></script>
+<script src="/js/custom.js"></script>
+</head>
+<body>
+  
+  
+<div>
+  <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
+    <div class="uk-container uk-container-expand uk-padding-remove">
+      <nav id="navHeader" uk-navbar>
+        <div class="uk-margin-large-left uk-navbar-left uk-light">
+          <a class="uk-navbar-item uk-logo" style="width:8rem; height:5rem;" href="/"><img src="/images/Syniti_Logo_RBG_White.svg" ></a>
+          <ul id="headerNav" class="uk-navbar-nav">
+            <li>
+              <a class="uk-text-capitalize uk-visible@m" href="#">Version</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="uk-visible@l">
+            <a class="uk-navbar-toggle" uk-search-icon href="#"></a>
+            <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
+              <form class="uk-search uk-search-navbar uk-width-1-1">
+                <input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="uk-navbar-right uk-margin-large-right uk-light">
+          <ul id="headerNav" class="uk-navbar-nav uk-visible@m">
+            <li class="uk-active">
+              <a class="uk-text-capitalize" href="#">What's New</a></li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Solutions</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="#">Migration</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Data Quality</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Master Data Management</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li><a href="#">Platform</a>
+                    <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a class="uk-text-capitalize" href="#">Tips</a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide"></a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  
+
+<div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
+  <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
+
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/Sys_Admin/" class="active">System Administration Overview</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent uk-open">
+        <a href="/Sys_Admin/Page_Desc/" class="active">Pages</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Advanced_Workflow/" class="">Advanced Workflow</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/All_Jobs_H/" class="">All Jobs H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Archive_Attributes/" class="">Archive Attributes</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Archive_History/" class="">Archive History</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Archive_Log/" class="">Archive Log</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Archive_Manifest/" class="">Archive Manifest</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Archive_Manifest_Keys/" class="">Archive Manifest Keys</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Archives_H/" class="">Archives H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Audit_Configuration/" class="">Audit Configuration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Audit_Tables/" class="">Audit Tables H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Bulk_Execution_Panel/" class="">Bulk Execution Panel</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Attributes/" class="">CTS Attributes</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Build_H/" class="">CTS Build H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Dependencies/" class="">CTS Configure (SQL Object Dependencies)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Registration-Keys/" class="">CTS Configure (SQL Object Registration Keys)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Registrations/" class="">CTS Configure (SQL Object Registrations)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Relationships/" class="">CTS Configure (SQL Object Relationships)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-SQL-Objects/" class="">CTS Configure (SQL Objects)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-Shippable-Item-Keys/" class="">CTS Configure (Shippable Item Keys)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-Shippable-Items/" class="">CTS Configure (Shippable Items) H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Configure-H/" class="">CTS Configure H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Item_Keys/" class="">CTS Item Keys</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Items_H/" class="">CTS Items H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Log/" class="">CTS Log</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Package_Export/" class="">CTS Package Export</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Packing-List-Config-Item/" class="">CTS Packing List By Config Item</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Packing_List_H/" class="">CTS Packing List H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS_Packing_List_Keys/" class="">CTS Packing List Keys</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/CTS-Packing-List-Summary/" class="">CTS Packing List Summary</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog_All_Phrases/" class="">Catalog All Phrases</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog_Extension/" class="">Catalog Extension</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/catalogPageHelp/" class="">Catalog Page Help H &lt;span id=&#34;Catalogs_Page_Help_H&#34;&gt;&lt;/span&gt;</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog-Page-Phrases/" class="">Catalog Page Phrases</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog_Phrase_Translations_Generic/" class="">Catalog Phrase Translations (Generic)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog-Phrase-Translations-Page-Specific/" class="">Catalog Phrase Translations (Page Specific)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog_Phrases/" class="">Catalog Phrases H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalog_WebApp/" class="">Catalog WebApp</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Catalogs_H/" class="">Catalogs H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Colors/" class="">Colors</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Column-Events/" class="">Column Events</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Control_Formats/" class="">Control (Formats)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Control-Display-and-Limit-Possible-Candidates/" class="">Control Display and Limit Possible Candidates</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Controls/" class="">Controls</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Copied-Pages/" class="">Copied Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Copy-Page/" class="">Copy Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Copy_Role/" class="">Copy Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Copy_User/" class="">Copy User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Copy_WebApp_User/" class="">Copy WebApp User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Copy_WebAppGroupUser/" class="">Copy WebAppGroupUser</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Custom_Page_Column_Links/" class="">Custom Page Column Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Customization-Review/" class="">Customization Review</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Data_Source_Audit_Report/" class="">Data Source Audit Report</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Data_Source_Column_Encryption/" class="">Data Source Column Encryption</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/DataSourceFeatures/" class="">Data Source Features</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/DataSourceInstancesH/" class="">Data Source Instances H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Data_Source_Sequences/" class="">Data Source Sequences</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/DataSourceTypeFeatures/" class="">Data Source Type Features</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/DataSourceTypes/" class="">Data Source Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Data_Sources_HSysAdmi/" class="">Data Sources H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Database_Types_H/" class="">Database Types H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/DatabaseCurrentConnections/" class="">Database: Current Connections</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/DatabaseCurrentRequests/" class="">Database: Current Requests</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Decrypt/" class="">Decrypt</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Definition/" class="">Definition</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Dictionaries/" class="">Dictionaries</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Dictionary_Words/" class="">Dictionary Words</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Encryption-Keys/" class="">Encryption Keys</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Excel_Integration_Panel/" class="">Excel Integration Panel</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Failed_Jobs_H/" class="">Failed Jobs H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Forbidden_Passwords/" class="">Forbidden Passwords</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Group_Page_List/" class="">Group Page List</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Group_Pages/" class="">Group Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Groups/" class="">Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Images-H/" class="">Images H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Index-Specification-H/" class="">Index (Specification) H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Index-Columns/" class="">Index Columns</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Indices-H/" class="">Indices H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Instances/" class="">Instances</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Job_Queue_Task/" class="">Job Queue (Task) H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Job_Queue_Task_Params_H/" class="">Job Queue Task Params</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Job-Status-Type/" class="">Job Status Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Job-Types/" class="">Job Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Jobs_Failed_H/" class="">Jobs (Failed) H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Languages/" class="">Languages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Layout-Frames/" class="">Layout Frames</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Layouts/" class="">Layouts</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/LinkCustomization/" class="">Link Customization</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Locales/" class="">Locales</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Log-Types/" class="">Log Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Menu-Links/" class="">Menu Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Menus/" class="">Menus</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Message-Types/" class="">Message Types H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page-Chart-Properties/" class="">Page (Chart Properties)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Business_Rules_H/" class="">Page Business Rules H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page-Column-Links/" class="">Page Column Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Columns_H/" class="uk-active">Page Columns H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Customization/" class="">Page Customization</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Event_Param_H/" class="">Page Event Parameters H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Event_Rule_Parameters/" class="">Page Event Rule Parameters</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Events_H/" class="">Page Events H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Extension_By_Role/" class="">Page Extension - By Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Extension_By_User/" class="">Page Extension - By User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Extension_Default/" class="">Page Extension - Default</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page-Groups/" class="">Page Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page-Type-Controls/" class="">Page Type Controls</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page-Types/" class="">Page Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Page_Validation_Rules/" class="">Page Validation Rules H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Pages-Catalog/" class="">Pages Catalog</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Pages_H/" class="">Pages H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Parameters_All_TabsSysAdmin/" class="">Parameters (All Tabs)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Plugin-Assemblies-H/" class="">Plugin Assemblies H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Plugin-Business-Rules/" class="">Plugin Business Rules</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Plugin-List-Data-Providers/" class="">Plugin List Data Providers</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Plugin-Validation-Rules/" class="">Plugin Validation Rules</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Plugins-H/" class="">Plugins H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Queues/" class="">Queues</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Queues-Monitor/" class="">Queues (Monitor)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Quick_Links_H/" class="">Quick Links H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Recent-Service-Activity/" class="">Recent Service Activity</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Report-Group-Columns/" class="">Report Group Columns</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Report-Groups/" class="">Report Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Resources/" class="">Resources</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Role_Key_Values/" class="">Role Key Values</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Role_Users/" class="">Role Users</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Definition_Keys/" class="">Security Definition Keys</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/SecurityDefPgColbindings/" class="">Security Definition Page Column Bindings</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Definition_Pages/" class="">Security Definition Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Definitions/" class="">Security Definitions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Definitions_For_User/" class="">Security Definitions For User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Role_Definitions/" class="">Security Role Definitions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Role_WebApp_Groups/" class="">Security Role WebApp Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security_Roles/" class="">Security Roles</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Security-Users-Summary/" class="">Security: Users Summary</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service_Pages/" class="">Service Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service-Providers/" class="">Service Providers</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service-Queues/" class="">Service Queues</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service_Average_Job_Wait_Time_Past_Hours/" class="">Service: Average Job Wait Time (Past Hours)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service_Longest_Jobs_Hourly/" class="">Service: Longest Jobs (Hourly)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service_Queue_Health_Hourly/" class="">Service: Queue Health (Hourly)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Service_Resources/" class="">Service: Resources</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Site_Customization/" class="">Site Customization</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Site_Customization_Role_Quick_Links/" class="">Site Customization Role Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Site_Customization_User_Quick_Links/" class="">Site Customization User Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Site-Menu/" class="">Site Menu</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Status/" class="">Status</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Stop_List_Words/" class="">Stop List Words</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Stop_Lists/" class="">Stop Lists</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Styles_H/" class="">Styles H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/System-Log/" class="">System Log</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/System-Logs/" class="">System Logs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/User_Group_List/" class="">User Group List</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/User-History-Log/" class="">User History Log</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/User_Security_Definition_Summary/" class="">User Security Definition Summary</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/User_Specific_Keys/" class="">User Specific Keys</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/User_Specific_Security_Definitions/" class="">User Specific Security Definitions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Users-Current/" class="">Users (Current)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Users-Locked/" class="">Users (Locked)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Users_H/" class="">Users H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Users/" class="">WebApp (Users)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Catalogs/" class="">WebApp Catalogs H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Customization/" class="">WebApp Customization</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Group_Users/" class="">WebApp Group Users</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Groups_H/" class="">WebApp Groups H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Security/" class="">WebApp Security</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApp_Users_Groups/" class="">WebApp Users (Groups)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/WebApps_H/" class="">WebApps H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Workflow_Links/" class="">Workflow Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Page_Desc/Workflow-Log-H/" class="">Workflow Log H</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+
+
+<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+    <li class="uk-parent ">
+        <a href="/Sys_Admin/Use_Cases/" class="">Procedures</a>
+    <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
+        
+        
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Acknowledge_Failed_Jobs/" class="">Acknowledge Failed Jobs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_Attributes/" class="">Add Attributes</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_a_Custom_Link/" class="">Add Custom Links to a Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_Database_Types/" class="">Add Database Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_Phrase_Out_Values_to_Alias_a_Column_on_a_Page/" class="">Add Phrase Out Values to Alias a Column on a Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_Phrases_to_Catalogs/" class="">Add Phrases to Catalogs at the WebApp and Page Level</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-Reserved-Columns-to-Tables-to-track/" class="">Add Reserved Columns to Tables to Track Excel Integration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-a-Catalog-to-a-Delivered-WebApp/" class="">Add a Catalog to a Delivered WebApp</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_a_Color/" class="">Add a Color</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-a-Column-to-an-Index/" class="">Add a Column to an Index</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/AddDataSourceInstance/" class="">Add a Data Source Instance</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_a_Mass_Change_Custom_Link_to_a_Custom_Page_in_System_Administration/" class="">Add a Mass Change Custom Link to a Custom Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-a-Message-Type/" class="">Add a Message Type</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-a-Service-Queue/" class="">Add a Service Queue</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add_a_Style/" class="">Add a Style</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-a-Toolbar-Button/" class="">Add a Toolbar Button</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-an-Image-to-the-DSP/" class="">Add an Image to the DSP®</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Add-or-Update-Custom-Icons-for-Custom-WebApps/" class="">Add or Update Custom Icons for Custom WebApps</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Advanced-Plugin-Example/" class="">Advanced Plugin Example</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Allow_a_Quick_Link_to_be_Created_for_a_Page/" class="">Allow a Quick Link to be Created for a Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Assign-Key-Columns/" class="">Assign Key Columns</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Assign_Keys_to_Security_Role/" class="">Assign Keys to Security Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Assign_Users_to_Security_Roles/" class="">Assign Users to Security Roles</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Assign_Users_to_WebApp_Groups/" class="">Assign Users to WebApp Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/AssignUsersWebAppCustomAppDev/" class="">Assign Users to a WebApp for Custom Application Development/Customizations</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Assign_WebApp_Groups_to_Security_Role/" class="">Assign WebApp Groups to Security Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Assign-a-Catalog-to-a-Custom-Webapp/" class="">Assign a Catalog to a Custom Web App</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Basic-Plugin-Example/" class="">Basic Plugin Example</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Build-Index-Objects/" class="">Build Index Objects</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Build-Indices-for-a-Data-Source-for-Search-and-Duplicate-Detection/" class="">Build Indices for a Data Source for Search and Duplicate Detection</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Build_an_Archive_from_a_Package/" class="">Build an Archive from a Package</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Build-the-Index/" class="">Build the Index</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Bulk_Duplicate_Detection_H/" class="">Bulk Duplicate Detection H</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/CTS_Overview/" class="">CTS Overview</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Anonymous-Authentication/" class="">Configure Anonymous Authentication</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Authentication-Settings/" class="">Configure Authentication Settings</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Basic-Authentication/" class="">Configure Basic Authentication</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Bulk_Execution_Overview/" class="">Configure Bulk Execution</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Business_Rule_Settings/" class="">Configure Business Rule Settings</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_CTS_Passwords/" class="">Configure CTS Passwords</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Column_Header_Color_in_the_Excel_Template/" class="">Configure Column Header and Text Color in the Excel Template</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Custom-Integration/" class="">Configure Custom Integration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Excel_Integration_Admin/" class="">Configure Excel Integration Overview</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Filters-in-the-DSP/" class="">Configure Filters in the DSP®</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Integrated-Authentication/" class="">Configure Integrated Authentication</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Job-Status-Types/" class="">Configure Job Status Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-Log-Type-Settings/" class="">Configure Log Type Settings</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Password_Options/" class="">Configure Password Options</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Service_Pages/" class="">Configure Service Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Config_WarnMessage_Lic_Expir/" class="">Configure Warning Message Timing for License Expiration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Workflow_Fields/" class="">Configure Workflow Fields</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Workflow_Links/" class="">Configure Workflow Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure-an-Index/" class="">Configure an Index</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Configure_Path_Connection_Settings_Data_Srce/" class="">Configure the Path or Connection Settings for a Data Source</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Copy_a_Security_Role/" class="">Copy a Security Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create-Column-Dictionaries/" class="">Create Column Dictionaries</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Dictionaries/" class="">Create Dictionaries</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Quick_Links/" class="">Create Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_a_Quick_Link_as_the_Logged_In_User/" class="">Create Quick Links as the Logged In User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Quick_Links_by_Role/" class="">Create Quick Links by Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Quick_Links_by_User/" class="">Create Quick Links by User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Security_Definitions/" class="">Create Security Definitions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Security_Roles/" class="">Create Security Roles</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Stop_Lists/" class="">Create Stop Lists</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_User_Accounts_in_System_Administration/" class="">Create User Accounts in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_WebApp_Catalogs/" class="">Create WebApp Catalogs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_WebApp_Groups/" class="">Create WebApp Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_Groups_Security/" class="">Create WebApp Groups using the *Groups* Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_WebApp_Groups_using_the_WebApp_Groups_page/" class="">Create WebApp Groups using the WebApp Groups page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/CreatePckgeBuildArcSrceInstance/" class="">Create a CTS Package and Build Archive in Source Instance</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create-a-Plugin/" class="">Create a Plugin</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_a_User_Account_Based_on_Another_Users_Security_Settings/" class="">Create a User Account Based on Another User’s Security Settings</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_a_View/" class="">Create a View</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create-an-Index/" class="">Create an Index</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Create_an_OnValidate_Page_Event_for_Bulk_Execution/" class="">Create an OnValidate Page Event for Bulk Execution</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Customize_Quick_Links/" class="">Customize Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Customize_the_Page_to_Display_for_All_Users/" class="">Customize the Page to Display for All Users</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Customize_Page_Display_Individual_Users/" class="">Customize the Page to Display for Individual Users</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Customize_Pg_Display_Members_Security_Role/" class="">Customize the Page to Display for Members of a Security Role</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Customize_Organize_and_View_Quick_Links/" class="">Customize, Organize, and View Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/DSP-Configuration/" class="">DSP® Configuration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/DSP_Pages_Delivered_with_Bulk_Execution_Enabled/" class="">DSP® Pages Delivered with Bulk Execution Enabled</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/DSP_Pages_Delivered_with_Excel_Integration_Enabled/" class="">DSP® Pages Delivered with Excel Integration Enabled</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Define_Security_Roles1/" class="">Define Security Roles</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Define-an-Index-for-Duplicate-Detection/" class="">Define an Index for Duplicate Detection</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Delivered_Security_Roles/" class="">Delivered Security Roles</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Detect-Locales/" class="">Detect Locales</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Determine-the-Duplicate-Detection-Threshold/" class="">Determine the Duplicate Detection Threshold</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Disable-and-Enable-Logging-for-Pages/" class="">Disable and Enable Logging for Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Display-Fields-as-List-Boxes-on-a-Pages-Filter-View/" class="">Display Fields as List Boxes on a Page’s Filter View</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Display_Translations_for_Column_Data/" class="">Display Translations for Column Data</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Enable-Auditing-for-Tables-with-Personal-Information/" class="">Enable Auditing for Tables with Personal Information</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Enable_Bulk_Execution_for_a_Page/" class="">Enable Bulk Execution for a Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Enable-Duplicate-Detection/" class="">Enable Duplicate Detection</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Enable_Excel_Integration/" class="">Enable Excel Integration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Enable-Logging-By-Page/" class="">Enable Logging By Page</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Enable_Disable_Sheet_with_Instructions_for_a_Page/" class="">Enable/Disable Sheet with Instructions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Encrypt_Password_for_CranSoft_DataSource/" class="">Encrypt Password for CranSoft Data Source</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Establish_UserSpecific_Security_Definitions/" class="">Establish User-Specific Security Definitions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Exclude-Columns-Excel-Integration/" class="">Exclude Columns from Excel Integration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Export_CTS_Archive_to_Target_Instance/" class="">Export CTS Archive to Target Instance</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Filter-Controls/" class="">Filter Controls</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/GettingStartedwDSPSecuritCustComps/" class="">Getting Started with DSP® Security for Custom Components</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/GettingStartedwDSPSecurityDlvrdComps/" class="">Getting Started with DSP® Security for Delivered Components</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Grant_Security_to_Allow_Quick_Link_Creation/" class="">Grant Security to Allow Quick Link Creation</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Grant_Users_Access_to_Post_Monitor_Group_in_Integrate_in_System_Administration/" class="">Grant Users Access to Integrate&#39;s Post Monitor Group in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Hide-Columns-on-a-Pages-Filter-View/" class="">Hide Columns on a Page’s Filter View</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Show_Hide_Quick_Links/" class="">Hide/Show Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/HowDSPUsesDataSourceTypes/" class="">How the DSP Uses Data Source Types</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Identify-SQL-Performance-Issues/" class="">Identify SQL Performance Issues</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Import_Archive_on_the_Target_Instance/" class="">Import Archive to the Target Instance</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Import_and_Export_Phrase_Files/" class="">Import and Export Phrase Files</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Import_the_Data_Services_Profiling_Results_into_the_DSP/" class="">Import the Data Services Profiling Results into the DSP</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Include-Data-Type-and-Help-Text/" class="">Include Data Type and Help Text in the Excel Template</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Log-Events-and-Access-to-Personal-Data/" class="">Log Events and Access to Personal Data</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Make-Changes-to-a-Plugin/" class="">Make Changes to a Plugin</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Manage-Duplicate-Detection/" class="">Manage Duplicate Detection</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Manage-Failed-Jobs/" class="">Manage Failed Jobs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Manage-Styles/" class="">Manage Styles</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Manage_Catalogs/" class="">Manage WebApp Catalogs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Mark_Target_and_Source_Instances/" class="">Mark Target and Source Instances</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Merge-Language/" class="">Merge Language</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Merge-a-Language/" class="">Merge a Language</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Organize_Quick_Links/" class="">Organize Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Plugin-API-Functionality/" class="">Plugin API Functionality</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Plugin-Functionality/" class="">Plugin Functionality</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Plugins-Overview/" class="">Plugins Overview</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Populate-an-Index/" class="">Populate an Index</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Product_Licenses/" class="">Product Licenses</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Quick_Links_Security/" class="">Quick Link Security</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Quick_Links/" class="">Quick Links</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Register-Plugin-in-DSP/" class="">Register Plugin in DSP®</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Register_Security_Definition/" class="">Register Security Definition</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/RegSecurityDefCompsWebApps/" class="">Register Security Definitions to Components (WebApps)</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Register_Workflow_Views/" class="">Register Workflow Views</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Register_a_Data_Source/" class="">Register a Data Source</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Register_the_Object_Database_dsw__in_System_Administration/" class="">Register the Object Database (dsw\*) in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Review_Packing_List_to_Exclude_Specific_Items/" class="">Review Packing List to Exclude Specific Items</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Search-for-Duplicates/" class="">Search for Duplicates</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Security_Definition_Example/" class="">Security Definition Example</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Security-Definitions-Delivered-with-the-DSP/" class="">Security Definitions Delivered with the DSP®</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Security-Successful-Authentication-Hourly-Chart/" class="">Security: Successful Authentication (Hourly) Chart</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Security-Successful-Authentication-By-Role-User/" class="">Security: Successful Authentication By Role User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Security-Successful-Authentication-By-Role-User-Chart/" class="">Security: Successful Authentications By Role Chart</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_Bulk_Execution_Parameters/" class="">Set Bulk Execution Parameters</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_Forbidden_Passwords/" class="">Set Forbidden Passwords</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set-Page-Security-for-WebApp_Groups/" class="">Set Page Security for WebApp Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Setting_security/" class="">Set Security in the DSP®</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_Up_Service_Pages_for_Service_Level_Agreements_SLA_in_System_Administration/" class="">Set Up Service Pages for Service Level Agreements (SLA) in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set-a-Baseline-CTS-Configuration-for-a-Custom-WebApp/" class="">Set a Baseline CTS Configuration for a Custom WebApp</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_a_Default_Style_for_Users/" class="">Set a Default Style for Users</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_a_Language_as_Active/" class="">Set a Language As Active</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_the_Default_Context_for_a_User/" class="">Set the Default Context for a User</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set-the-Default-Queue-for-a-Job-Type/" class="">Set the Default Queue for a Job Type</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_the_Language-in-the-Translated_Column_Header/" class="">Set the Language for the Translated Column Name Header in the Excel Template</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set-the-Wildcard-Character-for-Filters/" class="">Set the Wildcard Character for Filters</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_up_Data_Sources_for_Transform_in_System_Administration/" class="">Set up Data Sources for Transform in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Set_up_Instances/" class="">Set up Instances</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Show_Quick_Links_Icon/" class="">Show Quick Links Icon</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Show_SQL/" class="">Show SQL</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Start-Stop-or-Clear-Queues/" class="">Start, Stop, or Clear Queues</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Stop-a-Running-Index/" class="">Stop a Running Index</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Stop_and_Start_Service_Pages/" class="">Stop and Start Service Pages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Troubleshoot-Translations/" class="">Troubleshoot Translations</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Unlock-User-Accounts/" class="">Unlock User Accounts</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Use-Auto-Register-to-Add-Users-to-WebApp-Groups-Automatically/" class="">Use Auto Register to Add Users to WebApp Groups Automatically</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Use_Catalogs/" class="">Use Catalogs During Application Development</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Validate_Objects/" class="">Validate Objects</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Verify_Page_Security/" class="">Verify Page Security</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/ViewDataSourceTypesFeatures/" class="">View Data Source Types and Features</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View_Failed_Jobs/" class="">View Failed Jobs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-Logs-Sys-Admin/" class="">View Logs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-Logs/" class="">View Logs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View_Messages/" class="">View Messages</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View_Resource_Charts_in_SystemAdmin/" class="">View Resource Charts in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/SQLServerHealthCharts/" class="">View SQL Server Health Charts</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-Security-Dashboard-in-System-Administration/" class="">View Security Dashboard in System Administration</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-System-Logs/" class="">View System Logs</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View_a_Users_Assigned_Security_Definitions/" class="">View a User’s Assigned Security Definitions</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-a-Users-Auths-Property-Access-Changes/" class="">View a User’s Authentications, Property Changes and Access Changes</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-boastatus-Values/" class="">View boaStatus Values</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View_the_WebApp_Groups_and_WebApp_Pages_that_a_User_can_Access/" class="">View the WebApp Groups and WebApp Pages that a User can Access</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-the-Workflow-Log/" class="">View the Workflow Log</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/View-Where-Plugin-is-Used/" class="">View where Plugin is Used within the DSP</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/WebApp_Groups/" class="">WebApp Groups</a></li>
+        
+            <li >
+                <a href="/Sys_Admin/Use_Cases/Workflow_Views/" class="">Workflow Overview</a></li>
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+
+        
+        
+        
+    </ul>
+    </li>
+</ul>
+
+ 
+</div>
+  <div class="uk-margin-top uk-card uk-padding-small uk-margin-left uk-width-1-2@m uk-width-1-1 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
+        <li class="uk-disabled"><a href="#">Solutions</a></li>
+        <li class="uk-disabled"><a href="#">Platform</a></li>
+        <li><a href="/Sys_Admin">Sys_Admin</a></li>
+        <li><span>Page Columns H</span></li>
+    </ul>
+    <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
+    
+    
+
+<h1 id="page-columns-h">Page Columns H</h1>
+
+<p><a href="#Page_Columns_V">Page Columns V</a></p>
+
+<div class="use">
+
+Use this page to
+
+  - [Configure Columns for
+    Exporting](../Use_Cases/Exclude%20Columns%20Excel%20Integration)
+  - [Add a Control Type to a
+    Column](../../WebApp_Dev/Add%20a%20Control%20Type%20to%20a%20Column)
+  - [Link to a Page Using Buttons and
+    Images](../../WebApp_Dev/Link_to_a_Page_Using_Buttons_and_Images)
+  - [Add a Toolbar Button](../Use_Cases/Add%20a%20Toolbar%20Button)
+  - [Set Column Control
+    Status](../../WebApp_Dev/Set_Column_Control_Status)
+  - [Set a Column's Format](../../WebApp_Dev/Set_a_Columns%20Format)
+  - [Set Default Field Value for a
+    Column](../../WebApp_Dev/Set_Default_Field_Value_for_a_Column)
+  - [Add an HTML Area to a
+    Column](../../WebApp_Dev/Add_an_HTML_Area_to_a_Column)
+  - [Enable Dynamic Image](../../WebApp_Dev/Enable_Dynamic_Image)
+  - [Add a Label](../../WebApp_Dev/Add_a_Label)
+  - [Add a tab](../../WebApp_Dev/Add_a_Tab)
+  - [Enable Show in
+    Navigation](../../WebApp_Dev/Enable_Show_in_Navigation)
+  - [Set Spanning
+    Properties](../../WebApp_Dev/Set_Spanning_Properties)
+  - [Enable File Upload and
+    Download](../../WebApp_Dev/Enable_File_Upload_Download)
+  - [Add List Boxes and Combo
+    Boxes](../../WebApp_Dev/Add_List_Boxes_and_Combo_Boxes)
+  - [Add a Watermark](../../WebApp_Dev/Add_a_Watermark)
+  - [Add a Tooltip](../../WebApp_Dev/Add_a_Tooltip)
+  - [Enable Electronic
+    Signature](../../WebApp_Dev/Enable_Electronic_Signature)
+  - [Assign Column
+    Properties](../../WebApp_Dev/Assign_Column_Properties)
+  - [Link to a Report from a
+    Page](../../WebApp_Dev/Link_to_a_Report_from_a_Page)
+  - [Include all Page Details in
+    Reports](../../WebApp_Dev/Include_All_Page_Details_in_Reports)
+  - [Set Required Fields](../../WebApp_Dev/Set_Required_Fields)
+  - [Create Chart Drill
+    Down](../../WebApp_Dev/Create_Chart_Drill_Down)
+
+</div>
+
+<p>There are three ways to access this page:</p>
+
+<ul>
+<li>Select <strong>Admin &gt; WebApps</strong> in the <em>Navigation</em> pane, and click
+<strong>Pages</strong> for a WebApp. Locate the page and click <strong>Column
+Properties</strong>.</li>
+<li>Navigate to the page in the WebApp where the column property is to
+be applied. Click <strong>Change Settings</strong> on the Site Toolbar, click
+<strong>Design</strong>, then click <strong>Column Properties</strong>.</li>
+<li>Navigate to the page in the WebApp where the column property is to
+be applied, right-click the column heading, and click <strong>Add</strong> or
+<strong>Edit (Control Name</strong>) if the column property already exists.</li>
+</ul>
+
+<p> </p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>COLUMN</p></td>
+<td><p>Displays either:</p>
+<ul>
+<li>The name of the column from the view or table associated with the page.</li>
+<li>The name of the tab or label</li>
+<li>The name of the toolbar button</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p><span id="Page Column View Type" class="popUpLink">VIEW TYPE</span></p></td>
+<td><p>Displays the context in which the control appears as configured.</p>
+<p><em>All Views</em> can be used in most cases. However, column properties can be applied to other views as needed. For example, a field can be a Combo Box on the <em>Horizontal</em> View, but can be a display only field on the <em>Vertical</em> View. In this case, set the field as a Combo Box for the View Type of All Views. Add another record for the field and select a View Type of Vertical, and set the CONTROL STATUS to Disabled.</p></td>
+</tr>
+<tr class="even">
+<td><p>CONTROL</p></td>
+<td><p>Displays the behavior of columns within a page. By default, all controls are text boxes but can be overridden by assigning a column property. A column can have one control per view. Refer to <a href="../../WebApp_Dev/Add%20a%20Control%20Type%20to%20a%20Column">Add a Control Type to a Column</a> for more information.</p>
+<p><strong>NOTE:</strong> The types of controls available for a column depend on that column's page's page type. Refer to <a href="../../WebApp_Dev/View%20the%20Controls%20Available%20For%20A%20Page%20Type">View the Controls Available for a Page Type</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>LIST SOURCE</p></td>
+<td><p>Displays the source of the data when the Control Type is Combo Box or List Box. The value can either be a SQL object (Table or View) or a List Data Provider plugin.</p>
+<p>Refer to <a href="../../WebApp_Dev/Add_List_Boxes_and_Combo_Boxes">Add List Boxes and Combo Boxes</a> for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>LINK TO PAGE</p></td>
+<td><p>Displays the Page Name/ID the platform navigates to when a page link is performed.</p>
+<p>This option can be set for control types:</p>
+<ul>
+<li>Text Box</li>
+<li>Date time</li>
+<li>Combo Box</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Image</li>
+<li>Button</li>
+<li>Toolbar</li>
+<li>Text Area</li>
+</ul>
+<p>Refer to <a href="../../WebApp_Dev/Link_to_a_Page_Using_Buttons_and_Images">Link to a Page Using Buttons and Images</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>CONTROL STATUS</p></td>
+<td><p>Displays whether the column should be enabled (displayed), disabled (display only), or hidden in the associated View Type.</p>
+<p>Control Status can be overridden using Page properties, UserControlView, PageControlView or DataControlViews.</p>
+<p>Refer to <a href="../../WebApp_Dev/Set_Column_Control_Status">Set a Column Control Status</a> for more information.</p></td>
+</tr>
+<tr class="even">
+<td><p>Help</p></td>
+<td><p>Click to open the <em>Catalog Phrase Translations (Page Specific)</em> page to set up help text for this column for a specific catalog. The translation displays when a user hovers over the column header.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-page-columns-v-span-page-columns-v"><span id="Page_Columns_V"></span>Page Columns V</h2>
+
+<p><strong>NOTE:</strong> The fields that display on the <em>Vertical</em> View of this page
+depend on the control type of the selected column.</p>
+
+<h2 id="page-columns-v-label-control-type">Page Columns V: Label Control Type</h2>
+
+<div class="use">
+
+Use this page to [Add a Label.](../../WebApp_Dev/Add_a_Label)
+
+</div>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Column</p>
+
+<p>Displays the text that appears on the Label.</p>
+
+<p><span id="Page Column View Type" class="popUpLink">View Type </span></p>
+
+<p>Displays the type that uses the control.</p>
+
+<p>Control</p>
+
+<p>Displays Label.</p>
+
+<p>Basic Properties</p>
+
+<p>Collapse</p>
+
+<p>If enabled, a plus or minus sign displays next to the label. The user
+can click it to expand or collapse the display of the fields under that
+label&rsquo;s section.</p>
+
+<h2 id="page-columns-v-tab-control-type">Page Columns V: tab Control Type</h2>
+
+<div class="use">
+
+Use this page to [Add a Label.](../../WebApp_Dev/Add_a_Tab)
+
+</div>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Column</p>
+
+<p>Displays the name of the tab.</p>
+
+<p><span id="Page Column View Type" class="popUpLink">View Type </span></p>
+
+<p>Displays the type that uses the control.</p>
+
+<p>Control</p>
+
+<p>Displays tab.</p>
+
+<p>Basic Properties</p>
+
+<p>Collapse</p>
+
+<p>If enabled, a plus or minus sign displays next to the label. The user
+can click it to expand or collapse the display of the fields under that
+label&rsquo;s section.</p>
+
+<h2 id="page-columns-v-all-other-control-types">Page Columns V: All Other Control Types</h2>
+
+<p>This page contains the following tabs:</p>
+
+<ul>
+<li><a href="#General">General</a></li>
+<li><a href="#Excel">Excel</a></li>
+<li><a href="#Advanced_Properties">Advanced Properties</a></li>
+<li><a href="#Enable/D">Enable/Disable Control</a></li>
+<li><a href="#Deprecated_Properties">Deprecated Properties</a></li>
+<li><a href="#Spanning">Spanning Properties</a></li>
+<li><a href="#Relational">Relational</a></li>
+</ul>
+
+<h2 id="span-id-general-span-general"><span id="General"></span>General</h2>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Column Description</p>
+
+<p>Column</p>
+
+<p>Displays the name of the column from the view or table associated with
+the page.</p>
+
+<p><span id="Page Column View Type" class="popUpLink">View Type</span></p>
+
+<p>Displays the context in which the control appears as configured.</p>
+
+<p>All Views can be used in most cases. However, column properties can be
+applied to other views as needed. For example, a field can be a Combo
+Box on the <em>Horizontal</em> View, but can be a display only field on the
+<em>Vertical</em> View. In this case, set the field as a Combo Box for the View
+Type of All Views. Add another record for the field and select a View
+Type of Vertical, and set the CONTROL STATUS to Disabled.</p>
+
+<p>Control Status</p>
+
+<p>Displays whether the column should be enabled (displayed), disabled
+(display only), or hidden in the associated View Type.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Set_Column_Control_Status">Set a Column Control
+Status</a> for more
+information.</p>
+
+<p>Control</p>
+
+<p>Displays the behavior of columns within a page. By default, all controls
+are text boxes but can be overridden by assigning a column property. A
+column can have one control per view. Refer to <a href="../../WebApp_Dev/Add%20a%20Control%20Type%20to%20a%20Column">Assign a Control Type to
+a
+Column</a>
+for more information.</p>
+
+<p>Basic Properties</p>
+
+<p>Image ID</p>
+
+<p>Displays the name of the image used for the button or image.</p>
+
+<p>This field displays for the controls:</p>
+
+<ul>
+<li>Image</li>
+<li>Button</li>
+<li>Toolbar</li>
+</ul>
+
+<p>Link to Page ID</p>
+
+<p>Displays the name of the page that opens when the user clicks the
+control.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Link_to_a_Page_Using_Buttons_and_Images">Link to a Page using Buttons and
+Images</a>
+for more information.</p>
+
+<p>This field displays for the controls:</p>
+
+<ul>
+<li>Image</li>
+<li>Button</li>
+<li>Text Area</li>
+<li>Toolbar</li>
+</ul>
+
+<p>Required</p>
+
+<p>Displays the requirement level on a column by adding a page validation
+view. The requirement levels are:</p>
+
+<ul>
+<li><strong>Required (Hard)</strong> – This setting specifies this field must contain
+valid data before a save can be completed.</li>
+<li><strong>Required (Soft)</strong> - This setting generates an error but allows
+records to be saved.</li>
+<li><strong>No</strong> – The field is not required.</li>
+</ul>
+
+<p>If the field value contains NOT NULL in the table (such as a key),
+columns automatically defaults to Required (Hard).</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Set_Required_Fields">Set Required Fields</a>
+for more information.</p>
+
+<p>This field displays for the controls:</p>
+
+<ul>
+<li>Combo Box</li>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>DateTime</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul>
+
+<p>Default</p>
+
+<p>Provides defaults for page columns during record insert. Defaults may
+also be set by a Defaults View at the page level.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Set_Default_Field_Value_for_a_Column">Set the Default Field Value for a
+Column</a> for
+more information.</p>
+
+<p>This option is available for these controls:</p>
+
+<ul>
+<li>Check Box</li>
+<li>Combo Box</li>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>DateTime</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul>
+
+<p>Checkbox Format ID</p>
+
+<p>Displays the format. Options are:</p>
+
+<ul>
+<li>SAP BDC</li>
+</ul>
+
+<p><strong>NOTE:</strong> A check box using this format allows the values ‘X’ for
+checked and ‘!’ for unchecked. The ‘!’ is a special character used in
+an SAP BDC that tells the program there is no data in the field (i.e.,
+the field should be ignored). This is useful when doing an update to
+existing data in SAP and the data must not change unless it has been
+modified.</p>
+
+<ul>
+<li>SAP Checkbox – Deprecated</li>
+</ul>
+
+<p><strong>NOTE:</strong> A check box using this format allows the values ‘X’ for
+checked and ‘ ‘ for unchecked.</p>
+
+<ul>
+<li>Y or N</li>
+</ul>
+
+<p><strong>NOTE:</strong> A check box using this format allows the values ‘Y’ for
+checked and ‘N’ for unchecked.</p>
+
+<p><strong>NOTE:</strong> If the data type of the table column in SQL is set to bit, the
+DSP® assumes the field is a checkbox and appropriately populate the data
+with a 1 or 0.</p>
+
+<p><strong>NOTE:</strong> If one of these formats is chosen for the checkbox, the data
+type of the table column in SQL must be set to a character of length 1.
+The user will receive a hard error while entering data on the page if
+one of these checkbox formats is selected and the data type of the field
+is bit or another non-character format.</p>
+
+<p><strong>NOTE</strong>: This option is available for Check Box only.</p>
+
+<p>Watermark Text</p>
+
+<p>Displays static text to use as a placeholder watermark when the control
+is empty.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Add_a_Watermark">Add a Watermark</a> for
+more information.</p>
+
+<p>This field displays for the controls:</p>
+
+<ul>
+<li>Combo Box</li>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>DateTime</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul>
+
+<p>Format</p>
+
+<p>Displays a format for the selected control specified by the page
+Designer. Options vary for each control. Column database type should be
+taken into consideration when selecting Numeric and DateTime formats.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Set_a_Columns%20Format">Set a Column’s
+Format</a> for more
+information.</p>
+
+<p>This field displays for the controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>DateTime</li>
+<li>Numeric</li>
+<li>Text Area</li>
+</ul>
+
+<p>Move To Toolbar</p>
+
+<p>Displays the toolbar location. The only option is Page.</p>
+
+<p>This field displays for the Toolbar control only.</p>
+
+<p>Basic List Properties</p>
+
+<p><strong>NOTE:</strong> The fields in this section display for List Box and Combo Box
+controls only.</p>
+
+<p>List Source</p>
+
+<p>Displays the source of the data when the Control Type is Combo Box or
+List Box. The value can either be a SQL object (Table or View) or a List
+Data Provider plugin.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Add_List_Boxes_and_Combo_Boxes">Add List Boxes and Combo
+Boxes</a> for more
+information.</p>
+
+<p>List Value Field</p>
+
+<p>Displays the name of the field that stores the value.</p>
+
+<p>In most cases, List Value Field is the primary key stored in the table</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Add_List_Boxes_and_Combo_Boxes">Add List Boxes and Combo
+Boxes</a> for more
+information.</p>
+
+<p>List Display Field</p>
+
+<p>Displays the option visible in the List Box or Combo Box.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Add_List_Boxes_and_Combo_Boxes">Add List Boxes and Combo
+Boxes</a> for more
+information.</p>
+
+<p>Basic List Properties</p>
+
+<p><strong>NOTE:</strong> The fields in this section display for the File control only.
+Refer to <a href="../../WebApp_Dev/Enable_File_Upload_Download">Enable File
+Upload/Download</a> for
+more information.</p>
+
+<p>File Path</p>
+
+<p>Displays the path name to upload files to and to store files for
+download</p>
+
+<p><strong>NOTE:</strong> The files are usually stored in a folder with the same name as
+the DSP® WebApp ID (GUID). Use the forward slash / within and at the end
+of the path. The forward slash at the end of the path denotes a folder.
+For example, if /NWEmployees is used, it is treated as a file name.
+/NWEmployees/employee/ is treated as a folder.</p>
+
+<p><strong>NOTE:</strong> The folder UserArea is created by DSP® and should always be
+the first folder name in the path. The English folder is required and
+must be added by the user. The WebApp ID sets the path to the WebApp.
+Other folders or sub folders can be used but the English folder is used
+as the default.</p>
+
+<p>File Path Type</p>
+
+<p>Displays the path type. Options are:</p>
+
+<ul>
+<li><strong>Data Source</strong> – Stores the file in the directory configured for an
+existing Local File type Data Source. The File Data Source Field
+must be populated when this option is selected</li>
+<li><strong>Virtual</strong> – Stores the file internally in the WebApp.</li>
+<li><strong>Physical</strong> – Stores the file in a separate location from the
+internal web app directories.</li>
+</ul>
+
+<p>File Direction</p>
+
+<p>Displays whether the file can be uploaded only, downloaded only, or both
+uploaded and downloaded.</p>
+
+<p>File Data Source Field</p>
+
+<p>Displays the data source with a Data Source Type of Local File, and used
+with File Path Type set to Data Source. Path is a required field on a
+Local Path type Data Source and contains the location where these
+uploaded files will be placed.</p>
+
+<p><strong>NOTE:</strong> The fields in this section display for the Numeric control
+only.</p>
+
+<p>Numeric Scale</p>
+
+<p>Displays the number of decimal places to display after the decimal
+separator.</p>
+
+<p>Display Thousands Separator</p>
+
+<p>If enabled, a number uses the current user’s locale to display a number
+such as 4213.22 as 4,213.22 given that English – United States is
+selected in the Currency Locale ID List Box.</p>
+
+<p>Currency Locale ID</p>
+
+<p>Displays the locale used for formatting currency.</p>
+
+<p>Total</p>
+
+<p>If enabled, a totals column recalculates when records are added,
+deleted, or modified.</p>
+
+<p><span id="Advanced_Properties"></span></p>
+
+<h3 id="advanced-properties">Advanced Properties</h3>
+
+<p>Field</p>
+
+<p>Description</p>
+
+<p>Header Image ID</p>
+
+<p>Displays the image to appear in the header row for this column.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>Button</li>
+<li>Check Box</li>
+<li>DateTime</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>File</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul>
+
+<p>Header Image</p>
+
+<p>Displays a depiction of header image chosen.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>Button</li>
+<li>Check Box</li>
+<li>DateTime</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>File</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul>
+
+<p>Dynamic Image</p>
+
+<p>If enabled, the Image specified displays in the contents of the query.
+Using the power of the conditional &ldquo;IF&rdquo; statement in the query, the
+image may vary according to value of data for each row.</p>
+
+<p>If not enabled, the image specified does not display.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Date time</li>
+<li>Image</li>
+<li>Numeric</li>
+</ul>
+
+<p>Hover View</p>
+
+<p>Displays the name of the view created in SQL that populates the hover
+view for the column.</p>
+
+<p>This value can be set at the page level as well. The Hover View can be
+populated with additional technical information about the selected
+record.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Combo Box</li>
+<li>List Box</li>
+</ul>
+
+<p>Dynamic Link Type</p>
+
+<p>Displays the dynamic link method the control uses when the image is
+clicked. Options are:</p>
+
+<ul>
+<li><strong>Dynamic Pages</strong> – This option contains a platform PageID.</li>
+<li><strong>Dynamic Views</strong> – this option is comprised of SQL statements that
+can use drill or binding criteria&hellip;</li>
+<li><strong>Dynamic URLs</strong> – This option must contain a URL.</li>
+</ul>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Button</li>
+<li>Date time</li>
+<li>Image</li>
+<li>Numeric</li>
+<li>Toolbar</li>
+</ul>
+
+<p>Dynamic Link Column</p>
+
+<p>Displays the column in view to use as dynamic link criteria.</p>
+
+<p>Dynamic Links may be used to navigate to WebApp pages outside of the
+current WebApp.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Button</li>
+<li>Image</li>
+</ul>
+
+<p>Link To Page ID</p>
+
+<p>Displays the platform page name navigated to when page link is executed.
+Value list only contains pages in the current WebApp. Dynamic Links may
+be used to navigate to WebApp pages outside of the current WebApp.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Date time</li>
+<li>Combo Box</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Image</li>
+<li>Toolbar</li>
+<li>Text Area</li>
+</ul>
+
+<p>Link to Method</p>
+
+<p>Displays whether the page that is accessed from the control overlays the
+existing page or opens in a separate page.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Button</li>
+<li>Image</li>
+<li>List</li>
+<li>Toolbar</li>
+</ul>
+
+<p>Runtime Data Source ID</p>
+
+<p>Displays the field name that contains a GUID that corresponds to the
+Data Source to join against for the view/table specified in the List
+Table column.</p>
+
+<p>The DSP® looks for that field&rsquo;s value in the following order.</p>
+
+<ol>
+<li>Column in the page&rsquo;s horizontal or vertical view</li>
+<li>Drill Down Criteria passed to this page.</li>
+<li>Link Criteria passed to this page.</li>
+<li>Shared Criteria for this WebApp.</li>
+</ol>
+
+<p>The System Administration WebApp uses this feature extensively to look
+up INFORMATION_SCHEMA objects. For example, when looking up column
+names, the DSP® creates a boaColumnList view in the database when a data
+source is registered, as opposed to relying on one view that unions the
+INFORMATION_SCHEMA views of all data sources. Connecting to the actual
+Data Source directly increases performance, reliability and scalability.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Button</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>List Box</li>
+<li>Toolbar</li>
+</ul>
+
+<p>Key</p>
+
+<p>If enabled, the selected column name is a primary key. The platform only
+passes Primary Keys when linking to other pages. If the page data source
+is a view, a control must be added indicating the Key.</p>
+
+<p>If disabled, the selected column name is not a primary key.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Check Box</li>
+<li>Text Box</li>
+<li>Date time</li>
+<li>Combo Box</li>
+<li>List Box</li>
+<li>File</li>
+<li>Numeric</li>
+<li>Text Area</li>
+</ul>
+
+<p>Allow Space</p>
+
+<p>If enabled, a required column is allowed to have space(s) as a valid
+entry. If disabled, a required column is not allowed to have space(s) as
+a valid entry.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Date time</li>
+<li>Combo Box</li>
+<li>Numeric</li>
+<li>List</li>
+<li>Text Area</li>
+</ul>
+
+<p>Require Signature</p>
+
+<p>If enabled, a panel appears requiring the current session UserID and
+Password to save changes. Applies to both record Insert and Update. The
+panel will not appear if logged in as an Anonymous user. Requires
+auditing to be enabled for the underlying page table and column.</p>
+
+<p>If not enabled, changes are automatically saved without the UserID and
+Password of the current user.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Enable_Audit_Trail_Electronic_Signature">Enable Audit Trail and Electronic
+Signature</a>
+for more information.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>Check Box</li>
+<li>Date time</li>
+<li>Combo Box</li>
+<li>File</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul>
+
+<p>Wrap</p>
+
+<p>If enabled, the text associated with the label for the check box wraps.</p>
+
+<p>This field displays for the Check Box control only.</p>
+
+<p>Show In Navigation</p>
+
+<p>If enabled, the column displays in the Navigation pane as a value when
+the page title is expanded in the Navigation pane. By default it
+displays the Primary Key from the underlying table.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Enable_Show_in_Navigation">Enable Show in
+Navigation</a> for more
+information.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>List Box</li>
+</ul>
+
+<p>Translate</p>
+
+<p>If enabled, the cell values are translated. Translations are dependent
+on catalog entries for the selected session Language. Refer to <a href="../Use_Cases/Manage_Catalogs">Manage
+Catalogs</a> for more information.</p>
+
+<p>If disabled, the cell values are not translated.</p>
+
+<p>This field displays for these controls:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>List Box</li>
+<li>Toolbar</li>
+<li>Text Area</li>
+</ul>
+
+<p><strong>NOTE:</strong> The fields in this section display for the Text Area control
+type only.</p>
+
+<p>Binding Field Names</p>
+
+<p>Displays a comma-separated list of columns used to filter data on a
+linked page. By default, when linking form one page to another, the DSP®
+sends the key fields to the linked page. However, it the key fields are
+different between linked pages or additional fields are required, use
+this field to indicate the columns.</p>
+
+<p>For instance, a user clicks a button on a page listing country records
+to access a page listing the selected country’s regions. If both pages
+do not have the country field with the same name, the field on the
+linked page must be added here to include as part of the binding
+criteria. Otherwise, the region page displays regions for all countries.</p>
+
+<p>Shared Field Names</p>
+
+<p>Displays a comma-separated list of columns used to send data to a linked
+page.</p>
+
+<p>Shared Fields tell the DSP® to send the data from a column that is not
+normally passed and allow it to be used on a subsequent page. For
+example, to filter a Region list box on a page by the Country field that
+was entered on a previous page, add the Country field as a shared field
+on the link between pages. It is then available for use in the list box
+Where Clause on the Region page.</p>
+
+<p>If you were to include Country as a Shared Field and not a Binding
+Field, you would see regions for all countries after clicking the link,
+but any list boxes with a Country filter would only show regions
+filtered by the country shared from the previous page.</p>
+
+<p><strong>NOTE:</strong> The fields in this section display for the Toolbar control
+type only.</p>
+
+<p>Consider Valid</p>
+
+<p>If enabled, the boaStatus column is used to determine whether the
+toolbar button is active or dimmed.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Use%20boaStatus%20to%20Set%20a%20Toolbar%20Buttons%20Control%20Status">Use boaStatus to Set a Toolbar Button’s Control
+Status</a>
+for more information.</p>
+
+<p>Allow Multi Row Action</p>
+
+<p>If enabled, a user can select multiple records on the Horizontal View
+and click the toolbar button to perform the action related to the
+toolbar button on multiple records at once.</p>
+
+<p><strong>NOTE:</strong> The fields in this section display for the Image control type
+only.</p>
+
+<p>Report Follows Link</p>
+
+<p>If enabled, generates a report for the current Dynamic page for the
+<em>Horizontal</em> or <em>Vertical</em> Views.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Include_All_Page_Details_in_Reports">Include all Page Details in
+Reports</a> for
+more information.</p>
+
+<p>Link to Report</p>
+
+<p>If enabled, when a user clicks the image, the page to access opens in a
+read-only format.</p>
+
+<p>By default, page links render data using the normal <em>Horizontal</em> or
+<em>Vertical</em> View with add/edit/delete capability. Link to Report provides
+a mechanism to report data as read-only without having to modify
+defaulted page properties.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Link_to_a_Report_from_a_Page">Link to a Report from a
+Page</a> for more
+information.</p>
+
+<p>Advanced List Properties</p>
+
+<p><strong>NOTE:</strong> The fields in this section display for List Box and Combo Box
+controls only.</p>
+
+<p>List Where Clause</p>
+
+<p>Displays the Where Clause used to restrict the values that display in a
+List Box or Combo Box.</p>
+
+<p>Refer to <a href="../../WebApp_Dev/Set_a_Dynamic_List_Box">Set a Dynamic List
+Box</a> and <a href="../../WebApp_Dev/Enable_List_Where_Clause">Enable List Where
+Clause</a> for more
+information.</p>
+
+<p>List Order By</p>
+
+<p>Displays the column that sets the sort for values in the List Box or
+Combo Box.</p>
+
+<p>By default, like pages, List Boxes are sorted based on the primary key.
+Use List Order By to sort select options in a List Box based on another
+field.</p>
+
+<p><strong>NOTE:</strong> When a field name is entered in List Order By field, the
+default order is ascending. To sort in descending order, enter the field
+name followed by a space and desc, for example, ProductName desc.
+Separate entries by a comma.</p>
+
+<p>List Unique</p>
+
+<p>if enabled, displays List Box or Combo Box values not previously
+selected in another record on the page. If the record has already been
+added, the List Unique property removes it from the List Box, leaving
+only the records that have not been selected.</p>
+
+<p>List Filter</p>
+
+<p>If enabled, the Filter icon displays next to the Combo Box, indicating a
+filter is enabled.</p>
+
+<p>The Combo Box Filters are designed to reduce the number of items
+displayed in the value field or the descriptive field.</p>
+
+<p><strong>NOTE:</strong> This field displays for the Combo Box control only.</p>
+
+<p>List Allow Insert</p>
+
+<p>Displays an option that sets the behavior of the List Box or Combo Box
+when the value stored in the field is known.</p>
+
+<p>As the user types in the List Box, matching values display.</p>
+
+<p>Options for List Allow Insert are:</p>
+
+<ul>
+<li><strong>No</strong> – Insert does not display and additional options cannot be
+added or searched.</li>
+<li><strong>Yes</strong> – Insert displays and any additional option can be entered
+in the field regardless of the options available in the List Box.
+The record is considered valid. The added value does not become a
+future option in the table.</li>
+<li><strong>Constrained to List Source</strong> –A user can add a new entry by
+clicking Use this Value. A validation rule automatically runs to
+verify the entry is valid. This prevents undesirable data being
+added to the list table.</li>
+</ul>
+
+<p><strong>NOTE:</strong> The current user must have security to add new records to the
+page associated with the list.</p>
+
+<p>List Allow Insert Page ID</p>
+
+<p>Displays the name of the page that displays when a user clicks a link
+that displays below the List Box that allows them to add a new record.
+Used in conjunction with List Allow Insert. This feature permits
+additional values not available in the list to be added to the
+associated list.</p>
+
+<p>If both are enabled, clicking the link opens a window containing the
+page associated with the list. Enter the new options in the fields and
+the value is available in the List Box when adding new records.</p>
+
+<p>List Selection Field</p>
+
+<p>Displays the name of the field that contains descriptive text that
+displays in a List Box or a Combo Box when in add or edit mode. Refer to
+<a href="../../WebApp_Dev/Add_a_List_Selection_Field">Add a List Selection
+Field</a> for more
+information.</p>
+
+<p>List Control View</p>
+
+<p>Displays the name of the view used to select columns from the table to
+restrict the number of values in the List Box or Combo Box.</p>
+
+<h2 id="span-id-excel-span-excel"><span id="Excel"></span>Excel</h2>
+
+<p><strong>NOTE:</strong> This tab displays if Excel Integration is enabled. Refer to
+<a href="../Use_Cases/Enable_Excel_Integration">Enable Excel Integration</a>
+for more information</p>
+
+<p>It displays for these control types:</p>
+
+<ul>
+<li>Text Box</li>
+<li>Check Box</li>
+<li>Text Area</li>
+<li>List Box,</li>
+<li>Numeric</li>
+<li>Combo Box</li>
+<li>DateTime</li>
+<li>HTML
+Area</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Field</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>Excel Foreground Color</td>
+<td>Displays the foreground color to use on Excel template header rows.</td>
+</tr>
+
+<tr>
+<td>Excel Background Color</td>
+<td>Displays the background color to use on Excel template header rows.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-deprecated-properties-span-deprecated-properties"><span id="Deprecated_Properties"></span>Deprecated Properties</h2>
+
+<p><strong>NOTE:</strong> This tab does not display for the Toolbar control.</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Wrap</p></td>
+<td><p>If enabled, the text associated with the label for the check box wraps.</p>
+<p>This field displays for the control types:</p>
+<ul>
+<li>Button</li>
+<li>Combo Box</li>
+<li>DateTime</li>
+<li>File</li>
+<li>List Box</li>
+<li>Numeric</li>
+<li>Text Area</li>
+<li>Text Box</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>Control Function</p></td>
+<td><p>This field is not used.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-enable-d-span-enable-disable-control"><span id="Enable/D"></span>Enable/Disable Control</h2>
+
+<div class="use">
+
+Use this tab to [Set Column Control
+Status](../../WebApp_Dev/Set_Column_Control_Status).
+
+</div>
+
+<p><strong>NOTE:</strong> This tab does not display for the Toolbar control.</p>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Consider Valid</p></td>
+<td><p>If checked, the boaStatus column is used to determine whether the control is enabled or disabled.</p>
+<p>If unchecked, and the Control Status Field on the Enable/Disable tab displays another column in the view, this column’s value (NULL/0, 1, or 2) determines the Control Status of this column for a given row.</p>
+<p>If unchecked and the Control Status Field is blank, the control status field is not set using either of these methods. Control Status can also be set as a column property. Refer to <a href="../../WebApp_Dev/Set_Column_Control_Status">Set Column Control Status</a> for more information.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Control Status Field</p></td>
+<td><p>Displays the name of the column in the view whose value (NULL/0, 1, or 2) determines the Control Status of this column for a given row. Refer to <a href="../../WebApp_Dev/Set_Column_Control_Status">Set Column Control Status</a> for more information.</p></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-spanning-span-spanning-properties"><span id="Spanning"></span>Spanning Properties</h2>
+
+<div class="use">
+
+Use this tab to [Set Spanning
+Properties](../../WebApp_Dev/Set_Spanning_Properties).
+
+</div>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Field</td>
+<td>Description</td>
+</tr>
+
+<tr>
+<td>Column Span</td>
+<td>Displays the number of display columns that this column extends through. For example, if the Column Span is 2, the selected column displays its contents over two columns instead of one.</td>
+</tr>
+
+<tr>
+<td>Row Span</td>
+<td>Displays the number of display rows that this column extends through.</td>
+</tr>
+
+<tr>
+<td>Line Break</td>
+<td>If enabled, a new display row is created after the selected column. If disabled, a new display row is not created after the selected column and subsequent controls stay on the current row.</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="span-id-relational-span-relational"><span id="Relational"></span>Relational</h2>
+
+<p><strong>NOTE:</strong> This tab does not display for a Check Box, File, or Toolbar
+control.</p>
+
+<div class="use">
+
+Use this tab to:
+
+  - [Add a Watermark](../../WebApp_Dev/Add_a_Watermark)
+  - [Add a Tooltip](../../WebApp_Dev/Add_a_Tooltip)
+
+</div>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p>Field</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="even">
+<td><p>Watermark View</p></td>
+<td><p>Displays the view that defines what text should appear for each record when the field is empty as an informational watermark.</p>
+<p>This field displays for the controls:</p>
+<ul>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>Date Time</li>
+<li>Combo Box</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>Watermark Binding Field Names</p></td>
+<td><p>Displays the fields to bind page data against watermark view with.</p>
+<p>This field displays for the controls:</p>
+<ul>
+<li>HTML Area</li>
+<li>Text Box</li>
+<li>Date Time</li>
+<li>Combo Box</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><p>Translate Watermark</p></td>
+<td><p>If enabled, the watermark value is run through system translation. If disabled, the watermark value is not translated.</p>
+<p>This field displays for the controls:</p>
+<ul>
+<li>Text Box</li>
+<li>HTML Area</li>
+<li>Date Time</li>
+<li>Combo Box</li>
+<li>Numeric</li>
+<li>List Box</li>
+<li>Text Area</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>Data Tooltip View</p></td>
+<td><p>Displays the name of the view that contains the tooltip. Before creating a tooltip, the user mist write a view with the suffix Dtv for each column that requires a tooltip and alias the column as boatooltip? in the view.  </p>
+<p>This field displays for the controls:</p>
+<ul>
+<li>Button</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>List Box</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><p>Data Tooltip Binding Field Names</p></td>
+<td><p>Displays the comma-delimited list of field names to bind against to return tooltip data.</p>
+<p>For instance, if you wanted the page to display a different tooltip depending on data from a previously populated field, you could use that field here as a binding column allowing it to select the proper data to display.</p>
+<p>This field displays for the controls:</p>
+<ul>
+<li>Button</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>List Box</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><p>Translate Tooltip</p></td>
+<td><p>If enabled, the tooltip value is run through system translation. If disabled, the watermark value is not translated.</p>
+<p>This field displays for the controls:</p>
+<ul>
+<li>Button</li>
+<li>Combo Box</li>
+<li>Image</li>
+<li>List Box</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
+  </div>
+  <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
+    <ul class="uk-nav">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#page-columns-h">Page Columns H</a>
+<ul>
+<li><a href="#span-id-page-columns-v-span-page-columns-v"><span id="Page_Columns_V"></span>Page Columns V</a></li>
+<li><a href="#page-columns-v-label-control-type">Page Columns V: Label Control Type</a></li>
+<li><a href="#page-columns-v-tab-control-type">Page Columns V: tab Control Type</a></li>
+<li><a href="#page-columns-v-all-other-control-types">Page Columns V: All Other Control Types</a></li>
+<li><a href="#span-id-general-span-general"><span id="General"></span>General</a>
+<ul>
+<li><a href="#advanced-properties">Advanced Properties</a></li>
+</ul></li>
+<li><a href="#span-id-excel-span-excel"><span id="Excel"></span>Excel</a></li>
+<li><a href="#span-id-deprecated-properties-span-deprecated-properties"><span id="Deprecated_Properties"></span>Deprecated Properties</a></li>
+<li><a href="#span-id-enable-d-span-enable-disable-control"><span id="Enable/D"></span>Enable/Disable Control</a></li>
+<li><a href="#span-id-spanning-span-spanning-properties"><span id="Spanning"></span>Spanning Properties</a></li>
+<li><a href="#span-id-relational-span-relational"><span id="Relational"></span>Relational</a></li>
+</ul></li>
+</ul>
+</nav>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+
+  
+  
+<footer>
+    <div class="uk-section uk-section-medium uk-section-secondary">
+        <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
+          <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Get In Touch</li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
+              <li><a href="#">Access Product Ideas Portal</a></li>
+              <li><a href="#">Request Product Training</a></li>
+            </ul>
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-nav-header">Related Content</li>
+              <li><a href="#">Glossary</a></li>
+              <li><a href="#">Product Licenses</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
+            </ul>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <div>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+            </div>
+          </div>
+          <div class="uk-width-1-3@s uk-width-1-1">
+            <img style="width: 12rem;height: 6rem;" src="/images/Syniti_Logo_RBG_Gradient.svg">
+            <p id="copyright" class="uk-text-meta">**Access to pages and visibility of fields may be restricted based on the security settings of the current user.<br/>
+            Copyright © 2018 BackOffice Associates, LLC and/or its affiliates. All rights reserved.<br/>
+            The DSP logo is a registered trademark of BackOffice Associates®. Other names appearing on the Site may be trademarks of their respective owners.</p>
+          </div>
+        </div>
+        <hr>
+        <div id="legal" class="uk-flex-center" uk-grid>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
+          </div>
+          <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+  
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
+</body>
+</html>

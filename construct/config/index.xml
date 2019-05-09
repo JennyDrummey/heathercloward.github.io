@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/construct/config/</link>
+    <link>https://heathercloward.github.io/Construct/Config/</link>
     <description>Recent content in Configuration on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/construct/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Construct/Config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Access Construct</title>
-      <link>https://heathercloward.github.io/construct/config/access_construct/</link>
+      <link>https://heathercloward.github.io/Construct/Config/Access_Construct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/config/access_construct/</guid>
+      <guid>https://heathercloward.github.io/Construct/Config/Access_Construct/</guid>
       <description>Access Construct Before using Construct, a Wave, Process Area (the combination of which is called a context), and Object used in the data migration project must have been created in Console.
 Refer to Create the Contexts for Migration Projects for more information.
 Construct is accessible through dspMigrate™ by clicking the Context bar. It is not accessible through the Navigation pane.
@@ -24,20 +24,20 @@ Refer to Context, the Context Bar, and Navigation for more information.</descrip
     
     <item>
       <title>Set up ZSources</title>
-      <link>https://heathercloward.github.io/construct/config/set_up_zsources/</link>
+      <link>https://heathercloward.github.io/Construct/Config/Set_up_ZSources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/config/set_up_zsources/</guid>
+      <guid>https://heathercloward.github.io/Construct/Config/Set_up_ZSources/</guid>
       <description>Set up ZSources ZSources are Source systems to which user security is granted. Users with security to a ZSource are permitted to create data for the Source system. When Source data (legacy) is moved from Source tables to Target tables, the following occurs:
  A ZSource field is added to the Target table. The field is populated with a value indicating which Source system the row came from, for example, data from JDEdwards may contain “JDE.</description>
     </item>
     
     <item>
       <title>Setup and Configuration for Construct</title>
-      <link>https://heathercloward.github.io/construct/config/setup_and_configuration_for_construct/</link>
+      <link>https://heathercloward.github.io/Construct/Config/Setup_and_Configuration_for_Construct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/config/setup_and_configuration_for_construct/</guid>
+      <guid>https://heathercloward.github.io/Construct/Config/Setup_and_Configuration_for_Construct/</guid>
       <description> Setup and Configuration for Construct Before getting started with Construct, access Construct and verify the following steps have been completed:
  Set Up Security for Construct Access Construct Set up ZSources Update the WebApp and Source Data Source for Construct  </description>
     </item>

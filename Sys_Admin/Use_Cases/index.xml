@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/Sys_Admin/Use_Cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acknowledge Failed Jobs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Acknowledge_Failed_Jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Acknowledge_Failed_Jobs/</guid>
+      <description>Acknowledge Failed Jobs If there are failed jobs on the site, the Services icon on the Site toolbar is yellow. After the issue that caused the failure has been corrected, a user can acknowledge the failed job(s) to indicate that the issue has been debugged and fixed, and there is no longer a need to keep the failed record. Once all failed jobs on the site have been acknowledged, the Services icon turns from yellow to green.</description>
+    </item>
+    
+    <item>
+      <title>Add Attributes</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Attributes/</guid>
+      <description>Add Attributes An attribute for a CTS package is optional and allows for additional notes to be added to an archive that would be helpful to include with the package. Additional notes may include a detailed description of the archive, or SQL code and instructions for the user installing the archive to copy and run the SQL before or after the archive is installed.
+To add an attribute to a CTS package:</description>
+    </item>
+    
+    <item>
+      <title>Add Custom Links to a Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Custom_Link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Custom_Link/</guid>
+      <description>Add Custom Links to a Page Users can add Toolbar buttons with custom links to a DSP® page, without the need for database changes, via registrations within the DSP® exclusively. Custom page links added using the Custom Link feature are retained during the upgrade process.
+To add a custom link:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization from the Navigation pane.
+ Click the Custom Links icon for a WEB APP NAME.</description>
+    </item>
+    
+    <item>
+      <title>Add Database Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Database_Types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Database_Types/</guid>
+      <description>Add Database Types A system administrator can add database types .
+To add database types:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Database Types in the Navigation pane.
+ Click Add.
+View the field description for the Database Types page
+ Enter a database type id in the DATABASE TYPE ID field.
+ Enter the type of database in the DESCRIPTION field.
+ Click the SUPPORTED check box to disable it, if needed.</description>
+    </item>
+    
+    <item>
+      <title>Add Phrase Out Values to Alias a Column on a Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Phrase_Out_Values_to_Alias_a_Column_on_a_Page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Phrase_Out_Values_to_Alias_a_Column_on_a_Page/</guid>
+      <description>Add Phrase Out Values to Alias a Column on a Page Phrases can be changed for a specific page verses for the entire WebApp.
+Refer to Use Catalogs During Application Development for general information.
+To change a phrase for a specific column:
+ Click Admin &amp;gt; Translations &amp;gt; WebApps on the Navigation pane. Click the Pages icon for the WebApp. Click Phrases for the page catalog. Enter the phrase to be translated across the WebApp in PHRASE field.</description>
+    </item>
+    
+    <item>
+      <title>Add Phrases to Catalogs at the WebApp and Page Level</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Phrases_to_Catalogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_Phrases_to_Catalogs/</guid>
+      <description>Add Phrases to Catalogs at the WebApp and Page Level An Administrator can add translations for phrases in a corresponding language. That phrase translation displays in column headings of Horizontal, Vertical and Filter views.
+A user can also set an option to Display Translations for Column Data.
+Adding a phrase translation at the WebApp level instructs the platform to display the phrase translation on every applicable page within the WebApp to which the catalog is assigned.</description>
+    </item>
+    
+    <item>
+      <title>Add Reserved Columns to Tables to Track Excel Integration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-Reserved-Columns-to-Tables-to-track/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-Reserved-Columns-to-Tables-to-track/</guid>
+      <description>Add Reserved Columns to Tables to Track Excel Integration To track the user and date/time of data entry during the Excel import process, the Page Designer must add the reserved columns to any tables related to the pages used by Excel Integration. The values will be updated upon completion of the import process.
+Refer to Add Reserved Columns to Tables for more information.
+         System Field Description   AddedOn Contains the date/time that the record was inserted into the table.</description>
+    </item>
+    
+    <item>
+      <title>Add a Catalog to a Delivered WebApp</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Catalog-to-a-Delivered-WebApp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Catalog-to-a-Delivered-WebApp/</guid>
+      <description>Add a Catalog to a Delivered WebApp An Administrator can assign additional catalogs to delivered WebApps to supplement the delivered catalogs. Custom catalogs are searched after the delivered catalogs.
+Refer to Create WebApp Catalog for more information.
+To add a custom catalog to a delivered WebApp:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in the Navigation pane.
+ Click the Catalogs icon for the WebApp.
+NOTE: If no records exist, the page displays in add mode.</description>
+    </item>
+    
+    <item>
+      <title>Add a Color</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Color/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Color/</guid>
+      <description>Add a Color This task is performed by those with System Administrator privileges. Colors are used on the Styles page&amp;rsquo;s Vertical View to define the colors for the various areas and objects on the pages.
+To add a color:
+ Select Admin &amp;gt; Configuration &amp;gt; Style &amp;gt; Colors in the Navigation pane; the Colors page displays.
+ Click Add.
+View the field descriptions for the Colors page
+ Enter a value in the COLOR field.</description>
+    </item>
+    
+    <item>
+      <title>Add a Column to an Index</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Column-to-an-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Column-to-an-Index/</guid>
+      <description>Add a Column to an Index While adding an index, an Administrator adds at least one searchable column.
+Before performing this task, Create an Index and Configure an Index, if needed.
+Refer to Build Indices for a Data Source for general information.
+To add a column to an index.
+ Select Admin &amp;gt; Data Sources in the Navigation pane.
+ Click the Index icon for a data source.
+ Click Columns.</description>
+    </item>
+    
+    <item>
+      <title>Add a Data Source Instance</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/AddDataSourceInstance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/AddDataSourceInstance/</guid>
+      <description>Add a Data Source Instance The data source instance is the logical platform &amp;ldquo;instance&amp;rdquo; (for example, Dev, QA, or Production) that this physical instance of the DSP represents. Before moving items between instances via the CTS process, the source and target instances must be indicated in the DSP. The DSP is delivered with DEV, PROD and QA instances set up. Refer to Set Up Instances for more information.
+In Multi-Instancing (multiple application servers), code is not promoted between DSP environments; multiple DSP instances manage “different” parts of the migration, quality or governance processes.</description>
+    </item>
+    
+    <item>
+      <title>Add a Mass Change Custom Link to a Custom Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Mass_Change_Custom_Link_to_a_Custom_Page_in_System_Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Mass_Change_Custom_Link_to_a_Custom_Page_in_System_Administration/</guid>
+      <description>Add a Mass Change Custom Link to a Custom Page In dspCompose™, if Mass Changes should be allowed to the request data, the MassChange Custom Link must be defined for the Data Entry page so that a user can access the Request Mass Change page from the Data Entry page. An Administrator must use the Custom Link WebApp Customization feature in System Administration to add the link.
+Refer to Add Custom Links to a Page for more information.</description>
+    </item>
+    
+    <item>
+      <title>Add a Message Type</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Message-Type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Message-Type/</guid>
+      <description>Add a Message Type Message types allow users to configure how messages display in the DSP®, setting the text, background color and images that display. Message types also have a number of configuration settings that relate to how the message behaves.
+The DSP is delivered with message types that should not be updated. A user can create custom message types to use for custom WebApps.
+A user can add a message type by clicking the Copy icon in the Page toolbar on the Message Types page and using the copy as the basis for a new message type.</description>
+    </item>
+    
+    <item>
+      <title>Add a Service Queue</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Service-Queue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Service-Queue/</guid>
+      <description>Add a Service Queue A System Administrator can add a service queue to have a separate queue to allow for processing of a specific set of tasks.
+To add a service queue:
+ Select Admin &amp;gt; Configuration &amp;gt; Service &amp;gt; Service Providers in the Navigation pane.
+ Click the Queues icon for a service provider.
+ Click Add.
+View the field descriptions for the Service Queues page
+ Enter a priority in the PRIORITY field.</description>
+    </item>
+    
+    <item>
+      <title>Add a Style</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add_a_Style/</guid>
+      <description>Add a Style This task is performed by users with System Administrator privileges. Styles add color and depth to a site. When multiple sites are used, they can be utilized to aid users in differentiating which site is being used by applying a different style setting to each site.
+To add a style in System Administration:
+ Select Admin &amp;gt; Configuration &amp;gt; Style &amp;gt; Styles in the Navigation pane; the Styles page displays.</description>
+    </item>
+    
+    <item>
+      <title>Add a Toolbar Button</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Toolbar-Button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-a-Toolbar-Button/</guid>
+      <description>Add a Toolbar Button A toolbar displays at the top of the page, and contains buttons that can be used for page navigation, to link to additional pages or to perform some action, such as run a rule.
+After a toolbar control has been added for a column, a toolbar button is added to the toolbar.
+NOTE: A NULL column with an alias must be added to the underlying view to add a Toolbar button to a column that does not contain data.</description>
+    </item>
+    
+    <item>
+      <title>Add an Image to the DSP®</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-an-Image-to-the-DSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-an-Image-to-the-DSP/</guid>
+      <description>Add an Image to the DSP® An Administrator can add an image to the DSP® that can be used in delivered WebApps and custom WebApp pages wherever images can be set.
+NOTE: Custom images are retained during an upgrade. Updates to delivered images are overwritten.
+NOTE: The images delivered on WebApp pages cannot be modified.
+Images can be added to:
+ Page columns for custom pages A menu in a custom WebApp Quick Links The Request Status page in dspConduct™ when adding a custom status.</description>
+    </item>
+    
+    <item>
+      <title>Add or Update Custom Icons for Custom WebApps</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-or-Update-Custom-Icons-for-Custom-WebApps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Add-or-Update-Custom-Icons-for-Custom-WebApps/</guid>
+      <description>Add or Update Custom Icons for Custom WebApps An Administrator can add images to the DSP and use them as icons in custom WebApps. Refer to Add an Image to the DSP for detailed information.
+NOTE: When adding an image, you cannot use the name of an image delivered with the DSP. Additionally, you cannot use the namespace of a delivered WebApp, such as CranSoft, when creating images.
+With 7.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Plugin Example</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Advanced-Plugin-Example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Advanced-Plugin-Example/</guid>
+      <description>Advanced Plugin Example In these advanced plugin examples, the plugin connects to the database using the data source ID for the WebApp’s page. It then uses that connection to select data and update the database.
+C# Example The following is an example of an advanced plugin in C#:
+Visual Basic.Net Example The following is an example of an advanced plugin in Visual Basic .Net:</description>
+    </item>
+    
+    <item>
+      <title>Allow a Quick Link to be Created for a Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Allow_a_Quick_Link_to_be_Created_for_a_Page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Allow_a_Quick_Link_to_be_Created_for_a_Page/</guid>
+      <description>Allow a Quick Link to be Created for a Page This step is only required for custom development.
+When creating a quick link by security role, a manager must populate the Page ID field. The pages available in the Page ID list box are controlled by the page property Allow Explicit Quick Link.
+To modify page properties, the developer user must have access to the WebApps menu in System Administration.</description>
+    </item>
+    
+    <item>
+      <title>Assign Key Columns</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign-Key-Columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign-Key-Columns/</guid>
+      <description>Assign Key Columns By default the database schema is analyzed to determine which columns are primary key columns. Primary key columns are used to associate indexed words to specific records. If indexing a table that does not have a primary key constraint defined or a view, a primary key column must be manually defined.
+To define a column as a primary key:
+ Select Admin &amp;gt; WebApps in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Assign Keys to Security Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_Keys_to_Security_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_Keys_to_Security_Role/</guid>
+      <description>Assign Keys to Security Role Once the role is created, keys are assigned to the role. Keys represent values defined in the security definition to which users assigned to the role will have access.
+Certain components also require keys be added to security roles when certain objects are added in the component. For example:
+ When using dspMigrate™, additional steps must be taken when a new context (Wave - Process Area etc.</description>
+    </item>
+    
+    <item>
+      <title>Assign Users to Security Roles</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_Users_to_Security_Roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_Users_to_Security_Roles/</guid>
+      <description>Assign Users to Security Roles Once the role is created, users are then assigned to the role. When a user is assigned to the role, they will be given access to all WebApp groups that have been assigned to the role as well as all data elements defined in the keys.
+NOTE: This step is part of the process for setting up security for DSP® delivered components. Refer to Getting Started with DSP® Security for Delivered Components for more information.</description>
+    </item>
+    
+    <item>
+      <title>Assign Users to WebApp Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_Users_to_WebApp_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_Users_to_WebApp_Groups/</guid>
+      <description>Assign Users to WebApp Groups NOTE: Users not in the System Administration groups Debugger, Designer or Administrator receive only a generic Internal Error message with instructions to contact their Administrator.
+To assign users to a WebApp group:
+ Navigate to Security &amp;gt; WebApp Security in the Navigation pane.
+ Click USERS for the desired WEB APP NAME.
+ Click Add to add the user to the WebApp.
+View the field descriptions for the WebApp (Users) page</description>
+    </item>
+    
+    <item>
+      <title>Assign Users to a WebApp for Custom Application Development/Customizations</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/AssignUsersWebAppCustomAppDev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/AssignUsersWebAppCustomAppDev/</guid>
+      <description>Assign Users to a WebApp for Custom Application Development/Customizations To design and develop custom WebApps or to customize the set of delivered components for which customization is allowed, users must be given access to the WebApp directly. To assign a user to a WebApp:
+ Select Security &amp;gt; WebApp Security in Navigation pane.
+ Click Users for WebApp.
+ Click Add.
+View the field descriptions for the WebApp (Users) page</description>
+    </item>
+    
+    <item>
+      <title>Assign WebApp Groups to Security Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_WebApp_Groups_to_Security_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign_WebApp_Groups_to_Security_Role/</guid>
+      <description>Assign WebApp Groups to Security Role Once the role is created, assign WebApp groups to the role. WebApp groups represent the WebApp groups defined for each WebApp to which users assigned to the role will have access.
+NOTE: This step is part of the process for setting up security for DSP® delivered components. Refer to Getting Started with DSP® Security for Delivered Components for more information.
+To assign WebApp groups to a security role:</description>
+    </item>
+    
+    <item>
+      <title>Assign a Catalog to a Custom Web App</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign-a-Catalog-to-a-Custom-Webapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Assign-a-Catalog-to-a-Custom-Webapp/</guid>
+      <description>Assign a Catalog to a Custom Web App Once a catalog is created, it must be registered to an existing WebApp. Multiple catalogs can be registered to a single custom WebApp.
+NOTE: An Administrator can also add a catalog to a delivered WebApp.
+When a page is loaded, the platform checks all catalogs assigned to a WebApp in priority order for a translation match.
+Refer to Manage WebApp Catalogs for general information.</description>
+    </item>
+    
+    <item>
+      <title>Basic Plugin Example</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Basic-Plugin-Example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Basic-Plugin-Example/</guid>
+      <description>Basic Plugin Example With the four prerequisites listed in Getting Started satisfied, a basic plugin can be created to display the message “Hello, World!” to the user. The following is an example of a basic plugin that shows a class named HelloWorldPlugin that inherits from the Plugin class. This Plugin class is accessed via the inclusion of the CranBerry.Framework.Plugins class.
+In the example, the HelloWorldPlugin class has one method called OnExecute.</description>
+    </item>
+    
+    <item>
+      <title>Build Index Objects</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build-Index-Objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build-Index-Objects/</guid>
+      <description>Build Index Objects An index is comprised of several SQL Server objects, including three tables to store the index and four stored procedures to populate the index. Before a table can be indexed, the objects must be built based on the index configuration. Building the index objects is generally a one-time event. If the index configuration changes, the objects must be rebuilt.
+To build the index objects:
+ Select Admin &amp;gt; Data Sources in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Build Indices for a Data Source for Search and Duplicate Detection</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build-Indices-for-a-Data-Source-for-Search-and-Duplicate-Detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build-Indices-for-a-Data-Source-for-Search-and-Duplicate-Detection/</guid>
+      <description>Build Indices for a Data Source for Search and Duplicate Detection Indices enable keyword searching of tables and the pages that expose the data in the tables. An index for a database table makes table rows with specific column values easy to find, which helps queries find data quickly and improves database performance.
+When using an index, a search text box displays on the Filter Panel, accessible when the user clicks the small gear icon on the Page toolbar and selects Filter.</description>
+    </item>
+    
+    <item>
+      <title>Build an Archive from a Package</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build_an_Archive_from_a_Package/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build_an_Archive_from_a_Package/</guid>
+      <description>Build an Archive from a Package Once the package is created, attributes are added and the packing list is reviewed. The archive is then built.
+To build the archive:
+ Select CTS &amp;gt; Build in the Navigation pane.
+ Click Build Archive for the package to create an installable archive from the package; a confirmation message displays.
+ Click Ok.
+NOTE: If items were excluded from the packing list, a confirmation message displays to verify the list was modified and the package has not been rebuilt.</description>
+    </item>
+    
+    <item>
+      <title>Build the Index</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build-the-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Build-the-Index/</guid>
+      <description>Build the Index Once an index has been configured, before it can be used:
+ The index objects must be built. The index must be populated.  Before an index can be built, it must be created, configured, if needed and have at least one searchable column.</description>
+    </item>
+    
+    <item>
+      <title>Bulk Duplicate Detection H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Bulk_Duplicate_Detection_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Bulk_Duplicate_Detection_H/</guid>
+      <description>Bulk Duplicate Detection H Bulk Duplicate Detection V
+Use this page while [Finding Duplicates](../../Common/Use_Cases/Find_Duplicates_Overview).  To access this page:
+ Click Common &amp;gt;Analyze in the Navigation pane. Click Duplicates for Data Source ID. Select an object. Click BDD on Page toolbar.           Field Description   DATA SOURCE NAME Displays name of data source that contains data being inspected for duplicates.</description>
+    </item>
+    
+    <item>
+      <title>CTS Overview</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/CTS_Overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/CTS_Overview/</guid>
+      <description>CTS Overview The Change and Transport System (CTS) process migrates objects from a source instance to a target instance of the DSP®. In order to CTS objects, the user must have access to the CTS menu in System Administration and the target and source instance must be defined.
+A user can build a CTS Package that automatically contains all of the items required to successfully promote the entirety of a Wave (and all its dependents) to another environment using the CTS process.</description>
+    </item>
+    
+    <item>
+      <title>Configure Anonymous Authentication</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Anonymous-Authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Anonymous-Authentication/</guid>
+      <description>Configure Anonymous Authentication When an anonymous user clicks a workflow link in an email, that user is logged in to the DSP® without having to enter a user name and password.
+To configure a user account to use Anonymous authentication:
+ Click Admin &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.
+ Click the Security Settings tab.
+ Click the Support Anonymous check box to enable it.
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure Authentication Settings</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Authentication-Settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Authentication-Settings/</guid>
+      <description>Configure Authentication Settings An Administrator can configure different authentication modes (Basic, Integrated, and Custom) to access the platform. A user can also be set up to log in as an anonymous user.
+NOTE: Either Basic or Integrated authentication must be supported to log in to the DSP®. If both types are enabled, the DSP® attempts to authenticate the user by Integrated authentication, then by Basic authentication.
+Authentication settings are configured on the Security Settings tab on the Parameters page.</description>
+    </item>
+    
+    <item>
+      <title>Configure Basic Authentication</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Basic-Authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Basic-Authentication/</guid>
+      <description>Configure Basic Authentication Basic Authentication is the default configuration for the DSP®, no additional configuration is required. The user must enter a valid DSP® user ID and password to log in and access a WebApp. An Administrator must grant the user permissions to WebApps and pages. Refer to Set Security for more information.
+Basic Authentication does not maintain any relationship with the corporate Windows domain or any external authentication provider.</description>
+    </item>
+    
+    <item>
+      <title>Configure Bulk Execution</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Bulk_Execution_Overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Bulk_Execution_Overview/</guid>
+      <description>Configure Bulk Execution Bulk Execution allows a user to validate all records or a subset of those records on a DSP® page via a simple, guided user experience.
+A Page Designer can enable Bulk Execution on a Construction page or a page in a custom WebApp. Refer to Enable Bulk Execution for a Page for more information.
+Some pages in the DSP are delivered with Bulk Execution enabled.
+Bulk Execution can also be run via a public WebApp event.</description>
+    </item>
+    
+    <item>
+      <title>Configure Business Rule Settings</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Business_Rule_Settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Business_Rule_Settings/</guid>
+      <description>Configure Business Rule Settings A Page Designer can configure settings that allow business rules registered to the OnValidate page event to run or not run during the Bulk Execution process. Business rules can run conditionally based on the validation results. Refer to Business Rules for more information.
+A Page Designer can also prevent users from updating the Exclude Business Rules check box on the Bulk Execution panel, preventing them from allowing business rules to run.</description>
+    </item>
+    
+    <item>
+      <title>Configure CTS Passwords</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_CTS_Passwords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_CTS_Passwords/</guid>
+      <description>Configure CTS Passwords The CTS password is a security measure that ensures objects are moved to the correct instance. To move objects between instances, the CTS password must be the same on both instances.
+NOTE: The password can be anything, as long as it is identical on both the source and the target instance. The password cannot be blank.
+To configure CTS passwords:
+ Log in to the DSP® source instance.</description>
+    </item>
+    
+    <item>
+      <title>Configure Column Header and Text Color in the Excel Template</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Column_Header_Color_in_the_Excel_Template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Column_Header_Color_in_the_Excel_Template/</guid>
+      <description>Configure Column Header and Text Color in the Excel Template A Page Designer can configure the colors of the header rows and text for the Excel template that is downloaded from a page for use with Excel Integration.
+To configure column header and text color in the Excel template:
+ Navigate to the page where the Excel template columns should be configured.
+ Click the Change Settings icon on the Site toolbar.</description>
+    </item>
+    
+    <item>
+      <title>Configure Custom Integration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Custom-Integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Custom-Integration/</guid>
+      <description>Configure Custom Integration When the parameter Support Custom Authentication is enabled on the Parameters page’s Security Settings tab, user authentication is delegated to a third party plugin to be developed on site. This is implemented through an external page that references DSP® provided assemblies and implements the expected functionality.</description>
+    </item>
+    
+    <item>
+      <title>Configure Excel Integration Overview</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Excel_Integration_Admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Excel_Integration_Admin/</guid>
+      <description>Configure Excel Integration Overview Excel Integration allows users to import records from a worksheet in an Excel Workbook file by one of the following methods:
+ Page-level Import — A user can manually import the Excel file via the Page Gear menu &amp;gt; Excel Integration (if the feature is enabled on the page). Public WebApp Event — The Public WebApp event, added to the page as a business rule, can import the Excel file without user involvement.</description>
+    </item>
+    
+    <item>
+      <title>Configure Filters in the DSP®</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Filters-in-the-DSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Filters-in-the-DSP/</guid>
+      <description>Configure Filters in the DSP® Filtering a result set refers to the process of limiting the number of records processed by the DSP®. A filter removes records from the page that do not meet the user-defined criteria, which limits the number of records displayed or downloaded. Filters can be applied to the Horizontal View for dynamic pages, report pages, columns with a control type of List Box or Text Box, and downloads.</description>
+    </item>
+    
+    <item>
+      <title>Configure Integrated Authentication</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Integrated-Authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Integrated-Authentication/</guid>
+      <description>Configure Integrated Authentication If the Support Integrated Authentication check box is enabled on the Parameters page, corporate system user IDs are permitted to log in to the Platform. The Platform uses the corporate ID and cross-references it with the local Platform ID. After a user has successfully been authenticated by the corporate system and logged in to a computer, the Platform can be started without an additional login.
+Integrated Authentication is typically used in a Windows Domain environment.</description>
+    </item>
+    
+    <item>
+      <title>Configure Job Status Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Job-Status-Types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Job-Status-Types/</guid>
+      <description>Configure Job Status Types The DSP® is delivered with Job Status Types that indicate where a job is in the execution process. Job Status Types are:
+ Cancelled Executed Failed Initializing Processing Ready  A user cannot delete or add Job Status Types, but can update settings as indicated below.
+To configure Job Status Types:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Job Status Types in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure Log Type Settings</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Log-Type-Settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-Log-Type-Settings/</guid>
+      <description>Configure Log Type Settings The DSP® is installed with logs that are created daily, and track errors, warnings, user logins and other items. A user can set the number of days logs are retained before they are deleted and whether a log is active (i.e., whether records are written to the log).
+To configure log type settings:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Log Types in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Configure Password Options</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Password_Options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Password_Options/</guid>
+      <description>Configure Password Options An Administrator can set restrictions on passwords.
+NOTE: Changes made to password settings affect passwords that are added and updated after the settings have been updated. Passwords created before the settings were updated are not affected.
+NOTE: An Administrator can also prevent users from updating their passwords to specific words or numbers, e.g., “1234” or “password.” Refer to Set Forbidden Passwords for more information.
+The following settings are available on the Parameters page Security Settings tab.</description>
+    </item>
+    
+    <item>
+      <title>Configure Service Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Service_Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Service_Pages/</guid>
+      <description>Configure Service Pages A service page is a non-interactive page configuration that allows events to be configured and executed on a configured time-based Unit of Measure (UOM). Service pages are commonly used for automating a process to execute business logic against a specific record set. This could range from executing public WebApp events (for instance, running Assemble packages) to trimming log tables in a custom application.
+Since these pages are non-interactive, the user configured as the “Service” user (Configuration &amp;gt;Parameters &amp;gt; Service Options &amp;gt; Service User ID) must have permissions to this page.</description>
+    </item>
+    
+    <item>
+      <title>Configure Warning Message Timing for License Expiration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Config_WarnMessage_Lic_Expir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Config_WarnMessage_Lic_Expir/</guid>
+      <description>Configure Warning Message Timing for License Expiration A System Administrator can configure the number of days a warning message displays before the DSP® license expires.
+To configure warning message timing for license expiration:
+ Select Admin &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.
+ Click Site Parameters tab.
+ Click Edit.
+View the field descriptions for the Parameters page.
+ Enter number of days a warning message displays before the license expires in the License Expiration Warning Days field.</description>
+    </item>
+    
+    <item>
+      <title>Configure Workflow Fields</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Workflow_Fields/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Workflow_Fields/</guid>
+      <description>Configure Workflow Fields The workflow fields determine what is displayed in the subject line, body text, and other fields of the workflow. These fields must be added to the view and aliased correctly to be utilized in the workflow.
+To configure the workflow fields:
+ Select WebApps in the Navigation pane.
+ Click the Pages icon for a WEB APP NAME.
+ Click the Events icon for a DESCRIPTION.</description>
+    </item>
+    
+    <item>
+      <title>Configure Workflow Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Workflow_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Workflow_Links/</guid>
+      <description>Configure Workflow Links A workflow can contain a link that navigates a user to a specific page to then perform a function, such as viewing data or clicking a button to trigger an event. If the recipient of a workflow is to trigger an event, such as clicking an Accept button to approve a Purchase Order, the event can be invoked from within the email or notification message. If a workflow link is clicked in an email, a new browser opens prompting the user to sign in to DSP® (if the user is not anonymous or semi-anonymous).</description>
+    </item>
+    
+    <item>
+      <title>Configure an Index</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-an-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure-an-Index/</guid>
+      <description>Configure an Index When creating an index, the default search engine index settings serve as a guideline for general purpose searching and foreground duplicate detection. An Administrator can optimize the settings for bulk duplicate detection to improve performance and accuracy.
+NOTE: If both search and duplicate detection are used, the user can enable a validation as a page event that runs in the foreground to check for duplicates when a single record is added.</description>
+    </item>
+    
+    <item>
+      <title>Configure the Path or Connection Settings for a Data Source</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Path_Connection_Settings_Data_Srce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Configure_Path_Connection_Settings_Data_Srce/</guid>
+      <description>Configure the Path or Connection Settings for a Data Source Configure the path or connection settings for a data source to a path or a database, depending on the data source type.
+For example, if a data source is a Local File data source type, the path to the local directory must be configured. If the data source type for a data source is SQL Server, the connection settings to the SQL Server database must be supplied.</description>
+    </item>
+    
+    <item>
+      <title>Copy a Security Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Copy_a_Security_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Copy_a_Security_Role/</guid>
+      <description>Copy a Security Role Before this task is performed, the role being copied must exist. Refer to Create Security Roles for more information.
+An Administrator has the ability to copy an existing role into a new role. This copy process includes keys, configured quick links and WebApp groups. It does not include the user(s) assigned to that role.
+To copy a role:
+ Select Admin &amp;gt; Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane; the Security Roles page displays.</description>
+    </item>
+    
+    <item>
+      <title>Create Column Dictionaries</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create-Column-Dictionaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create-Column-Dictionaries/</guid>
+      <description>Create Column Dictionaries Each column can be assigned a dictionary. A dictionary contains words and their synonyms. Dictionaries can be used to resolve abbreviations, for example, St to Street, or nick names to full names. Dictionaries can also be used to normalize common industry or company-specific abbreviations into strings.
+Dictionaries are a powerful feature, but should be used sparingly. Each word in the dictionary is stored in the index and increases the index size, which negatively impacts the search performance.</description>
+    </item>
+    
+    <item>
+      <title>Create Dictionaries</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Dictionaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Dictionaries/</guid>
+      <description>Create Dictionaries Dictionaries contain words and their synonyms that are used to resolve abbreviations or to normalize common industry or company-specific abbreviations. Use dictionaries sparingly.
+The DSP® is delivered with four dictionaries:
+ Address – Common abbreviations for street and state names (e.g. Street -&amp;gt; Str)
+ Company Name– Common abbreviations for businesses (e.g. Management -&amp;gt; Mgmt)
+ Name – Common abbreviations for names (e.g. William -&amp;gt; Will)
+ Phone – Common abbreviations for phone numbers</description>
+    </item>
+    
+    <item>
+      <title>Create Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Quick_Links/</guid>
+      <description>Create Quick Links Before creating quick links, verify the steps outlined in Quick Links Security have been followed.
+There is no limit to the number of quick links that can be added. To conserve space, if the number of non-hidden links (refer to Show/Hide Quick Links for more information) plus the number of group headers is greater than 15, the groups are hidden in order of the largest number of items, until there are less than or equal to 15 items total.</description>
+    </item>
+    
+    <item>
+      <title>Create Quick Links as the Logged In User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_a_Quick_Link_as_the_Logged_In_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_a_Quick_Link_as_the_Logged_In_User/</guid>
+      <description>Create Quick Links as the Logged In User Quick links are essentially book marks.
+Create a quick link to book mark a page following the steps below. Any filtering, binding and shared criteria is saved as part of the quick link so that when the link is accessed, the user is returned to the page in the same state as it was when the quick link was created. Row selection or other content-specific actions are not saved.</description>
+    </item>
+    
+    <item>
+      <title>Create Quick Links by Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Quick_Links_by_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Quick_Links_by_Role/</guid>
+      <description>Create Quick Links by Role A user, typically a manager, can create a quick link for a specific security role. This process pushes the quick link to all users assigned to the security role, giving them access to the link under the Quick Links icon when they log in. Users assigned to the security role can then hide or modify the quick link that was created for them as needed, but cannot delete it.</description>
+    </item>
+    
+    <item>
+      <title>Create Quick Links by User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Quick_Links_by_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Quick_Links_by_User/</guid>
+      <description>Create Quick Links by User A user, typically a manager, can create a quick link for another user. This process pushes the quick link to the user, giving them access to the link under the Quick Links icon when they log in. Users can then hide or modify the quick link, but cannot delete it. Changes made to the quick link, such as the label, priority, image, etc. do not impact the quick link assigned to other users.</description>
+    </item>
+    
+    <item>
+      <title>Create Security Definitions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Security_Definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Security_Definitions/</guid>
+      <description>Create Security Definitions NOTE: This section only applies to custom components and the three delivered custom components: Construct, MC and dspCompose_Data. If using a delivered component, do not alter the delivered security definitions.
+Security definitions are the basis for driving data-based security. They employ a security view to return data that is then used to dictate what users are allowed to see on a page.
+To enable security for a component of the DSP®, a security definition must be defined.</description>
+    </item>
+    
+    <item>
+      <title>Create Security Roles</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Security_Roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Security_Roles/</guid>
+      <description>Create Security Roles A role is a single unit used to authorize specified security to the assigned user.
+NOTE: This step is part of the process for setting up security for DSP® delivered components. Refer to Getting Started with DSP® Security for Delivered Components for more information.
+To create a role:
+ Select Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+ Click Add.
+View the field descriptions for the Security Roles page</description>
+    </item>
+    
+    <item>
+      <title>Create Stop Lists</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Stop_Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Stop_Lists/</guid>
+      <description>Create Stop Lists A stop list is a list of words that is ignored during duplicate detection, indexing and searching. Performance and accuracy are improved with these processes when words such as prepositions, conjunctions, adjectives and adverbs are added to a stop list.
+Two stop lists are delivered with the DSP®:
+ Company – provides a list of company name and address words
+ General – provides a list of all-purpose words</description>
+    </item>
+    
+    <item>
+      <title>Create User Accounts in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_User_Accounts_in_System_Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_User_Accounts_in_System_Administration/</guid>
+      <description>Create User Accounts in System Administration A user account must be created for each user of the DSP®.
+NOTE: This step is part of the process for setting up security for DSP® delivered components. Refer to Getting Started with DSP® Security for Delivered Components for more information.
+NOTE: An Administrator can create a user account in Common, which allows for a more streamlined process for password maintenance and is the recommended method for use by a Help Desk or Call Center.</description>
+    </item>
+    
+    <item>
+      <title>Create WebApp Catalogs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_WebApp_Catalogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_WebApp_Catalogs/</guid>
+      <description>Create WebApp Catalogs A WebApp catalog is the most generic way to translate phrases. A phrase translated at the catalog level can be used by any WebApp in the DSP.
+Refer to Manage WebApp Catalogs for general information.
+To create a catalog:
+ Select Admin &amp;gt; Translations &amp;gt; Catalogs in the Navigation pane.
+ Click Add.
+View the field descriptions for the Catalogs page.
+ Enter a catalog name in the NAME field.</description>
+    </item>
+    
+    <item>
+      <title>Create WebApp Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_WebApp_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_WebApp_Groups/</guid>
+      <description> Create WebApp Groups NOTE: This section only applies to custom components and the three delivered custom components: Construct, MC and dspCompose_Data.
+Creating WebApp groups involves these steps:
+ Create WebApp Groups using the Groups page Create WebApp Groups using the WebApp Groups page Set Page Security for WebApp Groups Assign Users to WebApp Groups View the WebApp Groups and WebApp Pages that a User can Access  </description>
+    </item>
+    
+    <item>
+      <title>Create WebApp Groups using the *Groups* Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Groups_Security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_Groups_Security/</guid>
+      <description>Create WebApp Groups using the Groups Page The platform is delivered with a set of WebApp groups. Users can also create custom WebApp groups. Depending on specific business requirements, any number of groups can be created.
+The ability to create WebApp groups via the Groups page is provided for the WebApp Designer, allowing the Designer to build their application and assign pages and page access to the WebApp group.</description>
+    </item>
+    
+    <item>
+      <title>Create WebApp Groups using the WebApp Groups page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_WebApp_Groups_using_the_WebApp_Groups_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_WebApp_Groups_using_the_WebApp_Groups_page/</guid>
+      <description>Create WebApp Groups using the WebApp Groups page WebApp Groups can be designed depending on specific business requirements. Any number of groups can be created. Users must then be assigned to a WebApp Group.
+Only users assigned to the Security and PowerUser WebApp Groups in System Administration have authority to create a WebApp Group. However, adding a user to PowerUser is not recommended. As new pages are created for a WebApp, they are automatically added to the PowerUser WebApp Group.</description>
+    </item>
+    
+    <item>
+      <title>Create a CTS Package and Build Archive in Source Instance</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/CreatePckgeBuildArcSrceInstance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/CreatePckgeBuildArcSrceInstance/</guid>
+      <description>Create a CTS Package and Build Archive in Source Instance A package is the record and configuration created on the CTS pages in the DSP®. An archive is built from a package and is the actual item(s) and configurations moved via the CTS process.
+The CTS Configuration for DSP WebApps is included by default and must not be updated on the CTS Configure pages.
+The CTS Configuration for custom WebApps must be created before objects can be moved via the CTS process.</description>
+    </item>
+    
+    <item>
+      <title>Create a Plugin</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create-a-Plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create-a-Plugin/</guid>
+      <description>Create a Plugin There are five basic steps to create a plugin:
+ Add a reference to the plugin API Define the Plugin Configure the DSP for Data Binding Add the Data Binding Helper Property Add the PluginInstaller Attribute  Add a Reference to the Plugin API Before the plugin can be utilized by DSP, reference the CranBerry.Framework DLL in the Visual Studio solution.
+C# Example The following are the recommended C# references to include in the project:</description>
+    </item>
+    
+    <item>
+      <title>Create a User Account Based on Another User’s Security Settings</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_a_User_Account_Based_on_Another_Users_Security_Settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_a_User_Account_Based_on_Another_Users_Security_Settings/</guid>
+      <description>Create a User Account Based on Another User’s Security Settings An Administrator can use the Create User From option on the Users page to copy a user’s WebApp permissions and security roles to use as the basis for configuring security settings when creating a new user account.
+When copying the settings, an Administrator can update them by changing permissions to access WebApps and WebApp groups or by setting an expiration date for assignment to a WebApp group.</description>
+    </item>
+    
+    <item>
+      <title>Create a View</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_a_View/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_a_View/</guid>
+      <description>Create a View NOTE: This section only applies to custom components and the three delivered custom components: Construct, MC and dspCompose_Data. Create a view in a database on the DSP® database instance that returns the values that represent the data items by which security can be defined. The view must follow the name convention: web*Sec. These views should return all of the columns that are going to be applicable in the security model.</description>
+    </item>
+    
+    <item>
+      <title>Create an Index</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create-an-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create-an-Index/</guid>
+      <description>Create an Index An Administrator can add index tables to a database for a Microsoft SQL Server data source.
+NOTE: If a data source is protected, (i.e., if the Protected check box on the Vertical View of the Data Sources page is enabled), indices cannot be added.
+Refer to Build Indices for a Data Source for general information.
+To create indices for a table:
+ Select Admin &amp;gt; Data Sources in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Create an OnValidate Page Event for Bulk Execution</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_an_OnValidate_Page_Event_for_Bulk_Execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Create_an_OnValidate_Page_Event_for_Bulk_Execution/</guid>
+      <description>Create an OnValidate Page Event for Bulk Execution Bulk Execution is only supported on the OnValidate event. This event executes when a record is inserted, updated, or manually validated. Validations can be of type Warning, Message, or Error. Refer to Validation Rules for more information.
+Validations can also be configured to conditionally execute business rules based on validation results. Refer to Business Rules for more information.
+To create an OnValidate page event for Bulk Execution:</description>
+    </item>
+    
+    <item>
+      <title>Customize Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Quick_Links/</guid>
+      <description> Customize Quick Links To customize quick links:
+ Click Quick Links icon on Site toolbar.
+ Click Manage Quick Links.
+ Click Edit for a quick link.
+View the field descriptions for the Quick Links page
+ Update fields as necessary. Refer to the field descriptions for the Quick Links page for details on each field.
+ Click Save.
+  </description>
+    </item>
+    
+    <item>
+      <title>Customize the Page to Display for All Users</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_the_Page_to_Display_for_All_Users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_the_Page_to_Display_for_All_Users/</guid>
+      <description>Customize the Page to Display for All Users This level of customization will take precedence over the application defined values.
+To customize a page that applies to all users:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in Navigation pane.
+ Click Pages for the WEB APP NAME.
+ Click Default.
+ Click Edit.
+View the field descriptions for the Page Extension (Default) page.
+ Select a dashboard from the Layout ID list box.</description>
+    </item>
+    
+    <item>
+      <title>Customize the Page to Display for Individual Users</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Page_Display_Individual_Users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Page_Display_Individual_Users/</guid>
+      <description>Customize the Page to Display for Individual Users To customize a page by assigning an individual user:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in Navigation pane.
+ Click Pages for the WEB APP NAME.
+ Click By User.
+ If no records exist, the page displays in add mode. Otherwise, click Add.
+View field descriptions for the Page Extension (By User) Vertical View.
+ Select a value from the USER ID list box.</description>
+    </item>
+    
+    <item>
+      <title>Customize the Page to Display for Members of a Security Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Pg_Display_Members_Security_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Pg_Display_Members_Security_Role/</guid>
+      <description>Customize the Page to Display for Members of a Security Role To customize a page by assigning an individual role:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in Navigation pane.
+ Click Pages for the WEB APP NAME.
+ Click By Role.
+  If no records exist, the page displays in add mode. Otherwise, click Add.
+View field descriptions for the Page Extension (By Role) Vertical View.</description>
+    </item>
+    
+    <item>
+      <title>Customize, Organize, and View Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Organize_and_View_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Customize_Organize_and_View_Quick_Links/</guid>
+      <description> Customize, Organize, and View Quick Links Quick links can be easily removed, hidden or displayed on the Quick Links page. Regardless of how a quick link was assigned to a user, the user can customize various aspects of the quick link, such as the image, label, and priority.
+ Customize Quick Links
+ Show/Hide Quick Links
+ Organize Quick Links
+  </description>
+    </item>
+    
+    <item>
+      <title>DSP® Configuration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/DSP-Configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/DSP-Configuration/</guid>
+      <description> DSP® Configuration This section contains the following topics:
+ Configure Job Status Types Set the Default Queue for a Job Type Detect Locales Set a Language as Active Configure Log Type Settings Add Database Types Configure Warning Message Timing for License Expiration Create Dictionaries Add a link to the Site Menu View boaStatus Values Add a Style  </description>
+    </item>
+    
+    <item>
+      <title>DSP® Pages Delivered with Bulk Execution Enabled</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/DSP_Pages_Delivered_with_Bulk_Execution_Enabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/DSP_Pages_Delivered_with_Bulk_Execution_Enabled/</guid>
+      <description> DSP® Pages Delivered with Bulk Execution Enabled The following DSP® pages are delivered with Bulk Execution enabled:
+ Data Source Registry (Common) Field Mappings H (Map) Plan (dspTrack™) Plan Task (dspTrack™) Rules: Basic Rules (Target Design) Tables (Collect) Target Data Services Reports (Transform) Target Data Services Remediation (Transform) Target Data Services Rule Audit (Transform) Target Data Services Rules (Transform) Target Exports (Transform) Target Fields (Target Design) Target Lookup Table (Target Design) Target Remediation (Transform) Target Reports (Transform) Target Rule Audit (Transform) Target Rules (Transform) Target Source Reports (Transform) Target Source Rule Audit (Transform) Target Source Rules (Transform) Target Sources (Transform) Targets (Transform) User Management (Common) Users (Sys Admin) Value Mapping (Legacy to Target) (Map)  </description>
+    </item>
+    
+    <item>
+      <title>DSP® Pages Delivered with Excel Integration Enabled</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/DSP_Pages_Delivered_with_Excel_Integration_Enabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/DSP_Pages_Delivered_with_Excel_Integration_Enabled/</guid>
+      <description> DSP® Pages Delivered with Excel Integration Enabled The following DSP® pages are delivered with Excel Integration enabled:
+ Catalog Phrases (Sys Admin) User Management (Common) Users (Sys Admin) Value Mapping (Legacy to Target) (Map) Project Distribution Users (ISA) System Types Groups (Common) System Types Groups Tables (Common) System Types Index Fields (Common) System Types Join Field (Common) System Types Joins (Common) System Types Mappings (Common) System Types Model Groups Tables (Common) System Types Model Groups (Common) System Types Model Required Fields (Common) System Types Model Tables (Common) System Types Table Fields H (Common) System Types Table Indices (Common) System Types Table Lookup (Common) System Types Tables H (Common) System Types Table Statics (Common)  </description>
+    </item>
+    
+    <item>
+      <title>Define Security Roles</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Define_Security_Roles1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Define_Security_Roles1/</guid>
+      <description>Define Security Roles Security roles drive user security. It is at the role level that values for any number of security definitions (if setting up security for a custom component), as well as WebApp group registrations, are assigned to users. Any number of roles can be created and the exact number and makeup of roles will differ per implementation. This use case includes the following topics:
+ Delivered Security Roles Create Security Roles Assign Users to Security Roles  NOTE: Users can also be assigned to security roles in Common.</description>
+    </item>
+    
+    <item>
+      <title>Define an Index for Duplicate Detection</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Define-an-Index-for-Duplicate-Detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Define-an-Index-for-Duplicate-Detection/</guid>
+      <description>Define an Index for Duplicate Detection By default, the Duplicate Detection validation rule uses the search index. A page can be explicitly associated with an index for searching and with another index for Duplicate Detection. This association is useful when records are added to one table; however, duplicates need to be checked for in another table.
+NOTE: When performing Duplicate Detection against an index of another table, the view must contain the primary key columns as defined at the index level.</description>
+    </item>
+    
+    <item>
+      <title>Delivered Security Roles</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Delivered_Security_Roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Delivered_Security_Roles/</guid>
+      <description>Delivered Security Roles The platform is installed with the Migration Developer security role. Users assign to this role have access to every Wave, Process Area, object, target and source.
+The platform is also installed with security roles specific to dspTrack™.
+Other security roles must be defined on site. Refer to WebApp Groups for more information.</description>
+    </item>
+    
+    <item>
+      <title>Detect Locales</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Detect-Locales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Detect-Locales/</guid>
+      <description>Detect Locales Locales are installed with the platform and set date, number, and currency formats. Users view data in this format based on their associated Locale ID. The Locale ID can be set:
+ On the Users page’s Vertical View by an Administrator On the Settings page by the user On the Locales page by the user by clicking the Detect Locales button  NOTE: If the user’s Locale is not available in the Locale ID list box on the Settings page, the use can click the Detect Locales button.</description>
+    </item>
+    
+    <item>
+      <title>Determine the Duplicate Detection Threshold</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Determine-the-Duplicate-Detection-Threshold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Determine-the-Duplicate-Detection-Threshold/</guid>
+      <description>Determine the Duplicate Detection Threshold The Search Threshold is used when users perform a search on a page. In contrast, the Duplicate Detection Threshold is used when searching the index for duplicate records.
+If the duplicate detection process finds a match for a record whose quality is below the cut-off threshold (expressed as a percentage value), the match is not stored in the #Duplicate table.
+Both are set on the Index Specifications page.</description>
+    </item>
+    
+    <item>
+      <title>Disable and Enable Logging for Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Disable-and-Enable-Logging-for-Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Disable-and-Enable-Logging-for-Pages/</guid>
+      <description>Disable and Enable Logging for Pages A System Administrator can disable logging for specific pages if the data on these pages is not related to personal data or does not need to be tracked.
+To disable logging by page:
+ Select Admin &amp;gt; Configuration &amp;gt; Parameters on the Navigation pane. Click the Logging Options tab. Click the Enable Logging By Page icon. Select a page or multiple pages. Click the Disable Page icon.</description>
+    </item>
+    
+    <item>
+      <title>Display Fields as List Boxes on a Page’s Filter View</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Display-Fields-as-List-Boxes-on-a-Pages-Filter-View/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Display-Fields-as-List-Boxes-on-a-Pages-Filter-View/</guid>
+      <description>Display Fields as List Boxes on a Page’s Filter View To limit the filter options for a field to a list of values, set that column as a list box on a specific page.
+To display a field as a list box on the Filter View:
+ Select Admin &amp;gt; WebApps in the Navigation pane.
+ Click the Pages icon for a WebApp.
+ Click the Column Properties icon for a column.</description>
+    </item>
+    
+    <item>
+      <title>Display Translations for Column Data</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Display_Translations_for_Column_Data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Display_Translations_for_Column_Data/</guid>
+      <description>Display Translations for Column Data Page Designers can set the Translate option for a column on a page in a custom WebApp. When the option is checked, users can view the column’s data translated to the Language ID associated with their user account.
+NOTE: Translations are dependent on catalog entries for the selected language.
+Refer to Manage WebApp Catalogs for general information.
+To display the translations for columns:
+ Navigate to the page containing the column that must be translated.</description>
+    </item>
+    
+    <item>
+      <title>Enable Auditing for Tables with Personal Information</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable-Auditing-for-Tables-with-Personal-Information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable-Auditing-for-Tables-with-Personal-Information/</guid>
+      <description>Enable Auditing for Tables with Personal Information On a client’s site, a System Administrator must enable auditing for any tables that contain personal data or that must be purged for compliance reasons.
+At the client site, an Administrator must also set up auditing for these specific tables in the DataSource named “Data Garage&amp;rsquo;.
+ dgTarget dgTargetSource dgTargetSourceTable  When a Data Controller updates any retention expiration date, an e-signature is required and captured in the audit records.</description>
+    </item>
+    
+    <item>
+      <title>Enable Bulk Execution for a Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable_Bulk_Execution_for_a_Page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable_Bulk_Execution_for_a_Page/</guid>
+      <description>Enable Bulk Execution for a Page Before Bulk Execution can be configured and performed on a page, it must be enabled by the Page Designer for an OnValidate event that runs in the foreground on that page.
+If this type of event does not exist for the page, add it. Refer to Create an OnValidate Page Event for Bulk Execution for more information.
+To enable Bulk Execution for a page:</description>
+    </item>
+    
+    <item>
+      <title>Enable Duplicate Detection</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable-Duplicate-Detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable-Duplicate-Detection/</guid>
+      <description>Enable Duplicate Detection Before Duplicate Detection can be enabled, an index must be created. Users can perform Duplicate Detection using the same index that is used for searching or an alternate index. The index must have at least one column on which Duplicate Detection has been enabled.
+Refer to Build indices for a Data Source for Search and Duplicate Detection, Define an Index for Duplicate Detection and Add a Column to an Index for more information.</description>
+    </item>
+    
+    <item>
+      <title>Enable Excel Integration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable_Excel_Integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable_Excel_Integration/</guid>
+      <description>Enable Excel Integration To use Excel Integration on a Construct page or a page in a custom WebApp, the feature must be enabled by the page Designer for that page.
+To enable Excel Integration:
+ Navigate to the page where Excel Integration should be enabled. Click the Change Settings icon in the Site toolbar. Select Design. Click Vertical View for the page. Click the Advanced Properties tab. Check the Enable Excel integration check box; an Excel tab displays.</description>
+    </item>
+    
+    <item>
+      <title>Enable Logging By Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable-Logging-By-Page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable-Logging-By-Page/</guid>
+      <description>Enable Logging By Page Use this page to [Disable and Enable Logging for Pages.](Disable%20and%20Enable%20Logging%20for%20Pages.htm)  To access this page:
+ Select Admin &amp;gt; Configuration &amp;gt; Parameters on the Navigation pane. Click the Logging Options tab. Click the Enable Logging By Page icon.    Field
+ Description
+  Enable Page
+ Click to enable logging on the selected page(s).
+  Disable Page
+ Click to disable logging on the selected page(s).</description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Sheet with Instructions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable_Disable_Sheet_with_Instructions_for_a_Page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Enable_Disable_Sheet_with_Instructions_for_a_Page/</guid>
+      <description>Enable/Disable Sheet with Instructions An optional instruction worksheet can be added to the Excel template file. This worksheet contains custom text to convey to the user how to enter data in the template.
+To enable the template with instructions for a page:
+ Navigate to the page where the instructions should be configured in the Excel template.
+ Click the Change Settings icon in the Site toolbar.
+ Select Design.</description>
+    </item>
+    
+    <item>
+      <title>Encrypt Password for CranSoft Data Source</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Encrypt_Password_for_CranSoft_DataSource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Encrypt_Password_for_CranSoft_DataSource/</guid>
+      <description>Encrypt Password for CranSoft Data Source To enable encryption for a component, the CranSoft Data Source password must be encrypted in System Administration.
+To encrypt CranSoft Data Source password:
+ Select Admin &amp;gt; Data Sources in the Navigation pane.
+ Click Encryption for the CranSoft DATA SOURCE NAME.
+NOTE: By default, the DataSourceColumnEncryption table is shipped with records for the following table names and the corresponding column names for the CranSoft DataSource.</description>
+    </item>
+    
+    <item>
+      <title>Establish User-Specific Security Definitions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Establish_UserSpecific_Security_Definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Establish_UserSpecific_Security_Definitions/</guid>
+      <description>Establish User-Specific Security Definitions User Specific Security Definitions allow the definition of data-based access on a user by user level. If a user needs special access, for example, to a specific record on a page, that does not fall into a role, and does not warrant the creation of a role, then the User Specific Security Definition can be used to define these individual data points for the user.</description>
+    </item>
+    
+    <item>
+      <title>Exclude Columns from Excel Integration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Exclude-Columns-Excel-Integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Exclude-Columns-Excel-Integration/</guid>
+      <description>Exclude Columns from Excel Integration On a page for a custom WebApp, page designers can exclude the columns in the Excel template used by Excel Integration.
+By default, all columns on the Horizontal View display on the Excel template, except for columns:
+ With a Control Status of Hide for the All Views View Type That have the control of image, button, label, tab or toolbar  To exclude columns from Excel Integration:</description>
+    </item>
+    
+    <item>
+      <title>Export CTS Archive to Target Instance</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Export_CTS_Archive_to_Target_Instance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Export_CTS_Archive_to_Target_Instance/</guid>
+      <description>Export CTS Archive to Target Instance Archives are exported to a target instance. One of two ways can be used to export a package, depending on the client’s process:
+ Programmatically — Use the process provided in the DSP®. Manually — Locate the package on the source web server and move it to the correct folder on the target web server. Then, import the package through the DSP®. Refer to Import Archive on the Target Instance for detailed information.</description>
+    </item>
+    
+    <item>
+      <title>Filter Controls</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Filter-Controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Filter-Controls/</guid>
+      <description>Filter Controls The controls on the Filter View allow the user to define filter criteria. Filter criteria operates on individual columns. Only one set of criteria can be applied to a column at a time. However, different filter criteria can be specified for each column.
+An Administrator can set the control type for the filter. The controls used are a variation of the standard controls. The relationship between controls defined at the column property level and those used on the Filter View are outlined in the following table:</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with DSP® Security for Custom Components</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/GettingStartedwDSPSecuritCustComps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/GettingStartedwDSPSecuritCustComps/</guid>
+      <description>Getting Started with DSP® Security for Custom Components To get started with DSP® security for custom components:
+ Create User Accounts Create WebApp Groups if not using delivered groups Set Page Security for WebApp Groups Create Security Definitions Create Security Roles Assign Users to Security Role Assign WebApp Groups to Security Role Assign Keys to Security Role  To set up user-specific security that allows users to view a more granular layer of data, complete the above steps plus add a user-specific key.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with DSP® Security for Delivered Components</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/GettingStartedwDSPSecurityDlvrdComps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/GettingStartedwDSPSecurityDlvrdComps/</guid>
+      <description>Getting Started with DSP® Security for Delivered Components To get started with DSP® security for delivered components:
+ Create User Accounts Create Security Roles Assign Users to Security Role Assign WebApp Groups to Security Role Assign Keys to Security Role  To set up user-specific security that allows users to view a more granular layer of data, complete the above steps plus add a user-specific key. Refer to Establish User-Specific Security Definitions for more information.</description>
+    </item>
+    
+    <item>
+      <title>Grant Security to Allow Quick Link Creation</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Grant_Security_to_Allow_Quick_Link_Creation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Grant_Security_to_Allow_Quick_Link_Creation/</guid>
+      <description>Grant Security to Allow Quick Link Creation To use the quick links feature, the logged in user must be a member of the Customizer WebApp group. By default, all users are added to the Customizer WebApp group. If users are unable to use the quick link feature, membership to this group may have been removed. Refer to Assign Users to WebApp Groups for detailed information or contact a site Administrator for assistance.</description>
+    </item>
+    
+    <item>
+      <title>Grant Users Access to Integrate&#39;s Post Monitor Group in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Grant_Users_Access_to_Post_Monitor_Group_in_Integrate_in_System_Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Grant_Users_Access_to_Post_Monitor_Group_in_Integrate_in_System_Administration/</guid>
+      <description>Grant Users Access to Integrate&amp;rsquo;s Post Monitor Group in System Administration An Administrator must assign users to the Post Monitor group in Integrate for those users to successfully post using the Post Later feature in dspCompose™.
+To grant user access to the Post Monitor group in Integrate:
+ Grant user access to the Power User group in the Data WebApp if a different application than dspCompose_Data is used for pages.</description>
+    </item>
+    
+    <item>
+      <title>Hide Columns on a Page’s Filter View</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Hide-Columns-on-a-Pages-Filter-View/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Hide-Columns-on-a-Pages-Filter-View/</guid>
+      <description>Hide Columns on a Page’s Filter View When a user clicks the Page Settings icon (the small gear labeled with More Actions on a page), the Filter view displays. By default, all columns on the Horizontal View display on the Filter view, except for columns:
+ With a Control Status of Hide for the All Views View Type That have the control of image, button, label, tab or toolbar  A Page Designer can exclude columns on a page in a Custom WebApp from the filter view, preventing users from filtering data using the values in these fields.</description>
+    </item>
+    
+    <item>
+      <title>Hide/Show Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Show_Hide_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Show_Hide_Quick_Links/</guid>
+      <description>Hide/Show Quick Links Quick links can be easily hidden or displayed on the Quick Links page. Hiding a quick link may be useful if it was created for a user by a manager and the user does not need or want the quick link. (Quick links created by role or by user cannot be deleted by the recipient.) This feature also allows a quick link to be saved without having to delete it and recreate it at another time.</description>
+    </item>
+    
+    <item>
+      <title>How the DSP Uses Data Source Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/HowDSPUsesDataSourceTypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/HowDSPUsesDataSourceTypes/</guid>
+      <description>How the DSP Uses Data Source Types   Data Source Type
+ Use in DSP
+  Data Services Repository
+ Used by dspMigrate and Collect to execute batch jobs via SAP&#39;s Data Services application. Used also by Integrate to execute batch jobs for loading purposes.
+  SAP Application Server
+ Used by:
+ Collect to populate &#39;sdb&#39; and &#39;dg&#39; databases via RFC.
+ Integrate to post data to SAP&#39;s ERP application.</description>
+    </item>
+    
+    <item>
+      <title>Identify SQL Performance Issues</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Identify-SQL-Performance-Issues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Identify-SQL-Performance-Issues/</guid>
+      <description>Identify SQL Performance Issues If you are running a 6.5.X version of the DSP® or above, you can employ a framework utility called the Page Performance Monitor.
+The Page Performance Monitor is a utility included with the DSP intended for technical users (those who are responsible for debugging SQL performance issues). Use it on custom pages to troubleshoot performance issues and to determine which portions of the page run slowly when the record set (or user set) increases dramatically.</description>
+    </item>
+    
+    <item>
+      <title>Import Archive to the Target Instance</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Import_Archive_on_the_Target_Instance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Import_Archive_on_the_Target_Instance/</guid>
+      <description>Import Archive to the Target Instance Once exported, the archive is then imported to the target instance.
+To import an archive to the target instance:
+ Log in to the DSP® on the target instance (for example, QA).
+ Select Admin &amp;gt; CTS &amp;gt; Archives in the Navigation pane.
+ Click Detect Archives on the Page toolbar if the desired archive does not appear immediately; a confirmation message displays.</description>
+    </item>
+    
+    <item>
+      <title>Import and Export Phrase Files</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Import_and_Export_Phrase_Files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Import_and_Export_Phrase_Files/</guid>
+      <description>Import and Export Phrase Files Phrase files can be imported or exported at the WebApp catalog level. Use this feature to:
+ Make multiple phrase changes Add phrase translations Generate a report of all phrases to analyze or view  NOTE: If a catalog is read-only, a phrase file cannot be imported or exported. Most delivered catalogs are read only. To make a custom catalog read only, check the Read Only check box on the Catalogs page&amp;rsquo;s Vertical View.</description>
+    </item>
+    
+    <item>
+      <title>Import the Data Services Profiling Results into the DSP</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Import_the_Data_Services_Profiling_Results_into_the_DSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Import_the_Data_Services_Profiling_Results_into_the_DSP/</guid>
+      <description>Import the Data Services Profiling Results into the DSP To import the data services profiling results into the DSP, the database and connection information on the “DataServicesProfileRepository” DataSource must be modified so that it points to the Profile Repository created in the setup process.
+To import the data services profiling results into the DSP:
+ Select Admin &amp;gt; Data Sources in the Navigation pane.
+ Click Vertical View for the selected DATA SOURCE NAME.</description>
+    </item>
+    
+    <item>
+      <title>Include Data Type and Help Text in the Excel Template</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Include-Data-Type-and-Help-Text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Include-Data-Type-and-Help-Text/</guid>
+      <description>Include Data Type and Help Text in the Excel Template The Excel template that is downloaded from a page for use with Excel Integration can have up to four column header rows. All templates have the column’s technical name in the first row, and the translated name in the second row. A Page Designer can include the data type and length details for each column in a row, and the help text for a column in a row.</description>
+    </item>
+    
+    <item>
+      <title>Log Events and Access to Personal Data</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Log-Events-and-Access-to-Personal-Data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Log-Events-and-Access-to-Personal-Data/</guid>
+      <description>Log Events and Access to Personal Data The DSP® assists clients with corporate or regulatory compliance by logging all events related to processing personal data. The logs are created daily as .CSV files.
+The DSP creates a log entry every time an event executes in DSP in any application, including each page load. By default, events on all pages are tracked; however, a System Administrator can set which pages are not tracked.</description>
+    </item>
+    
+    <item>
+      <title>Make Changes to a Plugin</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Make-Changes-to-a-Plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Make-Changes-to-a-Plugin/</guid>
+      <description>Make Changes to a Plugin Changes may need to be made to the plugin. Once the assembly has been created, verify plugins were created. If plugins are missing:
+ Check the assembly to be sure the Plugin Installer attributes were sent and that the plugin classes are Public.
+ Ensure the correct DLL file is referenced in the Relative Assembly Path.
+NOTE: The Relative Assembly Path displays the plugin assembly name relative to the UserArea\[WebAppID]\Processes folder, where UserArea is the DSP folder on the application server where all assemblies are stored and WebAppID is the GUID specific to the WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Manage Duplicate Detection</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage-Duplicate-Detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage-Duplicate-Detection/</guid>
+      <description>Manage Duplicate Detection Duplicate Detection is a validation rule included with the DSP® that uses search engine indexes to find possible duplicate records. Unlike most validation rules, which are hard coded views residing in the database, DSP® dynamically builds a derived table at runtime to perform Duplicate Detection. The derived table is treated much the same way as any user-defined validation rule. The results of the query display the same as any other validation results.</description>
+    </item>
+    
+    <item>
+      <title>Manage Failed Jobs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage-Failed-Jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage-Failed-Jobs/</guid>
+      <description> Manage Failed Jobs This section contains the following topics:
+ View Failed Jobs Acknowledge Failed Jobs Start, Stop or Clear Queues  </description>
+    </item>
+    
+    <item>
+      <title>Manage Styles</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage-Styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage-Styles/</guid>
+      <description> Manage Styles The default style for the DSP, Modern Blue, sets the colors, font sizes, and some behavior for the product.
+An Administrator can:
+ Add a Style Set a Default Style for Users Add a Color Add an Image to the DSP® Add or Update Custom Icons for Custom WebApps  </description>
+    </item>
+    
+    <item>
+      <title>Manage WebApp Catalogs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage_Catalogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Manage_Catalogs/</guid>
+      <description>Manage WebApp Catalogs Catalogs provide a means to:
+ Populate and administer translations or alias values Create dynamic help text that displays in the Information pane  Refer to Add Dynamic Help to a Page and Add Column Help Text for more information.
+Catalogs contain groups of WebApp phrases and WebApp phrase translations. They can be tailored to contain a complete WebApp phrase set, a subset of phrases, such as SAP field names, or a larger set of phrases that can be applied to several WebApps.</description>
+    </item>
+    
+    <item>
+      <title>Mark Target and Source Instances</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Mark_Target_and_Source_Instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Mark_Target_and_Source_Instances/</guid>
+      <description>Mark Target and Source Instances Once the instances are set up, the source and target instances have to be marked appropriately. For example, in order to CTS items from the Development instance to the QA instance, mark the source instance as “DEV” and the target instance as “QA.”
+To mark the instances as source and target:
+ Log in to the DSP® source instance.
+ Select Admin &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Merge Language</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Merge-Language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Merge-Language/</guid>
+      <description>Merge Language Use this page to [Merge a Language.](Merge%20a%20Language.htm)  To access this page:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Languages. Click Add. Enter the name of the language in English in the LANGUAGE field. Enter the name of the language as written in the language in the NATIVE NAME field. Click Save. Click the Merge Language button that displays on the newly added row.           Field Description   Language ID Displays the language to be merged.</description>
+    </item>
+    
+    <item>
+      <title>Merge a Language</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Merge-a-Language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Merge-a-Language/</guid>
+      <description>Merge a Language This feature is used by customers who are upgrading to 6.0 who have a custom language that must be merged with a DSP® language delivered with 6.0. For example, if a user had entered Spanish translations prior to 6.0, the Merge Language feature allows the user to merge the translations into the Spanish language delivered with 6.0.
+To merge a language:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Languages.</description>
+    </item>
+    
+    <item>
+      <title>Organize Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Organize_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Organize_Quick_Links/</guid>
+      <description>Organize Quick Links Quick Links can be put in a specific order and grouped together.
+To organize quick links into groups, populate the GROUP field on the Quick Links page. A heading for the group is automatically created in the drop down list of quick links that displays when users click the Quick Link icon on the Site toolbar.
+To configure quick links in a specific order, modify the Priority field on the Quick Links page.</description>
+    </item>
+    
+    <item>
+      <title>Plugin API Functionality</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Plugin-API-Functionality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Plugin-API-Functionality/</guid>
+      <description>Plugin API Functionality The following API functionality is helpful to know and understand when coding the plugin:
+ Connect to the database Read from the database Write to the database  Connect to the Database The mechanism by which the plugin connects to the database is an IDataService object. To establish a connection to the database, create a new instance of the IDataService object and use the Host.GetDataService method.</description>
+    </item>
+    
+    <item>
+      <title>Plugin Functionality</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Plugin-Functionality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Plugin-Functionality/</guid>
+      <description>Plugin Functionality The framework plugin API provides access to information about the current user session, the page from which the plugin is called, as well as several additional functions. These properties and functions can be accessed by the IPluginService object created when the plugin class is called. This object is referenced by typing Host.
+The following are three commonly used classes:
+ Host.Page. – Access page properties and functions Host.</description>
+    </item>
+    
+    <item>
+      <title>Plugins Overview</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Plugins-Overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Plugins-Overview/</guid>
+      <description>Plugins Overview The DSP® provides various ways of extending its capabilities with custom business logic. This section describes how to develop plugins written using Microsoft’s .NET framework and how to configure DSP to use them. The plugin extension model is used to provide capabilities that may be difficult or impossible to express using a stored procedure, for example, to send a file over FTP or to read encrypted column data.</description>
+    </item>
+    
+    <item>
+      <title>Populate an Index</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Populate-an-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Populate-an-Index/</guid>
+      <description>Populate an Index Once an index has been built, it can be populated with data. This step is required before users can search the index or before duplicate detection can take place. Once the index has been fully populated, incremental populations are performed as records are modified.
+To populate an index:
+ Select Admin &amp;gt; Resources &amp;gt; Indices in the Navigation pane.
+ Click Start, a confirmation message displays.</description>
+    </item>
+    
+    <item>
+      <title>Product Licenses</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Product_Licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Product_Licenses/</guid>
+      <description>Product Licenses Use this page to upload a product license file.  To access this page select Admin &amp;gt; Configuration &amp;gt; Product Licenses from the Navigation pane.
+  Field
+ Description
+  Upload a file
+ Displays in the PRODUCT NAME column in the top row. Refer to the product&#39;s Installation and Upgrade Manual for the steps to upload a product license file and further information about product licensing or contact support (http://support.</description>
+    </item>
+    
+    <item>
+      <title>Quick Link Security</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Quick_Links_Security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Quick_Links_Security/</guid>
+      <description> Quick Link Security In order for a quick link to be created, the following criteria must be met:
+ Grant Security to Allow Quick Link Creation
+  Verify Page Security
+ Allow a Quick Link to be Created for a Page
+  </description>
+    </item>
+    
+    <item>
+      <title>Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Quick_Links/</guid>
+      <description> Quick Links Quick links are essentially book marks. Users can create a quick link for a page to quickly and easily pull up the page for future use. Site-level Administrators can create quick links for all users assigned to security role and for individual users.
+To work with Quick Links:
+ Set Quick Links Security
+ Create Quick Links
+ Customize, Organize, and View Quick Links
+  </description>
+    </item>
+    
+    <item>
+      <title>Register Plugin in DSP®</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register-Plugin-in-DSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register-Plugin-in-DSP/</guid>
+      <description>Register Plugin in DSP® Once the plugin is created, it must be registered in the DSP.
+To register a plugin in the DSP:
+ Create a user area folder Register the plugin assembly Access Back End Authentication Register the plugin as an external page  Create User Area Folder The User Area folder is a location for the plugin files on the application server. During the installation of the DSP, the base UserArea folder will be created as follows: [DSP Install Directory]/Web/UserArea/[WebAppID].</description>
+    </item>
+    
+    <item>
+      <title>Register Security Definition</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_Security_Definition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_Security_Definition/</guid>
+      <description>Register Security Definition NOTE: This section only applies to custom components and the three delivered custom components: Construct, MC and dspCompose_Data. After creating the view, the Security Definition is created on the Security Definitions page. On this page, the view created in Create a View is registered along with the necessary description information about the Security Definition. To register the security definition in System Administration:
+ Select Security &amp;gt; Security Definitions &amp;gt; Security Definitions in Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Register Security Definitions to Components (WebApps)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/RegSecurityDefCompsWebApps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/RegSecurityDefCompsWebApps/</guid>
+      <description>Register Security Definitions to Components (WebApps) NOTE: This section only applies to custom components and the three delivered custom components: Construct, MC and dspCompose_Data.
+Once the security definition is fully defined, it is registered to the DSP® component (i.e., the WebApp). This registration limits the records returned on the page for a particular user by the data elements assigned to the user for the security definition. Binding is established between a security definition and the column(s) on the page.</description>
+    </item>
+    
+    <item>
+      <title>Register Workflow Views</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_Workflow_Views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_Workflow_Views/</guid>
+      <description>Register Workflow Views Once the view is created, the view must be registered in the platform. Each row in this view represents one email. If this view includes two rows for a specific key from the source page, two emails are sent.
+To register a workflow view:
+ Select WebApps in theNavigation pane.
+ Click Pages for a WEB APP NAME.
+ Click Events for a DESCRIPTION.
+NOTE: The DESCRIPTION is the name of the page.</description>
+    </item>
+    
+    <item>
+      <title>Register a Data Source</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_a_Data_Source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_a_Data_Source/</guid>
+      <description>Register a Data Source NOTE: It is recommended that data sources be registered in Common instead of System Administration. A Data Services data source must be registered in Common and cannot be registered in System Administration.
+During the installation or implementation of the Data Stewardship Platform (DSP®), additional Data Sources, other than what are provided in the installation package, may be required. This use case provides step-by-step instructions and requirements to configure database connection settings for Data Sources utilized by the DSP®.</description>
+    </item>
+    
+    <item>
+      <title>Register the Object Database (dsw\*) in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_the_Object_Database_dsw__in_System_Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Register_the_Object_Database_dsw__in_System_Administration/</guid>
+      <description>Register the Object Database (dsw*) in System Administration NOTE: Databases should not be added before consulting the on-site DBA or technical lead on the project. Database and server settings and parameters play into the creation of every database and if not set up correctly can lead to severe performance issues.
+To register the object database:
+ Select Admin &amp;gt; Data Sources in Navigation pane.
+ Click Add.
+View the field descriptions for the Data Sources page</description>
+    </item>
+    
+    <item>
+      <title>Review Packing List to Exclude Specific Items</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Review_Packing_List_to_Exclude_Specific_Items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Review_Packing_List_to_Exclude_Specific_Items/</guid>
+      <description>Review Packing List to Exclude Specific Items Once the package is built, review the list of package items to exclude specific items from the package.
+To exclude items from the package:
+ Verify the package was built.
+ From the CTS Build page, click Packing List.
+ Click the button corresponding to the type of item to review (All, User Defined, SQL Object, SQL Script, File, Folder, Data) on the CTS Packing List Summary page.</description>
+    </item>
+    
+    <item>
+      <title>Search for Duplicates</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Search-for-Duplicates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Search-for-Duplicates/</guid>
+      <description>Search for Duplicates Duplicate records are searched the same way a key word is searched. The only difference is the search string is constructed with Duplicate Detection.
+To build the search string, the DSP® extracts the values from each of the columns that have been enabled for Duplicate Detection. The words are concatenated together and separated by the OR logical operator. The search is then performed with this search string just as if it had been manually entered.</description>
+    </item>
+    
+    <item>
+      <title>Security Definition Example</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security_Definition_Example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security_Definition_Example/</guid>
+      <description>Security Definition Example As an example, to create a role that gave access to a technical analyst with access to the dgSAP target that can post Integrate processes defined in the Materials category, the following could be done:
+ Create a Role named “Technical Analyst” Assign the following keys:  Collect Targets – dgSAP Analyze DataSources – dgSAP Integrate Categories – Materials  Assign the following WebApp groups:  Collect – PowerUser Analyze – User Integrate – PowerUser   Any and all users that need the access of a Technical Analyst would then be assigned to the role, thereby giving them access to the necessary components and data within.</description>
+    </item>
+    
+    <item>
+      <title>Security Definitions Delivered with the DSP®</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Definitions-Delivered-with-the-DSP/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Definitions-Delivered-with-the-DSP/</guid>
+      <description>Security Definitions Delivered with the DSP® The DSP® is delivered with the following security definitions:
+         Description Security Definition Name   Analyze DataSources DSPCommon.Analyze.DataSourceID   Collect Targets DSPCommon.Collect.Targets   Integrate Categories DSPCommon.Integrate.Categories   Wave + Process Area Console.Wave_ProcessArea   Wave + Process Area + Object Console.Wave_ProcessArea_Object   Wave + Process Area + Object + Target Console.</description>
+    </item>
+    
+    <item>
+      <title>Security: Successful Authentication (Hourly) Chart</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Successful-Authentication-Hourly-Chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Successful-Authentication-Hourly-Chart/</guid>
+      <description>Security: Successful Authentication (Hourly) Chart This chart displays the number of successful logins into the DSP site for a user by hour.
+To access the chart, select Admin &amp;gt; Security in the Navigation pane.
+Hover the cursor over a selection of a chart to view the number of login attempts for a given hour.
+Click the bar to drill down to the Security: Successful Authentications By Role chart.</description>
+    </item>
+    
+    <item>
+      <title>Security: Successful Authentication By Role User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Successful-Authentication-By-Role-User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Successful-Authentication-By-Role-User/</guid>
+      <description>Security: Successful Authentication By Role User This page displays the date and number of times the selected user successfully logged in to the DSP site.
+To access this page:
+ Select Admin &amp;gt; Security in the Navigation pane. Click the bar in the Security: Successful Authentication (Hourly) Chart page (in the lower pane). Click a bar on the Security: Successful Authentications By Role chart.           Field Description   DATE Displays the date when the User ID last successfully logged in to the DSP site.</description>
+    </item>
+    
+    <item>
+      <title>Security: Successful Authentications By Role Chart</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Successful-Authentication-By-Role-User-Chart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Security-Successful-Authentication-By-Role-User-Chart/</guid>
+      <description>Security: Successful Authentications By Role Chart This chart displays how many users logged in to the DSP site with each security role for a given hour.
+To access the chart:
+ Select Admin &amp;gt; Security in the Navigation pane. Click the bar in the Security: Successful Authentication (Hourly) Chart page (in the lower pane).  Hover the cursor over a selection of a chart to view the number of login attempts for the given role.</description>
+    </item>
+    
+    <item>
+      <title>Set Bulk Execution Parameters</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_Bulk_Execution_Parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_Bulk_Execution_Parameters/</guid>
+      <description>Set Bulk Execution Parameters The Bulk Execution parameters allow the Page Designer to set processing and record limit thresholds to control the load on the server.
+To set Bulk Execution parameters:
+ Select Admin &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.
+ Select the Page Parameters tab.
+ Click Edit.
+View the field descriptions for the Parameters page
+ Enter the value for the Bulk Execution Limit field.</description>
+    </item>
+    
+    <item>
+      <title>Set Forbidden Passwords</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_Forbidden_Passwords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_Forbidden_Passwords/</guid>
+      <description>Set Forbidden Passwords An Administrator can prevent users from adding certain passwords, such as “1234” or “password.”
+If a user attempts to update a password to a value on the Forbidden Passwords page, (e.g., if a user’s password expires and must be reset) an error message displays.
+NOTE: Additional password configuration, such as minimum number of characters or requiring alpha or numeric characters, can be set on the Parameters page.</description>
+    </item>
+    
+    <item>
+      <title>Set Page Security for WebApp Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-Page-Security-for-WebApp_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-Page-Security-for-WebApp_Groups/</guid>
+      <description>Set Page Security for WebApp Groups Rights to view, add, edit or delete data on a page in a WebApp are defined by WebApp groups. Page rights are configured by granting WebApp groups access to any of the following rights:
+ Allow Select – Members of the WebApp group can view the page and data on the page. Users may download the data, if download is supported in the page properties and WebApp Group.</description>
+    </item>
+    
+    <item>
+      <title>Set Security in the DSP®</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Setting_security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Setting_security/</guid>
+      <description> Set Security in the DSP® To set security in the platform:
+ Getting Started with DSP® Security for Delivered Components Getting Started with DSP® Security for Custom Components Create User Accounts WebApp Groups Create WebApp Groups Create Security Definitions Define Security Roles Establish User-Specific Security Definitions Assign Users to a WebApp for Custom Application Development/Customizations  </description>
+    </item>
+    
+    <item>
+      <title>Set Up Service Pages for Service Level Agreements (SLA) in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_Up_Service_Pages_for_Service_Level_Agreements_SLA_in_System_Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_Up_Service_Pages_for_Service_Level_Agreements_SLA_in_System_Administration/</guid>
+      <description>Set Up Service Pages for Service Level Agreements (SLA) in System Administration For dspConduct™, the Request SLA Notification Service page determines which request roles are late to be processed. The Request SLA Notification Workflow and Request SLA Summary Workflow service pages views the records created by Request SLA Notification Service page and sends the workflows necessary for those late request roles.
+If the client site requires workflow notifications, the Request SLA Notification Service page and either the Request SLA Notification Workflow or Request SLA Summary Workflow Service pages must execute.</description>
+    </item>
+    
+    <item>
+      <title>Set a Baseline CTS Configuration for a Custom WebApp</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-a-Baseline-CTS-Configuration-for-a-Custom-WebApp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-a-Baseline-CTS-Configuration-for-a-Custom-WebApp/</guid>
+      <description>Set a Baseline CTS Configuration for a Custom WebApp The CTS Configuration pages contain the settings used by the CTS process to build packages.
+If CTS’ing a custom WebApp, you much set the baseline configuration on the CTS Configure pages before the CTS process can begin.
+NOTE: Do not modify the CTS configurations for delivered DSP® WebApps on these pages. This could break the CTS process for those WebApps.</description>
+    </item>
+    
+    <item>
+      <title>Set a Default Style for Users</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_a_Default_Style_for_Users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_a_Default_Style_for_Users/</guid>
+      <description>Set a Default Style for Users Any user can change their style, by clicking the Gear icon, selecting Settings and choosing a style from the Style ID list box. If the user does not have a style set, the style defined by the Default Style ID on the Parameters page is used.
+To set a default style for users:
+ Select Admin &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Set a Language As Active</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_a_Language_as_Active/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_a_Language_as_Active/</guid>
+      <description>Set a Language As Active Setting a language as active makes it available to use on the Settings panel (accessed by selecting Settings after clicking the Change Settings icon in the Site toolbar) and therefore allows the user to use it on any page.
+To set a language as active:
+ Select Admin &amp;gt; Translations &amp;gt; Languages in the Navigation pane. Click the check box next to the desired language(s); the settings are automatically saved.</description>
+    </item>
+    
+    <item>
+      <title>Set the Default Context for a User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_the_Default_Context_for_a_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_the_Default_Context_for_a_User/</guid>
+      <description>Set the Default Context for a User An Administrator user can set the context (a Wave and Process Area) that a user accesses by default. The current context displays n the Context bar. Refer to Context, the Context Bar, and Navigation for more information.
+To set the default Wave Process Area ID:
+ Log in as the Administrator user.
+ In Console, select Advanced Configuration &amp;gt; User Context Setting in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Set the Default Queue for a Job Type</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-the-Default-Queue-for-a-Job-Type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-the-Default-Queue-for-a-Job-Type/</guid>
+      <description>Set the Default Queue for a Job Type The DSP® is delivered with Job Types that categorize jobs as Background Event, General, Index or Service Page. Each Job Type is associated with a queue which groups similar jobs to run together.
+A user cannot delete or add Job Types, but can update the default queue.
+To configure the default queue:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Job Types in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Set the Language for the Translated Column Name Header in the Excel Template</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_the_Language-in-the-Translated_Column_Header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_the_Language-in-the-Translated_Column_Header/</guid>
+      <description>Set the Language for the Translated Column Name Header in the Excel Template The translated column name heading row and the help text row in the Excel template are translated to the user’s language. A user’s language is set on the My Profile page in the Language field.
+Translations must exist for the language in the DSP, and the the language must be active. Refer to Set a Language as Active for more information.</description>
+    </item>
+    
+    <item>
+      <title>Set the Wildcard Character for Filters</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-the-Wildcard-Character-for-Filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set-the-Wildcard-Character-for-Filters/</guid>
+      <description>Set the Wildcard Character for Filters The wildcard character is used in filters across the DSP® to restrict filter results. The character is * by default.
+The wildcard character matches zero or more characters. The following examples show various uses of the wildcard character and describe the result of each:
+ Web* – Matches values that start with Web.
+ *App – Matches values that end with App.
+ *WebApp* – Matches values that contain the word WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Set up Data Sources for Transform in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_up_Data_Sources_for_Transform_in_System_Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_up_Data_Sources_for_Transform_in_System_Administration/</guid>
+      <description>Set up Data Sources for Transform in System Administration An Administrator must set up data sources in System Administration before Transform can be used.
+To set up a data source:
+ Create the data source under Admin &amp;gt; Data Sources.
+NOTE:For file data source types (Local File, Remote File (FTP), Remote File (HTTP) or Remote File (UNC)), create the folder on the server and modify the data source to include the folder path.</description>
+    </item>
+    
+    <item>
+      <title>Set up Instances</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_up_Instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Set_up_Instances/</guid>
+      <description>Set up Instances Before moving items between instances, the source and target instances must be indicated in the DSP®. The DSP is delivered with DEV, PROD and QA instances set up. If using one of these instance names, only the website address needs to be updated.
+Refer to Mark Target and Source Instances and Configure CTS Passwords for more information.
+To set up instances:
+ Log in to the DSP source instance.</description>
+    </item>
+    
+    <item>
+      <title>Show Quick Links Icon</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Show_Quick_Links_Icon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Show_Quick_Links_Icon/</guid>
+      <description>Show Quick Links Icon To manage and navigate to quick links, the quick links feature must be enabled. Enabling this feature adds a new Quick Links icon to the Site toolbar, which is available even when there are no links defined.
+The user who is using the quick link must log in to the DSP® and follow these steps to display the Quick Links icon.
+NOTE: These steps must be followed regardless of how the quick link is created (either by the logged in user or by a manager creating a quick link for the user or for a security role).</description>
+    </item>
+    
+    <item>
+      <title>Show SQL</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Show_SQL/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Show_SQL/</guid>
+      <description>Show SQL In order to troubleshoot issues with page design, designers can view the SQL used to render the page.
+NOTE: For the Show SQL check box to display, the user must belong to the Designer group in System Administration (Admin &amp;gt; WebApps &amp;gt; System Administration &amp;gt; Groups).
+To show the SQL:
+ Go to any page.
+ Click the Settings menu.
+NOTE: To access the Settings menu, click the gear icon on the Site toolbar.</description>
+    </item>
+    
+    <item>
+      <title>Start, Stop, or Clear Queues</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Start-Stop-or-Clear-Queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Start-Stop-or-Clear-Queues/</guid>
+      <description>Start, Stop, or Clear Queues When troubleshooting issues related to job processing, an Administrator can stop and start queues.
+If a job is processing when the user clicks Stop, processing completes but no new jobs are started in the queue.
+The queue can also be cleared, which removes records from the log that displays on the Recent Service Activity page. If a job is processing when the user clicks Clear Queue, an error results.</description>
+    </item>
+    
+    <item>
+      <title>Stop a Running Index</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Stop-a-Running-Index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Stop-a-Running-Index/</guid>
+      <description> Stop a Running Index Indexing a table can take a long time, so the option to stop a running indexing is available.
+To stop a running index:
+ Select Admin &amp;gt; Resources &amp;gt; Indices in the Navigation pane.
+NOTE: If the index is running, the status displays as Queued and the Stop button is enabled.
+ Click Stop to cancel indexing.
+  </description>
+    </item>
+    
+    <item>
+      <title>Stop and Start Service Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Stop_and_Start_Service_Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Stop_and_Start_Service_Pages/</guid>
+      <description>Stop and Start Service Pages There are no security restrictions for stopping or starting a service page. If the user has access to the Service Pages page, they can start/stop at will.
+Once the service page has begun processing, it cannot be stopped – the Stop button is disabled. If a service page is started accidentally, the user will only be able to stop it while it is in queue.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshoot Translations</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Troubleshoot-Translations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Troubleshoot-Translations/</guid>
+      <description>Troubleshoot Translations If translations have been added to a catalog, but they are not displaying:
+ Try clearing the cache on the Parameters page. Ensure that the problem phrase does not have an incorrect translation stored in a catalog with a more important priority. If a phrase has been entered manually (as in, typed into the catalog) confirm it was entered correctly. Check for a leading or trailing space, or a misplaced comma or period.</description>
+    </item>
+    
+    <item>
+      <title>Unlock User Accounts</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Unlock-User-Accounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Unlock-User-Accounts/</guid>
+      <description>Unlock User Accounts A user account becomes locked after:
+ Ten unsuccessful login attempts. The default value for Maximum Login Attempts, set on the Parameters page, can be updated. After the maximum number of unsuccessful login attempts, the user must wait 300 minutes until the user account and password can be used to log in, unless the Administrator unlocks the account. This Login Attempt Lockout Period can also be updated on the Parameters page.</description>
+    </item>
+    
+    <item>
+      <title>Use Auto Register to Add Users to WebApp Groups Automatically</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Use-Auto-Register-to-Add-Users-to-WebApp-Groups-Automatically/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Use-Auto-Register-to-Add-Users-to-WebApp-Groups-Automatically/</guid>
+      <description>Use Auto Register to Add Users to WebApp Groups Automatically When using Integrated Authentication, if a majority of new users require a common set of WebApp Group memberships, use the Auto Register feature to automatically create users and add them to WebApp Groups when users attempt to access the site for the first time.
+NOTE: Consider the security implications of enabling Auto Register. Anyone with a valid domain login who attempts to access the site will automatically gain permissions to the DSP®.</description>
+    </item>
+    
+    <item>
+      <title>Use Catalogs During Application Development</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Use_Catalogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Use_Catalogs/</guid>
+      <description>Use Catalogs During Application Development DSP® catalogs provide a means to populate and administer translations, help text and alias values at the WebApp and page levels.
+Catalogs exist in the system at these levels:
+ Page-specific Catalogs – Catalogs that exist for a given page. Translations, help text and alias values in these types of catalog are only applicable for the one page to which the catalog is linked. WebApp Catalogs – Catalogs that are created generally in System Administration and are applied to one or many WebApps.</description>
+    </item>
+    
+    <item>
+      <title>Validate Objects</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Validate_Objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Validate_Objects/</guid>
+      <description>Validate Objects On the target instance, validate that the objects moved through the CTS process are available and function properly.</description>
+    </item>
+    
+    <item>
+      <title>Verify Page Security</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Verify_Page_Security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Verify_Page_Security/</guid>
+      <description>Verify Page Security In order for a user to create a quick link for their user profile or for a manager to create a quick link for a security role or another user, the recipient of the quick link must have access to the linked page. Verify page security has been granted before creating a quick link. If the recipient of the quick link can navigate to the page, a quick link can be created for the page.</description>
+    </item>
+    
+    <item>
+      <title>View Data Source Types and Features</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/ViewDataSourceTypesFeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/ViewDataSourceTypesFeatures/</guid>
+      <description>View Data Source Types and Features Data Source Types Data Source Types provide descriptions of the data source types in the DSP. The DSP can use either databases (for example, SqlServer and Oracle) or local and remote file types.
+Database Data Sources ODBC—Generally for databases other than Oracle and Microsoft SQL Server, if the ODBC driver is available.
+OleDB—Generally for databases other than Oracle and Microsoft SQL Server, if the OleDB driver is available.</description>
+    </item>
+    
+    <item>
+      <title>View Failed Jobs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_Failed_Jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_Failed_Jobs/</guid>
+      <description>View Failed Jobs When the Services icon on the Site toolbar is yellow, there is a failed job(s) for a component on the site. View the failed job to determine the cause of the failure and to acknowledge the failed job.
+To view failed jobs, users must be a member of the Administrator, Power Designer or Power User WebApp groups for System Administration.
+There are four ways to view failed jobs:</description>
+    </item>
+    
+    <item>
+      <title>View Logs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Logs-Sys-Admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Logs-Sys-Admin/</guid>
+      <description> View Logs This section contains the following topics:
+ View System Logs View the Workflow Log  </description>
+    </item>
+    
+    <item>
+      <title>View Logs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Logs/</guid>
+      <description>View Logs When logging is enabled, the DSP tracks every page event and every time a page is accessed and logs this information daily in a .CSV file, unless logging for a page has been disabled.
+The logs are stored in a data source defined on the Parameters page on the Logging Options tab.
+To download the current daily log, click the Download Most Recent Log File icon on the Logging Options tab.</description>
+    </item>
+    
+    <item>
+      <title>View Messages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_Messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_Messages/</guid>
+      <description>View Messages If a notification is configured for a user, messages display in the Quick Panel.
+To view messages in the Platform, click Messages on the Quick Panel; the Messages page displays on the right of the page.</description>
+    </item>
+    
+    <item>
+      <title>View Resource Charts in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_Resource_Charts_in_SystemAdmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_Resource_Charts_in_SystemAdmin/</guid>
+      <description>View Resource Charts in System Administration The resource charts in System Administration display a series of charts to help monitor the status, health, wait time and run time of the following resource types:
+ Background Event – The background service controls the job queue General – The job is on the General queue Index – The job is on the Index queue Service Page – The associated Service page controls the job queue  The View Data icon to the right of a chart name opens a pane that displays the alternate text descriptions of chart data in a table.</description>
+    </item>
+    
+    <item>
+      <title>View SQL Server Health Charts</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/SQLServerHealthCharts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/SQLServerHealthCharts/</guid>
+      <description>View SQL Server Health Charts These charts display current data used to monitor system performance, to troubleshoot memory issues, or to assist in performance tuning.
+This dashboard contains the following charts:
+ Database: Current Connections Database: Current Requests Database: File Sizes Database: File Reads Database: File Writes Database: Memory Overview  View the Database: Current Connections Chart Use the Database: Current Connections page to view databases currently connected to the DSP because of file reads, writes, executing processes or other factors.</description>
+    </item>
+    
+    <item>
+      <title>View Security Dashboard in System Administration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Security-Dashboard-in-System-Administration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Security-Dashboard-in-System-Administration/</guid>
+      <description> View Security Dashboard in System Administration The security dashboard in System Administration provides summary information about users logged in to the DSP site.
+The System Admin Security dashboard includes these charts:
+ Security: Successful Authentication (Hourly) Chart Security: Successful Authentications By Role Chart  </description>
+    </item>
+    
+    <item>
+      <title>View System Logs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-System-Logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-System-Logs/</guid>
+      <description>View System Logs A System Administrator can view information about access changes made for entities, authentication attempts when users log in to the DSP®, and changes to system configuration on the System Logs pages.
+When an entity’s security access is changed, the change, such as adding a user to a WebApp Group, is logged on the System Logs (Access Changes) page.
+When a user logs in to the DSP®, the attempt, whether failed or succeeded, is logged on the System Logs (Authentication Attempts) page.</description>
+    </item>
+    
+    <item>
+      <title>View a User’s Assigned Security Definitions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_a_Users_Assigned_Security_Definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_a_Users_Assigned_Security_Definitions/</guid>
+      <description>View a User’s Assigned Security Definitions A user has access to the data associated with a security definition’s keys either through a security role assignment or through a user specific security definition. Refer to Assign Keys to Security Role and Establish User-specific security definitions for more information.
+The User Security Definition Summary page displays the security definitions and keys to which a user is assigned.
+To view the user’s security definition summary:</description>
+    </item>
+    
+    <item>
+      <title>View a User’s Authentications, Property Changes and Access Changes</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-a-Users-Auths-Property-Access-Changes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-a-Users-Auths-Property-Access-Changes/</guid>
+      <description>View a User’s Authentications, Property Changes and Access Changes An Administrator can view the system logs for a user, which detail:
+ Authentications — The connections that used this user’s ID (success and failures) Property Changes — Changes the user made to properties, such as password changes Access Changes — Changes the user made to security settings, such as assignment of security definitions  To access the logs:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>View boaStatus Values</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-boastatus-Values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-boastatus-Values/</guid>
+      <description>View boaStatus Values The DSP® uses the boaStatus column to display information about a record, such as:
+ Whether a record passed or failed validations
+ If a record is new
+ If a record is valid
+ The record&amp;rsquo;s Control Status
+NOTE: A user can set which boaStatuses return 0 (disabled) and which return 1 (enabled), setting whether a column or control is hidden, active, or dimmed. Refer to Set Column Control Status for more information.</description>
+    </item>
+    
+    <item>
+      <title>View the WebApp Groups and WebApp Pages that a User can Access</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_the_WebApp_Groups_and_WebApp_Pages_that_a_User_can_Access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View_the_WebApp_Groups_and_WebApp_Pages_that_a_User_can_Access/</guid>
+      <description>View the WebApp Groups and WebApp Pages that a User can Access WebApp groups define authorization or access on a page by page basis. When a user is assigned to a WebApp group, that group controls which pages the user can access.
+Page rights override WebApp group rights. For example, if the WebApp group permits deletion on a page, but the page security restricts it, users assigned to the WebApp group are unable to delete records from the page.</description>
+    </item>
+    
+    <item>
+      <title>View the Workflow Log</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-the-Workflow-Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-the-Workflow-Log/</guid>
+      <description>View the Workflow Log Each time the DSP® sends a workflow message to a user, it is recorded in the workflow log. The log displays information that can assist in troubleshooting such as whether the workflow was sent successfully, when the workflow was sent, and who received (or should have received) the message.
+Workflow settings for delivered components are configured from within a component. Workflows are sent from dspTrack™, dspMonitor™, dspCompose™, dspConduct™, ISA, and Collect.</description>
+    </item>
+    
+    <item>
+      <title>View where Plugin is Used within the DSP</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Where-Plugin-is-Used/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/View-Where-Plugin-is-Used/</guid>
+      <description>View where Plugin is Used within the DSP When the plugin assembly is registered in the DSP, all plugins within the assembly are automatically brought into the DSP. Users can view the pages within the DSP where the plugins are registered as business rules, validation rules and list data providers (as in, instances where a plugin is used to determine what is displayed in a list box on a DSP page).</description>
+    </item>
+    
+    <item>
+      <title>WebApp Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/WebApp_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/WebApp_Groups/</guid>
+      <description>WebApp Groups All WebApps, also known as components, have three basic WebApp groups:
+ PowerUser – Full access to all pages in the component. The creator of a component is automatically added to this group. As a recommendation, add as few users to this WebApp group as possible. When new pages are created for a component, members of this group are automatically added to the PowerUser WebApp group with full page rights.</description>
+    </item>
+    
+    <item>
+      <title>Workflow Overview</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Use_Cases/Workflow_Views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Use_Cases/Workflow_Views/</guid>
+      <description>Workflow Overview Workflow is an email notification method called from within a WebApp where an email is sent upon the execution of an event. If a workflow requires a user to log in to the platform in order to perform a function, a link can be included in the email to navigate directly to the relevant page in the WebApp.
+Workflow is used in situations where groups, users and fields outside the context of a particular page are needed, or when the decisions to manually send an email are particularly complex.</description>
+    </item>
+    
+  </channel>
+</rss>

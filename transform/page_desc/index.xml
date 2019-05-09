@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/transform/page_desc/</link>
+    <link>https://heathercloward.github.io/Transform/Page_Desc/</link>
     <description>Recent content in Pages on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/transform/page_desc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Transform/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>All Actionable Reports H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_actionable_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Actionable_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_actionable_reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Actionable_Reports/</guid>
       <description>All Actionable Reports H All Actionable Reports V
-Use this page to [View Actionable Reports and Historical Record Count](../Use_Cases/View_Reports.htm#View_Actionable_Reports_and_Historical_Record_Count).  To access this page in Transform:
+Use this page to [View Actionable Reports and Historical Record Count](../Use_Cases/View_Reports#View_Actionable_Reports_and_Historical_Record_Count).  To access this page in Transform:
  Select My Reports &amp;gt; All Reports in the *Navigation* pane. Click the Actionable Reports icon for the desired Object.  NOTE: After a user clicks the Access Report icon and then clicks the View Report icon, the records for the selected report display in the child pane.</description>
     </item>
     
     <item>
       <title>All Business Reports</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_business_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Business_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_business_reports/</guid>
-      <description>All Business Reports Use this page to [View All Reports.](../Use_Cases/View_Reports.htm#View_All_Reports)  To access this page in Transform:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Business_Reports/</guid>
+      <description>All Business Reports Use this page to [View All Reports.](../Use_Cases/View_Reports#View_All_Reports)  To access this page in Transform:
  Select My Reports &amp;gt; All Reports in the *Navigation* pane. Click the All Reports icon for the desired Object.    Field
  Description
   Publish Selected to Quick List
@@ -37,62 +37,62 @@ Use this page to [View Actionable Reports and Historical Record Count](../Use_Ca
     
     <item>
       <title>All Business Reports – All Wave/Process Areas H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_business_reports_all_wave_process_areas/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Business_Reports_All_Wave_Process_Areas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_business_reports_all_wave_process_areas/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Business_Reports_All_Wave_Process_Areas/</guid>
       <description>All Business Reports – All Wave/Process Areas H All Business Reports – All Wave/Process Areas V
-Use this page to [View All Reports Across Waves and Process Areas](../Use_Cases/View_Reports.htm#View_All_Reports_Across_Waves_and_Process_Areas).  To access this page in Transform, select My Reports &amp;gt; All Business Reports
+Use this page to [View All Reports Across Waves and Process Areas](../Use_Cases/View_Reports#View_All_Reports_Across_Waves_and_Process_Areas).  To access this page in Transform, select My Reports &amp;gt; All Business Reports
 (All Wave/Process Areas) in the *Navigation* pane.
 NOTE: After a user clicks the Access Report icon, then clicks the View Report icon, the records for the selected report display.</description>
     </item>
     
     <item>
       <title>All Reports (By Object)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_reports_by_object/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_By_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_reports_by_object/</guid>
-      <description>All Reports (By Object) Use this page to [View All Reports for an Object](../Use_Cases/View_Reports.htm#View_all_Reports_for_an_Object_Target_or_Source).  To access this page in Transform, select My Reports &amp;gt; All Reports in the *Navigation* pane.
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_By_Object/</guid>
+      <description>All Reports (By Object) Use this page to [View All Reports for an Object](../Use_Cases/View_Reports#View_all_Reports_for_an_Object_Target_or_Source).  To access this page in Transform, select My Reports &amp;gt; All Reports in the *Navigation* pane.
          Field Description   OBJECT Displays the Object registered under the current Wave Process Area context.   All Reports Click to open the All Business Reports page to display all reports the current user is assigned to under a given object.</description>
     </item>
     
     <item>
       <title>All Reports (By Source)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_reports_by_source/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_By_Source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_reports_by_source/</guid>
-      <description>All Reports (By Source) Use this page to [View all Reports for a Source.](../Use_Cases/View_Reports.htm#View_all_Reports_for_an_Object_Target_or_Source)  To access this page in Transform:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_By_Source/</guid>
+      <description>All Reports (By Source) Use this page to [View all Reports for a Source.](../Use_Cases/View_Reports#View_all_Reports_for_an_Object_Target_or_Source)  To access this page in Transform:
  Click My Reports &amp;gt; All Reports in the Navigation pane. Click the Targets icon for an object. Click the Sources icon for a target.           Field Description   OBJECT Displays the object containing the source.   TARGET Displays the target containing the source.</description>
     </item>
     
     <item>
       <title>All Reports (By Target)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_reports_by_target/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_By_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_reports_by_target/</guid>
-      <description>All Reports (By Target) Use this page to [View All Reports for a Target.](../Use_Cases/View_Reports.htm#View_all_Reports_for_an_Object_Target_or_Source)  To access this page in Transform:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_By_Target/</guid>
+      <description>All Reports (By Target) Use this page to [View All Reports for a Target.](../Use_Cases/View_Reports#View_all_Reports_for_an_Object_Target_or_Source)  To access this page in Transform:
  Click My Reports &amp;gt; All Reports in the Navigation pane. Click the Targets icon for an object.           Field Description   OBJECT Displays the Object registered under the current Wave Process Area context.   TARGET Displays the target that contains the reports.</description>
     </item>
     
     <item>
       <title>All Reports All Users</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_reports_all_users/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_All_Users/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_reports_all_users/</guid>
-      <description>All Reports All Users Use this page to: - [Assign a User to a Report on Report Delivery Pages](../Use_Cases/Grant_Users_Access_to_Reports_and_Sensitive_Data.htm#Assign_a_User_to_a_Report_on_Report_Delivery_Pages) - [Grant a User Access to Sensitive Data on Report Delivery Pages](../Use_Cases/Grant_Users_Access_to_Reports_and_Sensitive_Data.htm#Grant_a_User_Access_to_Sensitive_Data_on_Report_Delivery_Pages)  To access this page in Transform:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Reports_All_Users/</guid>
+      <description>All Reports All Users Use this page to: - [Assign a User to a Report on Report Delivery Pages](../Use_Cases/Grant_Users_Access_to_Reports_and_Sensitive_Data#Assign_a_User_to_a_Report_on_Report_Delivery_Pages) - [Grant a User Access to Sensitive Data on Report Delivery Pages](../Use_Cases/Grant_Users_Access_to_Reports_and_Sensitive_Data#Grant_a_User_Access_to_Sensitive_Data_on_Report_Delivery_Pages)  To access this page in Transform:
  Click the Targets icon on the *Process Area Launch* page. Click the Reports icon for a Target. Click the Vertical View icon for the report. Click the Business User Settings tab.</description>
     </item>
     
     <item>
       <title>All Reports H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/all_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/All_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/all_reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/All_Reports/</guid>
       <description>All Reports H All Reports V
 This report lists all reports for all Targets and Target Sources for all report types for all contexts. The record count, the date the report last ran, and icons to view and download the report are also included.
 To access this page in Transform, select Reports &amp;gt; All Reports in the *Navigation* pane.
@@ -104,11 +104,11 @@ To access this page in Transform, select Reports &amp;gt; All Reports in the 
     
     <item>
       <title>Assign Filters By User</title>
-      <link>https://heathercloward.github.io/transform/page_desc/assign_filters_by_user/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Assign_Filters_By_User/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/assign_filters_by_user/</guid>
-      <description>Assign Filters By User Use this page to .[Assign a User to a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters.htm#Assign_a_User_to_a_Report_Delivery_Filter).  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Assign_Filters_By_User/</guid>
+      <description>Assign Filters By User Use this page to .[Assign a User to a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters#Assign_a_User_to_a_Report_Delivery_Filter).  To access this page:
  Access Transform.
  Select Configuration &amp;gt; User Filter &amp;gt; User Filter (By User) in the *Navigation* pane.
  Select a user on the User Filters By User Parent page.
@@ -120,21 +120,21 @@ To access this page in Transform, select Reports &amp;gt; All Reports in the 
     
     <item>
       <title>Complexity (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/complexity_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Complexity_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/complexity_setup/</guid>
-      <description>Complexity (Setup) Use this page to [Configure Complexity Values.](../Config/Configure_Complexity_Values.htm)  To access this page, select Configuration &amp;gt; Setup &amp;gt; Complexity (Setup) in the Navigation pane.
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Complexity_Setup/</guid>
+      <description>Complexity (Setup) Use this page to [Configure Complexity Values.](../Config/Configure_Complexity_Values)  To access this page, select Configuration &amp;gt; Setup &amp;gt; Complexity (Setup) in the Navigation pane.
          Field Description   COMPLEXITY Displays the DSP-supplied Complexity Values (Simple, Average, Complex).   FACTOR Displays the conversion factor.   MIGRATION HOURS ESTIMATE Displays the number of hours tasks of this complexity value should take to complete.</description>
     </item>
     
     <item>
       <title>Copy Filter</title>
-      <link>https://heathercloward.github.io/transform/page_desc/copy_filter/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Copy_Filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/copy_filter/</guid>
-      <description>Copy Filter Use this page to [Copy a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters.htm#Copy_a_Report_Delivery_Filter).  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Copy_Filter/</guid>
+      <description>Copy Filter Use this page to [Copy a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters#Copy_a_Report_Delivery_Filter).  To access this page:
  Access Transform.
  Select Configuration &amp;gt; User Filter &amp;gt; User filter (By Filter) in the Navigation pane.
  Select a filter.
@@ -147,10 +147,10 @@ To access this page in Transform, select Reports &amp;gt; All Reports in the 
     
     <item>
       <title>Cutover Plan</title>
-      <link>https://heathercloward.github.io/transform/page_desc/cutover_plan/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Cutover_Plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/cutover_plan/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Cutover_Plan/</guid>
       <description>Cutover Plan This report provides a checklist of all the Source and Target tables in the migration project as well as the data source that stores the Target Source tables.
 To access this page:
  Access Transform. Click Reports in the Navigation plane. Click the Cutover Plan link in the REPORT column.           Field Description   TARGET PRIORITY Displays the order the target is processed.</description>
@@ -158,31 +158,31 @@ To access this page:
     
     <item>
       <title>Debug - Breakpoints</title>
-      <link>https://heathercloward.github.io/transform/page_desc/debug_breakpoints/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Debug_Breakpoints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/debug_breakpoints/</guid>
-      <description>Debug - Breakpoints Use this page to [Debug Rules and Reports Using Breakpoints](../Use_Cases/Debug_Rules_and_Reports_using_Brkpnts.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Debug_Breakpoints/</guid>
+      <description>Debug - Breakpoints Use this page to [Debug Rules and Reports Using Breakpoints](../Use_Cases/Debug_Rules_and_Reports_using_Brkpnts).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Select a Target. Click the Debug icon on the Page toolbar.           Field Description   Process Click to process the job until the next breakpoint.   Clear Breakpoints Click to remove all breakpoints.</description>
     </item>
     
     <item>
       <title>Debug - Breakpoints (Target Sources)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/debug_breakpoints_target_sources/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Debug_Breakpoints_Target_Sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/debug_breakpoints_target_sources/</guid>
-      <description>Debug - Breakpoints (Target Sources) Use this page to [Debug Rules and Reports Using Breakpoints](../Use_Cases/Debug_Rules_and_Reports_using_Brkpnts.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Debug_Breakpoints_Target_Sources/</guid>
+      <description>Debug - Breakpoints (Target Sources) Use this page to [Debug Rules and Reports Using Breakpoints](../Use_Cases/Debug_Rules_and_Reports_using_Brkpnts).  To access this page:
  Access Transform. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Debug icon on the Page toolbar on the *Target Sources page, the Target Source Reports page, or the Target Source Rules* page.           Field Description   Process Click to process the job until the next breakpoint.</description>
     </item>
     
     <item>
       <title>Filter Column and Values</title>
-      <link>https://heathercloward.github.io/transform/page_desc/filter_column_and_values/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Filter_Column_and_Values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/filter_column_and_values/</guid>
-      <description>Filter Column and Values Use this page to .[Create Report Delivery Filters.](../Use_Cases/Report_Delivery_Filters.htm#Create_Report_Delivery_Filters)  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Filter_Column_and_Values/</guid>
+      <description>Filter Column and Values Use this page to .[Create Report Delivery Filters.](../Use_Cases/Report_Delivery_Filters#Create_Report_Delivery_Filters)  To access this page:
  Access Transform. Select Configuration &amp;gt; User Filter &amp;gt; User Filter (By Filter) in the *Navigation* pane.    Field
  Description
   COLUMN NAME
@@ -193,61 +193,61 @@ To access this page:
     
     <item>
       <title>Filters</title>
-      <link>https://heathercloward.github.io/transform/page_desc/filters/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Filters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/filters/</guid>
-      <description>Filters Use this page to: - [Create Report Delivery Filters](../Use_Cases/Report_Delivery_Filters.htm#Create_Report_Delivery_Filters) - [Add a User to a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters.htm#Assign_a_User_to_a_Report_Delivery_Filter)  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Filters/</guid>
+      <description>Filters Use this page to: - [Create Report Delivery Filters](../Use_Cases/Report_Delivery_Filters#Create_Report_Delivery_Filters) - [Add a User to a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters#Assign_a_User_to_a_Report_Delivery_Filter)  To access this page:
  Access Transform. Select Configuration &amp;gt; User Filter &amp;gt; User Filter (By Filter) in the *Navigation* pane.           Field Description   Copy Filter Click to copy an existing filter.   NAME Displays the name of the filter.</description>
     </item>
     
     <item>
       <title>Import / Export Types (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/import_export_types_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Import_Export_Types_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/import_export_types_setup/</guid>
-      <description>Import / Export Types (Setup) Use this page to [Configure Import/Export Types](../Config/Configure_Import_Export_Types.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Import_Export_Types_Setup/</guid>
+      <description>Import / Export Types (Setup) Use this page to [Configure Import/Export Types](../Config/Configure_Import_Export_Types).  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Import / Export Types (Setup) in the *Navigation* pane.           Field Description   TYPE Displays the resource that can be imported or exported in Transform. The DSP-supplied values are Database, Collect, Flat File, and Manual.</description>
     </item>
     
     <item>
       <title>Load Types (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/load_type_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Load_Type_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/load_type_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Load_Type_Setup/</guid>
       <description>Load Types (Setup) This page displays the load types used for Transform exports. It is for informational purposes only.  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Load Types (Setup) in the *Navigation* pane.           Field Description   LOAD TYPE Displays the method or tool Transform uses to load data into the target system.   ACTIVE If checked, the load type is available for use with Transform exports.</description>
     </item>
     
     <item>
       <title>Milestone Objects H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/milestone_objects_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Milestone_Objects_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/milestone_objects_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Milestone_Objects_H/</guid>
       <description>Milestone Objects H Milestone Objects V
-Use this page to [Create Milestones](../Use_Cases/Create_Milestones.htm).  To access this page:
+Use this page to [Create Milestones](../Use_Cases/Create_Milestones).  To access this page:
  Access Transform. Select Tracking &amp;gt; Milestones in the *Navigation* pane. Click the Objects icon for a Milestone.           Field Description   OBJECT Displays the name of the object as created in Console and captured for the milestone selected on the Milestones page.</description>
     </item>
     
     <item>
       <title>Milestones</title>
-      <link>https://heathercloward.github.io/transform/page_desc/milestones/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Milestones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/milestones/</guid>
-      <description>Milestones Use this page to [Create Milestones](../Use_Cases/Create_Milestones.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Milestones/</guid>
+      <description>Milestones Use this page to [Create Milestones](../Use_Cases/Create_Milestones).  To access this page:
  Access Transform. Select Tracking &amp;gt; Milestones in the *Navigation *pane.           Field Description   DESCRIPTION Displays a name entered for the milestone.   COMMENT Displays user-entered comments about the milestone.   CAPTURED ON Displays the date the milestone was captured.   CAPTURE Click to record the milestone, which includes a snapshot of record counts for targets, sources, rules and reports.</description>
     </item>
     
     <item>
       <title>Monitor H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/monitor_transform_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Monitor_Transform_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/monitor_transform_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Monitor_Transform_H/</guid>
       <description>Monitor H Monitor V
 Use this page to [Monitor Jobs](../Use_Cases/Monitor_Jobs.htm).  To access this page:
  Access Transform. Click Monitor in the *Navigation* pane.           Field Description   Tasks Click to open the Tasks page where tasks associated with the job display. The count indicates the total number of tasks for the process.   Continue Click to restart a failed job (after correcting the error) at the fixed rule.</description>
@@ -255,10 +255,10 @@ Use this page to [Monitor Jobs](../Use_Cases/Monitor_Jobs.htm).  To access this 
     
     <item>
       <title>Object (Metrics)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/object_metrics/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Object_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/object_metrics/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Object_Metrics/</guid>
       <description>Object (Metrics) This report provides a view of the objects developed each week. This feature can be used to monitor the activity within each object and, more specifically, each Target.
 To access this page:
  Access Transform. Select Tracking &amp;gt; Object (Metrics) in the *Navigation* pane.           Field Description   PERIOD TYPE Displays the year and week the object was added.</description>
@@ -266,20 +266,20 @@ To access this page:
     
     <item>
       <title>Object Documentation</title>
-      <link>https://heathercloward.github.io/transform/page_desc/object_documentation/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Object_Documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/object_documentation/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Object_Documentation/</guid>
       <description>Object Documentation Use this page to [Generate Documentation for Objects.](../Use_Cases/Generate_Documentation.htm)  To access this page:
  Access Transform. Click the Objects icon on the Process Area Launch page. Click the Vertical View icon or an Object. Click the Generated Documentation icon.           Field Description   REPORT Click to view the Object Documentation Reports page to view a list of all audit reports that have been generated for the object.</description>
     </item>
     
     <item>
       <title>Object Documentation Reports</title>
-      <link>https://heathercloward.github.io/transform/page_desc/object_documentation_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Object_Documentation_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/object_documentation_reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Object_Documentation_Reports/</guid>
       <description>Object Documentation Reports Use this page to [View and Download Generated Documentation for Objects.](../Use_Cases/Generate_Documentation.htm)  To access this page:
  Access Transform. Click the Objects icon on the Process Area Launch page. Click the Vertical Viewicon for an Object. Click the Generated Documentation icon. Click the Generate Audit Documentation icon.    Field
  Description
@@ -290,20 +290,20 @@ NOTE: Audit reports are the only type of documentation that can be generated for
     
     <item>
       <title>Object Estimates (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/object_estimates_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Object_Estimates_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/object_estimates_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Object_Estimates_Setup/</guid>
       <description>Object Estimates (Setup) Use this page to [Configure Object Estimates](../Config/Configure_Object_Estimates.htm).  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Object Estimates (Setup) in the Navigation pane.           Field Description   OBJECT TYPE Displays the object type (as in the report or rule) that can have estimates calculated.   COUNT ESTIMATE Displays the factor used in calculating the estimates in metric reports.</description>
     </item>
     
     <item>
       <title>Objects</title>
-      <link>https://heathercloward.github.io/transform/page_desc/objects/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Objects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/objects/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Objects/</guid>
       <description>Objects NOTE: There is another page is Transform called Objects used to work with objects.
 Use this page to access the [Target All Errors Report](Target_All_Errors_Report.htm).  To access this page in Transform:
  Select My Reports &amp;gt; All Reports in the Navigation pane. Click the Errors By Target icon.           Field Description   WAVE Displays the wave that contains the target for which reports are generated.</description>
@@ -311,10 +311,10 @@ Use this page to access the [Target All Errors Report](Target_All_Errors_Report.
     
     <item>
       <title>Objects H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/objects_htransform/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Objects_HTransform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/objects_htransform/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Objects_HTransform/</guid>
       <description>Objects H Objects V
 Use this page to [Work with Objects](../Use_Cases/Work_with_Objects.htm).  To access this page in Transform, select the Objects icon on the *Process Area Launch* page.
   Field
@@ -325,10 +325,10 @@ Use this page to [Work with Objects](../Use_Cases/Work_with_Objects.htm).  To ac
     
     <item>
       <title>Process Area Launch</title>
-      <link>https://heathercloward.github.io/transform/page_desc/process_area_launch/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Process_Area_Launch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/process_area_launch/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Process_Area_Launch/</guid>
       <description>Process Area Launch Use this page to [Access Transform](../Config/Access_Transform.htm).  To access this page, Access Transform.
 Field
 Description
@@ -342,10 +342,10 @@ Click to open the Objects page to edit the object’s priority, view the targets
     
     <item>
       <title>Report Access (By Report, By User)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/report_access_by_report_by_user/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Report_Access_By_Report_By_User/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/report_access_by_report_by_user/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Report_Access_By_Report_By_User/</guid>
       <description>Report Access (By Report, By User) Use this page to [View the Report User Access Dashboard](../Use_Cases/View_the_Report_User_Access_Dashboard.htm).  To access this page:
  Access Transform. Select Tracking &amp;gt; Report User Access Dashboard in the *Navigation* pane.    Field
  Description
@@ -357,10 +357,10 @@ Click to open the Objects page to edit the object’s priority, view the targets
     
     <item>
       <title>Report Quick List H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/report_quick_list/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Report_Quick_List/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/report_quick_list/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Report_Quick_List/</guid>
       <description>Report Quick List H Report Quick List V
 Use this page to [Add a Report to the Report Quick List.](../Use_Cases/Add_a_Report_to_the_Report_Quick_List.htm)  To access this page, select My Reports &amp;gt;Report Quick List in the *Navigation* pane.
 NOTE: After a user clicks the Access Report icon, then clicks the View Report icon, the records for the selected report display. This page is also called Report Quick List, but the fields on this page update based on the errors on the target reports.</description>
@@ -368,30 +368,30 @@ NOTE: After a user clicks the Access Report icon, then clicks the View Report ic
     
     <item>
       <title>Report Readiness Notification</title>
-      <link>https://heathercloward.github.io/transform/page_desc/report_readiness_notification/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Report_Readiness_Notification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/report_readiness_notification/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Report_Readiness_Notification/</guid>
       <description>Report Readiness Notification Use this page to: - [Assign a User as a Notification Recipient](../Use_Cases/Configure_Notifications_for_Report_Readiness.htm#Assign_a_User_as_a_Notification_Recipient) - [Configure Subject and Body of the Notification](../Use_Cases/Configure_Notifications_for_Report_Readiness.htm#Configure_Subject_and_Body_of_the_Notification) - [Send Notification Manually](../Use_Cases/Configure_Notifications_for_Report_Readiness.htm#Send_Notifications_Manually)  To access this page in Transform:
  Click the Objects icon on the *Process Area Launch* page. Click the Report Readiness Notification icon.           Field Description   Add Recipient Click to add any highlighted user as a message recipient.</description>
     </item>
     
     <item>
       <title>Report Run Historical Record Count</title>
-      <link>https://heathercloward.github.io/transform/page_desc/report_run_historical_record_count/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Report_Run_Historical_Record_Count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/report_run_historical_record_count/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Report_Run_Historical_Record_Count/</guid>
       <description> Report Run Historical Record Count Use this page to view the number of records on the report selected on the *[All Business Reports](All_Business_Reports.htm)* page for each run of the report over time.  To access the chart:
  Select Transform &amp;gt; My Reports &amp;gt; All Reports in the Navigation pane. Click the All Reports icon for an object. Click the History icon for a report.  </description>
     </item>
     
     <item>
       <title>Report Types (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/report_types_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Report_Types_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/report_types_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Report_Types_Setup/</guid>
       <description>Report Types (Setup) Use this page to [Add Report Types](../Config/Add_Report_Types.htm).  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Report Types (Setup) in the *Navigation* pane.    Field
  Description
@@ -402,50 +402,50 @@ This name is an option in the REPORT TYPE list box on the Target Reports and Tar
     
     <item>
       <title>Report User Access Log</title>
-      <link>https://heathercloward.github.io/transform/page_desc/report_user_access_log/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Report_User_Access_Log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/report_user_access_log/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Report_User_Access_Log/</guid>
       <description>Report User Access Log Use this page to [View the Report User Access Log](../Use_Cases/View_the_Report_User_Access_Log.htm).  To access this page:
  Access Transform. Select Tracking &amp;gt; Report User Access Log in the *Navigation* pane.           Field Description   Wave Displays the name of the Wave the target is assigned to.   Process Area Displays the name of the Process Area the selected report is assigned to.</description>
     </item>
     
     <item>
       <title>Reports</title>
-      <link>https://heathercloward.github.io/transform/page_desc/reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Reports/</guid>
       <description> Reports To access this page:
  Access Transform. Click Reports in the Navigation plane.           Field Description   PRIORITY Displays the report’s priority, which is the order the report displays on the Reports page.   REPORT Click the report name to open the report.    </description>
     </item>
     
     <item>
       <title>Reports – Never Viewed</title>
-      <link>https://heathercloward.github.io/transform/page_desc/reports_never_viewed/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Reports_Never_Viewed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/reports_never_viewed/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Reports_Never_Viewed/</guid>
       <description>Reports – Never Viewed Use this page to [View the Reports – Never Viewed](../Use_Cases/View_the_Reports_Never_Viewed.htm).  To access this page:
  Access Transform. Select Tracking &amp;gt; Reports - Never Viewed in the Navigation pane.           Field Description   Wave Displays the name of the Wave the target is assigned to.   Process Area Displays the name of the Process Area the selected report is assigned to.</description>
     </item>
     
     <item>
       <title>Reports – Updated Not Viewed (By User)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/reports_updated_not_viewed_by_user/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Reports_Updated_Not_viewed_By_User/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/reports_updated_not_viewed_by_user/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Reports_Updated_Not_viewed_By_User/</guid>
       <description>Reports – Updated Not Viewed (By User) Use this page to [View the Reports – Updated Not Viewed (By User)](../Use_Cases/View_the_Reports_Updated_Not_Viewed_By_User.htm).  To access this page:
  Access Transform. Select Tracking &amp;gt; Reports - Updated Not Viewed (By User) in the Navigation pane.           Field Description   WAVE Displays the name of the Wave the target is assigned to.   PROCESS AREA Displays the name of the Process Area the selected report is assigned to.</description>
     </item>
     
     <item>
       <title>Sample Sizes (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/sample_sizes_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Sample_Sizes_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/sample_sizes_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Sample_Sizes_Setup/</guid>
       <description>Sample Sizes (Setup) Use this page to [Configure Sample Size.](../Config/Configure_Sample_Size.htm)  To access this page:
  Access Transform.
  Select Configuration &amp;gt; Setup &amp;gt; Sampling Methods(Setup) in the *Navigation* pane.
@@ -456,20 +456,20 @@ NOTE: Using the number of records in your table, locate the range that it falls
     
     <item>
       <title>Sampling Methods (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/sampling_methods_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Sampling_Methods_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/sampling_methods_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Sampling_Methods_Setup/</guid>
       <description>Sampling Methods (Setup) Use this page to [Configure Sampling Methods.](../Config/Configure_Sampling_Methods.htm)  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Sampling Methods (Setup) in the *Navigation* pane.           Field Description   DESCRIPTION Displays the name of the sampling method to use when selecting random rows of data for verification during the audit process.   ACTIVE If checked, the sampling method is available in the Sample Method list box on the Process Information tab on the Target Report page’s Vertical View and can be used to select a sample of data from a target report to verify.</description>
     </item>
     
     <item>
       <title>Score Card (Metrics)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/score_card_metrics/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Score_Card_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/score_card_metrics/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Score_Card_Metrics/</guid>
       <description>Score Card (Metrics) This report displays the status of the Data Migration Management Team and is typically provided to the PMO. The report has very high level traffic light indicators (green, yellow and red) to reflect the status of each object.
 To access this page:
  Access Transform. Select Tracking &amp;gt; Score Card (Metrics) in the *Navigation* pane.           Field Description   OBJECT ID Displays the name of the Wave, Process Area, and object as created in Console.</description>
@@ -477,20 +477,20 @@ To access this page:
     
     <item>
       <title>Score Card Limits (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/score_card_limits_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Score_Card_Limits_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/score_card_limits_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Score_Card_Limits_Setup/</guid>
       <description>Score Card Limits (Setup) Use this page to [Configure Score Card Limits](../Config/Configure_Score_Card_Limits.htm).  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Score Card Limits (Setup) in the *Navigation* pane.           Field Description   SEVERITY Displays the severity of a metric status.   IMAGE Displays the image associated with the score card limit severity.   ERROR REPORT Displays the number of error reports generated to define this severity.</description>
     </item>
     
     <item>
       <title>Source (Errors) H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/source_errors/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Source_Errors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/source_errors/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Source_Errors/</guid>
       <description>Source (Errors) H Source (Errors) V
 This report lists all Target Source reports for all contexts that are error reports. Report types of Error and Target Readiness display on this report. The record count, the date the report last ran, and icons to view and download the report are also included.
 NOTE: When a user accesses the Source (Errors) report in the Navigation pane, the fields below display. When a user clicks View on the Source (Errors) page to view report data, the report title still reads Source (Errors) even though the columns that display depend on the columns on the generated report.</description>
@@ -498,10 +498,10 @@ NOTE: When a user accesses the Source (Errors) report in the Navigation pane, th
     
     <item>
       <title>Source (Info) H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/source_info/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Source_Info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/source_info/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Source_Info/</guid>
       <description>Source (Info) H Source (Info) V
 This report lists all Target Source reports for all contexts that are info reports. All report types that are not error report types (Error and Target Readiness) display on this report page. The record count, the date the report last ran, and icons to view and download the report are also included
 NOTE: When a user accesses the Source (Info) report in the Navigation pane, the fields below display.</description>
@@ -509,20 +509,20 @@ NOTE: When a user accesses the Source (Info) report in the Navigation pane, the 
     
     <item>
       <title>Status (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/status_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Status_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/status_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Status_Setup/</guid>
       <description>Status (Setup) Use this page to [View Status](../Config/View_Status.htm).  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Status (Setup) in the Navigation pane.           Field Description   STATUS Displays a unique identifier associated with the status.   DESCRIPTION Displays the status name.   EXECUTE If checked, an object in that status will be processed.</description>
     </item>
     
     <item>
       <title>Target (Errors) H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_errors/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Errors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_errors/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Errors/</guid>
       <description>Target (Errors) H Target (Errors) V
 This report lists all Target reports for all contexts that are error reports. Report types of Error and Target Readiness display on this report page. The record count, the last date the report ran, and icons to view and download the report are also included.
 NOTE: When a user accesses the Target (Errors) report in the Navigation pane, the fields below display. When a user clicks View on the Target (Errors) page to view report data, the report title still reads Target (Errors) even though the columns that display depend on the columns on the generated report.</description>
@@ -530,10 +530,10 @@ NOTE: When a user accesses the Target (Errors) report in the Navigation pane, th
     
     <item>
       <title>Target (Info) H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_info/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Info/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_info/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Info/</guid>
       <description>Target (Info) H Target (Info) V
 This report lists all Target reports for all contexts that are info reports. All report types that are not error report types (Error and Target Readiness) display on this report page. The record count, the last date the report ran, and icons to view and download the report are also included.
 NOTE: When a user accesses the Target (Info) report in the Navigation pane, the fields below display.</description>
@@ -541,20 +541,20 @@ NOTE: When a user accesses the Target (Info) report in the Navigation pane, the 
     
     <item>
       <title>Target All Errors Report</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_all_errors_report/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_All_Errors_Report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_all_errors_report/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_All_Errors_Report/</guid>
       <description>Target All Errors Report Use this page to [View all Reports for a Target.](../Use_Cases/View_Reports.htm#View_all_Reports_for_an_Object_Target_or_Source)  To access this page in Transform:
  Select My Reports &amp;gt; All Reports in the Navigation pane. Click the Errors By Target icon.  NOTE; After a user clicks the Generate Report icon then the View Target All Errors Report, the report records display on a page that is also named Target All Errors report.</description>
     </item>
     
     <item>
       <title>Target Data Services Remediation H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_ds_remediation_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Remediation_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_ds_remediation_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Remediation_H/</guid>
       <description>Target Data Services Remediation H Target Data Services Remediation V All Tabs
 Use this page to [Register Target Data Services Remediation Rules](../Use_Cases/Register_Target_DS_Remediation_Rules.htm).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Data Services Reports icon for a Target. Click the Vertical View icon for a report. Click the Remediation Information tab. Click the Remediation icon.    Field</description>
@@ -562,10 +562,10 @@ Use this page to [Register Target Data Services Remediation Rules](../Use_Cases/
     
     <item>
       <title>Target Data Services Remediation Overview</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_ds_remediation_overview/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Remediation_Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_ds_remediation_overview/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Remediation_Overview/</guid>
       <description>Target Data Services Remediation Overview Use this page to [View Data Services Remediation Rule Information](../Use_Cases/View_DS_Remediation_Rule_Information.htm).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Data Services Remediation icon for the selected target.  Field
 Description
@@ -577,10 +577,10 @@ Click to open the Target Data Services Remediation Setup page to edit remediatio
     
     <item>
       <title>Target Data Services Remediation Setup</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_ds_remediation_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Remediation_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_ds_remediation_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Remediation_Setup/</guid>
       <description>Target Data Services Remediation Setup Use this page to [View Data Services Remediation Rule Information](../Use_Cases/View_DS_Remediation_Rule_Information.htm).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Data Services Remediation icon for the selected Target. Click Edit.  Field
 Description
@@ -592,20 +592,20 @@ Displays the name of the report that the rule will be applied to.</description>
     
     <item>
       <title>Target Data Services Report Segments</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_data_services_report_segments/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Data_Services_Report_Segments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_data_services_report_segments/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Data_Services_Report_Segments/</guid>
       <description>Target Data Services Report Segments Use this page to [Assign a User to a Report Segment](../Use_Cases/Target_Report_Segments.htm#Assign_a_User_to_a_Target_Report_Segment).  To access this page:
  Access Transform. Click the Targets icon on the Process Area Launch page. Click the Data Services Reports icon for a Target. Click the Vertical View icon for a specified report. Click the Segments icon.           Field Description   SEGMENT BY FIELD Displays the report field whose distinct values will determine the number of segments and in turn the segment value for each segment.</description>
     </item>
     
     <item>
       <title>Target Data Services Reports H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_data_services_reports_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Data_Services_Reports_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_data_services_reports_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Data_Services_Reports_H/</guid>
       <description>Target Data Services Reports H Target Data Services Reports V
 Use this page to [Grant a User Access to Sensitive Data on Report Delivery Pages](../Use_Cases/Grant_Users_Access_to_Reports_and_Sensitive_Data.htm#Grant_a_User_Access_to_Sensitive_Data_on_Report_Delivery_Pages).  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
 To access this page in Transform:
@@ -614,10 +614,10 @@ To access this page in Transform:
     
     <item>
       <title>Target Data Services Rule Audit H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_ds_rule_audit_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Rule_Audit_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_ds_rule_audit_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Rule_Audit_H/</guid>
       <description>Target Data Services Rule Audit H NOTE: This page is not used in this product release.
 Target Data Services Rule Audit V (All Tabs)
 To access this page:
@@ -630,20 +630,20 @@ To access this page:
     
     <item>
       <title>Target Data Services Rule Global Variables</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_ds_rule_global_variables/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Rule_Global_Variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_ds_rule_global_variables/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_DS_Rule_Global_Variables/</guid>
       <description>Target Data Services Rule Global Variables Use this page to [configure target Data Services rule global variables](../Use_Cases/Configure_Target_DS_Rule_Global_Var.htm).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Data Services Rules icon for a Target. Click the Vertical View icon for the Data Services rule. Click the Global Variables icon; the Target Data Services Rule Global Variables page displays.           Field Description   NAME Displays the variable name.</description>
     </item>
     
     <item>
       <title>Target Data Services Rules H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_data_services_rules_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Data_Services_Rules_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_data_services_rules_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Data_Services_Rules_H/</guid>
       <description>Target Data Services Rules H Target Data Services Rules V
 Use this page to [Add Target Data Services Rules](../Use_Cases/Add_Target_DS_Rules.htm).  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
 To access this page:
@@ -653,30 +653,30 @@ To access this page:
     
     <item>
       <title>Target Documentation</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_documentation/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_documentation/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Documentation/</guid>
       <description>Target Documentation Use this page to [Generate Documentation for Targets.](../Use_Cases/Generate_Documentation.htm)  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Vertical View icon for a Target. Click the Generated Documentationicon.           Field Description   OBJECT ID Displays the name of the object as created in Console.   TARGET ID Displays the name of the target table.</description>
     </item>
     
     <item>
       <title>Target Documentation Reports</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_documentation_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Documentation_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_documentation_reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Documentation_Reports/</guid>
       <description>Target Documentation Reports Use this page to [View and Download Generated Documentation for Targets.](../Use_Cases/Generate_Documentation.htm)  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Vertical View icon for a Target. Click the Generated Documentation icon.           Field Description   REPORT Displays the type of report: Recon, Audit or Technical.   GENERATED ON Displays the date and time the report was generated on the Target Documentation page.</description>
     </item>
     
     <item>
       <title>Target Exports H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_exports_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Exports_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_exports_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Exports_H/</guid>
       <description>Target Exports H Target Exports V All Tabs
 Use this page to [Add Target Exports](../Use_Cases/Add_Target_Exports.htm).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Exports icon for a Target.    Field
@@ -688,10 +688,10 @@ NOTE: This icon is dimmed when the export type is Integrate</description>
     
     <item>
       <title>Target Remediation H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_remediation_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Remediation_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_remediation_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Remediation_H/</guid>
       <description>Target Remediation H Target Remediation V All Tabs
 Use this page to [Register Target Remediation Rules](../Use_Cases/Register_Target_Remediation_Rules.htm).  To access this page:
  Access Transform. Click the Targetsicon on the *Process Area Launch* page. Click the Reports icon for a Target. Click the Vertical View icon for a report. Click the Remediation Information tab. Click the Remediation icon.    Field
@@ -702,10 +702,10 @@ Use this page to [Register Target Remediation Rules](../Use_Cases/Register_Targe
     
     <item>
       <title>Target Remediation Overview</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_remediation_overview/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Remediation_Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_remediation_overview/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Remediation_Overview/</guid>
       <description>Target Remediation Overview Use this page to [View Remediation Rule Information](../Use_Cases/View_Remediation_Rule_Information.htm).  To access this page:
  Access Transform.
  Click the Targets icon on the *Process Area Launch* page.
@@ -720,10 +720,10 @@ Displays the name of the target table.</description>
     
     <item>
       <title>Target Remediation Setup</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_remediation_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Remediation_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_remediation_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Remediation_Setup/</guid>
       <description>Target Remediation Setup Use this page to [View Remediation Rule Information](../Use_Cases/View_Remediation_Rule_Information.htm).  To access this page:
  Access Transform. Click the Targets icon on the Process Area Launch page. Click the TR icon for the selected target. Click the pencil icon under the E column for a target on the Target Remediation Overview page.  Field
 Description
@@ -735,10 +735,10 @@ Displays the name of the report that the rule will be applied to.</description>
     
     <item>
       <title>Target Report Segment User Assignment</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_report_segment_user_assignment/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Report_Segment_User_Assignment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_report_segment_user_assignment/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Report_Segment_User_Assignment/</guid>
       <description>Target Report Segment User Assignment Use this page to [Assign a User to a Target Report Segment](../Use_Cases/Target_Report_Segments.htm#Assign_a_User_to_a_Target_Report_Segment).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Reports icon for a Target. Click the Vertical View icon for a specified report. Click the Business User Settings tab. Click the Business User Segment Assignment icon.    Field
  Description</description>
@@ -746,10 +746,10 @@ Displays the name of the report that the rule will be applied to.</description>
     
     <item>
       <title>Target Report Segments</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_report_segments/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Report_Segments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_report_segments/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Report_Segments/</guid>
       <description>Target Report Segments Use this page to [Assign a User to a Report Segment](../Use_Cases/Target_Report_Segments.htm#Assign_a_User_to_a_Target_Report_Segment).  To access this page:
  Access Transform.
  Click the Targets icon on the *Process Area Launch* page.
@@ -762,10 +762,10 @@ NOTE: The Business User Segment Assignment icon only displays after the report h
     
     <item>
       <title>Target Reports H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_reports_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Reports_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_reports_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Reports_H/</guid>
       <description>Target Reports H Target Reports V All Tabs
 Use this page to [Add Target Reports](../Use_Cases/Add_Target_Reports.htm).  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
 To access this page in Transform:
@@ -777,20 +777,20 @@ To access this page in Transform:
     
     <item>
       <title>Target Reports Segments</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_reports_segments/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Reports_Segments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_reports_segments/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Reports_Segments/</guid>
       <description>Target Reports Segments Use this page to view target report segments while [Creating Target Report Segments.](../Use_Cases/Target_Report_Segments.htm)  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Reports icon for a Target. Click the Vertical View icon for a specified report. Click the Segments icon.           Field Description   SEGMENT BY FIELD Displays the report field whose distinct values will determine the number of segments and in turn the segment value for each segment.</description>
     </item>
     
     <item>
       <title>Target Rule (Audit)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_rule_audit_report/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Rule_Audit_Report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_rule_audit_report/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Rule_Audit_Report/</guid>
       <description>Target Rule (Audit) This report lists all Target audit reports for all contexts. The record count, the date the report last ran, and icons to view and download the report are also included.
 To access this page:
  Access Transform. Select Reports &amp;gt; Target Rule (Audit)in the *Navigation*pane.    Field
@@ -801,10 +801,10 @@ To access this page:
     
     <item>
       <title>Target Rule Audit H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_rule_audit_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Rule_Audit_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_rule_audit_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Rule_Audit_H/</guid>
       <description>Target Rule Audit H Target Rule Audit V (All Tabs)
 Use this page when [Adding Target Audit Rules](../Use_Cases/Add_Target_Audit_Rules.htm).  To access this page:
 Access Transform.
@@ -816,10 +816,10 @@ Access Transform.
     
     <item>
       <title>Target Rules H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_rules_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Rules_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_rules_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Rules_H/</guid>
       <description>Target Rules H Target Rules V All Tabs
 Use this page to [Add Target Rules](../Use_Cases/Add_Target_Rules.htm).  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
 To access this page:
@@ -831,30 +831,30 @@ To access this page:
     
     <item>
       <title>Target Source Documentation</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_source_documentation/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_source_documentation/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Documentation/</guid>
       <description>Target Source Documentation Use this page to [Generate Documentation for Target Sources.](../Use_Cases/Generate_Documentation.htm)  To access this page in Transform:
  Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Vertical View icon for a source. Click the Generated Documentation icon.           Field Description   REPORT Click to view the Target Source Documentation Reports page to view a list of all audit reports that have been generated for the Target Source.</description>
     </item>
     
     <item>
       <title>Target Source Documentation Reports</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_source_documentation_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Documentation_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_source_documentation_reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Documentation_Reports/</guid>
       <description>Target Source Documentation Reports Use this page to [View and Download Generate Documentation for Target Sources.](../Use_Cases/Generate_Documentation.htm)  To access this page in Transform:
  Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Vertical View icon for a source. Click the Generated Documentation icon. Click the Generate Audit Documentation icon.           Field Description   REPORT Displays the type of report, which is Audit.</description>
     </item>
     
     <item>
       <title>Target Source Reports H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_source_reports_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Reports_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_source_reports_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Reports_H/</guid>
       <description>Target Source Reports H Target Source Reports V All Tabs
 Use this page to: - [Add Target Source Reports](../Use_Cases/Add_Target_Source_Reports.htm) - [Publish Reports to Report Delivery Pages](../Use_Cases/Publish_Reports_to_Report_Delivery_Pages.htm)  NOTE: Bulk Execution has been enabled on this page. See the Bulk Execution topic in System Administration for more information.
 To access this page in Transform:
@@ -863,10 +863,10 @@ To access this page in Transform:
     
     <item>
       <title>Target Source Rule Audit H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_source_rule_audit/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Rule_Audit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_source_rule_audit/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Rule_Audit/</guid>
       <description>Target Source Rule Audit H Target Source Rule Audit V (All Tabs)
 Use this page to [Add Source Audit Rules](../Use_Cases/Add_Source_Audit_Rules.htm).  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page. Click the Sources icon for a Target. Click the Rules icon for a Target Source. Click the Vertical View icon for a rule. Click the Documentation tab. Click the Audit icon.           Field Description   STATUS Displays the status of the Target Source audit report.</description>
@@ -874,10 +874,10 @@ Use this page to [Add Source Audit Rules](../Use_Cases/Add_Source_Audit_Rules.ht
     
     <item>
       <title>Target Source Rules H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_source_rules_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Rules_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_source_rules_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Source_Rules_H/</guid>
       <description>Target Source Rules H Target Source Rules V (All Tabs)
 Use the page to [Add Target Source Rules](../Use_Cases/Add_Target_Source_Rules.htm).  NOTE: Bulk Execution has been enabled on this page. See the Bulk Execution topic in System Administration for more information.
 To access this page:
@@ -886,10 +886,10 @@ To access this page:
     
     <item>
       <title>Target Sources H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_sources_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Sources_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_sources_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Sources_H/</guid>
       <description>Target Sources H Target Sources V All Tabs
 Use this page to [Manage Target Sources](../Use_Cases/Manage_Target_Sources.htm).  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
 To access this page:
@@ -901,20 +901,20 @@ To access this page:
     
     <item>
       <title>Target Types (Setup)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/target_types_setup/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Target_Types_Setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/target_types_setup/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Target_Types_Setup/</guid>
       <description>Target Types (Setup) Use this page to [Configure Target Types](../Config/Configure_Target_Types.htm).  To access this page:
  Access Transform. Select Configuration &amp;gt; Setup &amp;gt; Target Types (Setup) in the *Navigation* pane.           Field Description   TARGET TYPE Displays a category for the target.   START Displays the start date of the deployment. This field is not verified by Transform and is for informational purposes only.</description>
     </item>
     
     <item>
       <title>Targets H</title>
-      <link>https://heathercloward.github.io/transform/page_desc/targets_h/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Targets_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/targets_h/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Targets_H/</guid>
       <description>Targets H Targets V All Tabs
 Use this page to: - [Manage Targets](../Use_Cases/Manage_Targets.htm) - [Edit the Priority and Publish Setting](../Use_Cases/Edit_the_Priority_and_Publish_Setting.htm) - [Grant a User Access to Sensitive Data on Report Delivery Pages](../Use_Cases/Grant_Users_Access_to_Reports_and_Sensitive_Data.htm#Grant_a_User_Access_to_Sensitive_Data_on_Report_Delivery_Pages)  To access this page:
  Access Transform. Click the Targets icon on the *Process Area Launch* page.    Field
@@ -925,70 +925,70 @@ Use this page to: - [Manage Targets](../Use_Cases/Manage_Targets.htm) - [Edit th
     
     <item>
       <title>Tasks</title>
-      <link>https://heathercloward.github.io/transform/page_desc/tasks/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/tasks/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Tasks/</guid>
       <description>Tasks Use this page to [Monitor Jobs](../Use_Cases/Monitor_Jobs.htm).  To access this page:
  Access Transform. Click Monitor in the Navigation pane. Click the Tasks icon on the Page toolbar.           Field Description   STATUS Displays the status of the task.   TITLE Displays the task title.   START TIME Displays the date and time the task started processing.</description>
     </item>
     
     <item>
       <title>Trend Summary</title>
-      <link>https://heathercloward.github.io/transform/page_desc/trend_summary/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/trend_summary/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary/</guid>
       <description>Trend Summary NOTE: For data to display on the Trend Summary reports (Tracking &amp;gt; Summary) and the Summary Type charts (Process Area Launch &amp;gt; Change Summary), the following must happen:
  Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”. A milestone must be captured.</description>
     </item>
     
     <item>
       <title>Trend Summary (Error Reports)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/trend_summary_error_reports/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Error_Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/trend_summary_error_reports/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Error_Reports/</guid>
       <description>Trend Summary (Error Reports) NOTE: For data to display on the Trend Summary reports (Tracking &amp;gt; Summary) and the Summary Type charts (Process Area Launch &amp;gt; Change Summary), the following must happen:
  Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”. A milestone must be captured.</description>
     </item>
     
     <item>
       <title>Trend Summary (Procedures)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/trend_summary_procedures/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Procedures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/trend_summary_procedures/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Procedures/</guid>
       <description>Trend Summary (Procedures) NOTE: For data to display on the Trend Summary reports (Tracking &amp;gt; Summary) and the Summary Type charts (Process Area Launch &amp;gt; Change Summary), the following must happen:
  Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”. A milestone must be captured.</description>
     </item>
     
     <item>
       <title>Trend Summary (Tables)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/trend_summary_tables/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/trend_summary_tables/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Tables/</guid>
       <description>Trend Summary (Tables) NOTE: For data to display on the Trend Summary reports (Tracking &amp;gt; Summary) and the Summary Type charts (Process Area Launch &amp;gt; Change Summary), the following must happen:
  Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”. A milestone must be captured.</description>
     </item>
     
     <item>
       <title>Trend Summary (Views)</title>
-      <link>https://heathercloward.github.io/transform/page_desc/trend_summary_views/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Views/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/trend_summary_views/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Trend_Summary_Views/</guid>
       <description>Trend Summary (Views) NOTE: For data to display on the Trend Summary reports (Tracking &amp;gt; Summary) and the Summary Type charts (Process Area Launch &amp;gt; Change Summary), the following must happen:
  Trace must be turned on for the tables, views, functions and procedure counts. Refer to Activate and Deactivate Data Sources for more information. For Transform, trace should be activated for the databases beginning with “dsw”. A milestone must be captured.</description>
     </item>
     
     <item>
       <title>User Filter User Assignment</title>
-      <link>https://heathercloward.github.io/transform/page_desc/user_filter_user_assignment/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/User_Filter_User_Assignment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/user_filter_user_assignment/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/User_Filter_User_Assignment/</guid>
       <description>User Filter User Assignment Use this page to [Add a User to a Report Delivery Filter](../Use_Cases/Report_Delivery_Filters.htm#Assign_a_User_to_a_Report_Delivery_Filter).  To access this page:
  Access Transform. Select Configuration &amp;gt; User Filter &amp;gt; User Filter (By Filter) in the *Navigation* pane. Click the Business User Assignment icon for a filter.    Field
  Description
@@ -999,10 +999,10 @@ Use this page to: - [Manage Targets](../Use_Cases/Manage_Targets.htm) - [Edit th
     
     <item>
       <title>User Filters By User Parent</title>
-      <link>https://heathercloward.github.io/transform/page_desc/user_filters_by_user_parent/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/User_Filters_By_User_Parent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/user_filters_by_user_parent/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/User_Filters_By_User_Parent/</guid>
       <description>User Filters By User Parent Use this page to [Create Report Delivery Filters](../Use_Cases/Report_Delivery_Filters.htm#Create_Report_Delivery_Filters).  To access this page:
  Access Transform. Select Configuration &amp;gt; User Filter &amp;gt; User Filter (By User) in the *Navigation* pane.    Field
  Description
@@ -1014,10 +1014,10 @@ Use this page to: - [Manage Targets](../Use_Cases/Manage_Targets.htm) - [Edit th
     
     <item>
       <title>Workflow Template</title>
-      <link>https://heathercloward.github.io/transform/page_desc/workflow_template_transform/</link>
+      <link>https://heathercloward.github.io/Transform/Page_Desc/Workflow_Template_Transform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/transform/page_desc/workflow_template_transform/</guid>
+      <guid>https://heathercloward.github.io/Transform/Page_Desc/Workflow_Template_Transform/</guid>
       <description>Workflow Template Use this page to [Configure Subject and Body of the Report Readiness Notification.](../Use_Cases/Configure_Notifications_for_Report_Readiness.htm#Configure_Subject_and_Body_of_the_Notification)  To access this page in Transform:
  Click the Objects icon on the *Process Area Launch* page. Click the Report Readiness Notification icon for an Object. Click the Workflow Template icon on the Page toolbar.           Field Description   Reset Workflow Template to Default Click to reset any customizations made to the workflow subject and body back to their shipped defaults.</description>
     </item>

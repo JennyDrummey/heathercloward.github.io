@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Parameters :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,130 +126,133 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/automate/" class="active">Automate Overview</a>
+        <a href="/Automate/" class="active">Automate Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/automate/page_desc/" class="active">Pages</a>
+        <a href="/Automate/Page_Desc/" class="active">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/automate/page_desc/disposition/" class="">Disposition</a></li>
+                <a href="/Automate/Page_Desc/Disposition/" class="">Disposition</a></li>
         
             <li >
-                <a href="/automate/page_desc/event_types/" class="">Event Types</a></li>
+                <a href="/Automate/Page_Desc/Event_Types/" class="">Event Types</a></li>
         
             <li >
-                <a href="/automate/page_desc/file_format_types/" class="">File Format Types</a></li>
+                <a href="/Automate/Page_Desc/File_Format_Types/" class="">File Format Types</a></li>
         
             <li >
-                <a href="/automate/page_desc/file_modification_types/" class="">File Modification Types</a></li>
+                <a href="/Automate/Page_Desc/File_Modification_Types/" class="">File Modification Types</a></li>
         
             <li >
-                <a href="/automate/page_desc/file_operations/" class="">File Operations H</a></li>
+                <a href="/Automate/Page_Desc/File_Operations/" class="">File Operations H</a></li>
         
             <li >
-                <a href="/automate/page_desc/history/" class="">History</a></li>
+                <a href="/Automate/Page_Desc/History/" class="">History</a></li>
         
             <li >
-                <a href="/automate/page_desc/history_chart/" class="">History (Chart)</a></li>
+                <a href="/Automate/Page_Desc/History_Chart/" class="">History (Chart)</a></li>
         
             <li >
-                <a href="/automate/page_desc/history_detail/" class="">History (Detail) V</a></li>
+                <a href="/Automate/Page_Desc/History_Detail/" class="">History (Detail) V</a></li>
         
             <li >
-                <a href="/automate/page_desc/history_failed_detail/" class="">History Failed (Detail) H</a></li>
+                <a href="/Automate/Page_Desc/History_Failed_Detail/" class="">History Failed (Detail) H</a></li>
         
             <li >
-                <a href="/automate/page_desc/interface_event_validations/" class="">Interface Event (Validations) H</a></li>
+                <a href="/Automate/Page_Desc/Interface_Event_Validations/" class="">Interface Event (Validations) H</a></li>
         
             <li >
-                <a href="/automate/page_desc/interface_events/" class="">Interface Events H</a></li>
+                <a href="/Automate/Page_Desc/Interface_Events/" class="">Interface Events H</a></li>
         
             <li >
-                <a href="/automate/page_desc/interface_history/" class="">Interface History H</a></li>
+                <a href="/Automate/Page_Desc/Interface_History/" class="">Interface History H</a></li>
         
             <li >
-                <a href="/automate/page_desc/interface_validations/" class="">Interface Validations H</a></li>
+                <a href="/Automate/Page_Desc/Interface_Validations/" class="">Interface Validations H</a></li>
         
             <li >
-                <a href="/automate/page_desc/interfaces/" class="">Interfaces H</a></li>
+                <a href="/Automate/Page_Desc/Interfaces/" class="">Interfaces H</a></li>
         
             <li >
-                <a href="/automate/page_desc/log/" class="">Log H</a></li>
+                <a href="/Automate/Page_Desc/Log/" class="">Log H</a></li>
         
             <li >
-                <a href="/automate/page_desc/logging_modules/" class="">Logging Modules</a></li>
+                <a href="/Automate/Page_Desc/Logging_Modules/" class="">Logging Modules</a></li>
         
             <li >
-                <a href="/automate/page_desc/logging_severities/" class="">Logging Severities H</a></li>
+                <a href="/Automate/Page_Desc/Logging_Severities/" class="">Logging Severities H</a></li>
         
             <li >
-                <a href="/automate/page_desc/logical_path_instance/" class="">Logical Path (Instance) H</a></li>
+                <a href="/Automate/Page_Desc/Logical_Path_Instance/" class="">Logical Path (Instance) H</a></li>
         
             <li >
-                <a href="/automate/page_desc/logical_path_instance_browse/" class="">Logical Path Instance (Browse)</a></li>
+                <a href="/Automate/Page_Desc/Logical_Path_Instance_Browse/" class="">Logical Path Instance (Browse)</a></li>
         
             <li >
-                <a href="/automate/page_desc/logical_paths/" class="">Logical Paths H</a></li>
+                <a href="/Automate/Page_Desc/Logical_Paths/" class="">Logical Paths H</a></li>
         
             <li >
-                <a href="/automate/page_desc/monitor_events/" class="">Monitor (Events) H</a></li>
+                <a href="/Automate/Page_Desc/Monitor_Events/" class="">Monitor (Events) H</a></li>
         
             <li >
-                <a href="/automate/page_desc/monitor_h/" class="">Monitor H</a></li>
+                <a href="/Automate/Page_Desc/Monitor_H/" class="">Monitor H</a></li>
         
             <li >
-                <a href="/automate/page_desc/parameters/" class="uk-active">Parameters</a></li>
+                <a href="/Automate/Page_Desc/Parameters/" class="uk-active">Parameters</a></li>
         
             <li >
-                <a href="/automate/page_desc/purpose/" class="">Purpose</a></li>
+                <a href="/Automate/Page_Desc/Purpose/" class="">Purpose</a></li>
         
             <li >
-                <a href="/automate/page_desc/reports/" class="">Reports</a></li>
+                <a href="/Automate/Page_Desc/Reports/" class="">Reports</a></li>
         
             <li >
-                <a href="/automate/page_desc/role_instance/" class="">Role (Instance)</a></li>
+                <a href="/Automate/Page_Desc/Role_Instance/" class="">Role (Instance)</a></li>
         
             <li >
-                <a href="/automate/page_desc/roles/" class="">Roles</a></li>
+                <a href="/Automate/Page_Desc/Roles/" class="">Roles</a></li>
         
             <li >
-                <a href="/automate/page_desc/stored_procedure/" class="">Stored Procedure</a></li>
+                <a href="/Automate/Page_Desc/Stored_Procedure/" class="">Stored Procedure</a></li>
         
             <li >
-                <a href="/automate/page_desc/tasks/" class="">Tasks</a></li>
+                <a href="/Automate/Page_Desc/Tasks/" class="">Tasks</a></li>
         
             <li >
-                <a href="/automate/page_desc/transport_types_h/" class="">Transport Types H</a></li>
+                <a href="/Automate/Page_Desc/Transport_Types_H/" class="">Transport Types H</a></li>
         
             <li >
-                <a href="/automate/page_desc/uom/" class="">UOM</a></li>
+                <a href="/Automate/Page_Desc/UOM/" class="">UOM</a></li>
         
             <li >
-                <a href="/automate/page_desc/webapp_event/" class="">WebApp Event</a></li>
+                <a href="/Automate/Page_Desc/WebApp_Event/" class="">WebApp Event</a></li>
         
             <li >
-                <a href="/automate/page_desc/workflow/" class="">Workflow</a></li>
+                <a href="/Automate/Page_Desc/Workflow/" class="">Workflow</a></li>
         
             <li >
-                <a href="/automate/page_desc/workflow_email/" class="">Workflow (Email)</a></li>
+                <a href="/Automate/Page_Desc/Workflow_Email/" class="">Workflow (Email)</a></li>
         
             <li >
-                <a href="/automate/page_desc/workflow_links/" class="">Workflow Links</a></li>
+                <a href="/Automate/Page_Desc/Workflow_Links/" class="">Workflow Links</a></li>
         
     </ul>
     </li>
@@ -253,124 +262,124 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/automate/use_cases/" class="">Procedures</a>
+        <a href="/Automate/Use_Cases/" class="">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/automate/use_cases/about_automate_events/" class="">About Automate Events</a></li>
+                <a href="/Automate/Use_Cases/About_Automate_Events/" class="">About Automate Events</a></li>
         
             <li >
-                <a href="/automate/use_cases/activate_interfaces_events/" class="">Activate Interfaces, Events and Validations</a></li>
+                <a href="/Automate/Use_Cases/Activate_Interfaces_Events/" class="">Activate Interfaces, Events and Validations</a></li>
         
             <li >
-                <a href="/automate/use_cases/add_file_operations/" class="">Add File Operations</a></li>
+                <a href="/Automate/Use_Cases/Add_File_Operations/" class="">Add File Operations</a></li>
         
             <li >
-                <a href="/automate/use_cases/add_logging_modules/" class="">Add Logging Modules</a></li>
+                <a href="/Automate/Use_Cases/Add_Logging_Modules/" class="">Add Logging Modules</a></li>
         
             <li >
-                <a href="/automate/use_cases/add_logical_paths/" class="">Add Logical Paths</a></li>
+                <a href="/Automate/Use_Cases/Add_Logical_Paths/" class="">Add Logical Paths</a></li>
         
             <li >
-                <a href="/automate/use_cases/add_roles/" class="">Add Roles</a></li>
+                <a href="/Automate/Use_Cases/Add_Roles/" class="">Add Roles</a></li>
         
             <li >
-                <a href="/automate/use_cases/assign_users_to_roles/" class="">Assign Users to Roles</a></li>
+                <a href="/Automate/Use_Cases/Assign_Users_to_Roles/" class="">Assign Users to Roles</a></li>
         
             <li >
-                <a href="/automate/use_cases/browse_ftp_site_or_path/" class="">Browse FTP Site or Path</a></li>
+                <a href="/Automate/Use_Cases/Browse_FTP_Site_or_Path/" class="">Browse FTP Site or Path</a></li>
         
             <li >
-                <a href="/automate/use_cases/configure_automate_parameters/" class="">Configure Automate Parameters</a></li>
+                <a href="/Automate/Use_Cases/Configure_Automate_Parameters/" class="">Configure Automate Parameters</a></li>
         
             <li >
-                <a href="/automate/use_cases/configure_automate_service/" class="">Configure Automate Service Pages</a></li>
+                <a href="/Automate/Use_Cases/Configure_Automate_Service/" class="">Configure Automate Service Pages</a></li>
         
             <li >
-                <a href="/automate/use_cases/configure_interface/" class="">Configure Interface</a></li>
+                <a href="/Automate/Use_Cases/Configure_Interface/" class="">Configure Interface</a></li>
         
             <li >
-                <a href="/automate/use_cases/configure_logging_severities/" class="">Configure Logging Severities</a></li>
+                <a href="/Automate/Use_Cases/Configure_Logging_Severities/" class="">Configure Logging Severities</a></li>
         
             <li >
-                <a href="/automate/use_cases/copy_files_from_one_folder_to_another/" class="">Copy Files from One Folder to Another</a></li>
+                <a href="/Automate/Use_Cases/Copy_Files_from_One_Folder_to_Another/" class="">Copy Files from One Folder to Another</a></li>
         
             <li >
-                <a href="/automate/use_cases/create_an_interface/" class="">Create an Interface</a></li>
+                <a href="/Automate/Use_Cases/Create_an_Interface/" class="">Create an Interface</a></li>
         
             <li >
-                <a href="/automate/use_cases/help_with_command_timeouts/" class="">Help with Command Timeouts</a></li>
+                <a href="/Automate/Use_Cases/Help_with_Command_Timeouts/" class="">Help with Command Timeouts</a></li>
         
             <li >
-                <a href="/automate/use_cases/monito_file_operations/" class="">Monitor File Operations</a></li>
+                <a href="/Automate/Use_Cases/Monito_File_Operations/" class="">Monitor File Operations</a></li>
         
             <li >
-                <a href="/automate/use_cases/monitor_i_o_operations/" class="">Monitor I/O Operations H</a></li>
+                <a href="/Automate/Use_Cases/Monitor_I_O_Operations/" class="">Monitor I/O Operations H</a></li>
         
             <li >
-                <a href="/automate/use_cases/monitor_interfaces_events/" class="">Monitor Interfaces &amp; Events</a></li>
+                <a href="/Automate/Use_Cases/Monitor_Interfaces_Events/" class="">Monitor Interfaces &amp; Events</a></li>
         
             <li >
-                <a href="/automate/use_cases/notification_options/" class="">Notification Options</a></li>
+                <a href="/Automate/Use_Cases/Notification_Options/" class="">Notification Options</a></li>
         
             <li >
-                <a href="/automate/use_cases/re_start_a_running_interface/" class="">Re-start a Running Interface</a></li>
+                <a href="/Automate/Use_Cases/Re_start_a_Running_Interface/" class="">Re-start a Running Interface</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_external_process_validations/" class="">Register External Process Validations</a></li>
+                <a href="/Automate/Use_Cases/Register_External_Process_Validations/" class="">Register External Process Validations</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_interface_events/" class="">Register Interface Events</a></li>
+                <a href="/Automate/Use_Cases/Register_Interface_Events/" class="">Register Interface Events</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_interface_validations/" class="">Register Interface Validations</a></li>
+                <a href="/Automate/Use_Cases/Register_Interface_Validations/" class="">Register Interface Validations</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_stored_procedure_events/" class="">Register Stored Procedure Events</a></li>
+                <a href="/Automate/Use_Cases/Register_Stored_Procedure_Events/" class="">Register Stored Procedure Events</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_stored_procedure_validations/" class="">Register Stored Procedure Validations</a></li>
+                <a href="/Automate/Use_Cases/Register_Stored_Procedure_Validations/" class="">Register Stored Procedure Validations</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_view_validations/" class="">Register View Validations</a></li>
+                <a href="/Automate/Use_Cases/Register_View_Validations/" class="">Register View Validations</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_webapp_events/" class="">Register WebApp Events</a></li>
+                <a href="/Automate/Use_Cases/Register_WebApp_Events/" class="">Register WebApp Events</a></li>
         
             <li >
-                <a href="/automate/use_cases/register_workflow_events/" class="">Register Workflow Events</a></li>
+                <a href="/Automate/Use_Cases/Register_Workflow_Events/" class="">Register Workflow Events</a></li>
         
             <li >
-                <a href="/automate/use_cases/run_interface_events_sequentially/" class="">Run Interface Events Sequentially</a></li>
+                <a href="/Automate/Use_Cases/Run_Interface_Events_Sequentially/" class="">Run Interface Events Sequentially</a></li>
         
             <li >
-                <a href="/automate/use_cases/schedule_interfaces/" class="">Schedule Interfaces</a></li>
+                <a href="/Automate/Use_Cases/Schedule_Interfaces/" class="">Schedule Interfaces</a></li>
         
             <li >
-                <a href="/automate/use_cases/set_retry_parameters/" class="">Set Retry Parameters</a></li>
+                <a href="/Automate/Use_Cases/Set_Retry_Parameters/" class="">Set Retry Parameters</a></li>
         
             <li >
-                <a href="/automate/use_cases/set_up_automate_security/" class="">Set Up Automate Security</a></li>
+                <a href="/Automate/Use_Cases/Set_Up_Automate_Security/" class="">Set Up Automate Security</a></li>
         
             <li >
-                <a href="/automate/use_cases/set_up_notifications_for_an_interface/" class="">Set Up Notifications for an Interface</a></li>
+                <a href="/Automate/Use_Cases/Set_Up_Notifications_for_an_Interface/" class="">Set Up Notifications for an Interface</a></li>
         
             <li >
-                <a href="/automate/use_cases/set_up_a_looping_process/" class="">Set up a Looping Process</a></li>
+                <a href="/Automate/Use_Cases/Set_up_a_Looping_Process/" class="">Set up a Looping Process</a></li>
         
             <li >
-                <a href="/automate/use_cases/setup_and_configuration_for_automate/" class="">Setup and Configuration for Automate</a></li>
+                <a href="/Automate/Use_Cases/Setup_and_Configuration_for_Automate/" class="">Setup and Configuration for Automate</a></li>
         
             <li >
-                <a href="/automate/use_cases/test_interfaces/" class="">Test Interfaces</a></li>
+                <a href="/Automate/Use_Cases/Test_Interfaces/" class="">Test Interfaces</a></li>
         
             <li >
-                <a href="/automate/use_cases/view_history_of_an_interface/" class="">View History of an Interface</a></li>
+                <a href="/Automate/Use_Cases/View_History_of_an_Interface/" class="">View History of an Interface</a></li>
         
             <li >
-                <a href="/automate/use_cases/view_logs_for_an_interface/" class="">View Logs for an Interface</a></li>
+                <a href="/Automate/Use_Cases/View_Logs_for_an_Interface/" class="">View Logs for an Interface</a></li>
         
     </ul>
     </li>
@@ -391,7 +400,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Platform</a></li>
-        <li><a>Automate</a></li>
+        <li><a href="/Automate">Automate</a></li>
         <li><span>Parameters</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -403,7 +412,7 @@
 <div class="use">
 
 Use this page to [Configure Automate
-Parameters](../Use_Cases/Configure_Automate_Parameters.htm).
+Parameters](../Use_Cases/Configure_Automate_Parameters).
 
 </div>
 
@@ -440,7 +449,7 @@ interface notification emails.</p>
 <p>History Retention Days</p>
 
 <p>Displays the number of days the interface instance information is
-saved/displayed on the <em><a href="Interface_History.htm">Interface History</a></em>
+saved/displayed on the <em><a href="Interface_History">Interface History</a></em>
 page.</p>
 
 <p>Instance</p>
@@ -449,9 +458,9 @@ page.</p>
 
 <p><strong>NOTE:</strong> The Instance selected MUST match the Instance field in 2
 additional places for email notifications to properly work: on the
-<em><a href="Role_Instance.htm">Role (Instance)</a></em> page in Automate and on the
-<em><a href="../../Sys_Admin/Page_Desc/Parameters_All_TabsSysAdmin.htm">Parameters</a></em>
-page in System Administration. Refer to <a href="../Use_Cases/Set_Up_Notifications_for_an_Interface.htm">Set Up Notifications for an
+<em><a href="Role_Instance">Role (Instance)</a></em> page in Automate and on the
+<em><a href="../../Sys_Admin/Page_Desc/Parameters_All_TabsSysAdmin">Parameters</a></em>
+page in System Administration. Refer to <a href="../Use_Cases/Set_Up_Notifications_for_an_Interface">Set Up Notifications for an
 Interface</a> for
 more information.</p>
 
@@ -476,22 +485,22 @@ more information.</p>
 <p>Storage Level</p>
 
 <p>Displays lowest level of logging Severity that is written to the
-<em><a href="Log.htm">Log</a></em> page. For example, with a Storage Level set to
+<em><a href="Log">Log</a></em> page. For example, with a Storage Level set to
 “40-Info,” all logging severities 40 and above are written to the log.</p>
 
 <p>If Debug Mode is enabled for an interface, Storage Level is ignored and
 only tasks with severities of Debug and higher are written to the
-interfaces <em><a href="Log.htm">Log</a></em> page.</p>
+interfaces <em><a href="Log">Log</a></em> page.</p>
 
 <p>Reporting By Importance Level</p>
 
 <p>Displays the severity for which tasks are written to the interface’s
-importance <em><a href="Log.htm">Log</a></em> (History &gt; Important). Tasks with the
+importance <em><a href="Log">Log</a></em> (History &gt; Important). Tasks with the
 selected severity and above display in the importance log.</p>
 
 <p>Modules</p>
 
-<p>Click to open the <em><a href="Logging_Modules.htm">Logging Modules</a></em> page. Storage
+<p>Click to open the <em><a href="Logging_Modules">Logging Modules</a></em> page. Storage
 can be configured by module name. For example, by default store only
 information, except where module name = ABC, then store starting at the
 debug level.</p>
@@ -499,11 +508,49 @@ debug level.</p>
 <p>Log Tasks</p>
 
 <p>If checked, start and finish tasks for running events, the interface,
-etc. are stored in the interface’s <em><a href="Log.htm">Log</a></em> page.</p>
+etc. are stored in the interface’s <em><a href="Log">Log</a></em> page.</p>
 
 <p>If unchecked, start and finish tasks are not written to the interface’s
-<em><a href="Log.htm">Log</a></em> page.</p>
+<em><a href="Log">Log</a></em> page.</p>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -521,13 +568,14 @@ etc. are stored in the interface’s <em><a href="Log.htm">Log</a></em> page.</p
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -535,12 +583,12 @@ etc. are stored in the interface’s <em><a href="Log.htm">Log</a></em> page.</p
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -553,18 +601,20 @@ etc. are stored in the interface’s <em><a href="Log.htm">Log</a></em> page.</p
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

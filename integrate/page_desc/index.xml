@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/integrate/page_desc/</link>
+    <link>https://heathercloward.github.io/Integrate/Page_Desc/</link>
     <description>Recent content in Pages on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/integrate/page_desc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Integrate/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BAPI\\RFC Definition</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bapi-rfc-definition/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BAPI-RFC-Definition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bapi-rfc-definition/</guid>
-      <description>BAPI\RFC Definition Use this page while configuring a [BAPI template](../Use_Cases/Configure_a_BAPI_Template.htm) or an [RFC template](../Use_Cases/Configure_a_RFC_Template.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BAPI-RFC-Definition/</guid>
+      <description>BAPI\RFC Definition Use this page while configuring a [BAPI template](../Use_Cases/Configure_a_BAPI_Template) or an [RFC template](../Use_Cases/Configure_a_RFC_Template).  To access this page:
  Click Categories in the Navigation pane. Click the Template icon for a BAPI or RFC template. Click Vertical View. Click the Configuration tab. Click the BAPI/RFC Definition icon.    Field
  Description
   RFC Documentation
@@ -25,31 +25,31 @@
     
     <item>
       <title>BAPI\\RFC Definition: Field</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bapi-rfc-definition-field/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BAPI-RFC-Definition-Field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bapi-rfc-definition-field/</guid>
-      <description>BAPI\RFC Definition: Field Use this page to view the fields for a loop in a BAPI\\RFC definition while configuring a [BAPI](../Use_Cases/Configure_a_BAPI_Template.htm) or [RFC](../Use_Cases/Configure_a_RFC_Template.htm) template.  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BAPI-RFC-Definition-Field/</guid>
+      <description>BAPI\RFC Definition: Field Use this page to view the fields for a loop in a BAPI\\RFC definition while configuring a [BAPI](../Use_Cases/Configure_a_BAPI_Template) or [RFC](../Use_Cases/Configure_a_RFC_Template) template.  To access this page:
  Click Categories in the Navigation pane. Click the Template icon for a BAPI or RFC template. Click Vertical View. Click the Configuration tab. Click the BAPI/RFC Definition icon. Click the BAPI Fields icon.    Field
  Description</description>
     </item>
     
     <item>
       <title>BDC Post Methods and Settings on the Advanced tab</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bdcpostmethodssettingsadvtab/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BDCPostMethodsSettingsAdvTab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bdcpostmethodssettingsadvtab/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BDCPostMethodsSettingsAdvTab/</guid>
       <description>BDC Post Methods and Settings on the Advanced tab If the process post is based on a process with a single BDC Script template, a user can select from any of the options in the BDC Post Method list box on the Advanced tab of the Process Post page’s Vertical View. A process post with multiple templates, or one that is based on a template type other than BDC Script, can only use the StandardSAPPosting BDC Post Method.</description>
     </item>
     
     <item>
       <title>BDC Screen Conditionals</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bdc_screen_conditionals/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BDC_Screen_Conditionals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bdc_screen_conditionals/</guid>
-      <description>BDC Screen Conditionals Use this page to [Configure a Conditional for a BDC Screen.](../Use_Cases/ConfigureConditionalBDCScrn.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BDC_Screen_Conditionals/</guid>
+      <description>BDC Screen Conditionals Use this page to [Configure a Conditional for a BDC Screen.](../Use_Cases/ConfigureConditionalBDCScrn)  To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Templates icon for a category. Locate the template with a type ofBDC Script. ClickVertical View. Click Configuration tab. Click BDC Screen icon. Click Vertical View for a screen. Click the Conditionals icon.    Field
  Description
   CONDITIONAL FIELD NAME</description>
@@ -57,63 +57,63 @@
     
     <item>
       <title>BDC Screen Fields H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bdc_screen_fields_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BDC_Screen_Fields_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bdc_screen_fields_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BDC_Screen_Fields_H/</guid>
       <description>BDC Screen Fields H BDC Screen Fields V
-Use this page to [Manage BDC Screens and Fields.](../Use_Cases/Manage_BDC_Screens_and_Fields.htm)  To access this page:
+Use this page to [Manage BDC Screens and Fields.](../Use_Cases/Manage_BDC_Screens_and_Fields)  To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Templates icon for a category. Locate the template with a type ofBDC Script. ClickVertical View. Click Configuration tab. Click BDC Screen icon. Click the Fields icon for a screen.           Field Description   PRIORITY Displays the order the field was captured in the BDC recording.</description>
     </item>
     
     <item>
       <title>BDC Screen H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bdc_screen_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BDC_Screen_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bdc_screen_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BDC_Screen_H/</guid>
       <description>BDC Screen H BDC Screen V All Tabs
-Use this page to [Manage BDC Screens and Fields](../Use_Cases/Manage_BDC_Screens_and_Fields.htm) and [Configure Template Loops for a BDC Script Template](../Use_Cases/Configure_Template_LoopsBDC.htm).  To access this page:
+Use this page to [Manage BDC Screens and Fields](../Use_Cases/Manage_BDC_Screens_and_Fields) and [Configure Template Loops for a BDC Script Template](../Use_Cases/Configure_Template_LoopsBDC).  To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Templates icon for a category. Locate the template with a type ofBDC Script. ClickVertical View. Click Configuration tab. Click BDC Screen icon.           Field Description   PRIORITY Displays the order the SAP screen was accessed in the recording.</description>
     </item>
     
     <item>
       <title>BDCPlus: Templates</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bdcplus_templates/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BDCPlus_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bdcplus_templates/</guid>
-      <description>BDCPlus: Templates Use this page to [Import Legacy BDCPlus Templates into Integrate](../Use_Cases/ImportLegacyBDCPlusTemps.htm).  To access this page, select Integrate &amp;gt; Advanced &amp;gt; BDCPlus from Navigation pane.
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BDCPlus_Templates/</guid>
+      <description>BDCPlus: Templates Use this page to [Import Legacy BDCPlus Templates into Integrate](../Use_Cases/ImportLegacyBDCPlusTemps).  To access this page, select Integrate &amp;gt; Advanced &amp;gt; BDCPlus from Navigation pane.
          Field Description   BDC Plus Extract Click to populate the stBDCPlus* table using a backup of the BDCPlus database.    Mark All As Import Click to enable the IMPORT check box for all BDCPlus templates, marking all templates for import into Integrate.</description>
     </item>
     
     <item>
       <title>BDCdirect: Script</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/bdcdirect_script/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/BDCDirect_Script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/bdcdirect_script/</guid>
-      <description>BDCdirect: Script Use this page to [Import Legacy BDCdirect® Scripts into Integrate](../Use_Cases/ImportLegacyBDCdirectScripts.htm).  To access this page, select Integrate &amp;gt; Advanced &amp;gt; BDCdirect from Navigation pane.
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/BDCDirect_Script/</guid>
+      <description>BDCdirect: Script Use this page to [Import Legacy BDCdirect® Scripts into Integrate](../Use_Cases/ImportLegacyBDCdirectScripts).  To access this page, select Integrate &amp;gt; Advanced &amp;gt; BDCdirect from Navigation pane.
          Field Description   Mark All As Import Click to enable the IMPORT check box for all BDCdirect® scripts, marking all scripts for import into Integrate.   Clear All Import Click to disable the IMPORT check box for BDCdirect® scripts.</description>
     </item>
     
     <item>
       <title>Categories</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/category/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Category/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/category/</guid>
-      <description>Categories Use this page to [Create Categories](../Config/Create_Categories.htm).  To access this page, select Integrate &amp;gt; Categories from Navigation pane.
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Category/</guid>
+      <description>Categories Use this page to [Create Categories](../Config/Create_Categories).  To access this page, select Integrate &amp;gt; Categories from Navigation pane.
          Field Description   CATEGORY Displays the name of the category to which templates and processes are added.   DESCRIPTION Displays a description of the category.   Templates Click to open the Template page to add, edit, and delete templates for the category.</description>
     </item>
     
     <item>
       <title>Copy</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/copy/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/copy/</guid>
-      <description>Copy Use this page to - [Copy a Template](../Use_Cases/Copy_a_Template.htm) - [Copy a Process](../Use_Cases/Copy_a_Process.htm) - [Copy a Process Template](../Use_Cases/Copy_a_Process_Template.htm) - [Merge or Copy BDC Screens to Another BDC Script Template](../Use_Cases/MergeCopyBDCScrnsAnotherBDCScript.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Copy/</guid>
+      <description>Copy Use this page to - [Copy a Template](../Use_Cases/Copy_a_Template) - [Copy a Process](../Use_Cases/Copy_a_Process) - [Copy a Process Template](../Use_Cases/Copy_a_Process_Template) - [Merge or Copy BDC Screens to Another BDC Script Template](../Use_Cases/MergeCopyBDCScrnsAnotherBDCScript)  To access this page:
  Select Integrate &amp;gt; Categories on Navigation pane. Click Templates for a category. Click Vertical View for the template that should be copied. ClickCopy tab. Click Copy Template.    Field
  Description
   Copy Type</description>
@@ -121,11 +121,11 @@ Use this page to [Manage BDC Screens and Fields](../Use_Cases/Manage_BDC_Screens
     
     <item>
       <title>Custom Fields</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/custom_fields/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Custom_Fields/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/custom_fields/</guid>
-      <description>Custom Fields Use this page to [Add Custom Fields to a BDC Script Template](../Use_Cases/Add_Custom_Fields_to_a_BDC_Script_Template.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Custom_Fields/</guid>
+      <description>Custom Fields Use this page to [Add Custom Fields to a BDC Script Template](../Use_Cases/Add_Custom_Fields_to_a_BDC_Script_Template).  To access this page:
  Click Integrate &amp;gt; Categories in the Navigation pane. Click Templates for a category. Click Vertical View for a template with a TYPE of BDC Script. Click Configuration tab. Click Custom Fields.    Field
  Description
   NAME
@@ -135,42 +135,42 @@ Use custom fields when conditional screen execution is required and the data for
     
     <item>
       <title>File Structure Field Element - Attributes</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/filestructfldelemattxml/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/FileStructFldElemAttXML/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/filestructfldelemattxml/</guid>
-      <description>File Structure Field Element - Attributes Use this page to [Configure an XML Template with Structures, Elements and Attributes.](../Use_Cases/ConfigureXMTemplateStrctrEleAtt.htm)  NOTE: This page is only available for processes based on User Defined XML template type.
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/FileStructFldElemAttXML/</guid>
+      <description>File Structure Field Element - Attributes Use this page to [Configure an XML Template with Structures, Elements and Attributes.](../Use_Cases/ConfigureXMTemplateStrctrEleAtt)  NOTE: This page is only available for processes based on User Defined XML template type.
 To access this page:
  Click Integrate &amp;gt; Categories in the Navigation pane. Click the Templates icon. Click Vertical View for a User Defined Template Type of XML. Click the Define icon. Click the Fields icon.</description>
     </item>
     
     <item>
       <title>GUI Script Actions</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/gui_script_actions/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Actions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/gui_script_actions/</guid>
-      <description>GUI Script Actions Use this page when [Modifying a GUI Script with a Custom Command.](../Use_Cases/ModifyGUIScriptCustCommand.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Actions/</guid>
+      <description>GUI Script Actions Use this page when [Modifying a GUI Script with a Custom Command.](../Use_Cases/ModifyGUIScriptCustCommand)  To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Templates icon for a category. Locate the Template with a Type of GUI Script. Click Vertical View. Click Configuration tab. Click GUI Script Data button. Click Vertical View for a field. Click Recording tab. Click Commands to view the commands and actions captured for this field during the GUI script recording.</description>
     </item>
     
     <item>
       <title>GUI Script Commands</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/gui_script_commands/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/gui_script_commands/</guid>
-      <description>GUI Script Commands Use this page when [Modifying a GUI Script with a Custom Command](../Use_Cases/ModifyGUIScriptCustCommand.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Commands/</guid>
+      <description>GUI Script Commands Use this page when [Modifying a GUI Script with a Custom Command](../Use_Cases/ModifyGUIScriptCustCommand).  To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Templates icon for a category. Locate the Template with a Type of GUI Script. Click Vertical View. Click Configuration tab. Click GUI Script Data button. Click Vertical View for a field. Click Recording tab. Click Commands to view the commands and actions captured for this field during the GUI script recording.</description>
     </item>
     
     <item>
       <title>GUI Script Conditionals</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/gui_script_conditionals/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Conditionals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/gui_script_conditionals/</guid>
-      <description>GUI Script Conditionals Use this page to [Configure Conditional GUI Script Data Records](../Use_Cases/ConfigureConditionalGUIScriptDatarec.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Conditionals/</guid>
+      <description>GUI Script Conditionals Use this page to [Configure Conditional GUI Script Data Records](../Use_Cases/ConfigureConditionalGUIScriptDatarec).  To access this page:
  Select Integrate &amp;gt;Categories on Navigation pane. Click the Templates icon for a category. Click Vertical View for a template based on a GUI script. Click Configuration tab. Click the GUI Script Data icon. Click Vertical Viewfor a data record. Click Conditionals icon.    Field
  Description
   CONDITIONAL FIELD NAME</description>
@@ -178,64 +178,64 @@ To access this page:
     
     <item>
       <title>GUI Script Data H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/gui_script_data_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Data_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/gui_script_data_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/GUI_Script_Data_H/</guid>
       <description>GUI Script Data H GUI Script Data V All Tabs
-Use this page to: - [Delete GUI Script Fields](../Use_Cases/Delete_GUI_Script_Fields.htm) - [Copy a GUI Script Data Record.](../Use_Cases/Copy_a_GUI_Script_Data_Record.htm) - [Configure Template Loops for a GUI Script Template](../Use_Cases/Configure_Template_LoopsGUI.htm)  To access this page:
+Use this page to: - [Delete GUI Script Fields](../Use_Cases/Delete_GUI_Script_Fields) - [Copy a GUI Script Data Record.](../Use_Cases/Copy_a_GUI_Script_Data_Record) - [Configure Template Loops for a GUI Script Template](../Use_Cases/Configure_Template_LoopsGUI)  To access this page:
  Select Integrate &amp;gt;Categories on Navigation pane. Click the Templates icon for a category. Click Vertical View for a template based on a GUI script. Click Configuration tab. Click GUI Script Data.</description>
     </item>
     
     <item>
       <title>Message File</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/message_file/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Message_File/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/message_file/</guid>
-      <description>Message File Use this page to view messages while [Using a Process Post Record to Post to SAP for a Process Based on a GUI Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template.htm) or [Using a Process Post Record to Post to SAP for a Process Based on a BDC Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Message_File/</guid>
+      <description>Message File Use this page to view messages while [Using a Process Post Record to Post to SAP for a Process Based on a GUI Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template) or [Using a Process Post Record to Post to SAP for a Process Based on a BDC Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template)  To access this page:
  Click Integrate &amp;gt; Categories on Navigation pane. Click the Processes icon for a category. Click the Postings icon for a process.</description>
     </item>
     
     <item>
       <title>Messages H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/messages_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Messages_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/messages_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Messages_H/</guid>
       <description>Messages H Messages V
-Use this page while: - [Posting Data for a Process Based on a BDC Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template.htm) - [Posting Data for a Process Based on a GUI Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template.htm) - [Posting Data for a Process Based on a BAPI](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BAPI.htm) - [Posting Data for a Process Based on an RFC](../Use_Cases/Post_Data_for_a_Process_Based_on_an_RFC.htm)  To access this page:
+Use this page while: - [Posting Data for a Process Based on a BDC Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template) - [Posting Data for a Process Based on a GUI Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template) - [Posting Data for a Process Based on a BAPI](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BAPI) - [Posting Data for a Process Based on an RFC](../Use_Cases/Post_Data_for_a_Process_Based_on_an_RFC)  To access this page:
  Click Integrate &amp;gt; Categories on Navigation pane. Click the Processes icon for a category.</description>
     </item>
     
     <item>
       <title>Post Adapter</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/post_adapter/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Post_Adapter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/post_adapter/</guid>
-      <description>Post Adapter Use this page to [Monitor Posts.](../Use_Cases/Monitor_Posts.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Post_Adapter/</guid>
+      <description>Post Adapter Use this page to [Monitor Posts.](../Use_Cases/Monitor_Posts)  To access this page:
  Select Integrate &amp;gt; Advanced &amp;gt; Post Engine from Navigation pane. Click Post Adapter to view the data as it was submitted for the process post, and to submit the post again using one of the posting methods.           Field Description   POSTING ID Displays the unique ID for the process post generated by Integrate.</description>
     </item>
     
     <item>
       <title>Post Engine H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/post_engine_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Post_Engine_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/post_engine_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Post_Engine_H/</guid>
       <description>Post Engine H Post Engine V
-Use this page to [Monitor Posts](../Use_Cases/Monitor_Posts.htm).  To access this page, select Integrate &amp;gt; Advanced &amp;gt; Post Engine from Navigation pane.
+Use this page to [Monitor Posts](../Use_Cases/Monitor_Posts).  To access this page, select Integrate &amp;gt; Advanced &amp;gt; Post Engine from Navigation pane.
          Field Description   Execute Post Engine Poller Click to execute the poller, which searches for posts using the posting method Background Post and executes the posting.   POST ENGINE ID Displays the unique post engine ID generated by Integrate.</description>
     </item>
     
     <item>
       <title>Post File Logs</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/post_file_logs/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Post_File_Logs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/post_file_logs/</guid>
-      <description>Post File Logs Use this page to [Monitor Posts.](../Use_Cases/Monitor_Posts.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Post_File_Logs/</guid>
+      <description>Post File Logs Use this page to [Monitor Posts.](../Use_Cases/Monitor_Posts)  To access this page:
  Select Integrate &amp;gt; Post Monitor from *Navigation pane* to view details about every process post.
 Or
 Access the *Post Monitor* page for a specific process post by selecting Monitor on the Process Post page *Horizontal* View. Click Vertical View for a process Click Templates. Click Files. Click Remote System Log.           Field Description   POST FILE LOG ID Displays the ID generated by Integrate for each step in the process post.</description>
@@ -243,11 +243,11 @@ Access the *Post Monitor* page for a specific process post by selecting Monit
     
     <item>
       <title>Post Files</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/post_files/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Post_Files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/post_files/</guid>
-      <description>Post Files Use this page to [Monitor Posts.](../Use_Cases/Monitor_Posts.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Post_Files/</guid>
+      <description>Post Files Use this page to [Monitor Posts.](../Use_Cases/Monitor_Posts)  To access this page:
  Select Integrate &amp;gt; Post Monitor from *Navigation pane* to view details about every process post.
 Or
 Access the *Post Monitor* page for a specific process post by selecting Monitor on the Process Post page *Horizontal* View. Click Vertical View for a process Click Templates. Click Files.           Field Description   FILE NAME Displays the path and location of the file containing the post file.</description>
@@ -255,12 +255,12 @@ Access the *Post Monitor* page for a specific process post by selecting Monit
     
     <item>
       <title>Post Monitor H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/post_monitor_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Post_Monitor_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/post_monitor_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Post_Monitor_H/</guid>
       <description>Post Monitor H Post Monitor V
-Use this page to [Monitor Posts](../Use_Cases/Monitor_Posts.htm).  To access this page:
+Use this page to [Monitor Posts](../Use_Cases/Monitor_Posts).  To access this page:
 Select Integrate &amp;gt; Post Monitor from Navigation pane to view details about every process post.
 OR
 Access the Post Monitor page for a specific process post by selecting Monitor on the Process Post page *Horizontal* View.
@@ -269,11 +269,11 @@ Access the Post Monitor page for a specific process post by selecting Monitor
     
     <item>
       <title>Post Monitor Template</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/post_monitor_template/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Post_Monitor_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/post_monitor_template/</guid>
-      <description>Post Monitor Template Use this page to [Monitor Posts](../Use_Cases/Monitor_Posts.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Post_Monitor_Template/</guid>
+      <description>Post Monitor Template Use this page to [Monitor Posts](../Use_Cases/Monitor_Posts).  To access this page:
  Select Post Monitor from *Navigation pane* to view details about every process post.
 Or
 Access the *Post Monitor* page for a specific process post by selecting Monitor on the *Process Post*page *Horizontal* View. Click Vertical View for a process post to view additional details about the post, including a message returned from the target system regarding post status, the status of the current template, and audit information.</description>
@@ -281,12 +281,12 @@ Access the *Post Monitor* page for a specific process post by selecting Monit
     
     <item>
       <title>Process H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_H/</guid>
       <description>Process H Process V All Tabs
-Use this page to [Create a Process](../Use_Cases/Create_a_Process.htm) and Activate a Process.  NOTE: Refer to the section on each template type for information about activating a process.
+Use this page to [Create a Process](../Use_Cases/Create_a_Process) and Activate a Process.  NOTE: Refer to the section on each template type for information about activating a process.
 To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Processes icon for a category.    Field
  Description
@@ -296,11 +296,11 @@ To access this page:
     
     <item>
       <title>Process Post Connections</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_post_connections/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Post_Connections/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_post_connections/</guid>
-      <description>Process Post Connections Use this page to [Set Connections to Target Systems at the Process Post Level](../Use_Cases/Edit_Connections_to_Target_Systems_at_the_Process_Post_Level.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Post_Connections/</guid>
+      <description>Process Post Connections Use this page to [Set Connections to Target Systems at the Process Post Level](../Use_Cases/Edit_Connections_to_Target_Systems_at_the_Process_Post_Level).  To access this page:
  Click Integrate &amp;gt; Categories on Navigation pane. Click the Processes icon for a category. Click the Postings icon for a process. Click the Connections icon.    Field
  Description
   PROCESS TEMPLATE ID
@@ -309,32 +309,32 @@ To access this page:
     
     <item>
       <title>Process Post H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_post_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Post_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_post_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Post_H/</guid>
       <description>Process Post H Process Post V All Tabs
-Use this page to: - [Use a Process Post Record to Post to SAP for a Process Based on a BDC Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template.htm) - [Use a Process Post Record to Post to SAP for a Process Based on a GUI Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template.htm) - [Use a Process Post Record to Post to SAP for a Process Based on a BAPI](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BAPI.htm) - [Use a Process Post Record to Post to SAP for a Process Based on an RFC](.</description>
+Use this page to: - [Use a Process Post Record to Post to SAP for a Process Based on a BDC Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BDC_Script_Template) - [Use a Process Post Record to Post to SAP for a Process Based on a GUI Script Template](../Use_Cases/Post_Data_for_a_Process_Based_on_a_GUI_Script_Template) - [Use a Process Post Record to Post to SAP for a Process Based on a BAPI](../Use_Cases/Post_Data_for_a_Process_Based_on_a_BAPI) - [Use a Process Post Record to Post to SAP for a Process Based on an RFC](.</description>
     </item>
     
     <item>
       <title>Process Template After Post Rule Collect Where</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_template_after_post_rule_collect_where/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_After_Post_Rule_Collect_Where/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_template_after_post_rule_collect_where/</guid>
-      <description>Process Template After Post Rule Collect Where Use this page when [Registering a Collect Download After Post Rule that is Built Automatically](../Use_Cases/Register_a_Collect_Download_After_Post_Rule_that_is_Built_Automatically.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_After_Post_Rule_Collect_Where/</guid>
+      <description>Process Template After Post Rule Collect Where Use this page when [Registering a Collect Download After Post Rule that is Built Automatically](../Use_Cases/Register_a_Collect_Download_After_Post_Rule_that_is_Built_Automatically).  To access this page:
  Select Integrate &amp;gt;Categories in the Navigation pane. Click the Processes icon for a category. Click the Templates icon for a process. Click the After Post Rules icon for template ID. Click the Collect Where Clause icon.    Field
  Description</description>
     </item>
     
     <item>
       <title>Process Template Connections</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_template_connections/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_Connections/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_template_connections/</guid>
-      <description>Process Template Connections Use this page to [Set Available Connections at the Process Template Level](../Use_Cases/Set_Connections_at_the_Process_Template_Level.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_Connections/</guid>
+      <description>Process Template Connections Use this page to [Set Available Connections at the Process Template Level](../Use_Cases/Set_Connections_at_the_Process_Template_Level).  To access this page:
  Select Integrate &amp;gt;Categories from Navigation pane. Click the Processes icon for a category. Click the Templates icon for a process. Click the Allowed Connections icon.    Field
  Description
   Set Default
@@ -343,31 +343,31 @@ Use this page to: - [Use a Process Post Record to Post to SAP for a Process Base
     
     <item>
       <title>Process Template Loop</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_template_loop/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_Loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_template_loop/</guid>
-      <description>Process Template Loop Use this page to: - [Configure a Process Template Loop for a BDC Script Template with a Single Loop](../Use_Cases/ConfigureProcTempLpBDCSingLp.htm) - [Configure Process Template Loops for a BDC Script Template with Looping Enabled](../Use_Cases/ConfigureProcTempLoopsBDCLoopEn.htm) - [Configure a Process Template Loop for a GUI Script Template with a Single Loop](../Use_Cases/ConfigProcTmpLpGUISingLp.htm) - [Configure Process Template Loops for a GUI Script Template with Looping Enabled](../Use_Cases/ConfigureProcTemplLoopsGUILoopgEn.htm) - [Configure Process Template Loops for a BAPI Template](.</description>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_Loop/</guid>
+      <description>Process Template Loop Use this page to: - [Configure a Process Template Loop for a BDC Script Template with a Single Loop](../Use_Cases/ConfigureProcTempLpBDCSingLp) - [Configure Process Template Loops for a BDC Script Template with Looping Enabled](../Use_Cases/ConfigureProcTempLoopsBDCLoopEn) - [Configure a Process Template Loop for a GUI Script Template with a Single Loop](../Use_Cases/ConfigProcTmpLpGUISingLp) - [Configure Process Template Loops for a GUI Script Template with Looping Enabled](../Use_Cases/ConfigureProcTemplLoopsGUILoopgEn) - [Configure Process Template Loops for a BAPI Template](.</description>
     </item>
     
     <item>
       <title>Process Template Loop Field Mappings H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_template_loop_field_mappings_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_Loop_Field_Mappings_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_template_loop_field_mappings_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Template_Loop_Field_Mappings_H/</guid>
       <description>Process Template Loop Field Mappings H Process Template Loop Field Mappings V
-Use this page to: - [Configure Field Mappings for a Process Based on a BDC Script Template](../Use_Cases/ConfigureFieldMappingsBDC_Script_Template.htm) - [Configure Field Mappings for a Process Based on a GUI Script Template](../Use_Cases/ConfigureFieldMappingsGUI_Script_Template.htm) - [Configure Field Mappings for a Process Based on an RFC](../Use_Cases/VwConfigureFldMappingsProcRFC.htm) - [Configure Field Mappings for a Process Based on a BAPI](../Use_Cases/ViewandConfigureFieldMappingsBAPI.htm)  To access this page:</description>
+Use this page to: - [Configure Field Mappings for a Process Based on a BDC Script Template](../Use_Cases/ConfigureFieldMappingsBDC_Script_Template) - [Configure Field Mappings for a Process Based on a GUI Script Template](../Use_Cases/ConfigureFieldMappingsGUI_Script_Template) - [Configure Field Mappings for a Process Based on an RFC](../Use_Cases/VwConfigureFldMappingsProcRFC) - [Configure Field Mappings for a Process Based on a BAPI](../Use_Cases/ViewandConfigureFieldMappingsBAPI)  To access this page:</description>
     </item>
     
     <item>
       <title>Process Templates H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/process_templates_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Process_Templates_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/process_templates_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Process_Templates_H/</guid>
       <description>Process Templates H Process Templates V
-Use this page to [Add Templates to a Process](../Use_Cases/Add_Templates_to_a_Process.htm).  To access this page:
+Use this page to [Add Templates to a Process](../Use_Cases/Add_Templates_to_a_Process).  To access this page:
  Select Integrate &amp;gt; Categories from Navigation pane. Click the Processes icon for a category. Click the Templates icon for a process.    Field
  Description
   PRIORITY
@@ -378,54 +378,54 @@ Use this page to [Add Templates to a Process](../Use_Cases/Add_Templates_to_a_Pr
     
     <item>
       <title>Relationship Mapping</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/relationship_mapping/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Relationship_Mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/relationship_mapping/</guid>
-      <description>Relationship Mapping Use this page to configure relationships for [BDC Script](../Use_Cases/ViewandConfigureRelationshipsBDC.htm), [GUI Script,](../Use_Cases/VwConfigureRelshpsGUIe.htm)[BAPI](../Use_Cases/VwConfigureRlshipsProcBAPI.htm), [RFC](../Use_Cases/VwConfigureRshpsProcRFC.htm) and [XML](../Use_Cases/ConfigureRelaManuallyXML.htm) template types.  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Relationship_Mapping/</guid>
+      <description>Relationship Mapping Use this page to configure relationships for [BDC Script](../Use_Cases/ViewandConfigureRelationshipsBDC), [GUI Script,](../Use_Cases/VwConfigureRelshpsGUIe)[BAPI](../Use_Cases/VwConfigureRlshipsProcBAPI), [RFC](../Use_Cases/VwConfigureRshpsProcRFC) and [XML](../Use_Cases/ConfigureRelaManuallyXML) template types.  To access this page:
  Click Integrate &amp;gt; Categories from Navigation pane. Click the Processes icon for a category. Click the Loops icon for a process based on an XML template. Click Relationships on Page toolbar.           Field Description   Upload Displays the parent relationship for the process template, and the relationship that is linked to the children process templates.</description>
     </item>
     
     <item>
       <title>Relationship Mapping BDC Script, GUI Script or BAPI/RFC Template Types</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/relationshipmappingbdcguibapirfc/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/RelationshipMappingBDCGUIBAPIRFC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/relationshipmappingbdcguibapirfc/</guid>
-      <description>Relationship Mapping BDC Script, GUI Script or BAPI/RFC Template Types Use this page to: - [View and Configure Relationships for a Process Based on a BDC Script Template](../Use_Cases/ViewandConfigureRelationshipsBDC.htm) - [View and Configure Relationships for a Process Based on a GUI Script Template](../Use_Cases/VwConfigureRelshpsGUIe.htm) - [View and Configure Relationships for a Process Based on a BAPI](../Use_Cases/VwConfigureRlshipsProcBAPI.htm) - [View and Configure Relationships for a Process Based on an RFC](../Use_Cases/VwConfigureRshpsProcRFC.htm)  NOTE: This page is only available for processes based on BDC Script, GUI Script and BAPI/RFC template types.</description>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/RelationshipMappingBDCGUIBAPIRFC/</guid>
+      <description>Relationship Mapping BDC Script, GUI Script or BAPI/RFC Template Types Use this page to: - [View and Configure Relationships for a Process Based on a BDC Script Template](../Use_Cases/ViewandConfigureRelationshipsBDC) - [View and Configure Relationships for a Process Based on a GUI Script Template](../Use_Cases/VwConfigureRelshpsGUIe) - [View and Configure Relationships for a Process Based on a BAPI](../Use_Cases/VwConfigureRlshipsProcBAPI) - [View and Configure Relationships for a Process Based on an RFC](../Use_Cases/VwConfigureRshpsProcRFC)  NOTE: This page is only available for processes based on BDC Script, GUI Script and BAPI/RFC template types.</description>
     </item>
     
     <item>
       <title>Structure</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/structure-h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Structure-H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/structure-h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Structure-H/</guid>
       <description>Structure NOTE: The fields that display on this page are based on the selected type. This page is available for User Defined Fixed Width and Delimited Template Types and for XML template types.
 Structure H User Defined Fixed Width and Delimited Template Types Structure V User Defined Template Type
-Use this page to [Create a Delimited or Fixed Width User Defined Template](../Use_Cases/CreateDelimFWUD.htm).  To access this page:
+Use this page to [Create a Delimited or Fixed Width User Defined Template](../Use_Cases/CreateDelimFWUD).  To access this page:
  Click Integrate &amp;gt; Categories in the Navigation pane.</description>
     </item>
     
     <item>
       <title>Structure Field</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/struture-field/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Struture-Field/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/struture-field/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Struture-Field/</guid>
       <description>Structure Field NOTE: The fields that display on this page are based on the selected type. This page is available for User Defined Fixed Width and Delimited Template Types and for XML Template Types.
-Structure Field User Defined Fixed Width and Delimited Template Types Use this page while [Creating a Delimited or Fixed Width User Defined Template](../Use_Cases/CreateDelimFWUD.htm).  To access this page:
+Structure Field User Defined Fixed Width and Delimited Template Types Use this page while [Creating a Delimited or Fixed Width User Defined Template](../Use_Cases/CreateDelimFWUD).  To access this page:
  Click Integrate &amp;gt; Categories in the Navigation pane.</description>
     </item>
     
     <item>
       <title>Template H</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/template_h/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Template_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/template_h/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Template_H/</guid>
       <description>Template H Template V All Tabs
-Use this page to [Create a Basic Template.](../Use_Cases/Create_a_Basic_Template.htm)  To access this page:
+Use this page to [Create a Basic Template.](../Use_Cases/Create_a_Basic_Template)  To access this page:
  Select Integrate &amp;gt; Categories from the Navigation pane. Click the Templates icon for a category.    Field
  Description
   Category Processes
@@ -436,11 +436,11 @@ Use this page to [Create a Basic Template.](../Use_Cases/Create_a_Basic_Template
     
     <item>
       <title>Template Processes</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/template_processes/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Template_Processes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/template_processes/</guid>
-      <description>Template Processes Use this page to [Activate or Deactivate Multiple Processes for a Template](../Use_Cases/ActivateDeactivateMultProc.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Template_Processes/</guid>
+      <description>Template Processes Use this page to [Activate or Deactivate Multiple Processes for a Template](../Use_Cases/ActivateDeactivateMultProc).  To access this page:
  Click Integrate &amp;gt; Categories on Navigation pane. Click the Templates icon for a category. Click the Processes icon for a template.    Field
  Description
   Deactivate All
@@ -450,20 +450,20 @@ NOTE: This functionality should only be used during development as the processes
     
     <item>
       <title>Template RFC Documentation</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/template-rfc-documentation/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Template-RFC-Documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/template-rfc-documentation/</guid>
-      <description>Template RFC Documentation Use this page while configuring a [BAPI](../Use_Cases/Configure_a_BAPI_Template.htm) or [RFC](../Use_Cases/Configure_a_RFC_Template.htm) template to view the documentation about the BAPI\\RFC that has been extracted from SAP for the selected record.  To access this page:
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Template-RFC-Documentation/</guid>
+      <description>Template RFC Documentation Use this page while configuring a [BAPI](../Use_Cases/Configure_a_BAPI_Template) or [RFC](../Use_Cases/Configure_a_RFC_Template) template to view the documentation about the BAPI\\RFC that has been extracted from SAP for the selected record.  To access this page:
  Click Categories in the Navigation pane. Click the Template icon for a BAPI or RFC template. Click Vertical View. Click the Configuration tab. Click the BAPI/RFC Definition icon. Click the RFC Documentation icon.    Field</description>
     </item>
     
     <item>
       <title>Template Report</title>
-      <link>https://heathercloward.github.io/integrate/page_desc/template-report-integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Page_Desc/Template-Report-Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/page_desc/template-report-integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Page_Desc/Template-Report-Integrate/</guid>
       <description>Template Report To access this page, select Integrate &amp;gt; Categories &amp;gt; Template &amp;gt; Report.
 This report displays the data for the template selected on the Template page.</description>
     </item>

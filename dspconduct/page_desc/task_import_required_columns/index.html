@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Task Import Required Columns :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,79 +126,82 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/dspconduct/" class="active">dspConduct Overview</a>
+        <a href="/dspConduct/" class="active">dspConduct Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
+
 
 
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/dspconduct/config/" class="">Configuration</a>
+        <a href="/dspConduct/Config/" class="">Configuration</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dspconduct/config/assign_a_backup_user/" class="">Assign a Backup User</a></li>
+                <a href="/dspConduct/Config/Assign_a_Backup_User/" class="">Assign a Backup User</a></li>
         
             <li >
-                <a href="/dspconduct/config/configure_sla_settings_at_the_bpsr_level/" class="">Configure SLA settings at the Business Process Scenario Role Level</a></li>
+                <a href="/dspConduct/Config/Configure_SLA_Settings_at_the_BPSR_Level/" class="">Configure SLA settings at the Business Process Scenario Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/config/configure_workflow_messages_overview/" class="">Configure Workflow Messages Overview</a></li>
+                <a href="/dspConduct/Config/Configure_Workflow_Messages_Overview/" class="">Configure Workflow Messages Overview</a></li>
         
             <li >
-                <a href="/dspconduct/config/configure_a_registered_user_to_receive_notifications_for_posting_success_or_failure_at_the_request_role_level/" class="">Configure a Registered User to Receive Notifications For Posting Success or Failure at the Request Role Level</a></li>
+                <a href="/dspConduct/Config/Configure_a_Registered_User_to_Receive_Notifications_For_Posting_Success_or_Failure_at_the_Request_Role_Level/" class="">Configure a Registered User to Receive Notifications For Posting Success or Failure at the Request Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/config/create_language-specific_workflow_messages_for_a_category/" class="">Create Language-specific Workflow Messages for a Category</a></li>
+                <a href="/dspConduct/Config/Create_Language-specific_Workflow_Messages_for_a_Category/" class="">Create Language-specific Workflow Messages for a Category</a></li>
         
             <li >
-                <a href="/dspconduct/config/edit_category_language_specific_messages/" class="">Edit Category Language-specific Messages</a></li>
+                <a href="/dspConduct/Config/Edit_Category_Language_specific_Messages/" class="">Edit Category Language-specific Messages</a></li>
         
             <li >
-                <a href="/dspconduct/config/manage_request_statuses/" class="">Manage Request Statuses Overview</a></li>
+                <a href="/dspConduct/Config/Manage_Request_Statuses/" class="">Manage Request Statuses Overview</a></li>
         
             <li >
-                <a href="/dspconduct/config/send_workflow_notifications_when_a_post_fails_or_succeeds/" class="">Send Workflow Notifications When a Post Fails or Succeeds</a></li>
+                <a href="/dspConduct/Config/Send_Workflow_Notifications_when_a_Post_Fails_or_Succeeds/" class="">Send Workflow Notifications When a Post Fails or Succeeds</a></li>
         
             <li >
-                <a href="/dspconduct/config/send_workflow_notifications_when_a_final_finish_package_fails/" class="">Send Workflow Notifications when a Final Finish Package Fails</a></li>
+                <a href="/dspConduct/Config/Send_Workflow_Notifications_when_a_Final_Finish_Package_Fails/" class="">Send Workflow Notifications when a Final Finish Package Fails</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_calendar_used_for_business_value_calculations/" class="">Set Calendar Used For Business Value Calculations</a></li>
+                <a href="/dspConduct/Config/Set_Calendar_Used_For_Business_Value_Calculations/" class="">Set Calendar Used For Business Value Calculations</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_currency_display_label/" class="">Set Currency Display Label</a></li>
+                <a href="/dspConduct/Config/Set_Currency_Display_Label/" class="">Set Currency Display Label</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_preceding_weeks_count_for_dashboards/" class="">Set Preceding Weeks Count for Dashboards</a></li>
+                <a href="/dspConduct/Config/Set_Preceding_Weeks_Count_for_Dashboards/" class="">Set Preceding Weeks Count for Dashboards</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_up_sla_notifications/" class="">Set Up SLA Notifications</a></li>
+                <a href="/dspConduct/Config/Set_Up_SLA_Notifications/" class="">Set Up SLA Notifications</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_up_security_for_dspconduct/" class="">Set Up Security for dspConduct™</a></li>
+                <a href="/dspConduct/Config/Set_Up_Security_for_dspConduct/" class="">Set Up Security for dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_up_service_pages_for_slas/" class="">Set Up Service Pages for SLAs</a></li>
+                <a href="/dspConduct/Config/Set_Up_Service_Pages_for_SLAs/" class="">Set Up Service Pages for SLAs</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_user_workflow_receipt_preferences/" class="">Set User Workflow Receipt Preferences</a></li>
+                <a href="/dspConduct/Config/Set_User_Workflow_Receipt_Preferences/" class="">Set User Workflow Receipt Preferences</a></li>
         
             <li >
-                <a href="/dspconduct/config/set_the_days_active_for_a_request_status/" class="">Set the Days Active for a Request Status</a></li>
+                <a href="/dspConduct/Config/Set_the_Days_Active_for_a_Request_Status/" class="">Set the Days Active for a Request Status</a></li>
         
             <li >
-                <a href="/dspconduct/config/view_default_workflow_messages/" class="">View Default Workflow Messages</a></li>
+                <a href="/dspConduct/Config/View_Default_Workflow_Messages/" class="">View Default Workflow Messages</a></li>
         
     </ul>
     </li>
@@ -202,472 +211,472 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/dspconduct/page_desc/" class="active">Pages</a>
+        <a href="/dspConduct/Page_Desc/" class="active">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dspconduct/page_desc/active_request_for_category_details/" class="">Active Request for Category Details</a></li>
+                <a href="/dspConduct/Page_Desc/Active_Request_for_Category_Details/" class="">Active Request for Category Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/active_request_for_role_details/" class="">Active Request for Role Details</a></li>
+                <a href="/dspConduct/Page_Desc/Active_Request_for_Role_Details/" class="">Active Request for Role Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/add_org_units_to_position_from_org_unit_group/" class="">Add Org Units To Position From Org Unit Group</a></li>
+                <a href="/dspConduct/Page_Desc/Add_Org_Units_to_Position_from_Org_Unit_Group/" class="">Add Org Units To Position From Org Unit Group</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/add_org_units_to_position_role_from_org_unit_group/" class="">Add Org Units To Position Role From Org Unit Group</a></li>
+                <a href="/dspConduct/Page_Desc/Add_Org_Units_to_Position_Role_from_Org_Unit_Group/" class="">Add Org Units To Position Role From Org Unit Group</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/all_requests_for_business_process/" class="">All Requests for Business Process</a></li>
+                <a href="/dspConduct/Page_Desc/All_Requests_for_Business_Process/" class="">All Requests for Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/all_requests_for_role/" class="">All Requests for Role</a></li>
+                <a href="/dspConduct/Page_Desc/All_Requests_for_Role/" class="">All Requests for Role</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/all_requests_for_role_details/" class="">All Requests for Role Details</a></li>
+                <a href="/dspConduct/Page_Desc/All_Requests_for_Role_Details/" class="">All Requests for Role Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/all_requests_for_scenario/" class="">All Requests for Scenario</a></li>
+                <a href="/dspConduct/Page_Desc/All_Requests_for_Scenario/" class="">All Requests for Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/all_requests_for_scenario_details/" class="">All Requests for Scenario Details</a></li>
+                <a href="/dspConduct/Page_Desc/All_Requests_for_Scenario_Details/" class="">All Requests for Scenario Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_finish_download_messages/" class="">Archived Finish Download Messages</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Finish_Download_Messages/" class="">Archived Finish Download Messages</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_request_post_message/" class="">Archived Request Post Message</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Request_Post_Message/" class="">Archived Request Post Message</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_request_post_process/" class="">Archived Request Post Process</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Request_Post_Process/" class="">Archived Request Post Process</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_request_role_log/" class="">Archived Request Role Log</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Request_Role_Log/" class="">Archived Request Role Log</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_request_role_sla/" class="">Archived Request Role SLA</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Request_Role_SLA/" class="">Archived Request Role SLA</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_request_role_task/" class="">Archived Request Role Task</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Request_Role_Task/" class="">Archived Request Role Task</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_request_roles/" class="">Archived Request Roles</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Request_Roles/" class="">Archived Request Roles</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/archived_requests/" class="">Archived Requests</a></li>
+                <a href="/dspConduct/Page_Desc/Archived_Requests/" class="">Archived Requests</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/assign_igc_task_to_existing_page/" class="">Assign IGC Task to Existing Page</a></li>
+                <a href="/dspConduct/Page_Desc/Assign_IGC_Task_to_Existing_Page/" class="">Assign IGC Task to Existing Page</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/audit_table_column_registration/" class="">Audit Table Column Registration</a></li>
+                <a href="/dspConduct/Page_Desc/Audit_Table_Column_Registration/" class="">Audit Table Column Registration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/audit_table_registration/" class="">Audit Table Registration</a></li>
+                <a href="/dspConduct/Page_Desc/Audit_Table_Registration/" class="">Audit Table Registration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/business_process_scenario_roles/" class="">Business Process (Scenario Roles)</a></li>
+                <a href="/dspConduct/Page_Desc/Business_Process_Scenario_Roles/" class="">Business Process (Scenario Roles)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/business_process_scenarios/" class="">Business Process (Scenarios)</a></li>
+                <a href="/dspConduct/Page_Desc/Business_Process_Scenarios/" class="">Business Process (Scenarios)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/business_process_h/" class="">Business Process H</a></li>
+                <a href="/dspConduct/Page_Desc/Business_Process_H/" class="">Business Process H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/business_process_predict/" class="">Business Process Predictive</a></li>
+                <a href="/dspConduct/Page_Desc/Business_Process_Predict/" class="">Business Process Predictive</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/busniess_process_request_duration/" class="">Business Process Request Duration</a></li>
+                <a href="/dspConduct/Page_Desc/Busniess_Process_Request_Duration/" class="">Business Process Request Duration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/business_process_scenario_sla_percent_ontime/" class="">Business Process, Scenario SLA Percent On Time</a></li>
+                <a href="/dspConduct/Page_Desc/Business_Process_Scenario_SLA_Percent_OnTime/" class="">Business Process, Scenario SLA Percent On Time</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_h/" class="">Category H</a></li>
+                <a href="/dspConduct/Page_Desc/Category_H/" class="">Category H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_import_view_configuration/" class="">Category Import View Configuration</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Import_View_Configuration/" class="">Category Import View Configuration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_objects/" class="">Category Objects</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Objects/" class="">Category Objects</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_org_unit_type/" class="">Category Org Unit Type</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Org_Unit_Type/" class="">Category Org Unit Type</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_org_units_for_position/" class="">Category Org Units for Position</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Org_Units_for_Position/" class="">Category Org Units for Position</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_process/" class="">Category Process</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Process/" class="">Category Process</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_process_rule/" class="">Category Process Rule</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Process_Rule/" class="">Category Process Rule</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_request_duration/" class="">Category Request Duration</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Request_Duration/" class="">Category Request Duration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_request_status/" class="">Category Request Status</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Request_Status/" class="">Category Request Status</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_sla_percent_on_time/" class="">Category SLA Percent On Time</a></li>
+                <a href="/dspConduct/Page_Desc/Category_SLA_Percent_On_Time/" class="">Category SLA Percent On Time</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_workflow_language_message_h/" class="">Category Workflow Language Message H</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Workflow_Language_Message_H/" class="">Category Workflow Language Message H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_workflow_message/" class="">Category Workflow Message</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Workflow_Message/" class="">Category Workflow Message</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/category_business_process_sla_percent_ontime/" class="">Category, Business Process SLA Percent On Time</a></li>
+                <a href="/dspConduct/Page_Desc/Category_Business_Process_SLA_Percent_OnTime/" class="">Category, Business Process SLA Percent On Time</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/conditions/" class="">Conditions</a></li>
+                <a href="/dspConduct/Page_Desc/Conditions/" class="">Conditions</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/conduct_task_assignement_to_igc_task/" class="">Conduct Task Assignement to IGC Task</a></li>
+                <a href="/dspConduct/Page_Desc/Conduct_Task_Assignement_to_IGC_Task/" class="">Conduct Task Assignement to IGC Task</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/copy_position/" class="">Copy Position</a></li>
+                <a href="/dspConduct/Page_Desc/Copy_Position/" class="">Copy Position</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/data_services_global_variables_setup_in_dspconduct/" class="">Data Services Global Variables Setup</a></li>
+                <a href="/dspConduct/Page_Desc/Data_Services_Global_Variables_Setup_in_dspConduct/" class="">Data Services Global Variables Setup</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/default_value_rules/" class="">Default Value Rules</a></li>
+                <a href="/dspConduct/Page_Desc/Default_Value_Rules/" class="">Default Value Rules</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/default-webapp-request-table/" class="">Default WebApp Request Table</a></li>
+                <a href="/dspConduct/Page_Desc/Default-WebApp-Request-Table/" class="">Default WebApp Request Table</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/default_webapp_request_table_columns_h/" class="">Default WebApp Request Table Columns H</a></li>
+                <a href="/dspConduct/Page_Desc/Default_WebApp_Request_Table_Columns_H/" class="">Default WebApp Request Table Columns H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/element_documentation/" class="">Element Documentation</a></li>
+                <a href="/dspConduct/Page_Desc/Element_Documentation/" class="">Element Documentation</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/enabled_columns_by_application_role/" class="">Enabled Columns by Application Role</a></li>
+                <a href="/dspConduct/Page_Desc/Enabled_Columns_by_Application_Role/" class="">Enabled Columns by Application Role</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/igc_keys/" class="">IGC Keys</a></li>
+                <a href="/dspConduct/Page_Desc/IGC_Keys/" class="">IGC Keys</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/igc_task/" class="">IGC Task H</a></li>
+                <a href="/dspConduct/Page_Desc/IGC_Task/" class="">IGC Task H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/igc_task_roles/" class="">IGC Task Roles</a></li>
+                <a href="/dspConduct/Page_Desc/IGC_Task_Roles/" class="">IGC Task Roles</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/my_positions/" class="">My Positions</a></li>
+                <a href="/dspConduct/Page_Desc/My_Positions/" class="">My Positions</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/my_settings/" class="">My Settings H&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;</a></li>
+                <a href="/dspConduct/Page_Desc/My_Settings/" class="">My Settings H&lt;span id=&#34;top&#34;&gt;&lt;/span&gt;</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/new_conduct_tasks/" class="">New Conduct Tasks</a></li>
+                <a href="/dspConduct/Page_Desc/New_Conduct_Tasks/" class="">New Conduct Tasks</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/org_unit_group_type_values/" class="">Org Unit Group Type Values</a></li>
+                <a href="/dspConduct/Page_Desc/Org_Unit_Group_Type_Values/" class="">Org Unit Group Type Values</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/org_unit_group_types/" class="">Org Unit Group Types</a></li>
+                <a href="/dspConduct/Page_Desc/Org_Unit_Group_Types/" class="">Org Unit Group Types</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/org_unit_groups/" class="">Org Unit Groups</a></li>
+                <a href="/dspConduct/Page_Desc/Org_Unit_Groups/" class="">Org Unit Groups</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/org_units/" class="">Org Units</a></li>
+                <a href="/dspConduct/Page_Desc/Org_Units/" class="">Org Units</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/parameters_igc/" class="">Parameters - IGC</a></li>
+                <a href="/dspConduct/Page_Desc/Parameters_IGC/" class="">Parameters - IGC</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/parameters_dspconduct/" class="">Parameters dspConduct™</a></li>
+                <a href="/dspConduct/Page_Desc/Parameters_dspConduct/" class="">Parameters dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position/" class="">Position</a></li>
+                <a href="/dspConduct/Page_Desc/Position/" class="">Position</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_business_process/" class="">Position Business Process</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Business_Process/" class="">Position Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_category_org_unit1/" class="">Position Category Org Unit1</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Category_Org_Unit1/" class="">Position Category Org Unit1</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_category_org_unit2/" class="">Position Category OrgUnit2</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Category_Org_Unit2/" class="">Position Category OrgUnit2</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_category_org_unit3/" class="">Position Category OrgUnit3</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Category_Org_Unit3/" class="">Position Category OrgUnit3</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_role/" class="">Position Role</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Role/" class="">Position Role</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_role_org_unit_1/" class="">Position Role Org Unit 1</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Role_Org_Unit_1/" class="">Position Role Org Unit 1</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_role_org_unit_2/" class="">Position Role Org Unit 2</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Role_Org_Unit_2/" class="">Position Role Org Unit 2</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_role_org_unit_3/" class="">Position Role Org Unit 3</a></li>
+                <a href="/dspConduct/Page_Desc/Position_Role_Org_Unit_3/" class="">Position Role Org Unit 3</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/position_user/" class="">Position User</a></li>
+                <a href="/dspConduct/Page_Desc/Position_User/" class="">Position User</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/post_workflow_notification/" class="">Post Workflow Notification</a></li>
+                <a href="/dspConduct/Page_Desc/Post_Workflow_Notification/" class="">Post Workflow Notification</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/process_templates_after_post_rules_h/" class="">Process Templates: After Post Rules H</a></li>
+                <a href="/dspConduct/Page_Desc/Process_Templates_After_Post_Rules_H/" class="">Process Templates: After Post Rules H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/reports/" class="">Reports</a></li>
+                <a href="/dspConduct/Page_Desc/Reports/" class="">Reports</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request/" class="">Request</a></li>
+                <a href="/dspConduct/Page_Desc/Request/" class="">Request</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_count_by_category/" class="">Request Count By Category</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Count_By_Category/" class="">Request Count By Category</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_create_completed_metrics/" class="">Request Create-Completed Metrics</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Create_Completed_Metrics/" class="">Request Create-Completed Metrics</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_created_completed_scenario_type_metrics/" class="">Request Created-Completed Scenario Type Metrics</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Created_Completed_Scenario_Type_Metrics/" class="">Request Created-Completed Scenario Type Metrics</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_group_post/" class="">Request Group Post</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Group_Post/" class="">Request Group Post</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_objects_creation_log/" class="">Request Objects Creation Log</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Objects_Creation_Log/" class="">Request Objects Creation Log</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_post_message/" class="">Request Post Message</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Post_Message/" class="">Request Post Message</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_post_process/" class="">Request Post Process</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Post_Process/" class="">Request Post Process</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_post_workflow_notification/" class="">Request Post Workflow Notification</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Post_Workflow_Notification/" class="">Request Post Workflow Notification</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_predictive/" class="">Request Predictive</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Predictive/" class="">Request Predictive</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_review_task/" class="">Request Review Task</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Review_Task/" class="">Request Review Task</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_review_task_roles/" class="">Request Review Task Roles</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Review_Task_Roles/" class="">Request Review Task Roles</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_role_h/" class="">Request Role H</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Role_H/" class="">Request Role H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_role_task/" class="">Request Role Task</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Role_Task/" class="">Request Role Task</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/request_status/" class="">Request Status</a></li>
+                <a href="/dspConduct/Page_Desc/Request_Status/" class="">Request Status</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/review_role_audit_details_h/" class="">Review Role Audit Details H</a></li>
+                <a href="/dspConduct/Page_Desc/Review_Role_Audit_Details_H/" class="">Review Role Audit Details H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_conflicts/" class="">Role (Conflicts) H</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Conflicts/" class="">Role (Conflicts) H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_task/" class="">Role (Tasks)</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Task/" class="">Role (Tasks)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_average_completion_time/" class="">Role Average Completion Time</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Average_Completion_Time/" class="">Role Average Completion Time</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_dependencies/" class="">Role Dependencies</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Dependencies/" class="">Role Dependencies</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_dependency_condition/" class="">Role Dependency Condition</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Dependency_Condition/" class="">Role Dependency Condition</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_depend_cond_assin_page/" class="">Role Dependency Condition Assignment</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Depend_Cond_Assin_Page/" class="">Role Dependency Condition Assignment</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_h_dspconduct/" class="">Role H</a></li>
+                <a href="/dspConduct/Page_Desc/Role_H_dspConduct/" class="">Role H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_predictive/" class="">Role Predictive</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Predictive/" class="">Role Predictive</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_request_duration/" class="">Role Request Duration</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Request_Duration/" class="">Role Request Duration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/role_scenario_request_duration/" class="">Role Scenario Request Duration</a></li>
+                <a href="/dspConduct/Page_Desc/Role_Scenario_Request_Duration/" class="">Role Scenario Request Duration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/sla_percent_ontime_by_business_process/" class="">SLA Percent On Time by Business Process</a></li>
+                <a href="/dspConduct/Page_Desc/SLA_Percent_OnTime_by_Business_Process/" class="">SLA Percent On Time by Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/sla_percent_on_time_by_business_process_details/" class="">SLA Percent On Time by Business Process Details</a></li>
+                <a href="/dspConduct/Page_Desc/SLA_Percent_On_Time_by_Business_Process_Details/" class="">SLA Percent On Time by Business Process Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/sla_percent_on_time_by_role/" class="">SLA Percent On Time by Role</a></li>
+                <a href="/dspConduct/Page_Desc/SLA_Percent_On_Time_by_Role/" class="">SLA Percent On Time by Role</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/sla_percent_on_time_by_role_details/" class="">SLA Percent On Time by Role Details</a></li>
+                <a href="/dspConduct/Page_Desc/SLA_Percent_On_Time_by_Role_Details/" class="">SLA Percent On Time by Role Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/sla_percent_on_time_by_scenario/" class="">SLA Percent On Time by Scenario</a></li>
+                <a href="/dspConduct/Page_Desc/SLA_Percent_On_Time_by_Scenario/" class="">SLA Percent On Time by Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/sla_percent_on_time_by_scenario_details/" class="">SLA Percent On Time by Scenario Details</a></li>
+                <a href="/dspConduct/Page_Desc/SLA_Percent_On_Time_by_Scenario_Details/" class="">SLA Percent On Time by Scenario Details</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_default_rules/" class="">Scenario (Default Rules)</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Default_Rules/" class="">Scenario (Default Rules)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_bp_request_duration/" class="">Scenario Business Process Request Duration</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_BP_Request_Duration/" class="">Scenario Business Process Request Duration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_dependency_condition/" class="">Scenario Dependency Condition</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Dependency_Condition/" class="">Scenario Dependency Condition</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_dependency_condition_assignment/" class="">Scenario Dependency Condition Assignment</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Dependency_Condition_Assignment/" class="">Scenario Dependency Condition Assignment</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_h/" class="">Scenario H</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_H/" class="">Scenario H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_predictive/" class="">Scenario Predictive</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Predictive/" class="">Scenario Predictive</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_process/" class="">Scenario Process H  </a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Process/" class="">Scenario Process H  </a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_process_rule/" class="">Scenario Process Rule</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Process_Rule/" class="">Scenario Process Rule</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_process_target_connection/" class="">Scenario Process Target Connection</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Process_Target_Connection/" class="">Scenario Process Target Connection</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_request_duration/" class="">Scenario Request Duration</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Request_Duration/" class="">Scenario Request Duration</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_event/" class="">Scenario Role Event</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_Event/" class="">Scenario Role Event</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_event_rule/" class="">Scenario Role Event Rule</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_Event_Rule/" class="">Scenario Role Event Rule</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_task_column_h/" class="">Scenario Role Task Column H</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_Task_Column_H/" class="">Scenario Role Task Column H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_task_h/" class="">Scenario Role Task H</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_Task_H/" class="">Scenario Role Task H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_task_page/" class="">Scenario Role Task Page</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_Task_Page/" class="">Scenario Role Task Page</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_task_variant/" class="">Scenario Role Task Variant</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_Task_Variant/" class="">Scenario Role Task Variant</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_type/" class="">Scenario Type</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Type/" class="">Scenario Type</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_use_in_other_category/" class="">Scenario Use In Other Category</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Use_in_Other_Category/" class="">Scenario Use In Other Category</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenario_role_sla_percent_ontime/" class="">Scenario, Role SLA Percent On Time</a></li>
+                <a href="/dspConduct/Page_Desc/Scenario_Role_SLA_Percent_OnTime/" class="">Scenario, Role SLA Percent On Time</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenarios_dependencies/" class="">Scenarios (Dependencies)</a></li>
+                <a href="/dspConduct/Page_Desc/Scenarios_Dependencies/" class="">Scenarios (Dependencies)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/scenarios_roles_h/" class="">Scenarios (Roles) H</a></li>
+                <a href="/dspConduct/Page_Desc/Scenarios_Roles_H/" class="">Scenarios (Roles) H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_final_finish_tables_h/" class="">Task Final Finish Tables H</a></li>
+                <a href="/dspConduct/Page_Desc/Task_Final_Finish_Tables_H/" class="">Task Final Finish Tables H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_final_finish_where_clause/" class="">Task Final Finish Where Clause</a></li>
+                <a href="/dspConduct/Page_Desc/Task_Final_Finish_Where_Clause/" class="">Task Final Finish Where Clause</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_h/" class="">Task H</a></li>
+                <a href="/dspConduct/Page_Desc/Task_H/" class="">Task H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_import_required_columns/" class="uk-active">Task Import Required Columns</a></li>
+                <a href="/dspConduct/Page_Desc/Task_Import_Required_Columns/" class="uk-active">Task Import Required Columns</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_import_staging/" class="">Task Import Staging</a></li>
+                <a href="/dspConduct/Page_Desc/Task_Import_Staging/" class="">Task Import Staging</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_page_h/" class="">Task Page H</a></li>
+                <a href="/dspConduct/Page_Desc/Task_Page_H/" class="">Task Page H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/task_variant/" class="">Task Variant</a></li>
+                <a href="/dspConduct/Page_Desc/Task_Variant/" class="">Task Variant</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/total_hours_saved_by_business_process/" class="">Total Hours Saved (by Business Process)</a></li>
+                <a href="/dspConduct/Page_Desc/Total_Hours_Saved_by_Business_Process/" class="">Total Hours Saved (by Business Process)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/total_hours_saved_by_category/" class="">Total Hours Saved (by Category)</a></li>
+                <a href="/dspConduct/Page_Desc/Total_Hours_Saved_by_Category/" class="">Total Hours Saved (by Category)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/total_money_saved_by_business_process/" class="">Total Money Saved (by Business Process)</a></li>
+                <a href="/dspConduct/Page_Desc/Total_Money_Saved_by_Business_Process/" class="">Total Money Saved (by Business Process)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/total-money-saved-by-category/" class="">Total Money Saved (by Category)</a></li>
+                <a href="/dspConduct/Page_Desc/Total-Money-Saved-by-Category/" class="">Total Money Saved (by Category)</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/unassigned_business_processes/" class="">Unassigned Business Processes</a></li>
+                <a href="/dspConduct/Page_Desc/Unassigned_Business_Processes/" class="">Unassigned Business Processes</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/unassigned_org_unit_1/" class="">Unassigned Org Unit 1</a></li>
+                <a href="/dspConduct/Page_Desc/Unassigned_Org_Unit_1/" class="">Unassigned Org Unit 1</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/unassigned_org_unit_2/" class="">Unassigned Org Unit 2</a></li>
+                <a href="/dspConduct/Page_Desc/Unassigned_Org_Unit_2/" class="">Unassigned Org Unit 2</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/unassigned_org_unit_3/" class="">Unassigned Org Unit 3</a></li>
+                <a href="/dspConduct/Page_Desc/Unassigned_Org_Unit_3/" class="">Unassigned Org Unit 3</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/unassigned_roles/" class="">Unassigned Roles</a></li>
+                <a href="/dspConduct/Page_Desc/Unassigned_Roles/" class="">Unassigned Roles</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_business_processes/" class="">User Business Processes</a></li>
+                <a href="/dspConduct/Page_Desc/User_Business_Processes/" class="">User Business Processes</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_framework_role/" class="">User Framework Role</a></li>
+                <a href="/dspConduct/Page_Desc/User_Framework_Role/" class="">User Framework Role</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_position/" class="">User Position</a></li>
+                <a href="/dspConduct/Page_Desc/User_Position/" class="">User Position</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_role_org_unit_1/" class="">User Role Org Unit 1</a></li>
+                <a href="/dspConduct/Page_Desc/User_Role_Org_Unit_1/" class="">User Role Org Unit 1</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_role_org_unit_2/" class="">User Role Org Unit 2</a></li>
+                <a href="/dspConduct/Page_Desc/User_Role_Org_Unit_2/" class="">User Role Org Unit 2</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_role_org_unit_3/" class="">User Role Org Unit 3</a></li>
+                <a href="/dspConduct/Page_Desc/User_Role_Org_Unit_3/" class="">User Role Org Unit 3</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/user_settings_h/" class="">User Settings H</a></li>
+                <a href="/dspConduct/Page_Desc/User_Settings_H/" class="">User Settings H</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/variant_column_import_staging/" class="">Variant Column Import Staging</a></li>
+                <a href="/dspConduct/Page_Desc/Variant_Column_Import_Staging/" class="">Variant Column Import Staging</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/variant_import_required_columns/" class="">Variant Import Required Columns</a></li>
+                <a href="/dspConduct/Page_Desc/Variant_Import_Required_Columns/" class="">Variant Import Required Columns</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/variant_import_staging/" class="">Variant Import Staging</a></li>
+                <a href="/dspConduct/Page_Desc/Variant_Import_Staging/" class="">Variant Import Staging</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/workflow_message_defaults/" class="">Workflow Message Defaults</a></li>
+                <a href="/dspConduct/Page_Desc/Workflow_Message_Defaults/" class="">Workflow Message Defaults</a></li>
         
             <li >
-                <a href="/dspconduct/page_desc/dspconduct_task_h/" class="">dspConduct Task H</a></li>
+                <a href="/dspConduct/Page_Desc/dspConduct_Task_H/" class="">dspConduct Task H</a></li>
         
     </ul>
     </li>
@@ -677,418 +686,418 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/dspconduct/use_cases/" class="">Procedures</a>
+        <a href="/dspConduct/Use_Cases/" class="">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dspconduct/use_cases/activate_configure_column_variants/" class="">Activate and Configure Column Variants</a></li>
+                <a href="/dspConduct/Use_Cases/Activate_Configure_Column_Variants/" class="">Activate and Configure Column Variants</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/active_request_category/" class="">Active Request for Category</a></li>
+                <a href="/dspConduct/Use_Cases/Active_Request_Category/" class="">Active Request for Category</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/active_requests_for_business_process/" class="">Active Requests for Business Process</a></li>
+                <a href="/dspConduct/Use_Cases/Active_Requests_for_Business_Process/" class="">Active Requests for Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/active_requests_for_role/" class="">Active Requests for Role</a></li>
+                <a href="/dspConduct/Use_Cases/Active_Requests_for_Role/" class="">Active Requests for Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/active_requests_for_scenario/" class="">Active Requests for Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Active_Requests_for_Scenario/" class="">Active Requests for Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_custom_business_rules/" class="">Add Custom Business Rules</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Custom_Business_Rules/" class="">Add Custom Business Rules</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_data_driven_dependency_conditions/" class="">Add Data-Driven Dependency Conditions</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Data_Driven_Dependency_Conditions/" class="">Add Data-Driven Dependency Conditions</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_org_units_from_a_group_to_roles/" class="">Add Org Units from a Group to Roles</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Org_Units_from_a_Group_to_Roles/" class="">Add Org Units from a Group to Roles</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_process_rules_at_the_scenario_level/" class="">Add Process Rules at the Scenario Level</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Process_Rules_at_the_Scenario_Level/" class="">Add Process Rules at the Scenario Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_business_process/" class="">Add a Business Process</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Business_Process/" class="">Add a Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_category_object/" class="">Add a Category Object</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Category_Object/" class="">Add a Category Object</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_conflict_to_a_role/" class="">Add a Conflict to a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Conflict_to_a_Role/" class="">Add a Conflict to a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_custom_request_status/" class="">Add a Custom Request Status</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Custom_Request_Status/" class="">Add a Custom Request Status</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_dependent_scenario/" class="">Add a Dependent Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Dependent_Scenario/" class="">Add a Dependent Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_position/" class="">Add a Position</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Position/" class="">Add a Position</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_role/" class="">Add a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Role/" class="">Add a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_role_to_a_scenario/" class="">Add a Role to a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Role_to_a_Scenario/" class="">Add a Role to a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_scenario/" class="">Add a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Add_Scenario/" class="">Add a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_scenario_level_default_value_rule_to_a_category/" class="">Add a Scenario Level Default Value Rule to a Category</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Scenario_Level_Default_Value_Rule_to_a_Category/" class="">Add a Scenario Level Default Value Rule to a Category</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_scenario_to_a_business_process/" class="">Add a Scenario to a Business Process</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Scenario_to_a_Business_Process/" class="">Add a Scenario to a Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_task/" class="">Add a Task</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Task/" class="">Add a Task</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_task_to_a_role/" class="">Add a Task to a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Task_to_a_Role/" class="">Add a Task to a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_a_variant_to_a_task/" class="">Add a Variant to a Task</a></li>
+                <a href="/dspConduct/Use_Cases/Add_a_Variant_to_a_Task/" class="">Add a Variant to a Task</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_an_integrate_process_to_a_scenario/" class="">Add an Integrate Process to a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Add_an_Integrate_Process_to_a_Scenario/" class="">Add an Integrate Process to a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/add_the_request_details_data_visualization_page_to_the_content_webapp/" class="">Add the Request Details Data Visualization Page to the Content WebApp</a></li>
+                <a href="/dspConduct/Use_Cases/Add_the_Request_Details_Data_Visualization_Page_to_the_Content_WebApp/" class="">Add the Request Details Data Visualization Page to the Content WebApp</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/allow_a_scenario_to_be_used_in_other_categories/" class="">Allow a Scenario to be Used in Other Categories</a></li>
+                <a href="/dspConduct/Use_Cases/Allow_a_Scenario_to_be_used_in_Other_Categories/" class="">Allow a Scenario to be Used in Other Categories</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/approve_a_request/" class="">Approve a Request</a></li>
+                <a href="/dspConduct/Use_Cases/Approve_a_Request/" class="">Approve a Request</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/archive_a_request_in_the_content_webapp/" class="">Archive a Request in the Content WebApp</a></li>
+                <a href="/dspConduct/Use_Cases/Archive_a_Request_in_the_Content_WebApp/" class="">Archive a Request in the Content WebApp</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/assign_a_condition_to_a_scenario_dependency_relationship/" class="">Assign a Condition to a Scenario Dependency Relationship</a></li>
+                <a href="/dspConduct/Use_Cases/Assign_a_Condition_to_a_Scenario_Dependency_Relationship/" class="">Assign a Condition to a Scenario Dependency Relationship</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/assign_a_default_value_rule_to_a_scenario/" class="">Assign a Default Value Rule to a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Assign_a_Default_Value_Rule_to_a_Scenario/" class="">Assign a Default Value Rule to a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/auto_finish_a_role/" class="">Auto Finish a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Auto_Finish_a_Role/" class="">Auto Finish a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/auto_generate_request_related_objects/" class="">Auto-generate Request-related Objects</a></li>
+                <a href="/dspConduct/Use_Cases/Auto_Generate_Request_related_Objects/" class="">Auto-generate Request-related Objects</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/business_process_execution_during_final_finish/" class="">Business Process Execution During Final Finish</a></li>
+                <a href="/dspConduct/Use_Cases/Business_Process_Execution_During_Final_Finish/" class="">Business Process Execution During Final Finish</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/business_process_execution_with_scenario_dependencies_during_final_finish/" class="">Business Process Execution with Scenario Dependencies During Final Finish</a></li>
+                <a href="/dspConduct/Use_Cases/Business_Process_Execution_with_Scenario_Dependencies_During_Final_Finish/" class="">Business Process Execution with Scenario Dependencies During Final Finish</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/cts_notes_specific_to_dspconduct/" class="">CTS Notes Specific to dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/CTS_Notes_Specific_to_dspConduct/" class="">CTS Notes Specific to dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_business_processes_in_a_position/" class="">Configure Business Processes in a Position</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Business_Processes_in_a_Position/" class="">Configure Business Processes in a Position</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_business_value_parameters/" class="">Configure Business Value Parameters</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Business_Value_Parameters/" class="">Configure Business Value Parameters</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_child_scenario_criteria/" class="">Configure Child Scenario Criteria</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Child_Scenario_Criteria/" class="">Configure Child Scenario Criteria</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_column_status_for_a_scenario_role_task/" class="">Configure Column Status for a Scenario Role Task</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Column_Status_for_a_Scenario_Role_Task/" class="">Configure Column Status for a Scenario Role Task</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_data_download_during_the_final_finish_process_to_use_a_cranport_package/" class="">Configure Data Download During the Final Finish Process to use a CranPort Package</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Data_Download_During_the_Final_Finish_Process_to_use_a_CranPort_Package/" class="">Configure Data Download During the Final Finish Process to use a CranPort Package</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_finalfinish_dbmoto/" class="">Configure Data Download During the Final Finish Process to use a DBMoto Package</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_FinalFinish_DBMoto/" class="">Configure Data Download During the Final Finish Process to use a DBMoto Package</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_data_download_during_the_final_finish_process_to_use_a_data_services_job/" class="">Configure Data Download During the Final Finish Process to use a Data Services Job</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Data_Download_During_the_Final_Finish_Process_to_use_a_Data_Services_Job/" class="">Configure Data Download During the Final Finish Process to use a Data Services Job</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_roles_in_a_position/" class="">Configure Roles in a Position</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Roles_in_a_Position/" class="">Configure Roles in a Position</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_scenario_types/" class="">Configure Scenario Types</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Scenario_Types/" class="">Configure Scenario Types</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_users_in_a_position/" class="">Configure Users in a Position</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Users_in_a_Position/" class="">Configure Users in a Position</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_dspconduct_positions_for_a_user/" class="">Configure dspConduct Positions for a User</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_dspConduct_Positions_for_a_User/" class="">Configure dspConduct Positions for a User</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_the_post_later_feature_at_the_role_level/" class="">Configure the Post Later Feature at the Role Level</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_the_Post_Later_Feature_at_the_Role_Level/" class="">Configure the Post Later Feature at the Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_the_post_later_feature_at_the_scenario_role_level/" class="">Configure the Post Later Feature at the Scenario - Role Level</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_the_Post_Later_Feature_at_the_Scenario_Role_Level/" class="">Configure the Post Later Feature at the Scenario - Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/configure_required_setting_scenario_role_task_column/" class="">Configure the Required Setting for a Scenario Role Task Column</a></li>
+                <a href="/dspConduct/Use_Cases/Configure_Required_Setting_Scenario_Role_Task_Column/" class="">Configure the Required Setting for a Scenario Role Task Column</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/content_webapp_examples/" class="">Content WebApp Examples</a></li>
+                <a href="/dspConduct/Use_Cases/Content_WebApp_Examples/" class="">Content WebApp Examples</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/copy_settings_to_other_variants/" class="">Copy Settings to Other Variants</a></li>
+                <a href="/dspConduct/Use_Cases/Copy_Settings_to_Other_Variants/" class="">Copy Settings to Other Variants</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/copy_a_business_process/" class="">Copy a Business Process</a></li>
+                <a href="/dspConduct/Use_Cases/Copy_a_Business_Process/" class="">Copy a Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/copy_a_position/" class="">Copy a Position</a></li>
+                <a href="/dspConduct/Use_Cases/Copy_a_Position/" class="">Copy a Position</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/copy_a_role/" class="">Copy a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Copy_a_Role/" class="">Copy a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/copy_a_scenario/" class="">Copy a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Copy_a_Scenario/" class="">Copy a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/create_tables_and_views_for_content_webapp_pages_overview/" class="">Create Tables and Views for Content WebApp Pages Overview</a></li>
+                <a href="/dspConduct/Use_Cases/Create_Tables_and_Views_for_Content_WebApp_Pages_Overview/" class="">Create Tables and Views for Content WebApp Pages Overview</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/create_valid_views_task_pages/" class="">Create Validation Views for Content WebApp Task Pages</a></li>
+                <a href="/dspConduct/Use_Cases/Create_Valid_Views_Task_Pages/" class="">Create Validation Views for Content WebApp Task Pages</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/create_validationviews_content_page/" class="">Create Validation Views for a Content WebApp Task Page</a></li>
+                <a href="/dspConduct/Use_Cases/Create_ValidationViews_Content_Page/" class="">Create Validation Views for a Content WebApp Task Page</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/create_a_category/" class="">Create a Category</a></li>
+                <a href="/dspConduct/Use_Cases/Create_a_Category/" class="">Create a Category</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/create_a_final_finish_where_clause_for_a_cranport_package/" class="">Create a Final Finish Where Clause for a CranPort Package</a></li>
+                <a href="/dspConduct/Use_Cases/Create_a_Final_Finish_Where_Clause_for_a_CranPort_Package/" class="">Create a Final Finish Where Clause for a CranPort Package</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/create_a_request/" class="">Create a Request</a></li>
+                <a href="/dspConduct/Use_Cases/Create_a_Request/" class="">Create a Request</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/deactivate_business_process/" class="">Deactivate a Business Process</a></li>
+                <a href="/dspConduct/Use_Cases/Deactivate_Business_Process/" class="">Deactivate a Business Process</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/deactivate_scenario/" class="">Deactivate a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/Deactivate_Scenario/" class="">Deactivate a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/deactivate_a_task_for_a_scenario_role_combo/" class="">Deactivate a Task for a Scenario Role Combination</a></li>
+                <a href="/dspConduct/Use_Cases/Deactivate_a_Task_for_a_Scenario_Role_Combo/" class="">Deactivate a Task for a Scenario Role Combination</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/download_documentation_at_the_business_process_level/" class="">Download Documentation at the Business Process Level</a></li>
+                <a href="/dspConduct/Use_Cases/Download_Documentation_at_the_Business_Process_Level/" class="">Download Documentation at the Business Process Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/download_documentation_at_the_role_level/" class="">Download Documentation at the Role Level</a></li>
+                <a href="/dspConduct/Use_Cases/Download_Documentation_at_the_Role_Level/" class="">Download Documentation at the Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/download_documentation_at_the_scenario_role_level/" class="">Download Documentation at the Scenario Role Level</a></li>
+                <a href="/dspConduct/Use_Cases/Download_Documentation_at_the_Scenario_Role_Level/" class="">Download Documentation at the Scenario Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/download_documentation_at_the_scenario_role_task_level/" class="">Download Documentation at the Scenario Role Task Level</a></li>
+                <a href="/dspConduct/Use_Cases/Download_Documentation_at_the_Scenario_Role_Task_Level/" class="">Download Documentation at the Scenario Role Task Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/download_documentation_at_the_task_level/" class="">Download Documentation at the Task Level</a></li>
+                <a href="/dspConduct/Use_Cases/Download_Documentation_at_the_Task_Level/" class="">Download Documentation at the Task Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/enable_or_disable_messages_for_a_role/" class="">Enable or Disable Messages for a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Enable_or_Disable_Messages_for_a_Role/" class="">Enable or Disable Messages for a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/final_finish_process_for_a_request_overview/" class="">Final Finish Process for a Request Overview</a></li>
+                <a href="/dspConduct/Use_Cases/Final_Finish_Process_for_a_Request_Overview/" class="">Final Finish Process for a Request Overview</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/final_finish_setup_example/" class="">Final Finish Setup Example</a></li>
+                <a href="/dspConduct/Use_Cases/Final_Finish_Setup_Example/" class="">Final Finish Setup Example</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/finish_download_messages/" class="">Finish Download Messages</a></li>
+                <a href="/dspConduct/Use_Cases/Finish_Download_Messages/" class="">Finish Download Messages</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/finish_a_role_with_the_application_role_type/" class="">Finish a Role with the Application Role Type</a></li>
+                <a href="/dspConduct/Use_Cases/Finish_a_Role_with_the_Application_Role_Type/" class="">Finish a Role with the Application Role Type</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/finish_a_role_with_the_post_role_type/" class="">Finish a Role with the Post Role Type</a></li>
+                <a href="/dspConduct/Use_Cases/Finish_a_Role_with_the_Post_Role_Type/" class="">Finish a Role with the Post Role Type</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/generate_control_views_for_content_webapp_pages/" class="">Generate Control Views for Content WebApp Pages</a></li>
+                <a href="/dspConduct/Use_Cases/Generate_Control_Views_for_Content_WebApp_Pages/" class="">Generate Control Views for Content WebApp Pages</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/generate_element_documents/" class="">Generate Element Documents</a></li>
+                <a href="/dspConduct/Use_Cases/Generate_Element_Documents/" class="">Generate Element Documents</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/generate_a_control_table_for_content_webapp_pages/" class="">Generate a Control Table for Content WebApp Pages</a></li>
+                <a href="/dspConduct/Use_Cases/Generate_a_Control_Table_for_Content_WebApp_Pages/" class="">Generate a Control Table for Content WebApp Pages</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/import_igc_governance_elements_into_dspconduct/" class="">Import IGC™ Governance Elements into dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/Import_IGC_Governance_Elements_into_dspConduct/" class="">Import IGC™ Governance Elements into dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/import_views/" class="">Import Views</a></li>
+                <a href="/dspConduct/Use_Cases/Import_Views/" class="">Import Views</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_business_process/" class="">Manage Business Processes</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Business_Process/" class="">Manage Business Processes</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_categories/" class="">Manage Categories</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Categories/" class="">Manage Categories</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_element_documentation/" class="">Manage Element Documentation</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Element_Documentation/" class="">Manage Element Documentation</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_org_units/" class="">Manage Org Units</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Org_Units/" class="">Manage Org Units</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_positions/" class="">Manage Positions</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Positions/" class="">Manage Positions</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_roles/" class="">Manage Roles</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Roles/" class="">Manage Roles</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_scenarios/" class="">Manage Scenarios</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Scenarios/" class="">Manage Scenarios</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/manage_tasks/" class="">Manage Tasks</a></li>
+                <a href="/dspConduct/Use_Cases/Manage_Tasks/" class="">Manage Tasks</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/map_a_dspconduct_task_to_a_task_imported_from_igc/" class="">Map a dspConduct™ Task to a Task Imported from IGC™</a></li>
+                <a href="/dspConduct/Use_Cases/Map_a_dspConduct_Task_to_a_Task_Imported_from_IGC/" class="">Map a dspConduct™ Task to a Task Imported from IGC™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/post_a_request/" class="">Post a Request</a></li>
+                <a href="/dspConduct/Use_Cases/Post_a_Request/" class="">Post a Request</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/process_requests/" class="">Process Requests Overview</a></li>
+                <a href="/dspConduct/Use_Cases/Process_Requests/" class="">Process Requests Overview</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/reject_a_request/" class="">Reject a Request</a></li>
+                <a href="/dspConduct/Use_Cases/Reject_a_Request/" class="">Reject a Request</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/replace_documentation/" class="">Replace Documentation</a></li>
+                <a href="/dspConduct/Use_Cases/Replace_Documentation/" class="">Replace Documentation</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/replace_an_element_document/" class="">Replace an Element Document</a></li>
+                <a href="/dspConduct/Use_Cases/Replace_an_Element_Document/" class="">Replace an Element Document</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/reset_a_role/" class="">Reset a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Reset_a_Role/" class="">Reset a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/review_request_changes/" class="">Review Request Changes</a></li>
+                <a href="/dspConduct/Use_Cases/Review_Request_Changes/" class="">Review Request Changes</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/review_a_request_overview/" class="">Review a Request Overview</a></li>
+                <a href="/dspConduct/Use_Cases/Review_a_Request_Overview/" class="">Review a Request Overview</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/role_dependencies/" class="">Role Dependencies</a></li>
+                <a href="/dspConduct/Use_Cases/Role_Dependencies/" class="">Role Dependencies</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/role_types_and_task_types/" class="">Role Types and Task Types</a></li>
+                <a href="/dspConduct/Use_Cases/Role_Types_and_Task_Types/" class="">Role Types and Task Types</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/search_for_scenario_role_task_column_assignments_while_reviewing_a_request/" class="">Search for Scenario Role Task Column Assignments while Reviewing a Request</a></li>
+                <a href="/dspConduct/Use_Cases/Search_for_Scenario_Role_Task_Column_Assignments_while_Reviewing_a_Request/" class="">Search for Scenario Role Task Column Assignments while Reviewing a Request</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/set_allowed_processes_at_the_category_level/" class="">Set Allowed Processes at the Category Level</a></li>
+                <a href="/dspConduct/Use_Cases/Set_Allowed_Processes_at_the_Category_Level/" class="">Set Allowed Processes at the Category Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/set_posting_options_at_the_category_level/" class="">Set Posting Options at the Category Level</a></li>
+                <a href="/dspConduct/Use_Cases/Set_Posting_Options_at_the_Category_Level/" class="">Set Posting Options at the Category Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/set_rules_for_a_category_process/" class="">Set Rules for a Category Process</a></li>
+                <a href="/dspConduct/Use_Cases/Set_Rules_for_a_Category_Process/" class="">Set Rules for a Category Process</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/set_up_a_category_from_igc_in_dspconduct/" class="">Set Up a Category from IGC™ in dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/Set_Up_a_Category_from_IGC_in_dspConduct/" class="">Set Up a Category from IGC™ in dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/set_a_roles_org_unit_value_assignments/" class="">Set a Role&#39;s Org Unit Value Assignments</a></li>
+                <a href="/dspConduct/Use_Cases/Set_a_Roles_Org_Unit_Value_Assignments/" class="">Set a Role&#39;s Org Unit Value Assignments</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/set_the_control_table_prefix/" class="">Set the Control Table Prefix</a></li>
+                <a href="/dspConduct/Use_Cases/Set_the_Control_Table_Prefix/" class="">Set the Control Table Prefix</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/setup_and_configuration_for_dspconduct/" class="">Setup and Configuration for dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/Setup_and_Configuration_for_dspConduct/" class="">Setup and Configuration for dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/update_control_table_data/" class="">Update Control Table Data</a></li>
+                <a href="/dspConduct/Use_Cases/Update_Control_Table_Data/" class="">Update Control Table Data</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/update_custom_attributes_for_governance_elements/" class="">Update Custom Attributes for Governance Elements</a></li>
+                <a href="/dspConduct/Use_Cases/Update_Custom_Attributes_for_Governance_Elements/" class="">Update Custom Attributes for Governance Elements</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/update_posting_options_at_the_scenario_-level/" class="">Update Posting Options at the Scenario Level</a></li>
+                <a href="/dspConduct/Use_Cases/Update_Posting_Options_at_the_Scenario_-Level/" class="">Update Posting Options at the Scenario Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/update_a_scenario_role_task_column_list/" class="">Update a Scenario Role Task Column List</a></li>
+                <a href="/dspConduct/Use_Cases/Update_a_Scenario_Role_Task_Column_List/" class="">Update a Scenario Role Task Column List</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/update_the_list_of_pages_assigned_to_a_task/" class="">Update the List of Pages Assigned to a Task</a></li>
+                <a href="/dspConduct/Use_Cases/Update_the_List_of_Pages_Assigned_to_a_Task/" class="">Update the List of Pages Assigned to a Task</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/upload_documentation_at_the_business_process_level/" class="">Upload Documentation at the Business Process Level</a></li>
+                <a href="/dspConduct/Use_Cases/Upload_Documentation_at_the_Business_Process_Level/" class="">Upload Documentation at the Business Process Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/upload_documentation_at_the_role_level/" class="">Upload Documentation at the Role Level</a></li>
+                <a href="/dspConduct/Use_Cases/Upload_Documentation_at_the_Role_Level/" class="">Upload Documentation at the Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/upload_documentation_at_the_scenario_role_level/" class="">Upload Documentation at the Scenario Role Level</a></li>
+                <a href="/dspConduct/Use_Cases/Upload_Documentation_at_the_Scenario_Role_Level/" class="">Upload Documentation at the Scenario Role Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/upload_documentation_at_the_scenario_role_task_level/" class="">Upload Documentation at the Scenario Role Task Level</a></li>
+                <a href="/dspConduct/Use_Cases/Upload_Documentation_at_the_Scenario_Role_Task_Level/" class="">Upload Documentation at the Scenario Role Task Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/upload_documentation_at_the_task_level/" class="">Upload Documentation at the Task Level</a></li>
+                <a href="/dspConduct/Use_Cases/Upload_Documentation_at_the_Task_Level/" class="">Upload Documentation at the Task Level</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/upload_and_download_element_documentation/" class="">Upload and Download Element Documentation</a></li>
+                <a href="/dspConduct/Use_Cases/Upload_and_Download_Element_Documentation/" class="">Upload and Download Element Documentation</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/validate_a_role/" class="">Validate a Role</a></li>
+                <a href="/dspConduct/Use_Cases/Validate_a_Role/" class="">Validate a Role</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_archived_requests_dge/" class="">View Archived Requests</a></li>
+                <a href="/dspConduct/Use_Cases/View_Archived_Requests_DGE/" class="">View Archived Requests</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_business-_process_visualization/" class="">View Business Process Visualization</a></li>
+                <a href="/dspConduct/Use_Cases/View_Business-_Process_Visualization/" class="">View Business Process Visualization</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_business_value_dashboard/" class="">View Business Value Dashboard</a></li>
+                <a href="/dspConduct/Use_Cases/View_Business_Value_Dashboard/" class="">View Business Value Dashboard</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_charts/" class="">View Charts in dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/View_Charts/" class="">View Charts in dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_final_finish_download_messages/" class="">View Final Finish Download Messages</a></li>
+                <a href="/dspConduct/Use_Cases/View_Final_Finish_Download_Messages/" class="">View Final Finish Download Messages</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_reports_in_dspconduct/" class="">View Reports in dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/View_Reports_in_dspConduct/" class="">View Reports in dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_tasks_imported_from_igc_in_dspconduct/" class="">View Tasks Imported from IGC™ in dspConduct™</a></li>
+                <a href="/dspConduct/Use_Cases/View_Tasks_Imported_from_IGC_in_dspConduct/" class="">View Tasks Imported from IGC™ in dspConduct™</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_a_requests_roles/" class="">View a Request’s Roles</a></li>
+                <a href="/dspConduct/Use_Cases/View_a_Requests_Roles/" class="">View a Request’s Roles</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_a_roles_scenarios_and_tasks/" class="">View a Role&#39;s Scenarios and Tasks</a></li>
+                <a href="/dspConduct/Use_Cases/View_a_Roles_Scenarios_and_Tasks/" class="">View a Role&#39;s Scenarios and Tasks</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_a_roles_dspconduct_pages/" class="">View a Role&#39;s dspConduct™ Pages</a></li>
+                <a href="/dspConduct/Use_Cases/View_a_Roles_dspConduct_Pages/" class="">View a Role&#39;s dspConduct™ Pages</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_a_tasks_scenarios_and_roles/" class="">View a Task&#39;s Scenarios and Roles</a></li>
+                <a href="/dspConduct/Use_Cases/View_a_Tasks_Scenarios_and_Roles/" class="">View a Task&#39;s Scenarios and Roles</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_all_pages_for_a_task/" class="">View all Pages for a Task</a></li>
+                <a href="/dspConduct/Use_Cases/View_all_Pages_for_a_Task/" class="">View all Pages for a Task</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_and_configure_external_target_systems_scnrio/" class="">View and Configure External Target Systems for a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/View_and_Configure_External_Target_Systems_Scnrio/" class="">View and Configure External Target Systems for a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_the_request_details_diagram/" class="">View the Request Details Diagram</a></li>
+                <a href="/dspConduct/Use_Cases/View_the_Request_Details_Diagram/" class="">View the Request Details Diagram</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_the_request_objects_creation_log/" class="">View the Request Objects Creation Log</a></li>
+                <a href="/dspConduct/Use_Cases/View_the_Request_Objects_Creation_Log/" class="">View the Request Objects Creation Log</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/view_the_roles_and_tasks_assigned_to_a_scenario/" class="">View the Roles and Tasks Assigned to a Scenario</a></li>
+                <a href="/dspConduct/Use_Cases/View_the_Roles_and_Tasks_Assigned_to_a_Scenario/" class="">View the Roles and Tasks Assigned to a Scenario</a></li>
         
             <li >
-                <a href="/dspconduct/use_cases/dspconduct_design_process_overview/" class="">dspConduct™ Design Process Overview</a></li>
+                <a href="/dspConduct/Use_Cases/dspConduct_Design_Process_Overview/" class="">dspConduct™ Design Process Overview</a></li>
         
     </ul>
     </li>
@@ -1109,7 +1118,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Master Data Management</a></li>
-        <li><a>dspConduct</a></li>
+        <li><a href="/dspConduct">dspConduct</a></li>
         <li><span>Task Import Required Columns</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -1121,7 +1130,7 @@
 <div class="use">
 
 Use this page to [Import a Task View for a
-Category.](../Use_Cases/Import_Views.htm#Import_a_Task_View_for_a_Category)
+Category.](../Use_Cases/Import_Views#Import_a_Task_View_for_a_Category)
 
 </div>
 
@@ -1161,6 +1170,44 @@ toolbar.</li>
 </tbody>
 </table>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -1178,13 +1225,14 @@ toolbar.</li>
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -1192,12 +1240,12 @@ toolbar.</li>
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -1210,18 +1258,20 @@ toolbar.</li>
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

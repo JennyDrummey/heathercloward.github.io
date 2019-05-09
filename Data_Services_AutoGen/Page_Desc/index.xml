@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AutoGen BODS Requests H</title>
+      <link>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/AutoGen_BODS_Requests_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/AutoGen_BODS_Requests_H/</guid>
+      <description>AutoGen BODS Requests H AutoGen BODS Requests V
+Use this page to [Build and Refresh Data Services Jobs](../Use_Cases/Build_and_Refresh_DS_Jobs).  To access this page:
+ Click the Automation tab in the Quick Panel. Select the Object for which the request is being generated. Click the Build and Refresh Data Services icon in the Page toolbar; the *AutoGen Data Services* page displays. Click the Auto Gen Requests icon; the *Autogen BODS Requests* page displays.</description>
+    </item>
+    
+    <item>
+      <title>AutoGen Data Services</title>
+      <link>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/AutoGen_Data_Services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/AutoGen_Data_Services/</guid>
+      <description>AutoGen Data Services Use this page to [Build and Refresh Data Services Jobs](../Use_Cases/Build_and_Refresh_DS_Jobs).  To access this page:
+ Click the Automation tab in the Quick Panel. Select the Object for which the request is being generated. Click the Build and Refresh Data Services icon in the Page toolbar; the AutoGen Data Services page displays.           Field Description   Object Displays the name of the object as created in Console.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Datastores Mappings H</title>
+      <link>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/Data_Services_Datastores_Mappings_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/Data_Services_Datastores_Mappings_H/</guid>
+      <description>Data Services Datastores Mappings H Data Services Datastores Mappings V
+Use this page to [Configure a Data Services Datastore](../Use_Cases/Configure_a_DS_Datastore).  To access this page:
+ Click the Automation tab in the Quick Panel. Select the Object for which the Data Services repository is being set up. Click the Build and Refresh Data Services icon in the Page toolbar; the *AutoGen Data Services* page&amp;rsquo;s *Vertical* View displays. Select Configuration &amp;gt; Data Services Datastores in the AutoGen Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Data Services Repositories H</title>
+      <link>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/Data_Services_Repositories_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Data_Services_AutoGen/Page_Desc/Data_Services_Repositories_H/</guid>
+      <description>Data Services Repositories H Data Services Repositories V
+Use this page to [Configure a Data Services Repository.](../Use_Cases/Configure_a_DS_Repository)  To access this page:
+ Click the Automation tab in the Quick Panel. Select the Object for which the Data Services Repository is being set up. Click the Build and Refresh Data Services icon in the Page toolbar; the *AutoGen Data Services* page&amp;rsquo;s *Vertical* View displays. Select Configuration &amp;gt; Data Services Repositories in the AutoGen *Navigation* pane.</description>
+    </item>
+    
+  </channel>
+</rss>

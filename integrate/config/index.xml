@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/integrate/config/</link>
+    <link>https://heathercloward.github.io/Integrate/Config/</link>
     <description>Recent content in Configuration on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/integrate/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Integrate/Config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Configure Parameters</title>
-      <link>https://heathercloward.github.io/integrate/config/configure_parametersintegrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Config/Configure_ParametersIntegrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/config/configure_parametersintegrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Config/Configure_ParametersIntegrate/</guid>
       <description>Configure Parameters Integrate parameters are settings used throughout the component that must be configured per installation.
 Set parameters for Integrate in Common.
 To set parameters:
@@ -25,10 +25,10 @@ NOTE: The default values for many posting settings can be set on the Parameters 
     
     <item>
       <title>Create Categories</title>
-      <link>https://heathercloward.github.io/integrate/config/create_categories/</link>
+      <link>https://heathercloward.github.io/Integrate/Config/Create_Categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/config/create_categories/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Config/Create_Categories/</guid>
       <description>Create Categories A category is a grouping of templates and processes and is used for organizational and management purposes.
 NOTE: An Administrator must assign security keys to a role every time a new category is created in Integrate.
 To create a category:
@@ -40,10 +40,10 @@ View the field descriptions for the Categories page.
     
     <item>
       <title>Establish a Target System Connection</title>
-      <link>https://heathercloward.github.io/integrate/config/establish_a_target_system_connection_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Config/Establish_a_target_system_Connection_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/config/establish_a_target_system_connection_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Config/Establish_a_target_system_Connection_Integrate/</guid>
       <description>Establish a Target System Connection The target system connection allows for the set up and configuration of instances that Integrate uses throughout the posting process.
 This instance is used for:
 Posting data
@@ -56,10 +56,10 @@ NOTE: This is used for SAP connections only.</description>
     
     <item>
       <title>Extract RFC Functions</title>
-      <link>https://heathercloward.github.io/integrate/config/extract_rfc_functions/</link>
+      <link>https://heathercloward.github.io/Integrate/Config/Extract_RFC_Functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/config/extract_rfc_functions/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Config/Extract_RFC_Functions/</guid>
       <description>Extract RFC Functions Integrate supports the execution of any RFC-enabled Function Module in SAP, including the execution of RFCs and the posting of data via BAPIs.
 Before creating a BAPI/RFC template, a Template Administrator must extract the list of RFC functions and their descriptions enabled in the SAP system using the Data Source Registry page in Common.
 Integrate pulls the definition of the Function Module from SAP to complete the template.</description>
@@ -67,10 +67,10 @@ Integrate pulls the definition of the Function Module from SAP to complete the t
     
     <item>
       <title>Set up Security for Integrate</title>
-      <link>https://heathercloward.github.io/integrate/config/set_up_security_for_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Config/Set_up_Security_for_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/config/set_up_security_for_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Config/Set_up_Security_for_Integrate/</guid>
       <description>Set up Security for Integrate To set up security, an Administrator:
  Creates User Accounts Creates Security Roles Assigns Users to Security Role Assigns WebApp Groups to Security Role  A user can then:
  Create Integrate Categories in Integrate.
@@ -81,10 +81,10 @@ An Administrator can then:
     
     <item>
       <title>User Credentials in Integrate</title>
-      <link>https://heathercloward.github.io/integrate/config/user_credentials_in_integrate/</link>
+      <link>https://heathercloward.github.io/Integrate/Config/User_Credentials_in_Integrate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/integrate/config/user_credentials_in_integrate/</guid>
+      <guid>https://heathercloward.github.io/Integrate/Config/User_Credentials_in_Integrate/</guid>
       <description>User Credentials in Integrate Integrate uses the same methods to acquire user credentials as dspCompose™.
 Refer to User Credentials in dspCompose™ for more information.</description>
     </item>

@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Create Groups :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,40 +126,43 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/dspmonitor/" class="active">dspMonitor Overview</a>
+        <a href="/dspMonitor/" class="active">dspMonitor Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
+
 
 
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/dspmonitor/config/" class="">Configuration</a>
+        <a href="/dspMonitor/Config/" class="">Configuration</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dspmonitor/config/configure_the_path_of_the_datadialysis_report_filepath_data_source/" class="">Configure Path of DataDialysis_Report_FilePath Data Source</a></li>
+                <a href="/dspMonitor/Config/Configure_the_Path_of_the_DataDialysis_Report_FilePath_Data_Source/" class="">Configure Path of DataDialysis_Report_FilePath Data Source</a></li>
         
             <li >
-                <a href="/dspmonitor/config/configure_sap_client_name_for_dspmonitor_reports/" class="">Configure SAP Client Name for dspMonitor™ Reports</a></li>
+                <a href="/dspMonitor/Config/Configure_SAP_Client_Name_for_dspMonitor_Reports/" class="">Configure SAP Client Name for dspMonitor™ Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/config/configure_schedules_on_services_pages/" class="">Configure Schedules on Service Pages</a></li>
+                <a href="/dspMonitor/Config/Configure_Schedules_on_Services_Pages/" class="">Configure Schedules on Service Pages</a></li>
         
             <li >
-                <a href="/dspmonitor/config/configure_dspmonitor_parameters/" class="">Configure dspMonitor™ Parameters</a></li>
+                <a href="/dspMonitor/Config/Configure_dspMonitor_Parameters/" class="">Configure dspMonitor™ Parameters</a></li>
         
             <li >
-                <a href="/dspmonitor/config/set_up_security_for_dspmonitor/" class="">Set Up Security for dspMonitor™</a></li>
+                <a href="/dspMonitor/Config/Set_Up_Security_for_dspMonitor/" class="">Set Up Security for dspMonitor™</a></li>
         
     </ul>
     </li>
@@ -163,166 +172,166 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/dspmonitor/page_desc/" class="">Pages</a>
+        <a href="/dspMonitor/Page_Desc/" class="">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dspmonitor/page_desc/group_errors/" class="">Group (Errors)</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Errors/" class="">Group (Errors)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/group_day_metrics/" class="">Group Day (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Day_Metrics/" class="">Group Day (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/group_metric_graph/" class="">Group Metric Graph</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Metric_Graph/" class="">Group Metric Graph</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/group_month_metrics/" class="">Group Month (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Month_Metrics/" class="">Group Month (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/group_reports_h/" class="">Group Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Reports_H/" class="">Group Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/group_users/" class="">Group Users</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Users/" class="">Group Users</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/group_week_metrics/" class="">Group Week (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Group_Week_Metrics/" class="">Group Week (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/groups_h/" class="">Groups H</a></li>
+                <a href="/dspMonitor/Page_Desc/Groups_H/" class="">Groups H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/metric_data_column_config/" class="">Metric Data Column (Config)</a></li>
+                <a href="/dspMonitor/Page_Desc/Metric_Data_Column_Config/" class="">Metric Data Column (Config)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/monitor_h/" class="">Monitor H</a></li>
+                <a href="/dspMonitor/Page_Desc/Monitor_H/" class="">Monitor H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/object_publish/" class="">Object Publish</a></li>
+                <a href="/dspMonitor/Page_Desc/Object_Publish/" class="">Object Publish</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/object_reports/" class="">Object Reports</a></li>
+                <a href="/dspMonitor/Page_Desc/Object_Reports/" class="">Object Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/objects_dspmonitor/" class="">Objects H</a></li>
+                <a href="/dspMonitor/Page_Desc/Objects_dspMonitor/" class="">Objects H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/parameters/" class="">Parameters</a></li>
+                <a href="/dspMonitor/Page_Desc/Parameters/" class="">Parameters</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/process_queue_task/" class="">Process Queue Task</a></li>
+                <a href="/dspMonitor/Page_Desc/Process_Queue_Task/" class="">Process Queue Task</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/quality_dimension/" class="">Quality Dimension</a></li>
+                <a href="/dspMonitor/Page_Desc/Quality_Dimension/" class="">Quality Dimension</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_data_metrics_h/" class="">Report Data (Metrics) H</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Data_Metrics_H/" class="">Report Data (Metrics) H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_day_metrics/" class="">Report Day (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Day_Metrics/" class="">Report Day (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_metric_details/" class="">Report Metric Details</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Metric_Details/" class="">Report Metric Details</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_month_metrics/" class="">Report Month (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Month_Metrics/" class="">Report Month (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_repositories_h/" class="">Report Repositories H</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Repositories_H/" class="">Report Repositories H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_target_table_columns/" class="">Report Target Table Columns H</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Target_Table_Columns/" class="">Report Target Table Columns H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_target_tables-h/" class="">Report Target Tables H</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Target_Tables-H/" class="">Report Target Tables H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_week_metrics/" class="">Report Week (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Week_Metrics/" class="">Report Week (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_workflows_h/" class="">Report Workflows H</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_Workflows_H/" class="">Report Workflows H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/report_in_groups/" class="">Report in Groups</a></li>
+                <a href="/dspMonitor/Page_Desc/Report_in_Groups/" class="">Report in Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/reports_errors/" class="">Reports (Errors)</a></li>
+                <a href="/dspMonitor/Page_Desc/Reports_Errors/" class="">Reports (Errors)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/reports_metrics/" class="">Reports (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/Reports_Metrics/" class="">Reports (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/repository_collect_target/" class="">Repository Collect Target</a></li>
+                <a href="/dspMonitor/Page_Desc/Repository_Collect_Target/" class="">Repository Collect Target</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/repository_reports_h/" class="">Repository Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Repository_Reports_H/" class="">Repository Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/schedule_service_page_h/" class="">Schedule Service Page H</a></li>
+                <a href="/dspMonitor/Page_Desc/Schedule_Service_Page_H/" class="">Schedule Service Page H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/sigma_levels/" class="">Sigma Levels</a></li>
+                <a href="/dspMonitor/Page_Desc/Sigma_Levels/" class="">Sigma Levels</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/target_table_column_threshold/" class="">Target Table Column Threshold</a></li>
+                <a href="/dspMonitor/Page_Desc/Target_Table_Column_Threshold/" class="">Target Table Column Threshold</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/target_table_threshold/" class="">Target Table Threshold</a></li>
+                <a href="/dspMonitor/Page_Desc/Target_Table_Threshold/" class="">Target Table Threshold</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/user_errors/" class="">User (Errors)</a></li>
+                <a href="/dspMonitor/Page_Desc/User_Errors/" class="">User (Errors)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/user_filters/" class="">User (Filters)</a></li>
+                <a href="/dspMonitor/Page_Desc/User_Filters/" class="">User (Filters)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/user_reports_h/" class="">User (Reports) H</a></li>
+                <a href="/dspMonitor/Page_Desc/User_Reports_H/" class="">User (Reports) H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/user_filters_metrics/" class="">User Filters (Metrics)</a></li>
+                <a href="/dspMonitor/Page_Desc/User_Filters_Metrics/" class="">User Filters (Metrics)</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/users_reports_filters/" class="">Users Reports/Filters</a></li>
+                <a href="/dspMonitor/Page_Desc/Users_Reports_Filters/" class="">Users Reports/Filters</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_application_table_column_reports_h/" class="">Your Application Table Column Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Application_Table_Column_Reports_H/" class="">Your Application Table Column Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_application_table_columns/" class="">Your Application Table Columns</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Application_Table_Columns/" class="">Your Application Table Columns</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_application_table_reports_h/" class="">Your Application Table Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Application_Table_Reports_H/" class="">Your Application Table Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_application_tables/" class="">Your Application Tables H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Application_Tables/" class="">Your Application Tables H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_applications/" class="">Your Applications</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Applications/" class="">Your Applications</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_dashboard_reports/" class="">Your Dashboard Reports</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Dashboard_Reports/" class="">Your Dashboard Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_favorite_reports_h/" class="">Your Favorite Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Favorite_Reports_H/" class="">Your Favorite Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_filters/" class="">Your Filters</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Filters/" class="">Your Filters</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_group_reports_h/" class="">Your Group Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Group_Reports_H/" class="">Your Group Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_groups_h/" class="">Your Groups H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Groups_H/" class="">Your Groups H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_metrics/" class="">Your Metrics</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Metrics/" class="">Your Metrics</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_object_reports_h/" class="">Your Object Reports H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Object_Reports_H/" class="">Your Object Reports H</a></li>
         
             <li >
-                <a href="/dspmonitor/page_desc/your_objects_h/" class="">Your Objects H</a></li>
+                <a href="/dspMonitor/Page_Desc/Your_Objects_H/" class="">Your Objects H</a></li>
         
     </ul>
     </li>
@@ -332,169 +341,169 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/dspmonitor/use_cases/" class="active">Procedures</a>
+        <a href="/dspMonitor/Use_Cases/" class="active">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/dspmonitor/use_cases/add_reports_to_a_group/" class="">Add Reports to a Group</a></li>
+                <a href="/dspMonitor/Use_Cases/Add_Reports_to_a_Group/" class="">Add Reports to a Group</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/add_users_to_a_report/" class="">Add Users to a Report</a></li>
+                <a href="/dspMonitor/Use_Cases/Add_Users_to_a_Report/" class="">Add Users to a Report</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/assign_group_owner_to_a_report/" class="">Assign Group Owner to a Group</a></li>
+                <a href="/dspMonitor/Use_Cases/Assign_Group_Owner_to_a_Report/" class="">Assign Group Owner to a Group</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/cts_notes_specific_to_dspmonitor/" class="">CTS Notes Specific to dspMonitor™</a></li>
+                <a href="/dspMonitor/Use_Cases/CTS_Notes_Specific_to_dspMonitor/" class="">CTS Notes Specific to dspMonitor™</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/configure_user_settings_reports_and_filters/" class="">Configure User Settings, Reports and Filters</a></li>
+                <a href="/dspMonitor/Use_Cases/Configure_User_Settings_Reports_and_Filters/" class="">Configure User Settings, Reports and Filters</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/configure_the_business_value_dashboard/" class="">Configure the Business Value Dashboard</a></li>
+                <a href="/dspMonitor/Use_Cases/Configure_the_Business_Value_Dashboard/" class="">Configure the Business Value Dashboard</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/create_groups_dspmonitor/" class="uk-active">Create Groups</a></li>
+                <a href="/dspMonitor/Use_Cases/Create_Groups_dspMonitor/" class="uk-active">Create Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/create_objects_and_publish_reports_to_groups/" class="">Create Objects and Publish Reports to Groups</a></li>
+                <a href="/dspMonitor/Use_Cases/Create_Objects_and_Publish_Reports_to_Groups/" class="">Create Objects and Publish Reports to Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/create_reports/" class="">Create Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/Create_Reports/" class="">Create Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/dqs_thresholds/" class="">Data Quality Score Thresholds</a></li>
+                <a href="/dspMonitor/Use_Cases/DQS_Thresholds/" class="">Data Quality Score Thresholds</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/getting_started_with_running_reports/" class="">Getting Started with Running Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/Getting_Started_with_Running_Reports/" class="">Getting Started with Running Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/group_owner_responsibilities/" class="">Group Owner Responsibilities</a></li>
+                <a href="/dspMonitor/Use_Cases/Group_Owner_Responsibilities/" class="">Group Owner Responsibilities</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/manage_groups/" class="">Manage Groups</a></li>
+                <a href="/dspMonitor/Use_Cases/Manage_Groups/" class="">Manage Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/manage_objects/" class="">Manage Objects</a></li>
+                <a href="/dspMonitor/Use_Cases/Manage_Objects/" class="">Manage Objects</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/manage_workflow_emails/" class="">Manage Workflow Emails</a></li>
+                <a href="/dspMonitor/Use_Cases/Manage_Workflow_Emails/" class="">Manage Workflow Emails</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/monitor_activity/" class="">Monitor Activity</a></li>
+                <a href="/dspMonitor/Use_Cases/Monitor_Activity/" class="">Monitor Activity</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/populate_configuration_tables/" class="">Populate Configuration Tables</a></li>
+                <a href="/dspMonitor/Use_Cases/Populate_Configuration_Tables/" class="">Populate Configuration Tables</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/process_reports/" class="">Process Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/Process_Reports/" class="">Process Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/profile_a_target_table_in_dspmonitor/" class="">Profile a Target Table in dspMonitor™</a></li>
+                <a href="/dspMonitor/Use_Cases/Profile_a_Target_Table_in_dspMonitor/" class="">Profile a Target Table in dspMonitor™</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_collect_target_table_columns_to_a_report/" class="">Register Collect Target Table Columns to a Report</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Collect_Target_Table_Columns_to_a_Report/" class="">Register Collect Target Table Columns to a Report</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_collect_target_tables_to_a_report/" class="">Register Collect Target Tables to a Report</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Collect_Target_Tables_to_a_Report/" class="">Register Collect Target Tables to a Report</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_collect_targets_to_a_report_repository/" class="">Register Collect Targets to a Report Repository</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Collect_Targets_to_a_Report_Repository/" class="">Register Collect Targets to a Report Repository</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_object_reports/" class="">Register Object Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Object_Reports/" class="">Register Object Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_report_repositories/" class="">Register Report Repositories</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Report_Repositories/" class="">Register Report Repositories</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_reports_to_groups/" class="">Register Reports to Groups</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Reports_to_Groups/" class="">Register Reports to Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_reports_to_a_report_repo/" class="">Register Reports to a Report Repository</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Reports_to_a_Report_Repo/" class="">Register Reports to a Report Repository</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_thresholds_for_collect_target_table_columns/" class="">Register Thresholds for Collect Target Table Columns</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Thresholds_for_Collect_Target_Table_Columns/" class="">Register Thresholds for Collect Target Table Columns</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_thresholds_for_collect_target_tables/" class="">Register Thresholds for Collect Target Tables</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Thresholds_for_Collect_Target_Tables/" class="">Register Thresholds for Collect Target Tables</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/register_users_to_groups/" class="">Register Users to Groups</a></li>
+                <a href="/dspMonitor/Use_Cases/Register_Users_to_Groups/" class="">Register Users to Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/service_pages/" class="">Service Pages</a></li>
+                <a href="/dspMonitor/Use_Cases/Service_Pages/" class="">Service Pages</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/set_up_structure/" class="">Set Up Structure</a></li>
+                <a href="/dspMonitor/Use_Cases/Set_Up_Structure/" class="">Set Up Structure</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/setup_and_configuration_for_dspmonitor/" class="">Setup and Configuration for dspMonitor™</a></li>
+                <a href="/dspMonitor/Use_Cases/Setup_and_Configuration_for_dspMonitor/" class="">Setup and Configuration for dspMonitor™</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/tips_and_troubleshooting/" class="">Tips and Troubleshooting</a></li>
+                <a href="/dspMonitor/Use_Cases/Tips_and_Troubleshooting/" class="">Tips and Troubleshooting</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/track_error_records_on_reports/" class="">Track Error Records on Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/Track_Error_Records_on_Reports/" class="">Track Error Records on Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/use_data_quality_dashboard/" class="">Use Data Quality Dashboard</a></li>
+                <a href="/dspMonitor/Use_Cases/Use_Data_Quality_Dashboard/" class="">Use Data Quality Dashboard</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_chart_histogram/" class="">View Chart Histogram</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Chart_Histogram/" class="">View Chart Histogram</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_dashboard_metrics/" class="">View Dashboard Metrics</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Dashboard_Metrics/" class="">View Dashboard Metrics</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_data_quality_dashboard/" class="">View Data Quality Dashboard</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Data_Quality_Dashboard/" class="">View Data Quality Dashboard</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_application_table_column_reports/" class="">View Your Application Table Column Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Application_Table_Column_Reports/" class="">View Your Application Table Column Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_application_table_columns/" class="">View Your Application Table Columns</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Application_Table_Columns/" class="">View Your Application Table Columns</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_application_table_reports/" class="">View Your Application Table Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Application_Table_Reports/" class="">View Your Application Table Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_application_tables/" class="">View Your Application Tables</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Application_Tables/" class="">View Your Application Tables</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_applications/" class="">View Your Applications</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Applications/" class="">View Your Applications</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_favorite_reports/" class="">View Your Favorite Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Favorite_Reports/" class="">View Your Favorite Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_filters/" class="">View Your Filters</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Filters/" class="">View Your Filters</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_group_metrics_chart/" class="">View Your Group Metrics Chart</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Group_Metrics_Chart/" class="">View Your Group Metrics Chart</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_group_reports/" class="">View Your Group Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Group_Reports/" class="">View Your Group Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_groups/" class="">View Your Groups</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Groups/" class="">View Your Groups</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_object_reports/" class="">View Your Object Reports</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Object_Reports/" class="">View Your Object Reports</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_objects/" class="">View Your Objects</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Objects/" class="">View Your Objects</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_your_report_metrics_chart/" class="">View Your Report Metrics Chart</a></li>
+                <a href="/dspMonitor/Use_Cases/View_Your_Report_Metrics_Chart/" class="">View Your Report Metrics Chart</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/view_the_business_value_dashboard/" class="">View the Business Value Dashboard</a></li>
+                <a href="/dspMonitor/Use_Cases/View_the_Business_Value_Dashboard/" class="">View the Business Value Dashboard</a></li>
         
             <li >
-                <a href="/dspmonitor/use_cases/dspmonitor_construction/" class="">dspMonitor™ Construction</a></li>
+                <a href="/dspMonitor/Use_Cases/dspMonitor_Construction/" class="">dspMonitor™ Construction</a></li>
         
     </ul>
     </li>
@@ -515,7 +524,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Data Quality</a></li>
-        <li><a>dspMonitor</a></li>
+        <li><a href="/dspMonitor">dspMonitor</a></li>
         <li><span>Create Groups</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -534,7 +543,7 @@ by group to allow report settings to differ by group.</p>
 
 <li><p>Click <strong>Add</strong>.</p>
 
-<p><a href="../Page_Desc/Groups_H.htm">View the field descriptions for the Groups
+<p><a href="../Page_Desc/Groups_H">View the field descriptions for the Groups
 page</a></p></li>
 
 <li><p>Enter a group name (without spaces) in <strong>GROUP ID</strong> field. </p></li>
@@ -553,7 +562,7 @@ registered as a user for the group.</p></li>
 <li><p>Select schedule from <strong>GROUP SCHEDULE ID</strong> list box to determine how
 often reports are run for each user in the group.</p>
 
-<p><strong>NOTE:</strong> Schedules are maintained in Common. Refer to <a href="../../../Platform/Common/Use_Cases/Create_Schedules.htm">Create
+<p><strong>NOTE:</strong> Schedules are maintained in Common. Refer to <a href="../../../Platform/Common/Use_Cases/Create_Schedules">Create
 Schedules</a>
 for detailed information.</p></li>
 
@@ -572,7 +581,7 @@ scoring (optional).</p></li>
 
 <li><p>Click <strong>Edit</strong>.</p>
 
-<p><a href="../Page_Desc/Groups_H.htm#Groups_V_All_Tabs">View the field descriptions for the Groups page&rsquo;s Vertical
+<p><a href="../Page_Desc/Groups_H#Groups_V_All_Tabs">View the field descriptions for the Groups page&rsquo;s Vertical
 View</a></p></li>
 
 <li><p>Select a threshold from the <strong>Threshold ID</strong> list box.</p></li>
@@ -580,6 +589,44 @@ View</a></p></li>
 <li><p>Click <strong>Save</strong>.</p></li>
 </ol>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -597,13 +644,14 @@ View</a></p></li>
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -611,12 +659,12 @@ View</a></p></li>
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -629,18 +677,20 @@ View</a></p></li>
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

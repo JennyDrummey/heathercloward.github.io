@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dspConduct Overview on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/dspconduct/</link>
+    <link>https://heathercloward.github.io/dspConduct/</link>
     <description>Recent content in dspConduct Overview on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/dspconduct/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/dspConduct/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DSP Add Ons on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/DSP_Add_Ons/</link>
+    <description>Recent content in DSP Add Ons on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/DSP_Add_Ons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Customize Security with Custom WebApp Groups Using DSP Add-Ons</title>
+      <link>https://heathercloward.github.io/DSP_Add_Ons/Custmize_Security_Cstm_WebAppGrps_DSP_AddOns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/DSP_Add_Ons/Custmize_Security_Cstm_WebAppGrps_DSP_AddOns/</guid>
+      <description>Customize Security with Custom WebApp Groups Using DSP Add-Ons An Administrator can use DSP Add-Ons to create custom security for delivered WebApps or custom WebApps. By creating Custom WebApp groups, users can easily customize access for pages depending on any organizational need. For example, WebApp groups could be created for departments, to group pages that are used to perform certain tasks, or to grant access to a page to a limited number of users.</description>
+    </item>
+    
+    <item>
+      <title>Group Pages</title>
+      <link>https://heathercloward.github.io/DSP_Add_Ons/Group_Pages_DSP-Add-Ons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/DSP_Add_Ons/Group_Pages_DSP-Add-Ons/</guid>
+      <description>Group Pages Use this page to [Customize Security with Custom WebApp Groups Using DSP Add-Ons.](Custmize_Security_Cstm_WebAppGrps_DSP_AddOns)  To access this page:
+ Click DSP Add-Ons in the Navigation pane.
+ Click the Groups icon.
+ Click the Pages icon.
+    Field
+ Description
+  PAGE ID
+ Displays the name of the page in the selected WebApp that is assigned to the WebApp group.
+  ALLOW SELECT</description>
+    </item>
+    
+    <item>
+      <title>Groups</title>
+      <link>https://heathercloward.github.io/DSP_Add_Ons/Groups_DSP_AddOns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/DSP_Add_Ons/Groups_DSP_AddOns/</guid>
+      <description>Groups Use this page to [Customize Security with Custom WebApp Groups Using DSP Add-Ons.](Custmize_Security_Cstm_WebAppGrps_DSP_AddOns)  To access this page:
+ Click DSP Add-Ons in the Navigation pane.
+ Click the Groups icon.
+    Field
+ Description
+  Publish to Framework
+ Click to publish the WebApp group along with its page and security role assignments to the framework. These WebApp groups will then be active, and the users assigned to the security roles will access the pages as determined by the WebApp group settings.</description>
+    </item>
+    
+    <item>
+      <title>Security Roles</title>
+      <link>https://heathercloward.github.io/DSP_Add_Ons/Security_Roles_DSP_Add-Ons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/DSP_Add_Ons/Security_Roles_DSP_Add-Ons/</guid>
+      <description>Security Roles Use this page to [Customize Security with Custom WebApp Groups Using DSP Add-Ons.](Custmize_Security_Cstm_WebAppGrps_DSP_AddOns)  To access this page:
+ Click DSP Add-Ons in the Navigation pane. Click the Groups icon. Click the Security Roles icon.    Field
+ Description
+  ROLE ID
+ Displays the name of the security role assigned to the WebApp group.
+NOTE: Security roles installed with the platform and custom security roles display.</description>
+    </item>
+    
+    <item>
+      <title>WebApps</title>
+      <link>https://heathercloward.github.io/DSP_Add_Ons/WebApps_DSP-Add-Ons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/DSP_Add_Ons/WebApps_DSP-Add-Ons/</guid>
+      <description>WebApps Use this page to [Customize Security with Custom WebApp Groups Using DSP Add-Ons](Custmize_Security_Cstm_WebAppGrps_DSP_AddOns).  To access this page, click DSP Add-Ons in the Navigation pane.
+         Field Description   WEB APP NAME Displays the name of the WebApp that contains the WebApp group.   DATA SOURCE ID Displays the name of the WebApp’s data source, a database.   Web App Groups Click to open the Groups page to add and configure WebApp groups.</description>
+    </item>
+    
+  </channel>
+</rss>

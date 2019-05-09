@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/SQL_AutoGen/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AutoGen SQL Log</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/AutoGen_SQL_Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/AutoGen_SQL_Log/</guid>
+      <description>AutoGen SQL Log Use this page to [View Transaction Status](../Use_Cases/View_Transaction_Status).  To access this page in AutoGen, click the Log icon on the following pages:
+ Automation Automation SQL Target Source, Automation SQL Target Source (Update Row) Automation SQL Field Mappings           Field Description   ID Displays a unique identifier for the transaction.   MESSAGE Displays detailed information about the transaction.</description>
+    </item>
+    
+    <item>
+      <title>Automation H</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_page/</guid>
+      <description>Automation H Automation V
+Use this page to: - [Build Target Tables](../Use_Cases/Build_Target_Tables) - [Create Rules](../Use_Cases/Create_Rules) - [Build Reports](../Use_Cases/Build_Reports) - [Build and Refresh Data Services Jobs](../../Data_Services_AutoGen/Use_Cases/Build_and_Refresh_DS_Jobs)  To access this page, click the Automation tab in the Quick Panel.
+  Field
+ Description
+  Create Target Table
+ Click to create a target table for the selected object based on the settings in Target Design. The tables are written to the data source defined for the object in Console.</description>
+    </item>
+    
+    <item>
+      <title>Automation SQL Field Mappings H</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_SQL_Field_Mappings_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_SQL_Field_Mappings_H/</guid>
+      <description>Automation SQL Field Mappings H Automation SQL Field Mappings V
+Use this page to: - [Create Rules](../Use_Cases/Create_Rules) - [Reset A Mapping](../Use_Cases/Reset_A_Mapping)  To access this page:
+ Click the Automation tab on the Quick Panel. Click the Mappings icon for an Object.    Field
+ Description
+  Create and Complete
+ Click to build a view and a stored procedure for the selected field mapping in the object database.</description>
+    </item>
+    
+    <item>
+      <title>Automation SQL Target Source</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_SQL_Target_Source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_SQL_Target_Source/</guid>
+      <description>Automation SQL Target Source Use this page to [Build a Source Table](../Use_Cases/Build_Source_Tables).  To access this page:
+ Click the Automation tab on the Quick Panel. Click the Sources icon for an Object.    Field
+ Description
+  Create Source Table
+ Click to create the source table and Insert and Delete stored procedures used to load data into the target table.
+NOTE: This icon is disabled if the source is assigned to a Target that has a Design Status of Inactive or Complete in Target Design.</description>
+    </item>
+    
+    <item>
+      <title>Automation SQL Target Source (Update Row)</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_SQL_Target_Source_Update_Row/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Automation_SQL_Target_Source_Update_Row/</guid>
+      <description>Automation SQL Target Source (Update Row) Use this page to: - [Build an Update Row Source Table Using SQL AutoGen](../Use_Cases/Build_an_Update_Row_Source_Table) - [Create Rules for an Update Row Source Using SQL AutoGen](../Use_Cases/Create_Rules_for_an_Update_Row_Source)  To access this page:
+ Click the Automation tab in the Quick Panel. Click the Sources icon for a Target. Click the Update Row Sources icon for a Source in the Parent pane.    Field</description>
+    </item>
+    
+    <item>
+      <title>Parameters Automation</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Parameters_Automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Page_Desc/Parameters_Automation/</guid>
+      <description>Parameters Automation Use this page to [Configure Proxy Sever Settings.](../../Data_Services_AutoGen/Use_Cases/Configure_Proxy_Server_Settings)  To access this page:
+ Click the Automation tab in the Quick Panel. Select the Object for which the proxy server settings are being set up. Click the Build and Refresh Data Services icon in the Page toolbar. Select Configuration &amp;gt; Parameters in the AutoGen Navigation pane.  Field
+Description
+Data Services Settings
+Auto Gen Service Url
+Displays the server address for the dspCloud™.</description>
+    </item>
+    
+  </channel>
+</rss>

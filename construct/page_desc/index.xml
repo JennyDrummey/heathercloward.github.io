@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/construct/page_desc/</link>
+    <link>https://heathercloward.github.io/Construct/Page_Desc/</link>
     <description>Recent content in Pages on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/construct/page_desc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Construct/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Construct Launch</title>
-      <link>https://heathercloward.github.io/construct/page_desc/construct_launch/</link>
+      <link>https://heathercloward.github.io/Construct/Page_Desc/Construct_Launch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/page_desc/construct_launch/</guid>
+      <guid>https://heathercloward.github.io/Construct/Page_Desc/Construct_Launch/</guid>
       <description>Construct Launch Use this page to access the pages as described below.  To access this page:
  Select dspMigrate in the Navigation pane. Select Construct in the Context bar.           Field Description   Wave Name Displays the name of the Wave in the current context to which the construction page belongs.   Process Area Displays the name of the Process Area in the current context to which the construction page belongs.</description>
     </item>
     
     <item>
       <title>Construct Object</title>
-      <link>https://heathercloward.github.io/construct/page_desc/construct_object/</link>
+      <link>https://heathercloward.github.io/Construct/Page_Desc/Construct_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/page_desc/construct_object/</guid>
-      <description>Construct Object Use this page to [View the Construction Page in Construct](../Use_Cases/View_the_Construction_page_in_Construct.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Construct/Page_Desc/Construct_Object/</guid>
+      <description>Construct Object Use this page to [View the Construction Page in Construct](../Use_Cases/View_the_Construction_page_in_Construct).  To access this page:
  Select dspMigrate in the Navigation pane. Select Construct in the Context bar. Click the Objectsicon on the Construct Launch page.    Field
  Description
   OBJECT NAME
@@ -36,11 +36,11 @@ Objects are added in Console.</description>
     
     <item>
       <title>Construct Page</title>
-      <link>https://heathercloward.github.io/construct/page_desc/construct_page/</link>
+      <link>https://heathercloward.github.io/Construct/Page_Desc/Construct_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/page_desc/construct_page/</guid>
-      <description>Construct Page Use this page to [View the Construction Page in Construct](../Use_Cases/View_the_Construction_page_in_Construct.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Construct/Page_Desc/Construct_Page/</guid>
+      <description>Construct Page Use this page to [View the Construction Page in Construct](../Use_Cases/View_the_Construction_page_in_Construct).  To access this page:
  Select dspMigrate in the Navigation pane. Select Construct in the Context bar. Click the Objectsicon on the Construct Launch page. Click the Targets icon for an Object. Click the Construct Pages icon for the Target.    Field
  Description
   OBJECT NAME
@@ -49,11 +49,11 @@ Objects are added in Console.</description>
     
     <item>
       <title>Construct Target</title>
-      <link>https://heathercloward.github.io/construct/page_desc/construct_target/</link>
+      <link>https://heathercloward.github.io/Construct/Page_Desc/Construct_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/page_desc/construct_target/</guid>
-      <description>Construct Target Use this page to [View the Construction Page in Construct](../Use_Cases/View_the_Construction_page_in_Construct.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Construct/Page_Desc/Construct_Target/</guid>
+      <description>Construct Target Use this page to [View the Construction Page in Construct](../Use_Cases/View_the_Construction_page_in_Construct).  To access this page:
  Select dspMigrate in the Navigation pane. Select Construct in the Context bar. Click the Objectsicon on the Construct Launch page. Click the Targets icon for an Object.    Field
  Description
   OBJECT NAME
@@ -62,21 +62,21 @@ Objects are added in Console.</description>
     
     <item>
       <title>ZSource</title>
-      <link>https://heathercloward.github.io/construct/page_desc/z_source/</link>
+      <link>https://heathercloward.github.io/Construct/Page_Desc/Z_Source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/page_desc/z_source/</guid>
-      <description>ZSource Use this page to [Set up ZSources.](../Config/Set_up_ZSources.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Construct/Page_Desc/Z_Source/</guid>
+      <description>ZSource Use this page to [Set up ZSources.](../Config/Set_up_ZSources)  To access this page:
  Select dspMigrate in the Navigation pane. Select Construct in the Context bar. Click ZSource in the Navigation pane.           Field Description   Z SOURCE Displays name of Source where data is being created.   Users Click to open the ZSourceUser page to manage users who can create data for the Source.</description>
     </item>
     
     <item>
       <title>ZSourceUser</title>
-      <link>https://heathercloward.github.io/construct/page_desc/zsourceuser/</link>
+      <link>https://heathercloward.github.io/Construct/Page_Desc/ZSourceUser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/construct/page_desc/zsourceuser/</guid>
-      <description>ZSourceUser Use this page to [Set up ZSources.](../Config/Set_up_ZSources.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Construct/Page_Desc/ZSourceUser/</guid>
+      <description>ZSourceUser Use this page to [Set up ZSources.](../Config/Set_up_ZSources)  To access this page:
  Select dspMigrate in the Navigation pane. Select Construct in the Context bar. Click ZSource in the Navigation pane. Click the Users icon for the ZSource.           Field Description   Z SOURCE Displays name of Source where data is being created.   USER NAME Displays name of user permitted to create data for the Source.</description>
     </item>
     

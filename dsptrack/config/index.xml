@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/dsptrack/config/</link>
+    <link>https://heathercloward.github.io/dspTrack/Config/</link>
     <description>Recent content in Configuration on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/dsptrack/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/dspTrack/Config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Set Plan Security</title>
-      <link>https://heathercloward.github.io/dsptrack/config/set_plan_security/</link>
+      <link>https://heathercloward.github.io/dspTrack/Config/Set_Plan_Security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dsptrack/config/set_plan_security/</guid>
+      <guid>https://heathercloward.github.io/dspTrack/Config/Set_Plan_Security/</guid>
       <description>Set Plan Security User security can also be set at the plan level to assign a user read-only access to a plan, or to restrict access for a user assigned to the Sample Project Level Role and Sample Plan Level Role.
 A user must have security set for dspTrack™ in System Administration before plan security can be set.
 NOTE: By default, users assigned to the Business User security role have read-only access to Plan pages and cannot import a project or copy a plan.</description>
@@ -23,10 +23,10 @@ NOTE: By default, users assigned to the Business User security role have read-on
     
     <item>
       <title>Set Up Security for dspTrack™</title>
-      <link>https://heathercloward.github.io/dsptrack/config/set_security_in_dsptrack/</link>
+      <link>https://heathercloward.github.io/dspTrack/Config/Set_Security_in_dspTrack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dsptrack/config/set_security_in_dsptrack/</guid>
+      <guid>https://heathercloward.github.io/dspTrack/Config/Set_Security_in_dspTrack/</guid>
       <description>Set Up Security for dspTrack™ Security for dspTrack™ is set in System Administration, where users are assigned to roles that define how that user accesses pages.
 Optionally, in dspTrack™, on the Security tab of the Plan Task page’s Vertical View, user access to individual plans can be restricted to read-only access.
 To set security:
@@ -37,10 +37,10 @@ To set security:
     
     <item>
       <title>Set Up dspTrack™ Security for Custom Security Roles</title>
-      <link>https://heathercloward.github.io/dsptrack/config/setup_dsptrack_security_custom_security_role/</link>
+      <link>https://heathercloward.github.io/dspTrack/Config/SetUp_dspTrack_Security_Custom_Security_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dsptrack/config/setup_dsptrack_security_custom_security_role/</guid>
+      <guid>https://heathercloward.github.io/dspTrack/Config/SetUp_dspTrack_Security_Custom_Security_Role/</guid>
       <description>Set Up dspTrack™ Security for Custom Security Roles To set up security for dspTrack™ for security roles not delivered, an Administrator:
  Creates User Accounts Creates Security Roles Assigns Users to Security Role Assigns WebApp Groups to Security Role
   A user can then:
@@ -51,10 +51,10 @@ To set security:
     
     <item>
       <title>Set dspTrack™ Security</title>
-      <link>https://heathercloward.github.io/dsptrack/config/set_dsptrack_security_in_system_administration/</link>
+      <link>https://heathercloward.github.io/dspTrack/Config/Set_dspTrack_Security_in_System_Administration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dsptrack/config/set_dsptrack_security_in_system_administration/</guid>
+      <guid>https://heathercloward.github.io/dspTrack/Config/Set_dspTrack_Security_in_System_Administration/</guid>
       <description>Set dspTrack™ Security An Administrator can be assigned to template security roles that are delivered with the component. These roles set how users access certain pages, defining if a user can update data on the page, only view data on the page, or cannot access the page.
 Refer to Use Template Security Roles for more information.
  Set dspTrack™ Security for Delivered Security Roles
@@ -63,10 +63,10 @@ Refer to Use Template Security Roles for more information.
     
     <item>
       <title>Set up dspTrack™ Security for Delivered Security Roles</title>
-      <link>https://heathercloward.github.io/dsptrack/config/set_dsptrack_security_delivered_security_role/</link>
+      <link>https://heathercloward.github.io/dspTrack/Config/Set_dspTrack_Security_Delivered_Security_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dsptrack/config/set_dsptrack_security_delivered_security_role/</guid>
+      <guid>https://heathercloward.github.io/dspTrack/Config/Set_dspTrack_Security_Delivered_Security_Role/</guid>
       <description>Set up dspTrack™ Security for Delivered Security Roles To set up security for dspTrack™ in System Administration for these installed (i.e., delivered) template security roles, an Administrator:
  Creates User Accounts Assigns Users to Security Role
   A user can then:
@@ -76,10 +76,10 @@ Refer to Use Template Security Roles for more information.
     
     <item>
       <title>Use Template Security Roles</title>
-      <link>https://heathercloward.github.io/dsptrack/config/use_template_security_roles/</link>
+      <link>https://heathercloward.github.io/dspTrack/Config/Use_Template_Security_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dsptrack/config/use_template_security_roles/</guid>
+      <guid>https://heathercloward.github.io/dspTrack/Config/Use_Template_Security_Roles/</guid>
       <description>Use Template Security Roles dspTrack™ is installed with four template security roles that are configured to different types of users.
 The following template security roles are delivered with dspTrack™:
  Application Administrator – Users assigned to this template security role perform administrative functions in dspTrack™. Business User Role – Users assigned to this template security role interact primarily with the Work List. Sample Project Level Role – Users assigned to this template security role manage an assigned project and all of that project’s plans and tasks and have full access (read, write, edit, and delete as permitted by the page) to all pages in the project.</description>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedures on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/dspcompose/use_cases/</link>
+    <link>https://heathercloward.github.io/dspCompose/Use_Cases/</link>
     <description>Recent content in Procedures on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/dspcompose/use_cases/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/dspCompose/Use_Cases/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Activate the Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/activate_the_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Activate_the_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/activate_the_template/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Activate_the_Template/</guid>
       <description>Activate the Template After creating a template, a Template Administrator must activate the template before it can be used for posting a request.
 A template cannot be activated if:
  It has not been generated.
@@ -24,10 +24,10 @@ NOTE: Until the template has been generated, the ACTIVATE/DEACTIVATE button is d
     
     <item>
       <title>Active Requests Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/active_requests_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Active_Requests_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/active_requests_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Active_Requests_Chart/</guid>
       <description>Active Requests Chart This chart displays the number of active requests in each request status across all teams.
 Hover a cursor over a bar to view the number of active requests in that status.
 Click a bar to drill down to the Active Requests page to view all requests in the selected status.
@@ -36,20 +36,20 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Active Requests Time Taken (Days) Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/active_requests_time_taken_days_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Active_Requests_Time_Taken_Days_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/active_requests_time_taken_days_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Active_Requests_Time_Taken_Days_Chart/</guid>
       <description>Active Requests Time Taken (Days) Chart This chart displays:
  The average number of days to finish a posting across all teams, from the time the request was added until the request was posted without errors. The longest number of days a request was active across all teams. The shortest number of days a request was active across all teams.  Hover a cursor over the section to view a count for each section.</description>
     </item>
     
     <item>
       <title>Active Requests for User Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/active_requests_for_user_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Active_Requests_for_User_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/active_requests_for_user_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Active_Requests_for_User_Chart/</guid>
       <description>Active Requests for User Chart This chart displays the number of active requests in each request status for the logged in user.
 Hover a cursor over a bar to view the number of active requests in that status for the logged in user.
 Click the bar to drill down to the Request page to view requests in the selected status.
@@ -58,30 +58,30 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Add Custom Roles for the Looped Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_custom_roles_for_the_looped_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Custom_Roles_for_the_Looped_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_custom_roles_for_the_looped_template/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Custom_Roles_for_the_Looped_Template/</guid>
       <description>Add Custom Roles for the Looped Template Before performing this task:
  Create a looped template and process in Integrate. Refer to Configure Process Template Loops for a BDC Script Template with Looping Enabled or Configure Process Template Loops for a GUI Script Template with Looping Enabled in Integrate for more information. Create all tt Tables and tx Views for the Integrate Process Create rt Tables from the tt Tables Create Custom Pages and Views Create a Template that Uses the Custom Pages in dspCompose™  Refer to Create Template Roles for detailed information about creating a custom role at the template level.</description>
     </item>
     
     <item>
       <title>Add Email Addresses for a Scenario</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_email_addresses_for_a_scenario/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Email_Addresses_for_a_Scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_email_addresses_for_a_scenario/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Email_Addresses_for_a_Scenario/</guid>
       <description>Add Email Addresses for a Scenario When a request is received at the external data email account, dspCompose™ checks the email’s subject line for a valid alias for an external request scenario. If an alias is found, dspCompose™ will then validate that the sender’s email has been added to the external request scenario.
 NOTE: If the sender is an external user who is not registered in the platform, that email must be added to the platform.</description>
     </item>
     
     <item>
       <title>Add External Data Role to Global Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_external_data_role_to_global_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_External_Data_Role_to_Global_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_external_data_role_to_global_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_External_Data_Role_to_Global_Roles/</guid>
       <description>Add External Data Role to Global Roles The External Data role type is available with dspCompose™, but an external role should be manually added to the global roles before adding it to a template.
 To add the External Data role:
  Select Configuration &amp;gt; Roles on the Navigation pane.
@@ -93,10 +93,10 @@ NOTE: The PRIORITY determines the order the roles are processed in a request.</d
     
     <item>
       <title>Add List Boxes to an Excel File</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_list_boxes_to_an_excel_file/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_List_Boxes_to_an_Excel_File/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_list_boxes_to_an_excel_file/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_List_Boxes_to_an_Excel_File/</guid>
       <description>Add List Boxes to an Excel File The Template Administrator can format the columns on the template’s dspCompose-generated Excel file used for data entry. When the column’s Type is set to List Box, the column on the Excel file will be created with a list box.
 List box values are configurable, based on a data source and values selected by the Template Administrator.
 List box values in Excel display based on the UserID and SAP Language of the current user, if the boaUser ID and the boaSAPLanguage columns have been added to the list view.</description>
@@ -104,10 +104,10 @@ List box values in Excel display based on the UserID and SAP Language of the cur
     
     <item>
       <title>Add Quick Links for dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_quicklinks_for_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_QuickLinks_for_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_quicklinks_for_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_QuickLinks_for_dspCompose/</guid>
       <description>Add Quick Links for dspCompose™ Quick Links are bookmarks for specific pages in the DSP® to allow users to access these pages easily.
 To view Quick Links available to the logged in user, click the Quick Links icon on the Site toolbar.
 An Administrator must configure Quick Links and Quick Link security for Quick Links to display.
@@ -117,20 +117,20 @@ The following pages can be added as Quick Links for dspCompose™:
     
     <item>
       <title>Add Role Dependencies</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_role_dependencies/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Role_Dependencies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_role_dependencies/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Role_Dependencies/</guid>
       <description>Add Role Dependencies Roles within a template can be dependent on other roles, meaning one role cannot be finished until another is completed. Dependencies drive the workflow notification process by emailing the user assigned to the next dependent role.
 Dependent roles run according to what is called upstream dependency, meaning if Role 2 is dependent on Role 1 and Role 3 is dependent on Role 2, Role 3 must be defined to be dependent on both Role 1 and Role 2, even though it is not directly dependent on Role 1.</description>
     </item>
     
     <item>
       <title>Add Users to Templates</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_users_to_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Users_to_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_users_to_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Users_to_Templates/</guid>
       <description>Add Users to Templates Add dspCompose™ users to templates so that the user can process request data using the template.
 A Template Administrator can grant users access to a template at the global level or at the template level:
 These two methods produce the same result. At the global level, a Template Administrator can grant users access to multiple templates from one page. At the template level, user access is granted to the selected template only.</description>
@@ -138,20 +138,20 @@ These two methods produce the same result. At the global level, a Template Admin
     
     <item>
       <title>Add Validations to Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_validations_to_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Validations_to_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_validations_to_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_Validations_to_Roles/</guid>
       <description>Add Validations to Roles Role validations allow for template-specific data standards to be applied at both the role and the request level. dspCompose™ runs validations registered to roles when a user assigned to that role enters a record for the request, or when a user clicks Validate for a role on the Request (Roles) page.
 NOTE: Role validations are views stored in a data source, typically the cMass_Data database. The view must exist in the database before the role validation can be added to the template.</description>
     </item>
     
     <item>
       <title>Add a Data Source that Stores Views for Import</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_a_data_source_that_stores_views_for_import/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_a_Data_Source_that_Stores_Views_for_Import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_a_data_source_that_stores_views_for_import/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_a_Data_Source_that_Stores_Views_for_Import/</guid>
       <description>Add a Data Source that Stores Views for Import A request can be created based on a view stored in a data source. Refer to Import a View at the Request-Role Level for more information.
 At the template-role level for the Data role, add data sources that store the views that can be imported for requests based on the template.
 NOTE: Data sources cannot be set for the Review or Post role.</description>
@@ -159,20 +159,20 @@ NOTE: Data sources cannot be set for the Review or Post role.</description>
     
     <item>
       <title>Add a Mass Change Custom Link to a Custom Page</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_a_mass_change_custom_link_to_a_custom_page/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_a_Mass_Change_Custom_Link_to_a_Custom_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_a_mass_change_custom_link_to_a_custom_page/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_a_Mass_Change_Custom_Link_to_a_Custom_Page/</guid>
       <description>Add a Mass Change Custom Link to a Custom Page If Mass Changes should be allowed to the request data, the MassChange Custom Link must be defined for the Data Entry page so that a user can access the Request Mass Change page from the Data Entry page. An Administrator can use the Custom Link WebApp Customization feature in System Administration to add the link.
 Refer to Assign a Custom Page to a Template Role and Create Custom Pages and Views for the BAPI Process for more information about creating custom pages.</description>
     </item>
     
     <item>
       <title>Add a Rule to a Template Role Event</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_a_rule_to_a_template_role_event/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_a_Rule_to_a_Template_Role_Event/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_a_rule_to_a_template_role_event/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_a_Rule_to_a_Template_Role_Event/</guid>
       <description>Add a Rule to a Template Role Event A Template Administrator can configure rules that run when events occur at the template role level.
 These rules are stored procedures stored in a data source that is accessible to dspCompose™.
 For Data roles and External Data roles, a rule can be configured to run when a user:
@@ -181,10 +181,10 @@ For Data roles and External Data roles, a rule can be configured to run when a u
     
     <item>
       <title>Add an External Data Role Type to a Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_an_external_data_role_to_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_an_External_Data_Role_to_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_an_external_data_role_to_template/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_an_External_Data_Role_to_Template/</guid>
       <description>Add an External Data Role Type to a Template To use an external role in request processing, a Template Administrator assigns a role with a role type of External Data to a template.
 To assign a role at the template level:
  Select Team on the Navigation pane.
@@ -195,30 +195,30 @@ NOTE: A user may set up the template with an External Data role as the initial r
     
     <item>
       <title>Add and Configure Template Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_and_configure_template_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_and_Configure_Template_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_and_configure_template_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_and_Configure_Template_Roles/</guid>
       <description>Add and Configure Template Roles A role is a single step in the mass change process. A role type is assigned to a role to define how the role data within the request is manipulated. There are three global role types:
  Data - Gathers or makes changes to data Review - Evaluates and reviews data and is responsible for approving or rejecting work. Data can be viewed but not modified.</description>
     </item>
     
     <item>
       <title>Add the Org Unit Security View to Template Role Validation Rules</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/add_the_org_unit_security_view_to/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Add_the_Org_Unit_Security_View_to/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/add_the_org_unit_security_view_to/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Add_the_Org_Unit_Security_View_to/</guid>
       <description>Add the Org Unit Security View to Template Role Validation Rules Role validations allow for template-specific data standards to be applied at both the role and the request level. dspCompose™ runs validations registered for roles when a user assigned to that role enters a record for the request, or when a user clicks Validate for a role on the Request (Roles) page.
 NOTE: Role validations are views stored in a data source, typically the cMass_Data database.</description>
     </item>
     
     <item>
       <title>All Requests Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/all_requests_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/All_Requests_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/all_requests_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/All_Requests_Chart/</guid>
       <description>All Requests Chart This chart displays a summary count of all active, inactive, and archived requests across all teams.
 Hover a cursor over a chart section to view the number of requests for that status.
 Click the chart to drill down to the Status Dashboard to view the number of requests in each status for active, inactive, and archived requests.
@@ -227,10 +227,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Archive Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/archive_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Archive_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/archive_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Archive_Requests/</guid>
       <description>Archive Requests Requests are archived based on retention intervals that are tied to &amp;gt;request status.
 Retention intervals are set at the global level, but can also be configured for a template. Refer to Configure Request Statuses and Configure Retention Parameters for more information.
 Once the retention interval for a request’s request status has been met, requests are archived when:
@@ -239,10 +239,10 @@ Once the retention interval for a request’s request status has been met, reque
     
     <item>
       <title>Archived Requests Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/archived_requests_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Archived_Requests_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/archived_requests_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Archived_Requests_Chart/</guid>
       <description>Archived Requests Chart This chart displays the number of archived requests by request status.
 Hover a cursor over a bar to view the number of archived requests in that status.
 Click the bar to drill down to the Archived Requests page to view all requests in the selected status.
@@ -252,10 +252,10 @@ To access this chart in dspCompose™:</description>
     
     <item>
       <title>Archived Requests for User Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/archived_requests_for_user_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Archived_Requests_for_User_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/archived_requests_for_user_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Archived_Requests_for_User_Chart/</guid>
       <description>Archived Requests for User Chart This chart displays the number of archived requests by request status that were archived for the logged in user.
 Hover a cursor over a bar to view the number of archived requests in that status archived for the logged in user.
 Click the bar to drill down to the Archived Requests page to view all requests in the selected status archived for the logged in user.</description>
@@ -263,30 +263,30 @@ Click the bar to drill down to the Archived Requests page to view all requests i
     
     <item>
       <title>Assign Default Data Source and Views</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/assign_default_data_source_and_views/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Assign_Default_Data_Source_and_Views/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/assign_default_data_source_and_views/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Assign_Default_Data_Source_and_Views/</guid>
       <description>Assign Default Data Source and Views The Template Administrator can set a default data source and view at the template level for request role data to streamline the request entry process. When a user enters a request based on the template, these default values are saved in the request role data.
 NOTE: To assign the data source and views for a template, the template must not be active or must be in Developer Mode.</description>
     </item>
     
     <item>
       <title>Assign a Custom Page to a Template Role</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/assign_a_custom_page_to_template_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Assign_a_Custom_Page_to_Template_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/assign_a_custom_page_to_template_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Assign_a_Custom_Page_to_Template_Role/</guid>
       <description>Assign a Custom Page to a Template Role To optimize flexibility in request processing, dspCompose™ allows a Template Administrator to assign any page in any component in the platform to a Data role. A user assigned to the role navigates to this custom page by clicking the Data Entry button on the Request (Roles) page. A Review role accesses the custom page while reviewing the request.
 NOTE: If the custom page should allow a user to perform a mass change, refer to Add a Mass Change Custom Link to a Custom Page for more information.</description>
     </item>
     
     <item>
       <title>Automatically Set Settings when Creating an External Request Scenario that Creates an Excel-initiated Request</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/automatically_set__settings_when_createng_an_external/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Automatically_Set__Settings_When_Createng_an_External/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/automatically_set__settings_when_createng_an_external/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Automatically_Set__Settings_When_Createng_an_External/</guid>
       <description>Automatically Set Settings when Creating an External Request Scenario that Creates an Excel-initiated Request Certain settings, such as the Staging Table Name and the Sheet Name, can be populated automatically when a user uploads an Excel file for an external request scenario that creates an Excel-initiated request.
 To populate values automatically:
  Select Team from Navigationpane.
@@ -296,29 +296,29 @@ To populate values automatically:
     
     <item>
       <title>BDC and GUI Script Recording</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/bdc_and_gui_script_recording/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/BDC_and_GUI_Script_Recording/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/bdc_and_gui_script_recording/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/BDC_and_GUI_Script_Recording/</guid>
       <description>BDC and GUI Script Recording To troubleshoot issues recording BDC and GUI scripts, refer to BDC Script and GUI Script Recording Tips in the Integrate documentation.</description>
     </item>
     
     <item>
       <title>CTS Notes Specific to dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/cts_notes_specific_to_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/CTS_Notes_Specific_to_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/cts_notes_specific_to_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/CTS_Notes_Specific_to_dspCompose/</guid>
       <description>CTS Notes Specific to dspCompose™ When creating CTS archives to support dspCompose™ objects, if any objects included in any Packing List reside in a data source/database that does not exist on the target system, manually create that database in the target system before the archive can be successfully imported into the target. The WebApp for the objects should also already exist on the target system.
 NOTE: Prior to running the CTS process for dspCompose™ objects, a separate CTS process must be run.</description>
     </item>
     
     <item>
       <title>Change Request Status</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/change_request_status/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Change_Request_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/change_request_status/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Change_Request_Status/</guid>
       <description>Change Request Status Active, inactive and archived requests have different request statuses.
 NOTE: A rule can be run when a request status is changed to Cancelled or Deleted. Refer to Register Rules to Template-level Events for more information.
 To delete or cancel a request:
@@ -330,10 +330,10 @@ To delete or cancel a request:
     
     <item>
       <title>Complete the Spreadsheet as an External Data Role</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/complete_the_spreadsheet_as_as_external_data_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Complete_the_Spreadsheet_as_as_External_Data_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/complete_the_spreadsheet_as_as_external_data_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Complete_the_Spreadsheet_as_as_External_Data_Role/</guid>
       <description>Complete the Spreadsheet as an External Data Role Once the request is active, dspCompose™ sends an email from the External Data Email Account to the external contact for the External Data role. The spreadsheet contains current request data.
 Refer to Set up an External Data Email Account for more information.
 To complete the spreadsheet as an External Data role:
@@ -343,10 +343,10 @@ NOTE: Do not change the spreadsheet’s file name when saving it.</description>
     
     <item>
       <title>Configure Column Display</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_column_display/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Column_Display/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_column_display/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Column_Display/</guid>
       <description>Configure Column Display At the template role level, a Template Administrator can control which columns display in the generated data entry spreadsheet and on the Data Entry or the Mass Changes pages for a request based on the template. Whether a user can edit the data in a column and column color settings can also be configured.
 Column display can be affected by settings:
  At the template role level on the Template (Role Excel Column Control) page</description>
@@ -354,20 +354,20 @@ Column display can be affected by settings:
     
     <item>
       <title>Configure Columns for File Generation and Data Entry</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_columns_for_file_generation/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Columns_for_File_Generation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_columns_for_file_generation/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Columns_for_File_Generation/</guid>
       <description>Configure Columns for File Generation and Data Entry At the request role level, if Excel import is allowed for the template used by the request, a user assigned to the role can generate an Excel file to use for data entry.
 NOTE: To enable Excel import for a template role, on the Template (Role Excel Column Control) page’s Vertical View, on the Import Settings tab, click the Excel Import Allowed check box to enable it.</description>
     </item>
     
     <item>
       <title>Configure Retention Parameters</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_retention_parameters/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Retention_Parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_retention_parameters/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Retention_Parameters/</guid>
       <description>Configure Retention Parameters Retention Parameters control how many days a request is retained before it is archived.
 The retention interval is configured within a request status on the Request Status page (accessible by clicking Configuration &amp;gt; Request Status in the Navigation pane).
 This status is copied into each template when the template is created; however, it can be modified per template.
@@ -376,29 +376,29 @@ NOTE: To modify a retention parameter, the template must not be active or must b
     
     <item>
       <title>Configure Settings for External Data Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_settings_for_external_data_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Settings_for_External_Data_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_settings_for_external_data_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Settings_for_External_Data_Roles/</guid>
       <description>Configure Settings for External Data Roles Settings must be configured to allow external data processing. Refer to Configure Settings for External Data Processing and External Request Scenarios for more information.</description>
     </item>
     
     <item>
       <title>Configure Settings for External Request Scenarios that Create Excel-initiated Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_settings_external_rqst_scenarios_that_create_excel/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Settings_External_Rqst_Scenarios_that_Create_Excel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_settings_external_rqst_scenarios_that_create_excel/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Settings_External_Rqst_Scenarios_that_Create_Excel/</guid>
       <description>Configure Settings for External Request Scenarios that Create Excel-initiated Requests External Request Scenarios that Create Excel-initiated requests require additional configuration compared to other external request scenarios. Refer to Configure Settings for External Data Processing and External Request Scenarios for more information.
 Excel-initiated Template Role Configuration For the template that uses the external request scenario that creates an Excel-initiated request, the lowest priority template role cannot have the same priority as any other role.</description>
     </item>
     
     <item>
       <title>Configure Templates</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_Templates/</guid>
       <description>Configure Templates A template represents a process that will be governed and executed using dspCompose™. It may contain an SAP recording. Scripts can either be recorded in SAP directly from dspCompose™ or imported from Integrate. Templates can be reused for multiple requests.
 A user can also create a custom template or base a dspCompose™ template on an Integrate template.
 Refer to Create Templates for more information.
@@ -407,10 +407,10 @@ Once a template is created, it requires additional configuration by the Template
     
     <item>
       <title>Configure an External Request Scenario</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_an_external_request_scenario/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_an_External_Request_Scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_an_external_request_scenario/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_an_External_Request_Scenario/</guid>
       <description>Configure an External Request Scenario An external request scenario tells dspCompose™ to create a request when an external data email account configured in dspCompose™ receives an email sent from a valid email account set for the external request scenario.
 A Template Administrator can create one or multiple external request scenarios for a template.
 NOTE: Certain settings must be configured before external request scenarios can work. Refer to Configure Settings for External Data Processing and External Request Scenarios for more information.</description>
@@ -418,10 +418,10 @@ NOTE: Certain settings must be configured before external request scenarios can 
     
     <item>
       <title>Configure an External Request Scenario for an Excel-initiated Request</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_external_rqst_scenario_for_excel_initiated_request/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_External_Rqst_Scenario_for_Excel_Initiated_Request/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_external_rqst_scenario_for_excel_initiated_request/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_External_Rqst_Scenario_for_Excel_Initiated_Request/</guid>
       <description>Configure an External Request Scenario for an Excel-initiated Request An external request scenario that creates an Excel-initiated request uses the data attached to an email to create a request and populate the data for the request.
 A Template Administrator can create one or multiple external request scenarios for a template.
 NOTE: Certain settings must be configured before external request scenarios can work. Refer to Configure Settings for External Request Scenarios that Create Excel-initiated Requests for more information.</description>
@@ -429,10 +429,10 @@ NOTE: Certain settings must be configured before external request scenarios can 
     
     <item>
       <title>Configure the Comparison Approval Setting</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/configure_the_comparison_approval_setting/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_the_Comparison_Approval_Setting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/configure_the_comparison_approval_setting/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Configure_the_Comparison_Approval_Setting/</guid>
       <description>Configure the Comparison Approval Setting Refer to Use Comparison Approvals for general information.
 Access the Template (Role) page and enable a check box to allow dspCompose™ to use comparison approvals.
 To configure the comparison approval setting:
@@ -441,40 +441,40 @@ To configure the comparison approval setting:
     
     <item>
       <title>Correct Rejected Records</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/correct_rejected_records/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Correct_Rejected_Records/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/correct_rejected_records/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Correct_Rejected_Records/</guid>
       <description>Correct Rejected Records When the Review role rejects all or some of the records for a request, that request is sent back to the Data Entry role for correction.
 NOTE: Templates in dspCompose™ are highly customizable and can be configured to have multiple Role IDs with the Role Type of Data. Users assigned to these roles add or update request data. A template can have multiple Data Entry roles. The generic term “Data Entry role” is used throughout this use case, and can refer to one or multiple Role IDs with the Role Type of Data.</description>
     </item>
     
     <item>
       <title>Correct and Post Failed Records</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/correct_and_post_failed_records/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Correct_and_Post_Failed_Records/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/correct_and_post_failed_records/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Correct_and_Post_Failed_Records/</guid>
       <description>Correct and Post Failed Records dspCompose™ processes partial posts if one or more records error while trying to post. The records without errors post successfully while the failed records display on the Data Entry role page to be corrected. A workflow email is generated notifying the data entry role that records need processing.
 For example if 100,000 records are posted and 10 fail, the successfully posted records are filtered out thereby allowing the user to work with and fix only the failed records.</description>
     </item>
     
     <item>
       <title>Create Custom Pages and Views</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_custom_pages_and_views/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Pages_and_Views/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_custom_pages_and_views/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Pages_and_Views/</guid>
       <description>Create Custom Pages and Views Before performing this task:
  Create a looped template and process in Integrate. Refer to Configure Process Template Loops for a BDC Script Template with Looping Enabled or Configure Process Template Loops for a GUI Script Template with Looping Enabled in Integrate for more information. Create all tt Tables and tx Views for the Integrate Process Create rt Tables from the tt Tables  Once all of the necessary tables and tx views are created, create the custom pages and views in dspCompose™ outlined in the following sections.</description>
     </item>
     
     <item>
       <title>Create Custom Pages and Views for the BAPI Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_custom_pages_and_views_for_the_bapi_process/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Pages_and_Views_for_the_BAPI_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_custom_pages_and_views_for_the_bapi_process/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Pages_and_Views_for_the_BAPI_Process/</guid>
       <description>Create Custom Pages and Views for the BAPI Process Before performing these steps:
  Post Data Using A BAPI Create all tt Tables and Views for the BAPI Process Create rt Tables From the tt Tables and Create Views for the BAPI Process  Once all the necessary tables and tx views are prepared, create the following custom pages and views:
  Create Data Entry Page and View for the BAPI Process</description>
@@ -482,40 +482,40 @@ For example if 100,000 records are posted and 10 fail, the successfully posted r
     
     <item>
       <title>Create Custom Rules for Excel-initiated Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_custom_rules_for_excel_initiated_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Rules_for_Excel_Initiated_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_custom_rules_for_excel_initiated_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Rules_for_Excel_Initiated_Requests/</guid>
       <description>Create Custom Rules for Excel-initiated Requests dspCompose™ allows a Template Administrator to register custom rules  that will run when a template-level event occurs. A rule is set to run when a request is cancelled, created, deleted, or posted based on how that request’s template is configured.
 A rule can also be registered to the Request Excel Create event for Excel-initiated requests. Once an external contact sends an Excel file to dspCompose™ and the Excel file passes the initial validations, the request data is loaded into a staging table.</description>
     </item>
     
     <item>
       <title>Create Custom Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_custom_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_custom_template/</guid>
-      <description>Create Custom Template Use this page to [Create a Custom Template](Create_a_Custom_Template_dspCompose.htm).  To access this page:
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Custom_Template/</guid>
+      <description>Create Custom Template Use this page to [Create a Custom Template](Create_a_Custom_Template_dspCompose).  To access this page:
  Select dspCompose &amp;gt; Team in the Navigation pane. Click Create Template for the team. Click Create Custom Template.           Field Description   TEMPLATE NAME Displays name of the template.   TRANSACTION CODE Displays target ERP system transaction used in the template recording.</description>
     </item>
     
     <item>
       <title>Create Pages and Views in Custom WebApp</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_pages_and_views_in_custom_webapp/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Pages_and_Views_in_Custom_WebApp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_pages_and_views_in_custom_webapp/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Pages_and_Views_in_Custom_WebApp/</guid>
       <description>Create Pages and Views in Custom WebApp Once all the necessary tables and tx views are prepared, create the following custom pages and views:
  Create Data Entry Page and View Create Approval Page and View Create Archive Page  NOTE: If the custom page should allow a user to perform a mass change, refer to Add a Mass Change Custom Link to a Custom Page for more information.</description>
     </item>
     
     <item>
       <title>Create Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Requests/</guid>
       <description>Create Requests To create a request a user must:
  Be a member of the Requester WebApp group and Have permission to access at least one active template.  Refer to Set Up Security and Grant Template Access at the Template Level for more information.
 A request can also be created automatically using External Request Scenarios. Refer to Use External Request Scenarios for more information.
@@ -524,10 +524,10 @@ To create a request in dspCompose:</description>
     
     <item>
       <title>Create Teams</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_teams/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Teams/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_teams/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Teams/</guid>
       <description>Create Teams To make templates easier to manage, dspCompose™ organizes templates by teams, and all templates belong to a team. At least one team must exist before a template can be created.
 Users must be added to dspCompose to be added to a team. Refer to Add Users to dspCompose™ for more information.
 To create a team:
@@ -537,11 +537,11 @@ NOTE: Users can view all dspCompose™ teams, even if they do not have access to
     
     <item>
       <title>Create Template (Integrate Template)</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_template_integrate_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Template_Integrate_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_template_integrate_template/</guid>
-      <description>Create Template (Integrate Template) Use this page to [Create a Template from an Integrate Template](Create_a_Tempate_from_an_Integrate_Template.htm).  To access this page:
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Template_Integrate_Template/</guid>
+      <description>Create Template (Integrate Template) Use this page to [Create a Template from an Integrate Template](Create_a_Tempate_from_an_Integrate_Template).  To access this page:
  Select dspCompose &amp;gt; Team in the Navigation pane. Click Create Template for a team. Click Create from Integrate template.    Field
  Description
   TEMPLATE NAME
@@ -552,11 +552,11 @@ NOTE: Users can view all dspCompose™ teams, even if they do not have access to
     
     <item>
       <title>Create Template (Recording)</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_template_recording/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Template_Recording/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_template_recording/</guid>
-      <description>Create Template (Recording) Use this page to - [Create a BDC Script Template](Create_a_BDC_Script_Template.htm) - [Create a GUI Script Template](Create_a_GUI_Script_Template.htm)  To access this page:
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Template_Recording/</guid>
+      <description>Create Template (Recording) Use this page to - [Create a BDC Script Template](Create_a_BDC_Script_Template) - [Create a GUI Script Template](Create_a_GUI_Script_Template)  To access this page:
  Select dspCompose &amp;gt; Team in the Navigation pane.
  Click Create Template for a team.
  Click Create from BDC Recording.
@@ -567,20 +567,20 @@ OR
     
     <item>
       <title>Create Template Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_template_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Template_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_template_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Template_Roles/</guid>
       <description>Create Template Roles If the following two settings are enabled for global roles, these roles are automatically registered to a new template. The Add Roles On Template Creation check box on the Parameters page (Configuration &amp;gt; Parameters) and the Auto Copy check box on the Roles page’s Vertical View (Configuration &amp;gt; Roles) are enabled by default.
 Once a template is created, roles can be added or deleted as necessary.</description>
     </item>
     
     <item>
       <title>Create Templates</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_Templates/</guid>
       <description>Create Templates A template represents a process that will be governed and executed using dspCompose™.
 All templates must belong to a team. Refer to Create Teams for more information.
 Template Types  BDC and GUI script templates contain an SAP recording and can be reused for multiple requests. Scripts can either be recorded in SAP directly from dspCompose™ or imported from Integrate. Refer to Create a GUI Script Template and Create a BDC Script Template for more information.</description>
@@ -588,10 +588,10 @@ Template Types  BDC and GUI script templates contain an SAP recording and can be
     
     <item>
       <title>Create a BDC Script</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_bdc_script_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_BDC_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_bdc_script_template/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_BDC_Script_Template/</guid>
       <description>Create a BDC Script A user can record a BDC script in dspCompose™ to create a template. When using this method, only those fields that are required for recording the template display.
 The process for recording a template in dspCompose™ is the same as the recording process in Integrate. Refer to Record a BDC Script in Integrate for detailed information about recording a BDC template.
 When a dspCompose™ template is created, an Integrate process is automatically created in the Integrate category set for dspCompose™.</description>
@@ -599,29 +599,29 @@ When a dspCompose™ template is created, an Integrate process is automatically 
     
     <item>
       <title>Create a Custom Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_custom_template_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Custom_Template_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_custom_template_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Custom_Template_dspCompose/</guid>
       <description>Create a Custom Template dspCompose™ allows the user to build a custom template, in which everything about the template, including the tables or views the template is based on, is created and defined outside of dspCompose™. Custom templates can be used when setting up and posting a BAPI, or when linking dspCompose™ to existing applications to use pages from these applications to create a custom component.
 Refer to Set up and Post a BAPI using Integrate and dspCompose™ for more information.</description>
     </item>
     
     <item>
       <title>Create a Custom Template for Use with the Custom WebApp</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_custom_template_for_use_with_the_custom_webapp/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Custom_Template_for_Use_with_the_Custom_WebApp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_custom_template_for_use_with_the_custom_webapp/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Custom_Template_for_Use_with_the_Custom_WebApp/</guid>
       <description>Create a Custom Template for Use with the Custom WebApp Once tables, pages and views have been created in the Custom WebApp, in dspCompose™, define a Custom Template and assign Custom pages to the Data Entry Roles for the Template.</description>
     </item>
     
     <item>
       <title>Create a GUI Script Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_gui_script_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_GUI_Script_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_gui_script_template/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_GUI_Script_Template/</guid>
       <description>Create a GUI Script Template A user can record a GUI script in dspCompose™ to create a template. When using this method, only those fields that are required for recording the template display.
 The user must have the SAP Logon Pad installed to perform the GUI recording, and must end the recording by clicking Stop Recording in dspCompose™, not by saving data in SAP.
 The process for recording a template in dspCompose™ is the same as the recording process in Integrate.</description>
@@ -629,10 +629,10 @@ The process for recording a template in dspCompose™ is the same as the recordi
     
     <item>
       <title>Create a Request for Comparison Approval</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_request_for_comparison_approval/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Request_for_Comparison_Approval/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_request_for_comparison_approval/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Request_for_Comparison_Approval/</guid>
       <description>Create a Request for Comparison Approval Before performing this task:
  Configure the Comparison Approval Setting Register the CompareIns Stored Procedure  Create requests based on the template following the standard procedure. Refer to Create Requests for more information.
 Continue with Use the Comparison Approval Page.</description>
@@ -640,10 +640,10 @@ Continue with Use the Comparison Approval Page.</description>
     
     <item>
       <title>Create a Template For Advanced Users</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_template_from_the_templates_page/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Template_from_the_Templates_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_template_from_the_templates_page/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Template_from_the_Templates_Page/</guid>
       <description>Create a Template For Advanced Users Creating a template from the Templates page provides access to configuration settings to customize the template. The method can be used by advanced users familiar with dspCompose™.
 To create a template:
  Select Team on the Navigation pane.
@@ -653,10 +653,10 @@ NOTE: To access a template, a user must be granted access to a template role, or
     
     <item>
       <title>Create a Template from an Integrate Template</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_tempate_from_an_integrate_template/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Tempate_from_an_Integrate_Template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_tempate_from_an_integrate_template/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Tempate_from_an_Integrate_Template/</guid>
       <description>Create a Template from an Integrate Template If a template has already been created in Integrate that can be reused in dspCompose™, create a dspCompose™ template based on an existing recording from Integrate (stored in an Integrate template) to post a new set of legacy data.
 Integrate templates can be reused by many dspCompose™ templates.
 NOTE: A dspCompose™ template can also be based on an Intergrate template with multiple loops.</description>
@@ -664,20 +664,20 @@ NOTE: A dspCompose™ template can also be based on an Intergrate template with 
     
     <item>
       <title>Create a Template that Uses the Custom Pages in dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_a_template_that_uses_the_custom_pages/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Template_that_uses_the_Custom_Pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_a_template_that_uses_the_custom_pages/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_a_Template_that_uses_the_Custom_Pages/</guid>
       <description>Create a Template that Uses the Custom Pages in dspCompose™ Before performing this task:
  Create a looped template and process in Integrate. Refer to Configure Process Template Loops for a BDC Script Template with Looping Enabled or Configure Process Template Loops for a GUI Script Template with Looping Enabled in Integrate for more information. Create all tt Tables and tx Views for the Integrate Process Create rt Tables from the tt Tables Create Custom Pages and Views  Once all of the custom pages and their views are created, follow these steps to use them in dspCompose™.</description>
     </item>
     
     <item>
       <title>Create all tt Tables and Views for the BAPI Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_tt_tables_and_views_for_the_bap_process/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_tt_Tables_and_Views_for_the_BAP_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_tt_tables_and_views_for_the_bap_process/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_tt_Tables_and_Views_for_the_BAP_Process/</guid>
       <description>Create all tt Tables and Views for the BAPI Process Before performing these steps, Post Data Using A BAPI.
 Manually build tables (a main table and an upload table) and views in any database that has a supporting component and data source that is registered in the DSP®.
 Using the auto-generated BAPI tables that exist in Integrate, script each BAPI table as a new table beginning with tt. In addition to the existing columns, add the following columns to each tt table:</description>
@@ -685,30 +685,30 @@ Using the auto-generated BAPI tables that exist in Integrate, script each BAPI t
     
     <item>
       <title>Create all tt Tables and Views to Support the Pages in the Custom WebApp</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_all_tt_tables_and_views_to_support_the_pages_in_the_custom_webapp/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_all_tt_Tables_and_Views_to_Support_the_Pages_in_the_Custom_WebApp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_all_tt_tables_and_views_to_support_the_pages_in_the_custom_webapp/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_all_tt_Tables_and_Views_to_Support_the_Pages_in_the_Custom_WebApp/</guid>
       <description>Create all tt Tables and Views to Support the Pages in the Custom WebApp Manually build tables and views in any database that has a supporting component and data source that is registered in the DSP®. Find an automatically created tt Data Entry table in cMass_Data and use as an example.
 If the template has been recorded and will support request posting, the tt table should include any columns from the recording.</description>
     </item>
     
     <item>
       <title>Create all tt Tables and tx Views for the Integrate Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_all_tt_tables_and_tx_views_for_the_integrate_process/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_All_tt_Tables_and_tx_Views_for_the_Integrate_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_all_tt_tables_and_tx_views_for_the_integrate_process/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_All_tt_Tables_and_tx_Views_for_the_Integrate_Process/</guid>
       <description>Create all tt Tables and tx Views for the Integrate Process Before performing this task, create a looped template and process in Integrate. Refer to Configure Process Template Loops for a BDC Script Template with Looping Enabled or Configure Process Template Loops for a GUI Script Template with Looping Enabled in Integrate for more information.
 Create the tt tables and tx views for the each loop &amp;ndash; header and detail data &amp;ndash; manually or by using the Auto Generate functionality in Integrate.</description>
     </item>
     
     <item>
       <title>Create an External Request Scenario</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_an_external_request_scenario/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_an_External_Request_Scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_an_external_request_scenario/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_an_External_Request_Scenario/</guid>
       <description>Create an External Request Scenario NOTE: If the template associated with the external request scenario is active, no external request scenarios can be added, edited or deleted. To add or change external request scenarios, the template must be inactive and in Developer mode. Refer to Modify an Active Template in Developer Mode for more information.
 To create an external request scenario:
  Select Team from the Navigation pane.
@@ -717,20 +717,20 @@ To create an external request scenario:
     
     <item>
       <title>Create an External Request Scenario for an Excel-initiated Request</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_an_external_request_scenario_for_an_excel_initiated_requestel/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_an_External_Request_Scenario_for_an_Excel_Initiated_Requestel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_an_external_request_scenario_for_an_excel_initiated_requestel/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_an_External_Request_Scenario_for_an_Excel_Initiated_Requestel/</guid>
       <description>Create an External Request Scenario for an Excel-initiated Request An external request scenario allows dspCompose™ to create a request when an external contact sends an email to an email address designated to receive dspCompose™ workflows. Refer to Use External Request Scenarios for more information.
 NOTE: If the template associated with the external request scenario is active, no external request scenarios can be added, edited or deleted for that template. Updates are restricted.</description>
     </item>
     
     <item>
       <title>Create rt Tables From the tt Tables and Create Views for the BAPI Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/createrttblstttablecreatevwsbapi/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/CreatertTblsttTableCreateVwsBAPI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/createrttblstttablecreatevwsbapi/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/CreatertTblsttTableCreateVwsBAPI/</guid>
       <description>Create rt Tables From the tt Tables and Create Views for the BAPI Process Before performing these steps:
  Post Data Using A BAPI Create all tt Tables and Views for the BAPI Process  Once each tt table is created, use it as a script to create an rt table. Add the following columns to each table.
 NOTE: The tt table has the ID column as an IDENTITY. When using the tt table as a basis for the rt table, the rt table will then also have the ID column as an IDENTITY when the rt table is created.</description>
@@ -738,50 +738,50 @@ NOTE: The tt table has the ID column as an IDENTITY. When using the tt table as
     
     <item>
       <title>Create rt Tables From the tt Tables and Create Views for the Custom WebApp</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_rt_tables_from_the_tt_tables_and_create_views_for_the_custom_webapp/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_rt_Tables_From_the_tt_Tables_and_Create_Views_for_the_Custom_WebApp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_rt_tables_from_the_tt_tables_and_create_views_for_the_custom_webapp/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_rt_Tables_From_the_tt_Tables_and_Create_Views_for_the_Custom_WebApp/</guid>
       <description>Create rt Tables From the tt Tables and Create Views for the Custom WebApp Once each tt table is created, use it as a script to create an rt table. Add the following columns to each table.
 NOTE: The tt table has the ID column as an IDENTITY. When using the tt table as a basis for the rt table, the rt table will then also have the ID column as an IDENTITY when the rt table is created.</description>
     </item>
     
     <item>
       <title>Create rt Tables from the tt Tables</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/create_rt_tables_from_the_tt_tables/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Create_rt_Tables_from_the_tt_Tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/create_rt_tables_from_the_tt_tables/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Create_rt_Tables_from_the_tt_Tables/</guid>
       <description>Create rt Tables from the tt Tables Before performing this task:
  Create a looped template and process in Integrate. Refer to Configure Process Template Loops for a BDC Script Template with Looping Enabled or Configure Process Template Loops for a GUI Script Template with Looping Enabled in Integrate for more information. Create all tt Tables and tx Views for the Integrate Process  Once each tt table is created, use the tt table as a script to create an rt table.</description>
     </item>
     
     <item>
       <title>Data Objects</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/data_objects/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Data_Objects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/data_objects/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Data_Objects/</guid>
       <description>Data Objects After a Template Administrator generates a template (by clicking Generate on the Templates page’s Vertical View), the Template (Objects) page lists the system-generated objects used by the template, including pages, stored procedures, tables, views, Integrate templates and Integrate processes. When a template is generated in dspCompose™ tables, views and a stored procedure are automatically created in the cMass_Data database. Each request is differentiated by the RequestID.
 When a Template Administrator deletes a template, dspCompose™ deletes all system-generated objects used by the template.</description>
     </item>
     
     <item>
       <title>Download Data as a Finish Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/download_data_as_a_finish_process/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Download_Data_as_a_Finish_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/download_data_as_a_finish_process/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Download_Data_as_a_Finish_Process/</guid>
       <description>Download Data as a Finish Process As part of the Finish process, dspCompose™ can be configured to download the data posted by a dspCompose™ request to tables in a database (often dgSAP). The data should download when a user clicks Finish for the Post role on the Request (Roles) page.
 If the data is not being downloaded, use the Request Role (Finish Download) page to run the process manually to assist while troubleshooting.</description>
     </item>
     
     <item>
       <title>Edit an Active Template with an External Request Scenario that uses an Excel-initiated Request</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/edit_active_template_external_rqst_scnario/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Edit_Active_Template_External_Rqst_Scnario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/edit_active_template_external_rqst_scnario/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Edit_Active_Template_External_Rqst_Scnario/</guid>
       <description>Edit an Active Template with an External Request Scenario that uses an Excel-initiated Request When a template with an external request scenario that uses an Excel-initiated request is activated or is in Developer mode, updates to external request scenario settings are restricted.
 Refer to Activate the Template and Modify an Active Template in Developer Mode for more information.
 The following table details the edits allowed.
@@ -791,19 +791,19 @@ The following table details the edits allowed.
     
     <item>
       <title>Enter Data for a Request</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/enter_data_for_a_request/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Enter_Data_for_a_Request/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/enter_data_for_a_request/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Enter_Data_for_a_Request/</guid>
       <description>Enter Data for a Request NOTE: Templates in dspCompose™ are highly customizable and can be configured to have multiple Role IDs with the Role Type of Data. Users assigned to these roles add or update request data. A template can have multiple Data Entry roles. The generic term “Data Entry role” is used throughout this use case, and can refer to one or multiple Role IDs with the Role Type of Data.</description>
     </item>
     
     <item>
       <title>External Request Scenarios</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/external_request_scenarios/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/External_Request_Scenarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/external_request_scenarios/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/External_Request_Scenarios/</guid>
       <description>External Request Scenarios A Template Administrator configures one or multiple external request scenarios for a template.
 Once an external request scenario is configured, a user can submit an email to an external data email account set up in dspCompose™ to begin request processing by creating a request. This user must:
  Use an alias set up for the external request scenario in the subject line of the email Have an email address that has been saved for the external request scenario  Set up of alias and email address are part of external request scenario configuration.</description>
@@ -811,19 +811,19 @@ Once an external request scenario is configured, a user can submit an email to a
     
     <item>
       <title>External Request Scenarios that Create Excel-Initiated Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/external_request_scenarios_that_create_excel_initiated_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/External_Request_Scenarios_that_Create_Excel_Initiated_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/external_request_scenarios_that_create_excel_initiated_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/External_Request_Scenarios_that_Create_Excel_Initiated_Requests/</guid>
       <description>External Request Scenarios that Create Excel-Initiated Requests While an external request scenario can be configured to simply create a request when an email is received, templates may also be configured to accept an Excel file attached to the email. The Excel file provides data for the first Data Entry role in the workflow. In this case, not only will the request be created, but the worksheet data from the Excel file will be inserted into the table used by the first Data Entry role (after certain conditions are met).</description>
     </item>
     
     <item>
       <title>Finish the External Data Role</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/finish_the_external_data_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Finish_the_External_Data_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/finish_the_external_data_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Finish_the_External_Data_Role/</guid>
       <description>Finish the External Data Role Once the External Data role has emailed the spreadsheet to dspCompose™ and the data has passed the validations, the External Data role is finished, and the next role receives an email that the request is available.
 If the request has no other data entry roles, the Data role is finished and the request moves to the Review role.
 If a request has multiple Data roles, the next Data role in the workflow is ready for processing.</description>
@@ -831,20 +831,20 @@ If a request has multiple Data roles, the next Data role in the workflow is read
     
     <item>
       <title>Format Required Fields in an Excel File</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/format_required_fields_in_an_excel_file/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Format_Required_Fields_in_an_Excel_File/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/format_required_fields_in_an_excel_file/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Format_Required_Fields_in_an_Excel_File/</guid>
       <description>Format Required Fields in an Excel File A user can generate an Excel file at the request role level for data entry purposes. To indicate that a column in the file is required, dspCompose™ can format the column according to options set on the Template (Role Excel Column Control) page.
 NOTE: On the Template (Role) page, the Excel Column Control icon is disabled after a user records a template. Once the template is generated, this icon is enabled.</description>
     </item>
     
     <item>
       <title>Import a Column Added to the Role’s Assigned Page</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/import_a_column_added_to_the_roles_assigned_page/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Import_a_Column_Added_to_the_Roles_Assigned_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/import_a_column_added_to_the_roles_assigned_page/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Import_a_Column_Added_to_the_Roles_Assigned_Page/</guid>
       <description>Import a Column Added to the Role’s Assigned Page If a column is added to the platform page assigned to a template role, the Template Administrator can import that column to include it in the dspCompose-generated Excel file.
 A column is imported once. If its configuration changes, the column must be deleted from the page and imported again.
 NOTE: The existing column configuration is not overwritten by this process.</description>
@@ -852,29 +852,29 @@ NOTE: The existing column configuration is not overwritten by this process.</des
     
     <item>
       <title>Import a File at the Request Role Level</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/import_a_file_at_the_request_role_level/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Import_a_File_at_the_Request_Role_Level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/import_a_file_at_the_request_role_level/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Import_a_File_at_the_Request_Role_Level/</guid>
       <description>Import a File at the Request Role Level A user generates a file in the form of an Excel spreadsheet from within dspCompose™. A user then adds the request data to the spreadsheet, and the file can then be imported.
 NOTE: Each data entry role that should import a spreadsheet for the template must have the Excel Import Allowed check box enabled. Navigate to the Template (Role) page’s Vertical View for the Data Entry role.</description>
     </item>
     
     <item>
       <title>Import a View at the Request-Role Level</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/import_a_view_at_the_request-role_level/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Import_a_View_at_the_Request-Role_Level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/import_a_view_at_the_request-role_level/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Import_a_View_at_the_Request-Role_Level/</guid>
       <description>Import a View at the Request-Role Level NOTE: To import a view, the View Import Allowed check box must be enabled on the Template (Role) page’s Vertical View’s Import Settings tab for the Data role. Access this check box via Teams &amp;gt; Templates &amp;gt; Roles &amp;gt; Vertical View of the Data role. A data source must also be set for the Data role. Refer to Add a Data Source that Stores Views for Import for more information.</description>
     </item>
     
     <item>
       <title>Inactive Requests Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/inctive_requests_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Inctive_Requests_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/inctive_requests_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Inctive_Requests_Chart/</guid>
       <description>Inactive Requests Chart This chart displays the number of inactive requests in each request status across all teams.
 Hover a cursor over a bar to view the number of inactive requests in that status.
 Click a bar to drill down to the All Requests page to view all requests in the selected status.
@@ -883,10 +883,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Inactive Requests for User Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/inctive_requests_for_user_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Inctive_Requests_for_User_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/inctive_requests_for_user_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Inctive_Requests_for_User_Chart/</guid>
       <description>Inactive Requests for User Chart This chart displays the number of inactive requests in each request status for the logged in user.
 Hover a cursor over a bar to view the number of inactive requests in that status.
 Click a bar to drill down to the All Requests page to view all requests in the selected status.
@@ -895,10 +895,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Include DSP® Pages Listed on *Template (Objects)* Page</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/include_dsp_pages_listed_on_template_objects_page/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Include_DSP_Pages_Listed_on_Template_Objects_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/include_dsp_pages_listed_on_template_objects_page/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Include_DSP_Pages_Listed_on_Template_Objects_Page/</guid>
       <description>Include DSP® Pages Listed on Template (Objects) Page When CTSing a template, include all the DSP® pages listed on the Template (Objects) page in dspCompose™ in the Packing List.
 To include DSP® pages in the CTS:
  Create a CTS package that contains a CTS Item for each page and add CTS Item Keys. Refer to Create Package and Build Archive in Source Instance for detailed information.
@@ -907,10 +907,10 @@ To include DSP® pages in the CTS:
     
     <item>
       <title>Incorporate the Security View into Request Processing</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/incorporate_the_security_view_into_request_processing/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Incorporate_the_Security_View_into_Request_Processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/incorporate_the_security_view_into_request_processing/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Incorporate_the_Security_View_into_Request_Processing/</guid>
       <description>Incorporate the Security View into Request Processing This section provides an example of implementation of Org Units.
 NOTE: Org Units should only be used by advanced users, such as BackOffice Consultants, who are familiar with DSP® Development.
 NOTE: If the data entry table does not exist when the template is generated, the security view will not be automatically generated. This situation can occur when the template is a custom template with custom data entry pages.</description>
@@ -918,10 +918,10 @@ NOTE: If the data entry table does not exist when the template is generated, the
     
     <item>
       <title>Link a Template to a Page</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/link_a_template_to_a_page/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Link_a_Template_to_a_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/link_a_template_to_a_page/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Link_a_Template_to_a_Page/</guid>
       <description>Link a Template to a Page A custom template can be linked to a page in another component, so that page can be used in the request workflow.
 To link a template to a page in another component:
  Select Team on the Navigation pane.
@@ -932,10 +932,10 @@ To link a template to a page in another component:
     
     <item>
       <title>Modify an Active Template in Developer Mode</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/modify_an_active_template_in_developer_mode/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Modify_an_Active_Template_in_Developer_Mode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/modify_an_active_template_in_developer_mode/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Modify_an_Active_Template_in_Developer_Mode/</guid>
       <description>Modify an Active Template in Developer Mode NOTE: Developer Mode should only be used by developers while troubleshooting issues when configuring a template. It should never be used in a Production environment.
 A Template Administrator can enable Developer Mode to make configuration changes to an active template with active requests. Once the updates are complete, Developer Mode can then be disabled to prevent further updates.
 NOTE: When changes are made in Developer mode, requests that were previously entered for the template may no longer work.</description>
@@ -943,10 +943,10 @@ NOTE: When changes are made in Developer mode, requests that were previously ent
     
     <item>
       <title>Monitor Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/monitor_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Monitor_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/monitor_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Monitor_Requests/</guid>
       <description>Monitor Requests Two reports are provided to facilitate the monitoring of requests:
  Active Requests All Requests  NOTE: All requests, except those in a status of Finished, Cancelled or Deleted, display.
 These reports display the current status, added on dates and current progress of the role processing. Click the Users icon on either report to view a list of users who have access to the template upon which the request is based on the Template Role Users Monitor page.</description>
@@ -954,10 +954,10 @@ These reports display the current status, added on dates and current progress of
     
     <item>
       <title>Org Unit Objects Generated by dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/org_unit_objects_generated_by_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Org_Unit_Objects_Generated_by_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/org_unit_objects_generated_by_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Org_Unit_Objects_Generated_by_dspCompose/</guid>
       <description>Org Unit Objects Generated by dspCompose™ When a user generates a template that has Org Units assigned, dspCompose™ creates the standard set of objects in the cMass_Data database, but also adds these Org Unit related objects to the ttTemplateObjects table in the cMass database.
  Org Unit Table
  Org Unit View
@@ -968,29 +968,29 @@ These reports display the current status, added on dates and current progress of
     
     <item>
       <title>Org Unit Security in Action</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/org_unit_security_in_action/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Org_Unit_Security_in_Action/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/org_unit_security_in_action/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Org_Unit_Security_in_Action/</guid>
       <description>Org Unit Security in Action Once the security view has been incorporated into request processing, Org Units can be used to restrict data on the Data Entry page and restrict which updates are performed in a mass change. Additionally, once the security view has been added to a Template Role validation rule (if the template uses validation rules), template role validation failures will be limited to records associated with the current user’s Org Unit values.</description>
     </item>
     
     <item>
       <title>Post Request Data to a Target ERP System</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/post_request_data_to_a_target_erp_system/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Post_Request_Data_to_a_Target_ERP_System/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/post_request_data_to_a_target_erp_system/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Post_Request_Data_to_a_Target_ERP_System/</guid>
       <description>Post Request Data to a Target ERP System Once all roles have been approved by the user assigned to the Review role, the request data is ready to be posted. As a recommendation, if a large number of records is to be posted, post request data during non-peak work hours, for example, after 5:00 p.m.
 NOTE: When the Review role user clicks the Approve icon for the request, the user assigned to the Post role for the request receives an email if the SEND WORKFLOW check box is checked for that user on the User page.</description>
     </item>
     
     <item>
       <title>Process Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/process_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Process_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/process_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Process_Requests/</guid>
       <description>Process Requests A request is a mass change data process object that is created, approved and posted in a single batch.
 A request is based on a template. Refer to Create Templates and Configure Templates for more information.
 Processing a request is the act of entering, reviewing and posting data to a target ERP system using dspCompose™.
@@ -999,30 +999,30 @@ There are three methods to update request data in dspCompose™: manual change, 
     
     <item>
       <title>Register Rules to Template-level Events</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/register_rules_to_template-level_events/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Rules_to_Template-level_Events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/register_rules_to_template-level_events/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Rules_to_Template-level_Events/</guid>
       <description>Register Rules to Template-level Events Business rules can be a powerful tool to help create default field values and make mass change updates before any validations are executed.
 dspCompose™ allows a Template Administrator to register a business rule that runs when a template-level event occurs. A rule is set to run when a request is cancelled, created, deleted, or posted based on the template for which the request was entered.</description>
     </item>
     
     <item>
       <title>Register Tables for Download as a Finish Process using Collect</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/register_tables_to_download_as_a_finish_process_using_collect/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Tables_to_Download_as_a_Finish_Process_Using_Collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/register_tables_to_download_as_a_finish_process_using_collect/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Tables_to_Download_as_a_Finish_Process_Using_Collect/</guid>
       <description>Register Tables for Download as a Finish Process using Collect At the template-role level for a Post role, a Template Administrator can register tables for download as a Finish process. The Finish process starts when a user clicks the Finish button for a Post role on the Request (Roles) page.
 Additional configuration settings set on the Template Role (Finish) page and the Template Role (Finish - Columns) page allow a Template Administrator to set Collect rules to run on table data after the download is finished, and to specify filter columns for both source and target data.</description>
     </item>
     
     <item>
       <title>Register Tables for Download through Data Services</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/register_tables_for_download_through_data_services/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Tables_for_Download_through_Data_Services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/register_tables_for_download_through_data_services/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Tables_for_Download_through_Data_Services/</guid>
       <description>Register Tables for Download through Data Services NOTE: The Data Services job must have been written and stored in the Data Services repository before the job can be registered in dspCompose™.
 Data Services jobs can be registered and run to pull data from the SAP environment and add it to the dgSAP database (the working snapshot of the SAP data).
 The RequestID, as the global variable &amp;ldquo;$RequestID&amp;rdquo;, is always passed to the Data Services job during the dspCompose™ Finish process.</description>
@@ -1030,10 +1030,10 @@ The RequestID, as the global variable &amp;ldquo;$RequestID&amp;rdquo;, is alway
     
     <item>
       <title>Register Validations to List Boxes</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/register_validations_to_list_boxes/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Validations_to_List_Boxes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/register_validations_to_list_boxes/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Register_Validations_to_List_Boxes/</guid>
       <description>Register Validations to List Boxes A Template Administrator can configure validations to run on a column when a user enters data into the column of the dspCompose™ generated spreadsheet.
 These validations control the data that can be entered for the selected column, or in the case of list boxes, options available for selection.
 To set validations for list boxes:
@@ -1043,10 +1043,10 @@ To set validations for list boxes:
     
     <item>
       <title>Register the CompareIns Stored Procedure</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/register_the_compareins_stored_procedure/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Register_the_CompareIns_Stored_Procedure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/register_the_compareins_stored_procedure/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Register_the_CompareIns_Stored_Procedure/</guid>
       <description>Register the CompareIns Stored Procedure Before performing this task, Configure the Comparison Approval Setting.
 Next, register the CompareIns stored procedure to the Finish event for the Data Entry Role. The procedure will then run when the Data role user clicks the Finish button on the Request (Roles) page.
 Refer to Sample Stored Procedure For Comparison Approval for more information.
@@ -1056,20 +1056,20 @@ To register the CompareIns stored procedure:
     
     <item>
       <title>Reject an External Data Role</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/reject_an_external_data_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Reject_an_External_Data_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/reject_an_external_data_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Reject_an_External_Data_Role/</guid>
       <description>Reject an External Data Role If the Review role rejects the request, the Reviewer enters a reason for the rejection. dspCompose™ sends an email with the spreadsheet attached to the External Data role for correction. This spreadsheet contains the rejection reason in the Rejection Reason column and the original request data.
 If a request initiated by an External Data role is posted but includes invalid data that fails to post in SAP, dspCompose™ automatically resets the request and sends an email to the user designated as the external contact for the External Data role.</description>
     </item>
     
     <item>
       <title>Request Org Unit Assignments</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/request_org_unit_assignments/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Request_Org_Unit_Assignments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/request_org_unit_assignments/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Request_Org_Unit_Assignments/</guid>
       <description>Request Org Unit Assignments If the request is based on a template that has Org Units assigned, the template’s Org Unit assignments are copied to the request when the request is created. These Org Unit assignments display on the *Request (Org Unit Assignments)*page.
 Template settings control which Org Unit assignments display on this page, and whether the ASSIGNED check box can be enabled or disabled on this page.
 NOTE: A user is not allowed Org Unit security for a Request if not assigned Org Unit Values for each Org Unit on the template.</description>
@@ -1077,10 +1077,10 @@ NOTE: A user is not allowed Org Unit security for a Request if not assigned Org 
     
     <item>
       <title>Reset a Role</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/reset_a_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Reset_a_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/reset_a_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Reset_a_Role/</guid>
       <description>Reset a Role Reset a role if a mistake is made or if information is incomplete after the Data or Review role have been finished.
 If the Review role rejects or partially rejects a request, the Data Entry role(s) on which the Review role is dependent will be automatically reset.
 A role can also be reset manually.
@@ -1089,10 +1089,10 @@ NOTE: The Data Entry role and the Review role can use the reset feature.</descri
     
     <item>
       <title>Review Posting Messages</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/review_posting_messages/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Review_Posting_Messages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/review_posting_messages/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Review_Posting_Messages/</guid>
       <description>Review Posting Messages Once the posting process is complete, dspCompose™ displays posting messages about the success or failure of each record in the request.
 To view the post results:
  Select Requests on Navigation pane. Click Vertical View for the request. Click Archive Page ID.  NOTE: A posting summary displays in the POST ERROR and POST MESSAGE columns for each record.
@@ -1101,20 +1101,20 @@ To customize posting feedback for dspCompose™-generated and custom data entry 
     
     <item>
       <title>Review Request Data</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/review_request_data/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Review_Request_Data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/review_request_data/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Review_Request_Data/</guid>
       <description>Review Request Data The primary responsibility of the Review role is to evaluate the work of the Data Entry role(s) for accuracy and completion.
 NOTE: Templates in dspCompose™ are highly customizable and can be configured to have multiple Role IDs with the Role Type of Data. Users assigned to these roles add or update request data. A template can have multiple Data Entry roles. The generic term “Data Entry role” is used throughout this use case, and can refer to one or multiple Role IDs with the Role Type of Data.</description>
     </item>
     
     <item>
       <title>Sample Stored Procedure For Comparison Approval</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/sample_stored_procedure_for_comparison_approval/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Sample_Stored_Procedure_for_Comparison_Approval/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/sample_stored_procedure_for_comparison_approval/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Sample_Stored_Procedure_for_Comparison_Approval/</guid>
       <description>Sample Stored Procedure For Comparison Approval These sample stored procedures are original and modified code for the CompareIns stored procedure that must be registered to the Template Role Event rule. Refer to Register the CompareIns Stored Procedure for more information.
 A user modifies the original code as needed for each client’s business needs.
 As shown in the sample original code of the stored procedure (below), the commented section that starts after the “BEGIN” statement lists the guidelines and the SQL Code that must be added to the modified code between the “BEGIN” and “END” statements.</description>
@@ -1122,40 +1122,40 @@ As shown in the sample original code of the stored procedure (below), the commen
     
     <item>
       <title>Set External Role Contacts</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_external_role_contacts/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_External_Role_Contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_external_role_contacts/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_External_Role_Contacts/</guid>
       <description>Set External Role Contacts If the template that uses an external request scenario also uses an External Data role, the users assigned to this role must also be set as external role contact for the template.
 NOTE: If the sender is an external user who is not registered in the platform, that email must be added to the platform. Refer to Add Email Addresses for External Users for more information.</description>
     </item>
     
     <item>
       <title>Set Force Reject Severity</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_force_reject_severity/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Force_Reject_Severity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_force_reject_severity/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Force_Reject_Severity/</guid>
       <description>Set Force Reject Severity When a user clicks Validate on the Request (Roles) page for a Data or a Review role, the request data is validated for that role. The types of validations that run depend on how dspCompose™ is configured. Refer to Add Validations to Roles for more information.
 NOTE: The Validate button displays on the Request (Roles) page if Role validations have been added to the request&amp;rsquo;s template.</description>
     </item>
     
     <item>
       <title>Set Tables to Store Posting Feedback</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_tables_to_store_posting_feedback/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Tables_to_Store_Posting_Feedback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_tables_to_store_posting_feedback/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Tables_to_Store_Posting_Feedback/</guid>
       <description>Set Tables to Store Posting Feedback After a request has been posted, dspCompose™ creates a post message and a post fail indicator for each posted record. To customize posting feedback for dspCompose™-generated and custom data entry pages, a Template Administrator can set, at the template level, the tables that dspCompose™ should update with this data.
 If a dspCompose™ template is associated with a multi-template Integrate process, the Post Message Table settings must be updated.</description>
     </item>
     
     <item>
       <title>Set Target Role for Request Rejections</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_target_role_for_request_rejections/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Target_Role_for_Request_Rejections/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_target_role_for_request_rejections/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Target_Role_for_Request_Rejections/</guid>
       <description>Set Target Role for Request Rejections A target role is the role that will receive rejected request data. It could be the Data role or a custom role.
 The Template Administrator can set a target role for a request when a Review role rejects all or part of a request’s records. The rejected request records are then assigned to the target role.
 The target role is set at the template role level, and can be configured only for the Review role.</description>
@@ -1163,19 +1163,19 @@ The target role is set at the template role level, and can be configured only fo
     
     <item>
       <title>Set Validation Threshold</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_validation_threshold/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Validation_Threshold/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_validation_threshold/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_Validation_Threshold/</guid>
       <description>Set Validation Threshold At the template role level, a Template Administrator can set a validation threshold to monitor when a user, including an external role user, is unable to pass a role. When a user clicks the Validate button on the Request (Roles) page for a role, and at least one record in a validation fails, dspCompose™ logs the failure and keeps a count of failed records. When this count exceeds the validation threshold, dspCompose™ sends the validation contacts an email.</description>
     </item>
     
     <item>
       <title>Set a Column’s Control Status</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_a_columns_control_status/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_a_Columns_Control_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_a_columns_control_status/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_a_Columns_Control_Status/</guid>
       <description>Set a Column’s Control Status A Template Administrator can designate which columns display on a template for each Review role. The Control Status for a column in a template can be set to Enabled, Disabled, or Hidden at the template-Review role level.
 NOTE: Control Status for columns can only be used for dspCompose™-generated pages and is not available for custom pages.
 NOTE: This feature works in conjunction with column properties set at the page level in the platform.</description>
@@ -1183,10 +1183,10 @@ NOTE: This feature works in conjunction with column properties set at the page l
     
     <item>
       <title>Set the Current User as the External Role Contact</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_the_current_user_as_the_external_role_contact/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_the_Current_User_as_the_External_Role_Contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_the_current_user_as_the_external_role_contact/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_the_Current_User_as_the_External_Role_Contact/</guid>
       <description>Set the Current User as the External Role Contact When creating an external request scenario, a user configures a template to use emails received from designated external contacts to create a request via email. The user can also designate that dspCompose™:
  Sends an email to the current user to initiate the email creation process and
  Accepts email from the current user when processing the external request scenario for the current request.</description>
@@ -1194,10 +1194,10 @@ NOTE: This feature works in conjunction with column properties set at the page l
     
     <item>
       <title>Set up Email Validations</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_up_email_validations/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_up_Email_Validations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_up_email_validations/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_up_Email_Validations/</guid>
       <description>Set up Email Validations Using an external request scenario, an external contact can send an email to the external data email account to:
  Add a request Create an Excel-initiated request  This topic contains the following sections:
  Validations Email Validations Included with dspCompose Edit Default Email Validations Add Custom Email Validations  Validations Validations are stored procedures or views that have been written and saved in a data source that is registered in the DSP®.</description>
@@ -1205,20 +1205,20 @@ NOTE: This feature works in conjunction with column properties set at the page l
     
     <item>
       <title>Set up Org Units</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_up_org_units/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_up_Org_Units/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_up_org_units/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_up_Org_Units/</guid>
       <description>Set up Org Units An Org Unit is tied to a data source, which may be either a list, or a table that exists in a database such as dgSAP, or a table that has been created specifically to store Org Units. This data source must exist prior to setting up Org Units.
 The data source stores a column that corresponds to an Org Unit (for example, a plant, or a division, or a sales organization).</description>
     </item>
     
     <item>
       <title>Set up and Post a BAPI using Integrate and dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/set_up_and_post_a_bapi_using_integrate_and_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Set_up_and_Post_a_BAPI_Using_Integrate_and_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/set_up_and_post_a_bapi_using_integrate_and_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Set_up_and_Post_a_BAPI_Using_Integrate_and_dspCompose/</guid>
       <description>Set up and Post a BAPI using Integrate and dspCompose™ Using Integrate and dspCompose™, an advanced user can set up a BAPI template and post requests. This feature is for users such as BackOffice consultants with knowledge of SQL and development in the DSP®.
 To set up and post a BAPI using Integrate and dspCompose™:
  Create a BAPI Template and Process in Integrate. Refer to Post Data Using A BAPI for more information.</description>
@@ -1226,10 +1226,10 @@ To set up and post a BAPI using Integrate and dspCompose™:
     
     <item>
       <title>Setting the Post Start Time</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/setting_the_post_start_time/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Setting_the_Post_Start_Time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/setting_the_post_start_time/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Setting_the_Post_Start_Time/</guid>
       <description>Setting the Post Start Time If posting using a scheduled background post, enter the start date and time.
  Select Requests on the Navigation pane.
  Click Roles for a request.
@@ -1240,10 +1240,10 @@ NOTE: The count on the Roles icon is the number of roles the current user can ac
     
     <item>
       <title>Setup and Configuration for dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/setup_and_configuration_for_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Setup_and_Configuration_for_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/setup_and_configuration_for_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Setup_and_Configuration_for_dspCompose/</guid>
       <description>Setup and Configuration for dspCompose™ There are several elements of dspCompose™ that can be configured before executing a mass change process. These steps should only be completed by a developer or a system administrator and are dependent upon the client&amp;rsquo;s setup.
 Before getting started with dspCompose™, verify the following steps have been completed:
  Set Up Security for dspCompose™ Configure dspCompose™ Parameters Configure Global Roles Assign a Catalog to a Custom WebApp for Use with dspCompose™ Enable Role Validations Update Validation Messages Configure Workflow Messages Set up Workflow Messages Configure Request Statuses Configure Columns to Exclude from Mass Change Display Posting Options on Requests Configure Settings for External Data Processing and External Request Scenarios  When the platform is installed, an Integrate category called dspCompose is created that will act as the repository in Integrate for all the templates created in dspCompose™.</description>
@@ -1251,20 +1251,20 @@ Before getting started with dspCompose™, verify the following steps have been 
     
     <item>
       <title>Shippable Items in Detail</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/shippable_items_in_detail/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Shippable_Items_in_Detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/shippable_items_in_detail/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Shippable_Items_in_Detail/</guid>
       <description>Shippable Items in Detail The dspCompose™ Shippable Items are:
   Org Units - allow a package to be created with the specific contents of dspCompose™ ttOrgUnit table only  NOTE: Supporting List sources for populating OrgUnit values might reside in a data source other than dspCompose™. To determine where the List Source resides for an OrgUnit, view the OrgUnit record in dspCompose &amp;gt; Configuration &amp;gt; Org Units. Determine the List Data Source and the List Source.</description>
     </item>
     
     <item>
       <title>Submit an Email for an External Request Scenario</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/submit_an_email_for_an_external_request_scenario/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Submit_an_Email_for_an_External_Request_Scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/submit_an_email_for_an_external_request_scenario/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Submit_an_Email_for_an_External_Request_Scenario/</guid>
       <description>Submit an Email for an External Request Scenario Once a scenario has been configured, a user sends an email to add a request for the template.
 To submit an email:
  Send the email from the address configured for the scenario.
@@ -1274,30 +1274,30 @@ NOTE: Refer to Add Email Addresses for a Scenario for more information.
     
     <item>
       <title>Submit an Email for an External Request Scenario that Creates an Excel-initiated Request</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/submit_email_external_reqst_scenario/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Submit_Email_External_Reqst_Scenario/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/submit_email_external_reqst_scenario/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Submit_Email_External_Reqst_Scenario/</guid>
       <description>Submit an Email for an External Request Scenario that Creates an Excel-initiated Request Once an external request scenario that creates an Excel-initiated request has been configured, a user sends an email with an Excel file attached to add a request for the template using the data in the Excel file; any erroneous data in the file should be corrected before sending the email.
 NOTE: The email must pass all validations.</description>
     </item>
     
     <item>
       <title>Supporting Objects for Templates</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/supporting_objects_for_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Supporting_Objects_for_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/supporting_objects_for_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Supporting_Objects_for_Templates/</guid>
       <description>Supporting Objects for Templates Supporting objects for templates reside in other data sources than dspCompose™. The following Integrate objects need to also be included in a CTS archive:
  Integrate Category - If the target system has not been populated with the Integrate Category that corresponds to the Integrate Category listed on the dspCompose™ Parameters page, the Integrate Category needs to be included in the CTS archive. Be aware that a Packing List that includes Category will automatically include all templates and all processes in Integrate; exclude any other templates and processes that should not be included.</description>
     </item>
     
     <item>
       <title>Team Average Records/Request Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/team_average_records_request_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Team_Average_Records_Request_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/team_average_records_request_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Team_Average_Records_Request_Chart/</guid>
       <description>Team Average Records/Request Chart This chart displays the average number of records in a request per team.
 Hover a cursor over a section to view the average number of request records for that team.
 Click a section to drill down to the Top 15 Request Record Counts chart.
@@ -1307,10 +1307,10 @@ To access this chart in dspCompose™ click Main Dashboard in the Navigation pan
     
     <item>
       <title>Team Request Counts Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/team_request_counts_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Team_Request_Counts_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/team_request_counts_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Team_Request_Counts_Chart/</guid>
       <description>Team Request Counts Chart This chart displays a count of active request records broken out by team.
 Hover a cursor over a section to view the number of request records for that team.
 Click a team section of the chart to drill down to the Top 15 Template Request Counts chart.
@@ -1319,10 +1319,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Team Templates Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/team_templates_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Team_Templates_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/team_templates_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Team_Templates_Chart/</guid>
       <description>Team Templates Chart This chart displays the number of templates created for each team.
 Hover a cursor over the bar to view the number of templates for the team.
 Click the bar to drill down to the Top 15 Template Request Counts chart.
@@ -1332,10 +1332,10 @@ To access this chart in dspCompose™ select Dashboards &amp;gt; Team Templates 
     
     <item>
       <title>Template Role Duration Chart</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/template_role_duration_chart/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Template_Role_Duration_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/template_role_duration_chart/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Template_Role_Duration_Chart/</guid>
       <description>Template Role Duration Chart This chart displays the longest number of days a request was active for a template role (Data, Review, Post and DataExternal).
 Hover a cursor over a bar to see the count of requests with the longest days active for that template and role.
 Click a bar to open the All Requests page to view details about the requests for the template role.
@@ -1344,10 +1344,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Top 15 Request Record Counts</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/top_15_request_record_counts/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Top_15_Request_Record_Counts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/top_15_request_record_counts/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Top_15_Request_Record_Counts/</guid>
       <description>Top 15 Request Record Counts This chart displays the top 15 requests based on the number of records for the team selected on the Team Average Records/Request chart.
 Hover a cursor over the bar to view the number of records for that request.
 Click a bar to open the Request page to view details about the request.
@@ -1356,10 +1356,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Top 15 Template Request Counts</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/top_15_template_request_counts/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Top_15_Template_Request_Counts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/top_15_template_request_counts/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Top_15_Template_Request_Counts/</guid>
       <description>Top 15 Template Request Counts This chart displays the top 15 templates based on number of requests for the team selected on the Team Request Counts chart.
 Hover a cursor over the bar to view the number of requests per template.
 Click a bar to open the All Requests page to view details about the requests for that template.
@@ -1368,10 +1368,10 @@ Refer to View Dashboards in dspCompose™ for information about chart features a
     
     <item>
       <title>Troubleshoot Data Download Using a Data Services Job</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/troubleshoot_data_download_using_a_data_services_job/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Troubleshoot_Data_Download_Using_a_Data_Services_Job/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/troubleshoot_data_download_using_a_data_services_job/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Troubleshoot_Data_Download_Using_a_Data_Services_Job/</guid>
       <description>Troubleshoot Data Download Using a Data Services Job A Role Processor can troubleshoot issues related to the data download during the Final Finish process using a Data Services job.
 Refer to Register Tables for Download through Data Services for general information.
 To troubleshoot Data Services jobs, selectdspCompose &amp;gt; Configuration &amp;gt; Data Services Job Executor in the Navigation pane.
@@ -1381,10 +1381,10 @@ On the Data Services Job Executor page, a user can:
     
     <item>
       <title>Troubleshoot Issues with External Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/troubleshoot_issues_with_external_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Troubleshoot_Issues_With_External_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/troubleshoot_issues_with_external_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Troubleshoot_Issues_With_External_Roles/</guid>
       <description>Troubleshoot Issues with External Roles dspCompose™ generates a spreadsheet with request data and sends it to a user designated as an external contact for an External Data role. The user updates the spreadsheet and mails it to an external data email account configured in dspCompose™.
 To troubleshoot issues with sending data to and receiving data from an External Data role, use the Roles (Execute) page.
 To troubleshoot issues with sending spreadsheets to External Data roles:</description>
@@ -1392,10 +1392,10 @@ To troubleshoot issues with sending spreadsheets to External Data roles:</descri
     
     <item>
       <title>Troubleshooting</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/troubleshooting/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/troubleshooting/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Troubleshooting/</guid>
       <description> Troubleshooting  BDC and GUI Script Recording
  Download Data as a Finish Process
  External Roles
@@ -1404,10 +1404,10 @@ To troubleshoot issues with sending spreadsheets to External Data roles:</descri
     
     <item>
       <title>Update External Role Contacts</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/update_external_role_contacts/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Update_External_Role_Contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/update_external_role_contacts/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Update_External_Role_Contacts/</guid>
       <description>Update External Role Contacts When a user enters a request that uses a template with an External Data role, the contact information for that role must be entered on the Request (External Role Contacts) page.
 The Request (External Role Contacts) page lists information about each contact, including the email address, and can be updated to reflect the external contacts for the request.
 To update External Role contacts for a request:</description>
@@ -1415,10 +1415,10 @@ To update External Role contacts for a request:</description>
     
     <item>
       <title>Updates to Finishing a Data Role for Templates with the Security View</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/updates_to_finishing_a_data_role_for_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Updates_to_Finishing_a_Data_Role_for_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/updates_to_finishing_a_data_role_for_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Updates_to_Finishing_a_Data_Role_for_Templates/</guid>
       <description>Updates to Finishing a Data Role for Templates with the Security View The Data role is finished differently if:
  The template uses Org Units and
  Users have been assigned to different Org Unit Values and
@@ -1428,39 +1428,39 @@ To update External Role contacts for a request:</description>
     
     <item>
       <title>Use Comparison Appovals</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_comparison_approvals/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_Comparison_Approvals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_comparison_approvals/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_Comparison_Approvals/</guid>
       <description>Use Comparison Appovals The Comparison Approval functionality allows the Review role user to see the current SAP field value as well as the value the field will be changed to as a result of the data entry process. The Review role can then easily compare the current state and the future state of records before any changes take place. The Review role has the ability to reject any changes and keep the original values.</description>
     </item>
     
     <item>
       <title>Use External Data Roles in Request Processing</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_external_data_roles_in_request_processing/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_External_Data_Roles_in_Request_Processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_external_data_roles_in_request_processing/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_External_Data_Roles_in_Request_Processing/</guid>
       <description>Use External Data Roles in Request Processing In addition to the Data, Review, and Post roles, dspCompose™ has a role type called External Data.
 A user assigned to an External Data role receives a spreadsheet with columns for adding (or in the case of validation failures, updating) request data.  Using an External Data Role can streamline request data entry: the user does not have to log in to dspCompose™,  but instead works in a spreadsheet that contains only the required columns.</description>
     </item>
     
     <item>
       <title>Use External Request Scenarios</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_external_request_scenarios/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_External_Request_Scenarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_external_request_scenarios/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_External_Request_Scenarios/</guid>
       <description>Use External Request Scenarios An external request scenario tells dspCompose™ to create a request when an external data email account configured in dspCompose™ receives an email sent from a valid email account.
 While an external request scenario can be configured to simply create a request when an email is received, templates may also be configured to use an external request scenario that creates an Excel-initiated request. In this case, dspCompose™ accepts an Excel file attached to the email.</description>
     </item>
     
     <item>
       <title>Use Org Units</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_org_units/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_Org_Units/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_org_units/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_Org_Units/</guid>
       <description>Use Org Units Organizational Units (Org Units) are used to set request data security by restricting data a user can access. They are based on a type of data that defines access within an organization, such as plant, company code, sales organization, division or department (though Org Units can be used to represent any data type).
 Org Units are:
  Set up in dspCompose™
@@ -1470,29 +1470,29 @@ Org Units are:
     
     <item>
       <title>Use a Custom WebApp with dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_a_custom_webapp_with_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_a_Custom_WebApp_with_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_a_custom_webapp_with_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_a_Custom_WebApp_with_dspCompose/</guid>
       <description>Use a Custom WebApp with dspCompose™ When dspCompose™ is installed, the WebApp dspCompose_Data and its database are also installed. dspCompose_Data is the configured WebApp and database where client customizations and data validations should be created that will not be overwritten during an upgrade. In addition to dspCompose_Data, other custom WebApps and companion databases may be created and used with dspCompose™.
 NOTE: The number of custom WebApps that may be created is controlled by client licensing.</description>
     </item>
     
     <item>
       <title>Use dspCompose™ with Integrate Looped Templates</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_dspcompose_with_integrate_looped_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_dspCompose_with_Integrate_Looped_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_dspcompose_with_integrate_looped_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_dspCompose_with_Integrate_Looped_Templates/</guid>
       <description>Use dspCompose™ with Integrate Looped Templates dspCompose™ is designed to automate the creation and posting of mass changes to a single looped Integrate template. Posting mass changes to SAP that require looping requires steps to be taken outside of the traditional dspCompose™ process flow. While the creation of dspCompose™ templates and requests to post looped Integrate templates is not a certified component of dspCompose™ and is not supported, the functionality can be incorporated using the following steps:</description>
     </item>
     
     <item>
       <title>Use the Comparison Approval Page</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_the_comparison_approval_page/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_the_Comparison_Approval_Page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_the_comparison_approval_page/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_the_Comparison_Approval_Page/</guid>
       <description>Use the Comparison Approval Page Before performing this task:
  Configure the Comparison Approval Setting Register the CompareIns Stored Procedure Create a Request for Comparison Approval  The Comparison Approval functionality allows the Review role user to see both the current SAP field value as well as the value the field will be changed to during the review process.
 To view the comparison:
@@ -1501,59 +1501,59 @@ To view the comparison:
     
     <item>
       <title>Use the Custom Pages in dspCompose™ for the BAPI Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/use_the_custom_pages_in_dspcompose_for_the_bapi_process/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Use_the_Custom_Pages_in_dspCompose_for_the_BAPI_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/use_the_custom_pages_in_dspcompose_for_the_bapi_process/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Use_the_Custom_Pages_in_dspCompose_for_the_BAPI_Process/</guid>
       <description>Use the Custom Pages in dspCompose™ for the BAPI Process Before performing these steps:
  Post Data Using A BAPI Create all tt Tables and Views for the BAPI Process Create rt Tables From the tt Tables and Create Views for the BAPI Process Create Custom Pages and Views for the BAPI Process  Once all the custom pages and their views are created, use them in dspCompose™ for the BAPI process.</description>
     </item>
     
     <item>
       <title>Validate a Role</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/validate_a_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/Validate_a_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/validate_a_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/Validate_a_Role/</guid>
       <description>Validate a Role NOTE: The Validate button, which is used to validate a role (i.e., run a series of registered validation rules) will only be visible for the Data and Review roles on the Request (Roles) page when role validations have been registered to the template or when column properties have been added to the Data Entry page for the template, thereby triggering the use of the validation rules. Refer to Add Validations to Roles and Enable Role Validations for more information.</description>
     </item>
     
     <item>
       <title>View Dashboards in dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/view_dashboards_in_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/View_Dashboards_in_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/view_dashboards_in_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/View_Dashboards_in_dspCompose/</guid>
       <description>View Dashboards in dspCompose™ The charts on dashboards in dspCompose™ display summary information about templates and requests. Charts display data about request summary status, status of requests by the logged in user, the number of templates per team, the number of request records per team, and the average number of days requests are active for a given week.
 NOTE: With the exception of the Status User Dashboard which displays data for the current user, the data displayed on dspCompose™ dashboards is for all teams, templates and requests.</description>
     </item>
     
     <item>
       <title>View Data from the Finish Download Process</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/view_data_from_the_finish_download_process/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/View_Data_from_the_Finish_Download_Process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/view_data_from_the_finish_download_process/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/View_Data_from_the_Finish_Download_Process/</guid>
       <description>View Data from the Finish Download Process The Request Role Finish Download page displays every action that takes place during the Post role’s Final Finish download of data from a source to a target.
 To access the page, click Vertical View for a request on the Request page. The Finish Download Status icon is available on the General tab once the Finish button for the Post role has been clicked.</description>
     </item>
     
     <item>
       <title>View Import Data Sources</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/view_import_data_sources/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/View_Import_Data_Sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/view_import_data_sources/</guid>
-      <description>View Import Data Sources Use this page to [Add a Data Source that Stores Views for Import](Add_a_Data_Source_that_Stores_Views_for_Import.htm).  To access this page:
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/View_Import_Data_Sources/</guid>
+      <description>View Import Data Sources Use this page to [Add a Data Source that Stores Views for Import](Add_a_Data_Source_that_Stores_Views_for_Import).  To access this page:
  Select dspCompose &amp;gt; Team in the Navigation pane. Click Templates for a team. ClickRoles for a template. Click Vertical View for the Data role. Click the Import Settings tab. Click the View Import Allowed check box to enable it. Click the View Import Data Sources icon.      Field</description>
     </item>
     
     <item>
       <title>View Your Active Requests Details</title>
-      <link>https://heathercloward.github.io/dspcompose/use_cases/view_your_active_requests_details/</link>
+      <link>https://heathercloward.github.io/dspCompose/Use_Cases/View_Your_Active_Requests_Details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/use_cases/view_your_active_requests_details/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Use_Cases/View_Your_Active_Requests_Details/</guid>
       <description>View Your Active Requests Details A user can access the black dspCompose Requests tab on the Quick Panel to navigate among active requests for which the logged in user has access. This tab is available from any page in any component in the DSP®, as the Quick Panel is always visible.
 NOTE: The dspCompose Requests tab displays if the user has security configured to access dspCompose™. Refer to Set Up Security for dspComose™ for more information.</description>
     </item>

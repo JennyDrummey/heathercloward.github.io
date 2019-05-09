@@ -1,8 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Process Adapter Properties :: Syniti Documentation</title>
-  <meta charset="UTF-8">
+  
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="shortcut icon" href="/images/Syniti_S_Icon.png" type="image/x-icon" />
 <link href="/css/uikit.css" rel="stylesheet">
@@ -10,7 +13,8 @@
 <script src="/js/app.js"></script>
 <script src="/js/uikit.min.js"></script>
 <script src="/js/uikit-icons.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="/js/feedback.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js">
 </script>
 <script src="/js/modal.js"></script>
@@ -18,7 +22,8 @@
 </head>
 <body>
   
-  <div>
+  
+<div>
   <div uk-sticky="media: 960" class="uk-navbar-container uk-sticky uk-active uk-sticky-below uk-sticky-fixed" style="position: fixed; top: 0px;">
     <div class="uk-container uk-container-expand uk-padding-remove">
       <nav id="navHeader" uk-navbar>
@@ -56,46 +61,47 @@
                   <li><a href="#">Migration</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="/dspmigrate/">dspMigrate</a></li>
-                        <li><a href="/console/">Console</a></li>
-                        <li><a href="/design/">Target Design</a></li>
-                        <li><a href="/construct/">Construct</a></li>
-                        <li><a href="/map/">Map</a></li>
-                        <li><a href="/transform/">Transform</a></li>
-                        <li><a href="/sql-autogen/">SQL AutoGen</a></li>
-                        <li><a href="/data-services-autogen/">Data Services AutoGen</a></li>
+                        <li class="uk-active"><a href="/dspMigrate/">dspMigrate</a></li>
+                        <li><a href="/Console/">Console</a></li>
+                        <li><a href="/Design/">Target Design</a></li>
+                        <li><a href="/Construct/">Construct</a></li>
+                        <li><a href="/Map/">Map</a></li>
+                        <li><a href="/Transform/">Transform</a></li>
+                        <li><a href="/SQL_AutoGen/">SQL AutoGen</a></li>
+                        <li><a href="/Data_Services_AutoGen/">Data Services AutoGen</a></li>
                       </ul>
                     </div>
                   </li>
                   <li><a href="#">Data Quality</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspcompose/">dspCompose</a></li>
-                          <li><a href="/dspmonitor/">dspMonitor</a></li>
+                          <li class="uk-active"><a href="/dspCompose/">dspCompose</a></li>
+                          <li><a href="/dspMonitor/">dspMonitor</a></li>
+                          <li><a href="/ISA/">Information Steward Accelerator (ISA)</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Master Data Management</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="/dspconduct/">dspConduct</a></li>
+                          <li class="uk-active"><a href="/dspConduct/">dspConduct</a></li>
                         </ul>
                       </div>
                   </li>
                   <li><a href="#">Platform</a>
                     <div class="uk-navbar-dropdown" uk-dropdown="pos: left">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li><a href="/agent/">Agent Interface</a></li>
-                          <li><a href="/collect/">Collect</a></li>
-                          <li><a href="/integrate/">Integrate</a></li>
-                          <li><a href="/webapp-dev/">DSP App Development</a></li>
-                          <li><a href="/assemble/">Assemble</a></li>
-                          <li><a href="/common/">Common</a></li>
-                          <li><a href="/system-admin/">System Administration</a></li>
-                          <li><a href="/iguc/">IG Universal Connect</a></li>
-                          <li><a href="/automate/">Automate</a></li>
-                          <li><a href="/dsptrack/">dspTrack</a></li>
-                          <li><a href="/dsp-add-ons/">DSP Add Ons</a></li>
+                          <li><a href="/Agent_Int/">Agent Interface</a></li>
+                          <li><a href="/Collect/">Collect</a></li>
+                          <li><a href="/Integrate/">Integrate</a></li>
+                          <li><a href="/WebApp_Dev/">DSP App Development</a></li>
+                          <li><a href="/Assemble/">Assemble</a></li>
+                          <li><a href="/Common/">Common</a></li>
+                          <li><a href="/Sys_Admin/">System Administration</a></li>
+                          <li><a href="/IGUC/">IG Universal Connect</a></li>
+                          <li><a href="/Automate/">Automate</a></li>
+                          <li><a href="/dspTrack/">dspTrack</a></li>
+                          <li><a href="/DSP_Add_Ons/">DSP Add Ons</a></li>
                         </ul>
                       </div>
                   </li>
@@ -106,8 +112,8 @@
               <a class="uk-text-capitalize" href="#">Tips</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="/bulk-execution/">Bulk Execution</a></li>
-                  <li><a href="/excel-integration/">Excel Integration</a></li>
+                  <li><a href="/Bulk_Exec/">Bulk Execution</a></li>
+                  <li><a href="/Excel_Int/">Excel Integration</a></li>
                   <li><a href="#">Item</a></li>
                 </ul>
               </div>
@@ -120,31 +126,34 @@
   </div>
 
   
+
 <div id="mainImg" class="uk-flex uk-flex-center uk-flex-wrap">
   <div id="offcanvas-slide2" class="uk-visible@m uk-margin-top uk-card uk-margin-bottom uk-width-1-6 uk-padding-small uk-card-default" uk-canvas>
 
 
 
+
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/common/" class="active">Common Overview</a>
+        <a href="/Common/" class="active">Common Overview</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
+
 
 
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/common/config/" class="">Configuration</a>
+        <a href="/Common/Config/" class="">Configuration</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/common/config/set_up_security_for_common/" class="">Set Up Security for Common</a></li>
+                <a href="/Common/Config/Set_Up_Security_for_Common/" class="">Set Up Security for Common</a></li>
         
             <li >
-                <a href="/common/config/setup_and_configuration_for_common/" class="">Setup and Configuration for Common</a></li>
+                <a href="/Common/Config/Setup_and_Configuration_for_Common/" class="">Setup and Configuration for Common</a></li>
         
     </ul>
     </li>
@@ -154,331 +163,331 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent uk-open">
-        <a href="/common/page_desc/" class="active">Pages</a>
+        <a href="/Common/Page_Desc/" class="active">Pages</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/common/page_desc/algorithms/" class="">Algorithms</a></li>
+                <a href="/Common/Page_Desc/Algorithms/" class="">Algorithms</a></li>
         
             <li >
-                <a href="/common/page_desc/analyze/" class="">Analyze</a></li>
+                <a href="/Common/Page_Desc/Analyze/" class="">Analyze</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_engine_action_h/" class="">Automation Engine Action H</a></li>
+                <a href="/Common/Page_Desc/Automation_Engine_Action_H/" class="">Automation Engine Action H</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_engine_history/" class="">Automation Engine History</a></li>
+                <a href="/Common/Page_Desc/Automation_Engine_History/" class="">Automation Engine History</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_engine_parameters/" class="">Automation Engine Parameters</a></li>
+                <a href="/Common/Page_Desc/Automation_Engine_Parameters/" class="">Automation Engine Parameters</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_instruction_task_definition/" class="">Automation Instruction Task Definition</a></li>
+                <a href="/Common/Page_Desc/Automation_Instruction_Task_Definition/" class="">Automation Instruction Task Definition</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_instruction_task_group/" class="">Automation Instruction Task Group</a></li>
+                <a href="/Common/Page_Desc/Automation_Instruction_Task_Group/" class="">Automation Instruction Task Group</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_instruction_task_group_definition/" class="">Automation Instruction Task Group Definition</a></li>
+                <a href="/Common/Page_Desc/Automation_Instruction_Task_Group_Definition/" class="">Automation Instruction Task Group Definition</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_instruction_task_h/" class="">Automation Instruction Task H</a></li>
+                <a href="/Common/Page_Desc/Automation_Instruction_Task_H/" class="">Automation Instruction Task H</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_instruction_sql/" class="">Automation Instruction – SQL</a></li>
+                <a href="/Common/Page_Desc/Automation_Instruction_SQL/" class="">Automation Instruction – SQL</a></li>
         
             <li >
-                <a href="/common/page_desc/automation_instructions/" class="">Automation Instructions</a></li>
+                <a href="/Common/Page_Desc/Automation_Instructions/" class="">Automation Instructions</a></li>
         
             <li >
-                <a href="/common/page_desc/build_view_h/" class="">Build View H</a></li>
+                <a href="/Common/Page_Desc/Build_View_H/" class="">Build View H</a></li>
         
             <li >
-                <a href="/common/page_desc/calendar_exception/" class="">Calendar Exception</a></li>
+                <a href="/Common/Page_Desc/Calendar_Exception/" class="">Calendar Exception</a></li>
         
             <li >
-                <a href="/common/page_desc/calendar_exception_work_hours/" class="">Calendar Exception Work Hours</a></li>
+                <a href="/Common/Page_Desc/Calendar_Exception_Work_Hours/" class="">Calendar Exception Work Hours</a></li>
         
             <li >
-                <a href="/common/page_desc/calendar/" class="">Calendar H</a></li>
+                <a href="/Common/Page_Desc/Calendar/" class="">Calendar H</a></li>
         
             <li >
-                <a href="/common/page_desc/calendar_user/" class="">Calendar User</a></li>
+                <a href="/Common/Page_Desc/Calendar_User/" class="">Calendar User</a></li>
         
             <li >
-                <a href="/common/page_desc/candidates/" class="">Candidates</a></li>
+                <a href="/Common/Page_Desc/Candidates/" class="">Candidates</a></li>
         
             <li >
-                <a href="/common/page_desc/client_column_name_variant/" class="">Client Column Name Variant</a></li>
+                <a href="/Common/Page_Desc/Client_Column_Name_Variant/" class="">Client Column Name Variant</a></li>
         
             <li >
-                <a href="/common/page_desc/copy_calendar/" class="">Copy Calendar</a></li>
+                <a href="/Common/Page_Desc/Copy_Calendar/" class="">Copy Calendar</a></li>
         
             <li >
-                <a href="/common/page_desc/copy_automation_instructions/" class="">Copy: Automation Instructions</a></li>
+                <a href="/Common/Page_Desc/Copy_Automation_Instructions/" class="">Copy: Automation Instructions</a></li>
         
             <li >
-                <a href="/common/page_desc/dbmoto_function_setup/" class="">DBMoto Function Setup</a></li>
+                <a href="/Common/Page_Desc/DBMoto_Function_Setup/" class="">DBMoto Function Setup</a></li>
         
             <li >
-                <a href="/common/page_desc/data-classification/" class="">Data Classification</a></li>
+                <a href="/Common/Page_Desc/Data-Classification/" class="">Data Classification</a></li>
         
             <li >
-                <a href="/common/page_desc/data_services_profiling_results/" class="">Data Services Profiling Results</a></li>
+                <a href="/Common/Page_Desc/Data_Services_Profiling_Results/" class="">Data Services Profiling Results</a></li>
         
             <li >
-                <a href="/common/page_desc/data_services_profiling_results_table_columns/" class="">Data Services Profiling Results Table Columns</a></li>
+                <a href="/Common/Page_Desc/Data_Services_Profiling_Results_Table_Columns/" class="">Data Services Profiling Results Table Columns</a></li>
         
             <li >
-                <a href="/common/page_desc/data_source_objects/" class="">Data Source Objects</a></li>
+                <a href="/Common/Page_Desc/Data_Source_Objects/" class="">Data Source Objects</a></li>
         
             <li >
-                <a href="/common/page_desc/data_source_registry_h/" class="">Data Source Registry H</a></li>
+                <a href="/Common/Page_Desc/Data_Source_Registry_H/" class="">Data Source Registry H</a></li>
         
             <li >
-                <a href="/common/page_desc/data_source_registry_user_credentials_h/" class="">Data Source Registry User Credentials H</a></li>
+                <a href="/Common/Page_Desc/Data_Source_Registry_User_Credentials_H/" class="">Data Source Registry User Credentials H</a></li>
         
             <li >
-                <a href="/common/page_desc/data_sources_tables/" class="">Data Sources Tables</a></li>
+                <a href="/Common/Page_Desc/Data_Sources_Tables/" class="">Data Sources Tables</a></li>
         
             <li >
-                <a href="/common/page_desc/database_function_setup/" class="">Database Function Setup</a></li>
+                <a href="/Common/Page_Desc/Database_Function_Setup/" class="">Database Function Setup</a></li>
         
             <li >
-                <a href="/common/page_desc/debug_log_h/" class="">Debug Log H</a></li>
+                <a href="/Common/Page_Desc/Debug_Log_H/" class="">Debug Log H</a></li>
         
             <li >
-                <a href="/common/page_desc/debug_logs/" class="">Debug Logs</a></li>
+                <a href="/Common/Page_Desc/Debug_Logs/" class="">Debug Logs</a></li>
         
             <li >
-                <a href="/common/page_desc/definitions/" class="">Definitions</a></li>
+                <a href="/Common/Page_Desc/Definitions/" class="">Definitions</a></li>
         
             <li >
-                <a href="/common/page_desc/duplicates/" class="">Duplicates</a></li>
+                <a href="/Common/Page_Desc/Duplicates/" class="">Duplicates</a></li>
         
             <li >
-                <a href="/common/page_desc/field_values_h/" class="">Field Values H</a></li>
+                <a href="/Common/Page_Desc/Field_Values_H/" class="">Field Values H</a></li>
         
             <li >
-                <a href="/common/page_desc/history_of_changes/" class="">History Of Changes</a></li>
+                <a href="/Common/Page_Desc/History_Of_Changes/" class="">History Of Changes</a></li>
         
             <li >
-                <a href="/common/page_desc/information-type/" class="">Information Type</a></li>
+                <a href="/Common/Page_Desc/Information-Type/" class="">Information Type</a></li>
         
             <li >
-                <a href="/common/page_desc/keys/" class="">Keys</a></li>
+                <a href="/Common/Page_Desc/Keys/" class="">Keys</a></li>
         
             <li >
-                <a href="/common/page_desc/language_column_name_variant/" class="">Language Column Name Variant</a></li>
+                <a href="/Common/Page_Desc/Language_Column_Name_Variant/" class="">Language Column Name Variant</a></li>
         
             <li >
-                <a href="/common/page_desc/mapping_set/" class="">Mapping Set</a></li>
+                <a href="/Common/Page_Desc/Mapping_Set/" class="">Mapping Set</a></li>
         
             <li >
-                <a href="/common/page_desc/monitor_hcommon/" class="">Monitor H</a></li>
+                <a href="/Common/Page_Desc/Monitor_HCommon/" class="">Monitor H</a></li>
         
             <li >
-                <a href="/common/page_desc/nonduplicates/" class="">NonDuplicates</a></li>
+                <a href="/Common/Page_Desc/NonDuplicates/" class="">NonDuplicates</a></li>
         
             <li >
-                <a href="/common/page_desc/object_columns_h/" class="">Object Columns H</a></li>
+                <a href="/Common/Page_Desc/Object_Columns_H/" class="">Object Columns H</a></li>
         
             <li >
-                <a href="/common/page_desc/object_history_h/" class="">Object History H</a></li>
+                <a href="/Common/Page_Desc/Object_History_H/" class="">Object History H</a></li>
         
             <li >
-                <a href="/common/page_desc/objects-changed-by-week-users/" class="">Objects Changed By Week (Users)</a></li>
+                <a href="/Common/Page_Desc/Objects-Changed-By-Week-Users/" class="">Objects Changed By Week (Users)</a></li>
         
             <li >
-                <a href="/common/page_desc/objects_h_common/" class="">Objects H</a></li>
+                <a href="/Common/Page_Desc/Objects_H_Common/" class="">Objects H</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_metrics/" class="">Parameters - Metrics</a></li>
+                <a href="/Common/Page_Desc/Parameters_Metrics/" class="">Parameters - Metrics</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_user_management/" class="">Parameters - User Management</a></li>
+                <a href="/Common/Page_Desc/Parameters_User_Management/" class="">Parameters - User Management</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_collect/" class="">Parameters – Collect</a></li>
+                <a href="/Common/Page_Desc/Parameters_Collect/" class="">Parameters – Collect</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_duplicates/" class="">Parameters – Duplicates</a></li>
+                <a href="/Common/Page_Desc/Parameters_Duplicates/" class="">Parameters – Duplicates</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_integrate/" class="">Parameters – Integrate</a></li>
+                <a href="/Common/Page_Desc/Parameters_Integrate/" class="">Parameters – Integrate</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_profile/" class="">Parameters – Profile</a></li>
+                <a href="/Common/Page_Desc/Parameters_Profile/" class="">Parameters – Profile</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_secure/" class="">Parameters – Secure</a></li>
+                <a href="/Common/Page_Desc/Parameters_Secure/" class="">Parameters – Secure</a></li>
         
             <li >
-                <a href="/common/page_desc/parameters_trace/" class="">Parameters – Trace</a></li>
+                <a href="/Common/Page_Desc/Parameters_Trace/" class="">Parameters – Trace</a></li>
         
             <li >
-                <a href="/common/page_desc/post_action_rule_table_column/" class="">Post Action Rule Table Column</a></li>
+                <a href="/Common/Page_Desc/Post_Action_Rule_Table_Column/" class="">Post Action Rule Table Column</a></li>
         
             <li >
-                <a href="/common/page_desc/post_action_rule_table_h/" class="">Post Action Rule Table H</a></li>
+                <a href="/Common/Page_Desc/Post_Action_Rule_Table_H/" class="">Post Action Rule Table H</a></li>
         
             <li >
-                <a href="/common/page_desc/process_adapter/" class="">Process Adapter</a></li>
+                <a href="/Common/Page_Desc/Process_Adapter/" class="">Process Adapter</a></li>
         
             <li >
-                <a href="/common/page_desc/process_adapter_properties/" class="uk-active">Process Adapter Properties</a></li>
+                <a href="/Common/Page_Desc/Process_Adapter_Properties/" class="uk-active">Process Adapter Properties</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_filters/" class="">Report Engine - Filters</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Filters/" class="">Report Engine - Filters</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_job_user_filters/" class="">Report Engine - Job User Filters</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Job_User_Filters/" class="">Report Engine - Job User Filters</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_report_source_h/" class="">Report Engine - Report Source</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Report_Source_H/" class="">Report Engine - Report Source</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_core_configuration/" class="">Report Engine Core Configuration</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Core_Configuration/" class="">Report Engine Core Configuration</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_formats_h/" class="">Report Engine Formats</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Formats_H/" class="">Report Engine Formats</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_formatting_styles_h/" class="">Report Engine Formatting Styles</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Formatting_Styles_H/" class="">Report Engine Formatting Styles</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_job_datastores/" class="">Report Engine Job DataStores</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Job_DataStores/" class="">Report Engine Job DataStores</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_mongodb_configuration_h/" class="">Report Engine MongoDB Configuration</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_MongoDB_Configuration_H/" class="">Report Engine MongoDB Configuration</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_notifications_h/" class="">Report Engine Notifications</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Notifications_H/" class="">Report Engine Notifications</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_headerfooters/" class="">Report Engine – Header/Footers</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_HeaderFooters/" class="">Report Engine – Header/Footers</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_job_filters/" class="">Report Engine – Job Filters</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Job_Filters/" class="">Report Engine – Job Filters</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_job_users/" class="">Report Engine – Job Users</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Job_Users/" class="">Report Engine – Job Users</a></li>
         
             <li >
-                <a href="/common/page_desc/report_engine_jobs_h/" class="">Report Engine – Jobs H</a></li>
+                <a href="/Common/Page_Desc/Report_Engine_Jobs_H/" class="">Report Engine – Jobs H</a></li>
         
             <li >
-                <a href="/common/page_desc/reports/" class="">Reports</a></li>
+                <a href="/Common/Page_Desc/Reports/" class="">Reports</a></li>
         
             <li >
-                <a href="/common/page_desc/results/" class="">Results</a></li>
+                <a href="/Common/Page_Desc/Results/" class="">Results</a></li>
         
             <li >
-                <a href="/common/page_desc/sap_rfc/" class="">SAP RFC</a></li>
+                <a href="/Common/Page_Desc/SAP_RFC/" class="">SAP RFC</a></li>
         
             <li >
-                <a href="/common/page_desc/sql_objects/" class="">SQL Objects</a></li>
+                <a href="/Common/Page_Desc/SQL_Objects/" class="">SQL Objects</a></li>
         
             <li >
-                <a href="/common/page_desc/sql_objects_with_history/" class="">SQL Objects (With History)</a></li>
+                <a href="/Common/Page_Desc/SQL_Objects_With_History/" class="">SQL Objects (With History)</a></li>
         
             <li >
-                <a href="/common/page_desc/schedule_configure/" class="">Schedule – Configure</a></li>
+                <a href="/Common/Page_Desc/Schedule_Configure/" class="">Schedule – Configure</a></li>
         
             <li >
-                <a href="/common/page_desc/schedules_h/" class="">Schedules H</a></li>
+                <a href="/Common/Page_Desc/Schedules_H/" class="">Schedules H</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_group_table_rule_fields/" class="">System Types Group Table Rule Fields</a></li>
+                <a href="/Common/Page_Desc/System_Types_Group_Table_Rule_Fields/" class="">System Types Group Table Rule Fields</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_group_table_rules/" class="">System Types Group Table Rules</a></li>
+                <a href="/Common/Page_Desc/System_Types_Group_Table_Rules/" class="">System Types Group Table Rules</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_group_tables/" class="">System Types Group Tables</a></li>
+                <a href="/Common/Page_Desc/System_Types_Group_Tables/" class="">System Types Group Tables</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_groups/" class="">System Types Groups</a></li>
+                <a href="/Common/Page_Desc/System_Types_Groups/" class="">System Types Groups</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_h/" class="">System Types H</a></li>
+                <a href="/Common/Page_Desc/System_Types_H/" class="">System Types H</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_import/" class="">System Types Import</a></li>
+                <a href="/Common/Page_Desc/System_Types_Import/" class="">System Types Import</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_index_fields/" class="">System Types Index Fields</a></li>
+                <a href="/Common/Page_Desc/System_Types_Index_Fields/" class="">System Types Index Fields</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_join_field/" class="">System Types Join Field</a></li>
+                <a href="/Common/Page_Desc/System_Types_Join_Field/" class="">System Types Join Field</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_joins/" class="">System Types Joins</a></li>
+                <a href="/Common/Page_Desc/System_Types_Joins/" class="">System Types Joins</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_mappings/" class="">System Types Mappings</a></li>
+                <a href="/Common/Page_Desc/System_Types_Mappings/" class="">System Types Mappings</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_model_build_views/" class="">System Types Model Build Views</a></li>
+                <a href="/Common/Page_Desc/System_Types_Model_Build_Views/" class="">System Types Model Build Views</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_model_group_tables/" class="">System Types Model Group Tables</a></li>
+                <a href="/Common/Page_Desc/System_Types_Model_Group_Tables/" class="">System Types Model Group Tables</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_model_groups/" class="">System Types Model Groups</a></li>
+                <a href="/Common/Page_Desc/System_Types_Model_Groups/" class="">System Types Model Groups</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_model_required_fields/" class="">System Types Model Required Fields</a></li>
+                <a href="/Common/Page_Desc/System_Types_Model_Required_Fields/" class="">System Types Model Required Fields</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_model_tables/" class="">System Types Model Tables</a></li>
+                <a href="/Common/Page_Desc/System_Types_Model_Tables/" class="">System Types Model Tables</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_models_h/" class="">System Types Models H</a></li>
+                <a href="/Common/Page_Desc/System_Types_Models_H/" class="">System Types Models H</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_table_fields_h/" class="">System Types Table Fields H</a></li>
+                <a href="/Common/Page_Desc/System_Types_Table_Fields_H/" class="">System Types Table Fields H</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_table_indices/" class="">System Types Table Indices</a></li>
+                <a href="/Common/Page_Desc/System_Types_Table_Indices/" class="">System Types Table Indices</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_table_lookup/" class="">System Types Table Lookup</a></li>
+                <a href="/Common/Page_Desc/System_Types_Table_Lookup/" class="">System Types Table Lookup</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_table_statics/" class="">System Types Table Statics</a></li>
+                <a href="/Common/Page_Desc/System_Types_Table_Statics/" class="">System Types Table Statics</a></li>
         
             <li >
-                <a href="/common/page_desc/system_types_tables_h/" class="">System Types Tables H</a></li>
+                <a href="/Common/Page_Desc/System_Types_Tables_H/" class="">System Types Tables H</a></li>
         
             <li >
-                <a href="/common/page_desc/table_results_h/" class="">Table (Results) H</a></li>
+                <a href="/Common/Page_Desc/Table_Results_H/" class="">Table (Results) H</a></li>
         
             <li >
-                <a href="/common/page_desc/table_field_results_h/" class="">Table Field (Results) H</a></li>
+                <a href="/Common/Page_Desc/Table_Field_Results_H/" class="">Table Field (Results) H</a></li>
         
             <li >
-                <a href="/common/page_desc/toolkit_excel_h/" class="">Toolkit: Excel H</a></li>
+                <a href="/Common/Page_Desc/Toolkit_Excel_H/" class="">Toolkit: Excel H</a></li>
         
             <li >
-                <a href="/common/page_desc/toolkit_file_folder_operations_h/" class="">Toolkit: File/Folder Operations H</a></li>
+                <a href="/Common/Page_Desc/Toolkit_File_Folder_Operations_H/" class="">Toolkit: File/Folder Operations H</a></li>
         
             <li >
-                <a href="/common/page_desc/user_credentials_h/" class="">User Credentials H</a></li>
+                <a href="/Common/Page_Desc/User_Credentials_H/" class="">User Credentials H</a></li>
         
             <li >
-                <a href="/common/page_desc/user_management_h/" class="">User Management H</a></li>
+                <a href="/Common/Page_Desc/User_Management_H/" class="">User Management H</a></li>
         
             <li >
-                <a href="/common/page_desc/user_role/" class="">User Role</a></li>
+                <a href="/Common/Page_Desc/User_Role/" class="">User Role</a></li>
         
             <li >
-                <a href="/common/page_desc/work_day/" class="">Work Day</a></li>
+                <a href="/Common/Page_Desc/Work_Day/" class="">Work Day</a></li>
         
             <li >
-                <a href="/common/page_desc/work_hours/" class="">Work Hours</a></li>
+                <a href="/Common/Page_Desc/Work_Hours/" class="">Work Hours</a></li>
         
     </ul>
     </li>
@@ -488,394 +497,394 @@
 
 <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
     <li class="uk-parent ">
-        <a href="/common/use_cases/" class="">Procedures</a>
+        <a href="/Common/Use_Cases/" class="">Procedures</a>
     <ul class="uk-nav-sub uk-nav-parent-icon" uk-nav> 
         
         
         
             <li >
-                <a href="/common/use_cases/activate_and_deactivate_data_source/" class="">Activate and Deactivate Data Sources</a></li>
+                <a href="/Common/Use_Cases/Activate_and_Deactivate_Data_Source/" class="">Activate and Deactivate Data Sources</a></li>
         
             <li >
-                <a href="/common/use_cases/activate_and_deactivate_tables/" class="">Activate and Deactivate Tables</a></li>
+                <a href="/Common/Use_Cases/Activate_and_Deactivate_Tables/" class="">Activate and Deactivate Tables</a></li>
         
             <li >
-                <a href="/common/use_cases/activate_deactivate_tbls_system_type_group/" class="">Activate or Deactivate Tables in a System Type Group</a></li>
+                <a href="/Common/Use_Cases/Activate_Deactivate_Tbls_System_Type_Group/" class="">Activate or Deactivate Tables in a System Type Group</a></li>
         
             <li >
-                <a href="/common/use_cases/activedeactivetblssystmtypemodelgrp/" class="">Activate or Deactivate Tables in a System Type Model Group</a></li>
+                <a href="/Common/Use_Cases/ActiveDeactiveTblsSystmTypeModelGrp/" class="">Activate or Deactivate Tables in a System Type Model Group</a></li>
         
             <li >
-                <a href="/common/use_cases/add-custom-data-classifications-and-information-types/" class="">Add Custom Data Classifications and Information Types</a></li>
+                <a href="/Common/Use_Cases/Add-Custom-Data-Classifications-and-Information-Types/" class="">Add Custom Data Classifications and Information Types</a></li>
         
             <li >
-                <a href="/common/use_cases/add_dbmoto_functions/" class="">Add DBMoto Functions</a></li>
+                <a href="/Common/Use_Cases/Add_DBMoto_Functions/" class="">Add DBMoto Functions</a></li>
         
             <li >
-                <a href="/common/use_cases/add_default_user_credentials_to_a_connection/" class="">Add Default User Credentials to a Connection</a></li>
+                <a href="/Common/Use_Cases/Add_Default_User_Credentials_to_a_Connection/" class="">Add Default User Credentials to a Connection</a></li>
         
             <li >
-                <a href="/common/use_cases/add_fields_to_tables/" class="">Add Fields to Tables</a></li>
+                <a href="/Common/Use_Cases/Add_Fields_to_Tables/" class="">Add Fields to Tables</a></li>
         
             <li >
-                <a href="/common/use_cases/add_indices/" class="">Add Indices</a></li>
+                <a href="/Common/Use_Cases/Add_Indices/" class="">Add Indices</a></li>
         
             <li >
-                <a href="/common/use_cases/add_keys/" class="">Add Keys</a></li>
+                <a href="/Common/Use_Cases/Add_Keys/" class="">Add Keys</a></li>
         
             <li >
-                <a href="/common/use_cases/add_mappings/" class="">Add Mappings</a></li>
+                <a href="/Common/Use_Cases/Add_Mappings/" class="">Add Mappings</a></li>
         
             <li >
-                <a href="/common/use_cases/add_post_action_table_rules/" class="">Add Post Action Table Rules</a></li>
+                <a href="/Common/Use_Cases/Add_Post_Action_Table_Rules/" class="">Add Post Action Table Rules</a></li>
         
             <li >
-                <a href="/common/use_cases/add_system_tables_and_fields/" class="">Add System Tables and Fields</a></li>
+                <a href="/Common/Use_Cases/Add_System_Tables_and_Fields/" class="">Add System Tables and Fields</a></li>
         
             <li >
-                <a href="/common/use_cases/add_system_types/" class="">Add System Types</a></li>
+                <a href="/Common/Use_Cases/Add_System_Types/" class="">Add System Types</a></li>
         
             <li >
-                <a href="/common/use_cases/add_table_join_relationships/" class="">Add Table Join Relationships</a></li>
+                <a href="/Common/Use_Cases/Add_Table_Join_Relationships/" class="">Add Table Join Relationships</a></li>
         
             <li >
-                <a href="/common/use_cases/add_user_credentials_to_an_sap_connection_for_a_specific_use/" class="">Add User Credentials to an SAP Connection for a Specific User</a></li>
+                <a href="/Common/Use_Cases/Add_User_Credentials_to_an_SAP_Connection_for_a_Specific_Use/" class="">Add User Credentials to an SAP Connection for a Specific User</a></li>
         
             <li >
-                <a href="/common/use_cases/add_a_calendar/" class="">Add a Calendar</a></li>
+                <a href="/Common/Use_Cases/Add_a_Calendar/" class="">Add a Calendar</a></li>
         
             <li >
-                <a href="/common/use_cases/add_a_debug_log_to_a_custom_webapp/" class="">Add a Debug Log to a Custom WebApp</a></li>
+                <a href="/Common/Use_Cases/Add_a_Debug_Log_to_a_Custom_WebApp/" class="">Add a Debug Log to a Custom WebApp</a></li>
         
             <li >
-                <a href="/common/use_cases/add_a-lookup-table-manually./" class="">Add a Lookup Table Manually</a></li>
+                <a href="/Common/Use_Cases/Add_a-Lookup-Table-Manually./" class="">Add a Lookup Table Manually</a></li>
         
             <li >
-                <a href="/common/use_cases/add_system_types_groups/" class="">Add a System Type Group</a></li>
+                <a href="/Common/Use_Cases/Add_System_Types_Groups/" class="">Add a System Type Group</a></li>
         
             <li >
-                <a href="/common/use_cases/add_a_new_system_type_model/" class="">Add a System Type Model</a></li>
+                <a href="/Common/Use_Cases/Add_a_New_System_Type_Model/" class="">Add a System Type Model</a></li>
         
             <li >
-                <a href="/common/use_cases/add-a-system-type-model-group/" class="">Add a System Type Model Group</a></li>
+                <a href="/Common/Use_Cases/Add-a-System-Type-Model-Group/" class="">Add a System Type Model Group</a></li>
         
             <li >
-                <a href="/common/use_cases/add_a_new_system_type_model_table/" class="">Add a System Type Model Table</a></li>
+                <a href="/Common/Use_Cases/Add_a_New_System_Type_Model_Table/" class="">Add a System Type Model Table</a></li>
         
             <li >
-                <a href="/common/use_cases/add_an_exception_to_the_calendar/" class="">Add an Exception to the Calendar</a></li>
+                <a href="/Common/Use_Cases/Add_an_Exception_to_the_Calendar/" class="">Add an Exception to the Calendar</a></li>
         
             <li >
-                <a href="/common/use_cases/add_and_remove_a_calendars_users/" class="">Add and Remove a Calendar’s Users</a></li>
+                <a href="/Common/Use_Cases/Add_and_Remove_a_Calendars_Users/" class="">Add and Remove a Calendar’s Users</a></li>
         
             <li >
-                <a href="/common/use_cases/assign_a_user_to_a_security_role_in_common/" class="">Assign a User to a Security Role in Common</a></li>
+                <a href="/Common/Use_Cases/Assign_a_User_to_a_Security_Role_in_Common/" class="">Assign a User to a Security Role in Common</a></li>
         
             <li >
-                <a href="/common/use_cases/assign_an_expiration_date_to_a_user/" class="">Assign an Expiration Date to a User</a></li>
+                <a href="/Common/Use_Cases/Assign_an_Expiration_Date_to_a_User/" class="">Assign an Expiration Date to a User</a></li>
         
             <li >
-                <a href="/common/use_cases/automation_engine_overview/" class="">Automation Engine</a></li>
+                <a href="/Common/Use_Cases/Automation_Engine_Overview/" class="">Automation Engine</a></li>
         
             <li >
-                <a href="/common/use_cases/build_views/" class="">Build Views</a></li>
+                <a href="/Common/Use_Cases/Build_Views/" class="">Build Views</a></li>
         
             <li >
-                <a href="/common/use_cases/build-views-based-on-a-st-model/" class="">Build Views based on a System Type Model</a></li>
+                <a href="/Common/Use_Cases/Build-Views-based-on-a-ST-Model/" class="">Build Views based on a System Type Model</a></li>
         
             <li >
-                <a href="/common/use_cases/build_a_construction_page_manually/" class="">Build a Construction Page Manually</a></li>
+                <a href="/Common/Use_Cases/Build_a_Construction_Page_Manually/" class="">Build a Construction Page Manually</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_collect_overview/" class="">Configure Collect</a></li>
+                <a href="/Common/Use_Cases/Configure_Collect_Overview/" class="">Configure Collect</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_collect_parameters/" class="">Configure Collect Parameters</a></li>
+                <a href="/Common/Use_Cases/Configure_Collect_Parameters/" class="">Configure Collect Parameters</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_columns/" class="">Configure Columns</a></li>
+                <a href="/Common/Use_Cases/Configure_Columns/" class="">Configure Columns</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_data_sources_to_be_ignored/" class="">Configure Data Sources to be Ignored</a></li>
+                <a href="/Common/Use_Cases/Configure_Data_Sources_to_be_Ignored/" class="">Configure Data Sources to be Ignored</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_debug_logs_settings/" class="">Configure Debug Logs Settings</a></li>
+                <a href="/Common/Use_Cases/Configure_Debug_Logs_Settings/" class="">Configure Debug Logs Settings</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_duplicates_parameters/" class="">Configure Duplicates Parameters</a></li>
+                <a href="/Common/Use_Cases/Configure_Duplicates_Parameters/" class="">Configure Duplicates Parameters</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_integrate_parameters/" class="">Configure Integrate Parameters</a></li>
+                <a href="/Common/Use_Cases/Configure_Integrate_Parameters/" class="">Configure Integrate Parameters</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_profile_parameters/" class="">Configure Profile Parameters</a></li>
+                <a href="/Common/Use_Cases/Configure_Profile_Parameters/" class="">Configure Profile Parameters</a></li>
         
             <li >
-                <a href="/common/use_cases/configure-regulatory-compliance-settings/" class="">Configure Regulatory Compliance Settings</a></li>
+                <a href="/Common/Use_Cases/Configure-Regulatory-Compliance-Settings/" class="">Configure Regulatory Compliance Settings</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_secure_overview/" class="">Configure Secure</a></li>
+                <a href="/Common/Use_Cases/Configure_Secure_Overview/" class="">Configure Secure</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_secure_parameters/" class="">Configure Secure Parameters</a></li>
+                <a href="/Common/Use_Cases/Configure_Secure_Parameters/" class="">Configure Secure Parameters</a></li>
         
             <li >
-                <a href="/common/use_cases/configure_trace_parameters/" class="">Configure Trace Parameters</a></li>
+                <a href="/Common/Use_Cases/Configure_Trace_Parameters/" class="">Configure Trace Parameters</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_files/" class="">Copy Files</a></li>
+                <a href="/Common/Use_Cases/Copy_Files/" class="">Copy Files</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_folders/" class="">Copy Folders</a></li>
+                <a href="/Common/Use_Cases/Copy_Folders/" class="">Copy Folders</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_instructions/" class="">Copy Instructions</a></li>
+                <a href="/Common/Use_Cases/Copy_Instructions/" class="">Copy Instructions</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_task_groups/" class="">Copy Task Groups</a></li>
+                <a href="/Common/Use_Cases/Copy_Task_Groups/" class="">Copy Task Groups</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_tasks/" class="">Copy Tasks</a></li>
+                <a href="/Common/Use_Cases/Copy_Tasks/" class="">Copy Tasks</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_work_hours_across_work_days/" class="">Copy Work Hours Across Work Days</a></li>
+                <a href="/Common/Use_Cases/Copy_Work_Hours_Across_Work_Days/" class="">Copy Work Hours Across Work Days</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_a_calendar/" class="">Copy a Calendar</a></li>
+                <a href="/Common/Use_Cases/Copy_a_Calendar/" class="">Copy a Calendar</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_a_system_type_table1/" class="">Copy a System Type Table</a></li>
+                <a href="/Common/Use_Cases/Copy_a_System_Type_Table1/" class="">Copy a System Type Table</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_automation_instruction_task/" class="">Copy: Automation Instruction Task</a></li>
+                <a href="/Common/Use_Cases/Copy_Automation_Instruction_Task/" class="">Copy: Automation Instruction Task</a></li>
         
             <li >
-                <a href="/common/use_cases/copy_automation_instruction_task_group/" class="">Copy: Automation Instruction Task Group</a></li>
+                <a href="/Common/Use_Cases/Copy_Automation_Instruction_Task_Group/" class="">Copy: Automation Instruction Task Group</a></li>
         
             <li >
-                <a href="/common/use_cases/create_dashboards/" class="">Create Dashboards</a></li>
+                <a href="/Common/Use_Cases/Create_Dashboards/" class="">Create Dashboards</a></li>
         
             <li >
-                <a href="/common/use_cases/create_instructions/" class="">Create Instructions</a></li>
+                <a href="/Common/Use_Cases/Create_Instructions/" class="">Create Instructions</a></li>
         
             <li >
-                <a href="/common/use_cases/create_object_views/" class="">Create Object Views</a></li>
+                <a href="/Common/Use_Cases/Create_Object_Views/" class="">Create Object Views</a></li>
         
             <li >
-                <a href="/common/use_cases/create_schedules/" class="">Create Schedules</a></li>
+                <a href="/Common/Use_Cases/Create_Schedules/" class="">Create Schedules</a></li>
         
             <li >
-                <a href="/common/use_cases/create_task_groups/" class="">Create Task Groups</a></li>
+                <a href="/Common/Use_Cases/Create_Task_Groups/" class="">Create Task Groups</a></li>
         
             <li >
-                <a href="/common/use_cases/create_tasks/" class="">Create Tasks</a></li>
+                <a href="/Common/Use_Cases/Create_Tasks/" class="">Create Tasks</a></li>
         
             <li >
-                <a href="/common/use_cases/create_a_secure_key/" class="">Create a Secure Key</a></li>
+                <a href="/Common/Use_Cases/Create_a_Secure_Key/" class="">Create a Secure Key</a></li>
         
             <li >
-                <a href="/common/use_cases/create_a_user/" class="">Create a User Account in Common</a></li>
+                <a href="/Common/Use_Cases/Create_a_User/" class="">Create a User Account in Common</a></li>
         
             <li >
-                <a href="/common/use_cases/create_user_accounts_in_common/" class="">Create and Manage User Accounts in Common</a></li>
+                <a href="/Common/Use_Cases/Create_User_Accounts_in_Common/" class="">Create and Manage User Accounts in Common</a></li>
         
             <li >
-                <a href="/common/use_cases/data_sources_in_common/" class="">Data Sources in Common</a></li>
+                <a href="/Common/Use_Cases/Data_Sources_in_Common/" class="">Data Sources in Common</a></li>
         
             <li >
-                <a href="/common/use_cases/define_instructions_for_tasks/" class="">Define Instructions for Tasks</a></li>
+                <a href="/Common/Use_Cases/Define_Instructions_for_Tasks/" class="">Define Instructions for Tasks</a></li>
         
             <li >
-                <a href="/common/use_cases/define_tasks_for_task_group/" class="">Define Tasks for Task Group</a></li>
+                <a href="/Common/Use_Cases/Define_Tasks_for_Task_Group/" class="">Define Tasks for Task Group</a></li>
         
             <li >
-                <a href="/common/use_cases/delete_files/" class="">Delete Files</a></li>
+                <a href="/Common/Use_Cases/Delete_Files/" class="">Delete Files</a></li>
         
             <li >
-                <a href="/common/use_cases/delete_folders/" class="">Delete Folders</a></li>
+                <a href="/Common/Use_Cases/Delete_Folders/" class="">Delete Folders</a></li>
         
             <li >
-                <a href="/common/use_cases/delete_monitor_records/" class="">Delete Monitored Records</a></li>
+                <a href="/Common/Use_Cases/Delete_Monitor_Records/" class="">Delete Monitored Records</a></li>
         
             <li >
-                <a href="/common/use_cases/delete_a_calendar/" class="">Delete a Calendar</a></li>
+                <a href="/Common/Use_Cases/Delete_a_Calendar/" class="">Delete a Calendar</a></li>
         
             <li >
-                <a href="/common/use_cases/display_data_services_profiling_results/" class="">Display Data Services Profiling Results</a></li>
+                <a href="/Common/Use_Cases/Display_Data_Services_Profiling_Results/" class="">Display Data Services Profiling Results</a></li>
         
             <li >
-                <a href="/common/use_cases/download_rate_of_change_spreadsheet/" class="">Download Rate of Change Spreadsheet</a></li>
+                <a href="/Common/Use_Cases/Download_Rate_of_Change_Spreadsheet/" class="">Download Rate of Change Spreadsheet</a></li>
         
             <li >
-                <a href="/common/use_cases/encrypt_cransoft_data_source_password/" class="">Encrypt CranSoft Data Source Password</a></li>
+                <a href="/Common/Use_Cases/Encrypt_CranSoft_Data_Source_Password/" class="">Encrypt CranSoft Data Source Password</a></li>
         
             <li >
-                <a href="/common/use_cases/establish_a_connection_to_a_target_system_overview/" class="">Establish a Connection in a Target System Overview</a></li>
+                <a href="/Common/Use_Cases/Establish_a_Connection_to_a_target_system_Overview/" class="">Establish a Connection in a Target System Overview</a></li>
         
             <li >
-                <a href="/common/use_cases/establish_a_connection_direct_connection/" class="">Establish a Connection via a Direct Connection to the Application Server</a></li>
+                <a href="/Common/Use_Cases/Establish_a_Connection_Direct_Connection/" class="">Establish a Connection via a Direct Connection to the Application Server</a></li>
         
             <li >
-                <a href="/common/use_cases/establish_a_connection_via_a_message_server/" class="">Establish a Connection via a Message Server</a></li>
+                <a href="/Common/Use_Cases/Establish_a_Connection_via_a_Message_Server/" class="">Establish a Connection via a Message Server</a></li>
         
             <li >
-                <a href="/common/use_cases/export_excel_files/" class="">Export Excel Files</a></li>
+                <a href="/Common/Use_Cases/Export_Excel_Files/" class="">Export Excel Files</a></li>
         
             <li >
-                <a href="/common/use_cases/export_translations_to_a_catalog/" class="">Export Translations to a Catalog</a></li>
+                <a href="/Common/Use_Cases/Export_Translations_to_a_Catalog/" class="">Export Translations to a Catalog</a></li>
         
             <li >
-                <a href="/common/use_cases/find_duplicates/" class="">Find Duplicates</a></li>
+                <a href="/Common/Use_Cases/Find_Duplicates/" class="">Find Duplicates</a></li>
         
             <li >
-                <a href="/common/use_cases/find_duplicates_overview/" class="">Find Duplicates Overview</a></li>
+                <a href="/Common/Use_Cases/Find_Duplicates_Overview/" class="">Find Duplicates Overview</a></li>
         
             <li >
-                <a href="/common/use_cases/forgotten_incorrect_encryption-passwords/" class="">Forgotten/Incorrect Encryption Password</a></li>
+                <a href="/Common/Use_Cases/Forgotten_Incorrect_Encryption-Passwords/" class="">Forgotten/Incorrect Encryption Password</a></li>
         
             <li >
-                <a href="/common/use_cases/generate_records_in_the_ae_history_table/" class="">Generate Records in the AE History Table</a></li>
+                <a href="/Common/Use_Cases/Generate_Records_in_the_AE_History_Table/" class="">Generate Records in the AE History Table</a></li>
         
             <li >
-                <a href="/common/use_cases/ignore_data_sources/" class="">Ignore Data Sources</a></li>
+                <a href="/Common/Use_Cases/Ignore_Data_Sources/" class="">Ignore Data Sources</a></li>
         
             <li >
-                <a href="/common/use_cases/import_excel_files/" class="">Import Excel Files</a></li>
+                <a href="/Common/Use_Cases/Import_Excel_Files/" class="">Import Excel Files</a></li>
         
             <li >
-                <a href="/common/use_cases/import_system_types_using_collect/" class="">Import System Types Using Collect</a></li>
+                <a href="/Common/Use_Cases/Import_System_Types_Using_Collect/" class="">Import System Types Using Collect</a></li>
         
             <li >
-                <a href="/common/use_cases/import_a_data_source/" class="">Import a Data Source</a></li>
+                <a href="/Common/Use_Cases/Import_a_Data_Source/" class="">Import a Data Source</a></li>
         
             <li >
-                <a href="/common/use_cases/import-a-model/" class="">Import a Model</a></li>
+                <a href="/Common/Use_Cases/Import-a-Model/" class="">Import a Model</a></li>
         
             <li >
-                <a href="/common/use_cases/manage_system_types_with_system_type_models/" class="">Manage System Types with System Type Models</a></li>
+                <a href="/Common/Use_Cases/Manage_System_Types_with_System_Type_Models/" class="">Manage System Types with System Type Models</a></li>
         
             <li >
-                <a href="/common/use_cases/manually_add_system_tables/" class="">Manually Add System Type Tables</a></li>
+                <a href="/Common/Use_Cases/Manually_Add_System_Tables/" class="">Manually Add System Type Tables</a></li>
         
             <li >
-                <a href="/common/use_cases/modify_actions/" class="">Modify Actions</a></li>
+                <a href="/Common/Use_Cases/Modify_Actions/" class="">Modify Actions</a></li>
         
             <li >
-                <a href="/common/use_cases/modify_text_for_password_email_notifications/" class="">Modify Text for Password Email Notifications</a></li>
+                <a href="/Common/Use_Cases/Modify_Text_for_Password_Email_Notifications/" class="">Modify Text for Password Email Notifications</a></li>
         
             <li >
-                <a href="/common/use_cases/monitor_application_activity_overview/" class="">Monitor Application Activity</a></li>
+                <a href="/Common/Use_Cases/Monitor_Application_Activity_Overview/" class="">Monitor Application Activity</a></li>
         
             <li >
-                <a href="/common/use_cases/monitor_overview/" class="">Monitor Overview</a></li>
+                <a href="/Common/Use_Cases/Monitor_Overview/" class="">Monitor Overview</a></li>
         
             <li >
-                <a href="/common/use_cases/move_files/" class="">Move Files</a></li>
+                <a href="/Common/Use_Cases/Move_Files/" class="">Move Files</a></li>
         
             <li >
-                <a href="/common/use_cases/process_adapters/" class="">Process Adapters</a></li>
+                <a href="/Common/Use_Cases/Process_Adapters/" class="">Process Adapters</a></li>
         
             <li >
-                <a href="/common/use_cases/profile_data_source/" class="">Profile Data Source</a></li>
+                <a href="/Common/Use_Cases/Profile_Data_Source/" class="">Profile Data Source</a></li>
         
             <li >
-                <a href="/common/use_cases/profile_data_sources/" class="">Profile Data Sources</a></li>
+                <a href="/Common/Use_Cases/Profile_Data_Sources/" class="">Profile Data Sources</a></li>
         
             <li >
-                <a href="/common/use_cases/register_objects/" class="">Register Objects</a></li>
+                <a href="/Common/Use_Cases/Register_Objects/" class="">Register Objects</a></li>
         
             <li >
-                <a href="/common/use_cases/registerpluginsimportexportfiles/" class="">Register Plugins to Import and Export Files</a></li>
+                <a href="/Common/Use_Cases/RegisterPluginsImportExportFiles/" class="">Register Plugins to Import and Export Files</a></li>
         
             <li >
-                <a href="/common/use_cases/register_public_plugins/" class="">Register Public Plugins</a></li>
+                <a href="/Common/Use_Cases/Register_Public_Plugins/" class="">Register Public Plugins</a></li>
         
             <li >
-                <a href="/common/use_cases/register_a_data_source_in_common/" class="">Register a Data Source in Common</a></li>
+                <a href="/Common/Use_Cases/Register_a_Data_Source_in_Common/" class="">Register a Data Source in Common</a></li>
         
             <li >
-                <a href="/common/use_cases/reset_profiling/" class="">Reset Profiling</a></li>
+                <a href="/Common/Use_Cases/Reset_Profiling/" class="">Reset Profiling</a></li>
         
             <li >
-                <a href="/common/use_cases/reset-a-users-password/" class="">Reset a User&#39;s Password</a></li>
+                <a href="/Common/Use_Cases/Reset-a-Users-Password/" class="">Reset a User&#39;s Password</a></li>
         
             <li >
-                <a href="/common/use_cases/resolve_duplicate_candidates/" class="">Resolve Duplicate Candidates</a></li>
+                <a href="/Common/Use_Cases/Resolve_Duplicate_Candidates/" class="">Resolve Duplicate Candidates</a></li>
         
             <li >
-                <a href="/common/use_cases/review_duplicate_records/" class="">Review Duplicate Records</a></li>
+                <a href="/Common/Use_Cases/Review_Duplicate_Records/" class="">Review Duplicate Records</a></li>
         
             <li >
-                <a href="/common/use_cases/review_non_duplicate_records/" class="">Review Non Duplicate Records</a></li>
+                <a href="/Common/Use_Cases/Review_Non_Duplicate_Records/" class="">Review Non Duplicate Records</a></li>
         
             <li >
-                <a href="/common/use_cases/run_post_duplicate_detection_process/" class="">Run Post Duplicate Detection Process</a></li>
+                <a href="/Common/Use_Cases/Run_Post_Duplicate_Detection_Process/" class="">Run Post Duplicate Detection Process</a></li>
         
             <li >
-                <a href="/common/use_cases/send_a_temporary_password_to_a_user/" class="">Send a Temporary Password to a New User</a></li>
+                <a href="/Common/Use_Cases/Send_a_Temporary_Password_to_a_User/" class="">Send a Temporary Password to a New User</a></li>
         
             <li >
-                <a href="/common/use_cases/set-values-for-system-types-table-fields/" class="">Set Values for System Types Table Fields</a></li>
+                <a href="/Common/Use_Cases/Set-Values-for-System-Types-Table-Fields/" class="">Set Values for System Types Table Fields</a></li>
         
             <li >
-                <a href="/common/use_cases/setworkdyshrscalendar/" class="">Set Work Days and Work Hours for a Calendar</a></li>
+                <a href="/Common/Use_Cases/SetWorkDysHrsCalendar/" class="">Set Work Days and Work Hours for a Calendar</a></li>
         
             <li >
-                <a href="/common/use_cases/set_up_database_functions/" class="">Set up Database Functions</a></li>
+                <a href="/Common/Use_Cases/Set_up_Database_Functions/" class="">Set up Database Functions</a></li>
         
             <li >
-                <a href="/common/use_cases/set_up_post_action_rule_tables/" class="">Set up Post Action Rule Tables</a></li>
+                <a href="/Common/Use_Cases/Set_Up_Post_Action_Rule_Tables/" class="">Set up Post Action Rule Tables</a></li>
         
             <li >
-                <a href="/common/use_cases/sync_data_sources_in_common_and_system_administration/" class="">Sync Data Sources in Common and System Administration</a></li>
+                <a href="/Common/Use_Cases/Sync_Data_Sources_in_Common_and_System_Administration/" class="">Sync Data Sources in Common and System Administration</a></li>
         
             <li >
-                <a href="/common/use_cases/system_types_overview/" class="">System Types</a></li>
+                <a href="/Common/Use_Cases/System_Types_Overview/" class="">System Types</a></li>
         
             <li >
-                <a href="/common/use_cases/trace_data_sources_overview/" class="">Trace Data Sources</a></li>
+                <a href="/Common/Use_Cases/Trace_Data_Sources_Overview/" class="">Trace Data Sources</a></li>
         
             <li >
-                <a href="/common/use_cases/trace_object_changes_daily/" class="">Trace Object Changes Daily</a></li>
+                <a href="/Common/Use_Cases/Trace_Object_Changes_Daily/" class="">Trace Object Changes Daily</a></li>
         
             <li >
-                <a href="/common/use_cases/trace_object_changes_monthly/" class="">Trace Object Changes Monthly</a></li>
+                <a href="/Common/Use_Cases/Trace_Object_Changes_Monthly/" class="">Trace Object Changes Monthly</a></li>
         
             <li >
-                <a href="/common/use_cases/trace_object_changes_weekly/" class="">Trace Object Changes Weekly</a></li>
+                <a href="/Common/Use_Cases/Trace_Object_Changes_Weekly/" class="">Trace Object Changes Weekly</a></li>
         
             <li >
-                <a href="/common/use_cases/trace_object_summary/" class="">Trace Object Summary</a></li>
+                <a href="/Common/Use_Cases/Trace_Object_Summary/" class="">Trace Object Summary</a></li>
         
             <li >
-                <a href="/common/use_cases/track_construction_status/" class="">Track Construction Status</a></li>
+                <a href="/Common/Use_Cases/Track_Construction_Status/" class="">Track Construction Status</a></li>
         
             <li >
-                <a href="/common/use_cases/update-retention-expiration-warning-period/" class="">Update Retention Expiration Warning Period</a></li>
+                <a href="/Common/Use_Cases/Update-Retention-Expiration-Warning-Period/" class="">Update Retention Expiration Warning Period</a></li>
         
             <li >
-                <a href="/common/use_cases/update-the-retention-expiration-email/" class="">Update the Retention Expiration Email</a></li>
+                <a href="/Common/Use_Cases/Update-the-Retention-Expiration-Email/" class="">Update the Retention Expiration Email</a></li>
         
             <li >
-                <a href="/common/use_cases/use_a_calendar/" class="">Use a Calendar</a></li>
+                <a href="/Common/Use_Cases/Use_a_Calendar/" class="">Use a Calendar</a></li>
         
             <li >
-                <a href="/common/use_cases/toolkit_overview/" class="">Use the Toolkit for Custom Development</a></li>
+                <a href="/Common/Use_Cases/Toolkit_Overview/" class="">Use the Toolkit for Custom Development</a></li>
         
             <li >
-                <a href="/common/use_cases/view_activity/" class="">View Activity</a></li>
+                <a href="/Common/Use_Cases/View_Activity/" class="">View Activity</a></li>
         
             <li >
-                <a href="/common/use_cases/view_debug_logs/" class="">View Debug Logs</a></li>
+                <a href="/Common/Use_Cases/View_Debug_Logs/" class="">View Debug Logs</a></li>
         
             <li >
-                <a href="/common/use_cases/view-fields-required-for-system-type-tables/" class="">View Fields Required for System Type Tables</a></li>
+                <a href="/Common/Use_Cases/View-Fields-Required-for-System-Type-Tables/" class="">View Fields Required for System Type Tables</a></li>
         
             <li >
-                <a href="/common/use_cases/view_trace_dashboard_object_summary/" class="">View Trace Dashboard: Object Summary</a></li>
+                <a href="/Common/Use_Cases/View_Trace_Dashboard_Object_Summary/" class="">View Trace Dashboard: Object Summary</a></li>
         
             <li >
-                <a href="/common/use_cases/view_the_profiling_results/" class="">View the Profiling Results</a></li>
+                <a href="/Common/Use_Cases/View_the_Profiling_Results/" class="">View the Profiling Results</a></li>
         
     </ul>
     </li>
@@ -896,7 +905,7 @@
     <ul class="uk-visible@m uk-breadcrumb uk-margin-remove">
         <li class="uk-disabled"><a href="#">Solutions</a></li>
         <li class="uk-disabled"><a href="#">Platform</a></li>
-        <li><a>Common</a></li>
+        <li><a href="/Common">Common</a></li>
         <li><span>Process Adapter Properties</span></li>
     </ul>
     <a style="min-height:.5rem" class="uk-margin-remove-bottom uk-align-left uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon uk-toggle href="#offcanvas-slide2"></a>
@@ -908,7 +917,7 @@
 <div class="use">
 
 Use this page to [Modify the Process Adapter
-Properties](../Use_Cases/Process_Adapters.htm#Modify_the_Process_Adapter_Properties).
+Properties](../Use_Cases/Process_Adapters#Modify_the_Process_Adapter_Properties).
 
 </div>
 
@@ -953,6 +962,44 @@ for a process.</li>
 </tbody>
 </table>
 
+    
+<div id="feedback-survey">
+  <div class="feedback-question">
+      <p class="feedback-question">Was this article helpful?</p>
+      <button class="feedback-yes" title="Yes, this article was helpful." alt="Yes, this article was helpful.">Yes</button>
+      <button class="feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful.">No</button>
+  </div>
+  <div class="feedback-reason no">
+      <div>
+          <p class="feedbackW">Sorry about that.</p>
+          <p>Why wasn't this helpful? (check all that apply)</p>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+              <label for="option1">I couldn't find the information I needed.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+              <label for="option2">The content has errors or is unclear.</label>
+          </div>
+          <div class="feedback-option">
+              <input type="checkbox" class="option no" id="option3" value="Not Enough Content" data-analytics-label="Not Enough content" />
+              <label for="option3">The content is incomplete: More information or context is needed.</label>
+          </div>
+          <div class="feedback-reason no-thanks">
+              <p class="feedback-question"><b>Thanks for your feedback.</b>
+              </p>
+              <p class="feedbackW">Want to tell us more?</p>
+              <p>Send an email to our authors to leave your feedback.</p>
+              <p><a href="mailto:Helpfeedback@boaweb.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="feedback-reason yes-thanks">
+    <p class="feedbackW">Great!</p>
+    <p>Thanks for your feedback.</p>
+  </div>
+</div>
   </div>
   <div class="uk-visible@m uk-margin-top uk-card uk-padding-small uk-width-1-6 uk-margin-bottom uk-margin-right uk-card-default">
     <ul class="uk-nav">
@@ -970,13 +1017,14 @@ for a process.</li>
 
 
   
-  <footer>
+  
+<footer>
     <div class="uk-section uk-section-medium uk-section-secondary">
         <div id="footer" class="uk-flex-center uk-padding-small" uk-grid>
           <div id="footerNav" class="uk-width-auto@s uk-width-1-1">
             <ul class="uk-nav uk-nav-default">
               <li class="uk-nav-header">Get In Touch</li>
-              <li><a href="#">Contact Support</a></li>
+              <li><a href="https://support.boaweb.com/access/unauthenticated?return_to=https%3A%2F%2Fbackofficeassociates.zendesk.com%2Fagent%2Fdashboard">Contact Support</a></li>
               <li><a href="#">Access Product Ideas Portal</a></li>
               <li><a href="#">Request Product Training</a></li>
             </ul>
@@ -984,12 +1032,12 @@ for a process.</li>
               <li class="uk-nav-header">Related Content</li>
               <li><a href="#">Glossary</a></li>
               <li><a href="#">Product Licenses</a></li>
-              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="https://support.boaweb.com/">Knowledge Base</a></li>
             </ul>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
             <div>
-              <a href="#"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
+              <a href="http://www.boaweb.com/customers/data-insiders/"><img id="dataInsiders" src="/images/DI_Community-Website.svg"></a>
             </div>
           </div>
           <div class="uk-width-1-3@s uk-width-1-1">
@@ -1002,18 +1050,20 @@ for a process.</li>
         <hr>
         <div id="legal" class="uk-flex-center" uk-grid>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Privacy Policy</a>
+            <a href="http://www.boaweb.com/privacy-policy/">Privacy Policy</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Terms of Use</a>
+            <a href="http://www.boaweb.com/terms-of-use/">Terms of Use</a>
           </div>
           <div class="uk-text-center uk-width-1-4@s uk-width-1-1">
-            <a href="#">Trademarks</a>
+            <a href="http://www.boaweb.com/trademarks/">Trademarks</a>
           </div>
         </div>
       </div>
     </div>
 </footer>
   
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;">Top</button>
 </body>
 </html>

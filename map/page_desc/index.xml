@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/map/page_desc/</link>
+    <link>https://heathercloward.github.io/Map/Page_Desc/</link>
     <description>Recent content in Pages on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/map/page_desc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Map/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Check Table Values</title>
-      <link>https://heathercloward.github.io/map/page_desc/check_table_values/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Check_Table_Values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/check_table_values/</guid>
-      <description>Check Table Values Use this page to view the values associated with a selected check table while [building a remediation report.](../Use_Cases/Build_a_Remediation_Report.htm)  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Check_Table_Values/</guid>
+      <description>Check Table Values Use this page to view the values associated with a selected check table while [building a remediation report.](../Use_Cases/Build_a_Remediation_Report)  To access this page in dspMigrate:
  Select Map in the Context bar. Select Configuration &amp;gt; Value Mapping (Config) in Navigation pane. Click the Values icon for a check table.    Field
  Description
   CHECK TABLE
@@ -25,11 +25,11 @@
     
     <item>
       <title>Export Field Mappings</title>
-      <link>https://heathercloward.github.io/map/page_desc/export_field_mappings/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Export_Field_Mappings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/export_field_mappings/</guid>
-      <description>Export Field Mappings Use this page to [Export a Field Mapping](../Use_Cases/Import_and_Export_Mappings.htm#Export_Mappings).  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Export_Field_Mappings/</guid>
+      <description>Export Field Mappings Use this page to [Export a Field Mapping](../Use_Cases/Import_and_Export_Mappings#Export_Mappings).  To access this page in dspMigrate:
  Select Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Vertical View icon for a Target Source. Click the Export Field Mappings icon in the Page toolbar.    Field
  Descriptions
   Target</description>
@@ -37,35 +37,35 @@
     
     <item>
       <title>Field Mapping History</title>
-      <link>https://heathercloward.github.io/map/page_desc/field_mapping_history/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Field_Mapping_History/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/field_mapping_history/</guid>
-      <description>Field Mapping History Use this page to: - [View Field Mapping History](../Use_Cases/View_Field_Mapping_History.htm) - [Restore Current Field Mapping From History](../Use_Cases/Restore_Current_Field_Mapping_From_History.htm)  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Field_Mapping_History/</guid>
+      <description>Field Mapping History Use this page to: - [View Field Mapping History](../Use_Cases/View_Field_Mapping_History) - [Restore Current Field Mapping From History](../Use_Cases/Restore_Current_Field_Mapping_From_History)  To access this page in dspMigrate:
  Select Map  in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Mappings icon for a Target. Select a field and click the History icon in the Page toolbar.    Field
  Description</description>
     </item>
     
     <item>
       <title>Field Mappings H</title>
-      <link>https://heathercloward.github.io/map/page_desc/field_mappings_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Field_Mappings_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/field_mappings_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Field_Mappings_H/</guid>
       <description>Field Mappings H Field Mappings V
-Use this page to: - [Perform Field Mapping](../Use_Cases/Perform_Field_Mapping.htm) - [Work with Target Sources that have Multi-part Keys](../Use_Cases/Work_with_Sources_with_Multipart_Keys.htm) - [Build a Remediation Report](../Use_Cases/Build_a_Remediation_Report.htm)  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
+Use this page to: - [Perform Field Mapping](../Use_Cases/Perform_Field_Mapping) - [Work with Target Sources that have Multi-part Keys](../Use_Cases/Work_with_Sources_with_Multipart_Keys) - [Build a Remediation Report](../Use_Cases/Build_a_Remediation_Report)  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.
 To view all field mappings for the selected Target in Map:
  Select dspMigrate in the Navigation pane. Select Map in the Context bar.</description>
     </item>
     
     <item>
       <title>Field Mappings by Target Field (All Waves)</title>
-      <link>https://heathercloward.github.io/map/page_desc/field_mappings_by_target_field_all_waves/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Field_Mappings_by_Target_Field_All_Waves/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/field_mappings_by_target_field_all_waves/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Field_Mappings_by_Target_Field_All_Waves/</guid>
       <description>Field Mappings by Target Field (All Waves) Field Mappings by Target Field (All Waves) V
-Use this page to [Copy a Mapping](../Use_Cases/Copy_a_Mapping.htm).  To access this page:
+Use this page to [Copy a Mapping](../Use_Cases/Copy_a_Mapping).  To access this page:
  Select dspMigrate in the Navigation pane.
  Select Map in the Context bar.
  Click the Targets icon on the Process Area Launch page.
@@ -76,11 +76,11 @@ Click the Targets icon and click the Sources icon for a Target.
     
     <item>
       <title>Import Field Mappings</title>
-      <link>https://heathercloward.github.io/map/page_desc/import_field_mappings/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Import_Field_Mappings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/import_field_mappings/</guid>
-      <description>Import Field Mappings Use this page to [Import Mappings](../Use_Cases/Import_and_Export_Mappings.htm#Import_a_Mapping_Set).  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Import_Field_Mappings/</guid>
+      <description>Import Field Mappings Use this page to [Import Mappings](../Use_Cases/Import_and_Export_Mappings#Import_a_Mapping_Set).  To access this page in dspMigrate:
  Select Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Vertical View icon for the Source. Click the Import Field Mappings icon in the Page toolbar.    Field
  Description
   Import Mappings
@@ -89,23 +89,23 @@ Click the Targets icon and click the Sources icon for a Target.
     
     <item>
       <title>Legacy Value (Source Table Fields) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/legacy_value_source_table_fields_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Legacy_Value_Source_Table_Fields_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/legacy_value_source_table_fields_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Legacy_Value_Source_Table_Fields_H/</guid>
       <description>Legacy Value (Source Table Fields) H Legacy Value (Source Table Fields) V
-Use this page when [Value Map Target Fields from Multiple Source Systems](../Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems.htm).  To access this page:
+Use this page when [Value Map Target Fields from Multiple Source Systems](../Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems).  To access this page:
  Select dspMigrate in the Navigation pane. Select Map in the Context bar. Select Configuration &amp;gt;Value Mapping (Config) in the Navigation pane. Click the Sources icon for a check table. Click Vertical View for a Source. Click the Source Tables icon.</description>
     </item>
     
     <item>
       <title>Mapping Approval H &lt;span id=&#34;top&#34;&gt;&lt;/span&gt;</title>
-      <link>https://heathercloward.github.io/map/page_desc/mapping_approval_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Mapping_Approval_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/mapping_approval_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Mapping_Approval_H/</guid>
       <description>Mapping Approval H  Mapping Approval V
-Use this page to [Approve or Reject Mappings](../Use_Cases/Approve_or_Reject_Mappings.htm).  To access this page, click the green Mapping Approval tab on the Quick Panel.
+Use this page to [Approve or Reject Mappings](../Use_Cases/Approve_or_Reject_Mappings).  To access this page, click the green Mapping Approval tab on the Quick Panel.
   Field
  Description
   Approve
@@ -116,21 +116,21 @@ Use this page to [Approve or Reject Mappings](../Use_Cases/Approve_or_Reject_Map
     
     <item>
       <title>Mapping Approvals Download List</title>
-      <link>https://heathercloward.github.io/map/page_desc/mapping_approvals_download_list/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Mapping_Approvals_Download_List/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/mapping_approvals_download_list/</guid>
-      <description>Mapping Approvals Download List Use this page to [Download Mappings for Review](../Use_Cases/Approve_or_Reject_Mappings.htm#Download_Mappings_for_Review).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Mapping_Approvals_Download_List/</guid>
+      <description>Mapping Approvals Download List Use this page to [Download Mappings for Review](../Use_Cases/Approve_or_Reject_Mappings#Download_Mappings_for_Review).  To access this page:
  Click the Mapping Approvals tab on the Quick Panel. Click the Download List icon in the Page toolbar.           Field Description   Wave NAME Displays the Wave name of the current context that contains the mapping.   Process Area Displays the Process Area name of the current context that contains the mapping.</description>
     </item>
     
     <item>
       <title>Mapping Status</title>
-      <link>https://heathercloward.github.io/map/page_desc/mapping_status_page/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Mapping_Status_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/mapping_status_page/</guid>
-      <description>Mapping Status Use this page to [Configure Mapping Status](../Use_Cases/Mapping_Status_and_Rule_Status.htm#Configure_Mapping_Status_and_Rule_Status).  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Mapping_Status_page/</guid>
+      <description>Mapping Status Use this page to [Configure Mapping Status](../Use_Cases/Mapping_Status_and_Rule_Status#Configure_Mapping_Status_and_Rule_Status).  To access this page in dspMigrate:
  Click Map in the Context bar. Select Configuration &amp;gt; Mapping Status in the Navigation pane.    Field
  Description
   MAPPING STATUS
@@ -142,10 +142,10 @@ This field cannot be edited for installed statuses.
     
     <item>
       <title>Metrics and Reports Landing</title>
-      <link>https://heathercloward.github.io/map/page_desc/metrics_and_reports_landing/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Metrics_and_Reports_Landing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/metrics_and_reports_landing/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Metrics_and_Reports_Landing/</guid>
       <description>Metrics and Reports Landing Use this page to access metrics and reports pages as described below.  To access this page in dspMigrate:
  Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page.  Field
 Description
@@ -159,20 +159,20 @@ Click to open the Target Dashboard Stats page to view Object and Target percenta
     
     <item>
       <title>Objects</title>
-      <link>https://heathercloward.github.io/map/page_desc/objects_map/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Objects_map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/objects_map/</guid>
-      <description>Objects Use this page to [view dashboards](../Use_Cases/View_Dashboards_in_Map.htm) at the Object level.  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Objects_map/</guid>
+      <description>Objects Use this page to [view dashboards](../Use_Cases/View_Dashboards_in_Map) at the Object level.  To access this page in dspMigrate:
  Click Map in the Context bar. Click the Objects icon on the Process Area Launch page.           Field Description   PRIORITY Displays the object priority as set in Console.   NAME Displays the name of the Object created in Console and associated with the current context.</description>
     </item>
     
     <item>
       <title>Process Area Launch</title>
-      <link>https://heathercloward.github.io/map/page_desc/process_area_launch_map/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Process_Area_Launch_map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/process_area_launch_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Process_Area_Launch_map/</guid>
       <description>Process Area Launch Use this page to access the pages as described below.  To access this page:
  Click dspMigrate in the Navigation pane Click Map in the Context bar.  Field
 Description
@@ -182,32 +182,32 @@ Displays the Wave added in Console and selected (along with the Process Area) in
     
     <item>
       <title>Relationship Fields</title>
-      <link>https://heathercloward.github.io/map/page_desc/relationship_fields/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Relationship_Fields/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/relationship_fields/</guid>
-      <description>Relationship Fields Use this page to [Add Relationship Joins to Sources.](../Use_Cases/Add_Relationship_Joins_to_Source.htm)  To access this page in dspMigrate:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Relationship_Fields/</guid>
+      <description>Relationship Fields Use this page to [Add Relationship Joins to Sources.](../Use_Cases/Add_Relationship_Joins_to_Source)  To access this page in dspMigrate:
  Click Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target in the Parent pane. Click the Update Row Sources icon for a Target Source in the Child pane. Click the Secondary Source icon for a Target Source (Add Row) in the Parent pane.</description>
     </item>
     
     <item>
       <title>Relationship Joins H</title>
-      <link>https://heathercloward.github.io/map/page_desc/relationship_joins_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Relationship_Joins_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/relationship_joins_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Relationship_Joins_H/</guid>
       <description>Relationship Joins H Relationship Joins V
-Use this page to [Add Relationship Joins to Sources.](../Use_Cases/Add_Relationship_Joins_to_Source.htm)  To access this page:
+Use this page to [Add Relationship Joins to Sources.](../Use_Cases/Add_Relationship_Joins_to_Source)  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target in the Parent pane. Click the Update Row Sources icon for a Target Source in the Child pane. Click the Secondary Source icon for a Target Source (Add Row) in the Parent pane.</description>
     </item>
     
     <item>
       <title>Rule Status</title>
-      <link>https://heathercloward.github.io/map/page_desc/rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/rule_status/</guid>
-      <description>Rule Status Use this page to [Configure Rule Status](../Use_Cases/Mapping_Status_and_Rule_Status.htm#Configure_Mapping_Status_and_Rule_Status).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Rule_Status/</guid>
+      <description>Rule Status Use this page to [Configure Rule Status](../Use_Cases/Mapping_Status_and_Rule_Status#Configure_Mapping_Status_and_Rule_Status).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Select Configuration &amp;gt; Rule Status in the Navigation pane.    Field
  Description
   RULE STATUS
@@ -219,33 +219,33 @@ This field cannot be edited for installed statuses.
     
     <item>
       <title>Source Check Table (Config) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/source_check_table_config_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Source_Check_Table_Config_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/source_check_table_config_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Source_Check_Table_Config_H/</guid>
       <description>Source Check Table (Config) H Source Check Table (Config) V
-Use this page when [Value Map Target Fields from Multiple Source Systems](../Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems.htm).  To access this page:
+Use this page when [Value Map Target Fields from Multiple Source Systems](../Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map  in the Context bar. Select Configuration &amp;gt; Value Mapping (Config) in the Navigation pane. Click the Sources icon for a check table. Click the Source Config icon for a Source.    Field</description>
     </item>
     
     <item>
       <title>Source Value Tracking</title>
-      <link>https://heathercloward.github.io/map/page_desc/source_value_tracking/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Source_Value_Tracking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/source_value_tracking/</guid>
-      <description>Source Value Tracking Use this page to [View the Source Tables and Fields Mapped to a Lookup Table](../Use_Cases/View_the_Source_Tables_and_Fields_Mapped_to_a_Lookup_Table.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Source_Value_Tracking/</guid>
+      <description>Source Value Tracking Use this page to [View the Source Tables and Fields Mapped to a Lookup Table](../Use_Cases/View_the_Source_Tables_and_Fields_Mapped_to_a_Lookup_Table).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Select Configuration &amp;gt; Value Mapping (Config) in the Navigation pane. Click the Sources icon for a check table. Click the Vertical View icon for a Source. Click the Source Tables icon. Click the Value Tracking icon.</description>
     </item>
     
     <item>
       <title>Target Dashboard Stats H</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_dashboard_stats_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Dashboard_Stats_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_dashboard_stats_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Dashboard_Stats_H/</guid>
       <description>Target Dashboard Stats H Target Dashboard Stats V
-Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access this page:
+Use this page to [View Metrics](../Use_Cases/View_Metrics_Map).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page Click the Metrics icon on the Metrics and Reports Landing page.    Field
  Description
   Daily
@@ -254,11 +254,11 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Target Field Groups</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_field_groups/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Field_Groups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_field_groups/</guid>
-      <description>Target Field Groups Use this page to view Field Groups [registered to the target](../../Design/Use_Cases/Assign_a_Field_Group_to_an_Object.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Field_Groups/</guid>
+      <description>Target Field Groups Use this page to view Field Groups [registered to the target](../../Design/Use_Cases/Assign_a_Field_Group_to_an_Object).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Field Groups icon for a Target    Field
  Description
   TARGET
@@ -267,12 +267,12 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Target Metrics Daily H</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_metrics_daily_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Metrics_Daily_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_metrics_daily_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Metrics_Daily_H/</guid>
       <description>Target Metrics Daily H Target Metrics Daily V
-Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access this page:
+Use this page to [View Metrics](../Use_Cases/View_Metrics_Map).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page. Click the Metrics icon on the Metrics and Reports Landing page. Click the Daily icon in the Page toolbar.    Field
  Description
   METRICS TYPE</description>
@@ -280,12 +280,12 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Target Metrics Weekly H</title>
-      <link>https://heathercloward.github.io/map/page_desc/targets_metrics_weekly_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Targets_Metrics_Weekly_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/targets_metrics_weekly_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Targets_Metrics_Weekly_H/</guid>
       <description>Target Metrics Weekly H Target Metrics Weekly V
-Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access this page:
+Use this page to [View Metrics](../Use_Cases/View_Metrics_Map).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page. Click the Metrics icon on the Metrics and Reports Landing page. Click the Weekly icon in the Page toolbar.    Field
  Description
   METRICS TYPE</description>
@@ -293,31 +293,31 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Target Rule Copy To</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_rule_copy_to/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Rule_Copy_To/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_rule_copy_to/</guid>
-      <description>Target Rule Copy To Use this page to [Copy All Target Rules to Another Target](../Use_Cases/Copy_All_Target_Rules_To_Another_Target.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Rule_Copy_To/</guid>
+      <description>Target Rule Copy To Use this page to [Copy All Target Rules to Another Target](../Use_Cases/Copy_All_Target_Rules_To_Another_Target).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targetsicon on the Process Area Launch page. Click the Sources icon for a Target. Click Vertical View for a Target Source. Click the Copy To icon on the Page toolbar.    Field</description>
     </item>
     
     <item>
       <title>Target Source Copy To</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_source_copy_to/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Source_Copy_To/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_source_copy_to/</guid>
-      <description>Target Source Copy To Use this page to [Copy a Target Source to Another Target](../Use_Cases/Copy_a_Target_Source_to_Another_Target.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Source_Copy_To/</guid>
+      <description>Target Source Copy To Use this page to [Copy a Target Source to Another Target](../Use_Cases/Copy_a_Target_Source_to_Another_Target).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targetsicon on the Process Area Launch page. Click the Sources icon for a Target. Click Vertical View for a Target Source. Click the Copy To icon on the Page toolbar.    Field</description>
     </item>
     
     <item>
       <title>Target Source Rule Book</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_source_rule_book/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Source_Rule_Book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_source_rule_book/</guid>
-      <description>Target Source Rule Book Use this page to [View All Mappings for a Target](../Use_Cases/View_all_Mappings_for_a_Target.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Source_Rule_Book/</guid>
+      <description>Target Source Rule Book Use this page to [View All Mappings for a Target](../Use_Cases/View_all_Mappings_for_a_Target).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page. Click the Rule Book icon on the Metrics and Reports Landing page.    Field
  Description
   NAME
@@ -326,56 +326,56 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Target Source Schema H</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_source_schema_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Source_Schema_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_source_schema_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Source_Schema_H/</guid>
       <description>Target Source Schema H Target Source Schema V
-Use this page to [Reset Target Source Schema Field Lengths](../Use_Cases/Reset_Target_Source_Schema_Field_Lengths.htm).  To access this page:
+Use this page to [Reset Target Source Schema Field Lengths](../Use_Cases/Reset_Target_Source_Schema_Field_Lengths).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map  in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Vertical View icon for a Target Source. Click the Schema Columns icon on the Target Sources page.</description>
     </item>
     
     <item>
       <title>Target Sources (Add Row)</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_sources_add_row/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Sources_Add_Row/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_sources_add_row/</guid>
-      <description>Target Sources (Add Row) Use this page while: - [Add Update Row Sources that are Views](../Use_Cases/Add_Update_Row_Sources.htm#Add_Update_Row_Sources_that_are_Views) - [Add Update Row Sources that are Tables](../Use_Cases/Add_Update_Row_Sources.htm#Add_Update_Row_Sources_that_are_Tables) - [Adding an External Source](../Use_Cases/Add_an_External_Source.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Sources_Add_Row/</guid>
+      <description>Target Sources (Add Row) Use this page while: - [Add Update Row Sources that are Views](../Use_Cases/Add_Update_Row_Sources#Add_Update_Row_Sources_that_are_Views) - [Add Update Row Sources that are Tables](../Use_Cases/Add_Update_Row_Sources#Add_Update_Row_Sources_that_are_Tables) - [Adding an External Source](../Use_Cases/Add_an_External_Source)  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target. Click the Update Row Sources icon for a Source.</description>
     </item>
     
     <item>
       <title>Target Sources (Update Row) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_sources_update_row/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Sources_Update_Row/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_sources_update_row/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Sources_Update_Row/</guid>
       <description>Target Sources (Update Row) H Target Sources (Update Row) V
-Use this page to: - [Add Add Row Sources](../Use_Cases/Add_an_Add_Row_Source.htm) - [Add Update Row Sources](../Use_Cases/Add_Update_Row_Sources.htm) - [Add an External Source](../Use_Cases/Add_an_External_Source.htm) - [Add Relationship Joins to Sources](../Use_Cases/Add_Relationship_Joins_to_Source.htm)  To access this page:
+Use this page to: - [Add Add Row Sources](../Use_Cases/Add_an_Add_Row_Source) - [Add Update Row Sources](../Use_Cases/Add_Update_Row_Sources) - [Add an External Source](../Use_Cases/Add_an_External_Source) - [Add Relationship Joins to Sources](../Use_Cases/Add_Relationship_Joins_to_Source)  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target.</description>
     </item>
     
     <item>
       <title>Target Sources H</title>
-      <link>https://heathercloward.github.io/map/page_desc/target_sources_h_map/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Target_Sources_H_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/target_sources_h_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Target_Sources_H_Map/</guid>
       <description>Target Sources H Target Sources V
-Use this page to: - [Set a Source Database Object](../Use_Cases/Perform_Field_Mapping.htm#Set_a_Source_Database_Object) - [Add ZActive Fields](../Use_Cases/Add_ZActive.htm) - [Update Client and Language for all Sources](../Use_Cases/Update_Client_and_Language_for_all_Sources.htm)  To access this page:
+Use this page to: - [Set a Source Database Object](../Use_Cases/Perform_Field_Mapping#Set_a_Source_Database_Object) - [Add ZActive Fields](../Use_Cases/Add_ZActive) - [Update Client and Language for all Sources](../Use_Cases/Update_Client_and_Language_for_all_Sources)  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targets icon on the Process Area Launch page. Click the Sources icon for a Target.    Field
  Description</description>
     </item>
     
     <item>
       <title>Targets H</title>
-      <link>https://heathercloward.github.io/map/page_desc/targets_h_map/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Targets_H_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/targets_h_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Targets_H_Map/</guid>
       <description>Targets H Targets V
-Use this page to: - [Sync Map and Target Design](../../Design/Use_Cases/Sync_Map_and_Target_Design_TD.htm) - [Build a Remediation Report](../Use_Cases/Build_a_Remediation_Report.htm)  To access this page:
+Use this page to: - [Sync Map and Target Design](../../Design/Use_Cases/Sync_Map_and_Target_Design_TD) - [Build a Remediation Report](../Use_Cases/Build_a_Remediation_Report)  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Targets icon on the Process Area Launch page.    Field
  Description
   Sync From Target Design
@@ -384,12 +384,12 @@ Use this page to: - [Sync Map and Target Design](../../Design/Use_Cases/Sync_Map
     
     <item>
       <title>Targets Metrics Monthly H</title>
-      <link>https://heathercloward.github.io/map/page_desc/targets_metrics_monthly_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Targets_Metrics_Monthly_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/targets_metrics_monthly_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Targets_Metrics_Monthly_H/</guid>
       <description>Targets Metrics Monthly H Target Metrics Monthly V
-Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access this page:
+Use this page to [View Metrics](../Use_Cases/View_Metrics_Map).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metricsicon on the Process Area Launch page. Click the Metrics icon on the Metrics and Reports Landing page. Click the Monthly icon in the Page toolbar.    Field
  Description
   METRICS TYPE</description>
@@ -397,21 +397,21 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>User Track Changes</title>
-      <link>https://heathercloward.github.io/map/page_desc/user_track_changes/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/User_Track_Changes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/user_track_changes/</guid>
-      <description>User Track Changes Use this page to [Set up Notifications](../Config/Setup_User_Notifications.htm#Set_up_Notifications_for_Map_Updates).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/User_Track_Changes/</guid>
+      <description>User Track Changes Use this page to [Set up Notifications](../Config/Setup_User_Notifications#Set_up_Notifications_for_Map_Updates).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Select Configuration &amp;gt; User Track Changes in the Navigation pane.           Field Description   USER ID Displays the user name requesting to receive information when changes occur to field mappings, value mappings, or table and rule creation.</description>
     </item>
     
     <item>
       <title>Value Mapping</title>
-      <link>https://heathercloward.github.io/map/page_desc/value_mapping/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/value_mapping/</guid>
-      <description>Value Mapping Use this page to [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Overview.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping/</guid>
+      <description>Value Mapping Use this page to [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Overview).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Value Mapping icon on the Process Area Launch page.    Field  Description
   Auto Map by Description
  Click to automatically map the Target value to a Source value by comparing the legacy description to the Target description.</description>
@@ -419,23 +419,23 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Value Mapping (Config) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/value_mapping_config_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping_Config_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/value_mapping_config_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping_Config_H/</guid>
       <description>Value Mapping (Config) H Value Mapping (Config) V
-Use this page to [Build a Remediation Report](../Use_Cases/Build_a_Remediation_Report.htm).  To access this page:
+Use this page to [Build a Remediation Report](../Use_Cases/Build_a_Remediation_Report).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Select Configuration &amp;gt; Value Mapping (Config) in Navigation pane.           Field Description   Target Lookup Table (Config) Click to open the Target Lookup Table page to update configuration for a check table as needed.</description>
     </item>
     
     <item>
       <title>Value Mapping (Legacy to Target) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/value_mapping_legacy_to_target_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping_Legacy_to_Target_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/value_mapping_legacy_to_target_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping_Legacy_to_Target_H/</guid>
       <description>Value Mapping (Legacy to Target) H Value Mapping (Legacy to Target) V
-Use this page to - [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Overview.htm) - [Value Map Target Fields from Multiple Source Systems](../Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems.htm)  To access this page:
+Use this page to - [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Overview) - [Value Map Target Fields from Multiple Source Systems](../Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems)  To access this page:
  Click dspMigrate in the Navigation pane.
  Click Map in the Context bar.
  Click the Value Mapping icon on the Process Area Launch page.
@@ -444,23 +444,23 @@ Use this page to - [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Ov
     
     <item>
       <title>Value Mapping (Sources) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/value_mapping_sources_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping_Sources_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/value_mapping_sources_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Value_Mapping_Sources_H/</guid>
       <description>Value Mapping (Sources) H Value Mapping (Sources) V
-Use this page to [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Overview.htm).  To access this page:
+Use this page to [Perform Value Mapping](../Use_Cases/Perform_Value_Mapping_Overview).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Value Mapping icon on the Process Area Launch page. Click the Mappings icon for a check table. Click the check table name link in the LOOKUP column on the Field Mappings page next to a mapping with Xref or RuleXref action.</description>
     </item>
     
     <item>
       <title>Wave Gate Metrics (Value Mapping) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/wave_gate_metrics_value_mapping_h/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Wave_Gate_Metrics_Value_Mapping_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/wave_gate_metrics_value_mapping_h/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Wave_Gate_Metrics_Value_Mapping_H/</guid>
       <description>Wave Gate Metrics (Value Mapping) H Wave Gate Metrics (Value Mapping) V
-Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access this page:
+Use this page to [View Metrics](../Use_Cases/View_Metrics_Map).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page. Click the Gate Value Mapping icon on the Metrics and Reports Landing page.    Field
  Description
   NAME
@@ -469,22 +469,22 @@ Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access t
     
     <item>
       <title>Wave Lookup Table Refresh</title>
-      <link>https://heathercloward.github.io/map/page_desc/wave_lookup_table_refresh/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Wave_Lookup_Table_Refresh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/wave_lookup_table_refresh/</guid>
-      <description>Wave Lookup Table Refresh Use this page to [Refresh Target and Legacy Values](../Use_Cases/Refresh_Target_and_Legacy_Values.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Wave_Lookup_Table_Refresh/</guid>
+      <description>Wave Lookup Table Refresh Use this page to [Refresh Target and Legacy Values](../Use_Cases/Refresh_Target_and_Legacy_Values).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Select Configuration &amp;gt; Wave Lookup Table Refresh in Navigation pane.           Field Description   Refresh Target Values Click to refresh values into check tables.   Refresh Legacy Values Click to refresh Legacy Source tables and fields marked as active for the Source and the Source field.</description>
     </item>
     
     <item>
       <title>Wave Process Area Gate Metrics (Field Mapping) H</title>
-      <link>https://heathercloward.github.io/map/page_desc/wave_proc_area_gate_metrics_field_mapping/</link>
+      <link>https://heathercloward.github.io/Map/Page_Desc/Wave_Proc_Area_Gate_Metrics_Field_Mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/page_desc/wave_proc_area_gate_metrics_field_mapping/</guid>
+      <guid>https://heathercloward.github.io/Map/Page_Desc/Wave_Proc_Area_Gate_Metrics_Field_Mapping/</guid>
       <description>Wave Process Area Gate Metrics (Field Mapping) H Wave Process Area Gate Metrics (Field Mapping) V
-Use this page to [View Metrics](../Use_Cases/View_Metrics_Map.htm).  To access this page:
+Use this page to [View Metrics](../Use_Cases/View_Metrics_Map).  To access this page:
  Click dspMigrate in the Navigation pane. Click Map in the Context bar. Click the Metrics icon on the Process Area Launch page. Click theGate Field Mapping icon on the Metrics and Reports Landing page.    Field
  Description
   GATE NAME</description>

@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/collect/page_desc/</link>
+    <link>https://heathercloward.github.io/Collect/Page_Desc/</link>
     <description>Recent content in Pages on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/collect/page_desc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Collect/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Advanced View Builder H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/advanced_view_builder_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Advanced_View_Builder_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/advanced_view_builder_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Advanced_View_Builder_H/</guid>
       <description>Advanced View Builder H Advanced View Builder V
-Use this page to [Build Advanced Views](../Use_Cases/Build_Advanced_Views.htm) and [Create Collect Target Views](../../../Master_Data_Mgmt/dspConduct/Use_Cases/Auto_Generate_Request_related_Objects.htm#Create_Collect_Target_Views) for dspConduct™.  To access this page, select Collect &amp;gt; Tools &amp;gt; Advanced View Builder in Navigation pane.
+Use this page to [Build Advanced Views](../Use_Cases/Build_Advanced_Views) and [Create Collect Target Views](../../../Master_Data_Mgmt/dspConduct/Use_Cases/Auto_Generate_Request_related_Objects#Create_Collect_Target_Views) for dspConduct™.  To access this page, select Collect &amp;gt; Tools &amp;gt; Advanced View Builder in Navigation pane.
          Field Description   Build View Click to create views in the database listed in the Database for View field. Views have the same name as the tables provided in the database listed in the Database for Tables field.</description>
     </item>
     
     <item>
       <title>Bulk Table Schedule Update</title>
-      <link>https://heathercloward.github.io/collect/page_desc/bulk_table_schedule_update/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Bulk_Table_Schedule_Update/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/bulk_table_schedule_update/</guid>
-      <description>Bulk Table Schedule Update Use this page to: - [Clear All Schedules](../Use_Cases/Schedule_Updates_to_Tables.htm#Clear_All_Schedules) - [Update All Schedules](../Use_Cases/Schedule_Updates_to_Tables.htm#Update_All_Schedules)  To access this page, select Collect &amp;gt; Tools &amp;gt; Bulk Table Schedule Update in Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Bulk_Table_Schedule_Update/</guid>
+      <description>Bulk Table Schedule Update Use this page to: - [Clear All Schedules](../Use_Cases/Schedule_Updates_to_Tables#Clear_All_Schedules) - [Update All Schedules](../Use_Cases/Schedule_Updates_to_Tables#Update_All_Schedules)  To access this page, select Collect &amp;gt; Tools &amp;gt; Bulk Table Schedule Update in Navigation pane.
          Field Description   Schedule Target Displays target database where the schedule entries are cleared or updated.   Schedule Source Displays source database where the schedule entries are cleared or updated.</description>
     </item>
     
     <item>
       <title>Column Table List in Source Target</title>
-      <link>https://heathercloward.github.io/collect/page_desc/column_table_list_in_source_target/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Column_Table_List_in_Source_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/column_table_list_in_source_target/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Column_Table_List_in_Source_Target/</guid>
       <description>Column Table List in Source Target Use this page to view the Column Table List in Source Target report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Column Table List in Source Target on the Reports page.     Field Description     COLUMN Displays the column Collect found in the source database that matches the data type conversion being accepted.</description>
     </item>
     
     <item>
       <title>Connection Type Data Conversion H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/connection_type_data_conversion_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Connection_Type_Data_Conversion_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/connection_type_data_conversion_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Connection_Type_Data_Conversion_H/</guid>
       <description>Connection Type Data Conversion H Connection Type Data Conversion V
-Use this page to [Set Up Connection Types](../Config/Set_up_Connection_Types.htm).  To access this page:
+Use this page to [Set Up Connection Types](../Config/Set_up_Connection_Types).  To access this page:
  Select Collect &amp;gt; Administrative &amp;gt; Connection Types in Navigation pane. Click Sources for SQL SERVER Target Connection Type. Click Data Type Conversions.      Field
  Description
   PROCESS ORDER
@@ -58,177 +58,177 @@ Use this page to [Set Up Connection Types](../Config/Set_up_Connection_Types.htm
     
     <item>
       <title>Connection Types H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/connection_types_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Connection_Types_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/connection_types_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Connection_Types_H/</guid>
       <description>Connection Types H Connection Types V
-Use this page to [Set Up Connection Types](../Config/Set_up_Connection_Types.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Connection Types in Navigation pane.
+Use this page to [Set Up Connection Types](../Config/Set_up_Connection_Types).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Connection Types in Navigation pane.
          Field Description   TARGET CONNECTION TYPE Displays the database connection type for the target.   OLE PROVIDER Displays name of OLE settings.   ODBC DRIVER Displays name of driver used in the Windows ODBC setup for the DSN.</description>
     </item>
     
     <item>
       <title>Copy Targets</title>
-      <link>https://heathercloward.github.io/collect/page_desc/copy_targets/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Copy_Targets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/copy_targets/</guid>
-      <description>Copy Targets Use this page to [Copy a Target](../Use_Cases/Copy_a_Target_Collect.htm).  To access this page, select Collect &amp;gt; Tools &amp;gt; Copy Targets in the Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Copy_Targets/</guid>
+      <description>Copy Targets Use this page to [Copy a Target](../Use_Cases/Copy_a_Target_Collect).  To access this page, select Collect &amp;gt; Tools &amp;gt; Copy Targets in the Navigation pane.
          Field Description   Target From Displays a target database where sources (including all tables, rules and indices) are currently configured.   Target To Displays a target database where sources (including all tables, rules and indices) are to be copied.</description>
     </item>
     
     <item>
       <title>DBMoto Table Rules</title>
-      <link>https://heathercloward.github.io/collect/page_desc/dbmoto_table_rules/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/DBMoto_Table_Rules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/dbmoto_table_rules/</guid>
-      <description>DBMoto Table Rules Use this page to [Manage DBMoto® Table Rules](../Use_Cases/Manage_DBMoto_Table_Rules.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; DBMoto Table Rules in Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/DBMoto_Table_Rules/</guid>
+      <description>DBMoto Table Rules Use this page to [Manage DBMoto® Table Rules](../Use_Cases/Manage_DBMoto_Table_Rules).  To access this page, select Collect &amp;gt; Administrative &amp;gt; DBMoto Table Rules in Navigation pane.
          Field Description   TABLE Displays table in the source.   COLUMN Displays column name to include in the rule.   DB MOTO FUNCTION Displays function applied to the rule.   ACTIVE If enabled, table is included in Build Package process when creating a DBMoto® package.</description>
     </item>
     
     <item>
       <title>Daily Summary Metrics</title>
-      <link>https://heathercloward.github.io/collect/page_desc/daily_summary_metrics/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Daily_Summary_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/daily_summary_metrics/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Daily_Summary_Metrics/</guid>
       <description>Daily Summary Metrics Use this page to view the Daily Summary Metrics report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Daily Summary Metrics on the Reports page.     Field Description     DAY Displays the date of the snapshot metrics, for example, 2014-05-26.   EVENT Displays if the job was completed or failed.   TOTAL DOWNLOADS Displays the total count of completed or failed records   TOTAL RUN TIME (MINUTES) Displays the total duration (in minutes) to download the records.</description>
     </item>
     
     <item>
       <title>Data Source Table Columns H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/data_source_table_columns_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Data_Source_Table_Columns_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/data_source_table_columns_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Data_Source_Table_Columns_H/</guid>
       <description>Data Source Table Columns H Data Source Table Columns V
-Use this page to [Modify Configuration of Data Source Table Columns](../Use_Cases/Modify_Configuration_of_Data_Source_Table_Columns.htm).  To access this page:
+Use this page to [Modify Configuration of Data Source Table Columns](../Use_Cases/Modify_Configuration_of_Data_Source_Table_Columns).  To access this page:
  Click Collect &amp;gt; Targets in the Navigation pane. Click Sources for a target. Click Schedule Groups for a source. Click Tables for a schedule group. Click Vertical View for a table. Click General Information tab. Click View Design. Click Column Count for a data source table.</description>
     </item>
     
     <item>
       <title>Data Source Table Create Download SQL H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/data_source_table_create_download_sql_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Data_Source_Table_Create_Download_SQL_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/data_source_table_create_download_sql_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Data_Source_Table_Create_Download_SQL_H/</guid>
       <description>Data Source Table Create Download SQL H Data Source Table Create Download SQL V
-Use this page to [View Configuration of Data Source Table SQL Commands](../Use_Cases/View_Configuration_of_Data_Source_Table_SQL_Commands.htm).  To access this page:
+Use this page to [View Configuration of Data Source Table SQL Commands](../Use_Cases/View_Configuration_of_Data_Source_Table_SQL_Commands).  To access this page:
  Click Collect &amp;gt; Targets on Navigation pane. Click Sources for a target. Click Schedule Groups for a source. Click Tables for a schedule group. Click Vertical View for a table. Click General Information tab. Click View Design. ClickSQL Command for a data source table.</description>
     </item>
     
     <item>
       <title>Data Source Tables H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/data_source_tables_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Data_Source_Tables_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/data_source_tables_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Data_Source_Tables_H/</guid>
       <description>Data Source Tables H Data Source Tables V
-Use this page to [Modify Configuration of Data Source Tables](../Use_Cases/Modify_Configuration_of_Data_Source_Tables.htm).  To access this page:
+Use this page to [Modify Configuration of Data Source Tables](../Use_Cases/Modify_Configuration_of_Data_Source_Tables).  To access this page:
  Click Collect &amp;gt; Targets in the Navigation pane. Click Sources for a target. Click Schedule Groups for a source. Click Tables for a schedule group. Click Vertical View for a table. Click General Information tab. Click View Design.           Field Description   TABLE Displays table in source.</description>
     </item>
     
     <item>
       <title>Detail List of Metrics</title>
-      <link>https://heathercloward.github.io/collect/page_desc/detail_list_of_metrics/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Detail_List_of_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/detail_list_of_metrics/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Detail_List_of_Metrics/</guid>
       <description>Detail List of Metrics Use this page to view the Detail List of Metrics report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Detail List of Metrics on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Duration Warning List</title>
-      <link>https://heathercloward.github.io/collect/page_desc/duration_warning_list/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Duration_Warning_List/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/duration_warning_list/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Duration_Warning_List/</guid>
       <description>Duration Warning List Use this page to view the Duration Warning List report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Duration Warning List on the Reports page.     Field Description     DURATION TIME Displays the amount of time (in seconds) the table took to download from the source.   TARGET Displays the database target where the tables are refreshed with source data.</description>
     </item>
     
     <item>
       <title>Error List in Metrics</title>
-      <link>https://heathercloward.github.io/collect/page_desc/error_list_in_metrics/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Error_List_in_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/error_list_in_metrics/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Error_List_in_Metrics/</guid>
       <description>Error List in Metrics Use this page to view the Error List in Metrics report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Error List in Metrics on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Group Import</title>
-      <link>https://heathercloward.github.io/collect/page_desc/group_import/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Group_Import/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/group_import/</guid>
-      <description>Group Import Use this page to [Import System Type Group Tables](../Use_Cases/Import_Group_Tables.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Group_Import/</guid>
+      <description>Group Import Use this page to [Import System Type Group Tables](../Use_Cases/Import_Group_Tables).  To access this page:
  Click Collect &amp;gt; Targets on Navigation pane. Click Sources icon for a target. Select a source. Click Import Group Tables on the Page toolbar.           Field Description   System Type Group ID Displays a System Type group, a logical grouping of tables such as Customer or Vendor, to import as a source.</description>
     </item>
     
     <item>
       <title>Job Detail H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/job_detail_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Job_Detail_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/job_detail_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Job_Detail_H/</guid>
       <description>Job Detail H Job Detail V
-Use this page to [View Summary](../Use_Cases/View_Summary.htm).  To access this page:
+Use this page to [View Summary](../Use_Cases/View_Summary).  To access this page:
  Select Collect &amp;gt; Summary on Navigation pane. Click Records.           Field Description   MONITOR ID Displays the unique identifier for monitoring record.   STATUS Displays current status of the monitored job.   MESSAGE Displays message returned when the job completed.</description>
     </item>
     
     <item>
       <title>Job Summary</title>
-      <link>https://heathercloward.github.io/collect/page_desc/job_summary/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Job_Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/job_summary/</guid>
-      <description> Job Summary Use this page to [View Summary](../Use_Cases/View_Summary.htm).  To access this page, select Collect &amp;gt; Summary on Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Job_Summary/</guid>
+      <description> Job Summary Use this page to [View Summary](../Use_Cases/View_Summary).  To access this page, select Collect &amp;gt; Summary on Navigation pane.
          Field Description   STATUS Displays current status of the job.   Records Click to open the Job Detail page to view job records associated with the status.    </description>
     </item>
     
     <item>
       <title>Monitor (Downloads) H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/monitor_downloads_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Monitor_Downloads_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/monitor_downloads_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Monitor_Downloads_H/</guid>
       <description>Monitor (Downloads) H Monitor (Downloads) V
-Use this page to: - [Monitor table refresh activity](../Use_Cases/View_Summary.htm) - [View Summary](../Use_Cases/View_Summary.htm)  To access this page:
+Use this page to: - [Monitor table refresh activity](../Use_Cases/View_Summary) - [View Summary](../Use_Cases/View_Summary)  To access this page:
  SelectCollect &amp;gt; Summary &amp;gt; Target Summary in the Navigation pane. Click the Refreshing Tables link for the table that is currently being refreshed.           Field Description   JOB ID Displays the identifier associated with the job that refreshed the tables.</description>
     </item>
     
     <item>
       <title>Next Schedule Run Times</title>
-      <link>https://heathercloward.github.io/collect/page_desc/next_schedule_run_times/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Next_Schedule_Run_Times/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/next_schedule_run_times/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Next_Schedule_Run_Times/</guid>
       <description>Next Schedule Run Times Use this page to view the Next Schedule Run Times report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Next Schedule Run Times on the Reports page.     Field Description     NEXT SCHEDULE RUN DATE Displays the next date and time when the refresh process is scheduled to run for the reported table.</description>
     </item>
     
     <item>
       <title>Reports</title>
-      <link>https://heathercloward.github.io/collect/page_desc/reports/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Reports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/reports/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Reports/</guid>
       <description> Reports Use this page to access installed Collect reports.  To access this page, select Collect &amp;gt; Reports in the Navigation pane.
          Field Description   PRIORITY Displays the priority in which the Collect reports are displayed.   Report Displays the reports available in Collect.    </description>
     </item>
     
     <item>
       <title>Retention Expiration Email</title>
-      <link>https://heathercloward.github.io/collect/page_desc/retention_expiration_email/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Retention_Expiration_Email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/retention_expiration_email/</guid>
-      <description>Retention Expiration Email Use this page to [Update the Retention Expiration Email](../../Common/Use_Cases/Update%20the%20Retention%20Expiration%20Email.htm).  NOTE: This Collect page is accessed via Common.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Retention_Expiration_Email/</guid>
+      <description>Retention Expiration Email Use this page to [Update the Retention Expiration Email](../../Common/Use_Cases/Update%20the%20Retention%20Expiration%20Email).  NOTE: This Collect page is accessed via Common.
 To access this page in Common:
  Select Configuration &amp;gt; Modules &amp;gt; Parameters – Collect in the Navigation pane. Click the Workflow Settings tab. Click the Retention Warning Email icon.    Field
  Description
@@ -238,22 +238,22 @@ To access this page in Common:
     
     <item>
       <title>SAP Text List H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/sap_text_list_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/SAP_Text_List_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/sap_text_list_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/SAP_Text_List_H/</guid>
       <description>SAP Text List H SAP Text List V
-Use this page to [Manage the SAP Text List.](../Use_Cases/Manage_SAP_Text_List.htm)  To access this page, select Collect &amp;gt; Administrative &amp;gt; SAP Text List in Navigation pane.
+Use this page to [Manage the SAP Text List.](../Use_Cases/Manage_SAP_Text_List)  To access this page, select Collect &amp;gt; Administrative &amp;gt; SAP Text List in Navigation pane.
          Field Description   TABLE Displays name of the SAP Text table being managed.   TEXT OBJECT Displays the object (TDOBJECT) for the SAP Text table. If blank, all objects are downloaded.</description>
     </item>
     
     <item>
       <title>Schedule Groups</title>
-      <link>https://heathercloward.github.io/collect/page_desc/schedule_groups/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Schedule_Groups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/schedule_groups/</guid>
-      <description>Schedule Groups Use this page to [Set up Schedule Groups](../Config/Set_Up_Schedule_Groups.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Schedule Groups in Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Schedule_Groups/</guid>
+      <description>Schedule Groups Use this page to [Set up Schedule Groups](../Config/Set_Up_Schedule_Groups).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Schedule Groups in Navigation pane.
     Field
  Description
   SCHEDULE GROUP
@@ -263,42 +263,42 @@ NOTE: If building a group with a DBMoto package the following applies:  If Sche
     
     <item>
       <title>Scheduled Used Summary</title>
-      <link>https://heathercloward.github.io/collect/page_desc/scheduled_used_summary/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Scheduled_Used_Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/scheduled_used_summary/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Scheduled_Used_Summary/</guid>
       <description>Scheduled Used Summary Use this page to view the Scheduled Used Summary report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Scheduled Used Summary on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Schedules in Sources and Tables</title>
-      <link>https://heathercloward.github.io/collect/page_desc/schedules_in_sources_and_tables/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Schedules_in_Sources_and_Tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/schedules_in_sources_and_tables/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Schedules_in_Sources_and_Tables/</guid>
       <description>Schedules in Sources and Tables Use this page to view the Schedules in Sources and Tables report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Schedules in Sources and Tables on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Source Connection Status</title>
-      <link>https://heathercloward.github.io/collect/page_desc/source_connection_status/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Source_Connection_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/source_connection_status/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Source_Connection_Status/</guid>
       <description>Source Connection Status Use this page to view the Source Connection Status report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Source Connection Status on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Source Connection Types H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/source_connection_types_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Source_Connection_Types_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/source_connection_types_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Source_Connection_Types_H/</guid>
       <description>Source Connection Types H Source Connection Types V
-Use this page to [Set up Connection Types](../Config/Set_up_Connection_Types.htm).  To access this page:
+Use this page to [Set up Connection Types](../Config/Set_up_Connection_Types).  To access this page:
  Select Collect &amp;gt; Administrative &amp;gt; Connection Types in Navigation pane. Click Sources for a Target Connection Type of SQLSERVER.      Field
  Description
   SOURCE CONNECTION TYPE
@@ -308,33 +308,33 @@ NOTE: Collect only supports SQL Server Source databases.</description>
     
     <item>
       <title>Table (Indices) H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_indices_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Indices_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_indices_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Indices_H/</guid>
       <description>Table (Indices) H Table (Indices) V
-Use this page to [Create Indices for Tables](../Use_Cases/Add_Rules_and_Indices_to_Tables.htm#Create_Indices_for_Tables).  To access this page:
+Use this page to [Create Indices for Tables](../Use_Cases/Add_Rules_and_Indices_to_Tables#Create_Indices_for_Tables).  To access this page:
  Select Tables on the Navigation pane. Click the Indices icon for a table.           Field Description   Build Index Click to schedule the rebuild process for all indices in the Target Source table index. Only keys stored in the table are rebuilt.</description>
     </item>
     
     <item>
       <title>Table (Rfc Options)</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_rfc_options/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Rfc_Options/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_rfc_options/</guid>
-      <description>Table (Rfc Options) Use this page to [Configure RFC Options.](../Use_Cases/Configure_RFC_Options.htm)  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Rfc_Options/</guid>
+      <description>Table (Rfc Options) Use this page to [Configure RFC Options.](../Use_Cases/Configure_RFC_Options)  To access this page:
  Click Collect &amp;gt; Tables in Navigation pane. Click Vertical View for a table where the Package Type is BOA RFC using Options. Click Action tab. Click Options.           Field Description   PRIORITY Displays sort order of fields. Default value is 10.   FIELD Displays name of field where values are being filtered.</description>
     </item>
     
     <item>
       <title>Table (Rule) H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_rule_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Rule_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_rule_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Rule_H/</guid>
       <description>Table (Rule) H Table (Rule) V
-Use this page to [Register Rules to Tables](../Use_Cases/Add_Rules_and_Indices_to_Tables.htm#Register_Rules_to_Tables).  To access this page:
+Use this page to [Register Rules to Tables](../Use_Cases/Add_Rules_and_Indices_to_Tables#Register_Rules_to_Tables).  To access this page:
  Click Collect &amp;gt; Targets in Navigation pane. Click Sources for target. Click Tables for source. Click Rules for table.      Field
  Description
   PRIORITY
@@ -345,120 +345,120 @@ Use this page to [Register Rules to Tables](../Use_Cases/Add_Rules_and_Indices_t
     
     <item>
       <title>Table Download Task List</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_download_task_list/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Download_Task_List/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_download_task_list/</guid>
-      <description>Table Download Task List Use this page to [Monitor Table Download Process](../Use_Cases/Monitor_Table_Download_Process.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Download_Task_List/</guid>
+      <description>Table Download Task List Use this page to [Monitor Table Download Process](../Use_Cases/Monitor_Table_Download_Process).  To access this page:
  Click Collect &amp;gt; Tables in the Navigation pane. Build the download package for the table by either clicking Build and Refresh or Build Package on the Page toolbar. Click Vertical View for the table. Click General Information tab. Click View Job Tasks.           Field Description   JOB ID Displays the unique identifier associated with the job that ran the package.</description>
     </item>
     
     <item>
       <title>Table Errors H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_errors_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Errors_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_errors_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Errors_H/</guid>
       <description>Table Errors H Table Errors V (All Tabs)
-Use this page to [view when an error occurred with table downloads](../Use_Cases/View_Summary.htm).  To access this page:
+Use this page to [view when an error occurred with table downloads](../Use_Cases/View_Summary).  To access this page:
  Select Summary &amp;gt; Target Summary in the Navigation pane. Click the ERROR TABLES link.           Field Description   TABLE Displays table where error exists.   PACKAGE TYPE Displays package type (to refresh target table with source data) for erroneous table.</description>
     </item>
     
     <item>
       <title>Table Index Column List in Source and Target</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_index_column_list_in_source_and_target/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Index_Column_List_in_Source_and_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_index_column_list_in_source_and_target/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Index_Column_List_in_Source_and_Target/</guid>
       <description>Table Index Column List in Source and Target Use this page to view the Table Index Column List in Source and Target report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click List Index Column List in Source and Target on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.</description>
     </item>
     
     <item>
       <title>Table Index List in Source and Target</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_index_list_in_source_and_target/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Index_List_in_Source_and_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_index_list_in_source_and_target/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Index_List_in_Source_and_Target/</guid>
       <description>Table Index List in Source and Target Use this page to view the Table Index List in Source and Target report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click List Index List in Source and Target on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Table List in Source and Target</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_list_in_source_and_target/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_List_in_Source_and_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_list_in_source_and_target/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_List_in_Source_and_Target/</guid>
       <description>Table List in Source and Target Use this page to view the Table List in Source and Target report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click List in Source and Target on the Reports page.     Field Description     TABLE Displays the database target where the tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Table Rule List in Source and Target</title>
-      <link>https://heathercloward.github.io/collect/page_desc/table_rule_list_in_source_and_target/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Table_Rule_List_in_Source_and_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/table_rule_list_in_source_and_target/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Table_Rule_List_in_Source_and_Target/</guid>
       <description>Table Rule List in Source and Target Use this page to view the Table Rule List in Source and Target report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click List Rule List in Source and Target on the Reports page.     Field Description     TABLE Displays the table name in the source database and target database.   FIELDNAME Displays the name of the field that is impacted by the action.</description>
     </item>
     
     <item>
       <title>Tables H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/tables_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Tables_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/tables_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Tables_H/</guid>
       <description>Tables H Tables V (All Tabs)
-Use this page to: - [Set up Schedule Groups](../Config/Set_Up_Schedule_Groups.htm) - [Manually Register Tables to Source](../Use_Cases/Manually_Register_Tables_to_Source.htm) - [Schedule Table Refresh](../Use_Cases/Schedule_Updates_to_Tables.htm) - [Set up Download with CranPort Package](../Use_Cases/Set_Up_Table_Download_with_a_CranPort_Package.htm#Set_up_Download_with_CranPort_Package) - [Set up Download with ManualCranPort Package](../Use_Cases/Set_Up_Table_Download_with_a_CranPort_Package.htm#Set_up_Download_with_ManualCranPort_Package) - [Download sdb Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map.htm) - [Download dgSAP Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map.htm)  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.</description>
+Use this page to: - [Set up Schedule Groups](../Config/Set_Up_Schedule_Groups) - [Manually Register Tables to Source](../Use_Cases/Manually_Register_Tables_to_Source) - [Schedule Table Refresh](../Use_Cases/Schedule_Updates_to_Tables) - [Set up Download with CranPort Package](../Use_Cases/Set_Up_Table_Download_with_a_CranPort_Package#Set_up_Download_with_CranPort_Package) - [Set up Download with ManualCranPort Package](../Use_Cases/Set_Up_Table_Download_with_a_CranPort_Package#Set_up_Download_with_ManualCranPort_Package) - [Download sdb Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map) - [Download dgSAP Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map)  NOTE: Bulk Execution has been enabled on this page. Refer to Use Bulk Execution for more information.</description>
     </item>
     
     <item>
       <title>Target Connection Status</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_connection_status/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Connection_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_connection_status/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Connection_Status/</guid>
       <description>Target Connection Status Use this page to view the Target Connection Status report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Connection Status on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   TEST CONNECTION STATUS Displays the current status of the last test connection.</description>
     </item>
     
     <item>
       <title>Target Daily Summary</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_daily_summary/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Daily_Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_daily_summary/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Daily_Summary/</guid>
       <description>Target Daily Summary This chart displays the duration of time in seconds it took to refresh all active tables from all registered data sources into a target database for each day. Hover a cursor over a data point and the date, target name and number of seconds display .On this chart, a user can view daily fluctuations in duration of table refreshes that may be caused by changes in system resources, tables being added or deleted from the refresh, or other factors</description>
     </item>
     
     <item>
       <title>Target Monthly Summary</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_monthly_summary/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Monthly_Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_monthly_summary/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Monthly_Summary/</guid>
       <description>Target Monthly Summary This chart displays the duration of time in seconds it took to refresh all active tables from all registered data sources for a target database for each month. On this chart, a user can view monthly fluctuations in duration of table refreshes that may be caused by changes in system resources, tables being added or deleted from the refresh, or other factors
 Hover a cursor over a data point and the month, target name and number of seconds display.</description>
     </item>
     
     <item>
       <title>Target Record Counts</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_record_counts/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Record_Counts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_record_counts/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Record_Counts/</guid>
       <description>Target Record Counts Use this page to view the Target Source Table Counts report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Source Table Counts on the Reports page.     Field Description     TARGET Displays the database target where the tables are refreshed with source data.   RECORD COUNT Displays the total number of records across all tables in the target.</description>
     </item>
     
     <item>
       <title>Target Source Daily Metric Chart</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_daily_metric_chart/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Daily_Metric_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_daily_metric_chart/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Daily_Metric_Chart/</guid>
       <description>Target Source Daily Metric Chart This chart displays the number of records in the selected source that were refreshed each day.
 Refer to View Dashboard in Collect for general information about how data displays on dashboards.
 To access the chart in Collect:
@@ -470,31 +470,31 @@ Click Targets in the Navigation pane and click Sources for a target.
     
     <item>
       <title>Target Source Group</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_group/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_group/</guid>
-      <description>Target Source Group Use this page to [Build and Refresh Tables for a Schedule Group](../Use_Cases/Build_and_Refresh_Tables_for_a_Schedule_Group.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Group/</guid>
+      <description>Target Source Group Use this page to [Build and Refresh Tables for a Schedule Group](../Use_Cases/Build_and_Refresh_Tables_for_a_Schedule_Group).  To access this page:
  Click Collect &amp;gt; Targets in the Navigation pane. Click Sources for a target. Click Schedule Groups for a Target Source.           Field Description   Build Package Click to build a package to download active tables in the schedule group from the source database.</description>
     </item>
     
     <item>
       <title>Target Source Metrics Charts</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_metric_charts/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Metric_Charts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_metric_charts/</guid>
-      <description>Target Source Metrics Charts Use this page to view details related to the [Target Source Daily Metric Chart](Target_Source_Daily_Metric_Chart.htm), [Target Source Weekly Metric Chart](Target_Source_Weekly_Metric_Chart.htm) and [Target Source Monthly Metric Chart](Target_Source_Monthly_Metric_Chart.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Metric_Charts/</guid>
+      <description>Target Source Metrics Charts Use this page to view details related to the [Target Source Daily Metric Chart](Target_Source_Daily_Metric_Chart), [Target Source Weekly Metric Chart](Target_Source_Weekly_Metric_Chart) and [Target Source Monthly Metric Chart](Target_Source_Monthly_Metric_Chart).  To access this page:
  Select Collect &amp;gt; Targets in the Navigation pane. Click the Metrics icon for a target.  OR
  Select Collect &amp;gt; Targets in the Navigation pane. Click the Sources icon for a target. Click the Metrics icon for a source.</description>
     </item>
     
     <item>
       <title>Target Source Monthly Metric Chart</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_monthly_metric_chart/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Monthly_Metric_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_monthly_metric_chart/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Monthly_Metric_Chart/</guid>
       <description>Target Source Monthly Metric Chart This chart displays the number of records in the selected source that were refreshed during the month.
 Monthly metrics cover a calendar month.
 Refer to View Dashboard in Collect for general information about how data displays on dashboards.
@@ -506,93 +506,93 @@ Click Targets in the Navigation pane and click Sources for a target.</descriptio
     
     <item>
       <title>Target Source Record Counts</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_record_counts/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Record_Counts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_record_counts/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Record_Counts/</guid>
       <description>Target Source Record Counts Use this page to view the Target Source Record Counts report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Source Record Counts on the Reports page.     Field Description     TARGET Displays the database target where the tables are refreshed with source data.   SOURCE Displays thbe database where the data is refreshed from and stobred in the target.</description>
     </item>
     
     <item>
       <title>Target Source Summary Metrics</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_summary_metrics/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Summary_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_summary_metrics/</guid>
-      <description>Target Source Summary Metrics Use this page to view details related to the [Target Source Daily Metric Chart](Target_Source_Daily_Metric_Chart.htm), [Target Source Weekly Metric Chart](Target_Source_Weekly_Metric_Chart.htm) and [Target Source Monthly Metric Chart](Target_Source_Monthly_Metric_Chart.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Summary_Metrics/</guid>
+      <description>Target Source Summary Metrics Use this page to view details related to the [Target Source Daily Metric Chart](Target_Source_Daily_Metric_Chart), [Target Source Weekly Metric Chart](Target_Source_Weekly_Metric_Chart) and [Target Source Monthly Metric Chart](Target_Source_Monthly_Metric_Chart).  To access this page:
  Select Collect &amp;gt; Targets in the Navigation pane. Click the Metrics icon for a target. Click the Details icon.  OR
  Select Collect &amp;gt; Targets in the Navigation pane. Click the Sources icon for a target.</description>
     </item>
     
     <item>
       <title>Target Source Table Column Encryption</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_table_column_encryption/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Column_Encryption/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_table_column_encryption/</guid>
-      <description>Target Source Table Column Encryption Use this page to [Encrypt Columns](../Use_Cases/Encrypt_Columns.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Column_Encryption/</guid>
+      <description>Target Source Table Column Encryption Use this page to [Encrypt Columns](../Use_Cases/Encrypt_Columns).  To access this page:
  Create encryption key in Common &amp;gt; Configuration &amp;gt; Modules &amp;gt; Keys. Refer to Create a Secure Key for more information. Return to Collect. Click Tables in Navigation pane. Click Vertical View for a table. Click Advanced Settings tab. Click Encrypted Columns.           Field Description   COLUMN Displays column within the table.</description>
     </item>
     
     <item>
       <title>Target Source Table Counts</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_table_counts/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Counts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_table_counts/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Counts/</guid>
       <description>Target Source Table Counts Use this page to view the Target Source Table Counts report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Source Table Counts on the Reports page.     Field Description     TARGET Displays the database target where the tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Target Source Table Download</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_table_download/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_table_download/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Download/</guid>
       <description>Target Source Table Download Use this page to view the Target Source Table Download report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Source Table Download on the Reports page.     Field Description     TARGET Displays the database target where the tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Target Source Table Errors</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_table_errors/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Errors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_table_errors/</guid>
-      <description>Target Source Table Errors Use this page to [View Collect Reports](../Use_Cases/View_Collect_Reports.htm).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Errors/</guid>
+      <description>Target Source Table Errors Use this page to [View Collect Reports](../Use_Cases/View_Collect_Reports).  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Source Table Errors on the Reports page.     Field Description     TARGET Displays the database target where the tables are refreshed with source data.   SOURCE Displays the database where the data is refreshed from and stored in the target.</description>
     </item>
     
     <item>
       <title>Target Source Table Index Columns</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_table_index_columns/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Index_Columns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_table_index_columns/</guid>
-      <description>Target Source Table Index Columns Use this page to [Create Indices for Tables](../Use_Cases/Add_Rules_and_Indices_to_Tables.htm#Create_Indices_for_Tables).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Index_Columns/</guid>
+      <description>Target Source Table Index Columns Use this page to [Create Indices for Tables](../Use_Cases/Add_Rules_and_Indices_to_Tables#Create_Indices_for_Tables).  To access this page:
  Select Tables om the Navigation pane. Click the Indices icon for a table. Click Vertical View. Click the Columns icon.           Field Description   INDEX ID Displays name of index.   COLUMN Displays column for table index.   COLUMN ORDER Displays order column displays in the table index.</description>
     </item>
     
     <item>
       <title>Target Source Table Job Group</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_table_job_group/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Job_Group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_table_job_group/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Table_Job_Group/</guid>
       <description>Target Source Table Job Group Use this page to view the Target Source Table Job Group report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target Source Table Job Group on the Reports page.     Field Description     SCHEDULE GROUP Displays the unique name of the schedule group.   TARGET Displays the database target that contains the table in the schedule group.</description>
     </item>
     
     <item>
       <title>Target Source Tables H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_tables/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Tables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_tables/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Tables/</guid>
       <description>Target Source Tables H Target Source Tables V (All Tabs)
-Use this page to [Build and Refresh Tables for a Schedule Group](../Use_Cases/Build_and_Refresh_Tables_for_a_Schedule_Group.htm).  To access this page:
+Use this page to [Build and Refresh Tables for a Schedule Group](../Use_Cases/Build_and_Refresh_Tables_for_a_Schedule_Group).  To access this page:
  Click Collect &amp;gt; Targets in Navigation pane. Click Sources for target. Click Tables for source. Click the Tables icon for a schedule group.      Field
  Description
   Build And Refresh
@@ -601,10 +601,10 @@ Use this page to [Build and Refresh Tables for a Schedule Group](../Use_Cases/Bu
     
     <item>
       <title>Target Source Weekly Metric Chart</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_source_weekly_metric_chart/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Weekly_Metric_Chart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_source_weekly_metric_chart/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Source_Weekly_Metric_Chart/</guid>
       <description>Target Source Weekly Metric Chart This chart displays the number of records in the selected source that were refreshed during a week.
 Weekly metrics cover a calendar week (Sunday to Saturday).
 Refer to View Dashboard in Collect for general information about how data displays on dashboards.
@@ -616,41 +616,41 @@ Click Targets in the Navigation pane and click Sources for a target.</descriptio
     
     <item>
       <title>Target Sources H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_sources_h_collect/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Sources_H_Collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_sources_h_collect/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Sources_H_Collect/</guid>
       <description>Target Sources H Target Sources V (All Tabs)
-Use this page to: - [Register Sources to Target](../Use_Cases/Register_and_Use_Sources.htm#Register_Sources_to_Target) - [Configure Source for SAP Data Services](../Use_Cases/Register_and_Use_Sources.htm#Configure_Source_for_SAP_Data_Services) - [Schedule Source Refresh](../Use_Cases/Refresh_Overview.htm#Schedule_Source_Refresh) - [Create DBMoto® Source Connections](../Config/Create_DBMoto_Source_Connections.htm) - [Download sdb Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map.htm) - [Download dgSAP Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map.htm)  To access this page:
+Use this page to: - [Register Sources to Target](../Use_Cases/Register_and_Use_Sources#Register_Sources_to_Target) - [Configure Source for SAP Data Services](../Use_Cases/Register_and_Use_Sources#Configure_Source_for_SAP_Data_Services) - [Schedule Source Refresh](../Use_Cases/Refresh_Overview#Schedule_Source_Refresh) - [Create DBMoto® Source Connections](../Config/Create_DBMoto_Source_Connections) - [Download sdb Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map) - [Download dgSAP Tables in Collect](../../../Migration/Map/Use_Cases/Download_Tables_Map)  To access this page:
  Click Collect &amp;gt; Targets in the Navigation pane. Click the Sources icon for a Target.    Field</description>
     </item>
     
     <item>
       <title>Target Sources – DataServices Connection</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_sources_data_services_connection/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Sources_Data_Services_Connection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_sources_data_services_connection/</guid>
-      <description>Target Sources – DataServices Connection Use this page to [configure sources for SAP Data Services](../Use_Cases/Register_and_Use_Sources.htm#Configure_Source_for_SAP_Data_Services).  To access this page:
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Sources_Data_Services_Connection/</guid>
+      <description>Target Sources – DataServices Connection Use this page to [configure sources for SAP Data Services](../Use_Cases/Register_and_Use_Sources#Configure_Source_for_SAP_Data_Services).  To access this page:
  Click Collect &amp;gt; Targets in the Navigation pane. Click the Sources icon for a Target. Click Vertical View for a Source. Click the Advanced Settings tab. Click Connection Settings.  Field available depends on the Data Services Connection Type selected on the Vertical View of the Target Sources page:</description>
     </item>
     
     <item>
       <title>Target Summary</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target-summary/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target-Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target-summary/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target-Summary/</guid>
       <description>Target Summary Use this page to view details about target table downloads and when monitoring the table download process.  To access this page, select Collect &amp;gt; Summary &amp;gt; Target Summary in the Navigation pane.
          Field Description   TARGET Displays database target where tables are refreshed with source data. Click the target name link to open the Targets page with the selected target displayed.</description>
     </item>
     
     <item>
       <title>Target Table Status</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_table_status/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Table_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_table_status/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Table_Status/</guid>
       <description>Target Table Status This chart displays the number of active tables by refresh status for each target.
 Targets are destination databases (registered as data sources in the platform) where tables are refreshed with source data using Collect. Source data can also be refreshed into a source database (.sdb), so an sdb displays as a target in the x axis on this chart as well. 
 Status includes:
@@ -659,31 +659,31 @@ Status includes:
     
     <item>
       <title>Target User Access</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_user_access/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_User_Access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_user_access/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_User_Access/</guid>
       <description>Target User Access Use this page to view the Target User Access report.  To access this page:
  Select Collect &amp;gt; Reports in the Navigation pane. Click Target User Access on the Reports page.     Field Description     TARGET Displays the database target where tables are refreshed with source data.   NAME Displays the name of the user who has access to the target.</description>
     </item>
     
     <item>
       <title>Target Weekly Summary</title>
-      <link>https://heathercloward.github.io/collect/page_desc/target_weekly_summary/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Target_Weekly_Summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/target_weekly_summary/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Target_Weekly_Summary/</guid>
       <description>Target Weekly Summary This chart displays the duration of time in seconds it took to refresh all active tables from all registered data sources for a target database for each week. Hover a cursor over a data point and the week, target name and number of seconds display. On this chart, a user can view weekly fluctuations in duration of table refreshes that may be caused by changes in system resources, tables being added or deleted from the refresh, or other factors</description>
     </item>
     
     <item>
       <title>Targets H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/targets_h_collect/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Targets_H_Collect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/targets_h_collect/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Targets_H_Collect/</guid>
       <description>Targets H Targets V
-Use this page to [Register Targets](../Use_Cases/Register_and_Use_Targets.htm#Register_Targets).  To access this page, click Collect &amp;gt; Targets in Navigation pane.
+Use this page to [Register Targets](../Use_Cases/Register_and_Use_Targets#Register_Targets).  To access this page, click Collect &amp;gt; Targets in Navigation pane.
   Field
  Description
   Test Connection
@@ -692,31 +692,31 @@ Use this page to [Register Targets](../Use_Cases/Register_and_Use_Targets.htm#Re
     
     <item>
       <title>View Build Skip SPRAS Table List</title>
-      <link>https://heathercloward.github.io/collect/page_desc/view_build_skip_spras_table_list/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/View_Build_Skip_SPRAS_Table_List/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/view_build_skip_spras_table_list/</guid>
-      <description>View Build Skip SPRAS Table List Use this page to [Manage the View Build Skip SPRAS Table List](../Use_Cases/View_Build_Skip_SPRAS_Table_List.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; View Build Skip SPRAS Table List in Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/View_Build_Skip_SPRAS_Table_List/</guid>
+      <description>View Build Skip SPRAS Table List Use this page to [Manage the View Build Skip SPRAS Table List](../Use_Cases/View_Build_Skip_SPRAS_Table_List).  To access this page, select Collect &amp;gt; Administrative &amp;gt; View Build Skip SPRAS Table List in Navigation pane.
          Field Description   TABLE NAME Displays table to include on the SPRAS filters in Build View process.   DSP SUPPLIED If enabled, this content is delivered content provided by BackOffice.</description>
     </item>
     
     <item>
       <title>Workflow Download Failures H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/workflow_download_failures_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Workflow_Download_Failures_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/workflow_download_failures_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Workflow_Download_Failures_H/</guid>
       <description>Workflow Download Failures H Workflow Download Failures V
-Use this page to [View Workflow Download Failures](../Use_Cases/View_Workflow_Download_Failures.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Workflow Download Failures in the Navigation pane.
+Use this page to [View Workflow Download Failures](../Use_Cases/View_Workflow_Download_Failures).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Workflow Download Failures in the Navigation pane.
          Field Description   TARGET Displays target database where the download failure occurred.   SOURCE Displays source database where the download failure occurred.   TABLE Displays table name where the download failure occurred.</description>
     </item>
     
     <item>
       <title>Workflow Summary History H</title>
-      <link>https://heathercloward.github.io/collect/page_desc/workflow_summary_history_h/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Workflow_Summary_History_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/workflow_summary_history_h/</guid>
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Workflow_Summary_History_H/</guid>
       <description>Workflow Summary History H Workflow Summary History V
 Use this page to review who is receiving workflow emails.  To access this page, select Collect &amp;gt; Administrative &amp;gt; Workflow Summary History in the Navigation pane.
          Field Description   USER NAME Displays user who received the summary workflow email.   WORKFLOWED BY Displays name of job that ran the workflow.</description>
@@ -724,11 +724,11 @@ Use this page to review who is receiving workflow emails.  To access this page, 
     
     <item>
       <title>Workflow Summary User Settings</title>
-      <link>https://heathercloward.github.io/collect/page_desc/workflow_summary_user_settings/</link>
+      <link>https://heathercloward.github.io/Collect/Page_Desc/Workflow_Summary_User_Settings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/collect/page_desc/workflow_summary_user_settings/</guid>
-      <description>Workflow Summary User Settings Use this page to [Configure Workflow Summary User Settings](../Use_Cases/Configure_Workflow_Summary_User_Settings.htm).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Workflow Summary User Settings in the Navigation pane.
+      <guid>https://heathercloward.github.io/Collect/Page_Desc/Workflow_Summary_User_Settings/</guid>
+      <description>Workflow Summary User Settings Use this page to [Configure Workflow Summary User Settings](../Use_Cases/Configure_Workflow_Summary_User_Settings).  To access this page, select Collect &amp;gt; Administrative &amp;gt; Workflow Summary User Settings in the Navigation pane.
   Field
  Description
   TARGET

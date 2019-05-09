@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/dspcompose/config/</link>
+    <link>https://heathercloward.github.io/dspCompose/Config/</link>
     <description>Recent content in Configuration on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/dspcompose/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/dspCompose/Config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Add a Global Role</title>
-      <link>https://heathercloward.github.io/dspcompose/config/add_a_global_role/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Add_a_Global_Role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/add_a_global_role/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Add_a_Global_Role/</guid>
       <description>Add a Global Role If a user creates a global role and selects the Auto Copy option, the role will be added to any template created from that point forward, but will not be added to already existing templates.
 To create a global role:
  Select Configuration &amp;gt; Roles on the Navigation pane.
@@ -26,30 +26,30 @@ View the field descriptions for the Roles page
     
     <item>
       <title>Add Email Addresses for External Users</title>
-      <link>https://heathercloward.github.io/dspcompose/config/add_email_addresses_for_external_users/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Add_Email_Addresses_for_External_Users/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/add_email_addresses_for_external_users/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Add_Email_Addresses_for_External_Users/</guid>
       <description>Add Email Addresses for External Users External users, such as those that submit emails for external request scenarios or those that are assigned to the External Data role, may not have access to dspCompose™ or the server hosting the platform. These users do not have user accounts in the platform.
 NOTE: These external users must still have email addresses registered in dspCompose™ to be assigned as external contacts for external request scenarios or to be assigned as contacts for External Data roles.</description>
     </item>
     
     <item>
       <title>Add Stored Credentials as a User on a Page in Integrate or dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/config/add_stored_credentials_as_a_user_on_a_page_in_integrate_or_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Add_Stored_Credentials_as_a_User_on_a_Page_in_Integrate_or_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/add_stored_credentials_as_a_user_on_a_page_in_integrate_or_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Add_Stored_Credentials_as_a_User_on_a_Page_in_Integrate_or_dspCompose/</guid>
       <description>Add Stored Credentials as a User on a Page in Integrate or dspCompose™ Credentials allow users to add and maintain their user name and password for a data source where data is to be posted or where BDC and GUI Scripts are recorded. Changes made to target system data can be tracked to this user.
 Before performing this task, the Template Administrator must add a template. Refer to Create a BDC Script Template and Create a GUI Script Template in dspCompose™ or Manage Templates in Integrate for more information.</description>
     </item>
     
     <item>
       <title>Add Users to dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/config/add_users_to_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Add_Users_to_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/add_users_to_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Add_Users_to_dspCompose/</guid>
       <description>Add Users to dspCompose™ Users must also be granted access to dspCompose™ from within the component.
 To register a user in dspCompose™:
  Select Configuration &amp;gt; Users from Navigation pane.
@@ -61,20 +61,20 @@ NOTE: The User ID list box displays all users registered to System Administratio
     
     <item>
       <title>Assign a Catalog to a Custom WebApp for Use with dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/config/assign_catalog_custom_webapp_for_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Assign_Catalog_Custom_WebApp_for_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/assign_catalog_custom_webapp_for_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Assign_Catalog_Custom_WebApp_for_dspCompose/</guid>
       <description>Assign a Catalog to a Custom WebApp for Use with dspCompose™ When dspCompose™ is installed, the WebApp dspCompose_Data and its database are also installed. dspCompose_Data is the configured WebApp and database where client customizations and data validations should be created that will not be overwritten during an upgrade. In addition to dspCompose_Data, other custom WebApps and companion databases may be created and used with dspCompose™.
 NOTE: The number of custom WebApps that may be created is controlled by client licensing.</description>
     </item>
     
     <item>
       <title>Configure Columns to Exclude from Mass Change</title>
-      <link>https://heathercloward.github.io/dspcompose/config/configure_columns_to_exclude_from_mass_change/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Configure_Columns_to_Exclude_from_Mass_Change/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/configure_columns_to_exclude_from_mass_change/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Configure_Columns_to_Exclude_from_Mass_Change/</guid>
       <description>Configure Columns to Exclude from Mass Change Columns listed on the Mass Change Exclude Columns page will not be available on the Request Mass Change page when a user with the Data role enters request data for a mass change.
 Refer to Mass Change Data for more information.
 To exclude columns:
@@ -85,29 +85,29 @@ View the field descriptions for the Mass Change Exclude Columns page.</descripti
     
     <item>
       <title>Configure Global Roles</title>
-      <link>https://heathercloward.github.io/dspcompose/config/configure_global_roles/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Configure_Global_Roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/configure_global_roles/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Configure_Global_Roles/</guid>
       <description>Configure Global Roles dspCompose™ is delivered with three global roles, Data, Review and Post, which can be modified. They can be copied to a template either manually or automatically if the Auto Copy option is selected on the Vertical View of the Roles page.
 Users assigned to the Data role enter request data by manually entering or editing data, performing a mass change, or importing data. Refer to Enter Data for a Request for more information.</description>
     </item>
     
     <item>
       <title>Configure Request Statuses</title>
-      <link>https://heathercloward.github.io/dspcompose/config/configure_request_statuses/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Configure_Request_Statuses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/configure_request_statuses/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Configure_Request_Statuses/</guid>
       <description>Configure Request Statuses The number of days a request is active is controlled by the request status. The Request Status Parameters feature enables users to define a Default Retention Interval to each request status type. The Default Retention Interval controls how many days requests of a certain Request Status remain active before they are archived. The Default Retention Interval is applied to all new templates. Modify the Default Retention Interval if the defaults are not appropriate.</description>
     </item>
     
     <item>
       <title>Configure Settings for External Data Processing and External Request Scenarios</title>
-      <link>https://heathercloward.github.io/dspcompose/config/configure_settings_for_external_data_processing/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Configure_Settings_for_External_Data_Processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/configure_settings_for_external_data_processing/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Configure_Settings_for_External_Data_Processing/</guid>
       <description>Configure Settings for External Data Processing and External Request Scenarios Before implementing external data entry processing with External Data roles or External Request Scenarios, settings must be configured in dspCompose™.
 Refer to Use External Data Roles in Request Processing and Use External Request Scenarios for more information.
 Both require the user to Set up External Email Accounts.
@@ -116,10 +116,10 @@ For external data processing, a Template Administrator must Update the EMAIL FRO
     
     <item>
       <title>Configure Workflow Messages</title>
-      <link>https://heathercloward.github.io/dspcompose/config/configure_workflow_messages/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Configure_Workflow_Messages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/configure_workflow_messages/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Configure_Workflow_Messages/</guid>
       <description>Configure Workflow Messages Several workflow messages are delivered with dspCompose™ and can be modified but not deleted. No workflow messages can be added.
 dspCompose™ sends workflow messages when certain events occur, such as when a request is ready for processing by the next role in the workflow, when a request is reset or rejected, or when an email sent by an External Data role fails validations.
 Workflow messages can be set for multiple languages.</description>
@@ -127,10 +127,10 @@ Workflow messages can be set for multiple languages.</description>
     
     <item>
       <title>Configure dspCompose™ Parameters</title>
-      <link>https://heathercloward.github.io/dspcompose/config/configure_dspcompose_parameters/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Configure_dspCompose_Parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/configure_dspcompose_parameters/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Configure_dspCompose_Parameters/</guid>
       <description> Configure dspCompose™ Parameters dspCompose™ parameters are high-level fields used throughout the component that must be configured per installation.
 To configure parameters:
  Select Configuration &amp;gt; Parameters on the Navigation pane.
@@ -143,39 +143,39 @@ View the field descriptions for the Parameters page.
     
     <item>
       <title>Display Posting Options on Requests</title>
-      <link>https://heathercloward.github.io/dspcompose/config/display_posting_options_on_requests/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Display_Posting_Options_on_Requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/display_posting_options_on_requests/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Display_Posting_Options_on_Requests/</guid>
       <description>Display Posting Options on Requests The Posting and File tab on the Parameters page has check boxes that correspond to the posting options available in dspCompose™. If a Template Administrator enables a check box on this page, that posting option is available to users with the Post role on the Request (Post) page. If a Template Administrator disables a check box on the Parameters page, the posting option does not display on the Request (Post) page and is unavailable to the Post role when submitting a request.</description>
     </item>
     
     <item>
       <title>Enable Role Validations</title>
-      <link>https://heathercloward.github.io/dspcompose/config/enable_role_validations/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Enable_Role_Validations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/enable_role_validations/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Enable_Role_Validations/</guid>
       <description>Enable Role Validations Role Validations are based on a view in the database specified for the template&amp;rsquo;s data source. dspCompose™ automatically generates validations for list boxes, check boxes and required fields for the data entry page when the Data Entry role is validated.
 These validations are set to run by default, but can be configured at the global role level on the Parameters page, or at the template level on the Templates page’s Vertical View on the Advanced tab.</description>
     </item>
     
     <item>
       <title>Requests vs. Templates</title>
-      <link>https://heathercloward.github.io/dspcompose/config/requests_vs_templates/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Requests_vs_Templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/requests_vs_templates/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Requests_vs_Templates/</guid>
       <description>Requests vs. Templates A request is based on a single template and manages the data entry, review and posting of data into a target ERP system such as SAP.
 Templates A template represents a defined unit of work that can be performed in the target system and is based on a BDC or GUI recording, an Integrate template or a custom template (a template that is not recorded in SAP).</description>
     </item>
     
     <item>
       <title>Set Up Security for dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/config/set_up_security/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Set_Up_Security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/set_up_security/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Set_Up_Security/</guid>
       <description>Set Up Security for dspCompose™ To set up security for dspCompose:
  Create User Accounts (performed by an Administrator)
  Grant the user access to a WebApp Group in dspCompose (performed by an Administrator)
@@ -184,30 +184,30 @@ Templates A template represents a defined unit of work that can be performed in 
     
     <item>
       <title>Set Up Workflow Messages</title>
-      <link>https://heathercloward.github.io/dspcompose/config/set_up_workflow_messages/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Set_up_Workflow_Messages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/set_up_workflow_messages/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Set_up_Workflow_Messages/</guid>
       <description>Set Up Workflow Messages Requests are workflow-enabled, meaning that each user assigned to a role in a request can receive a notification when the role has work assigned. A workflow is a notification method called during an event, in this case, when a role is finished.
 When one stage of work has been completed for a request, dspCompose™ sends an email and displays a notification pop-up to that user from within dspCompose™ notifying all members of the next dependent role or roles they have tasks to complete.</description>
     </item>
     
     <item>
       <title>Set Up an External Data Email Account</title>
-      <link>https://heathercloward.github.io/dspcompose/config/set_up_an_external_data_email_account/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Set_up_an_External_Data_Email_Account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/set_up_an_external_data_email_account/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Set_up_an_External_Data_Email_Account/</guid>
       <description>Set Up an External Data Email Account The External Data Email Account is used for both External Request Scenarios and for External Data Processing with an External Data role.
 On the External Data Email Accounts page, a record is added with a previously created external email account. dspCompose™ will poll that account for emails from users who are assigned the External Data role. This account will send a spreadsheet to an External Data role designated as an external contact for the template.</description>
     </item>
     
     <item>
       <title>Update Validation Messages</title>
-      <link>https://heathercloward.github.io/dspcompose/config/update_validation_messages/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Update_Validation_Messages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/update_validation_messages/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Update_Validation_Messages/</guid>
       <description>Update Validation Messages On the Template tab of the Parameters page, change the messages that display for four types of validation failures related to errors entered in a spreadsheet generated by dspCompose™ (when importing data from a spreadsheet) or errors entered on a data entry page.
 Refer to Import a File at the Request-Role Level for more information.
 These validation failures include:
@@ -216,20 +216,20 @@ These validation failures include:
     
     <item>
       <title>Update the EMAIL FROM Column</title>
-      <link>https://heathercloward.github.io/dspcompose/config/update_the_email_from_column/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/Update_the_EMAIL_FROM_Column/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/update_the_email_from_column/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/Update_the_EMAIL_FROM_Column/</guid>
       <description>Update the EMAIL FROM Column Prior to setting up external data role processing, update the address in the EMAIL FROM column for the ExternalData and EmailValidation events on the Workflow Language Message page. The address should be the same as the external email account saved on the External Data Email Accounts page in the USERNAME column.
 NOTE: The address in the EMAIL FROM column for the EmailValidation event and the ExternalData event are identical by default.</description>
     </item>
     
     <item>
       <title>User Credentials in dspCompose™</title>
-      <link>https://heathercloward.github.io/dspcompose/config/user_credentials_in_dspcompose/</link>
+      <link>https://heathercloward.github.io/dspCompose/Config/User_Credentials_in_dspCompose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/dspcompose/config/user_credentials_in_dspcompose/</guid>
+      <guid>https://heathercloward.github.io/dspCompose/Config/User_Credentials_in_dspCompose/</guid>
       <description>User Credentials in dspCompose™ Integrate and dspCompose™ templates use connections to a data source to download data from a target ERP system. A process template posts data to the SAP instance. The user credentials for the connection can be supplied using different methods, allowing greater flexibility when setting security.
 For Integrate and dspCompose™, user credentials for the SAP connection can be set:
 At the system level. By default, when downloading data from or posting data to SAP, the platform uses the default credentials added on Common&amp;rsquo;s Data Source Registry page’s Vertical View for the SAP connection (unless another method is configured).</description>

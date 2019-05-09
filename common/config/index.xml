@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/common/config/</link>
+    <link>https://heathercloward.github.io/Common/Config/</link>
     <description>Recent content in Configuration on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/common/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Common/Config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Set Up Security for Common</title>
-      <link>https://heathercloward.github.io/common/config/set_up_security_for_common/</link>
+      <link>https://heathercloward.github.io/Common/Config/Set_Up_Security_for_Common/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/common/config/set_up_security_for_common/</guid>
+      <guid>https://heathercloward.github.io/Common/Config/Set_Up_Security_for_Common/</guid>
       <description>Set Up Security for Common To set up security:
  Create User Accounts in Common Create Security Roles (performed by an Administrator) Assign a User to a Security Role in Common Assign WebApp Groups to Security Role (performed by an Administrator) Establish User-Specific Security Definitions by adding the data source to be used in Common as a key to the Analyze DataSources description.(performed by an Administrator)  NOTE: Once the keys are added, the data sources are listed under the Analyze menu to be traced, profiled, or scanned for duplicate data.</description>
     </item>
     
     <item>
       <title>Setup and Configuration for Common</title>
-      <link>https://heathercloward.github.io/common/config/setup_and_configuration_for_common/</link>
+      <link>https://heathercloward.github.io/Common/Config/Setup_and_Configuration_for_Common/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/common/config/setup_and_configuration_for_common/</guid>
+      <guid>https://heathercloward.github.io/Common/Config/Setup_and_Configuration_for_Common/</guid>
       <description> Setup and Configuration for Common Before getting started with Common, verify the following steps have been completed:
  Set up Security for Common Register a Data Source in Common  </description>
     </item>

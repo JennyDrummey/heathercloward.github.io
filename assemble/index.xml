@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assemble Overview on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/assemble/</link>
+    <link>https://heathercloward.github.io/Assemble/</link>
     <description>Recent content in Assemble Overview on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/assemble/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Assemble/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create Packages</title>
-      <link>https://heathercloward.github.io/assemble/create_packages/</link>
+      <link>https://heathercloward.github.io/Assemble/Create_Packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/assemble/create_packages/</guid>
+      <guid>https://heathercloward.github.io/Assemble/Create_Packages/</guid>
       <description>Create Packages To create a package:
  Click Packages in the Navigation pane.
  Click Add.
@@ -28,41 +28,41 @@ NOTE: The SOURCE DATA SOURCE ID list box contains Data Sources registered in Com
     
     <item>
       <title>Delete Packages</title>
-      <link>https://heathercloward.github.io/assemble/delete_packages/</link>
+      <link>https://heathercloward.github.io/Assemble/Delete_Packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/assemble/delete_packages/</guid>
+      <guid>https://heathercloward.github.io/Assemble/Delete_Packages/</guid>
       <description>Delete Packages To delete a package:
  Click Packages from the Navigation pane. Click Delete Current Record;a confirmation message displays. Click Ok.  NOTE: Once the package is deleted, it cannot be retrieved.</description>
     </item>
     
     <item>
       <title>Monitor</title>
-      <link>https://heathercloward.github.io/assemble/monitor_h_assemble/</link>
+      <link>https://heathercloward.github.io/Assemble/Monitor_H_Assemble/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/assemble/monitor_h_assemble/</guid>
-      <description>Monitor Use this page to [Monitor Packages](Monitor_Packages.htm).  To access this page, click Assemble &amp;gt; Monitor in the Navigation pane.
+      <guid>https://heathercloward.github.io/Assemble/Monitor_H_Assemble/</guid>
+      <description>Monitor Use this page to [Monitor Packages](Monitor_Packages).  To access this page, click Assemble &amp;gt; Monitor in the Navigation pane.
          Field Description   CP PACKAGE ID Displays the name of the CranPort package.   START TIME Displays the time the package or segment execution began.   STATUS Displays the status of the package execution.   SEGMENTS Displays the segments links to logs for each segment in this package.</description>
     </item>
     
     <item>
       <title>Monitor Packages</title>
-      <link>https://heathercloward.github.io/assemble/monitor_packages/</link>
+      <link>https://heathercloward.github.io/Assemble/Monitor_Packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/assemble/monitor_packages/</guid>
+      <guid>https://heathercloward.github.io/Assemble/Monitor_Packages/</guid>
       <description>Monitor Packages To monitor a platform package, select Monitor from the Navigation pane.</description>
     </item>
     
     <item>
       <title>Packages H</title>
-      <link>https://heathercloward.github.io/assemble/packages_h/</link>
+      <link>https://heathercloward.github.io/Assemble/Packages_H/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/assemble/packages_h/</guid>
+      <guid>https://heathercloward.github.io/Assemble/Packages_H/</guid>
       <description>Packages H Packages V
-Use this page to [Create Packages](Create_Packages.htm).  To access this page, click Assemble &amp;gt; Packages in the Navigation pane.
+Use this page to [Create Packages](Create_Packages).  To access this page, click Assemble &amp;gt; Packages in the Navigation pane.
   Field
  Description
   PACKAGE NAME
@@ -74,10 +74,10 @@ The naming convention for packages is #Database#%#Source#%, for example dswBRAZI
     
     <item>
       <title>Run Packages</title>
-      <link>https://heathercloward.github.io/assemble/run_packages/</link>
+      <link>https://heathercloward.github.io/Assemble/Run_Packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/assemble/run_packages/</guid>
+      <guid>https://heathercloward.github.io/Assemble/Run_Packages/</guid>
       <description>Run Packages Once source and target information is configured and tested, the CranPort package can be run. A package is run in the background, enabling the user to continue to navigate through the WebApp. Columns are automatically created during the run process. If target sources already exist when the package is executed, any existing data is deleted.
 To run a package:
  Select Packages in the Navigation pane.

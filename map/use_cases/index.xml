@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedures on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/map/use_cases/</link>
+    <link>https://heathercloward.github.io/Map/Use_Cases/</link>
     <description>Recent content in Procedures on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/map/use_cases/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Map/Use_Cases/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Add Add Row Sources</title>
-      <link>https://heathercloward.github.io/map/use_cases/add_an_add_row_source/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Add_an_Add_Row_Source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/add_an_add_row_source/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Add_an_Add_Row_Source/</guid>
       <description>Add Add Row Sources An Add Row Source is the Source table where records are migrated from and inserted into the target table. Records in an Add Row Source table are used for reconciliation.
 An Add Row Source is added in Target Design. Refer to Assign a Source to a Target for more information.
 An additional Add Row Source can also be added in Map.
@@ -24,20 +24,20 @@ Add an Add Row Source if another Source database object is needed from the same 
     
     <item>
       <title>Add Relationship Joins to Sources</title>
-      <link>https://heathercloward.github.io/map/use_cases/add_relationship_joins_to_source/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Add_Relationship_Joins_to_Source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/add_relationship_joins_to_source/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Add_Relationship_Joins_to_Source/</guid>
       <description>Add Relationship Joins to Sources Relationship joins support the automation of rules built for Update Row Sources within mapping, where rules are automatically created and registered in Transform. Joins are only required if there is an Update Row Source AND if rule automation is used. If rules are being manually created in Transform, relationship joins are not needed.
 Add relationship joins between the Add Row and the Update Row Source(s) where the Source information and Source criterion are coming from a table other than the Add Row table being mapped.</description>
     </item>
     
     <item>
       <title>Add Update Row Sources</title>
-      <link>https://heathercloward.github.io/map/use_cases/add_update_row_sources/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Add_Update_Row_Sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/add_update_row_sources/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Add_Update_Row_Sources/</guid>
       <description>Add Update Row Sources An Update Row Source can be either a view or a table.
 Update Row Source Views An Update Row Source can be a view in the Transform database that is used in Source rules that process against the data in the Transform Target Source table.
 The benefits of using a view as an Update Row Source are:
@@ -46,10 +46,10 @@ The benefits of using a view as an Update Row Source are:
     
     <item>
       <title>Add ZActive Fields</title>
-      <link>https://heathercloward.github.io/map/use_cases/add_zactive/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Add_ZActive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/add_zactive/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Add_ZActive/</guid>
       <description>Add ZActive Fields ZActive fields can be added to the Source table to filter out rows to be inserted into the Target table.
 To add a zActive field to a Source table:
  Add a field to the Source table in the database.
@@ -60,10 +60,10 @@ To add a zActive field to a Source table:
     
     <item>
       <title>Add an Assemble Where Clause</title>
-      <link>https://heathercloward.github.io/map/use_cases/add_assemble_where_clause/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Add_Assemble_Where_Clause/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/add_assemble_where_clause/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Add_Assemble_Where_Clause/</guid>
       <description>Add an Assemble Where Clause An Assemble Where Clause can be added to be included in an CranPort package. The Assemble Where Clause is used to filter Source data when importing or refreshing a Target.
 To add an Assemble Where Clause in Map:
  Select ProcessArea in the Navigation pane.
@@ -73,40 +73,40 @@ To add an Assemble Where Clause in Map:
     
     <item>
       <title>Add an External Source</title>
-      <link>https://heathercloward.github.io/map/use_cases/add_an_external_source/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Add_an_External_Source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/add_an_external_source/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Add_an_External_Source/</guid>
       <description>Add an External Source An External Source is an Update Row Source that is external to the system used in the Add Row Source when establishing a relationship. For example, a finance system may create vendor information, but the invoicing information is managed in another system. To support relevancy rules, the user must link the systems together.
 A Source is designated as an External Source when the user adds a Source to a Target in Target Design with a Source type of External Source.</description>
     </item>
     
     <item>
       <title>Approve or Reject Mappings</title>
-      <link>https://heathercloward.github.io/map/use_cases/approve_or_reject_mappings/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Approve_or_Reject_Mappings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/approve_or_reject_mappings/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Approve_or_Reject_Mappings/</guid>
       <description>Approve or Reject Mappings In the Mapping Approval process:
  A Mapper configures a mapping in Map, saves the mapping, and then clicks Submit on the Page toolbar of the Field Mappings page. The Developer clicks the green tab on the Quick Panel to open the *Mapping Approval* page to view mappings waiting for approval. The Developer reviews the mapping and either approves or rejects it.  When a mapping is approved or rejected, Mapping Status and Rule Status are updated.</description>
     </item>
     
     <item>
       <title>Build a Remediation Report</title>
-      <link>https://heathercloward.github.io/map/use_cases/build_a_remediation_report/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Build_a_Remediation_Report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/build_a_remediation_report/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Build_a_Remediation_Report/</guid>
       <description>Build a Remediation Report During a mock load to test a data migration implementation, build a remediation report using Target Design, Map and AutoGen that will be processed in Transform.
 Target Remediation allows a remediation rule to be registered to an error report. Remediation rules are used only when there is a need to temporarily fix a data issue so the affected records can be loaded into a test environment.</description>
     </item>
     
     <item>
       <title>Capture Statistics for Wave Gate Metrics</title>
-      <link>https://heathercloward.github.io/map/use_cases/capture_statistics_for_wave_gate_metrics/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Capture_Statistics_for_Wave_Gate_Metrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/capture_statistics_for_wave_gate_metrics/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Capture_Statistics_for_Wave_Gate_Metrics/</guid>
       <description>Capture Statistics for Wave Gate Metrics A gate, with a gate date and a percentage complete, allows a user to evaluate the current mapping status against a customizable goal.
 Map’s Snap Shot process captures mapping statistics at a specific point in time to measure against Gate Wave metrics for field mapping and value mapping.
 A service page also runs once daily to capture mapping statistics, but a user can run the process at any time.</description>
@@ -114,10 +114,10 @@ A service page also runs once daily to capture mapping statistics, but a user ca
     
     <item>
       <title>Construction</title>
-      <link>https://heathercloward.github.io/map/use_cases/construction/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Construction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/construction/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Construction/</guid>
       <description>Construction The Construction action is used when mapping a field that has not been defined in the Source system.
 Using the Construction action in Map is also called using Enhanced Construction. Refer to Enhanced Construction for more information.
 NOTE: If the field group is All (the default field group (*)) and the action is Construction, Map creates the default rule from which to pull values from Construct.
@@ -126,10 +126,10 @@ NOTE: A mapping with a Construction action that is assigned to a field in a Fiel
     
     <item>
       <title>Copy</title>
-      <link>https://heathercloward.github.io/map/use_cases/copy_map/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Copy_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/copy_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Copy_Map/</guid>
       <description>Copy The Copy action is used when mapping a field that is an exact copy from the Source to the Target.
 NOTE: If the user clicked the Auto Map icon on the Target Sources page for the Source, any auto mapped fields are set to the Copy action with a Mapping Status of In Progress.
 To create a field mapping using the Copy action on the Field Mappings page:</description>
@@ -137,10 +137,10 @@ To create a field mapping using the Copy action on the Field Mappings page:</des
     
     <item>
       <title>Copy All Target Rules to Another Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/copy_all_target_rules_to_another_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Copy_All_Target_Rules_To_Another_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/copy_all_target_rules_to_another_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Copy_All_Target_Rules_To_Another_Target/</guid>
       <description>Copy All Target Rules to Another Target A user can copy all rules from a target to share them across waves that use the same target for migration. Using this feature, a user can seed the target rules from one wave into another at the Wave, Process Area, Object, Target level.
 To copy all Target Rules to another target in Map:
  Access Map.
@@ -149,10 +149,10 @@ To copy all Target Rules to another target in Map:
     
     <item>
       <title>Copy a Mapping</title>
-      <link>https://heathercloward.github.io/map/use_cases/copy_a_mapping/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Copy_a_Mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/copy_a_mapping/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Copy_a_Mapping/</guid>
       <description>Copy a Mapping A user can view a history of all archived mappings (from System Types) across all Waves and Process Areas for a field. The user can copy a specific mapping to use in the selected Target or Source.
 NOTE: Only one mapping can be copied at a time.
 When viewing all mappings for a Source, only Source rules display on the Field Mappings by Target Field (All Waves) page.</description>
@@ -160,10 +160,10 @@ When viewing all mappings for a Source, only Source rules display on the Field M
     
     <item>
       <title>Copy a Target Source to Another Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/copy_a_target_source_to_another_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Copy_a_Target_Source_to_Another_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/copy_a_target_source_to_another_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Copy_a_Target_Source_to_Another_Target/</guid>
       <description>Copy a Target Source to Another Target Once a Source is configured in Target Design and synced to Map, field mappings and field groups from a Source can be copied to a new Source to expedite the mapping process. When a Source is copied, all mappings are copied where the Target and Source tables match.
 NOTE: The copy process cannot be performed until:
  The Source has been added in Target Design The Target associated with the Target Source has been synced with Map  Refer to Add a Source and Sync Target Design and Map for more information.</description>
@@ -171,10 +171,10 @@ NOTE: The copy process cannot be performed until:
     
     <item>
       <title>Daily Summary By Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/daily_summary_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Daily_Summary_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/daily_summary_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Daily_Summary_by_Object/</guid>
       <description>Daily Summary By Object This chart displays the number of mappings per status for all field mappings for all targets in the Object selected on the Objects page for the day.
 The Total Mappings is the count of active fields in the target.
 Hover a cursor over a data point to view the number of field mappings in that status for the Object for that day.
@@ -183,10 +183,10 @@ Click the line for an Object to drill down to the Targets page to view the targ
     
     <item>
       <title>Daily Summary By Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/daily_summary_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Daily_Summary_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/daily_summary_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Daily_Summary_by_Wave_and_Process_Area/</guid>
       <description>Daily Summary By Wave &amp;amp; Process Area This chart displays the number of mappings per status for all field mappings in the Wave and Process Area in the Context bar for the day.
 The Total Mappings is the count of active fields in the Target.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
@@ -195,10 +195,10 @@ Click the line for a Wave and Process Area to drill down to the Objects page to
     
     <item>
       <title>Default</title>
-      <link>https://heathercloward.github.io/map/use_cases/default_action/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Default_Action/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/default_action/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Default_Action/</guid>
       <description>Default The Default action is used when mapping a field that should write a default value to the Target field. For example, if the Target field should always contain the value “1,” create a rule that populates the field with this default value for every record that is mapped.
 To create a field mapping using the Default action on the Field Mappings page:
  Select the field to be mapped.</description>
@@ -206,10 +206,10 @@ To create a field mapping using the Default action on the Field Mappings page:
     
     <item>
       <title>Designate a System for a Check Table</title>
-      <link>https://heathercloward.github.io/map/use_cases/designate_a_system_for_check_table/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Designate_a_System_for_Check_Table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/designate_a_system_for_check_table/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Designate_a_System_for_Check_Table/</guid>
       <description>Designate a System for a Check Table In most cases, check tables are stored in the Target system set for the Object at the Wave, Wave-Process Area, or Object level. The values stored in these check tables are used during the Value Mapping process.
 A Migration Developer can designate a system other than the Target system for check tables.
 To define a Target system for a check table in Map:</description>
@@ -217,10 +217,10 @@ To define a Target system for a check table in Map:</description>
     
     <item>
       <title>Download Tables</title>
-      <link>https://heathercloward.github.io/map/use_cases/download_tables_map/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Download_Tables_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/download_tables_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Download_Tables_Map/</guid>
       <description>Download Tables NOTE: To receive a workflow email that a table download has failed in Collect, a user must be assigned to a security role that has the Collect WebApp group WorkFlowFailureAll or WorkFlowFaiureByTargetAccess assigned. Refer to Set Security in System Administration for more information.
 Download sdb Tables in Collect To download sdb Source tables in Collect:
  Register the sdb* Target in Collect. Refer to Register Targets for detailed information.</description>
@@ -228,10 +228,10 @@ Download sdb Tables in Collect To download sdb Source tables in Collect:
     
     <item>
       <title>Field Mapping Changes Daily by Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_daily_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Daily_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_daily_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Daily_by_Object/</guid>
       <description>Field Mapping Changes Daily by Object This chart displays the number of daily changes made to field mappings for all Targets and Sources associated with the Object selected on the Objects page.
 Hover a cursor over a data point to view the number of changes to field mappings for that day for that Object.
 Click a data point for the Object to drill down to the Field Mapping Changes Daily by Target chart.</description>
@@ -239,10 +239,10 @@ Click a data point for the Object to drill down to the Field Mapping Changes Dai
     
     <item>
       <title>Field Mapping Changes Daily by Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_daily_by_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Daily_by_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_daily_by_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Daily_by_Target/</guid>
       <description>Field Mapping Changes Daily by Target This chart displays the number of daily changes made to field mappings for all Targets and Sources associated with the Object selected on the Field Mapping Changes Daily by Object chart.
 Hover a cursor over a data point to view the number of changes to field mappings for that day for that Target.
 Click a data point for the Target to drill down to the Target Sources page.</description>
@@ -250,10 +250,10 @@ Click a data point for the Target to drill down to the Target Sources page.</des
     
     <item>
       <title>Field Mapping Changes Daily by Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_daily_wave_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Daily_Wave_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_daily_wave_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Daily_Wave_Process_Area/</guid>
       <description>Field Mapping Changes Daily by Wave &amp;amp; Process Area This chart displays the number of daily changes made to field mappings for all Objects, Targets and Sources associated with the Wave and Process Area selected on the Field Mapping by Wave and Process Area chart.
 Hover a cursor over a data point to view the number of changes to field mappings for that day.
 Click a data point for a day to drill down to the Field Mapping Changes Daily by Object chart.</description>
@@ -261,50 +261,50 @@ Click a data point for a day to drill down to the Field Mapping Changes Daily by
     
     <item>
       <title>Field Mapping Changes Month by Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_month_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Month_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_month_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Month_by_Object/</guid>
       <description>Field Mapping Changes Month by Object This chart displays the number of monthly changes made to field mappings for all Targets and Sources associated with the Object selected om the Objects page. The number in the x-axis is the number of the month in the year. For example, 201401 is January of 2014.
 Hover a cursor over a data point to view the number of changes to field mappings for that month.</description>
     </item>
     
     <item>
       <title>Field Mapping Changes Month by Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_month_by_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Month_by_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_month_by_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Month_by_Target/</guid>
       <description>Field Mapping Changes Month by Target This chart displays the number of monthly changes made to field mappings for all Targets and Sources associated with the Object selected on the Field Mapping Changes Month by Object chart. The number in the x-axis is the number of the month in the year. For example, 201401 is January of 2014.
 Hover a cursor over a data point to view the number of changes to field mappings for that month.</description>
     </item>
     
     <item>
       <title>Field Mapping Changes Month by Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_map_changes_month_wave_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Map_Changes_Month_Wave_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_map_changes_month_wave_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Map_Changes_Month_Wave_Process_Area/</guid>
       <description>Field Mapping Changes Month by Wave &amp;amp; Process Area This chart displays the number of monthly changes made to field mappings for all Objects, Targets and Sources associated with the Wave and Process Area selected on the Field Mapping by Wave and Process Area chart. The number in the x-axis is the number of the month in the year. For example, 201401 is January of 2014.
 Hover a cursor over a data point to view the number of changes to field mappings for that month.</description>
     </item>
     
     <item>
       <title>Field Mapping Changes Week by Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_week_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Week_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_week_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Week_by_Object/</guid>
       <description>Field Mapping Changes Week by Object This chart displays the number of weekly changes made to field mappings for all Targets and Sources associated with the Object selected on the Objects page. The number in the x-axis is the number of the week in the year. For example, 201401 is the first week of the year 2014.
 Hover a cursor over a data point to view the number of changes to field mappings for that week.</description>
     </item>
     
     <item>
       <title>Field Mapping Changes Week by Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_changes_week_by_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Week_by_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_changes_week_by_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Changes_Week_by_Target/</guid>
       <description>Field Mapping Changes Week by Target This chart displays the number of weekly changes made to field mappings for Targets and Sources associated with the Object selected on the Field Mapping Changes Week by Object chart.
 The number in the x-axis is the number of the week in the year. For example, 201401 is the first week of the year 2014.
 Hover a cursor over a data point to view the number of changes to field mappings for that week.</description>
@@ -312,20 +312,20 @@ Hover a cursor over a data point to view the number of changes to field mappings
     
     <item>
       <title>Field Mapping Changes Week by Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_map_changes_week_wave_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Map_Changes_Week_Wave_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_map_changes_week_wave_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Map_Changes_Week_Wave_Process_Area/</guid>
       <description>Field Mapping Changes Week by Wave &amp;amp; Process Area This chart displays the number of weekly changes made to field mappings for all Objects, Targets and Sources associated with the Wave and process selected on the Field Mapping by Wave and Process Area chart. The number in the x-axis is the number of the week in the year. For example, 201401 is the first week of the year.
 Hover a cursor over a data point to view the number of changes to field mappings for that week.</description>
     </item>
     
     <item>
       <title>Field Mapping Summary by Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_summary_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Summary_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_summary_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Summary_by_Object/</guid>
       <description>Field Mapping Summary by Object This chart displays the number of field mappings that are in process and the number that are complete for all Targets and Sources associated with an Object.
 When the chart is accessed from the Field Mapping by Wave &amp;amp; Process Area chart, these counts are for all Objects in the selected Process Area.
 When the chart is accessed from the Objects page in Map counts display for the selected Process Area only.</description>
@@ -333,10 +333,10 @@ When the chart is accessed from the Objects page in Map counts display for the s
     
     <item>
       <title>Field Mapping Summary by Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_summary_by_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Summary_by_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_summary_by_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Summary_by_Target/</guid>
       <description>Field Mapping Summary by Target This chart displays the number of field mappings that are in process and the number that are complete for the Target.
 When the chart is accessed from the Field Mapping Summary by Object chart, these counts are for all Targets in the selected Object.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
@@ -345,10 +345,10 @@ Click the bar for a Target to drill down to the Target Sources page to view the 
     
     <item>
       <title>Field Mapping Summary by Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_summary_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Summary_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_summary_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_Summary_by_Wave_and_Process_Area/</guid>
       <description>Field Mapping Summary by Wave &amp;amp; Process Area This chart displays the number of field mappings that are in process and the number that are complete for all Objects, Targets and Sources associated with the Wave and Process Area.
 When the chart is accessed from the Field Mapping by Wave chart, these counts are for all Process Areas in the selected Wave.
 When the chart is accessed from the Wave : Process Areas page in Console, counts display for the selected Process Area only.</description>
@@ -356,10 +356,10 @@ When the chart is accessed from the Wave : Process Areas page in Console, counts
     
     <item>
       <title>Field Mapping by Wave</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_by_wave/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_by_Wave/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_by_wave/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_by_Wave/</guid>
       <description>Field Mapping by Wave This chart displays the number of field mappings that are in process and the number that are complete for all Process Areas, Objects, Targets and Sources associated with the selected Wave.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click a bar to view the Field Mapping by Wave and Process Area chart.
@@ -368,10 +368,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Field Mapping by Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/field_mapping_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/field_mapping_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Field_Mapping_by_Wave_and_Process_Area/</guid>
       <description>Field Mapping by Wave &amp;amp; Process Area This chart displays the number of field mappings that are in process and the number that are complete for all Objects, Targets and Sources.
 When the chart is accessed from the Field Mapping by Wave chart, these counts are for all Process Areas in the selected Wave.
 When the chart is accessed from the Wave : Process Areas page in Console, counts display for the selected Process Area only.</description>
@@ -379,10 +379,10 @@ When the chart is accessed from the Wave : Process Areas page in Console, counts
     
     <item>
       <title>Import and Export Mappings</title>
-      <link>https://heathercloward.github.io/map/use_cases/import_and_export_mappings/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Import_and_Export_Mappings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/import_and_export_mappings/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Import_and_Export_Mappings/</guid>
       <description>Import and Export Mappings Mapping sets are used to categorize mappings so they can be reused or copied. Mappings can be exported to a mapping set and can then be imported into another Source in Map.
 A default mapping set is delivered. Mapping sets can also be added on the System Types Mappings page and on the Export Field Mappings page.
 To import and export mappings:
@@ -391,69 +391,69 @@ To import and export mappings:
     
     <item>
       <title>Internal</title>
-      <link>https://heathercloward.github.io/map/use_cases/internal/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Internal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/internal/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Internal/</guid>
       <description>Internal The Internal action is used when mapping a key field that should use a number generated internally by the Target ERP system as the record is loaded. For example, a key field such as Material Number, generated by SAP, can be used to populate a field using this action. SAP would supply the next available incremented number to complete the field.
 An Internal action does not create any rules in Map.</description>
     </item>
     
     <item>
       <title>Manual Construction</title>
-      <link>https://heathercloward.github.io/map/use_cases/manual_construction/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Manual_Construction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/manual_construction/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Manual_Construction/</guid>
       <description>Manual Construction The Manual Construction action is used when a rule is too complex to be automatically generated and will be written manually in Construct.
 NOTE: When a field mapping’s action is set to Manual Construction, the Source associated with the field is automatically added to the zSource page in Construct, and the user does not need to manually enter the zSource. Refer to Set up zSources for more information.</description>
     </item>
     
     <item>
       <title>Manual Rule</title>
-      <link>https://heathercloward.github.io/map/use_cases/manual_rule/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Manual_Rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/manual_rule/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Manual_Rule/</guid>
       <description>Manual Rule The Manual Rule action is used when a rule is too complex to be automatically generated and must be written.
 NOTE: Basic and Complex rules are managed in Target Design. They are not edited or submitted in Map. The mapping for a field with either a complex rule or both a complex and a basic rule displays in Map with an Action of Manual Rule. Refer to Add a Basic Rule and Add a Complex Rule for more information.</description>
     </item>
     
     <item>
       <title>Map Columns from the Template to Columns from the Excel File</title>
-      <link>https://heathercloward.github.io/map/use_cases/map_columns_template_to_sprdsht/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Map_Columns_Template_to_Sprdsht/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/map_columns_template_to_sprdsht/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Map_Columns_Template_to_Sprdsht/</guid>
       <description>Map Columns from the Template to Columns from the Excel File Once an external request scenario for an Excel-initiated request has been created and the Excel file to be used with the scenario has been uploaded and processed, the columns in that Excel file must be mapped to columns in the staging table.
 As a result of the mapping, when request data (submitted in an Excel file by an external contact) is moved from the staging table to the table used for the Data Entry role for the request, it is either:</description>
     </item>
     
     <item>
       <title>Map Overview</title>
-      <link>https://heathercloward.github.io/map/use_cases/map_overview/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Map_Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/map_overview/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Map_Overview/</guid>
       <description>Map Overview Map is a strategic component of dspMigrate™ that facilitates the process of mapping for a Target system implementation. Map and Target Design are used to document the design and mapping phases of a migration project. Once Targets and Sources are created in Target Design and the Design is synced with Map, Targets and Sources are pushed to Map where field mapping and value mapping can be performed.</description>
     </item>
     
     <item>
       <title>Mapping Status and Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/mapping_status_and_rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Mapping_Status_and_Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/mapping_status_and_rule_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Mapping_Status_and_Rule_Status/</guid>
       <description>Mapping Status and Rule Status How Statuses Change During the Mapping Approvals Process As a mapping passes through the Mapping Approval process, the system updates the Mapping Status and Rule Status.
  The Mapping Status and Rule Status are set to Pending Review by default when Target Design and Map are synced. After the Mapper sets the mapping’s action, configures the appropriate settings, and clicks Save, if the mapping passes all validations, the system sets the Mapping Status to In Progress.</description>
     </item>
     
     <item>
       <title>Metrics Summary Dashboards</title>
-      <link>https://heathercloward.github.io/map/use_cases/metrics_summary_dashboards/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Metrics_Summary_Dashboards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/metrics_summary_dashboards/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Metrics_Summary_Dashboards/</guid>
       <description> Metrics Summary Dashboards The charts on this dashboard display a summary of field mappings for the Wave and Process Area selected in the Context bar by week, month, and day.
 Refer to View Dashboards in Map for general information about chart features.
 These dashboards contain the following charts:
@@ -462,10 +462,10 @@ These dashboards contain the following charts:
     
     <item>
       <title>Monthly Summary By Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/monthly_summary_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Monthly_Summary_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/monthly_summary_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Monthly_Summary_by_Object/</guid>
       <description>Monthly Summary By Object This chart displays the number of mappings per status for all field mappings for all targets in the object selected on the Objects page for the month. The number in the x-axis is the number of the month in the year. For example, 2014-01 is January of 2014.
 The Total Mappings is the count of active fields in the target.
 Hover a cursor over a data point to view the number of field mappings in that status for the object for that month.</description>
@@ -473,10 +473,10 @@ Hover a cursor over a data point to view the number of field mappings in that st
     
     <item>
       <title>Monthly Summary By Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/monthly_summary_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Monthly_Summary_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/monthly_summary_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Monthly_Summary_by_Wave_and_Process_Area/</guid>
       <description>Monthly Summary By Wave &amp;amp; Process Area This chart displays the number of mappings per status for all field mappings in the Wave and Process Area in the Context bar for the month. The number in the x-axis is the number of the month in the year. For example, 2014-01 is January of 2014.
 The Total Mappings is the count of active fields in the target.
 Hover a cursor over a data point to view the number of field mappings in that status for the Wave and Process Area for that month.</description>
@@ -484,20 +484,20 @@ Hover a cursor over a data point to view the number of field mappings in that st
     
     <item>
       <title>Not Used</title>
-      <link>https://heathercloward.github.io/map/use_cases/not_used/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Not_Used/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/not_used/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Not_Used/</guid>
       <description>Not Used The Not Used action is used when a field that is available in the Source system will not be loaded into the Target system. The field is not used for the selected Source, but may be used for other Source systems. A field that is Not Used is mapped for reporting and metrics purposes.
 NOTE: Unmapped Target or Target Source fields can be automatically set to NotUsed. Refer to Update Unmapped Fields to NotUsed for more information.</description>
     </item>
     
     <item>
       <title>Object Source Rules: Mapping Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_source_rules_mapping_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Source_Rules_Mapping_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_source_rules_mapping_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Source_Rules_Mapping_Status/</guid>
       <description>Object Source Rules: Mapping Status This chart displays the mapping status (in process or complete) of all Source rules for the Object selected on the Objects page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Target Source Rules: Mapping Status chart.
@@ -506,10 +506,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Object Source Rules: Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_source_rules_rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Source_Rules_Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_source_rules_rule_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Source_Rules_Rule_Status/</guid>
       <description>Object Source Rules: Rule Status This chart displays the rule status (in process or complete) of all Source rules for the Object selected on the Objects page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Target Source Rules: Rule Status chart.
@@ -518,10 +518,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Object Target Rules: Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_target_rules_rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Rules_Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_target_rules_rule_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Rules_Rule_Status/</guid>
       <description>Object Target Rules: Rule Status This chart displays the rule status (in process or complete) of all Target rules for the Object selected on the Objects page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Target Target Rules: Rule Status chart.
@@ -530,10 +530,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Object Target Rules: Mapping Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_target_rules_mapping_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Rules_Mapping_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_target_rules_mapping_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Rules_Mapping_Status/</guid>
       <description>Object Target Rules: Mapping Status This chart displays the mapping status (in process or complete) of all Target rules for the Object selected on the Objects page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Target Target Rules: Mapping Status chart.
@@ -542,10 +542,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Object Target Source Rules: Mapping Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_target_source_rules_mapping_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Source_Rules_Mapping_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_target_source_rules_mapping_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Source_Rules_Mapping_Status/</guid>
       <description>Object Target Source Rules: Mapping Status This chart displays the mapping status (in process or complete) of all Source rules for the Target selected on the Targets page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar for a Source table to drill down to the Target Sources page to view those Sources that are being mapped to the selected Target.</description>
@@ -553,10 +553,10 @@ Click the bar for a Source table to drill down to the Target Sources page to vie
     
     <item>
       <title>Object Target Source Rules: Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_target_source_rules_rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Source_Rules_Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_target_source_rules_rule_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Target_Source_Rules_Rule_Status/</guid>
       <description>Object Target Source Rules: Rule Status This chart displays the rule status (in process or complete) of all Source rules for the Target selected on the Targets page.
 Hover a cursor over a section of a chart to view the count of mappings for that status. .
 Click the bar for a Source table to drill down to the Target Sources page to view those Sources that are being mapped to the Target.</description>
@@ -564,10 +564,10 @@ Click the bar for a Source table to drill down to the Target Sources page to vie
     
     <item>
       <title>Object Target Target Rules: Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_trgt_trgt_rules_rule_stats/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Trgt_Trgt_Rules_Rule_Stats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_trgt_trgt_rules_rule_stats/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Trgt_Trgt_Rules_Rule_Stats/</guid>
       <description>Object Target Target Rules: Rule Status This chart displays the rule status (in process or complete) of all Target rules for the Target selected on the Targets page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar for a Target to drill down to the Target Sources page to view the Sources that are being mapped to the Target.</description>
@@ -575,10 +575,10 @@ Click the bar for a Target to drill down to the Target Sources page to view the 
     
     <item>
       <title>Object Target Target Rules: Mapping Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/object_trgt_trgt_rules_map_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Object_Trgt_Trgt_Rules_Map_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/object_trgt_trgt_rules_map_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Object_Trgt_Trgt_Rules_Map_Status/</guid>
       <description>Object Target Target Rules: Mapping Status This chart displays the mapping status (in process or complete) of all Target rules for the Target selected on the Targets page.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar for a Target to drill down to the Target Sources page to view the Sources that are being mapped to the Target.</description>
@@ -586,10 +586,10 @@ Click the bar for a Target to drill down to the Target Sources page to view the 
     
     <item>
       <title>Perform Field Mapping Overview</title>
-      <link>https://heathercloward.github.io/map/use_cases/perform_field_mapping/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Perform_Field_Mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/perform_field_mapping/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Perform_Field_Mapping/</guid>
       <description>Perform Field Mapping Overview To map a field, at a high level:
  Prepare for Field Mapping
  Access the Field Mappings Page.
@@ -605,29 +605,29 @@ View the field descriptions for the Field Mappings page
     
     <item>
       <title>Perform Value Mapping</title>
-      <link>https://heathercloward.github.io/map/use_cases/perform_value_mapping/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Perform_Value_Mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/perform_value_mapping/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Perform_Value_Mapping/</guid>
       <description>Perform Value Mapping On the Value Mapping (Legacy to Target) page, where value mapping is performed, the legacy value and legacy description display. These values come from the Source check table. During value mapping, select a Target value or indicate that a legacy value is not relevant for every legacy value in the check table so that gate metrics can count the value mapping as complete. Besides updating value mappings in the UI as described in this topic, a user can also:</description>
     </item>
     
     <item>
       <title>Perform Value Mapping Overview</title>
-      <link>https://heathercloward.github.io/map/use_cases/perform_value_mapping_overview/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Perform_Value_Mapping_Overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/perform_value_mapping_overview/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Perform_Value_Mapping_Overview/</guid>
       <description>Perform Value Mapping Overview In value mapping, an individual value in a Source field is configured to be converted to a value that the Target system will accept in the Target field. For example, if two large companies merge, they may want to convert the Legacy Org Numbers first and then value map to the new Org numbers (in an Org check table) in the Target ERP system.
 The field and value that must be value mapped in the Target system are stored in check tables, also called lookup tables.</description>
     </item>
     
     <item>
       <title>Refresh Lookup Tables</title>
-      <link>https://heathercloward.github.io/map/use_cases/refresh_lookup_tbls/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Refresh_Lookup_Tbls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/refresh_lookup_tbls/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Refresh_Lookup_Tbls/</guid>
       <description>Refresh Lookup Tables When changes to lookup tables are saved in Target Design, those changes are automatically synced to Map.
 NOTE: To refresh lookup table values, the tables must be active and the lookup table’s Type must be set to Configuration.
 To refresh check table values for the Target and the Source in Map:
@@ -636,40 +636,40 @@ To refresh check table values for the Target and the Source in Map:
     
     <item>
       <title>Refresh Target and Legacy Values</title>
-      <link>https://heathercloward.github.io/map/use_cases/refresh_target_and_legacy_values/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Refresh_Target_and_Legacy_Values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/refresh_target_and_legacy_values/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Refresh_Target_and_Legacy_Values/</guid>
       <description>Refresh Target and Legacy Values In value mapping, an individual value in a Source field is configured to be converted to a value that the Target system accepts in the Target field.
 These values display in the list boxes Legacy Value and Target Value on the Value Mapping (Legacy to Target) page. If no options display in these list boxes (as in, the only option in the list box is None), the Target values and legacy values must be refreshed on the Wave Check Table Refresh page.</description>
     </item>
     
     <item>
       <title>Remove Unmapped Source Values</title>
-      <link>https://heathercloward.github.io/map/use_cases/remove_unmapped_source_values/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Remove_Unmapped_Source_Values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/remove_unmapped_source_values/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Remove_Unmapped_Source_Values/</guid>
       <description>Remove Unmapped Source Values While value mapping, if a Source has many values that are not used (as in, only the values in the Target table must be value mapped), a Migration Developer can remove them before importing the Target table. Removing unused Source values allows a user to more easily value map, as only relevant Source values display.
 Before this task can be performed, the lookup table must have been created or imported and a mapping with the Xref or RuleXref action must be created.</description>
     </item>
     
     <item>
       <title>Reset Target Source Schema Field Lengths</title>
-      <link>https://heathercloward.github.io/map/use_cases/reset_target_source_schema_field_lengths/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Reset_Target_Source_Schema_Field_Lengths/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/reset_target_source_schema_field_lengths/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Reset_Target_Source_Schema_Field_Lengths/</guid>
       <description>Reset Target Source Schema Field Lengths If a Source was added in Target Design during a System Type import, and the System Type tables for a Source contained an invalid length for a column, use the Reset functionality to update a Source table with the column’s correct length.
 NOTE: Updates to field lengths in System Types are not reflected in Target or Source tables until a user clicks Create on the Targets or the Target Sources page.</description>
     </item>
     
     <item>
       <title>Restore Current Field Mapping From History</title>
-      <link>https://heathercloward.github.io/map/use_cases/restore_current_field_mapping_from_history/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Restore_Current_Field_Mapping_From_History/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/restore_current_field_mapping_from_history/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Restore_Current_Field_Mapping_From_History/</guid>
       <description>Restore Current Field Mapping From History On the Field Mapping History page, a user can restore a field mapping to a mapping in history.
 Refer to View Field Mapping History for information about when and how history records are created on this page.
 NOTE: The Auto Load Mapping History option must be disabled on the Parameters page in Console.
@@ -678,10 +678,10 @@ To restore a current field mapping from history in Map:</description>
     
     <item>
       <title>Rule</title>
-      <link>https://heathercloward.github.io/map/use_cases/rule/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/rule/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Rule/</guid>
       <description>Rule The Rule action is used when the field mapping for a field is performed by a rule that is written by the user.
 NOTE: Basic rules are managed in Target Design. They are not edited or submitted in Map. The mapping for a field with a basic rule displays in Map with an Action of Rule. Refer to Add a Basic Rule for more information.
 NOTE: The SOURCE TABLE and SOURCE FIELD fields should be empty when saving a mapping with a Rule action.</description>
@@ -689,29 +689,29 @@ NOTE: The SOURCE TABLE and SOURCE FIELD fields should be empty when saving a map
     
     <item>
       <title>Rule Xref</title>
-      <link>https://heathercloward.github.io/map/use_cases/rule_xref/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Rule_Xref/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/rule_xref/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Rule_Xref/</guid>
       <description>Rule Xref The RuleXref action is used when mapping a field that contains values that must be converted before being value mapped. For example, if two large companies merge, they may want to convert the Legacy Org Numbers first and then value map to the new Org numbers (in an Org check table) in the Target ERP system.
 NOTE: The Rule XRef action requires a check table to be defined for the field.</description>
     </item>
     
     <item>
       <title>Set up a System Type for the Legacy System</title>
-      <link>https://heathercloward.github.io/map/use_cases/set_up_a_system_type_for_the_legacy_system/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Set_up_a_System_Type_for_the_Legacy_System/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/set_up_a_system_type_for_the_legacy_system/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Set_up_a_System_Type_for_the_Legacy_System/</guid>
       <description>Set up a System Type for the Legacy System Add System Types along with System Type tables and fields in Common. Refer to System Types for more information.</description>
     </item>
     
     <item>
       <title>Setup and Configuration for Map</title>
-      <link>https://heathercloward.github.io/map/use_cases/setup_and_configuration_for_map/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Setup_and_Configuration_for_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/setup_and_configuration_for_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Setup_and_Configuration_for_Map/</guid>
       <description>Setup and Configuration for Map Before getting started with Map, verify the following steps have been completed:
  Set Up Security for Map
  Set Up System Types for the Legacy System
@@ -721,10 +721,10 @@ NOTE: The Rule XRef action requires a check table to be defined for the field.</
     
     <item>
       <title>Summary By Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/summary_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Summary_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/summary_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Summary_by_Wave_and_Process_Area/</guid>
       <description>Summary By Wave &amp;amp; Process Area This chart displays the number of field mapping that are in process and the number that are complete for all Objects in the Wave and Process Area selected in the Context bar.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar for a Wave and Process Area to drill down to the Objects page to view the Objects that are in the context.</description>
@@ -732,10 +732,10 @@ Click the bar for a Wave and Process Area to drill down to the Objects page to v
     
     <item>
       <title>Summary Field Mapping Dashboards</title>
-      <link>https://heathercloward.github.io/map/use_cases/summary_field_mapping_dashboards/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Summary_Field_Mapping_Dashboards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/summary_field_mapping_dashboards/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Summary_Field_Mapping_Dashboards/</guid>
       <description>Summary Field Mapping Dashboards Field mapping for a migration project documents how data in the Source will be mapped to data in the Target system.
 Refer to Perform Field Mapping for more information.
 The charts display a field mapping summary of all Waves, Waves and Process Areas, Objects, Targets and Sources, depending on how the charts are accessed, as well as field mapping changes by day, week and month.</description>
@@ -743,10 +743,10 @@ The charts display a field mapping summary of all Waves, Waves and Process Areas
     
     <item>
       <title>Summary Mapping Status Dashboards</title>
-      <link>https://heathercloward.github.io/map/use_cases/summary_mapping_status_dashboard/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Summary_Mapping_Status_Dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/summary_mapping_status_dashboard/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Summary_Mapping_Status_Dashboard/</guid>
       <description> Summary Mapping Status Dashboards The charts on this dashboard display a summary of mapping status and rule status for all Target rules and Target Source rules for all Objects in the Wave and Process Area selected in the Context bar.
 Refer to Mapping Status and Rule Status for more information.
 Refer to View Dashboards in Map for general information about chart features.
@@ -756,19 +756,19 @@ The dashboards contain these charts:
     
     <item>
       <title>Summary Value Mapping Dashboard</title>
-      <link>https://heathercloward.github.io/map/use_cases/summary_value_mapping_dashboard/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Summary_Value_Mapping_Dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/summary_value_mapping_dashboard/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Summary_Value_Mapping_Dashboard/</guid>
       <description>Summary Value Mapping Dashboard In value mapping, an individual value in a source field is configured to be converted to a value that the target system accepts in the target field. For example, the source system may store USA in the Country field, while the target system uses the value US. Value mapping converts the source value to the target value for every occurrence of the source value in the field.</description>
     </item>
     
     <item>
       <title>Target Summary By Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/target_summary_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Target_Summary_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/target_summary_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Target_Summary_by_Object/</guid>
       <description>Target Summary By Object This chart displays the number of field mappings that are in process and the number that are complete for the Object selected on the Objects page for the day.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar for the Object to drill down to the Targets page to view the targets that are in the Object.</description>
@@ -776,10 +776,10 @@ Click the bar for the Object to drill down to the Targets page to view the targe
     
     <item>
       <title>Update Client and Language for all Sources</title>
-      <link>https://heathercloward.github.io/map/use_cases/update_client_and_language_for_all_sources/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Update_Client_and_Language_for_all_Sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/update_client_and_language_for_all_sources/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Update_Client_and_Language_for_all_Sources/</guid>
       <description>Update Client and Language for all Sources When the client and language fields are changed, they are updated across all Targets for the same Source in Map.
 To update the client and language in Map:
  Select ProcessArea in the Navigation pane.
@@ -791,10 +791,10 @@ NOTE: All Sources that display on the Target Sources page are Add Row Sources.</
     
     <item>
       <title>Update Unmapped Fields to NotUsed</title>
-      <link>https://heathercloward.github.io/map/use_cases/update_unmapped_fields_to_notused/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Update_Unmapped_Fields_to_NotUsed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/update_unmapped_fields_to_notused/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Update_Unmapped_Fields_to_NotUsed/</guid>
       <description>Update Unmapped Fields to NotUsed Update Unmapped Target Source Fields If there are several unmapped fields (i.e., where the ACTION field is blank) in a source that need to be set to NotUsed, use the Auto Update Not Used feature.
 To automatically update unmapped fields to NotUsed in Map:
  Click ProcessArea in the Navigation pane.
@@ -804,29 +804,29 @@ To automatically update unmapped fields to NotUsed in Map:
     
     <item>
       <title>Use the Add Row Source Override Field with Update Row Sources</title>
-      <link>https://heathercloward.github.io/map/use_cases/use_the_add_row_source_override_field_with_update_row_sources/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Use_the_Add_Row_Source_Override_Field_with_Update_Row_Sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/use_the_add_row_source_override_field_with_update_row_sources/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Use_the_Add_Row_Source_Override_Field_with_Update_Row_Sources/</guid>
       <description>Use the Add Row Source Override Field with Update Row Sources The table in the Add Row Source Override field on the Target Sources page&amp;rsquo;s Vertical View is used to update data in the Add Row Source when rules are processed. The table in the Add Row Source Override field is the left table in the relationship join for all Update Row Source Update rows.
 Relationships are set up and can be viewed using the Relationship Joins page.</description>
     </item>
     
     <item>
       <title>Value Map Target Fields from Multiple Source Systems</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_map_target_fields_from_mulitple_source_systems/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_map_target_fields_from_mulitple_source_systems/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Map_Target_Fields_from_Mulitple_Source_Systems/</guid>
       <description>Value Map Target Fields from Multiple Source Systems Map allows value mapping for Target fields that will contain data from multiple Source systems, such as Oracle, JDE, or some other legacy system. The values from these Source system fields will be value mapped to the Target field on the Value Mapping (Legacy to Target) page. Refer to Perform Value Mapping for more information. Define the Source table and the Source fields from the legacy systems to add them to the check table that allows them to be value mapped.</description>
     </item>
     
     <item>
       <title>Value Mapping Completed By Check Table</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_completed_by_check_table/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Completed_by_Check_Table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_completed_by_check_table/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Completed_by_Check_Table/</guid>
       <description>Value Mapping Completed By Check Table This chart displays the number of value mappings that are in process and the number that are complete for the check tables selected on the Value Mapping page.
 Hover a cursor over the Completed section to view the count of Completed value mappings. A value mapping is completed after it has been mapped on the Value Mapping (Legacy to Target) page.
 Hover a cursor over the In Process section to view the count of in process value mappings.</description>
@@ -834,20 +834,20 @@ Hover a cursor over the In Process section to view the count of in process value
     
     <item>
       <title>Value Mapping Completed by Wave</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_completed_by_wave/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Completed_By_Wave/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_completed_by_wave/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Completed_By_Wave/</guid>
       <description>Value Mapping Completed by Wave This chart displays the number of value mappings that are in process and the number that are complete for all check tables in the Wave selected on the Value Mapping by Wave and Process Area chart (accessed from Console) or the Wave and Process Area in the Context bar (accessed from Map).
 Hover a cursor over the Completed section to view the count of Completed value mappings for the Wave.</description>
     </item>
     
     <item>
       <title>Value Mapping Daily By Check Table</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_daily_by_check_table/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Daily_by_Check_Table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_daily_by_check_table/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Daily_by_Check_Table/</guid>
       <description>Value Mapping Daily By Check Table This chart displays the number of daily changes made to value mappings for the check tables selected on the Value Mapping page.
 Hover a cursor over a data point to view the number of changes to value mappings for that day.
 Click a data point to open the Value Mapping page to view the status of each check table’s value mapping. The MAPPED PERCENT field displays the mapping status for each check table.</description>
@@ -855,20 +855,20 @@ Click a data point to open the Value Mapping page to view the status of each che
     
     <item>
       <title>Value Mapping Daily by Wave</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_daily_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Daily_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_daily_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Daily_by_Wave_and_Process_Area/</guid>
       <description>Value Mapping Daily by Wave This chart displays the number of daily changes made to value mappings for all check tables associated with the Wave and Process Area selected on the Value Mapping by Wave and Process Area chart (accessed from Console) or the Wave and Process Area in the Context bar (accessed from Map).
 Hover a cursor over a data point to view the number of changes to value mappings for that day.</description>
     </item>
     
     <item>
       <title>Value Mapping Monthly By Check Table</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_monthly_by_check_table/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Monthly_by_Check_Table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_monthly_by_check_table/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Monthly_by_Check_Table/</guid>
       <description>Value Mapping Monthly By Check Table This chart displays the number of monthly changes made to value mappings for the check tables selected on the Value Mapping page.
 The number in the x-axis is the number of the month in the year. For example, 2014-01 is January of 2014.
 Hover a cursor over a data point to view the number of changes to value mappings for that month.
@@ -877,19 +877,19 @@ Click a data point to open the Value Mapping page to view the status of each che
     
     <item>
       <title>Value Mapping Monthly by Wave</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_monthly_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Monthly_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_monthly_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Monthly_by_Wave_and_Process_Area/</guid>
       <description>Value Mapping Monthly by Wave This chart displays the number of daily changes made to value mappings for all check tables associated with the Wave and Process Area selected on the Value Mapping by Wave and Process Area chart (accessed from Console) or the Wave and Process Area in the Context bar (accessed from Map).The number in the x-axis is the number of the month in the year. For example, 201401 is January.</description>
     </item>
     
     <item>
       <title>Value Mapping Weekly By Check Table</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_weekly_by_check_table/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Weekly_by_Check_Table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_weekly_by_check_table/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Weekly_by_Check_Table/</guid>
       <description>Value Mapping Weekly By Check Table This chart displays the number of weekly changes made to value mappings for the check tables selected on the *Value Mapping*page.
 The number in the x-axis is the number of the week in the year. For example, 2014-01 is the first week in the year 2014.
 Hover a cursor over a data point to view the number of changes to value mappings for that week.</description>
@@ -897,19 +897,19 @@ Hover a cursor over a data point to view the number of changes to value mappings
     
     <item>
       <title>Value Mapping Weekly by Wave</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_weekly_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Weekly_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_weekly_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_Weekly_by_Wave_and_Process_Area/</guid>
       <description>Value Mapping Weekly by Wave This chart displays the number of daily changes made to value mappings for all check tables associated with the Wave and Process Area selected on the Value Mapping by Wave and Process Area chart (accessed from Console) or the Wave and Process Area in the Context bar (accessed from Map). The number in the x-axis is the number of the week in the year. For example, 201401 is the first week in the year.</description>
     </item>
     
     <item>
       <title>Value Mapping by Wave</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_by_wave/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_by_Wave/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_by_wave/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_by_Wave/</guid>
       <description>Value Mapping by Wave This chart displays the number of value mappings that are in process and the number that are complete for all Process Areas, Objects, Targets and Sources associated with the Wave selected on the Waves page.
 Click a bar to drill down to the Value Mapping by Waves and Process Areas chart.
 Refer to View Dashboards in Map for general information about chart features.
@@ -918,10 +918,10 @@ To access this chart in Console:</description>
     
     <item>
       <title>Value Mapping by Wave and Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/value_mapping_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/value_mapping_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Value_Mapping_by_Wave_and_Process_Area/</guid>
       <description>Value Mapping by Wave and Process Area This chart displays the number of value mappings that are in process and the number that are complete for all Objects, Targets and Sources associated with the Wave and Process Area.
 When the chart is accessed from the Value Mapping by Wave chart, these counts are for all Process Areas in the selected Wave.
 When the chart is accessed from the Wave : Process Areas page in Console, counts display for the selected Process Area only.</description>
@@ -929,10 +929,10 @@ When the chart is accessed from the Wave : Process Areas page in Console, counts
     
     <item>
       <title>View All Mappings for a Target</title>
-      <link>https://heathercloward.github.io/map/use_cases/view_all_mappings_for_a_target/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/View_all_Mappings_for_a_Target/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/view_all_mappings_for_a_target/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/View_all_Mappings_for_a_Target/</guid>
       <description>View All Mappings for a Target The Target Source Rule Book displays field mapping details for all Objects and Targets within the Wave and Process Area ID for the current user.
 The report is used for the rule book used in Transform so the developer can see the same information as the Mapper in Map. To access the report in Transform, navigate to Targets &amp;gt; Reports.
 To view the Rule Book in Map:</description>
@@ -940,39 +940,39 @@ To view the Rule Book in Map:</description>
     
     <item>
       <title>View Dashboards in Map</title>
-      <link>https://heathercloward.github.io/map/use_cases/view_dashboards_in_map/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/View_Dashboards_in_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/view_dashboards_in_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/View_Dashboards_in_Map/</guid>
       <description>View Dashboards in Map The dashboards included with Map provide visibility into:
  Field mapping status Value mapping status Mapping status and rule status for Target rules and Target reports Mapping status and rule status for Target Source rules and Target Source reports Number of fields value mapped by day, week and month Changes to field mappings by day, week and month  Users can view this data at the Wave and Process Area, Object, Target and Source levels.</description>
     </item>
     
     <item>
       <title>View Field Groups</title>
-      <link>https://heathercloward.github.io/map/use_cases/view_field_groups/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/View_Field_Groups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/view_field_groups/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/View_Field_Groups/</guid>
       <description>View Field Groups Field groups are filters used to create subsets of data in a Target field. Based on values in another related field, these subsets can have different settings, such as criticality, whether the field is required or which rules will run against the field. If, for example, a field is required only under certain data conditions, field groups are used to define the conditions, fields, values, and requirement setting.</description>
     </item>
     
     <item>
       <title>View Field Mapping History</title>
-      <link>https://heathercloward.github.io/map/use_cases/view_field_mapping_history/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/View_Field_Mapping_History/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/view_field_mapping_history/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/View_Field_Mapping_History/</guid>
       <description>View Field Mapping History On the Field Mapping History page, a user can view changes made to a selected field’s mapping. A new record is created on this page when:
  The mapper submits a mapping on the Field Mappings page. A Developer approves or rejects a mapping on the Mapping Approval page. A mapper resets a mapping to update it if a Developer rejects the mapping.  If a field belongs to multiple field groups, changes for each of these field groups also display.</description>
     </item>
     
     <item>
       <title>View Metrics</title>
-      <link>https://heathercloward.github.io/map/use_cases/view_metrics_map/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/View_Metrics_Map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/view_metrics_map/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/View_Metrics_Map/</guid>
       <description>View Metrics Map captures metrics about mapping progress by target; by month, day or week; and by object. Other reports that track mapping by defined gate dates can also be viewed.
 To view metrics in Map:
  Click Map in the Context bar.
@@ -982,20 +982,20 @@ To view metrics in Map:
     
     <item>
       <title>View the Source Tables and Fields Mapped to a Lookup Table</title>
-      <link>https://heathercloward.github.io/map/use_cases/view_the_source_tables_and_fields_mapped_to_a_lookup_table/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/View_the_Source_Tables_and_Fields_Mapped_to_a_Lookup_Table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/view_the_source_tables_and_fields_mapped_to_a_lookup_table/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/View_the_Source_Tables_and_Fields_Mapped_to_a_Lookup_Table/</guid>
       <description>View the Source Tables and Fields Mapped to a Lookup Table A user can access the Source Value Tracking page to view each Source table that has a field that has been mapped to the lookup table selected on the Value Mapping (Sources) page.
 For example, numerous fields use the table T006 to value map unit of measure. This page allows the user to see which Targets, Sources, and fields are entering values into T006.</description>
     </item>
     
     <item>
       <title>Wave &amp; Process Area Source Rules: Mapping Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/wave_process_area_source_rules_map_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Wave_Process_Area_Source_Rules_Map_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/wave_process_area_source_rules_map_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Wave_Process_Area_Source_Rules_Map_Status/</guid>
       <description>Wave &amp;amp; Process Area Source Rules: Mapping Status This chart displays the mapping status (in process or complete) of all source rules for all Objects in the Wave and Process Area selected in the Context bar.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Source Rules: Mapping Status chart.
@@ -1004,10 +1004,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Wave &amp; Process Area Source Rules: Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/wave_process_area_source_rules_rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Wave_Process_Area_Source_Rules_Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/wave_process_area_source_rules_rule_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Wave_Process_Area_Source_Rules_Rule_Status/</guid>
       <description>Wave &amp;amp; Process Area Source Rules: Rule Status This chart displays the rule status (in process or complete) of all Source rules for all Objects in the Wave and Process Area selected in the Context bar.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Source Rules: Rule Status chart.
@@ -1016,10 +1016,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Wave &amp; Process Area Target Rules: Rule Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/wave_and_process_area_target_rules_rule_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Wave_and_Process_Area_Target_Rules_Rule_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/wave_and_process_area_target_rules_rule_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Wave_and_Process_Area_Target_Rules_Rule_Status/</guid>
       <description>Wave &amp;amp; Process Area Target Rules: Rule Status This chart displays the rule status (in process or complete) of all Target rules for all Objects in the Wave and Process Area selected in the Context bar.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Target Rules: Rule Status chart.
@@ -1028,10 +1028,10 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Wave &amp; Process Area Target Rules: Mapping Status</title>
-      <link>https://heathercloward.github.io/map/use_cases/wave_and_process_area_target_rules_mapping_status/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Wave_and_Process_Area_Target_Rules_Mapping_Status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/wave_and_process_area_target_rules_mapping_status/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Wave_and_Process_Area_Target_Rules_Mapping_Status/</guid>
       <description>Wave &amp;amp; Process Area Target Rules: Mapping Status This chart displays the mapping status (in process or complete) of all Target rules for all Objects in the Wave and Process Area selected in the Context bar.
 Hover a cursor over a section of a chart to view the count of mappings for that status.
 Click the bar to drill down to the Object Target Rules: Mapping Status chart.
@@ -1040,19 +1040,19 @@ Refer to View Dashboards in Map for general information about chart features.</d
     
     <item>
       <title>Wave and Process Area Summary Value Mapping Dashboard</title>
-      <link>https://heathercloward.github.io/map/use_cases/wave_prcs_area_sum_value_map_dashboard/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Wave_Prcs_Area_Sum_Value_Map_Dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/wave_prcs_area_sum_value_map_dashboard/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Wave_Prcs_Area_Sum_Value_Map_Dashboard/</guid>
       <description>Wave and Process Area Summary Value Mapping Dashboard In value mapping, an individual value in a Source field is configured to be converted to a value that the Target system accepts in the Target field. For example, the Source system may store USA in the Country field, while the Target system uses the value US. Value mapping converts the Source value to the Target value for every occurrence of the Source value in the field.</description>
     </item>
     
     <item>
       <title>Weekly Summary By Object</title>
-      <link>https://heathercloward.github.io/map/use_cases/weekly_summary_by_object/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Weekly_Summary_by_Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/weekly_summary_by_object/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Weekly_Summary_by_Object/</guid>
       <description>Weekly Summary By Object This chart displays the number of mappings per status for all field mappings for all targets in the Object selected on the Objects page for the week. The number in the x-axis is the number of the week in the year. For example, 2014-01 is the first week of the year 2014.
 The Total Mappings is the count of active fields in the target.
 Hover a cursor over a data point to view the number of field mappings in that status for the Object for that week.</description>
@@ -1060,30 +1060,30 @@ Hover a cursor over a data point to view the number of field mappings in that st
     
     <item>
       <title>Weekly Summary By Wave &amp; Process Area</title>
-      <link>https://heathercloward.github.io/map/use_cases/weekly_summary_by_wave_and_process_area/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Weekly_Summary_by_Wave_and_Process_Area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/weekly_summary_by_wave_and_process_area/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Weekly_Summary_by_Wave_and_Process_Area/</guid>
       <description>Weekly Summary By Wave &amp;amp; Process Area This chart displays the number of mappings per status for all field mappings in the Wave and Process Area in the Context bar for the week. The number in the x-axis is the number of the week in the year. For example, 201401 is the first week of the year 2014.
 The Total Mappings is the count of active fields in the Target.</description>
     </item>
     
     <item>
       <title>Work With Sources Overview</title>
-      <link>https://heathercloward.github.io/map/use_cases/work_with_sources/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Work_with_Sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/work_with_sources/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Work_with_Sources/</guid>
       <description>Work With Sources Overview Source types in the DSP® are:
  Add Row Source Update Row Source Full Construction Source External Source  An Add Row Source is the Source table where records are migrated from and inserted into the Target table. Records in an Add Row Source table are used for reconciliation. An Add Row Source is added in Target Design. Refer to Assign a Source to a Target for more information.</description>
     </item>
     
     <item>
       <title>Work with Sources with Multi-part Keys</title>
-      <link>https://heathercloward.github.io/map/use_cases/work_with_sources_with_multipart_keys/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Work_with_Sources_with_Multipart_Keys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/work_with_sources_with_multipart_keys/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Work_with_Sources_with_Multipart_Keys/</guid>
       <description>Work with Sources with Multi-part Keys Map allows a user to map multiple sources to one target, and to map multiple sources with multi-part keys to a target.
 The sources are assigned to the target in Target Design.
 ZLegacy&amp;lt;KeyFieldName&amp;gt; is the key for the target table. Map the keys on the source table to the ZLegacy&amp;lt;KeyFieldName&amp;gt; on the Field Mappings page.
@@ -1092,10 +1092,10 @@ If a source has more keys or a different number of keys than the target, add a m
     
     <item>
       <title>Xref</title>
-      <link>https://heathercloward.github.io/map/use_cases/xref/</link>
+      <link>https://heathercloward.github.io/Map/Use_Cases/Xref/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://heathercloward.github.io/map/use_cases/xref/</guid>
+      <guid>https://heathercloward.github.io/Map/Use_Cases/Xref/</guid>
       <description>Xref The Xref action is used when mapping a field that must use value mapping.
 NOTE: The Xref action requires a check table to be defined for the field. If a check table is not already defined for the field, update the System Type for this field to add a check table. Refer to Add Check Tables in the Common documentation.
 NOTE: The RuleXref action must be used with a lookup table that has multiple key fields.</description>

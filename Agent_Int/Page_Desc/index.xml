@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/Agent_Int/Page_Desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/Agent_Int/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>API Ping Agent</title>
+      <link>https://heathercloward.github.io/Agent_Int/Page_Desc/API_Ping_Agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Agent_Int/Page_Desc/API_Ping_Agent/</guid>
+      <description>API Ping Agent Use this page to [test the BackOffice IGC Connector Agent connection to DSP](../Config/Test_a_BackOffice_IGC_Agent_Connection_in_DSP).  To access this page, navigate to Agent Interface &amp;gt; Configuration &amp;gt; APIs &amp;gt; API Ping Agent in the Navigation pane
+         Field Description   Ping Agent Click to check the BackOffice IGC Connector Agent connection to the DSP.   Base URL Displays the RESTServer address for the BackOffice IGC Agent.</description>
+    </item>
+    
+    <item>
+      <title>API Status Log</title>
+      <link>https://heathercloward.github.io/Agent_Int/Page_Desc/API_Status_Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Agent_Int/Page_Desc/API_Status_Log/</guid>
+      <description>API Status Log This page is used by the BackOffice Support team while troubleshooting issues related to API calls.</description>
+    </item>
+    
+    <item>
+      <title>Data Quality Report Assignment</title>
+      <link>https://heathercloward.github.io/Agent_Int/Page_Desc/Data_Quality_Report_Assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Agent_Int/Page_Desc/Data_Quality_Report_Assignment/</guid>
+      <description>Data Quality Report Assignment Use this page to [Configure the IGC Migration dashboard](../Use_Cases/Configure_the_Migration_Dashboard).  To access this page:
+ Select Agent Interface &amp;gt; Dashboards &amp;gt; Migration Dashboard in the Navigation pane. Click the Data Quality Report Assignment icon for a wave.    Field
+ Description
+  WAVE PROCESS AREA ID
+ Displays the name of the wave-process area combination for which the error and opportunity reports are selected.</description>
+    </item>
+    
+    <item>
+      <title>Parameters</title>
+      <link>https://heathercloward.github.io/Agent_Int/Page_Desc/Parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Agent_Int/Page_Desc/Parameters/</guid>
+      <description>Parameters Use this page to [add the BackOffice IGC Connector Agent URL in DSP](../Config/Test_a_BackOffice_IGC_Agent_Connection_in_DSP).  To access this page, navigate to Agent Interface &amp;gt; Configuration &amp;gt; Parameters in the Navigation pane.
+  Field
+ Description
+  Agent URL
+ Displays the RESTServer address for the BackOffice IGC Connector Agent. The RESTServer address must be set to &amp;quot;http://localhost:8000/rpc&amp;quot;. This URL is used by the API Ping Agent page to test the Connector Agent’s connection to DSP.</description>
+    </item>
+    
+    <item>
+      <title>Wave Identification H</title>
+      <link>https://heathercloward.github.io/Agent_Int/Page_Desc/Wave_Identification_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Agent_Int/Page_Desc/Wave_Identification_H/</guid>
+      <description>Wave Identification H Wave Identification V
+Use this page to [Configure the Migration dashboard](../Use_Cases/Configure_the_Migration_Dashboard).  To access this page, select Agent Interface &amp;gt; Dashboards &amp;gt; Migration Dashboard in the Navigation pane.
+  Field
+ Description
+  WAVE ID
+ Displays the name of the active wave. Click the wave name to open the Waves page for that wave in Console.
+  SEND WAVE AND MILESTONE METRICS</description>
+    </item>
+    
+    <item>
+      <title>Wave Milestones H</title>
+      <link>https://heathercloward.github.io/Agent_Int/Page_Desc/Wave_Milestones_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Agent_Int/Page_Desc/Wave_Milestones_H/</guid>
+      <description>Wave Milestones H Wave Milestones V
+Use this page to [Configure the IGC Migration dashboard](../Use_Cases/Configure_the_Migration_Dashboard).  To access this page:
+ Select Agent Interface &amp;gt; Dashboards &amp;gt; Migration Dashboard in the Navigation pane. Click the Milestones icon for a wave.    Field
+ Description
+  NAME
+ Displays the name of the milestone.
+  ABBREVIATION
+ Displays a four-character abbreviation of the milestone name that displays on the Migration dashboard.</description>
+    </item>
+    
+  </channel>
+</rss>

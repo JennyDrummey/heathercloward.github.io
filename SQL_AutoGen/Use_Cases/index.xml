@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedures on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/</link>
+    <description>Recent content in Procedures on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/SQL_AutoGen/Use_Cases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build Reports</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_Reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_Reports/</guid>
+      <description>Build Reports SQL AutoGen can build target and source reports and reports with remediation.
+NOTE: The target’s Design Status must be In Design or Design Finished to perform this task.
+A target report is a view built in SQL and stored in the target table.
+A Target Source report is a report run against the source table. Source reports are typically used to display data relevant to processing the rules.</description>
+    </item>
+    
+    <item>
+      <title>Build Source Tables</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_Source_Tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_Source_Tables/</guid>
+      <description>Build Source Tables Source tables can be built using SQL AutoGen after targets have been added and configured in Target Design and a source has been assigned to a target.
+NOTE: The target associated with the source must have a Design Status of In Design or Design Finished to perform this task.
+NOTE: Mapping is not required to create a source table. If the source fields are in System Types, and the source is saved in Target Design, the source table can be built using SQL AutoGen.</description>
+    </item>
+    
+    <item>
+      <title>Build Target Tables</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_Target_Tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_Target_Tables/</guid>
+      <description>Build Target Tables Target tables can be built using SQL AutoGen after targets have been added and configured in Target Design.
+NOTE: The target’s Design Status must be In Design or Design Finished to perform this task.
+NOTE: Mapping is not required to create a target table. Once the target is saved in Target Design, the target table can be built using SQL AutoGen.
+NOTE: Once the table has been created, the Create Target Table icon on the Automation page will be disabled.</description>
+    </item>
+    
+    <item>
+      <title>Build an Update Row Source Table</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_an_Update_Row_Source_Table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Build_an_Update_Row_Source_Table/</guid>
+      <description>Build an Update Row Source Table Update Row source tables can be built using SQL AutoGen after targets have been added and configured in Target Design and an Add Row source has been assigned to a target.
+NOTE: The target associated with the source must have a Design Status of In Design or Design Finished to perform this task.
+NOTE: Mapping is not required to create a source table. If the source fields are in System Types, and the source is saved in Target Design, the source table can be built using SQL AutoGen.</description>
+    </item>
+    
+    <item>
+      <title>Create Rules</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Create_Rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Create_Rules/</guid>
+      <description>Create Rules A Target Source Rule (also referred to as a Source Rule) cleans and massages the data before it is loaded in to the target table. SQL AutoGen generates all source rules to run against the source tables based on mappings created in Map.
+A target rule cleans and manipulates data before it is loaded in to the target. In Map, these mappings use a source of {Target Rules}.</description>
+    </item>
+    
+    <item>
+      <title>Create Rules for an Update Row Source</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Create_Rules_for_an_Update_Row_Source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Create_Rules_for_an_Update_Row_Source/</guid>
+      <description>Create Rules for an Update Row Source A Target Source Rule (also referred to as a Source Rule) cleans and massages the data before it is loaded in to the target table. SQL AutoGen generates all source rules to run against the source tables based on mappings created in Map.
+NOTE: A source table and target table must have been built for the object before rules can be generated.</description>
+    </item>
+    
+    <item>
+      <title>Create and Approve All Rules</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Create_and_Approve_all_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Create_and_Approve_all_rule/</guid>
+      <description>Create and Approve All Rules The Mapping Approval process is separate from SQL AutoGen. These two features function independently.
+When a user submits a rule in Map:
+ The rule displays on the Automation SQL Field Mappings page and can be built.
+NOTE: A Rule Where Clause can be added on theField Mappings page’s vertical view to filter the records to which a rule is applied.
+ The mapping displays on the Mapping Approval page to be reviewed by the developer.</description>
+    </item>
+    
+    <item>
+      <title>Field Mappings and SQL AutoGen</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Field_Mappings_and_SQL_Automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Field_Mappings_and_SQL_Automation/</guid>
+      <description>Field Mappings and SQL AutoGen After mappings are submitted on the Field Mappings page, they are used as the basis for rule generation.
+Records display on the Automation SQL Field Mappings page after:
+ Target and source have been added and configured in Target Design. Field mappings for the target and source have been submitted in Map. Complex or basic rules have been added to a target field in Target Design, if needed.</description>
+    </item>
+    
+    <item>
+      <title>Reject a Mapping</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Reject_a_Mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Reject_a_Mapping/</guid>
+      <description>Reject a Mapping A mapping can be rejected on the Automation SQL Field Mappings page.
+A mapping can also be rejected using the Mapping Approval page. Refer to Reject the Mapping for more information.
+When a mapping is rejected, Mapping Status and Rule Status are updated. Refer to Mapping Status and Rule Status for more information.
+To reject the mapping in AutoGen:
+ Click the Automation tab in the Quick Panel.</description>
+    </item>
+    
+    <item>
+      <title>Reset A Mapping</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Reset_A_Mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Reset_A_Mapping/</guid>
+      <description>Reset A Mapping After a mapping has been submitted in Map, it can be reset in SQL AutoGen.
+NOTE: A mapping will also be automatically reset if it is rejected on the Mapping Approval page. A rejection is tracked differently than a reset, as the Rejected On and Rejected By fields that display on the Field Mappings page’s Vertical View and the Field Mapping History page (both in Map), are populated when a mapping is rejected.</description>
+    </item>
+    
+    <item>
+      <title>Set the Auto Gen Level for a Target</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Set_the_Auto_Gen_Level_for_a_Target/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Set_the_Auto_Gen_Level_for_a_Target/</guid>
+      <description>Set the Auto Gen Level for a Target A setting on the Automation page’s Vertical View configures if and how SQL Objects are auto-generated in the database and registered in Transform.
+NOTE: Altered table commands are used to add missing columns. Rules only create views and stored procedures that are missing. They do not update any views or stored procedures.
+The Auto Gen Levels are:
+ New Rules – Alter Table and Build New Views and Stored Procedures Only – When autogenerating, a table is updated and only new views and stored procedures are created.</description>
+    </item>
+    
+    <item>
+      <title>Setup and Configuration for SQL AutoGen</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Setup_and_Configuration_for_SQL_AutoGen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Setup_and_Configuration_for_SQL_AutoGen/</guid>
+      <description>Setup and Configuration for SQL AutoGen SQL AutoGen creates basic objects used by the migration process (tables, rules and reports) so that users can focus on addressing complex requirements.
+Before using SQL AutoGen:
+ Create the Contexts for Migration Projects Use Target Design to create a target. Refer to Target Design for more information.  NOTE: The target and source tables can be generated after the target has been designed.</description>
+    </item>
+    
+    <item>
+      <title>Update a Rule Status</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Update_a_Rule_Status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/Update_a_Rule_Status/</guid>
+      <description>Update a Rule Status A Developer can update the Rule Status on the Automation SQL Field Mappings page. The status can be updated to an installed status or to a custom status.
+NOTE: The Mapping Status cannot be updated on this page.
+Refer to Mapping Status and Rule Status for more information about installed and custom statuses.
+NOTE: If a user updates the Rule Status in SQL AutoGen, the update is reflected in Map on the Field Mappings page and other fields throughout the product.</description>
+    </item>
+    
+    <item>
+      <title>View Transaction Status</title>
+      <link>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/View_Transaction_Status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/SQL_AutoGen/Use_Cases/View_Transaction_Status/</guid>
+      <description>View Transaction Status A Migration Developer can track transaction status as target tables, source tables and rules are built during SQL AutoGen.
+The AutoGen SQL Log page displays messages about success or failure and detailed information to troubleshoot issues so that users can build objects more efficiently.
+If AutoGen transactions have generated successfully (for example, the target table, source table or rules have been built successfully), the icon is a green check mark.</description>
+    </item>
+    
+  </channel>
+</rss>

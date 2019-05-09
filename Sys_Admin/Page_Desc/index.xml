@@ -1,0 +1,2126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Syniti Documentation</title>
+    <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/</link>
+    <description>Recent content in Pages on Syniti Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://heathercloward.github.io/Sys_Admin/Page_Desc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advanced Workflow</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Advanced_Workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Advanced_Workflow/</guid>
+      <description>Advanced Workflow Use this page to [Configure Workflow Fields](../Use_Cases/Configure_Workflow_Fields).  To configure the workflow fields:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Pages icon for a WEB APP NAME. Click the Events icon for a DESCRIPTION. Click the Business Rules icon for an EVENT. Click Vertical View for a business rule with a PROCEDURE TYPE of Workflow. Click Workflow Fields.  Field
+Description
+Event
+Displays the event that will cause the workflow to be executed.</description>
+    </item>
+    
+    <item>
+      <title>All Jobs H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/All_Jobs_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/All_Jobs_H/</guid>
+      <description>All Jobs H All Jobs V
+Use this page to [View Failed Jobs](../Use_Cases/View_Failed_Jobs).  To access this page, click Admin &amp;gt; Resources &amp;gt; All Jobs in the Navigation pane.
+         Field Description   JOB ID Displays the services job number.   WEB APP NAME Displays the name of the WebApp in which the job is executed.   ADDED ON Displays the date and time the job was added to the job list.</description>
+    </item>
+    
+    <item>
+      <title>Archive Attributes</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Attributes/</guid>
+      <description>Archive Attributes Use this page to view attributes associated with the archive. An attribute is a note or a set of instructions defined in the package from which the archive was created.  Refer to Export CTS Archive to Target Instance for more information.
+To access this page:
+ Click Admin &amp;gt;CTS &amp;gt; Archives on Navigation pane.
+ Click the Attributes icon.
+           Field Description   NAME Displays the name of the attribute defined in the package from which the archive was created.</description>
+    </item>
+    
+    <item>
+      <title>Archive History</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_History/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_History/</guid>
+      <description>Archive History Use this while [Building an Archive from a Package](../Use_Cases/Build_an_Archive_from_a_Package) to view an audit log of when the package was built, installed, etc. and by whom.  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Archives on Navigation pane.
+ Click the History icon.
+           Field Description   INSTANCE Displays the instance on which the action being documented took place.</description>
+    </item>
+    
+    <item>
+      <title>Archive Log</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Log/</guid>
+      <description>Archive Log Use this page to view information about the failed actions for the archive, such as when an install process fails. Refer to [Create a CTS Package and Build Archive in Source Instance](../Use_Cases/CreatePckgeBuildArcSrceInstance) for more information.  To access this page:
+ Click Admin &amp;gt;CTS &amp;gt; Archives on Navigation pane.
+ Click the Log icon.
+    Field
+ Description
+  COUNTER
+ Displays the unique identifier for the record.</description>
+    </item>
+    
+    <item>
+      <title>Archive Manifest</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Manifest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Manifest/</guid>
+      <description>Archive Manifest Use this page while [Building an Archive from a Package](../Use_Cases/Build_an_Archive_from_a_Package) to view the list of contents in an archive.  To access this page:
+ Click Admin &amp;gt;CTS &amp;gt; Archives on Navigation pane.
+ Click the Manifest icon.
+           Field Description   ITEM TYPE Displays the type of CTS item in the archive (e.g., Monitor Group).   DESCRIPTION Displays a description of a specific item included in the archive (e.</description>
+    </item>
+    
+    <item>
+      <title>Archive Manifest Keys</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Manifest_Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archive_Manifest_Keys/</guid>
+      <description>Archive Manifest Keys Use this page while [Building an Archive from a Package](../Use_Cases/Build_an_Archive_from_a_Package) to view the key values defined for the parent CTS item (i.e., the information provided to CTS to indicate the specific item to include in the archive.)  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Archives on Navigation pane.
+ Click the Manifest icon.
+ Click the Keys icon.
+           Field Description   NAME Displays the name of the key (e.</description>
+    </item>
+    
+    <item>
+      <title>Archives H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archives_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Archives_H/</guid>
+      <description>Archives H Archive V
+Use this page to: - [Export CTS Archive to Target Instance](../Use_Cases/Export_CTS_Archive_to_Target_Instance) - [Import Archive to the Target Instance](../Use_Cases/Import_Archive_on_the_Target_Instance)  To access this page, click Admin &amp;gt;CTS &amp;gt; Archives on Navigation pane.
+         Field Description   Detect Archives Click to detect all archives exported to this instance to be installed.   NAME Displays name of the archive.</description>
+    </item>
+    
+    <item>
+      <title>Audit Configuration</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Audit_Configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Audit_Configuration/</guid>
+      <description>Audit Configuration Use this page while [Enabling Audit Trail on a Page](../../WebApp_Dev/Enable_Audit_Trail_on_a_Page).  To access this page in System Administration:
+ Click Data Sources in the Navigation pane. Click the Audit icon for a data source.     Field Description     Data Source Name Displays the name of the data source for which the audit is configured.   Audit Data Source ID Displays the name of the Audit Data Source ID.</description>
+    </item>
+    
+    <item>
+      <title>Audit Tables H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Audit_Tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Audit_Tables/</guid>
+      <description>Audit Tables H Audit Tables V
+Use this page to: - [Enable Audit Trail on a Page](../../WebApp_Dev/Enable_Audit_Trail_on_a_Page) - [Drop Audit Tables](../../WebApp_Dev/Drop_Audit_Tables)  To access this page in System Administration:
+ Click Data Sources in the Navigation pane. Click the Audit icon for a data source. Click the Tables icon.    Field
+ Description
+    TABLE NAME Displays the name of the audited data source table.</description>
+    </item>
+    
+    <item>
+      <title>Bulk Execution Panel</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Bulk_Execution_Panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Bulk_Execution_Panel/</guid>
+      <description>Bulk Execution Panel Use this page to [Perform Bulk Execution](../../Bulk_Exec/Perform_Bulk_Execution).  NOTE: The title that displays on the Bulk Execution panel is the same as the name of the page from which it is launched.
+This panel contains the following tabs:
+ Control Panel
+ Action on Warning
+ Results
+  Control Panel   Field
+ Description
+  Event
+ Displays the page event to be executed.</description>
+    </item>
+    
+    <item>
+      <title>CTS Attributes</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Attributes/</guid>
+      <description>CTS Attributes Use this page to [Add Attributes](../Use_Cases/Add_Attributes).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Build in the Navigation pane. From the CTS Build page, click the Vertical View icon for the archive. Click Attributes.           Field Description   NAME Displays the name of the attribute.   VALUE Displays notes or instructions to include with the archive.</description>
+    </item>
+    
+    <item>
+      <title>CTS Build H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Build_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Build_H/</guid>
+      <description>CTS Build H CTS Build V
+Use this page to [Create Package and Build Archive in Source Instance.](../Use_Cases/CreatePckgeBuildArcSrceInstance)  To access this page, select Admin &amp;gt; CTS &amp;gt; Build in the *Navigation* pane.
+         Field Description   DESCRIPTION Displays name of the CTS package.   Items Click to open the CTS Items page to configure specific items to include in the package.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (SQL Object Dependencies)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Dependencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Dependencies/</guid>
+      <description>CTS Configure (SQL Object Dependencies) Use this page to view the dependencies created for DSP WebApps or to [add and update the configuration for custom WebApps.](../Use_Cases/Set%20a%20Baseline%20CTS%20Configuration%20for%20a%20Custom%20WebApp)  To access this page to view all dependencies:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the Dependencies icon.  To access this page to view registrations for a specific object:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (SQL Object Registration Keys)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Registration-Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Registration-Keys/</guid>
+      <description>CTS Configure (SQL Object Registration Keys) Use this page to view SQL Object key registrations for delivered and custom WebApps.  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the Registrations icon. Click the Keys icon.           Field Description   KEY NAME Displays the key name for the object registration.   COLUMN NAME Displays the name of the column that stores the key.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (SQL Object Registrations)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Registrations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Registrations/</guid>
+      <description>CTS Configure (SQL Object Registrations) Use this page to view SQL Object registrations for delivered and custom WebApps.  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the Registrations icon.  To access this pave to view registrations for a specific object:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the SQL Objects icon. Click the Registrations icon.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (SQL Object Relationships)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Object-Relationships/</guid>
+      <description>CTS Configure (SQL Object Relationships) Use this page to view the relationships created for DSP WebApps or to [add and update the configuration for custom WebApps.](../Use_Cases/Set%20a%20Baseline%20CTS%20Configuration%20for%20a%20Custom%20WebApp)  To access this page to view all relationships:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the Relationships icon.  To access this page to view relationships for a specific object:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (SQL Objects)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-SQL-Objects/</guid>
+      <description>CTS Configure (SQL Objects) Use this page to view the objects created for DSP WebApps or to [add and update the configuration for custom WebApps.](../Use_Cases/Set%20a%20Baseline%20CTS%20Configuration%20for%20a%20Custom%20WebApp)  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the SQL Objects icon for a Data Source ID.  NOTE: Do not update the configurations on this page for delivered WebApps.
+  Field
+ Description</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (Shippable Item Keys)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-Shippable-Item-Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-Shippable-Item-Keys/</guid>
+      <description>CTS Configure (Shippable Item Keys) Use this page to [Set a Baseline CTS Configuration for a Custom WebApp](../Use_Cases/Set%20a%20Baseline%20CTS%20Configuration%20for%20a%20Custom%20WebApp).  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the Shippable Items icon. Click the Keys icon.  NOTE: Do not update the configurations on this page for delivered WebApps. However, these settings must be configured if you are CTS’ing a Custom WebApp.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure (Shippable Items) H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-Shippable-Items/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-Shippable-Items/</guid>
+      <description>CTS Configure (Shippable Items) H CTS Configure (Shippable Items) V
+Use this page to [Set a Baseline CTS Configuration for a Custom WebApp](../Use_Cases/Set%20a%20Baseline%20CTS%20Configuration%20for%20a%20Custom%20WebApp).  To access this page:
+ Click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane. Click the Shippable Items icon.           Field Description   NAME Displays the name of the shippable item.   DESCRIPTION Displays a description of the shippable item.</description>
+    </item>
+    
+    <item>
+      <title>CTS Configure H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Configure-H/</guid>
+      <description>CTS Configure H [](#CTS)
+CTS Configure V
+Use this page to [Set a Baseline CTS Configuration for a Custom WebApp](../Use_Cases/Set%20a%20Baseline%20CTS%20Configuration%20for%20a%20Custom%20WebApp).  To access this page, click Admin &amp;gt; CTS &amp;gt; Configuration in the Navigation pane.
+NOTE: Do not update the configurations on this page for delivered WebApps. However, these settings must be configured if you are CTS’ing a Custom WebApp.
+  Field
+ Description
+  DATA SOURCE ID</description>
+    </item>
+    
+    <item>
+      <title>CTS Item Keys</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Item_Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Item_Keys/</guid>
+      <description>CTS Item Keys Use this page while [Creating a Package and Building an Archive in Source Instance](../Use_Cases/CreatePckgeBuildArcSrceInstance).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Build in the Navigation pane. Click the Items icon. Click the Keys icon for an Item.           Field Description   PRIORITY Displays the order in which CTS filters get the desired item, where the lowest prioritized number represents the highest level “parent” and each subsequent priority is a “child.</description>
+    </item>
+    
+    <item>
+      <title>CTS Items H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Items_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Items_H/</guid>
+      <description>CTS Items H CTS Items V
+Use this page to [Create Package and Build Archive in Source Instance](../Use_Cases/CreatePckgeBuildArcSrceInstance).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Buildin the Navigation pane. Click the Items icon.    Field
+ Description
+  CTS CONFIG ITEM ID
+ Displays item included in the package (as in, being moved via the CTS process).
+The options available in this list box are those added on the CTS Configure (Shippable Items) page.</description>
+    </item>
+    
+    <item>
+      <title>CTS Log</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Log/</guid>
+      <description>CTS Log Use to view messages or errors when [Creating a Package and Building an Archive in Source Instance](../Use_Cases/CreatePckgeBuildArcSrceInstance).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Build in the Navigation pane. Click the Log icon.    Field
+ Description
+  COUNTER
+ Displays the unique identifier for the record.
+  SEVERITY
+ Displays the debug trace level of the item in the log.</description>
+    </item>
+    
+    <item>
+      <title>CTS Package Export</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Package_Export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Package_Export/</guid>
+      <description>CTS Package Export Use this page to [Export CTS Archive to Target Instance](../Use_Cases/Export_CTS_Archive_to_Target_Instance).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Archivesin the Navigation pane. Click Export for archive to move the file to a designated instance.    Field
+ Description
+  Trace Level
+ Displays severity of the message logged.
+Values are:
+ Debug — A detailed message displays to provide data about the process.</description>
+    </item>
+    
+    <item>
+      <title>CTS Packing List By Config Item</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Packing-List-Config-Item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Packing-List-Config-Item/</guid>
+      <description>CTS Packing List By Config Item Use this page to [Review Packing List to Exclude Specific Items](../Use_Cases/Review_Packing_List_to_Exclude_Specific_Items).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Build in the Navigation pane. Click any of the buttons on the CTS Packing List Summary page.  NOTE: The records that display on this page depend on the selection made on the CTS Packing List Summary page.
+         Field Description   EXCLUDE Click to exclude the selected config item from the packing list.</description>
+    </item>
+    
+    <item>
+      <title>CTS Packing List H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Packing_List_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Packing_List_H/</guid>
+      <description>CTS Packing List H CTS Packing List V
+Use this page to [Review Packing List](../Use_Cases/Review_Packing_List_to_Exclude_Specific_Items).  To access this page:
+ Verify the package was built. Select Admin &amp;gt;CTS &amp;gt; Build in the Navigation pane. Click Packing List,on the CTS Build page.           Field Description   Exclude Click to remove the selected item from the packing list.   CTS CONFIG ITEM ID Displays item type included in the package (as in, being moved via the CTS process).</description>
+    </item>
+    
+    <item>
+      <title>CTS Packing List Keys</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Packing_List_Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS_Packing_List_Keys/</guid>
+      <description>CTS Packing List Keys Use this page to [Review Packing List](../Use_Cases/Review_Packing_List_to_Exclude_Specific_Items).  To access this page:
+ Verify the package was built. Select Admin &amp;gt; CTS &amp;gt; Build in the Navigation pane. Click Packing List on the CTS Build page. Click the Keys icon for an item.           Field Description   PRIORITY Displays the order in which CTS filters get the desired item, where the lowest prioritized number represents the highest level “parent” and each subsequent priority is a &amp;ldquo;child.</description>
+    </item>
+    
+    <item>
+      <title>CTS Packing List Summary</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Packing-List-Summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/CTS-Packing-List-Summary/</guid>
+      <description>CTS Packing List Summary Use this page to [Review Packing List to Exclude Specific Items](../Use_Cases/Review_Packing_List_to_Exclude_Specific_Items).  To access this page:
+ Select Admin &amp;gt; CTS &amp;gt; Build in the Navigation pane. Click the Packing List icon.           Field Description   DESCRIPTION Displays a description of the config item.   ALL Click to open the CTS Packing List By Config Item page displaying all items added to the packing list to be moved via the CTS process.</description>
+    </item>
+    
+    <item>
+      <title>Catalog All Phrases</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_All_Phrases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_All_Phrases/</guid>
+      <description>Catalog All Phrases Use this page to [view all the phrases that are registered in any catalog.](../Use_Cases/Add_Phrases_to_Catalogs)  To access this page, select Admin &amp;gt; Translations &amp;gt; Phrases in the *Navigation* pane.
+         Field Description   PHRASE Displays the phrase to be translated.   Translations Click to open the Catalog Phrase Translations (Generic) page to view and modify the translations for the corresponding phrase.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Extension</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_Extension/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_Extension/</guid>
+      <description>Catalog Extension Use this page to [](../Use_Cases/Add%20a%20Catalog%20to%20a%20Delivered%20WebApp) [Add a Catalog to a Delivered WebApp](../Use_Cases/Add%20a%20Catalog%20to%20a%20Delivered%20WebApp).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in the Navigation pane. Click Catalogs for a WEB APP NAME.           Field Description   PRIORITY Displays priority of catalog assigned to the WebApp. If more than one catalog is assigned, the priority determines the order in which catalogs are searched.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Page Help H &lt;span id=&#34;Catalogs_Page_Help_H&#34;&gt;&lt;/span&gt;</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/catalogPageHelp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/catalogPageHelp/</guid>
+      <description>Catalog Page Help H  Catalog Page Help V
+Use this page to [Add Dynamic Help to a Page](../../WebApp_Dev/addDynamicHelpToAPage).  To access this page:
+ Select Admin &amp;gt; WebApps in the *Navigation* pane.  Click the Pages icon for a WEB APP NAME. Click the Edit Page Help icon for a page.    Field
+ Description
+  Phrases
+ Click this icon in the Page toolbar to open the Catalog Page Phrases page.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Page Phrases</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog-Page-Phrases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog-Page-Phrases/</guid>
+      <description>Catalog Page Phrases Use this page to [Add Phrases to Catalogs at the Page Level](../Use_Cases/Add_Phrases_to_Catalogs).  To access this page:
+ Select Admin &amp;gt; Translations &amp;gt; WebApps in the Navigation pane. Click the Pages icon for a Catalog. Click the Phrases icon for a page.           Field Description   PHRASE Displays the phrase to be translated on the selected page.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Phrase Translations (Generic)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_Phrase_Translations_Generic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_Phrase_Translations_Generic/</guid>
+      <description>Catalog Phrase Translations (Generic) Use this page to [Add Phrases to Catalogs](../Use_Cases/Add_Phrases_to_Catalogs).  To access this page:
+ Select Admin &amp;gt; Translations &amp;gt; Phrases in the Navigation pane. Click Translations for a PHRASE.    Field
+ Description
+  NAME
+ Displays the name of the catalog. The NAME field and the CATALOG ID field will always have the same value. There is no difference between the two fields.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Phrase Translations (Page Specific)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog-Phrase-Translations-Page-Specific/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog-Phrase-Translations-Page-Specific/</guid>
+      <description>Catalog Phrase Translations (Page Specific) Use this page to [Add Phrases to Catalogs at the Page Level.](../Use_Cases/Add_Phrases_to_Catalogs)  To access this page:
+ Select Admin &amp;gt; Translations &amp;gt; WebApps in the Navigation pane. Click the Pages icon for a Catalog. Click the Phrases icon for a page. Click the Translations icon for the phrase.    Field
+ Description
+  PRIORITY
+ Display the priority of the catalog.</description>
+    </item>
+    
+    <item>
+      <title>Catalog Phrases H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_Phrases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_Phrases/</guid>
+      <description>Catalog Phrases H Catalog Phrases V
+Use this page to [Add Phrases to Catalogs](../Use_Cases/Add_Phrases_to_Catalogs).  NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration for more information.
+To access this page:
+ Select Admin &amp;gt; Translations &amp;gt; Catalogs in the Navigation pane. Click the Phrases icon for a Catalog.           Field Description   PHRASE Displays the translatable phrases.</description>
+    </item>
+    
+    <item>
+      <title>Catalog WebApp</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_WebApp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalog_WebApp/</guid>
+      <description> Catalog WebApp Use this page while [Adding Phrase Out Values to Alias a Column on a Page](../Use_Cases/Add_Phrase_Out_Values_to_Alias_a_Column_on_a_Page).  To access this page, select Admin &amp;gt; Translations &amp;gt; WebApps in the Navigation pane.
+         Field Description   WEB APP NAME Displays the name of the WebApp.   Pages Click to display the pages for the selected WEB APP NAME.    </description>
+    </item>
+    
+    <item>
+      <title>Catalogs H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalogs_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Catalogs_H/</guid>
+      <description>Catalogs H Catalogs V
+Use this page to [Create WebApp Catalogs](../Use_Cases/Create_WebApp_Catalogs).  To access this page, select Admin &amp;gt; Translations &amp;gt; Catalogs in the *Navigation* pane.          Field Description   NAME Displays the name of the catalog.   Phrases Click to display the translatable phrases.    Catalogs V Catalogs H
+Use this page to: - [Create WebApp Catalogs](.</description>
+    </item>
+    
+    <item>
+      <title>Colors</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Colors/</guid>
+      <description>Colors Use this page to [Add a Color](../Use_Cases/Add_a_Color).  To access this page, select Admin &amp;gt; Configuration &amp;gt; Style &amp;gt; Colors in the *Navigation* pane.
+         Field Description   COLOR The color to use to represent the value on the Chart.   COLOR CODE Displays the 6-digit hexadecimal number code that represents the color.   EXAMPLE Displays an image of what the color looks like.</description>
+    </item>
+    
+    <item>
+      <title>Column Events</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Column-Events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Column-Events/</guid>
+      <description>Column Events A developer can add an event that triggers at the record level when a user clicks on a field on the page. In this case, select the column name in the EVENT list box when adding the event on the *Page Events* page.
+NOTE: The EVENT list box displays all of the column names that can have record-level events added.</description>
+    </item>
+    
+    <item>
+      <title>Control (Formats)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Control_Formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Control_Formats/</guid>
+      <description>Control (Formats) Use this page to [View Controls and Control Formats](../../WebApp_Dev/View_Controls_and_Control_Formats).  To access this page:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Controls from the Navigation pane. Click the Formats icon for a control.    Field
+ Description
+    FORMAT
+ Displays the name of the format.
+  DESCRIPTION
+ Displays a description of the format.
+  CHECKED
+ Displays the value that is passed when the check box is checked on WebApp pages.</description>
+    </item>
+    
+    <item>
+      <title>Control Display and Limit Possible Candidates</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Control-Display-and-Limit-Possible-Candidates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Control-Display-and-Limit-Possible-Candidates/</guid>
+      <description>Control Display and Limit Possible Candidates With the results of Duplicate Detection validation, the primary key in the Duplicate Detection Validation fields and any fields for which Duplicate Detection has been enabled display. To include or exclude specific columns, create a view containing the primary key columns and any additional columns that should display to the user.
+NOTE: When performing Duplicate Detection against an index of another table, the view must contain the primary key columns as defined at the index level.</description>
+    </item>
+    
+    <item>
+      <title>Controls</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Controls/</guid>
+      <description>Controls Use this page to [View Controls and Control Formats](../../WebApp_Dev/View_Controls_and_Control_Formats).  To access this page select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Controls from the Navigation pane.
+   Field Description     CONTROL Displays the name of the control.   DESCRIPTION Displays a description of the control.   CUSTOMIZABLE If checked, the control can be customized. If unchecked, the control cannot be customized. Only the Toolbar control can be cuomized.</description>
+    </item>
+    
+    <item>
+      <title>Copied Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copied-Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copied-Pages/</guid>
+      <description>Copied Pages Use this page to view which pages in the DSP® have been copied and used as the basis for other pages.  To access this page, select Admin &amp;gt; Configuration &amp;gt; Copied Pages in the Navigation pane.
+         Field Description   PAGE ID Displays a GUID representing the page ID of the copied page.   DESCRIPTION Displays a description of the copied page.</description>
+    </item>
+    
+    <item>
+      <title>Copy Page</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy-Page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy-Page/</guid>
+      <description>Copy Page Use this page to [Copy a Page in a WebApp.](../../WebApp_Dev/Copy_a_Page_in_a_WebApp)  To access this page, either:
+ Access the WebApp page. Click the Change Settings icon on the Site toolbar. Select Design. Click Vertical View for the page. Click the Advanced Properties tab. Click Copy.  OR
+ Click Admin &amp;gt; WebApps in the Navigation pane. Click the Pages icon for the page to be copied. Click Vertical View.</description>
+    </item>
+    
+    <item>
+      <title>Copy Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_Role/</guid>
+      <description>Copy Role Use this page to [Copy a Security Role](../Use_Cases/Copy_a_Security_Role).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+ Click the Copy Role icon for a security role.
+           Field Description   Description Displays the description of the security role   Original Name Displays the name of the role being copied.</description>
+    </item>
+    
+    <item>
+      <title>Copy User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_User/</guid>
+      <description>Copy User Use this page to [Create a User Account Based on Another User’s Security Settings](../Use_Cases/Create_a_User_Account_Based_on_Another_Users_Security_Settings).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.
+ Click the Create User From icon.
+           Field Description   Create Click to create a user based on the data entered and the permissions set.   User ID Displays ID associated with user used to log in to the Platform.</description>
+    </item>
+    
+    <item>
+      <title>Copy WebApp User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_WebApp_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_WebApp_User/</guid>
+      <description>Copy WebApp User Use this page while [Creating a User Account Based on Another User’s Security Settings](../Use_Cases/Create_a_User_Account_Based_on_Another_Users_Security_Settings).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.
+ Click the Create User From icon.
+ Click the Permissions icon.
+           Field Description   WEB APP NAME Displays the name of the WebApp to which the user has access.</description>
+    </item>
+    
+    <item>
+      <title>Copy WebAppGroupUser</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_WebAppGroupUser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Copy_WebAppGroupUser/</guid>
+      <description>Copy WebAppGroupUser Use this page while [Creating a User Account Based on Another User’s Security Settings.](../Use_Cases/Create_a_User_Account_Based_on_Another_Users_Security_Settings)  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.
+ Click the Create User From icon.
+ Click the Permissions icon.
+ Click the Groups icon.
+           Field Description   GROUP NAME Displays the WebApp group.</description>
+    </item>
+    
+    <item>
+      <title>Custom Page Column Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Custom_Page_Column_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Custom_Page_Column_Links/</guid>
+      <description>Custom Page Column Links Use this page to [Add Custom Links to a Page.](../Use_Cases/Add_a_Custom_Link)  This page contains the following tabs:
+ General tab
+ Advanced Properties tab
+  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization from Navigation pane.
+ Click Custom Linksfor a WEB APP NAME.
+  General tab Field
+Description
+Column Name
+Displays the column name that appears as the custom link.</description>
+    </item>
+    
+    <item>
+      <title>Customization Review</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Customization-Review/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Customization-Review/</guid>
+      <description>Customization Review Use this page to [review customization settings for dashboards](../../WebApp_Dev/Review%20Dashboard%20Customization%20Settings%20For%20a%20User).  To access this page;
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in the Navigation pane. Click the Pages icon for a WebApp. Click the Review icon for a page. Click the Review icon for a user ID.           Field Description   USER ID Displays the user ID.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Audit Report</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Source_Audit_Report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Source_Audit_Report/</guid>
+      <description>Data Source Audit Report Use this page to view audit reports for data sources.  To access this page in System Administration, click Data Sources &amp;gt; Audit Report in the Navigation pane.
+         Field Description   Active Instance Displays the name of the active DSP instance that is producing the audit report.   Only Show Warnings and Errors If checked, the audit report will only display warnings and errors for the associated data sources.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Column Encryption</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Source_Column_Encryption/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Source_Column_Encryption/</guid>
+      <description>Data Source Column Encryption Use this page to: - [Encrypt Password for CranSoft® Data Source](../Use_Cases/Encrypt_Password_for_CranSoft_DataSource) - [Encrypt a Column](../../WebApp_Dev/Encrypt_a_Column)  To access this page:
+ SelectAdmin &amp;gt; Data Sourcesin the Navigation pane.
+ Click the Encryption icon.
+           Field Description   TABLE NAME Displays the name of the table that contains the column where the data will be encrypted.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Features</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceFeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceFeatures/</guid>
+      <description>Data Source Features Use this page to view data source features. Refer to [View Data Source Types and Features](../Use_Cases/ViewDataSourceTypesFeatures) for more information about how data source features function in the DSP.  To access this page in System Administration, click Configuration &amp;gt; Setup &amp;gt; Data Source Features in the Navigation pane.
+         Field Description   FEATURE NAME Displays the name of the data source feature.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Instances H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceInstancesH/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceInstancesH/</guid>
+      <description>Data Source Instances H Data Source Instances V
+Use this page to [Add a Data Source Instance](../Use_Cases/AddDataSourceInstance).  To access this page in System Administration:
+ Click Data Sources in the Navigation pane. Click the Instances icon.    Field
+ Description
+  Test Connection
+ Click to test the connection to the Data Source, which verifies the database User ID and Password are connected to the database.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Sequences</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Source_Sequences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Source_Sequences/</guid>
+      <description>Data Source Sequences NOTE: This page is currently not in use.
+         Field Description   SEQUENCE NAME Displays the name of sequence as registered in the Oracle database.   TABLE NAME Displays the table name the sequence is mapped to, referenced during inserts to this table.   COLUMN NAME Displays the column name to which the sequence value is mapped.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Type Features</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceTypeFeatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceTypeFeatures/</guid>
+      <description>Data Source Type Features Use this page to [View Data Source Features](../Use_Cases/ViewDataSourceTypesFeatures).  To access this page in System Administration:
+ Click Configuration &amp;gt; Setup &amp;gt; Data Source Types in the Navigation pane. Click the Features icon for a data source type.           Field Description   DATA SOURCE FEATURE ID Displays the name of the data source feature ID.   DESCRIPTION Displays a description of the data source type feature.</description>
+    </item>
+    
+    <item>
+      <title>Data Source Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceTypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/DataSourceTypes/</guid>
+      <description>Data Source Types Use this page to [View Data Source Types and Features](../Use_Cases/ViewDataSourceTypesFeatures).  To access this page in System Administration, click Configuration &amp;gt; Setup &amp;gt; Data Source Types in the Navigation pane.
+  Field
+ Description
+  DESCRIPTION
+ Displays a description of the data source type.
+  DATABASE
+ If checked, the data source type is a database.
+  FILE
+ If checked, the data source type is a file.</description>
+    </item>
+    
+    <item>
+      <title>Data Sources H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Sources_HSysAdmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Data_Sources_HSysAdmi/</guid>
+      <description>Data Sources H NOTE: It is recommended that data sources be registered in Common instead of System Administration. A Data Services data source must be registered in Common and cannot be registered in System Administration.
+Use this page to: - [Register a Data Source](../Use_Cases/Register_a_Data_Source) - [Register the Database for a Custom WebApp](../../WebApp_Dev/Register_the_Database_for_a_Custom_WebApp) - [Append BOA Reserved Columns to Tables](../../WebApp_Dev/Append_BOA_Reserved_Columns_to_Tables) - [Encrypt a Column](../../WebApp_Dev/Encrypt_a_Column)  The configuration of the Vertical View depends on the Data Source Type.</description>
+    </item>
+    
+    <item>
+      <title>Database Types H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Database_Types_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Database_Types_H/</guid>
+      <description>Database Types H Database Types V
+Use this page to [add database types](../Use_Cases/Add_Database_Types).  To access this page select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Database Types from the Navigation pane.
+         Field Description   DATABASE TYPE ID Displays the database type ID.   DESCRIPTION Displays the type of database.   SUPPORTED If checked, the database is supported. If unchecked, the database is not supported and will not appear in drop-down lists referring to this data.</description>
+    </item>
+    
+    <item>
+      <title>Database: Current Connections</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/DatabaseCurrentConnections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/DatabaseCurrentConnections/</guid>
+      <description>Database: Current Connections Use this page to view databases currently connected to the DSP because of file reads, writes, executing processes or other factors.  To access this page, select Admin &amp;gt; Resources &amp;gt; SQL Server Health &amp;gt; Database: Current Connections in the Navigation pane.
+  Field
+ Description
+  SESSION ID
+ Displays the unique identifier for the session.
+  CLIENT IP
+ Displays the IP address of the client connecting to the database.</description>
+    </item>
+    
+    <item>
+      <title>Database: Current Requests</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/DatabaseCurrentRequests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/DatabaseCurrentRequests/</guid>
+      <description>Database: Current Requests Use the *Database: Current Requests* page to view information about each database request per session ID that is executing within the SQL server environment.  To access this chart in System Administration, select Admin &amp;gt; Resources &amp;gt; SQL Server Health &amp;gt; Database: Current Requests in the Navigation pane.
+  Field
+ Description
+  SESSION ID
+ Displays the unique identifier for the session.
+  REQUEST ID</description>
+    </item>
+    
+    <item>
+      <title>Decrypt</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Decrypt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Decrypt/</guid>
+      <description> Decrypt Use this page to [Decrypt Data](../../WebApp_Dev/Decrypt%20Data).  To access this page, select Configuration &amp;gt; Encryption &amp;gt; Decrypt in the Navigation pane.
+         Field Description   ENCRYPTED DATA Displays data to be decrypted.   Show Plaintext Click to display a notification with the decrypted data.    </description>
+    </item>
+    
+    <item>
+      <title>Definition</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Definition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Definition/</guid>
+      <description>Definition Use this page to view the Stored Procedure associated with a page event’s business rule.
+To access this page:
+ Click WebApps in the Navigation pane. Click the Pages icon; the Pages page is displayed. Click the Events icon for a page; the Page Events page is displayed. Click the Business Rules icon for an event; the Page Business Rules page is displayed. Click Vertical View for a Stored Procedure.</description>
+    </item>
+    
+    <item>
+      <title>Dictionaries</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Dictionaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Dictionaries/</guid>
+      <description>Dictionaries Use this page to: - [Create Dictionaries](../Use_Cases/Create_Dictionaries) - Configure Columns in Common  This page can be accessed in two ways.
+To access this page in Common:
+ Click Common &amp;gt; Analyze in the Navigation pane.
+ Click the Duplicates icon for a data source.
+ Click Vertical View for an object.
+ Click the Dictionaries icon.
+  To access this page in System Administration, select Admin &amp;gt; Configuration &amp;gt; Search &amp;gt; Dictionaries in the *Navigation* pane.</description>
+    </item>
+    
+    <item>
+      <title>Dictionary Words</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Dictionary_Words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Dictionary_Words/</guid>
+      <description>Dictionary Words Use this page to Configure Columns in Common.  There are two ways to access this page.
+To access this page in Common:
+ Select Common &amp;gt; Analyze in the Navigation pane.
+ Click the Duplicates icon for a data source.
+ Click Vertical View for an object.
+ Click the Dictionaries icon.
+ Click the Words icon.
+  To access this page in System Administration:</description>
+    </item>
+    
+    <item>
+      <title>Encryption Keys</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Encryption-Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Encryption-Keys/</guid>
+      <description> Encryption Keys Use this page to set the name of the key used while [encrypting a column](../../WebApp_Dev/Encrypt_a_Column).      Field
+ Description
+  DISPLAY NAME
+ Displays the name of the encryption key as it displays in the DSP®.
+This value is used on the Data Source Column Encryption page when encrypting a column.
+    </description>
+    </item>
+    
+    <item>
+      <title>Excel Integration Panel</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Excel_Integration_Panel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Excel_Integration_Panel/</guid>
+      <description>Excel Integration Panel Use this page to: - [Download an Excel Spreadsheet](../../Excel_Int/Download_an_Excel_Spreadsheet) - [Import Data](../../Excel_Int/Import_Data) - [Unlock Records](../../Excel_Int/Unlock_Records)  This panel contains the following tabs:
+ Download Template Import Data  To access this page:
+ Navigate to the page where the data is to be imported in the DSP®.
+OR
+Navigate to the page where the Excel template is to be downloaded. Select Excel Integration from the page gear menu.</description>
+    </item>
+    
+    <item>
+      <title>Failed Jobs H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Failed_Jobs_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Failed_Jobs_H/</guid>
+      <description>Failed Jobs H Failed Jobs V
+Use this page to [View Failed Jobs](../Use_Cases/View_Failed_Jobs).  To access this page:
+ Click Admin &amp;gt; Resources &amp;gt; Monitor in the Navigation pane. Click the Failed icon for a resource type.    Field
+ Description
+  JOB ID
+ Displays the services job number.
+  TASK ID
+ Displays the task ID.
+  TYPE
+ Displays the type of job.</description>
+    </item>
+    
+    <item>
+      <title>Forbidden Passwords</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Forbidden_Passwords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Forbidden_Passwords/</guid>
+      <description> Forbidden Passwords Use this page to [Set Forbidden Passwords](../Use_Cases/Set_Forbidden_Passwords).  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Forbidden Passwords in the Navigation pane.
+         Field Description   WORD Displays a word that cannot be used as a password for a user’s account. If the user attempts to save a forbidden password, an error message displays.    </description>
+    </item>
+    
+    <item>
+      <title>Group Page List</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Group_Page_List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Group_Page_List/</guid>
+      <description>Group Page List Use this page to [View the WebApp Groups and WebApp Pages that a User can Access](../Use_Cases/View_the_WebApp_Groups_and_WebApp_Pages_that_a_User_can_Access).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.
+ Click the Groups icon.
+ Click the Pages icon.
+           Field Description   WEB APP NAME Displays the name of the WebApp.   GROUP NAME Displays the name of the WebApp Group.</description>
+    </item>
+    
+    <item>
+      <title>Group Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Group_Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Group_Pages/</guid>
+      <description>Group Pages Use this page to [Set Page Security for WebApp Groups](../Use_Cases/Set%20Page%20Security%20for%20WebApp_Groups).  To access this page:
+ Click Admin &amp;gt;WebApps on *Navigation* pane.
+ Click Groups for a WEB APP NAME.
+ Click Pages for a GROUP NAME.
+           Field Description   PAGE ID Displays the name of the page assigned to the WebApp group.   ALLOW SELECT If enabled, members of the WebApp group can view the page and data on the page.</description>
+    </item>
+    
+    <item>
+      <title>Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Groups/</guid>
+      <description>Groups Use this page to [Create Groups](../Use_Cases/Create_Groups_Security).  To access this page:
+ Click Admin &amp;gt;WebApps on *Navigation* pane.
+ Click Groups for a WEB APP NAME.
+           Field Description   GROUP NAME Displays the name of the WebApp Group.   Pages Click to open the Group Pages page to add pages to the WebApp group and to manage page access.</description>
+    </item>
+    
+    <item>
+      <title>Images H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Images-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Images-H/</guid>
+      <description>Images H Images V
+Use this page to [Add an Image to the DSP®.](../Use_Cases/Add%20an%20Image%20to%20the%20DSP)  To access this page, select Admin &amp;gt; Configuration &amp;gt; Style &amp;gt; Images in the Navigation pane.
+  Field
+ Description
+  IMAGE NAME
+ Displays the named space name of the image.
+NOTE: Images are named using a name space, two or more namesseparated by a period. Each part must begin with a letter, and cannot contain spaces or punctuation.</description>
+    </item>
+    
+    <item>
+      <title>Index (Specification) H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Index-Specification-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Index-Specification-H/</guid>
+      <description>Index (Specification) H Index (Specification) V
+Use this page to: - [Create an Index](../Use_Cases/Create%20an%20Index) - [Configure an Index](../Use_Cases/Configure%20an%20Index) - [Build Index Objects](../Use_Cases/Build%20Index%20Objects)  To access this page:
+ Select Admin &amp;gt; Data Sources in the Navigation pane. Click the Index icon for a data source.      Field
+ Description
+  Build
+ Click to build the index tables and stored procedures for indexing.
+Before a table can be indexed, the objects must be built based on the index configuration.</description>
+    </item>
+    
+    <item>
+      <title>Index Columns</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Index-Columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Index-Columns/</guid>
+      <description>Index Columns Use this page to [Add a Column to an Index](../Use_Cases/Add%20a%20Column%20to%20an%20Index).  To access this page:
+ Select Admin &amp;gt; Data Sources in the Navigation pane. Click the Index icon for a data source. Click the Columns icon for a table.      Field
+ Description
+  COLUMN
+ Displays the name of the column that is indexed.
+NOTE: An encrypted column cannot be indexed.</description>
+    </item>
+    
+    <item>
+      <title>Indices H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Indices-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Indices-H/</guid>
+      <description>Indices H Indices V
+Use this page to: - [Populate an index](../Use_Cases/Populate%20an%20Index) - [Stop a Running Index](../Use_Cases/Stop%20a%20Running%20Index)  To access this page, select Admin &amp;gt; Resources &amp;gt; Indices in the Navigation pane.
+         Field Description   DATABASE Displays the name of the database that stores the table that is indexed.   TABLE Displays the name of the table that is indexed.</description>
+    </item>
+    
+    <item>
+      <title>Instances</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Instances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Instances/</guid>
+      <description>Instances Use this page to [Set up Instances](../Use_Cases/Set_up_Instances).  To access this page:
+ Log in to the DSP® source instance.
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Instances in the Navigation pane.
+           Field Description   INSTANCE Displays user-friendly name of the instance.   DESCRIPTION Displays brief description of the instance.   WEB SITE ADDRESS Displays URL of the instance.</description>
+    </item>
+    
+    <item>
+      <title>Job Queue (Task) H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job_Queue_Task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job_Queue_Task/</guid>
+      <description>Job Queue (Task) H Job Queue (Task) V
+Use this page to view the tasks for failed jobs.  To access this page:
+ Select Admin &amp;gt; Resources &amp;gt; Jobs (Failed) in the Navigation pane. Click Vertical View for a failed job. Click the Tasks button.  NOTE: This button only displays for General Job Types.
+   Field Description     TASK ID Displays a unique identifier for the task in the queue.</description>
+    </item>
+    
+    <item>
+      <title>Job Queue Task Params</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job_Queue_Task_Params_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job_Queue_Task_Params_H/</guid>
+      <description>Job Queue Task Params Use this page to: - [View Failed Jobs](../Use_Cases/View_Failed_Jobs) - [Acknowledge Failed Jobs](../Use_Cases/Acknowledge_Failed_Jobs)  To access this page:
+ Click the yellow Services icon on the Site toolbar.
+OR
+Click Admin &amp;gt; Resources &amp;gt; Jobs (Failed) in the *Navigation* pane.
+ Click the Vertical View of a Job.
+ Click the Parameters icon.
+           Field Description   JOB ID Displays the unique identifier of the failed job for which the parameters apply.</description>
+    </item>
+    
+    <item>
+      <title>Job Status Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job-Status-Type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job-Status-Type/</guid>
+      <description>Job Status Types Use this page to [Configure Job Status Types.](../Use_Cases/Configure%20Job%20Status%20Types)  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Job Status Types in the Navigation pane.
+    Field
+ Description
+  JOB ST ATUS
+ Displays the name of the job status type.
+  STATUS
+ Displays the number of the boastatus associated with the job status type.
+  DESCRIPTION</description>
+    </item>
+    
+    <item>
+      <title>Job Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job-Types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Job-Types/</guid>
+      <description>Job Types Use this page to [Set the Default Queue for a Job Type.](../Use_Cases/Set%20the%20Default%20Queue%20for%20a%20Job%20Type)  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Job Types in the Navigation pane.
+         Field Description   JOB TYPE Displays the name of the job type.   DEFAULT QUEUE Displays the type of queue that jobs of this type are processed in.</description>
+    </item>
+    
+    <item>
+      <title>Jobs (Failed) H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Jobs_Failed_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Jobs_Failed_H/</guid>
+      <description>Jobs (Failed) H Jobs (Failed) V
+Use this page to: - [View Failed Jobs](../Use_Cases/View_Failed_Jobs) - [Acknowledge Failed Jobs](../Use_Cases/Acknowledge_Failed_Jobs)  To access this page:
+Click the yellow Services icon on the Site toolbar.
+OR
+Click Admin &amp;gt; Resources &amp;gt; Jobs (Failed) in Navigation pane.
+         Field Description   JOB ID Displays the unique identifier for the failed job.   WEB APP NAME Displays the name of the WebApp in which the job is executed.</description>
+    </item>
+    
+    <item>
+      <title>Languages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Languages/</guid>
+      <description>Languages Use this page to [Set a Language As Active](../Use_Cases/Set_a_Language_as_Active) and [Merge a Language](../Use_Cases/Merge%20a%20Language).  To access this page, select Admin &amp;gt; Translations &amp;gt; Languages in the *Navigation* pane.
+         Field Description   LANGUAGE Displays the language name in English.   NATIVE NAME Displays the LANGUAGE name in the native language   CODE Displays the two-letter locale code for the corresponding LANGUAGE name.</description>
+    </item>
+    
+    <item>
+      <title>Layout Frames</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Layout-Frames/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Layout-Frames/</guid>
+      <description>Layout Frames Use this page to[:](../../WebApp_Dev/Create_Header_Detail_Pages) - [Create a Header Detail Page](../../WebApp_Dev/Create_Header_Detail_Pages) - [Create a Dashboard](../../WebApp_Dev/Create_a_Dashboard)  NOTE: Different columns display on this page depending on how it is accessed.
+To access this page:
+ Click WebApps in the Navigation pane. Click the Pages icon for a WebApp. Click Vertical View for a page with the page type of Header Detail. Click the Frames icon.  OR
+ Click Configuration &amp;gt; Layouts in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Layouts</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Layouts/</guid>
+      <description>Layouts Use this page to: - [Add Layouts](../../WebApp_Dev/Add%20Layouts) - [Copy a Layout](../../WebApp_Dev/Copy%20a%20Layout)  To access this page select Admin &amp;gt; Configuration &amp;gt; Layouts from the Navigation pane.
+OR
+While creating a dashboard, click the + icon in the Layout ID field on the Vertical View of the Pages page.
+    Field
+ Description
+    Copy
+ Click to copy the layout.
+  DESCRIPTION</description>
+    </item>
+    
+    <item>
+      <title>Link Customization</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/LinkCustomization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/LinkCustomization/</guid>
+      <description>Link Customization Link Customization V
+Use this page to [Add Custom Links to a Page.](../Use_Cases/Add_a_Custom_Link)  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization from the Navigation pane. Click the Custom Links icon for a WEB APP NAME.    Field
+ Description
+  PAGE ID
+ Displays the name of the page that will contain the custom link.
+  COLUMN NAME</description>
+    </item>
+    
+    <item>
+      <title>Locales</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Locales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Locales/</guid>
+      <description>Locales Use this page to [Detect Locales](../Use_Cases/Detect%20Locales).  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Locales in the Navigation pane.
+         Field Description   Detect Locales Click to check the browser settings for the current user&amp;rsquo;s locale if that locale is not installed in the DSP®.   LCID Displays the system-generated unique ID for the locale.</description>
+    </item>
+    
+    <item>
+      <title>Log Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Log-Types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Log-Types/</guid>
+      <description>Log Types Use this page to [configure log type settings](../Use_Cases/Configure%20Log%20Type%20Settings).  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Log Types in the Navigation pane.
+    Field
+ Description
+  LOG TYPE
+ Displays the type of log.
+  DESCRIPTION
+ Displays a description of the types of records written to the log.
+  RETENTION DAYS
+ Displays the number of days the log is retained.</description>
+    </item>
+    
+    <item>
+      <title>Menu Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Menu-Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Menu-Links/</guid>
+      <description>Menu Links Use this page to [add a menu to the Navigation pane](../../WebApp_Dev/Add_a_Menu_to_the_Navigation_Pane).  To access this page:
+ Select Admin &amp;gt; WebApps from the Navigation pane. Click Menus. Click Menu Links.    Field
+ Description
+  PRIORITY
+ Displays the priority of the menu link, which determines the order of the links from top to bottom. Priority automatically sorts in an ascending order. The higher the priority, the lower an item displays in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Menus</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Menus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Menus/</guid>
+      <description>Menus Use this page to [add a menu to the Navigation pane](../../WebApp_Dev/Add_a_Menu_to_the_Navigation_Pane).  To access this page:
+ Select Admin &amp;gt; WebApps from the Navigation pane. Click Menus.           Field Description   MENU NAME Displays the main menu name.   Menu Links Click to open the menu links page to add a link to the main menu and add submenu options for the main menu.</description>
+    </item>
+    
+    <item>
+      <title>Message Types H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Message-Types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Message-Types/</guid>
+      <description>Message Types H Message Types V
+Use this page to [Add a Message Type.](../Use_Cases/Add%20a%20Message%20Type)  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Message Types.
+    Field
+ Description
+  Test
+ Click to view a sample of the selected message as it displays in the DSP®.
+  Copy
+ Click to copy the message to use as the basis for a new message.</description>
+    </item>
+    
+    <item>
+      <title>Page (Chart Properties)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Chart-Properties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Chart-Properties/</guid>
+      <description>Page (Chart Properties) Use this page to [Modify a Chart](../../WebApp_Dev/Modify_Chart_Properties).  To access this page:
+ Click Admin &amp;gt; WebApps on the Navigation pane. Click the Pages icon for a WebApp. Click Vertical View for a page with a page type of Chart. Click the Chart Properties button.  Field
+Description
+Display Properties
+Stacked Type
+Displays the stacked chart as either normal or percentage. Values are:
+ Normal - Displays the total sum of each chart value in relation to the total sum of all values.</description>
+    </item>
+    
+    <item>
+      <title>Page Business Rules H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Business_Rules_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Business_Rules_H/</guid>
+      <description>Page Business Rules H Page Business Rules V
+Use this page to - [Register Workflow Views](../../../Migration/Console/Use_Cases/Create_Custom_Workflow_Messages#Register). - [Create a Stored Procedure Business Rule](../../WebApp_Dev/Create_a_Business_Rule_for_a_Field) - [Create an External Page Business Rule](../../WebApp_Dev/CreateExternalPageBusinessRule) - [Create a WebApp Event Business Rule](../../WebApp_Dev/CreateWebAppEventBusinessRule) - [Create a WebApp Event (Private) Business Rule](../../WebApp_Dev/CreateWebAppEventPrivateBusinessRule)  To access this page:
+ Select Admin &amp;gt;WebApps in the *Navigation* pane.
+ Click the Pages icon for a WEB APP NAME.
+ Click the Events icon for a page.</description>
+    </item>
+    
+    <item>
+      <title>Page Column Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Column-Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Column-Links/</guid>
+      <description>Page Column Links Use this page to [Add Binding Criteria when Linking to a Page](../../WebApp_Dev/Add%20Binding%20Criteria%20when%20Linking%20to%20a%20Page).  To access this page:
+ Navigate to the Page Columns page. Click the link in the LINK TO PAGE column.  This page contains the following tabs:
+ General Advanced Properties  General tab Field
+Description
+Data Options
+Binding Field Names
+Displays a comma-separated list of columns used to filter data on a linked page.</description>
+    </item>
+    
+    <item>
+      <title>Page Columns H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Columns_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Columns_H/</guid>
+      <description>Page Columns H Page Columns V
+Use this page to - [Configure Columns for Exporting](../Use_Cases/Exclude%20Columns%20Excel%20Integration) - [Add a Control Type to a Column](../../WebApp_Dev/Add%20a%20Control%20Type%20to%20a%20Column) - [Link to a Page Using Buttons and Images](../../WebApp_Dev/Link_to_a_Page_Using_Buttons_and_Images) - [Add a Toolbar Button](../Use_Cases/Add%20a%20Toolbar%20Button) - [Set Column Control Status](../../WebApp_Dev/Set_Column_Control_Status) - [Set a Column&#39;s Format](../../WebApp_Dev/Set_a_Columns%20Format) - [Set Default Field Value for a Column](../../WebApp_Dev/Set_Default_Field_Value_for_a_Column) - [Add an HTML Area to a Column](../../WebApp_Dev/Add_an_HTML_Area_to_a_Column) - [Enable Dynamic Image](../../WebApp_Dev/Enable_Dynamic_Image) - [Add a Label](.</description>
+    </item>
+    
+    <item>
+      <title>Page Customization</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Customization/</guid>
+      <description>Page Customization Use this page to [Customize Dashboard Pages](../../WebApp_Dev/Customize_Dashboard_Pages).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in the Navigation pane.
+ Click Pages for the WEB APP NAME.
+           Field Description   Review Click to list the dashboards (by user) that are displayed on the selected page.   PAGE Displays the name of the page.</description>
+    </item>
+    
+    <item>
+      <title>Page Event Parameters H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Event_Param_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Event_Param_H/</guid>
+      <description>Page Event Parameters H Page Event Parameters V
+Use this page to [Set Parameters for a Public WebApp Event](../../WebApp_Dev/Set_Param_Public).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane.
+ Click Pages for a WEB APP NAME.
+ Click Events for a page.
+ Click Vertical View for an event.
+ Click the Advanced Properties tab.
+ Click the Parameters icon.
+NOTE: The Parameters icon is active if the Public check box is checked on the Page Events page’s Vertical View.</description>
+    </item>
+    
+    <item>
+      <title>Page Event Rule Parameters</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Event_Rule_Parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Event_Rule_Parameters/</guid>
+      <description>Page Event Rule Parameters Use this page to [Set a Parameter Value for Business Rule Parameters for a Public WebApp Event](../../WebApp_Dev/SetParameterValueBusinessRules).  To access this page:
+ Select Admin &amp;gt; WebApps in the *Navigation* pane. Click the Pages icon for a WEB APP NAME. Click the Events icon for a page. Click the Business Rules icon for an event. Click Vertical View for a Business Rule with a procedure type of WebApp Event.</description>
+    </item>
+    
+    <item>
+      <title>Page Events H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Events_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Events_H/</guid>
+      <description>Page Events H Page Events V
+Use this page to: - [Register Workflow Views](../Use_Cases/Register_Workflow_Views) - [Create an OnValidate Page Event for Bulk Execution](../Use_Cases/Create_an_OnValidate_Page_Event_for_Bulk_Execution) - [Register a Validation Rule to a Page](../../WebApp_Dev/ValidationRules) - [Create a Business Rule for a Field](../../WebApp_Dev/Create_a_Business_Rule_for_a_Field)  Refer to Event Design Process for additional information about this page.
+To access this page:
+ Select Admin &amp;gt; WebAppsin the *Navigation* pane. Click the Pages icon for a WEB APP NAME.</description>
+    </item>
+    
+    <item>
+      <title>Page Extension - By Role</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Extension_By_Role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Extension_By_Role/</guid>
+      <description>Page Extension - By Role Use this page to [Customize the Page to Display for Members of a Security Role](../Use_Cases/Customize_Pg_Display_Members_Security_Role).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in *Navigation* pane.
+ Click Pages for the WEB APP NAME.
+ Click By Role.
+           Field Description   PRIORITY Displays the priority to be used when a user is a member of multiple Roles with extensions.</description>
+    </item>
+    
+    <item>
+      <title>Page Extension - By User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Extension_By_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Extension_By_User/</guid>
+      <description>Page Extension - By User Use this page to [Customize the Page to Display for Individual Users](../Use_Cases/Customize_Page_Display_Individual_Users).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in *Navigation* pane.
+ Click Pages for the WEB APP NAME.
+ Click By User.
+           Field Description   USER ID Displays the description or name of the user who will view the dashboard selected in the LAYOUT ID list box.</description>
+    </item>
+    
+    <item>
+      <title>Page Extension - Default</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Extension_Default/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Extension_Default/</guid>
+      <description>Page Extension - Default Use this page to [Customize the Page to Display for All Users](../Use_Cases/Customize_the_Page_to_Display_for_All_Users).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; WebApp Customization in Navigation pane.
+ Click Pages for the WEB APP NAME.
+ Click Default.
+  Field
+Description
+Page
+Displays the name of the page.
+General
+Layout ID
+Displays the layout ID. Allows for the selection of an alternate layout to replace the one defined for the page.</description>
+    </item>
+    
+    <item>
+      <title>Page Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Groups/</guid>
+      <description>Page Groups Use this page to [Set Page Security for WebApp Groups](../Use_Cases/Set%20Page%20Security%20for%20WebApp_Groups).  To access this page:
+ Click Admin &amp;gt; WebApps on Navigation pane.
+ Click Pages for a WEB APP NAME.
+           Field Description   GROUP ID Displays the name of the WebApp group assigned to the page..   ALLOW SELECT If enabled, members of the WebApp group can view the page and data on the page.</description>
+    </item>
+    
+    <item>
+      <title>Page Type Controls</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Type-Controls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Type-Controls/</guid>
+      <description>Page Type Controls Use this page to view the controls available for a selected page type. Refer to [View the Controls Available for a Page Type](../../WebApp_Dev/View%20the%20Controls%20Available%20For%20A%20Page%20Type) for more information.  To access this page:
+ Select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Page Types in the Navigation pane. Click the CONTROLS button.           Field Description   CONTROL Displays the controls (e.</description>
+    </item>
+    
+    <item>
+      <title>Page Types</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page-Types/</guid>
+      <description>Page Types Use this page to view page types.  To access this page, select Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Page Types in the Navigation pane.
+  Field
+ Description
+  PAGE TYPE
+ Displays the name of the page type.
+  DESCRIPTION
+ Displays a brief description of the page type.
+  LONG DESCRIPTION
+ Displays a long description of the page type.</description>
+    </item>
+    
+    <item>
+      <title>Page Validation Rules H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Validation_Rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Page_Validation_Rules/</guid>
+      <description>Page Validation Rules H Page Validation Rules V
+Use this page to [Register a Validation Rule to a Page](../../WebApp_Dev/ValidationRules).  To access this page:
+ Select Admin &amp;gt; WebApps in the *Navigation* pane. Click the Pages icon for a WEB APP NAME. Click the Events icon for a page. Click the Validation Rules icon for an event.    Field
+ Description
+  SQL
+ This icon is not used.</description>
+    </item>
+    
+    <item>
+      <title>Pages Catalog</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Pages-Catalog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Pages-Catalog/</guid>
+      <description>Pages Catalog Use this page while [adding help](../../WebApp_Dev/addDynamicHelpToAPage) or [phrase translations at the page level.](../Use_Cases/Add_Phrases_to_Catalogs)  To access this page:
+ Select Admin &amp;gt; Translations &amp;gt; WebApps in the Navigation pane. Click the Pages icon for a WEB APP NAME.    Field
+ Description
+  DESCRIPTION
+ Displays the name of the page.
+  PAGE TYPE
+ Displays the type of page, such as Dynamic, Static, or Service.</description>
+    </item>
+    
+    <item>
+      <title>Pages H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Pages_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Pages_H/</guid>
+      <description>Pages H Pages V
+Use this page to: - [Configure Business Rule Settings](../Use_Cases/Configure_Business_Rule_Settings) - [Create a Chart Page](../../WebApp_Dev/Create_a_Chart) - [Design Pages](../../WebApp_Dev/Page%20Design%20Guidelines) - [Create a Dynamic Page](../../WebApp_Dev/Register_a_Dynamic_Page) - [Assign Page Properties to a Dynamic Page](../../WebApp_Dev/Assign_Page_Properties) - [Create a Header Detail Page](../../WebApp_Dev/Create_Header_Detail_Pages) - [Create a Static Page](../../WebApp_Dev/Create%20a%20Static%20Page) - [Create a Service Page](../../WebApp_Dev/Create%20a%20Service%20Page) - [Create a Chart Page](../../WebApp_Dev/Create_a_Chart) - [Create a Dashboard Page](../../WebApp_Dev/Create_a_Dashboard) - [Create a Report Page](../../WebApp_Dev/Create%20Report%20Pages) - [Copy a Page in a WebApp](.</description>
+    </item>
+    
+    <item>
+      <title>Parameters (All Tabs)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Parameters_All_TabsSysAdmin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Parameters_All_TabsSysAdmin/</guid>
+      <description>Parameters (All Tabs) Use this page to:  Mark Target and Source Instances Configure CTS Passwords Configure Authentication Settings Configure Warning Message Timing for License Expiration   This page contains the following tabs:
+ Site Parameters tab Security Settings tab Workflow Parameters tab Timeouts tab Page Parameters tab Search Options tab Language Support tab Service Options tab Naming Conventions tab System Chart Options Logging Options  Site Parameters tab Use this tab to:</description>
+    </item>
+    
+    <item>
+      <title>Plugin Assemblies H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-Assemblies-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-Assemblies-H/</guid>
+      <description>Plugin Assemblies H Plugin Assemblies (V)
+Use this page to [Register the Plugin Assembly](../Use_Cases/Register%20Plugin%20in%20DSP#RegisterPluginAssembly).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Plugins icon for the desired WEBAPP NAME.    Field
+ Description
+  RELATIVE ASSEMBLY PATH
+ Displays the plugin assembly name relative to the UserArea\[WebAppID]\Processes folder, where UserArea is the DSP folder on the application server where all assemblies are stored and WebAppID is the GUID specific to the WebApp.</description>
+    </item>
+    
+    <item>
+      <title>Plugin Business Rules</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-Business-Rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-Business-Rules/</guid>
+      <description>Plugin Business Rules Use this page to: - [Register the Plugin as an External Page](../Use_Cases/Register%20Plugin%20in%20DSP#RegisterPluginasanExternalPage) - [View where Plugin is used within the DSP](../Use_Cases/View%20Where%20Plugin%20is%20Used)  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Plugins icon for the desired WEB APP NAME. Click the Plugins icon for the desired ASSEMBLY PATH. Click the Business Rules icon for the desired PLUGIN NAME.    Field</description>
+    </item>
+    
+    <item>
+      <title>Plugin List Data Providers</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-List-Data-Providers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-List-Data-Providers/</guid>
+      <description>Plugin List Data Providers Use this page to [View Where Plugin is Used within the DSP](../Use_Cases/View%20Where%20Plugin%20is%20Used).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Plugins icon for the desired WEBAPP NAME. Click the Plugins icon for the desired RELATIVE ASSEMBLY PATH. Click theList Data Providers icon for the desired PLUGIN NAME DESCRIPTION.           Field Description   WEB APP NAME Displays the name of the WebApp where the list data provider resides.</description>
+    </item>
+    
+    <item>
+      <title>Plugin Validation Rules</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-Validation-Rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugin-Validation-Rules/</guid>
+      <description>Plugin Validation Rules Use this page to [View Where Plugin is Used within the DSP](../Use_Cases/View%20Where%20Plugin%20is%20Used).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane.
+ Click the Plugins icon for the desired WEBAPP NAME.
+ Click the Plugins icon for the desired RELATIVE ASSEMBLY PATH.
+ Click theValidation Rules icon for the desired PLUGIN NAME DESCRIPTION.
+    Field
+ Description
+  WEB APP NAME</description>
+    </item>
+    
+    <item>
+      <title>Plugins H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugins-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Plugins-H/</guid>
+      <description>Plugins H Plugins (V)
+Use this page to [Register the Plugin Assembly](../Use_Cases/Register%20Plugin%20in%20DSP#RegisterPluginAssembly).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane. Click the Plugins icon for the desired WEBAPP NAME. Click the Plugins icon for the desired plugin ASSEMBLY.    Field
+ Description
+  PLUGIN NAME
+ Displays the unique identifier for the plugin.
+  PLUGIN TYPE
+ Displays the type of plugin.</description>
+    </item>
+    
+    <item>
+      <title>Queues</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Queues/</guid>
+      <description>Queues Use this page to [set the start and end time for queues.](../Use_Cases/Start%20Stop%20or%20Clear%20Queues)  To access this page, select Admin &amp;gt; Configuration &amp;gt; Service &amp;gt; Queues in the Navigation pane.
+         Field Description   QUEUE NAME Displays the type of queue to which jobs are assigned.   START TIME Displays the time jobs in this queue type are scheduled to start, if manually set by a user.</description>
+    </item>
+    
+    <item>
+      <title>Queues (Monitor)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Queues-Monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Queues-Monitor/</guid>
+      <description>Queues (Monitor) Use this page to: - [Start, Stop or Clear Queues](../Use_Cases/Start%20Stop%20or%20Clear%20Queues) - [Acknowledge Failed Jobs](../Use_Cases/Acknowledge_Failed_Jobs)  To access this page, select Admin &amp;gt; Resources &amp;gt; Queues in the Navigation pane.
+    Field
+ Description
+  SERVICE PROVIDER
+ Displays the name of the service that the queue is attached to.
+Installations can have multiple services installed to help split the load.
+  SERVER</description>
+    </item>
+    
+    <item>
+      <title>Quick Links H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Quick_Links_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Quick_Links_H/</guid>
+      <description>Quick Links H Quick Links V
+The available fields on the Quick Links page vary depending on how the page is accessed.
+Use this page to: - [Customize, Organize, and View Quick Links](../Use_Cases/Customize,_Organize,_and_View_Quick_Links) - [Create Quick Links by Logged in User](../Use_Cases/Create_a_Quick_Link_as_the_Logged_In_User) - [Create Quick Links by Role](../Use_Cases/Create_Quick_Links_by_Role) - [Create Quick Links by User](../Use_Cases/Create_Quick_Links_by_User)  To access this page, click Quick Links icon on Site toolbar.
+  Field
+ Description</description>
+    </item>
+    
+    <item>
+      <title>Recent Service Activity</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Recent-Service-Activity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Recent-Service-Activity/</guid>
+      <description>Recent Service Activity Use this page to view jobs that are completed in the queue selected on the *[Queues (Monitor)](Queues%20Monitor)* page.  To access this page:
+ Select Admin &amp;gt; Resources &amp;gt; Queues in the Navigation pane. Click the Log button for a queue.      Field
+ Description
+  SERVICE ID
+ Displays a unique identifier for the service in which the queue is included.</description>
+    </item>
+    
+    <item>
+      <title>Report Group Columns</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Report-Group-Columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Report-Group-Columns/</guid>
+      <description>Report Group Columns Use this page to [Add Columns to a Report](../../WebApp_Dev/Add%20Columns%20to%20a%20Report).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane.
+ Click Pages for a WebApp.
+ Click Vertical View for a dynamic or report page type.
+ Either
+For a dynamic page type, click the Report Options tab, and then click the Report Groups icon.
+Or
+For a report page type, click the Report Groups icon.</description>
+    </item>
+    
+    <item>
+      <title>Report Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Report-Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Report-Groups/</guid>
+      <description>Report Groups Use this page to [Create Report Groups](../../WebApp_Dev/Create%20Report%20Groups).  To access this page:
+ Select Admin &amp;gt; WebApps in the Navigation pane.
+ Click Pages for a WebApp.
+ Click Vertical View for a dynamic or report page type.
+ Either
+For a dynamic page type, click the Report Options tab, and then click the Report Groups icon.
+Or
+For a report page type, click the Report Groups icon.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Resources/</guid>
+      <description>Resources Use this page to: - [View Failed Jobs](../Use_Cases/View_Failed_Jobs) - [View Resource Charts in System Administration](../Use_Cases/View_Resource_Charts_in_SystemAdmin)  To access this page, click Admin &amp;gt; Resources &amp;gt; Monitor in the Navigation pane.
+  Field
+ Description
+  RESOURCE TYPE
+ Displays the resource type of the job. The options are:
+ Background Event – The background service controls job queue. General – The job is on General queue. Index – The job is on Index queue.</description>
+    </item>
+    
+    <item>
+      <title>Role Key Values</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Role_Key_Values/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Role_Key_Values/</guid>
+      <description>Role Key Values Use this page to [Assign Keys to Security Role](../Use_Cases/Assign_Keys_to_Security_Role).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+ From the *Security Roles* page, click KEYS button for NAME; all security definitions for the role displays.
+ Click Key for a DESCRIPTION.
+           Field Description   SECURITY DEFINITION KEY ID Displays key used to restrict user access to the security definition.</description>
+    </item>
+    
+    <item>
+      <title>Role Users</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Role_Users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Role_Users/</guid>
+      <description>Role Users Use this page to [Assign Users to Security Roles](../Use_Cases/Assign_Users_to_Security_Roles.htm).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+ From the *Security Roles* page, click Users for NAME.
+           Field Description   Add Users Click to make all selected users a member of the role.   Remove Users Click to remove access for all selected users from the role.</description>
+    </item>
+    
+    <item>
+      <title>Security Definition Keys</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definition_Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definition_Keys/</guid>
+      <description>Security Definition Keys Use this page to [Register Security Definitions](../Use_Cases/Register_Security_Definition).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Definitions in the Navigation pane.
+ Click Keys button to define key columns within the DATA VIEW that contain values by which security can be administered.
+           Field Description   COLUMN NAME Displays name of the column from the web*Sec view whose values are used to restrict user access through Role Security.</description>
+    </item>
+    
+    <item>
+      <title>Security Definition Page Column Bindings</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/SecurityDefPgColbindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/SecurityDefPgColbindings/</guid>
+      <description>Security Definition Page Column Bindings Use this page to [Register Security Definitions to Components (WebApps)](../Use_Cases/RegSecurityDefCompsWebApps).  To access this page:
+ Select Admin &amp;gt;WebApps in *Navigation* pane.
+ Click Pages icon for WEBAPP NAME.
+ Click Security Definitions for the page DESCRIPTION.
+ Click Bindings button to view the linking of column(s) on the page to columns defined in the security view.
+           Field Description   COLUMN NAME Displays the security definition key column.</description>
+    </item>
+    
+    <item>
+      <title>Security Definition Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definition_Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definition_Pages/</guid>
+      <description>Security Definition Pages Use this page to [Register Security Definitions to Components (WebApps)](../Use_Cases/RegSecurityDefCompsWebApps).  To access this page:
+ Select Admin &amp;gt; WebApps in the *Navigation* pane.
+ Click Pages icon for WEBAPP NAME.
+ Click Security Definitions for the page DESCRIPTION.
+           Field Description   SECURITY DEFINITION ID Displays name of the security definition.   BINDINGS Click to manage bindings between the definition and the page.</description>
+    </item>
+    
+    <item>
+      <title>Security Definitions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definitions/</guid>
+      <description>Security Definitions Use this page to [Register Security Definitions](../Use_Cases/Register_Security_Definition).  To access this page, select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Definitions in the Navigation pane.
+         Field Description   SECURITY DEFINITION NAME Displays name of the security definition. Use the naming convention WebAppName.SecViewTables.Columns.   DATA SOURCE ID Displays name of the data source where security definition is created.</description>
+    </item>
+    
+    <item>
+      <title>Security Definitions For User</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definitions_For_User/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Definitions_For_User/</guid>
+      <description>Security Definitions For User Use this page to [Establish User-Specific Security Definitions](../Use_Cases/Establish_UserSpecific_Security_Definitions).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; User Specific Security Definitions in the *Navigation* pane.
+ Click Definitions for NAME (i.e., a specific user).
+           Field Description   DESCRIPTION Displays a descriptive name for the security definition intended to supplement the Security Definition Name.</description>
+    </item>
+    
+    <item>
+      <title>Security Role Definitions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Role_Definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Role_Definitions/</guid>
+      <description>Security Role Definitions Use this page to [Assign Keys to Security Role](../Use_Cases/Assign_Keys_to_Security_Role).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+ From the *Security Roles* page, click KEYS button for NAME; all security definitions for the role displays.
+           Field Description   DESCRIPTION Displays a description of the role, intended to supplement the Role Name by indicating how the Role is used.</description>
+    </item>
+    
+    <item>
+      <title>Security Role WebApp Groups</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Role_WebApp_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Role_WebApp_Groups/</guid>
+      <description>Security Role WebApp Groups Use this page to [Assign WebApp Groups to Security Role](../Use_Cases/Assign_WebApp_Groups_to_Security_Role).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+ From the *Security Roles* page, click WEBAPP GROUPS for NAME.
+           Field Description   WEB APP ID Displays name of the WebApp (Component) where security definition is applied.</description>
+    </item>
+    
+    <item>
+      <title>Security Roles</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Roles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security_Roles/</guid>
+      <description>Security Roles Use this page to [Create Security Roles](../Use_Cases/Create_Security_Roles).  To access this page, select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; Security Roles in the Navigation pane.
+         Field Description   NAME Displays name of role. Use the naming convention WebAppName.IntendedRoleUse   DESCRIPTION Displays a description of the role, intended to supplement the Role Name by indicating how the Role is used.</description>
+    </item>
+    
+    <item>
+      <title>Security: Users Summary</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security-Users-Summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Security-Users-Summary/</guid>
+      <description>Security: Users Summary Use this page to view a list of the number of successful logins for all users currently logged in to the DSP site.  To access this page, select Admin &amp;gt; Security in the Navigation pane.
+  Field
+ Description
+  USER ID
+ Displays the ID associated with user used to log in to the DSP site.
+  NAME
+ Displays the name of user associated with the User ID.</description>
+    </item>
+    
+    <item>
+      <title>Service Pages</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Pages/</guid>
+      <description>Service Pages Use this page to [Stop and Start Service Pages](../Use_Cases/Stop_and_Start_Service_Pages).  To access this page, select Admin &amp;gt; Resources &amp;gt; Service Pages in the *Navigation* pane.
+         Field Description   WEB APP Displays the name of the WEB APP.   PAGE Displays the name of the service page.   ACTIVE If enabled, the service page will run. If disabled, the service page will not run, but can be activated for use at a later time.</description>
+    </item>
+    
+    <item>
+      <title>Service Providers</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service-Providers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service-Providers/</guid>
+      <description>Service Providers Use this page to view service provider information.  To access this page select Admin &amp;gt; Configuration &amp;gt; Service &amp;gt; Service Providers from the Navigation pane.
+         Field Description   SERVICE NAME Displays the service name.   SERVER NAME Displays the server name.   MAXIMUM THREADS Displays the maximum number of threads for the service.   POLLING INTERVAL Displays the polling interval for the service.</description>
+    </item>
+    
+    <item>
+      <title>Service Queues</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service-Queues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service-Queues/</guid>
+      <description>Service Queues Use this page to:[Add a service queue](../Use_Cases/Add%20a%20Service%20Queue) or update service queue settings.  To access this page select Admin &amp;gt; Configuration &amp;gt; Service &amp;gt; Service Providers &amp;gt; Queues from the Navigation pane.
+    Field
+ Description
+  PRIORITY
+ Displays the priority of the queue, which sets the display order on the page.
+  QUEUE ID
+ Displays the queue ID. Values are:</description>
+    </item>
+    
+    <item>
+      <title>Service: Average Job Wait Time (Past Hours)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Average_Job_Wait_Time_Past_Hours/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Average_Job_Wait_Time_Past_Hours/</guid>
+      <description>Service: Average Job Wait Time (Past Hours) This chart displays the average time, in seconds, a job has been waiting. Common reasons a job may wait is because it is either behind another job that should be running or it is behind a job that is stuck.
+Jobs are grouped by resource type:
+ Background Event – The background service controls the job queue General – The job is on the General queue Index – The job is on the Index queue Service Page – The associated Service page controls the job queue  Hover a cursor over a chart section to view the average wait time for a job type.</description>
+    </item>
+    
+    <item>
+      <title>Service: Longest Jobs (Hourly)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Longest_Jobs_Hourly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Longest_Jobs_Hourly/</guid>
+      <description>Service: Longest Jobs (Hourly) This chart lists the Service pages that take the longest to run each hour. This chart is helpful to monitor potential Service pages issues.
+Refer to View Resource Charts in System Administration for more information about chart features and the data that displays on charts.
+To access this chart in System Administration, click Resources in the Navigation pane.</description>
+    </item>
+    
+    <item>
+      <title>Service: Queue Health (Hourly)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Queue_Health_Hourly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Queue_Health_Hourly/</guid>
+      <description>Service: Queue Health (Hourly) This chart displays the percentage of jobs in a given queue that contain errors. This chart is helpful to monitor the health of specific jobs, which are grouped by resource type:
+ Background Event – The background service controls the job queue General – The job is on the General queue Index – The job is on the Index queue Service Page – The associated Service page controls the job queue  Hover a cursor over a chart data point to view details of that page, including the error rate, and date and time the job type ran.</description>
+    </item>
+    
+    <item>
+      <title>Service: Resources</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Service_Resources/</guid>
+      <description>Service: Resources This chart displays a copy of the Resources page, which provides details on the jobs that are processing, have completed, have failed and are queued up to be executed. Jobs are grouped by resource type:
+ Background Event – The background service controls the job queue General – The job is on the General queue Index – The job is on the Index queue Service Page – The associated Service page controls the job queue  Click each icon to view jobs in each status for processing, completed, failed, queued and all jobs.</description>
+    </item>
+    
+    <item>
+      <title>Site Customization</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site_Customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site_Customization/</guid>
+      <description>Site Customization Use this page to: - [Create Quick Links by Role](../Use_Cases/Create_Quick_Links_by_Role) - [Create Quick Links by User](../Use_Cases/Create_Quick_Links_by_User)  To access this page, select Admin &amp;gt; Customization &amp;gt; Site Customization in *Navigation* pane.
+Field
+Description
+Quick Links
+By Role
+Click to open the *Site Customization Role Quick Links* page to create quick links by security role.
+By User
+Click to open the *Site Customization User Quick Links*page to create quick links by user.</description>
+    </item>
+    
+    <item>
+      <title>Site Customization Role Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site_Customization_Role_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site_Customization_Role_Quick_Links/</guid>
+      <description>Site Customization Role Quick Links Use this page to [Create Quick Links by Role](../Use_Cases/Create_Quick_Links_by_Role).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; Site Customization in the *Navigation* pane.
+ Click By Role.
+           Field Description   NAME Displays the name of the WebApp and the security role for which the quick link is being created.   DESCRIPTION Displays a brief description of the security role for which the quick link is being created.</description>
+    </item>
+    
+    <item>
+      <title>Site Customization User Quick Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site_Customization_User_Quick_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site_Customization_User_Quick_Links/</guid>
+      <description>Site Customization User Quick Links Use this page to [Create Quick Links by User](../Use_Cases/Create_Quick_Links_by_User.htm).  To access this page:
+ Select Admin &amp;gt; Customization &amp;gt; Site Customization from *Navigation* pane.
+ Click By User.
+           Field Description   USER ID Displays the user ID for which the quick link is being created.   NAME Displays the name associated with the User ID for which the quick link is being created.</description>
+    </item>
+    
+    <item>
+      <title>Site Menu</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site-Menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Site-Menu/</guid>
+      <description>Site Menu Use this page to [add a link to the site menu.](../../WebApp_Dev/Add%20a%20link%20to%20the%20Site%20Menu)  To access this page select Admin &amp;gt; Configuration &amp;gt; Site Menu from the Navigation pane.
+  Field
+ Description
+  PRIORITY
+ Displays the priority of the site menu option. The priority controls the order in which the option appears in the site menu.
+  LABEL
+ Displays the label for the option that appears on the site menu.</description>
+    </item>
+    
+    <item>
+      <title>Status</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Status/</guid>
+      <description>Status Use this page to [View boaStatus Values.](../Use_Cases/View%20boastatus%20Values.htm)  To access this page, click Admin &amp;gt; Configuration &amp;gt; Setup &amp;gt; Status in the Navigation pane.
+  Field
+ Description
+  STATUS
+ Displays a number representing the status.
+  DESCRIPTION
+ Displays a description of the status.
+  IMAGE ID
+ Displays the name of the image. Images are added on the Images page.
+  IMAGE</description>
+    </item>
+    
+    <item>
+      <title>Stop List Words</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Stop_List_Words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Stop_List_Words/</guid>
+      <description>Stop List Words Use this page to [Create Stop Lists](../Use_Cases/Create_Stop_Lists.htm).  There are two ways to access this page.
+To access this page in Common:
+ Click Common &amp;gt; Analyze in the Navigation pane.
+ Click the Duplicates icon for a data source.
+ Click Vertical View for an object.
+ Click the Stop List icon.
+ Click the Words icon.
+  To access this page in System Administration:</description>
+    </item>
+    
+    <item>
+      <title>Stop Lists</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Stop_Lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Stop_Lists/</guid>
+      <description>Stop Lists Use this page to [Create Stop Lists](../Use_Cases/Create_Stop_Lists.htm).  This page can be accessed in two ways.
+To access the page in Common:
+ Click Common &amp;gt; Analyze in the Navigation pane.
+ Click the Duplicates icon for a data source.
+ Click Vertical View for an object.
+ Click the Stop List icon.
+  To access this page in System Administration, select Admin &amp;gt;Configuration &amp;gt; Search &amp;gt; Stop Lists in the *Navigation* pane.</description>
+    </item>
+    
+    <item>
+      <title>Styles H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Styles_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Styles_H/</guid>
+      <description>Styles H Styles V
+Use this page to [Add a Style](../Use_Cases/Add_a_Style.htm).  To access this page, select Admin &amp;gt; Configuration &amp;gt; Style &amp;gt; Styles in the Navigation pane.
+  Field
+ Description
+  Description
+ Displays the name of the style that can be applied to the site.
+NOTE: The appearance of the header, background, etc. is determined by the style setting.
+    Styles V Styles H</description>
+    </item>
+    
+    <item>
+      <title>System Log</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/System-Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/System-Log/</guid>
+      <description>System Log Use this page to [view system logs](../Use_Cases/View%20System%20Logs.htm).  To access this page, click Admin &amp;gt; Resources &amp;gt; System Logs in the Navigation pane.
+         Field Description   DESCRIPTION Displays a description of the system log page that opens when the Log icon is clicked.   LOG Click to open the Access Changes, Authentication Attempts, or System Configuration Changes system log page.</description>
+    </item>
+    
+    <item>
+      <title>System Logs</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/System-Logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/System-Logs/</guid>
+      <description>System Logs Use this page to: - [View system logs](../Use_Cases/View%20System%20Logs.htm) - [View a User’s Authentications, Property Changes and Access Changes](../Use_Cases/View%20a%20Users%20Auths%20Property%20Access%20Changes.htm)  To access this page:
+ Click Admin &amp;gt; Resources &amp;gt; System Logs in the Navigation pane. Click the Log icon to view the Access Changes, Authentication Attempts, or System Configuration Changes log.  OR
+ Click Admin &amp;gt; Security &amp;gt; Users in the Navigation pane. Click Vertical View for a user.</description>
+    </item>
+    
+    <item>
+      <title>User Group List</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Group_List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Group_List/</guid>
+      <description>User Group List Use this page to [View the WebApp Groups and Pages that a User can Access](../Use_Cases/View_the_WebApp_Groups_and_WebApp_Pages_that_a_User_can_Access.htm).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.
+ Click the Groups icon.
+           Field Description   WEB APP NAME Displays the name of the WebApp.   GROUP NAME Displays the name of the WebApp group.</description>
+    </item>
+    
+    <item>
+      <title>User History Log</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/User-History-Log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/User-History-Log/</guid>
+      <description>User History Log Use this page to [View a User’s Authentications, Property Changes and Access Changes.](../Use_Cases/View%20a%20Users%20Auths%20Property%20Access%20Changes.htm)  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane. Click Vertical View for a user. Click the View History icon.           Field Description   USER ID Displays the user’s ID.   NAME Displays the user’s name.</description>
+    </item>
+    
+    <item>
+      <title>User Security Definition Summary</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Security_Definition_Summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Security_Definition_Summary/</guid>
+      <description>User Security Definition Summary Use this page to [View a User’s Assigned Security Definitions](../Use_Cases/View_a_Users_Assigned_Security_Definitions.htm).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Users in the Navigation pane.
+ Click the Security Definitions icon.
+    Field
+ Description
+  SECURITY DEFINITION NAME
+ Displays name of the security definition.
+  ROLE NAME
+ Displays the name of the security role associated with the security definition that the user is assigned to.</description>
+    </item>
+    
+    <item>
+      <title>User Specific Keys</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Specific_Keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Specific_Keys/</guid>
+      <description>User Specific Keys Use this page to [Establish User Specific Security Definitions](../Use_Cases/Establish_UserSpecific_Security_Definitions.htm).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; Security Definitions &amp;gt; User Specific Security Definitions in *Navigation* pane. Click Definitions for NAME (i.e, a specific user). Click Keys for a SECURITY DEFINITION NAME.           Field Description   SECURITY DEFINITION KEY ID Displays a key used to restrict user access.</description>
+    </item>
+    
+    <item>
+      <title>User Specific Security Definitions</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Specific_Security_Definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/User_Specific_Security_Definitions/</guid>
+      <description>User Specific Security Definitions Use this page to [Establish User-Specific Security Definitions](../Use_Cases/Establish_UserSpecific_Security_Definitions.htm).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; Security Definitions &amp;gt; User Specific Security Definitions in *Navigation* pane.
+ Click Definitionsfor NAME (i.e., a specific user).
+           Field Description   USERID Displays the userid of the user for whom specific Security Definition Key Values are applied.</description>
+    </item>
+    
+    <item>
+      <title>Users (Current)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Users-Current/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Users-Current/</guid>
+      <description>Users (Current) Use this page to view a list of users currently logged in to the DSP®.  To access this page, select Admin &amp;gt; Resources &amp;gt; Users (Current) in the Navigation pane.
+         Field Description   USER ID Displays the ID of the active user.   NAME Displays the name of the active user.   LAST ACCESSED Displays the date and time the current session began.</description>
+    </item>
+    
+    <item>
+      <title>Users (Locked)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Users-Locked/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Users-Locked/</guid>
+      <description>Users (Locked) Use this page to [Unlock User Accounts](../Use_Cases/Unlock%20User%20Accounts.htm).  To access this page, select Security &amp;gt; Users (Locked) in the Navigation pane.
+         Field Description   Unlock Click to unlock the selected user account, allowing the user to log in.   USER ID Displays the user ID of the locked user.   NAME Displays the name of the locked user.</description>
+    </item>
+    
+    <item>
+      <title>Users H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Users_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Users_H/</guid>
+      <description>Users H Users V
+Use this page to [Create User Accounts](../Use_Cases/Create_User_Accounts_in_System_Administration.htm).  NOTE: Bulk Execution has been enabled on this page. See the Bulk Execution topic in System Administration for more information.
+NOTE: Excel Integration has been enabled on this page. Refer to Use Excel Integration and the Knowledge Base article Use Excel Integration to Create or Update Multiple User Accounts for more information.
+To access this page, select Admin &amp;gt; Security &amp;gt; Users in the *Navigation* pane.</description>
+    </item>
+    
+    <item>
+      <title>WebApp (Users)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Users/</guid>
+      <description>WebApp (Users) Use this page to: - [Assign Users to a WebApp for Custom Application Development/Customizations](../Use_Cases/AssignUsersWebAppCustomAppDev.htm) - [Grant Users Access to Post Monitor Group in Integrate](../Use_Cases/Grant_Users_Access_to_Post_Monitor_Group_in_Integrate_in_System_Administration.htm) - [Assign Users to WebApp Groups](../Use_Cases/Assign_Users_to_WebApp_Groups.htm)  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; WebApp Security in the Navigation pane. Click the Users icon for the WebApp.           Field Description   USER ID Displays ID associated with the user used to log in to the Platform.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Catalogs H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Catalogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Catalogs/</guid>
+      <description>WebApp Catalogs H WebApp Catalogs V
+Use this page to [Assign a Catalog to a Custom WebApp](../Use_Cases/Assign%20a%20Catalog%20to%20a%20Custom%20Webapp.htm).  To access this page:
+ Select Admin &amp;gt; WebApps on the *Navigation* pane.
+ Click Catalogs for a WEB APP NAME.
+           Field Description   PRIORITY Displays the priority of catalogs registered to a webapp.   CATALOG ID Displays the catalog to use for translations and help for pages in this webapp.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Customization</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Customization/</guid>
+      <description>WebApp Customization Use this page to: - [Add a Catalog to a Delivered WebApp](../Use_Cases/Add%20a%20Catalog%20to%20a%20Delivered%20WebApp.htm) - [Add Custom Links to a Page](../Use_Cases/Add_a_Custom_Link.htm) - [Customize Dashboard Pages](../../WebApp_Dev/Customize_Dashboard_Pages.htm)  To access this page, select Admin &amp;gt; Customization &amp;gt; WebApp Customization in the Navigation pane.
+         Field Description   WEB APP NAME Displays the WebApp name where customizations are made.   Catalogs Click to open the Catalog Extension page to add, edit and delete catalogs for custom WebApps.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Group Users</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Group_Users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Group_Users/</guid>
+      <description>WebApp Group Users Use this page to [Assign Users to WebApp Groups](../Use_Cases/Assign_Users_to_WebApp_Groups.htm).  To access this page:
+ Select to Admin &amp;gt;Security &amp;gt; WebApp Security in the *Navigation* pane.
+ Click Groups for a WEB APP NAME.
+ Click Users.
+           Field Description   USER ID Displays ID associated with the user used to log in to the Platform.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Groups H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Groups_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Groups_H/</guid>
+      <description>WebApp Groups H WebApp Groups V
+Use this page to [Create WebApp Groups using the WebApp Groups Page](../Use_Cases/Create_WebApp_Groups_using_the_WebApp_Groups_page.htm).  To access this page:
+ Select Admin &amp;gt; Security &amp;gt; WebApp Security in the *Navigation* pane.
+ Click Groups for a WEB APP NAME.
+           Field Description   WEB APP NAME Displays name of the WebApp to which the security group belongs.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Security</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Security/</guid>
+      <description>WebApp Security Use this page to [Assign Users to a WebApp for Custom Application Development/Customizations](../Use_Cases/AssignUsersWebAppCustomAppDev.htm).  To access this page:
+ Select Admin &amp;gt;Security &amp;gt; WebApp Security in the *Navigation* pane.
+ Click Users for WebApp.
+           Field Description   WEB APP NAME Displays name of the WebApp to which the security group belongs.   USERS Click to open the WebApp(Users) page to manage users assigned to the group.</description>
+    </item>
+    
+    <item>
+      <title>WebApp Users (Groups)</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Users_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApp_Users_Groups/</guid>
+      <description>WebApp Users (Groups) Use this page to - [Grant Users Access to Post Monitor Group in Integrate](../Use_Cases/Grant_Users_Access_to_Post_Monitor_Group_in_Integrate_in_System_Administration.htm). - [Assign Users to WebApp Groups](../Use_Cases/Assign_Users_to_WebApp_Groups.htm)  To access this page, select Admin &amp;gt;WebApps in the *Navigation* pane.
+         Field Description   GROUP ID Displays name of the security group where user is assigned. Authorization is determined by security groups.   USER NAME Displays name of user associated with the User ID.</description>
+    </item>
+    
+    <item>
+      <title>WebApps H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApps_H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/WebApps_H/</guid>
+      <description>WebApps H WebApps V
+Use this page to [Create a WebApp](../../WebApp_Dev/Create_a_WebApp.htm).  To access this page, select Admin &amp;gt; WebApps in the *Navigation* pane.
+         Field Description   WEB APP NAME Displays the name of the WebApp.   DATA SOURCE ID Displays the name of the WebApp’s data source, a database.   Pages Click to open the Pages page for the selected WEB APP NAME.</description>
+    </item>
+    
+    <item>
+      <title>Workflow Links</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Workflow_Links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Workflow_Links/</guid>
+      <description>Workflow Links Use this page to [Configure Workflow Links](../Use_Cases/Configure_Workflow_Links.htm).  To access this page:
+ Select Admin &amp;gt;WebApps in the Navigation pane.
+ Click Pages for a WEB APP NAME.
+ Click Events for a DESCRIPTION.
+ Click Business Rules for an EVENT.
+ Click Vertical View for a business rule with a PROCEDURE TYPE of Workflow.
+ Click Workflow Links button.
+           Field Description   LINK Displays the link text that appears in the workflow.</description>
+    </item>
+    
+    <item>
+      <title>Workflow Log H</title>
+      <link>https://heathercloward.github.io/Sys_Admin/Page_Desc/Workflow-Log-H/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heathercloward.github.io/Sys_Admin/Page_Desc/Workflow-Log-H/</guid>
+      <description>Workflow Log H Workflow Log V
+Use this page to [View the Workflow Log](../Use_Cases/View%20the%20Workflow%20Log.htm).  To access this page, select Admin &amp;gt; Resources &amp;gt; Workflow Log.
+  Field
+ Description
+  SUBJECT
+ Displays the subject of the email.
+  TO RECIPIENTS
+ Displays the email address of the user who received the email, if the email was sent successfully.
+  ISSUED DATE
+ Displays the date and time the email was sent.</description>
+    </item>
+    
+  </channel>
+</rss>

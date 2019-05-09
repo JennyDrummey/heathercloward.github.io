@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Construct Overview on Syniti Documentation</title>
-    <link>https://heathercloward.github.io/construct/</link>
+    <link>https://heathercloward.github.io/Construct/</link>
     <description>Recent content in Construct Overview on Syniti Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://heathercloward.github.io/construct/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://heathercloward.github.io/Construct/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
